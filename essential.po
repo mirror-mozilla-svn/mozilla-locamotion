@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1434044222.000000\n"
 "X-Pootle-Path: /ro/terminology/essential.po\n"
-"X-Pootle-Revision: 81351\n"
+"X-Pootle-Revision: 81825\n"
 
 # Essential terminology list for general software localisation
 # License: GPL
