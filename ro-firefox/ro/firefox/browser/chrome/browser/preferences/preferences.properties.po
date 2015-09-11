@@ -1,0 +1,402 @@
+#. # This Source Code Form is subject to the terms of the Mozilla Public
+#. # License, v. 2.0. If a copy of the MPL was not distributed with this
+#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#. extracted from ./browser/chrome/browser/preferences/preferences.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-30 17:16+0000\n"
+"PO-Revision-Date: 2015-08-24 16:38+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1440434325.000000\n"
+"X-Pootle-Path: "
+"/ro/firefox/browser/chrome/browser/preferences/preferences.properties.po\n"
+"X-Pootle-Revision: 69532\n"
+
+#. #### Security
+#. # LOCALIZATION NOTE: phishBefore uses %S to represent the name of the provider
+#. #                    whose privacy policy must be accepted (for enabling
+#. #                    check-every-page-as-I-load-it phishing protection).
+#: phishBeforeText
+msgid ""
+"Selecting this option will send the address of web pages you are viewing to "
+"%S. To continue, please review and accept the following terms of service."
+msgstr ""
+"Selectând această opțiune veți trimite adresele paginilor web pe care le "
+"vedeți către %S. Pentru a continua, vă rugăm consultați și acceptați "
+"următorii termeni de acordare a serviciului."
+
+#. #### Fonts
+#: labelDefaultFont
+msgid "Default (%S)"
+msgstr "Implicit (%S)"
+
+#: veryLargeMinimumFontTitle
+msgid "Large minimum font size"
+msgstr "Dimensiune minimă mare a fonturilor"
+
+#: veryLargeMinimumFontWarning
+msgid ""
+"You have selected a very large minimum font size (more than 24 pixels). This "
+"may make it difficult or impossible to use some important configuration "
+"pages like this one."
+msgstr ""
+"Ați selectat o dimensiune minimă foarte mare a fonturilor (mai mult de 24 de "
+"pixeli). Acest lucru poate face dificilă sau imposibilă folosirea unor "
+"pagini de configurare importante precum aceasta."
+
+#: acceptVeryLargeMinimumFont
+msgid "Keep my changes anyway"
+msgstr "Păstrează-mi schimbările oricum"
+
+#. #### Permissions Manager
+#: cookiepermissionstext
+msgid ""
+"You can specify which websites are always or never allowed to use cookies.  "
+"Type the exact address of the site you want to manage and then click Block, "
+"Allow for Session, or Allow."
+msgstr ""
+"Puteți specifica ce site-uri web au sau nu au permisiunea de a folosi cookie-"
+"uri. Tastați adresa exactă a site-ului pe care doriți să-l gestionați și "
+"apoi apăsați Blochează, Permite sau Permite pentru sesiune."
+
+#: cookiepermissionstitle
+msgid "Exceptions - Cookies"
+msgstr "Excepții - Cookie-uri"
+
+#: addonspermissionstext
+msgid ""
+"You can specify which websites are allowed to install add-ons. Type the "
+"exact address of the site you want to allow and then click Allow."
+msgstr ""
+"Puteți specifica ce site-uri web au permisiunea de a instala suplimente. "
+"Tastați adresa exactă a site-ului pe care doriți să-l autorizați și apoi "
+"apăsați Permite."
+
+#: addons_permissions_title
+msgid "Allowed Sites - Add-ons Installation"
+msgstr "Site-uri autorizate - Instalare de extensii"
+
+#: popuppermissionstext
+msgid ""
+"You can specify which websites are allowed to open pop-up windows. Type the "
+"exact address of the site you want to allow and then click Allow."
+msgstr ""
+"Puteți specifica ce site-uri web au permisiunea de a deschide ferestre "
+"popup. Tastați adresa exactă a site-ului pe care doriți să-l autorizați și "
+"apoi apăsați Permite."
+
+#: popuppermissionstitle
+msgid "Allowed Sites - Pop-ups"
+msgstr "Site-uri autorizate - Ferestre popup"
+
+#: invalidURI
+msgid "Please enter a valid hostname"
+msgstr "Introduceți un nume de gazdă corect"
+
+#: invalidURITitle
+msgid "Invalid Hostname Entered"
+msgstr "Nume de gazdă incorect"
+
+#. #### Master Password
+#: pw_change2empty_in_fips_mode
+msgid ""
+"You are currently in FIPS mode. FIPS requires a non-empty Master Password."
+msgstr ""
+"Acum vă aflați în modul FIPS. Pentru FIPS este nevoie de o parolă generală "
+"nevidă."
+
+#: pw_change_failed_title
+msgid "Password Change Failed"
+msgstr "Schimbarea parolei a eșuat"
+
+#. #### Fonts
+#. # LOCALIZATION NOTE: Next two strings are for language name representations with
+#. #   and without the region.
+#. #   e.g. languageRegionCodeFormat : "French/Canada  [fr-ca]" languageCodeFormat : "French  [fr]"
+#. #   %1$S = language name, %2$S = region name, %3$S = language-region code
+#: languageRegionCodeFormat
+msgid "%1$S/%2$S  [%3$S]"
+msgstr "%1$S/%2$S   [%3$S]"
+
+#. #   %1$S = language name, %2$S = language-region code
+#: languageCodeFormat
+msgid "%1$S  [%2$S]"
+msgstr "%1$S   [%2$S]"
+
+#. #### Downloads
+#: desktopFolderName
+msgid "Desktop"
+msgstr "Spațiu de lucru"
+
+#: downloadsFolderName
+msgid "Downloads"
+msgstr "Descărcări"
+
+#: chooseDownloadFolderTitle
+msgid "Choose Download Folder:"
+msgstr "Alegeți dosarul pentru descărcat fișiere:"
+
+#. #### Applications
+#: fileEnding
+msgid "%S file"
+msgstr "Fișier %S"
+
+#: saveFile
+msgid "Save File"
+msgstr "Salvează fișierul"
+
+#. # LOCALIZATION NOTE (useApp, useDefault): %S = Application name
+#: useApp
+msgid "Use %S"
+msgstr "Folosește %S"
+
+#: useDefault
+msgid "Use %S (default)"
+msgstr "Folosește %S (implicit)"
+
+#: useOtherApp
+msgid "Use other…"
+msgstr "Folosește altceva…"
+
+#: fpTitleChooseApp
+msgid "Select Helper Application"
+msgstr "Selectați aplicația ajutătoare"
+
+#: manageApp
+msgid "Application Details…"
+msgstr "Detaliile aplicației…"
+
+#: webFeed
+msgid "Web Feed"
+msgstr "Flux web"
+
+#: videoPodcastFeed
+msgid "Video Podcast"
+msgstr "Podcast video"
+
+#: audioPodcastFeed
+msgid "Podcast"
+msgstr "Podcast"
+
+#: alwaysAsk
+msgid "Always ask"
+msgstr "Întreabă întotdeauna"
+
+#: portableDocumentFormat
+msgid "Portable Document Format (PDF)"
+msgstr "Format de document portabil (PDF)"
+
+#. # LOCALIZATION NOTE (usePluginIn):
+#. # %1$S = plugin name (for example "QuickTime Plugin-in 7.2")
+#. # %2$S = brandShortName from brand.properties (for example "Minefield")
+#: usePluginIn
+msgid "Use %S (in %S)"
+msgstr "Folosește %S (în %S)"
+
+#. # LOCALIZATION NOTE (previewInApp, addLiveBookmarksInApp): %S = brandShortName
+#: previewInApp
+msgid "Preview in %S"
+msgstr "Previzualizare în %S"
+
+#: addLiveBookmarksInApp
+msgid "Add Live Bookmarks in %S"
+msgstr "Adaugă semne actualizabile în %S"
+
+#. # LOCALIZATION NOTE (typeDescriptionWithType):
+#. # %1$S = type description (for example "Portable Document Format")
+#. # %2$S = type (for example "application/pdf")
+#: typeDescriptionWithType
+msgid "%S (%S)"
+msgstr "%S (%S)"
+
+#. #### Cookie Viewer
+#: hostColon
+msgid "Host:"
+msgstr "Gazdă:"
+
+#: domainColon
+msgid "Domain:"
+msgstr "Domeniu:"
+
+#: forSecureOnly
+msgid "Encrypted connections only"
+msgstr "Doar conexiuni criptate"
+
+#: forAnyConnection
+msgid "Any type of connection"
+msgstr "Orice tip de conexiune"
+
+#: expireAtEndOfSession
+msgid "At end of session"
+msgstr "La sfârșitul sesiunii"
+
+#: can
+msgid "Allow"
+msgstr "Permite"
+
+#: canAccessFirstParty
+msgid "Allow first party only"
+msgstr "Permiteți numai prima parte"
+
+#: canSession
+msgid "Allow for Session"
+msgstr "Permite pentru sesiune"
+
+#: cannot
+msgid "Block"
+msgstr "Blochează"
+
+#: noCookieSelected
+msgid "<no cookie selected>"
+msgstr "<niciun cookie selectat>"
+
+#: cookiesAll
+msgid "The following cookies are stored on your computer:"
+msgstr "Pe calculatorul dumneavoastră sunt stocate următoarele cookie-uri:"
+
+#: cookiesFiltered
+msgid "The following cookies match your search:"
+msgstr "Următoarele cookie-uri se potrivesc căutării dumneavoastră:"
+
+#. # LOCALIZATION NOTE (removeSelectedCookies):
+#. # Semicolon-separated list of plural forms. See:
+#. # http://developer.mozilla.org/en/docs/Localization_and_Plurals
+#. # If you need to display the number of selected elements in your language,
+#. # you can use #1 in your localization as a placeholder for the number.
+#. # For example this is the English string with numbers:   
+#. # removeSelectedCookied=Remove #1 Selected;Remove #1 Selected
+#: removeSelectedCookies
+msgid "Remove Selected;Remove Selected"
+msgstr "Elimină cel selectat;Elimină cele selectate"
+
+#. #### Offline apps
+#: offlineAppsList.height
+msgid "7em"
+msgstr "7em"
+
+#: offlineAppRemoveTitle
+msgid "Remove offline website data"
+msgstr "Șerge datele offline ale site-ului"
+
+#: offlineAppRemovePrompt
+msgid ""
+"After removing this data, %S will not be available offline.  Are you sure "
+"you want to remove this offline website?"
+msgstr ""
+"După ștergerea acestor date, %S nu va mai fi disponibil offline.  Sigur "
+"doriți să ștergeți aceste date offline ale site-ului?"
+
+#: offlineAppRemoveConfirm
+msgid "Remove offline data"
+msgstr "Șterge datele offline"
+
+#. # LOCALIZATION NOTE: The next string is for the disk usage of the
+#. # offline application
+#. #   e.g. offlineAppUsage : "50.23 MB"
+#. #   %1$S = size (in bytes or megabytes, ...)
+#. #   %2$S = unit of measure (bytes, KB, MB, ...)
+#: offlineAppUsage
+msgid "%1$S %2$S"
+msgstr "%1$S %2$S"
+
+#: offlinepermissionstext
+msgid "The following websites are not allowed to store data for offline use:"
+msgstr ""
+"Următoarele site-uri nu au permisiunea de a stoca date pentru folosire "
+"offline:"
+
+#: offlinepermissionstitle
+msgid "Offline Data"
+msgstr "Date offline"
+
+#. ####Preferences::Advanced::Network
+#. #LOCALIZATION NOTE: The next string is for the disk usage of the web content cache.
+#. #   e.g., "Your web content cache is currently using 200 MB"
+#. #   %1$S = size
+#. #   %2$S = unit (MB, KB, etc.)
+#: actualDiskCacheSize
+msgid "Your web content cache is currently using %1$S %2$S of disk space"
+msgstr ""
+"Memoria temporară pentru conținut web folosită este actualmente %1$S %2$S"
+
+#: actualDiskCacheSizeCalculated
+msgid "Calculating web content cache size…"
+msgstr "Se calculează dimensiunea memoriei cache pentru conținutul web…"
+
+#. ####Preferences::Advanced::Network
+#. #LOCALIZATION NOTE: The next string is for the disk usage of the application cache.
+#. #   e.g., "Your application cache is currently using 200 MB"
+#. #   %1$S = size
+#. #   %2$S = unit (MB, KB, etc.)
+#: actualAppCacheSize
+msgid "Your application cache is currently using %1$S %2$S of disk space"
+msgstr "Memoria temporară pentru aplicații folosită este actualmente %1$S %2$S"
+
+#: syncUnlink.title
+msgid "Do you want to unlink your device?"
+msgstr "Doriți să dezasociați dispozitivul?"
+
+#: syncUnlink.label
+msgid ""
+"This device will no longer be associated with your Sync account. All of your "
+"personal data, both on this device and in your Sync account, will remain "
+"intact."
+msgstr ""
+"Acest dispozitiv nu va mai fi asociat cu contul dumneavoastră de "
+"sincronizare. Toate datele personale, atât pe acest dispozitiv cât și în "
+"contul de sincronizare vor rămâne intacte."
+
+#: syncUnlinkConfirm.label
+msgid "Unlink"
+msgstr "Dezasociază"
+
+#. # LOCALIZATION NOTE (featureEnableRequiresRestart, featureDisableRequiresRestart, restartTitle): %S = brandShortName
+#: featureEnableRequiresRestart
+msgid "%S must restart to enable this feature."
+msgstr "%S trebuie repornit pentru a activa această funcționalitate."
+
+#: featureDisableRequiresRestart
+msgid "%S must restart to disable this feature."
+msgstr "%S trebuie repornit pentru a dezactiva această funcționalitate."
+
+#: shouldRestartTitle
+msgid "Restart %S"
+msgstr "Repornire %S"
+
+#. #### e10S
+#. # LOCALIZATION NOTE (e10sFeedbackAfterRestart): This message appears when the user
+#. # unchecks "Enable multi-process" on the "General" preferences tab.
+#: e10sFeedbackAfterRestart
+msgid ""
+"After restart, a tab will open to input.mozilla.org where you can provide us "
+"feedback about your e10s experience."
+msgstr ""
+
+#~ msgid "&Automatically install updates from desktop %S"
+#~ msgstr "Inst&alare automată a actualizărilor pentru %S desktop"
+
+#~ msgid "Verification Sent"
+#~ msgstr "Verificare trimisă"
+
+#~ msgid "A verification link has been sent to %S"
+#~ msgstr "Legătura de verificare a fost trimisă la %S"
+
+#~ msgid "Please check your email and click the link to begin syncing."
+#~ msgstr ""
+#~ "Vă rugăm verificați căsuța de email și dați clic pe legătură pentru a "
+#~ "începe sincronizarea."
+
+#~ msgid "A"
+#~ msgstr "I"

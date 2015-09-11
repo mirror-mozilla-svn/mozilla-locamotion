@@ -1,0 +1,271 @@
+#. extracted from ./browser/chrome/browser/preferences/sync.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-11 11:38+0000\n"
+"PO-Revision-Date: 2015-08-12 00:20+0000\n"
+"Last-Translator: system user <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1439338856.000000\n"
+"X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/sync.dtd.po\n"
+"X-Pootle-Revision: 49265\n"
+
+#. This Source Code Form is subject to the terms of the Mozilla Public
+#. - License, v. 2.0. If a copy of the MPL was not distributed with this
+#. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#. The page shown when not logged in...
+#: setupButton.label setupButton.accesskey
+msgid "&Set Up &syncBrand.fullName.label;"
+msgstr "&Setare &syncBrand.fullName.label;"
+
+#: weaveDesc.label
+msgid ""
+"&syncBrand.fullName.label; lets you access your history, bookmarks, "
+"passwords and open tabs across all your devices."
+msgstr ""
+"&syncBrand.fullName.label; vă permite să accesați istoricul, semnele de "
+"carte, parolele și filele deschise de pe toate dispozitivele pe care le "
+"aveți."
+
+#. The page shown when logged in...
+#. Login error feedback
+#: updatePass.label
+msgid "Update"
+msgstr "Actualizează"
+
+#: resetPass.label
+msgid "Reset"
+msgstr "Resetează"
+
+#. Manage Account
+#: manageAccount.label manageAccount.accesskey
+msgid "Ma&nage Account"
+msgstr "Gestione&ază contul"
+
+#: changePassword2.label
+msgid "Change Password…"
+msgstr "Schimbă parola…"
+
+#: myRecoveryKey.label
+msgid "My Recovery Key"
+msgstr "Cheia mea de recuperare"
+
+#: resetSync2.label
+msgid "Reset Sync…"
+msgstr "Resetează sincronizarea…"
+
+#: pairDevice.label
+msgid "Pair a Device"
+msgstr "Împerechează un dispozitiv"
+
+#: syncMy.label
+msgid "Sync My"
+msgstr "Sincronizează"
+
+#: engine.bookmarks.label engine.bookmarks.accesskey
+msgid "Book&marks"
+msgstr "Se&mne de carte"
+
+#: engine.tabs.label engine.tabs.accesskey
+msgid "&Tabs"
+msgstr "&File"
+
+#: engine.history.label engine.history.accesskey
+msgid "Histo&ry"
+msgstr "Isto&ric"
+
+#: engine.passwords.label engine.passwords.accesskey
+msgid "&Passwords"
+msgstr "&Parole"
+
+#: engine.prefs.label engine.prefs.accesskey
+msgid "Preference&s"
+msgstr "&Preferințe"
+
+#: engine.addons.label engine.addons.accesskey
+msgid "&Add-ons"
+msgstr "&Suplimente"
+
+#. Device Settings
+#: syncDeviceName.label syncDeviceName.accesskey
+msgid "Devi&ce Name:"
+msgstr "Numele &dispozitivului:"
+
+#: fxaSyncDeviceName.label
+msgid "Device Name"
+msgstr "Numele dispozitivului"
+
+#: changeSyncDeviceName.label
+msgid "Change Device Name…"
+msgstr "Schimbă numele dispozitivului…"
+
+#: cancelChangeSyncDeviceName.label
+msgid "Cancel"
+msgstr "Renunță"
+
+#: saveChangeSyncDeviceName.label
+msgid "Save"
+msgstr "Salvează"
+
+#: unlinkDevice.label
+msgid "Unlink This Device"
+msgstr "Dezasociază acest dispozitiv"
+
+#. Footer stuff
+#: prefs.tosLink.label
+msgid "Terms of Service"
+msgstr "Termenii serviciului"
+
+#: prefs.ppLink.label
+msgid "Privacy Policy"
+msgstr "Politică de confidențialitate"
+
+#. Firefox Accounts stuff
+#: fxaPrivacyNotice.link.label
+msgid "Privacy Notice"
+msgstr "Notă privind politica de confidențialitate"
+
+#: determiningAcctStatus.label
+msgid "Determining your account status…"
+msgstr "Determin starea contului dumneavoastră…"
+
+#. LOCALIZATION NOTE (signedInUnverified.beforename.label,
+#. signedInUnverified.aftername.label): these two string are used respectively
+#. before and after the account email address. Localizers can use one of them, or
+#. both, to better adapt this sentence to their language.
+#: signedInUnverified.beforename.label
+msgctxt "signedInUnverified.beforename.label"
+msgid ""
+msgstr ""
+
+#: signedInUnverified.aftername.label
+msgid "is not verified."
+msgstr "nu este verificat."
+
+#. LOCALIZATION NOTE (signedInLoginFailure.beforename.label,
+#. signedInLoginFailure.aftername.label): these two string are used respectively
+#. before and after the account email address. Localizers can use one of them, or
+#. both, to better adapt this sentence to their language.
+#: signedInLoginFailure.beforename.label
+msgid "Please sign in to reconnect"
+msgstr "Vă rugăm să vă autentificați pentru reconectare"
+
+#: signedInLoginFailure.aftername.label
+msgctxt "signedInLoginFailure.aftername.label"
+msgid ""
+msgstr ""
+
+#: notSignedIn.label
+msgid "You are not signed in."
+msgstr "Nu sunteți autentificat."
+
+#: signIn.label
+msgid "Sign in"
+msgstr "Autentificare"
+
+#: profilePicture.tooltip
+msgid "Change profile picture"
+msgstr ""
+
+#: manage.label
+msgid "Manage"
+msgstr "Gestionează"
+
+#: disconnect.label
+msgid "Disconnect…"
+msgstr "Deconectează-te…"
+
+#: verify.label
+msgid "Verify Email"
+msgstr "Verificați e-mailul"
+
+#: forget.label
+msgid "Forget this Email"
+msgstr "Uită acest e-mail"
+
+#: welcome.description
+msgid ""
+"Access your tabs, bookmarks, passwords and more wherever you use "
+"&brandShortName;."
+msgstr ""
+"Accesați filele dumneavoastră, semnele de carte, parolele și altele ori de "
+"câte ori folosiți &brandShortName;."
+
+#: welcome.signIn.label
+#, fuzzy
+msgctxt "welcome.signIn.label"
+msgid "Sign In"
+msgstr "Autentificare"
+
+#: welcome.createAccount.label
+#, fuzzy
+msgctxt "welcome.createAccount.label"
+msgid "Create Account"
+msgstr "Creare cont"
+
+#: welcome.useOldSync.label
+msgid "Using an older version of Sync?"
+msgstr "Utilizați o versiune mai veche de Sincronizare?"
+
+#: signedOut.caption
+msgid "Take your Web with you"
+msgstr ""
+
+#: signedOut.description
+msgid ""
+"Synchronize your bookmarks, history, tabs, passwords, add-ons, and "
+"preferences across all your devices."
+msgstr ""
+
+#: signedOut.accountBox.title
+msgid "Connect with a &syncBrand.fxAccount.label;"
+msgstr ""
+
+#: signedOut.accountBox.create
+#, fuzzy
+msgctxt "signedOut.accountBox.create"
+msgid "Create Account"
+msgstr "Creare cont"
+
+#: signedOut.accountBox.signin
+#, fuzzy
+msgctxt "signedOut.accountBox.signin"
+msgid "Sign In"
+msgstr "Autentificare"
+
+#: signedIn.engines.label
+msgid "Sync across all devices"
+msgstr ""
+
+#: mobilePromo.start
+msgid "Download Firefox for "
+msgstr ""
+
+#. This is a link title that links to https://www.mozilla.org/firefox/android/
+#: mobilePromo.androidLink
+msgid "Android™"
+msgstr ""
+
+#: mobilePromo.end
+msgid " to sync with your mobile device."
+msgstr ""
+
+#: androidAttribution
+msgid "Android is a trademark of Google Inc."
+msgstr ""
+
+#~ msgid "View Quota"
+#~ msgstr "Arată cota"
+
+#~ msgid "Reading &List"
+#~ msgstr "&Listă de citit"

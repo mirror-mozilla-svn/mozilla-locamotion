@@ -1,0 +1,124 @@
+#. extracted from ./browser/chrome/browser/migration/migration.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-11 11:38+0000\n"
+"PO-Revision-Date: 2015-08-12 00:20+0000\n"
+"Last-Translator: system user <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1439338841.000000\n"
+"X-Pootle-Path: /ro/firefox/browser/chrome/browser/migration/migration.dtd."
+"po\n"
+"X-Pootle-Revision: 33099\n"
+
+#. This Source Code Form is subject to the terms of the Mozilla Public
+#. - License, v. 2.0. If a copy of the MPL was not distributed with this
+#. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#: migrationWizard.title
+msgid "Import Wizard"
+msgstr "Asistent de import"
+
+#: importFrom.label
+msgid "Import Options, Bookmarks, History, Passwords and other data from:"
+msgstr "Importă opțiuni, semne de carte, istoric, parole și alte date din:"
+
+#: importFromUnix.label
+msgid "Import Preferences, Bookmarks, History, Passwords and other data from:"
+msgstr "Importă preferințe, semne de carte, istoric, parole și alte date din:"
+
+#: importFromBookmarks.label
+msgid "Import Bookmarks from:"
+msgstr "Importă semne de carte din:"
+
+#: importFromIE.label importFromIE.accesskey
+msgid "&Microsoft Internet Explorer"
+msgstr "&Microsoft Internet Explorer"
+
+#: importFromEdge.label importFromEdge.accesskey
+msgid "Microsoft &Edge"
+msgstr ""
+
+#: importFromNothing.label importFromNothing.accesskey
+msgid "&Don't import anything"
+msgstr "N&u importa nimic"
+
+#: importFromSafari.label importFromSafari.accesskey
+msgid "&Safari"
+msgstr "&Safari"
+
+#: importFromCanary.label importFromCanary.accesskey
+msgid "Chrome Ca&nary"
+msgstr ""
+
+#: importFromChrome.label importFromChrome.accesskey
+msgid "&Chrome"
+msgstr "&Chrome"
+
+#: importFromChromium.label importFromChromium.accesskey
+msgid "Chromi&um"
+msgstr ""
+
+#: importFromFirefox.label importFromFirefox.accesskey
+msgid "Firefo&x"
+msgstr "Firefo&x"
+
+#: importFrom360se.label importFrom360se.accesskey
+msgid "&360 Secure Browser"
+msgstr ""
+
+#: noMigrationSources.label
+msgid ""
+"No programs that contain bookmarks, history or password data could be found."
+msgstr ""
+"Nu s-a putut găsi niciun program care să conțină date cu semne de carte, "
+"istoric sau parole."
+
+#: importSource.title
+msgid "Import Settings and Data"
+msgstr "Importă configurații și date din"
+
+#: importItems.title
+msgid "Items to Import"
+msgstr "Elemente de importat"
+
+#: importItems.label
+msgid "Select which items to import:"
+msgstr "Alegeți care elemente vor fi importate:"
+
+#: migrating.title
+msgid "Importing…"
+msgstr "Se importă…"
+
+#: migrating.label
+msgid "The following items are currently being imported…"
+msgstr "Următoarele elemente se importă în prezent…"
+
+#: selectProfile.title
+msgid "Select Profile"
+msgstr "Alegere profil"
+
+#: selectProfile.label
+msgid "The following profiles are available to import from:"
+msgstr "Puteți importa din următoarele profiluri:"
+
+#: done.title
+msgid "Import Complete"
+msgstr "Import încheiat"
+
+#: done.label
+msgid "The following items were successfully imported:"
+msgstr "Următoarele elemente au fost importate cu succes:"
+
+#: closeSourceBrowser.label
+msgid "Please ensure the selected browser is closed before continuing."
+msgstr ""

@@ -1,0 +1,87 @@
+#. # This Source Code Form is subject to the terms of the Mozilla Public
+#. # License, v. 2.0. If a copy of the MPL was not distributed with this
+#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#. extracted from ./browser/chrome/browser/places/bookmarkProperties.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-01 10:39+0100\n"
+"PO-Revision-Date: 2014-04-01 14:58+0000\n"
+"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1396364281.000000\n"
+"X-Pootle-Path: "
+"/ro/firefox/browser/chrome/browser/places/bookmarkProperties.properties.po\n"
+"X-Pootle-Revision: 0\n"
+
+#: dialogAcceptLabelAddItem
+msgid "Add"
+msgstr "Adaugă"
+
+#: dialogAcceptLabelSaveItem
+msgctxt "dialogAcceptLabelSaveItem"
+msgid "Save"
+msgstr "Salvează"
+
+#: dialogAcceptLabelAddLivemark
+msgid "Subscribe"
+msgstr "Abonare"
+
+#: dialogAcceptLabelAddMulti
+msgid "Add Bookmarks"
+msgstr "Adaugă semne de carte"
+
+#: dialogAcceptLabelEdit
+msgctxt "dialogAcceptLabelEdit"
+msgid "Save"
+msgstr "Salvează"
+
+#: dialogTitleAddBookmark
+msgctxt "dialogTitleAddBookmark"
+msgid "New Bookmark"
+msgstr "Semn de carte nou"
+
+#: dialogTitleAddLivemark
+msgid "Subscribe with Live Bookmark"
+msgstr "Adaugă semn actualizabil"
+
+#: dialogTitleAddFolder
+msgctxt "dialogTitleAddFolder"
+msgid "New Folder"
+msgstr "Adaugă dosar"
+
+#: dialogTitleAddMulti
+msgid "New Bookmarks"
+msgstr "Semn de carte la toate filele"
+
+#: dialogTitleEdit
+msgid "Properties for \"%S\""
+msgstr "Proprietăți pentru „%S”"
+
+#: bookmarkAllTabsDefault
+msgid "[Folder Name]"
+msgstr "[Nume dosar]"
+
+#: newFolderDefault
+msgctxt "newFolderDefault"
+msgid "New Folder"
+msgstr "Dosar nou"
+
+#: newBookmarkDefault
+msgctxt "newBookmarkDefault"
+msgid "New Bookmark"
+msgstr "Semn de carte nou"
+
+#: newLivemarkDefault
+msgid "New Live Bookmark"
+msgstr "Semn actualizabil nou"

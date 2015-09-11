@@ -1,0 +1,2276 @@
+#. extracted from ./browser/chrome/browser/browser.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-11 11:38+0000\n"
+"PO-Revision-Date: 2015-08-27 14:32+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1440685923.000000\n"
+"X-Pootle-Path: /ro/firefox/browser/chrome/browser/browser.dtd.po\n"
+"X-Pootle-Revision: 71364\n"
+
+#. This will be appended to the window's title
+#. inside the private browsing mode
+#: mainWindow.titlePrivateBrowsingSuffix
+msgid "(Private Browsing)"
+msgstr "(Navigare privată)"
+
+#: appmenu.tooltip
+msgid "Open menu"
+msgstr "Deschide meniul"
+
+#: navbarOverflow.label
+msgid "More tools…"
+msgstr "Mai multe unelte…"
+
+#. Tab context menu
+#: reloadTab.label reloadTab.accesskey
+msgid "&Reload Tab"
+msgstr "&Reîncarcă fila"
+
+#: reloadAllTabs.label reloadAllTabs.accesskey
+msgctxt "reloadAllTabs.label reloadAllTabs.accesskey"
+msgid "Reload &All Tabs"
+msgstr "Reînc&arcă toate filele"
+
+#. This should indicate the
+#. direction in which tabs are closed, i.e. locales that use RTL mode should say
+#. left instead of right.
+#: closeTabsToTheEnd.label closeTabsToTheEnd.accesskey
+msgid "Close Tabs to the R&ight"
+msgstr "Închi&de filele de la dreapta"
+
+#: closeOtherTabs.label closeOtherTabs.accesskey
+msgid "Cl&ose Other Tabs"
+msgstr "Înc&hide celelalte file"
+
+#. LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
+#. used as a metaphor for expressing the fact that these tabs are "pinned" to the
+#. left edge of the tabstrip. Really we just want the string to express the idea
+#. that this is a lightweight and reversible action that keeps your tab where you
+#. can reach it easily.
+#: pinTab.label pinTab.accesskey
+msgid "&Pin Tab"
+msgstr "&Fixare filă"
+
+#: unpinTab.label unpinTab.accesskey
+msgid "Unpin Ta&b"
+msgstr "Anulează fi&xarea"
+
+#: moveToGroup.label moveToGroup.accesskey
+msgid "&Move to Group"
+msgstr "&Mută în grup"
+
+#: moveToNewGroup.label
+msgid "New Group"
+msgstr "Grup nou"
+
+#: moveToNewWindow.label moveToNewWindow.accesskey
+msgid "Move to New &Window"
+msgstr "&Mutare în fereastră nouă"
+
+#: bookmarkAllTabs.label bookmarkAllTabs.accesskey
+msgctxt "bookmarkAllTabs.label bookmarkAllTabs.accesskey"
+msgid "Bookmark All &Tabs…"
+msgstr "Pune semne de car&te la toate filele…"
+
+#: undoCloseTab.label undoCloseTab.accesskey
+msgctxt "undoCloseTab.label undoCloseTab.accesskey"
+msgid "&Undo Close Tab"
+msgstr "An&ulează închiderea filei"
+
+#: closeTab.label closeTab.accesskey
+msgid "&Close Tab"
+msgstr "În&chide fila"
+
+#: listAllTabs.label
+msgid "List all tabs"
+msgstr "Listă cu toate filele"
+
+#: tabCmd.label tabCmd.accesskey
+msgid "New &Tab"
+msgstr "&Filă nouă"
+
+#: tabCmd.commandkey
+msgid "t"
+msgstr "t"
+
+#. "Open Location" is only
+#. displayed on OS X, and only on windows that aren't main browser windows, or
+#. when there are no windows but Firefox is still running.
+#: openLocationCmd.label
+msgid "Open Location…"
+msgstr "Deschide o adresă…"
+
+#: openFileCmd.label openFileCmd.accesskey
+msgid "&Open File…"
+msgstr "Deschide &un fișier…"
+
+#: openFileCmd.commandkey
+msgctxt "openFileCmd.commandkey"
+msgid "o"
+msgstr "o"
+
+#: printSetupCmd.label printSetupCmd.accesskey
+msgid "Page Set&up…"
+msgstr "Aranjare în pa&gină…"
+
+#: printPreviewCmd.label printPreviewCmd.accesskey
+msgid "Print Pre&view"
+msgstr "Previzualizare &tipărire"
+
+#: printCmd.label printCmd.accesskey
+msgid "&Print…"
+msgstr "Ti&părește…"
+
+#: printCmd.commandkey
+msgctxt "printCmd.commandkey"
+msgid "p"
+msgstr "p"
+
+#: goOfflineCmd.label goOfflineCmd.accesskey
+msgid "Wor&k Offline"
+msgstr "Lucrea&ză offline"
+
+#: menubarCmd.label menubarCmd.accesskey
+msgid "&Menu Bar"
+msgstr "Bara &meniului"
+
+#: navbarCmd.label
+msgid "Navigation Toolbar"
+msgstr "Bară de navigare"
+
+#: personalbarCmd.label personalbarCmd.accesskey
+msgid "&Bookmarks Toolbar"
+msgstr "&Bară pentru semne de carte"
+
+#: bookmarksToolbarItem.label
+msgid "Bookmarks Toolbar Items"
+msgstr "Elemente pe bara pentru semne de carte"
+
+#: toolbarContextMenu.reloadAllTabs.label
+#: toolbarContextMenu.reloadAllTabs.accesskey
+msgctxt ""
+"toolbarContextMenu.reloadAllTabs.label toolbarContextMenu.reloadAllTabs."
+"accesskey"
+msgid "Reload &All Tabs"
+msgstr "Reînc&arcă toate filele"
+
+#: toolbarContextMenu.bookmarkAllTabs.label
+#: toolbarContextMenu.bookmarkAllTabs.accesskey
+msgctxt ""
+"toolbarContextMenu.bookmarkAllTabs.label toolbarContextMenu.bookmarkAllTabs."
+"accesskey"
+msgid "Bookmark All &Tabs…"
+msgstr "Pune semne de car&te la toate filele…"
+
+#: toolbarContextMenu.undoCloseTab.label
+#: toolbarContextMenu.undoCloseTab.accesskey
+msgctxt ""
+"toolbarContextMenu.undoCloseTab.label toolbarContextMenu.undoCloseTab."
+"accesskey"
+msgid "&Undo Close Tab"
+msgstr "An&ulează închiderea filei"
+
+#: pageSourceCmd.label pageSourceCmd.accesskey
+msgid "Page S&ource"
+msgstr "S&ursă pagină"
+
+#: pageSourceCmd.commandkey
+msgid "u"
+msgstr "u"
+
+#: pageInfoCmd.label pageInfoCmd.accesskey
+msgid "Page &Info"
+msgstr "&Informații despre pagină"
+
+#: pageInfoCmd.commandkey
+msgctxt "pageInfoCmd.commandkey"
+msgid "i"
+msgstr "i"
+
+#: mirrorTabCmd.label mirrorTabCmd.accesskey
+msgid "&Mirror Tab"
+msgstr "Duplicați fi&la"
+
+#. LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
+#. These should match what Safari and other Apple applications use on OS X Lion.
+#: enterFullScreenCmd.label enterFullScreenCmd.accesskey
+msgid "Enter &Full Screen"
+msgstr "Intrați în ec&ran complet"
+
+#: exitFullScreenCmd.label exitFullScreenCmd.accesskey
+msgid "Exit &Full Screen"
+msgstr "Ieșiți din ec&ran complet"
+
+#: fullScreenCmd.label fullScreenCmd.accesskey
+msgctxt "fullScreenCmd.label fullScreenCmd.accesskey"
+msgid "&Full Screen"
+msgstr "Ec&ran complet"
+
+#: fullScreenCmd.macCommandKey
+msgctxt "fullScreenCmd.macCommandKey"
+msgid "f"
+msgstr "f"
+
+#: showAllTabsCmd.label showAllTabsCmd.accesskey
+msgid "Show &All Tabs"
+msgstr "&Arată toate filele"
+
+#: fxaSignIn.label
+msgid "Sign in to &syncBrand.shortName.label;"
+msgstr "Conectare la &syncBrand.shortName.label;"
+
+#: fxaSignedIn.tooltip
+msgid "Open &syncBrand.shortName.label; preferences"
+msgstr ""
+
+#: fxaSignInError.label
+msgid "Reconnect to &syncBrand.shortName.label;"
+msgstr "Reconectare la &syncBrand.shortName.label;"
+
+#: syncStartPanel2.heading
+msgid "&syncBrand.shortName.label; enabled"
+msgstr "&syncBrand.shortName.label; activat"
+
+#: syncStartPanel2.subTitle
+msgid "&brandShortName; will begin syncing momentarily."
+msgstr "&brandShortName; va începe sincronizarea în câteva momente."
+
+#: syncErrorPanel.heading
+msgid "Cannot connect to &syncBrand.shortName.label;"
+msgstr "Nu mă pot conecta la &syncBrand.shortName.label;"
+
+#: syncErrorPanel.subTitle
+msgid "Please sign in to resume syncing."
+msgstr "Vă rugam autentificați-vă pentru a relua sincronizarea."
+
+#: syncErrorPanel.signInButton.label syncErrorPanel.signInButton.accesskey
+msgid "&Sign In"
+msgstr "&Autentificare"
+
+#: fullScreenMinimize.tooltip
+msgid "Minimize"
+msgstr "Minimizează"
+
+#: fullScreenRestore.tooltip
+msgid "Restore"
+msgstr "Revino"
+
+#: fullScreenClose.tooltip
+msgctxt "fullScreenClose.tooltip"
+msgid "Close"
+msgstr "Închide"
+
+#: fullScreenAutohide.label fullScreenAutohide.accesskey
+msgid "&Hide Toolbars"
+msgstr "&Ascunde barele de unelte"
+
+#: fullScreenExit.label fullScreenExit.accesskey
+msgid "Exit &Full Screen Mode"
+msgstr "Ieșiți din modul ec&ran complet"
+
+#: fullscreenExitHint2.value
+msgid "Press ESC at any time to exit."
+msgstr "Apăsați ESC oricând pentru a ieși."
+
+#: leaveDOMFullScreen.label leaveDOMFullScreen.accesskey
+msgid "Exit F&ull Screen"
+msgstr "Re&venire la ecran normal"
+
+#: closeWindow.label closeWindow.accesskey
+msgid "Close Win&dow"
+msgstr "Închi&de fereastra"
+
+#: bookmarksMenu.label bookmarksMenu.accesskey
+msgid "&Bookmarks"
+msgstr "&Semne de carte"
+
+#: bookmarkThisPageCmd.label
+msgctxt "bookmarkThisPageCmd.label"
+msgid "Bookmark This Page"
+msgstr "Pune un semn de carte la această pagină"
+
+#: editThisBookmarkCmd.label
+msgid "Edit This Bookmark"
+msgstr "Editează acest semn de carte"
+
+#: bookmarkThisPageCmd.commandkey
+msgctxt "bookmarkThisPageCmd.commandkey"
+msgid "d"
+msgstr "d"
+
+#: markPageCmd.commandkey
+msgctxt "markPageCmd.commandkey"
+msgid "l"
+msgstr "l"
+
+#. -  Use the unicode ellipsis char, \u2026,
+#. -  or use "..." if \u2026 doesn't suit traditions in your locale.
+#: findShareServices.label
+msgid "Find more Share services…"
+msgstr "Găsiți mai multe servicii de partajare…"
+
+#: sharePageCmd.label sharePageCmd.accesskey
+msgid "Share Thi&s Page"
+msgstr "Împărtășește această pag&ină"
+
+#: sharePageCmd.commandkey
+msgid "S"
+msgstr "S"
+
+#. LOCALIZATION NOTE (shareLink.accesskey): must be different than the following share access keys
+#: shareLink.label shareLink.accesskey
+msgid "S&hare This Link"
+msgstr "Împărtășește ace&st link"
+
+#: shareImage.label shareImage.accesskey
+msgid "Sha&re This Image"
+msgstr "Împă&rtășește această imagine"
+
+#: shareSelect.label shareSelect.accesskey
+msgid "Sha&re Selection"
+msgstr "Împă&rtășește selecția"
+
+#: shareVideo.label shareVideo.accesskey
+msgid "Sha&re This Video"
+msgstr "Împă&rtășește acest videoclip"
+
+#: feedsMenu.label
+msgid "Subscribe"
+msgstr "Abonare"
+
+#: subscribeToPageMenupopup.label
+msgid "Subscribe to This Page"
+msgstr "Abonare la această pagină"
+
+#: subscribeToPageMenuitem.label
+msgid "Subscribe to This Page…"
+msgstr "Abonare la această pagină…"
+
+#: addCurPagesCmd.label
+msgid "Bookmark All Tabs…"
+msgstr "Pune semne de carte la toate filele…"
+
+#: showAllBookmarks2.label
+msgid "Show All Bookmarks"
+msgstr "Arată toate semnele de carte"
+
+#: unsortedBookmarksCmd.label
+msgctxt "unsortedBookmarksCmd.label"
+msgid "Unsorted Bookmarks"
+msgstr "Semne de carte nesortate"
+
+#: bookmarksToolbarChevron.tooltip
+msgid "Show more bookmarks"
+msgstr "Arată mai multe semne de carte"
+
+#: backCmd.label
+msgid "Back"
+msgstr "Înapoi"
+
+#: backButton.tooltip
+msgid "Go back one page"
+msgstr "Mergi cu o pagină înapoi"
+
+#: forwardCmd.label
+msgid "Forward"
+msgstr "Înainte"
+
+#: forwardButton.tooltip
+msgid "Go forward one page"
+msgstr "Mergi cu o pagină înainte"
+
+#: backForwardButtonMenu.tooltip
+msgid "Right-click or pull down to show history"
+msgstr "Clic dreapta sau trageți în jos pentru a vedea istoricul"
+
+#: backForwardButtonMenuMac.tooltip
+msgid "Pull down to show history"
+msgstr "Trage în jos pentru a afișa istoricul"
+
+#: reloadCmd.label
+msgid "Reload"
+msgstr "Reîncarcă"
+
+#: reloadButton.tooltip
+msgid "Reload current page"
+msgstr "Reîncarcă pagina actuală"
+
+#: stopCmd.label
+msgid "Stop"
+msgstr "Oprește"
+
+#: stopCmd.macCommandKey
+msgid "."
+msgstr "."
+
+#: stopButton.tooltip
+msgid "Stop loading this page"
+msgstr "Oprește încărcarea acestei pagini"
+
+#: goEndCap.tooltip
+msgid "Go to the address in the Location Bar"
+msgstr "Mergi la adresa din bara adresei"
+
+#: printButton.label
+msgid "Print"
+msgstr "Tipărește"
+
+#: printButton.tooltip
+msgid "Print this page"
+msgstr "Tipărește această pagină"
+
+#: locationItem.title
+msgid "Location"
+msgstr "Adresă"
+
+#: searchItem.title
+msgid "Search"
+msgstr "Căutare"
+
+#. Toolbar items
+#: homeButton.label
+msgid "Home"
+msgstr "Acasă"
+
+#: tabGroupsButton.label
+msgid "Tab Groups"
+msgstr "Grupuri de file"
+
+#: bookmarksButton.label
+msgctxt "bookmarksButton.label"
+msgid "Bookmarks"
+msgstr "Semne de carte"
+
+#: bookmarksCmd.commandkey
+msgid "b"
+msgstr "b"
+
+#: bookmarksMenuButton.label
+msgctxt "bookmarksMenuButton.label"
+msgid "Bookmarks"
+msgstr "Semne de carte"
+
+#: bookmarksMenuButton.unsorted.label
+msgctxt "bookmarksMenuButton.unsorted.label"
+msgid "Unsorted Bookmarks"
+msgstr "Semne de carte nesortate"
+
+#: viewBookmarksSidebar2.label
+msgid "View Bookmarks Sidebar"
+msgstr "Arată bara cu semne de carte"
+
+#: viewBookmarksToolbar.label
+msgid "View Bookmarks Toolbar"
+msgstr "Arată bara cu semne de carte"
+
+#. LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
+#. -  key should not contain the letters A-F, since these are reserved
+#. -  shortcut keys on Linux.
+#: bookmarksGtkCmd.commandkey
+msgctxt "bookmarksGtkCmd.commandkey"
+msgid "o"
+msgstr "o"
+
+#: bookmarksWinCmd.commandkey
+msgctxt "bookmarksWinCmd.commandkey"
+msgid "i"
+msgstr "i"
+
+#: historyButton.label
+msgctxt "historyButton.label"
+msgid "History"
+msgstr "Istoric"
+
+#: historySidebarCmd.commandKey
+msgid "h"
+msgstr "h"
+
+#: toolsMenu.label toolsMenu.accesskey
+msgid "&Tools"
+msgstr "&Unelte"
+
+#: keywordfield.label keywordfield.accesskey
+msgid "Add a &Keyword for this Search…"
+msgstr "Adaugă un cuvânt c&heie pentru această căutare…"
+
+#: downloads.label downloads.accesskey
+msgid "&Downloads"
+msgstr "&Descărcări"
+
+#: downloads.commandkey
+msgctxt "downloads.commandkey"
+msgid "j"
+msgstr "j"
+
+#: downloadsUnix.commandkey
+msgid "y"
+msgstr "y"
+
+#: addons.label addons.accesskey
+msgid "&Add-ons"
+msgstr "&Suplimente"
+
+#: addons.commandkey
+msgctxt "addons.commandkey"
+msgid "A"
+msgstr "A"
+
+#: webapps.label webapps.accesskey
+msgid "A&pps"
+msgstr "A&plicații"
+
+#: webDeveloperMenu.label webDeveloperMenu.accesskey
+msgid "&Web Developer"
+msgstr "Dezvoltator &web"
+
+#: devToolsCmd.keycode
+msgid "VK_F12"
+msgstr "VK_F12"
+
+#: devToolsCmd.keytext
+msgid "F12"
+msgstr "F12"
+
+#: devtoolsConnect.label devtoolsConnect.accesskey
+msgid "Conn&ect…"
+msgstr "&Conectare…"
+
+#: errorConsoleCmd.label errorConsoleCmd.accesskey
+msgid "Error &Console"
+msgstr "Consolă d&e erori"
+
+#: remoteWebConsoleCmd.label
+msgid "Remote Web Console"
+msgstr "Consolă web la distanță"
+
+#: browserConsoleCmd.label browserConsoleCmd.accesskey
+msgid "&Browser Console"
+msgstr "&Consolă pentru browser"
+
+#: browserConsoleCmd.commandkey
+msgctxt "browserConsoleCmd.commandkey"
+msgid "j"
+msgstr "j"
+
+#: inspectContextMenu.label
+msgid "Inspect Element"
+msgstr "Inspectează elementul"
+
+#: inspectContextMenu.accesskey
+msgctxt "inspectContextMenu.accesskey"
+msgid "Q"
+msgstr "S"
+
+#: responsiveDesignTool.label responsiveDesignTool.accesskey
+msgid "&Responsive Design View"
+msgstr "Vizualiza&re design receptiv"
+
+#: responsiveDesignTool.commandkey
+msgctxt "responsiveDesignTool.commandkey"
+msgid "M"
+msgstr "M"
+
+#: eyedropper.label eyedropper.accesskey
+msgid "E&yedropper"
+msgstr "S&elector culoare"
+
+#. This menu item label appears
+#. -  in the Tools menu. See bug 653093.
+#. -  The Scratchpad is intended to provide a simple text editor for creating
+#. -  and evaluating bits of JavaScript code for the purposes of function
+#. -  prototyping, experimentation and convenient scripting.
+#. -
+#. -  It's quite possible that you won't have a good analogue for the word
+#. -  "Scratchpad" in your locale. You should feel free to find a close
+#. -  approximation to it or choose a word (or words) that means
+#. -  "simple discardable text editor".
+#: scratchpad.label scratchpad.accesskey
+msgid "&Scratchpad"
+msgstr "Editor Java&Script"
+
+#: scratchpad.keycode
+msgid "VK_F4"
+msgstr "VK_F4"
+
+#: scratchpad.keytext
+msgid "F4"
+msgstr "F4"
+
+#. This is the label for the
+#. -  application menu item that opens the browser toolbox UI in the Tools menu.
+#: browserToolboxMenu.label browserToolboxMenu.accesskey
+msgid "Brows&er Toolbox"
+msgstr "Trusa de unelte pentru brows&er"
+
+#: browserToolboxCmd.commandkey
+msgctxt "browserToolboxCmd.commandkey"
+msgid "i"
+msgstr "i"
+
+#. This is the label for the
+#. -  application menu item that opens the browser content toolbox UI in the Tools menu.
+#. -  This toolbox allows to debug the chrome of the content process in multiprocess builds.
+#: browserContentToolboxMenu.label browserContentToolboxMenu.accesskey
+msgid "Browser Content Toolbo&x"
+msgstr "Trusa de unelte a conținutului pentru browser"
+
+#: devToolbarCloseButton.tooltiptext
+msgid "Close Developer Toolbar"
+msgstr "Închide bara de dezvoltare"
+
+#: devToolbarMenu.label devToolbarMenu.accesskey
+msgid "De&veloper Toolbar"
+msgstr "Bara de dez&voltare"
+
+#: devAppMgrMenu.label devAppMgrMenu.accesskey
+msgid "&App Manager"
+msgstr "Gestionar &aplicații"
+
+#: webide.label webide.accesskey
+msgid "&WebIDE"
+msgstr "&WebIDE"
+
+#: webide.keycode
+msgid "VK_F8"
+msgstr "VK_F8"
+
+#: webide.keytext
+msgid "F8"
+msgstr "F8"
+
+#: devToolbar.keycode
+msgid "VK_F2"
+msgstr "VK_F2"
+
+#: devToolbar.keytext
+msgid "F2"
+msgstr "F2"
+
+#: devToolboxMenuItem.label devToolboxMenuItem.accesskey
+msgid "&Toggle Tools"
+msgstr "Ac&tivează uneltele"
+
+#: devToolboxMenuItem.keytext
+msgid "I"
+msgstr "I"
+
+#: devToolbarToolsButton.tooltip
+msgid "Toggle developer tools"
+msgstr "Activează uneltele de dezvoltare"
+
+#: devToolbarOtherToolsButton.label
+msgid "More Tools"
+msgstr "Mai multe unelte"
+
+#: getMoreDevtoolsCmd.label getMoreDevtoolsCmd.accesskey
+msgid "Get &More Tools"
+msgstr "Obțineți &mai multe unelte"
+
+#: fileMenu.label fileMenu.accesskey
+msgid "&File"
+msgstr "&Fișier"
+
+#: newNavigatorCmd.label newNavigatorCmd.accesskey
+msgid "&New Window"
+msgstr "Fereastră &nouă"
+
+#: newNavigatorCmd.key
+msgid "N"
+msgstr "N"
+
+#: newPrivateWindow.label newPrivateWindow.accesskey
+msgid "New Private &Window"
+msgstr "Fereastră fără ur&me nouă"
+
+#: newNonRemoteWindow.label
+msgid "New Non-e10s Window"
+msgstr ""
+
+#: editMenu.label editMenu.accesskey
+msgid "&Edit"
+msgstr "&Editare"
+
+#: undoCmd.label undoCmd.accesskey
+msgid "&Undo"
+msgstr "An&ulează"
+
+#: undoCmd.key
+msgid "Z"
+msgstr "Z"
+
+#: redoCmd.label redoCmd.accesskey
+msgid "&Redo"
+msgstr "&Refă"
+
+#: redoCmd.key
+msgctxt "redoCmd.key"
+msgid "Y"
+msgstr "Y"
+
+#: cutCmd.label cutCmd.accesskey
+msgid "Cu&t"
+msgstr "&Taie"
+
+#: cutCmd.key
+msgctxt "cutCmd.key"
+msgid "X"
+msgstr "X"
+
+#: copyCmd.label copyCmd.accesskey
+msgid "&Copy"
+msgstr "&Copiază"
+
+#: copyCmd.key
+msgid "C"
+msgstr "C"
+
+#: pasteCmd.label pasteCmd.accesskey
+msgid "&Paste"
+msgstr "Li&pește"
+
+#: pasteCmd.key
+msgid "V"
+msgstr "V"
+
+#: deleteCmd.label deleteCmd.accesskey
+msgid "&Delete"
+msgstr "Ște&rge"
+
+#: deleteCmd.key
+msgctxt "deleteCmd.key"
+msgid "D"
+msgstr "D"
+
+#: selectAllCmd.label selectAllCmd.accesskey
+msgid "Select &All"
+msgstr "Selecte&ază tot"
+
+#: selectAllCmd.key
+msgctxt "selectAllCmd.key"
+msgid "A"
+msgstr "A"
+
+#: preferencesCmd2.label preferencesCmd2.accesskey
+msgid "&Options"
+msgstr "&Opțiuni"
+
+#: preferencesCmdUnix.label preferencesCmdUnix.accesskey
+msgid "Prefere&nces"
+msgstr "Preferi&nțe"
+
+#: clearRecentHistory.label
+msgctxt "clearRecentHistory.label"
+msgid "Clear Recent History…"
+msgstr "Curăță istoricul recent…"
+
+#: privateBrowsingCmd.commandkey
+msgctxt "privateBrowsingCmd.commandkey"
+msgid "P"
+msgstr "P"
+
+#: viewMenu.label viewMenu.accesskey
+msgid "&View"
+msgstr "&Vizualizare"
+
+#: viewTabGroups.label viewTabGroups.accesskey
+msgid "Tab &Groups"
+msgstr "&Grupuri de file"
+
+#: viewToolbarsMenu.label viewToolbarsMenu.accesskey
+msgid "&Toolbars"
+msgstr "&Bare de unelte"
+
+#: viewSidebarMenu.label viewSidebarMenu.accesskey
+msgid "Sid&ebar"
+msgstr "Bară &laterală"
+
+#: viewCustomizeToolbar.label viewCustomizeToolbar.accesskey
+msgid "&Customize…"
+msgstr "&Personalizează…"
+
+#: historyMenu.label historyMenu.accesskey
+msgid "Hi&story"
+msgstr "&Istoric"
+
+#: historyUndoMenu.label
+msgid "Recently Closed Tabs"
+msgstr "File închise recent"
+
+#. LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759
+#: historyUndoWindowMenu.label
+msgid "Recently Closed Windows"
+msgstr "Ferestre închise recent"
+
+#: historyRestoreLastSession.label
+msgctxt "historyRestoreLastSession.label"
+msgid "Restore Previous Session"
+msgstr "Restaurează sesiunea anterioară"
+
+#: showAllHistoryCmd2.label
+msgctxt "showAllHistoryCmd2.label"
+msgid "Show All History"
+msgstr "Arată tot istoricul"
+
+#: showAllHistoryCmd.commandkey
+msgid "H"
+msgstr "H"
+
+#: appMenuCustomize.label
+msgid "Customize"
+msgstr "Personalizare"
+
+#: appMenuCustomize.tooltip
+msgid "Customize the Menu and Toolbars"
+msgstr "Personalizează meniul și bara de unelte"
+
+#: appMenuCustomizeExit.label
+msgid "Exit Customize"
+msgstr "Ieșire din personalizare"
+
+#: appMenuCustomizeExit.tooltip
+msgid "Finish Customizing"
+msgstr "Finalizează personalizarea"
+
+#: appMenuHistory.label
+msgctxt "appMenuHistory.label"
+msgid "History"
+msgstr "Istoric"
+
+#: appMenuHistory.showAll.label
+msgctxt "appMenuHistory.showAll.label"
+msgid "Show All History"
+msgstr "Arată tot istoricul"
+
+#: appMenuHistory.clearRecent.label
+msgctxt "appMenuHistory.clearRecent.label"
+msgid "Clear Recent History…"
+msgstr "Curăță istoricul recent…"
+
+#: appMenuHistory.restoreSession.label
+msgctxt "appMenuHistory.restoreSession.label"
+msgid "Restore Previous Session"
+msgstr "Restaurează sesiunea anterioară"
+
+#: appMenuHistory.viewSidebar.label
+msgid "View History Sidebar"
+msgstr "Vezi bara laterală cu istoricul"
+
+#: appMenuHelp.tooltip
+msgid "Open Help Menu"
+msgstr "Deschide meniul Ajutor"
+
+#: customizeMenu.addToToolbar.label customizeMenu.addToToolbar.accesskey
+msgid "&Add to Toolbar"
+msgstr "&Adaugă la bara de unelte"
+
+#: customizeMenu.addToPanel.label customizeMenu.addToPanel.accesskey
+msgid "Add to &Menu"
+msgstr "Adaugă la &Meniu"
+
+#: customizeMenu.moveToToolbar.label customizeMenu.moveToToolbar.accesskey
+msgid "M&ove to Toolbar"
+msgstr "M&ută în bara de unelte"
+
+#. LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
+#. same context menu as menubarCmd and personalbarCmd, so they should have
+#. different access keys. customizeMenu.moveToToolbar and
+#. customizeMenu.moveToPanel are mutually exclusive, so can share access
+#. keys.
+#: customizeMenu.moveToPanel.label customizeMenu.moveToPanel.accesskey
+msgid "M&ove to Menu"
+msgstr "M&ută în meniu"
+
+#: customizeMenu.removeFromToolbar.label
+#: customizeMenu.removeFromToolbar.accesskey
+msgid "&Remove from Toolbar"
+msgstr "Ște&rge din bara de unelte"
+
+#: customizeMenu.removeFromMenu.label customizeMenu.removeFromMenu.accesskey
+msgid "&Remove from Menu"
+msgstr "Ște&rge din meniu"
+
+#: customizeMenu.addMoreItems.label customizeMenu.addMoreItems.accesskey
+msgid "&Add More Items…"
+msgstr "&Adaugă mai multe elemente…"
+
+#: openCmd.commandkey
+msgctxt "openCmd.commandkey"
+msgid "l"
+msgstr "l"
+
+#: urlbar.placeholder2
+msgid "Search or enter address"
+msgstr "Căutați sau introduceți adresa"
+
+#: urlbar.accesskey
+msgctxt "urlbar.accesskey"
+msgid "d"
+msgstr "d"
+
+#: urlbar.switchToTab.label
+msgid "Switch to tab:"
+msgstr "Schimbă la fila:"
+
+#: urlbar.searchSuggestionsNotification.question
+msgid "Would you like to improve your search experience with suggestions?"
+msgstr ""
+
+#: urlbar.searchSuggestionsNotification.learnMore
+#, fuzzy
+msgid "Learn more…"
+msgstr "Aflați &mai multe…"
+
+#: urlbar.searchSuggestionsNotification.disable
+msgid "No"
+msgstr "Nu"
+
+#: urlbar.searchSuggestionsNotification.enable
+msgid "Yes"
+msgstr "Da"
+
+#. Comment duplicated from browser-sets.inc:
+#. Search Command Key Logic works like this:
+#. Unix: Ctrl+J (0.8, 0.9 support)
+#. Ctrl+K (cross platform binding)
+#. Mac:  Cmd+K (cross platform binding)
+#. Cmd+Opt+F (platform convention)
+#. Win:  Ctrl+K (cross platform binding)
+#. Ctrl+E (IE compat)
+#. We support Ctrl+K on all platforms now and advertise it in the menu since it is
+#. our standard - it is a "safe" choice since it is near no harmful keys like "W" as
+#. "E" is. People mourning the loss of Ctrl+K for emacs compat can switch their GTK
+#. system setting to use emacs emulation, and we should respect it. Focus-Search-Box
+#. is a fundamental keybinding and we are maintaining a XP binding so that it is easy
+#. for people to switch to Linux.
+#: searchFocus.commandkey
+msgid "k"
+msgstr "k"
+
+#: searchFocus.commandkey2
+msgctxt "searchFocus.commandkey2"
+msgid "e"
+msgstr "e"
+
+#: searchFocusUnix.commandkey
+msgctxt "searchFocusUnix.commandkey"
+msgid "j"
+msgstr "j"
+
+#. LOCALIZATION NOTE (contentSearchInput.label, contentSearchSubmit.label):
+#. These are set as the aria-label attribute for the search input box and
+#. submit button in the in-content search UI, to be used by screen readers.
+#: contentSearchInput.label
+msgid "Search query"
+msgstr ""
+
+#: contentSearchSubmit.label
+msgid "Submit search"
+msgstr ""
+
+#. LOCALIZATION NOTE (searchFor.label, searchWith.label):
+#. These two strings are used to build the header above the list of one-click
+#. search providers:  "Search for <used typed keywords> with:"
+#: searchFor.label
+msgid "Search for "
+msgstr "Caută după "
+
+#: searchWith.label
+msgid " with:"
+msgstr " cu:"
+
+#. LOCALIZATION NOTE (search.label, searchAfter.label):
+#. This string is used to build the header above the list of one-click search
+#. providers when a one off engine has been selected.  The searchAfter text is
+#. intentionally left empty for en-US and can be used by other localizations to
+#. display a string after the search engine name.  This string will be displayed
+#. as:  "Search <selected engine name><searchAfter.label text>"
+#: search.label
+msgid "Search "
+msgstr "Caută "
+
+#: searchAfter.label
+msgctxt "searchAfter.label"
+msgid ""
+msgstr ""
+
+#. The wording of this string should be as close as possible to
+#. searchFor.label and searchWith.label. This string will be used instead of
+#. them when the user has not typed any keyword.
+#: searchWithHeader.label
+msgid "Search with:"
+msgstr "Caută cu:"
+
+#. This string won't wrap, so if the translated string is longer,
+#. consider translating it as if it said only "Search Settings".
+#: changeSearchSettings.button
+msgid "Change Search Settings"
+msgstr "Schimbare setări de căutare"
+
+#: tabView.commandkey
+msgctxt "tabView.commandkey"
+msgid "e"
+msgstr "e"
+
+#: openLinkCmdInTab.label openLinkCmdInTab.accesskey
+msgid "Open Link in New &Tab"
+msgstr "Deschide legă&tura în filă nouă"
+
+#: openLinkCmd.label openLinkCmd.accesskey
+msgid "Open Link in New &Window"
+msgstr "&Deschide linkul în fereastră nouă"
+
+#: openLinkInPrivateWindowCmd.label openLinkInPrivateWindowCmd.accesskey
+msgid "Open Link in New &Private Window"
+msgstr "Deschide linkul în fereastră &privată"
+
+#: openLinkCmdInCurrent.label openLinkCmdInCurrent.accesskey
+msgid "&Open Link"
+msgstr "Desch&ide linkul"
+
+#: openFrameCmdInTab.label openFrameCmdInTab.accesskey
+msgid "Open Frame in New &Tab"
+msgstr "Deschide cadrul în &filă nouă"
+
+#: openFrameCmd.label openFrameCmd.accesskey
+msgid "Open Frame in New &Window"
+msgstr "&Deschide cadrul în fereastră nouă"
+
+#: showOnlyThisFrameCmd.label showOnlyThisFrameCmd.accesskey
+msgid "&Show Only This Frame"
+msgstr "&Afișează doar acest cadru"
+
+#: reloadCmd.commandkey
+msgid "r"
+msgstr "r"
+
+#: reloadFrameCmd.label reloadFrameCmd.accesskey
+msgid "&Reload Frame"
+msgstr "&Reîncarcă cadrul"
+
+#: viewPartialSourceForSelectionCmd.label
+msgid "View Selection Source"
+msgstr "Vezi sursa selecției"
+
+#: viewPartialSourceForMathMLCmd.label
+msgid "View MathML Source"
+msgstr "Vezi sursa MathML"
+
+#. This accesskey is used for both
+#. viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label
+#: viewPartialSourceCmd.accesskey
+msgctxt "viewPartialSourceCmd.accesskey"
+msgid "e"
+msgstr "e"
+
+#: viewPageSourceCmd.label viewPageSourceCmd.accesskey
+msgid "&View Page Source"
+msgstr "&Vezi sursa paginii"
+
+#: viewFrameSourceCmd.label viewFrameSourceCmd.accesskey
+msgid "&View Frame Source"
+msgstr "&Vezi sursa cadrului"
+
+#: viewPageInfoCmd.label viewPageInfoCmd.accesskey
+msgid "View Page &Info"
+msgstr "Vez&i informații despre pagină"
+
+#: viewFrameInfoCmd.label viewFrameInfoCmd.accesskey
+msgid "View Frame &Info"
+msgstr "Vez&i informații despre cadru"
+
+#: reloadImageCmd.label reloadImageCmd.accesskey
+msgid "&Reload Image"
+msgstr "&Reîncarcă imaginea"
+
+#: viewImageCmd.label viewImageCmd.accesskey
+msgid "View &Image"
+msgstr "Vez&i imaginea"
+
+#: viewImageInfoCmd.label viewImageInfoCmd.accesskey
+msgid "View Image In&fo"
+msgstr "Vezi in&formații despre imagine"
+
+#: viewImageDescCmd.label viewImageDescCmd.accesskey
+msgid "View &Description"
+msgstr "&Vizualizare descriere"
+
+#: viewVideoCmd.label viewVideoCmd.accesskey
+msgid "V&iew Video"
+msgstr "Vez&i clipul"
+
+#: viewBGImageCmd.label viewBGImageCmd.accesskey
+msgid "Vie&w Background Image"
+msgstr "Vezi imaginea de &fundal"
+
+#: setDesktopBackgroundCmd.label setDesktopBackgroundCmd.accesskey
+msgid "&Set As Desktop Background…"
+msgstr "&Setează ca tapet pe spațiul de lucru…"
+
+#: bookmarkPageCmd2.label
+msgctxt "bookmarkPageCmd2.label"
+msgid "Bookmark This Page"
+msgstr "Pune un semn de carte la această pagină"
+
+#: bookmarkThisLinkCmd.label bookmarkThisLinkCmd.accesskey
+msgid "Bookmark This &Link"
+msgstr "Pune semn de carte la acest &link"
+
+#: bookmarkThisFrameCmd.label bookmarkThisFrameCmd.accesskey
+msgid "Book&mark This Frame"
+msgstr "Pune se&mn de carte la acest cadru"
+
+#: emailPageCmd.label emailPageCmd.accesskey
+msgid "&Email Link…"
+msgstr "Trimite &e-mail cu linkul…"
+
+#: savePageCmd.label savePageCmd.accesskey
+msgid "Save Page &As…"
+msgstr "&Salvează pagina ca…"
+
+#. alternate for content area context menu
+#: savePageCmd.accesskey2
+msgctxt "savePageCmd.accesskey2"
+msgid "P"
+msgstr "P"
+
+#: savePageCmd.commandkey
+msgid "s"
+msgstr "s"
+
+#: saveFrameCmd.label saveFrameCmd.accesskey
+msgid "Save &Frame As…"
+msgstr "Sal&vează cadrul ca…"
+
+#: printFrameCmd.label printFrameCmd.accesskey
+msgid "&Print Frame…"
+msgstr "Ti&părește cadrul…"
+
+#: saveLinkCmd.label saveLinkCmd.accesskey
+msgid "Save Lin&k As…"
+msgstr "Salvează lin&kul ca…"
+
+#: saveImageCmd.label saveImageCmd.accesskey
+msgid "Sa&ve Image As…"
+msgstr "Sal&vează imaginea ca…"
+
+#: saveVideoCmd.label saveVideoCmd.accesskey
+msgid "Sa&ve Video As…"
+msgstr "Sal&vează clipul ca…"
+
+#: saveAudioCmd.label saveAudioCmd.accesskey
+msgid "Sa&ve Audio As…"
+msgstr "Sal&vează fișierul audio ca…"
+
+#: emailImageCmd.label emailImageCmd.accesskey
+msgid "Email Ima&ge…"
+msgstr "Trimite e-mail cu ima&ginea…"
+
+#: emailVideoCmd.label emailVideoCmd.accesskey
+msgid "Em&ail Video…"
+msgstr "Trimite e-m&ail cu fișierul video…"
+
+#: castVideoCmd.label castVideoCmd.accesskey
+msgid "S&end Video To Device"
+msgstr "Trimit&eți videoclipul către dispozitiv"
+
+#: emailAudioCmd.label emailAudioCmd.accesskey
+msgid "Em&ail Audio…"
+msgstr "Trimite e-m&ail cu fișierul audio…"
+
+#: playPluginCmd.label playPluginCmd.accesskey
+msgid "A&ctivate this plugin"
+msgstr "A&ctivează acest plugin"
+
+#: hidePluginCmd.label hidePluginCmd.accesskey
+msgid "&Hide this plugin"
+msgstr "Ascunde acest p&lugin"
+
+#: copyLinkCmd.label copyLinkCmd.accesskey
+msgid "Copy Link Loc&ation"
+msgstr "&Copiază adresa linkului"
+
+#: copyImageCmd.label copyImageCmd.accesskey
+msgid "C&opy Image Location"
+msgstr "C&opiază adresa imaginii"
+
+#: copyImageContentsCmd.label copyImageContentsCmd.accesskey
+msgid "Cop&y Image"
+msgstr "Co&piază imaginea"
+
+#: copyVideoURLCmd.label copyVideoURLCmd.accesskey
+msgid "C&opy Video Location"
+msgstr "C&opiază adresa clipului"
+
+#: copyAudioURLCmd.label copyAudioURLCmd.accesskey
+msgid "C&opy Audio Location"
+msgstr "C&opiază adresa fișierului audio"
+
+#: copyEmailCmd.label copyEmailCmd.accesskey
+msgid "Copy &Email Address"
+msgstr "Copiază adresa de &e-mail"
+
+#: thisFrameMenu.label thisFrameMenu.accesskey
+msgid "T&his Frame"
+msgstr "Acest ca&dru"
+
+#. Media (video/audio) controls
+#. LOCALIZATION NOTE: The access keys for "Play" and
+#. "Pause" are the same because the two context-menu
+#. items are mutually exclusive.
+#: mediaPlay.label mediaPlay.accesskey
+msgid "&Play"
+msgstr "&Redare"
+
+#: mediaPause.label mediaPause.accesskey
+msgid "&Pause"
+msgstr "&Pauză"
+
+#. LOCALIZATION NOTE: The access keys for "Mute" and
+#. "Unmute" are the same because the two context-menu
+#. items are mutually exclusive.
+#: mediaMute.label mediaMute.accesskey
+msgid "&Mute"
+msgstr "&Mut"
+
+#: mediaUnmute.label mediaUnmute.accesskey
+msgid "Un&mute"
+msgstr "&Activează sonorul"
+
+#: mediaPlaybackRate.label mediaPlaybackRate.accesskey
+msgid "P&lay Speed"
+msgstr "&Viteză redare"
+
+#: mediaPlaybackRate050x.label mediaPlaybackRate050x.accesskey
+msgid "&Slow Motion (0.5×)"
+msgstr "Încet&inire (0.5×)"
+
+#: mediaPlaybackRate100x.label mediaPlaybackRate100x.accesskey
+msgid "&Normal Speed"
+msgstr "Viteză &normală"
+
+#: mediaPlaybackRate150x.label mediaPlaybackRate150x.accesskey
+msgid "&High Speed (1.5×)"
+msgstr "&Viteză mare (1.5×)"
+
+#. LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+#. movie "Space Balls" and is meant to say that this speed is very
+#. fast.
+#: mediaPlaybackRate200x.label mediaPlaybackRate200x.accesskey
+msgid "&Ludicrous Speed (2×)"
+msgstr "&Viteză foarte mare (2×)"
+
+#. LOCALIZATION NOTE: The access keys for "Show Controls" and
+#. "Hide Controls" are the same because the two context-menu
+#. items are mutually exclusive.
+#: mediaShowControls.label mediaShowControls.accesskey
+msgid "Show &Controls"
+msgstr "Arată &controalele"
+
+#: mediaHideControls.label mediaHideControls.accesskey
+msgid "Hide &Controls"
+msgstr "As&cunde controalele"
+
+#: videoFullScreen.label videoFullScreen.accesskey
+msgctxt "videoFullScreen.label videoFullScreen.accesskey"
+msgid "&Full Screen"
+msgstr "Ec&ran complet"
+
+#: videoSaveImage.label videoSaveImage.accesskey
+msgid "&Save Snapshot As…"
+msgstr "&Salvează captura ca…"
+
+#. LOCALIZATION NOTE: The access keys for "Show Statistics" and
+#. "Hide Statistics" are the same because the two context-menu
+#. items are mutually exclusive.
+#: videoShowStats.label videoShowStats.accesskey
+msgid "Show S&tatistics"
+msgstr "Ara&tă statisticile"
+
+#: videoHideStats.label videoHideStats.accesskey
+msgid "Hide S&tatistics"
+msgstr "Ascunde s&tatisticile"
+
+#. LOCALIZATION NOTE :
+#. fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
+#. fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
+#. If shift key is needed with your locale popular keyboard for them,
+#. you can use these alternative items. Otherwise, their values should be empty.
+#: fullZoomEnlargeCmd.label fullZoomEnlargeCmd.accesskey
+msgid "Zoom &In"
+msgstr "Mă&rește"
+
+#: fullZoomEnlargeCmd.commandkey
+msgid "+"
+msgstr "+"
+
+#. + is above this key on many keyboards
+#: fullZoomEnlargeCmd.commandkey2
+msgid "="
+msgstr "="
+
+#: fullZoomEnlargeCmd.commandkey3
+msgctxt "fullZoomEnlargeCmd.commandkey3"
+msgid ""
+msgstr ""
+
+#: fullZoomReduceCmd.label fullZoomReduceCmd.accesskey
+msgid "Zoom &Out"
+msgstr "Micș&orează"
+
+#: fullZoomReduceCmd.commandkey
+msgid "-"
+msgstr "-"
+
+#: fullZoomReduceCmd.commandkey2
+msgctxt "fullZoomReduceCmd.commandkey2"
+msgid ""
+msgstr ""
+
+#: fullZoomResetCmd.label fullZoomResetCmd.accesskey
+msgid "&Reset"
+msgstr "Rei&nițializare"
+
+#: fullZoomResetCmd.commandkey
+msgid "0"
+msgstr "0"
+
+#: fullZoomResetCmd.commandkey2
+msgctxt "fullZoomResetCmd.commandkey2"
+msgid ""
+msgstr ""
+
+#: fullZoomToggleCmd.label fullZoomToggleCmd.accesskey
+msgid "Zoom &Text Only"
+msgstr "Scalare doar pe &text"
+
+#: fullZoom.label fullZoom.accesskey
+msgid "&Zoom"
+msgstr "&Mărime text"
+
+#: sidebarCloseButton.tooltip
+msgid "Close sidebar"
+msgstr "Închide bara laterală"
+
+#: quitApplicationCmdWin2.label quitApplicationCmdWin2.accesskey
+msgid "E&xit"
+msgstr "I&eșire"
+
+#: quitApplicationCmdWin2.tooltip
+msgid "Exit &brandShorterName;"
+msgstr "Ieși din &brandShorterName;"
+
+#: goBackCmd.commandKey
+msgid "["
+msgstr "["
+
+#: goForwardCmd.commandKey
+msgid "]"
+msgstr "]"
+
+#: quitApplicationCmd.label quitApplicationCmd.accesskey
+msgid "&Quit"
+msgstr "I&eșiți"
+
+#: quitApplicationCmdMac2.label
+msgid "Quit &brandShorterName;"
+msgstr "Ieșire din &brandShorterName;"
+
+#. This keyboard shortcut is used by both Linux and OSX builds.
+#: quitApplicationCmdUnix.key
+msgctxt "quitApplicationCmdUnix.key"
+msgid "Q"
+msgstr "Q"
+
+#: closeCmd.label closeCmd.accesskey
+msgid "&Close"
+msgstr "În&chide"
+
+#: closeCmd.key
+msgid "W"
+msgstr "W"
+
+#: toggleMuteCmd.key
+msgctxt "toggleMuteCmd.key"
+msgid "M"
+msgstr ""
+
+#: pageStyleMenu.label pageStyleMenu.accesskey
+msgid "Page St&yle"
+msgstr "Stil &pagină"
+
+#: pageStyleNoStyle.label pageStyleNoStyle.accesskey
+msgid "&No Style"
+msgstr "&Fără stil"
+
+#: pageStylePersistentOnly.label pageStylePersistentOnly.accesskey
+msgid "&Basic Page Style"
+msgstr "Stil &principal"
+
+#: pageReportIcon.tooltip
+msgid "Change pop-up blocking settings for this website"
+msgstr "Modifică parametrii de blocare a popupurilor pentru acest site web"
+
+#: allowPopups.accesskey
+msgctxt "allowPopups.accesskey"
+msgid "p"
+msgstr "p"
+
+#. On Windows we use the term "Options" to describe settings, but
+#. on Linux and Mac OS X we use "Preferences" - carry that distinction
+#. over into this string, which is used in the "popup blocked" info bar .
+#: editPopupSettingsUnix.label
+msgid "Edit Pop-up Blocker Preferences…"
+msgstr "Editează preferințele de blocare a ferestrelor popup…"
+
+#: editPopupSettings.label editPopupSettings.accesskey
+msgid "&Edit Pop-up Blocker Options…"
+msgstr "&Editează opțiunile de blocare a ferestrelor popup…"
+
+#: dontShowMessage.accesskey
+msgctxt "dontShowMessage.accesskey"
+msgid "D"
+msgstr "D"
+
+#: bidiSwitchPageDirectionItem.label bidiSwitchPageDirectionItem.accesskey
+msgid "Switch Page &Direction"
+msgstr "Schimbă direcția pa&ginii"
+
+#: bidiSwitchTextDirectionItem.label bidiSwitchTextDirectionItem.accesskey
+msgid "S&witch Text Direction"
+msgstr "Schimbă direcția te&xtului"
+
+#: bidiSwitchTextDirectionItem.commandkey
+msgctxt "bidiSwitchTextDirectionItem.commandkey"
+msgid "X"
+msgstr "X"
+
+#: findOnCmd.label findOnCmd.accesskey
+msgid "&Find in This Page…"
+msgstr "Caută î&n această pagină…"
+
+#: findOnCmd.commandkey
+msgctxt "findOnCmd.commandkey"
+msgid "f"
+msgstr "f"
+
+#: findAgainCmd.label findAgainCmd.accesskey
+msgid "Find A&gain"
+msgstr "Caută &din nou"
+
+#: findAgainCmd.commandkey
+msgid "g"
+msgstr "g"
+
+#: findAgainCmd.commandkey2
+msgid "VK_F3"
+msgstr "VK_F3"
+
+#: findSelectionCmd.commandkey
+msgctxt "findSelectionCmd.commandkey"
+msgid "e"
+msgstr "e"
+
+#: spellAddDictionaries.label spellAddDictionaries.accesskey
+msgid "&Add Dictionaries…"
+msgstr "&Adaugă dicționare"
+
+#: editBookmark.done.label
+msgid "Done"
+msgstr "Gata"
+
+#: editBookmark.cancel.label
+msgid "Cancel"
+msgstr "Renunță"
+
+#: editBookmark.removeBookmark.accessKey
+#, fuzzy
+msgid "R"
+msgstr "R"
+
+#: identity.connectionSecure
+msgid "Secure Connection"
+msgstr "Conexiune securizată"
+
+#: identity.connectionNotSecure
+msgid "Connection is Not Secure"
+msgstr "Conexiunea nu este securizată"
+
+#: identity.connectionFile
+msgid "This page is stored on your computer."
+msgstr ""
+
+#: identity.connectionVerified
+msgid ""
+"&brandShortName; verified that you are securely connected to this site, run "
+"by:"
+msgstr ""
+
+#: identity.connectionInternal
+msgid "This is a secure &brandShortName; page."
+msgstr ""
+
+#. Strings for connection state warnings.
+#: identity.activeBlocked
+msgctxt "identity.activeBlocked"
+msgid "&brandShortName; has blocked parts of this page that are not secure."
+msgstr ""
+
+#: identity.passiveLoaded
+msgid "Parts of this page are not secure (such as images)."
+msgstr ""
+
+#: identity.activeLoaded
+msgid "You have disabled protection on this page."
+msgstr ""
+
+#: identity.weakEncryption
+msgid "This page uses weak encryption."
+msgstr ""
+
+#. Strings for connection state warnings in the subview.
+#: identity.description.insecure
+msgid ""
+"Your connection to this site is not private. Information you submit could be "
+"viewed by others (like passwords, messages, credit cards, etc.)."
+msgstr ""
+
+#: identity.description.weakCipher
+msgid ""
+"Your connection to this website uses weak encryption and is not private."
+msgstr ""
+
+#: identity.description.weakCipher2
+msgid ""
+"Other people can view your information or modify the website's behavior."
+msgstr ""
+
+#: identity.description.activeBlocked
+msgctxt "identity.description.activeBlocked"
+msgid "&brandShortName; has blocked parts of this page that are not secure."
+msgstr ""
+
+#: identity.description.passiveLoaded
+msgid ""
+"Your connection is not private and information you share with the site could "
+"be viewed by others."
+msgstr ""
+
+#: identity.description.passiveLoaded2
+msgid "This website contains content that is not secure (such as images)."
+msgstr ""
+
+#: identity.description.passiveLoaded3
+msgid ""
+"Although &brandShortName; has blocked some content, there is still content "
+"on the page that is not secure (such as images)."
+msgstr ""
+
+#: identity.description.activeLoaded
+msgid ""
+"This website contains content that is not secure (such as scripts) and your "
+"connection to it is not private."
+msgstr ""
+"Acest site web are conținut care nu este securizat (cum ar fi scripturile), "
+"iar conexiunea către acesta nu este privată."
+
+#: identity.description.activeLoaded2
+msgid ""
+"Information you share with this site could be viewed by others (like "
+"passwords, messages, credit cards, etc.)."
+msgstr ""
+
+#: identity.enableMixedContentBlocking.label
+#: identity.enableMixedContentBlocking.accesskey
+#, fuzzy
+msgctxt ""
+"identity.enableMixedContentBlocking.label identity."
+"enableMixedContentBlocking.accesskey"
+msgid "&Enable protection"
+msgstr "Activ&ează protecția"
+
+#: identity.disableMixedContentBlocking.label
+#: identity.disableMixedContentBlocking.accesskey
+msgid "&Disable protection for now"
+msgstr "&Dezactivați protecția deocamdată"
+
+#: identity.learnMore
+#, fuzzy
+msgctxt "identity.learnMore"
+msgid "Learn More"
+msgstr "Aflați mai multe"
+
+#: identity.moreInfoLinkText2
+msgid "More Information"
+msgstr "Mai multe informații"
+
+#: identity.permissions
+msgid "Permissions"
+msgstr "Permisiuni"
+
+#. Name for the tabs toolbar as spoken by screen readers.
+#. The word "toolbar" is appended automatically and should not be contained below!
+#: tabsToolbar.label
+msgid "Browser tabs"
+msgstr "Filele browserului"
+
+#. This appears in the history menu
+#: syncTabsMenu2.label
+msgid "Tabs From Other Devices"
+msgstr "File de pe alte dispozitive"
+
+#: syncBrand.shortName.label
+msgctxt "syncBrand.shortName.label"
+msgid "Sync"
+msgstr "Sincronizare"
+
+#: syncSetup.label
+msgid "Set Up &syncBrand.shortName.label;…"
+msgstr "Setare &syncBrand.shortName.label;…"
+
+#: syncSetup.accesskey
+msgctxt "syncSetup.accesskey"
+msgid "Y"
+msgstr "R"
+
+#: syncSyncNowItem.label syncSyncNowItem.accesskey
+msgid "&Sync Now"
+msgstr "&Sincronizează acum"
+
+#: syncReAuthItem.label syncReAuthItem.accesskey
+msgid "&Reconnect to &syncBrand.shortName.label;…"
+msgstr "&Reconectare la &syncBrand.shortName.label;…"
+
+#: syncToolbarButton.label
+msgctxt "syncToolbarButton.label"
+msgid "Sync"
+msgstr "Sincronizare"
+
+#: socialToolbar.title
+msgid "Social Toolbar Button"
+msgstr "Bară butoane rețele sociale"
+
+#: social.ok.label social.ok.accesskey
+msgid "&OK"
+msgstr "&Ok"
+
+#: social.toggleSidebar.label social.toggleSidebar.accesskey
+msgid "Show &sidebar"
+msgstr "Arată &bara laterală"
+
+#: social.addons.label
+msgid "Manage Services…"
+msgstr "Gestionare servicii…"
+
+#: social.toggleNotifications.label social.toggleNotifications.accesskey
+msgid "Show desktop &notifications"
+msgstr "Arată &notificările pe ecran"
+
+#: social.activated.description
+msgid ""
+"Services from <label/> have been enabled. You can change your settings for "
+"services in the <label class='text-link'>Add-on Manager</label>."
+msgstr ""
+"Serviciile de la <label/> au fost activate. Puteți schimba setările pentru "
+"servicii în <label class='text-link'>Manager suplimente</label>."
+
+#: social.activated.undo.label social.activated.undo.accesskey
+msgid "Oops, &undo this!"
+msgstr "&Upss, anulează asta!"
+
+#: social.learnMore.label social.learnMore.accesskey
+msgid "&Learn more…"
+msgstr "Aflați &mai multe…"
+
+#: social.closeNotificationItem.label
+msgid "Not Now"
+msgstr "Nu acum"
+
+#: social.directory.label
+msgid "Activations Directory"
+msgstr "Dosar de activări"
+
+#: social.directory.text
+msgid "You can activate Share services from the directory."
+msgstr "Puteți activa serviciile de partajare din dosar."
+
+#: social.directory.button
+msgid "Take me there!"
+msgstr "Du-mă acolo!"
+
+#: social.directory.introText
+msgid "Click on a service to add it to &brandShortName;."
+msgstr "Clic pe un serviciu pentru a-l adăuga în &brandShortName;."
+
+#: social.directory.viewmore.text
+msgid "View More"
+msgstr "Vedeți mai multe"
+
+#: customizeMode.tabTitle
+msgid "Customize &brandShortName;"
+msgstr "Personalizează &brandShortName;"
+
+#: customizeMode.menuAndToolbars.header2
+msgid "Additional Tools and Features"
+msgstr "Funcționalități și unelte suplimentare"
+
+#: customizeMode.menuAndToolbars.empty
+msgid "Want more tools?"
+msgstr "Doriți mai multe unelte?"
+
+#: customizeMode.menuAndToolbars.emptyLink
+msgid "Choose from thousands of add-ons"
+msgstr "Alegeți din mii de suplimente"
+
+#: customizeMode.restoreDefaults
+msgid "Restore Defaults"
+msgstr "Restaurează setările implicite"
+
+#: customizeMode.toolbars
+msgid "Show / Hide Toolbars"
+msgstr "Arată / Ascunde bara cu unelte"
+
+#: customizeMode.titlebar
+msgid "Title Bar"
+msgstr "Bara de titlu"
+
+#: customizeMode.lwthemes
+msgid "Themes"
+msgstr "Teme"
+
+#: customizeMode.lwthemes.myThemes
+msgid "My Themes"
+msgstr "Temele mele"
+
+#: customizeMode.lwthemes.recommended
+msgid "Recommended"
+msgstr "Recomandate"
+
+#: customizeMode.lwthemes.menuManage
+msgid "Manage"
+msgstr "Gestionează"
+
+#: customizeMode.lwthemes.menuManage.accessKey
+msgctxt "customizeMode.lwthemes.menuManage.accessKey"
+msgid "M"
+msgstr "G"
+
+#: customizeMode.lwthemes.menuGetMore
+msgid "Get More Themes"
+msgstr "Obține mai multe teme"
+
+#: customizeMode.lwthemes.menuGetMore.accessKey
+msgid "G"
+msgstr "T"
+
+#: social.chatBar.commandkey
+msgid "c"
+msgstr "c"
+
+#: social.chatBar.label social.chatBar.accesskey
+msgid "Fo&cus chats"
+msgstr "Adu dis&cuțiile în față"
+
+#: social.markpageMenu.label social.markpageMenu.accesskey
+msgid "Save &Page To…"
+msgstr "Salvează &pagina la…"
+
+#: social.marklinkMenu.label social.marklinkMenu.accesskey
+msgid "Save &Link To…"
+msgstr "Salvează &linkul pe…"
+
+#: getUserMedia.selectCamera.label getUserMedia.selectCamera.accesskey
+msgid "&Camera to share:"
+msgstr "&Cameră de folosit:"
+
+#: getUserMedia.selectMicrophone.label getUserMedia.selectMicrophone.accesskey
+msgid "&Microphone to share:"
+msgstr "&Microfon de folosit:"
+
+#: getUserMedia.audioCapture.label
+msgid "Audio from the tab will be shared."
+msgstr ""
+
+#: getUserMedia.allWindowsShared.message
+msgid "All visible windows on your screen will be shared."
+msgstr "Toate ferestrele vizibile pe ecran vor fi partajate."
+
+#: trackingProtection.title
+msgid "Tracking Protection"
+msgstr ""
+
+#: trackingProtection.detectedBlocked3
+msgid ""
+"&brandShortName; is blocking parts of the page that may track your browsing."
+msgstr ""
+
+#: trackingProtection.detectedNotBlocked3
+msgid ""
+"This site includes elements that may track your browsing. You have disabled "
+"protection."
+msgstr ""
+
+#: trackingProtection.notDetected3
+msgid "No tracking elements detected on this page."
+msgstr ""
+
+#. LOCALIZATION NOTE (trackingProtection.unblock.label, trackingProtection.unblock.accesskey):
+#. The associated button with this label and accesskey is only shown when opening the control
+#. center while looking at a site with trackers in NON-private browsing mode.
+#: trackingProtection.unblock.label trackingProtection.unblock.accesskey
+msgctxt "trackingProtection.unblock.label trackingProtection.unblock.accesskey"
+msgid "&Disable protection for this site"
+msgstr "&Dezactivează protecția pentru acest site"
+
+#. LOCALIZATION NOTE (trackingProtection.unblockPrivate.label, trackingProtection.unblockPrivate.accesskey):
+#. The associated button with this label and accesskey is only shown when opening the control
+#. center while looking at a site with trackers in PRIVATE browsing mode.
+#: trackingProtection.unblockPrivate.label
+#: trackingProtection.unblockPrivate.accesskey
+msgid "&Disable protection for this session"
+msgstr "&Dezactivează protecția pentru această sesiune"
+
+#: trackingProtection.block2.label trackingProtection.block2.accesskey
+#, fuzzy
+msgctxt "trackingProtection.block2.label trackingProtection.block2.accesskey"
+msgid "&Enable protection"
+msgstr "Activ&ează protecția"
+
+#: trackingContentBlocked.message
+msgid "Tracking"
+msgstr "Urmărire"
+
+#: trackingContentBlocked.moreinfo
+msgid "Parts of the page that track your online activity have been blocked."
+msgstr "Părți ale paginii care vă urmăresc activitatea online au fost blocate."
+
+#: trackingContentBlocked.learnMore
+msgctxt "trackingContentBlocked.learnMore"
+msgid "Learn More"
+msgstr "Aflați mai multe"
+
+#: trackingContentBlocked.options
+#, fuzzy
+msgid "Options"
+msgstr "Opțiuni"
+
+#: trackingContentBlocked.unblock2.label
+#: trackingContentBlocked.unblock2.accesskey
+msgctxt ""
+"trackingContentBlocked.unblock2.label trackingContentBlocked.unblock2."
+"accesskey"
+msgid "&Disable protection for this site"
+msgstr "&Dezactivează protecția pentru acest site"
+
+#: trackingContentBlocked.block.label trackingContentBlocked.block.accesskey
+msgctxt ""
+"trackingContentBlocked.block.label trackingContentBlocked.block.accesskey"
+msgid "&Enable protection"
+msgstr "Activ&ează protecția"
+
+#: trackingContentBlocked.disabled.message
+msgid "Tracking protection is disabled"
+msgstr "Protecția de urmărire este dezactivată"
+
+#: pointerLock.notification.message
+msgid "Press ESC at any time to show it again."
+msgstr "Apasă ESC oricând pentru a-l afișa din nou."
+
+#: pluginNotification.showAll.label pluginNotification.showAll.accesskey
+msgid "&Show All"
+msgstr "&Arată-le pe toate"
+
+#. LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties
+#: pluginActivateNow.label
+msgid "Allow Now"
+msgstr "Permite acum"
+
+#: pluginActivateAlways.label
+msgid "Allow and Remember"
+msgstr "Permite și ține minte"
+
+#: pluginBlockNow.label
+msgid "Block Plugin"
+msgstr "Blochează pluginul"
+
+#. This is used to determine the
+#. width of the plugin popup notification that can appear if a plugin has been
+#. blocked on a page. Should be wide enough to fit the pluginActivateNow.label
+#. and pluginActivateAlways.label strings above on a single line. This must be
+#. a CSS length value.
+#. Do not translate this.  Only change the numeric values if you need this dialogue box to appear bigger
+#: pluginNotification.width
+msgid "28em"
+msgstr "28em"
+
+#: uiTour.infoPanel.close
+msgctxt "uiTour.infoPanel.close"
+msgid "Close"
+msgstr "Închide"
+
+#: appMenuSidebars.label
+msgid "Sidebars"
+msgstr "Bare laterale"
+
+#. LOCALIZATION NOTE: (panicButton.view.mainTimeframeDesc, panicButton.view.5min, panicButton.view.2hr, panicButton.view.day):
+#. The .mainTimeframeDesc string combined with any of the 3 others is meant to form a complete sentence, e.g. "Forget the last: Five minutes".
+#. Please ensure that this remains the case in the translation.
+#: panicButton.view.mainTimeframeDesc
+msgid "Forget the last:"
+msgstr "Uită ultimele:"
+
+#: panicButton.view.5min
+msgid "Five minutes"
+msgstr "Cinci minute"
+
+#: panicButton.view.2hr
+msgid "Two hours"
+msgstr "Două ore"
+
+#: panicButton.view.day
+msgid "24 hours"
+msgstr "24 de ore"
+
+#. LOCALIZATION NOTE: (panicButton.view.mainLabel, panicButton.view.deleteCookies, panicButton.view.deleteHistory, panicButton.view.deleteTabsAndWindows, panicButton.view.openNewWindow):
+#. The .mainActionDesc string combined with any of the 4 others is meant to form a complete sentence, e.g. "Proceeding will: Delete Recent Cookies".
+#. Note also that the deleteCookies, deleteHistory and deleteTabsAndWindows strings include <html:strong> tags for emphasis on the words "Cookies", "History", "Tabs" and "Windows".
+#. The translation should do the same.
+#: panicButton.view.mainActionDesc
+msgid "Proceeding will:"
+msgstr "Dacă veți continua:"
+
+#: panicButton.view.deleteCookies
+msgid "Delete Recent <html:strong>Cookies</html:strong>"
+msgstr "Se șterg <html:strong>cookie-urile</html:strong> recente"
+
+#: panicButton.view.deleteHistory
+msgid "Delete Recent <html:strong>History</html:strong>"
+msgstr "Se șterge <html:strong>istoricul</html:strong>recent"
+
+#: panicButton.view.deleteTabsAndWindows
+msgid ""
+"Close all <html:strong>Tabs</html:strong> and <html:strong>Windows</html:"
+"strong>"
+msgstr ""
+"Se închid toate <html:strong>filele</html:strong> și <html:"
+"strong>ferestrele</html:strong>"
+
+#: panicButton.view.openNewWindow
+msgid "Open a new clean Window"
+msgstr "Se deschide o nouă fereastră goală"
+
+#: panicButton.view.undoWarning
+msgid "This action cannot be undone."
+msgstr "Acțiunea este ireversibilă."
+
+#: panicButton.view.forgetButton
+msgid "Forget!"
+msgstr "Uită!"
+
+#: panicButton.thankyou.msg1
+msgid "Your recent history is cleared."
+msgstr "Istoricul dumnevoastră recent a fost șters."
+
+#: panicButton.thankyou.msg2
+msgid "Safe browsing!"
+msgstr "Navigare în siguranță!"
+
+#: panicButton.thankyou.buttonlabel
+msgid "Thanks!"
+msgstr "Mulțumim!"
+
+#: processHang.terminateScript.label processHang.terminateScript.accessKey
+msgid "&Stop Script"
+msgstr "Oprire &script"
+
+#: processHang.debugScript.label processHang.debugScript.accessKey
+msgid "&Debug Script"
+msgstr "&Depanare script"
+
+#: processHang.terminatePlugin.label processHang.terminatePlugin.accessKey
+msgid "Kill &Plugin"
+msgstr "Oprește &pluginul"
+
+#: processHang.terminateProcess.label processHang.terminateProcess.accessKey
+msgid "&Kill Web Process"
+msgstr "Oprește procesu&l web"
+
+#: emeLearnMoreContextMenu.label emeLearnMoreContextMenu.accesskey
+msgid "Learn more about &DRM…"
+msgstr "Aflați mai multe despre &DRM…"
+
+#: emeNotificationsNotNow.label emeNotificationsNotNow.accesskey
+msgid "&Not now"
+msgstr "&Nu acum"
+
+#: emeNotificationsDontAskAgain.label emeNotificationsDontAskAgain.accesskey
+msgid "&Don't ask me again"
+msgstr "Nu mă mai întreba &din nou"
+
+#. LOCALIZATION NOTE (saveToPocketCmd.label, saveLinkToPocketCmd.label, pocketMenuitem.label): Pocket is a brand name
+#: saveToPocketCmd.label saveToPocketCmd.accesskey
+msgid "Save Page to Poc&ket"
+msgstr ""
+
+#: saveLinkToPocketCmd.label saveLinkToPocketCmd.accesskey
+msgid "Save Link t&o Pocket"
+msgstr ""
+
+#: pocketMenuitem.label
+msgid "View Pocket List"
+msgstr ""
+
+#~ msgid "Allow"
+#~ msgstr "Permite"
+
+#~ msgid "Deny"
+#~ msgstr "Interzice"
+
+#~ msgid "Most websites will work properly even if content is blocked."
+#~ msgstr ""
+#~ "Majoritatea saiturilor web vor funcționa corect chiar dacă acest tip de "
+#~ "conținut e blocat."
+
+#~ msgid "Insecure content"
+#~ msgstr "Conținut nesigur"
+
+#~ msgid "Some unencrypted elements on this website have been blocked."
+#~ msgstr "Unele elemente necriptate de pe acest sait au fost blocate."
+
+#~ msgid "Protection is disabled"
+#~ msgstr "Protecția este dezactivată"
+
+#~ msgctxt "trackingContentBlocked.options"
+#~ msgid "Options"
+#~ msgstr "Opțiuni"
+
+#~ msgid "Reading List"
+#~ msgstr "Listă de citit"
+
+#~ msgctxt "readingList.sidebar.commandKey"
+#~ msgid "R"
+#~ msgstr "R"
+
+#~ msgid "Show Reading List Sidebar"
+#~ msgstr "Afișează bara laterală cu lista de citit"
+
+#~ msgid "Show more…"
+#~ msgstr "Arată mai multe…"
+
+#~ msgid ""
+#~ "Add articles to your Reading List to save them for later and find them "
+#~ "easily when you need them."
+#~ msgstr ""
+#~ "Adaugă articole la lista dumneavoastră de citit pentru a le salva pentru "
+#~ "mai târziu și a le găsi cu ușurință atunci când aveți nevoie de ele."
+
+#~ msgid "Remove this from your Reading List"
+#~ msgstr "Înlătură aceasta din lista de citit"
+
+#~ msgid "Add to Reading List"
+#~ msgstr "Adăugați în lista de citit"
+
+#~ msgid "Add this page to your Reading List"
+#~ msgstr "Adaugă această pagină la lista de citit"
+
+#~ msgid "This website does not supply identity information."
+#~ msgstr "Acest sait nu furnizează informații despre identitatea sa."
+
+#~ msgid "You are connected to"
+#~ msgstr "Sunteți conectat la"
+
+#~ msgid "which is run by"
+#~ msgstr "care este menținut de"
+
+#~ msgid "How do I tell if my connection to a website is secure?"
+#~ msgstr "Cum îmi dau seama dacă conexiunea mea la un sait este sigură?"
+
+#~ msgid "Use Developer Edition Theme"
+#~ msgstr "Folosește tema Developer Edition"
+
+#~ msgid "Relaunch in &brandShortName; for Windows 8 Touch"
+#~ msgstr "Relansați în &brandShortName; pentru Windows 8 Touch"
+
+#~ msgid "Tab crashed"
+#~ msgstr "Filă eronată"
+
+#~ msgid ""
+#~ "Well, this is embarrassing. We tried to display this Web page, but it's "
+#~ "not responding."
+#~ msgstr ""
+#~ "Ei bine, acest lucru este jenant. Am încercat să afișez această pagină "
+#~ "web, dar aceasta nu răspunde."
+
+#~ msgid "Tell &vendorShortName; about this crash so they can fix it."
+#~ msgstr ""
+#~ "Spune-ți &vendorShortName; despre această eroare pentru ca să o poată "
+#~ "rezolva."
+
+#~ msgid "Try Again"
+#~ msgstr "Încercați din nou"
+
+#, fuzzy
+#~ msgid "Ena&ble protection"
+#~ msgstr "Protecție e-mail"
+
+#~ msgid "Camera / Microphone Access"
+#~ msgstr "Acces la cameră / microfon"
+
+#~ msgid ""
+#~ "Display sites you are currently sharing your camera or microphone with"
+#~ msgstr ""
+#~ "Afișează saiturile cărora le permiteți să vă folosească camera sau "
+#~ "microfonul"
+
+#~ msgid "Display the progress of ongoing downloads"
+#~ msgstr "Afișează progresul fișierelor în curs de descărcare"
+
+#~ msgid "Book&mark This Page"
+#~ msgstr "Pune se&mn de carte la această pagină"
+
+#~ msgid "Open a new tab"
+#~ msgstr "Deschide o filă nouă"
+
+#~ msgid "Open a new window"
+#~ msgstr "Deschide o fereastră nouă"
+
+#~ msgid "Display the window in full screen"
+#~ msgstr "Arată fereastra pe întreg ecranul"
+
+#~ msgid "App M&anager"
+#~ msgstr "&Gestionar aplicații"
+
+#~ msgid "Relaunch in Windows 8 style &brandShortName;"
+#~ msgstr "Relaunch in Windows 8 style &brandShortName;"
+
+#~ msgid "&Add-on Bar"
+#~ msgstr "B&ară de suplimente"
+
+#~ msgid "Activity Indicator"
+#~ msgstr "Indicator de activitate"
+
+#~ msgid "Menu"
+#~ msgstr "Meniu"
+
+#~ msgid "Open &brandShortName; menu"
+#~ msgstr "Deschide meniul &brandShortName;"
+
+#~ msgctxt "feedButton.label"
+#~ msgid "Subscribe"
+#~ msgstr "Abonare"
+
+#~ msgid "Subscribe to this page…"
+#~ msgstr "Abonare la această pagină..."
+
+#~ msgctxt "bookmarksButton.tooltip"
+#~ msgid "Display your bookmarks"
+#~ msgstr "Afișează semnele dumneavoastră de carte"
+
+#~ msgid "Display pages you've viewed recently"
+#~ msgstr "Afișează paginile pe care le-ați vizitat recent"
+
+#~ msgid "&Tabs on Top"
+#~ msgstr "&Filele deasupra"
+
+#~ msgid "Edit"
+#~ msgstr "Editează"
+
+#~ msgid "Toolbar Layout…"
+#~ msgstr "Aranjamentul barei de unelte…"
+
+#~ msgid "Find…"
+#~ msgstr "Caută…"
+
+#~ msgctxt "appMenuUnsorted.label"
+#~ msgid "Unsorted Bookmarks"
+#~ msgstr "Semne de carte nesortate"
+
+#~ msgid "Web Developer"
+#~ msgstr "Dezvoltator Web"
+
+#~ msgid "Getting Started"
+#~ msgstr "Ghid pentru începători"
+
+#~ msgid "&Restart with Add-ons Disabled…"
+#~ msgstr "&Repornește cu suplimentele dezactivate…"
+
+#~ msgid "Cut"
+#~ msgstr "Taie"
+
+#~ msgid "Copy"
+#~ msgstr "Copiază"
+
+#~ msgid "Paste"
+#~ msgstr "Lipește"
+
+#~ msgid "Zoom out"
+#~ msgstr "Depărtează"
+
+#~ msgid "Zoom in"
+#~ msgstr "Apropie"
+
+#~ msgid "Zoom Controls"
+#~ msgstr "Controale de apropiere/depărtare"
+
+#~ msgid "Close Add-on Bar"
+#~ msgstr "Închide bara de suplimente"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "Back/Forward"
+#~ msgstr "Înapoi/Înainte"
+
+#~ msgid "Show in Sidebar"
+#~ msgstr "Arată în bara laterală"
+
+#~ msgctxt "bookmarksItem.title"
+#~ msgid "Bookmarks"
+#~ msgstr "Semne de carte"
+
+#~ msgctxt "bookmarksMenuButton.tooltip"
+#~ msgid "Display your bookmarks"
+#~ msgstr "Afișează semnele dumneavoastră de carte"
+
+#~ msgid "Group your tabs"
+#~ msgstr "Grupați-vă filele"
+
+#~ msgid "Close &Other Tabs"
+#~ msgstr "&Închide celelalte file"
+
+#~ msgid "&Share This Page"
+#~ msgstr "Împărtășește această pag&ină"
+
+#~ msgctxt "sharePageCmd.commandkey"
+#~ msgid "S"
+#~ msgstr "I"
+
+#~ msgid "&Share This Link"
+#~ msgstr "Împărtășește această legătură"
+
+#~ msgid "&Share This Image"
+#~ msgstr "Împărtășește această &imagine"
+
+#~ msgid "&Share This Video"
+#~ msgstr "Împărtășește acest v&ideoclip"
+
+#~ msgid "Save &Video As…"
+#~ msgstr "Sal&vează clipul ca…"
+
+#~ msgid "Email &Audio…"
+#~ msgstr "Email &Audio…"
+
+#~ msgid "&Show sidebar"
+#~ msgstr "Arată &bara laterală"
