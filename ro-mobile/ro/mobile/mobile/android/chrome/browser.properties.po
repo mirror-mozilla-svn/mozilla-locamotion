@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./mobile/android/chrome/browser.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-12 03:36+0000\n"
-"PO-Revision-Date: 2015-08-27 14:20+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440685234.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/chrome/browser.properties.po\n"
-"X-Pootle-Revision: 71342\n"
+"X-Pootle-Revision: 94814\n"
 
 #: addonsConfirmInstall.title
 msgid "Installing Add-on"
@@ -33,13 +24,15 @@ msgstr "Instalează"
 
 #: addonsConfirmInstallUnsigned.title
 msgid "Unverified add-on"
-msgstr ""
+msgstr "Supliment neverificat"
 
 #: addonsConfirmInstallUnsigned.message
 msgid ""
 "This site would like to install an unverified add-on. Proceed at your own "
 "risk."
 msgstr ""
+"Acest site dorește să instaleze un supliment neverificat. Continuă pe "
+"propriul risc."
 
 #. # Alerts
 #: alertAddonsDownloading
@@ -66,7 +59,7 @@ msgstr "Descărcare completă"
 
 #: alertCantOpenDownload
 msgid "Can't open file. Tap to save it."
-msgstr "Fișierul nu poate fi deschis. Apasă pentru a-l salva."
+msgstr "Fișierul nu poate fi deschis. Atinge pentru a-l salva."
 
 #: alertDownloadsSize
 msgid "Download too big"
@@ -129,11 +122,11 @@ msgstr "Dorești să anulezi această descărcare?"
 
 #: addonError.titleError
 msgid "Error"
-msgstr ""
+msgstr "Eroare"
 
 #: addonError.titleBlocked
 msgid "Blocked add-on"
-msgstr ""
+msgstr "Supliment blocat"
 
 #: addonError.learnMore
 msgid "Learn more"
@@ -143,20 +136,22 @@ msgstr "Află mai multe"
 #. # These strings will appear in a dialog when Firefox detects that installed add-ons cannot be verified.
 #: unsignedAddonsDisabled.title
 msgid "Unverified add-ons"
-msgstr ""
+msgstr "Suplimente neverificate"
 
 #: unsignedAddonsDisabled.message
 msgid ""
 "One or more installed add-ons cannot be verified and have been disabled."
 msgstr ""
+"Unul sau mai multe suplimente instalate nu pot fi verificate și au fost "
+"dezactivate."
 
 #: unsignedAddonsDisabled.dismiss
 msgid "Dismiss"
-msgstr ""
+msgstr "Înlătură"
 
 #: unsignedAddonsDisabled.viewAddons
 msgid "View add-ons"
-msgstr ""
+msgstr "Vezi suplimentele"
 
 #. # LOCALIZATION NOTE (addonError-1, addonError-2, addonError-3, addonError-4, addonError-5):
 #. # #1 is the add-on name, #2 is the add-on host, #3 is the application name
@@ -185,12 +180,11 @@ msgstr ""
 #: addonError-4
 msgctxt "addonError-4"
 msgid "#1 could not be installed because #3 cannot modify the needed file."
-msgstr ""
-"#1 nu poate fi instalat deoarece #3 nu poate modifica fișierul necesar."
+msgstr "#1 nu poate fi instalat deoarece #3 nu poate modifica fișierul necesar."
 
 #: addonError-5
 msgid "#3 has prevented #2 from installing an unverified add-on."
-msgstr ""
+msgstr "#3 a prevenit #2 să instaleze un supliment neverificat."
 
 #. # LOCALIZATION NOTE (addonLocalError-1, addonLocalError-2, addonLocalError-3, addonLocalError-4, addonLocalError-5, addonErrorIncompatible, addonErrorBlocklisted):
 #. # #1 is the add-on name, #3 is the application name, #4 is the application version
@@ -205,8 +199,8 @@ msgid ""
 "This add-on could not be installed because it does not match the add-on #3 "
 "expected."
 msgstr ""
-"Suplimentul nu a putut fi instalat deoarece nu se potrivește cu suplimentul "
-"#3 așteptat."
+"Suplimentul nu a putut fi instalat deoarece nu se potrivește cu suplimentul #"
+"3 așteptat."
 
 #: addonLocalError-3
 msgid "This add-on could not be installed because it appears to be corrupt."
@@ -215,13 +209,11 @@ msgstr "Acest supliment nu a putut fi instalat deoarece pare a fi corupt."
 #: addonLocalError-4
 msgctxt "addonLocalError-4"
 msgid "#1 could not be installed because #3 cannot modify the needed file."
-msgstr ""
-"#1 nu poate fi instalat deoarece #3 nu poate modifica fișierul necesar."
+msgstr "#1 nu poate fi instalat deoarece #3 nu poate modifica fișierul necesar."
 
 #: addonLocalError-5
-#, fuzzy
 msgid "This add-on could not be installed because it has not been verified."
-msgstr "Acest supliment nu a putut fi instalat deoarece pare a fi corupt."
+msgstr "Acest supliment nu a putut fi instalat deoarece nu a fost verificat."
 
 #: addonErrorIncompatible
 msgid "#1 could not be installed because it is not compatible with #3 #4."
@@ -718,11 +710,11 @@ msgstr "Arată controalele"
 
 #: contextmenu.mute
 msgid "Mute"
-msgstr "Oprește sunetul"
+msgstr "Dezactivează sunetul"
 
 #: contextmenu.unmute
 msgid "Unmute"
-msgstr "Pornește sunetul"
+msgstr "Activează sunetul"
 
 #: contextmenu.saveVideo
 msgid "Save Video"
@@ -877,7 +869,7 @@ msgstr "Conexiune primită"
 #. # dialog that prompts the user to allow an incoming USB connection.
 #: remoteIncomingPromptUSB
 msgid "Allow USB debugging connection?"
-msgstr ""
+msgstr "Permite conexiune de depanare USB?"
 
 #. # LOCALIZATION NOTE (remoteIncomingPromptUSB): The message displayed on the
 #. # dialog that prompts the user to allow an incoming TCP connection.
@@ -887,17 +879,19 @@ msgid ""
 "QR code to be scanned in order to authenticate the remote device's "
 "certificate. You can avoid future scans by remembering the device."
 msgstr ""
+"Permite depanarea la distanță de la %1$S:%2$S? Această conexiune necesită "
+"scanarea unui cod QR pentru a autentifica certificatul dispozitivului de la "
+"distanță. Poți evita scanările în viitor prin reținerea acestui dispozitiv."
 
 #. # LOCALIZATION NOTE (remoteIncomingPromptDeny): This button will deny an
 #. # an incoming remote debugger connection.
 #: remoteIncomingPromptDeny
 msgid "Deny"
-msgstr ""
+msgstr "Refuză"
 
 #. # LOCALIZATION NOTE (remoteIncomingPromptAllow): This button will allow an
 #. # an incoming remote debugger connection.
 #: remoteIncomingPromptAllow
-#, fuzzy
 msgctxt "remoteIncomingPromptAllow"
 msgid "Allow"
 msgstr "Permite"
@@ -907,7 +901,7 @@ msgstr "Permite"
 #. # connection will be allowed assuming the scan succeeds.
 #: remoteIncomingPromptScan
 msgid "Scan"
-msgstr ""
+msgstr "Scanează"
 
 #. # LOCALIZATION NOTE (remoteIncomingPromptScanAndRemember): This button will
 #. # start a QR code scanner to authenticate an incoming remote debugger
@@ -916,7 +910,7 @@ msgstr ""
 #. # client.
 #: remoteIncomingPromptScanAndRemember
 msgid "Scan and Remember"
-msgstr ""
+msgstr "Scanează și reține"
 
 #. # LOCALIZATION NOTE (remoteNotificationTitle): %S is the name of the app.
 #: remoteNotificationTitle
@@ -1079,7 +1073,7 @@ msgstr "Camera și microfonul sunt pornite"
 #. # Tip shown to users the first time we hide the reader mode toolbar.
 #: readerMode.toolbarTip
 msgid "Tap the screen to show reader options"
-msgstr "Apasă pe ecran pentru a afișa opțiunile de citire"
+msgstr "Atinge pe ecran pentru a afișa opțiunile de citire"
 
 #. #Open in App
 #: openInApp.pageAction
@@ -1087,7 +1081,6 @@ msgid "Open in App"
 msgstr "Deschide în aplicație"
 
 #: openInApp.ok
-#, fuzzy
 msgid "OK"
 msgstr "Ok"
 
@@ -1142,72 +1135,3 @@ msgstr "Abonează-te cu"
 #: nativeWindow.deprecated
 msgid "%1$S is deprecated. Please use %2$S instead"
 msgstr "%1$S e descurajat. Te rugăm să folosești %2$S în schimb"
-
-#~ msgid ""
-#~ "An incoming request to permit remote debugging connection was detected. A "
-#~ "remote client can take complete control over your browser! Allow "
-#~ "connection?"
-#~ msgstr ""
-#~ "S-a detectat o cerere de a permite depanarea de la distanță. Un client "
-#~ "aflat la distanță poate prelua complet controlul asupra navigatorului! "
-#~ "Permiți conexiunea?"
-
-#~ msgid "Disable"
-#~ msgstr "Dezactivează"
-
-#~ msgctxt "remoteIncomingPromptCancel"
-#~ msgid "Cancel"
-#~ msgstr "Renunță"
-
-#~ msgctxt "openInApp.ok"
-#~ msgid "OK"
-#~ msgstr "Ok"
-
-#~ msgid "Installation failed"
-#~ msgstr "Instalare eșuată"
-
-#~ msgid "Encrypted"
-#~ msgstr "Criptat"
-
-#~ msgid "Enter Reader View"
-#~ msgstr "Intră în modul lectură"
-
-#~ msgid "Exit Reader View"
-#~ msgstr "Ieși din modul lectură"
-
-#~ msgid "%S wants to store a lot of data on your device for offline use."
-#~ msgstr ""
-#~ "%S dorește să stocheze multe date pe dispozitivul dvs. pentru utilizare "
-#~ "offline."
-
-#~ msgid "unknown"
-#~ msgstr "necunoscut"
-
-#~ msgid "Install Application"
-#~ msgstr "Instalează aplicația"
-
-#~ msgid "Successfully installed"
-#~ msgstr "Instalat cu succes"
-
-#~ msgid "Error installing application"
-#~ msgstr "Eroare la instalarea aplicației"
-
-#~ msgid "Invalid application manifest"
-#~ msgstr "Manifestul aplicației invalid"
-
-#~ msgid "Could not download manifest"
-#~ msgstr "Nu am putut descărca manifestul"
-
-#~ msgid "iso-8859-1,utf-8,big5,iso-2022-jp,shift_jis,euc-jp"
-#~ msgstr ""
-#~ "utf-8,iso-8859-16,iso-8859-2,iso-8859-1,x-gbk,big5,iso-2022-jp,shift_jis,"
-#~ "euc-jp"
-
-#~ msgid "Front facing"
-#~ msgstr "Camera frontală"
-
-#~ msgid "Back facing"
-#~ msgstr "Camera din spate"
-
-#~ msgid "Camera to use"
-#~ msgstr "Camera de utilizat"

@@ -1,24 +1,18 @@
-#. extracted from ./mobile/android/base/sync_strings.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-12 03:36+0000\n"
-"PO-Revision-Date: 2015-08-25 16:02+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440518578.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/base/sync_strings.dtd.po\n"
-"X-Pootle-Revision: 70440\n"
+"X-Pootle-Revision: 100164\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -56,8 +50,8 @@ msgid ""
 "To activate your new device, select “Set up &syncBrand.shortName.label;” on "
 "the device."
 msgstr ""
-"Pentru a activa noul dispozitiv, selectează „Setează &syncBrand.shortName."
-"label;” pe dispozitiv."
+"Pentru a activa noul dispozitiv, selectează „Setează "
+"&syncBrand.shortName.label;” pe dispozitiv."
 
 #: sync.subtitle.header2.label
 msgid "Enter this code on your other device"
@@ -68,8 +62,8 @@ msgid ""
 "Select “&sync.title.pair.label;” in the &syncBrand.shortName.label; section "
 "of your other device's Firefox options."
 msgstr ""
-"Selectează „&sync.title.pair.label;” în secțiunea &syncBrand.shortName."
-"label; din opțiunile Firefox de pe celălalt dispozitiv."
+"Selectează „&sync.title.pair.label;” în secțiunea &syncBrand.shortName.label;"
+" din opțiunile Firefox de pe celălalt dispozitiv."
 
 #: sync.subtitle.pair.label
 msgid "To activate, select “Pair a device” on your other device."
@@ -78,8 +72,14 @@ msgstr ""
 "dispozitiv."
 
 #: sync.pin.default.label
-msgid "...\\n...\\n...\\n"
-msgstr "...\\n...\\n...\\n"
+msgid ""
+"...\\n"
+"...\\n"
+"...\\n"
+msgstr ""
+"...\\n"
+"...\\n"
+"...\\n"
 
 #: sync.pin.oneline.label
 msgid "..."
@@ -159,13 +159,13 @@ msgstr "Crearea contului pe dispozitiv a eșuat."
 
 #: sync.subtitle.failmultiple.label
 msgid ""
-"Do you have more than one Firefox installed? Currently, &syncBrand.fullName."
-"label; only supports one Firefox installation at a time. Please uninstall "
-"other instances to use &syncBrand.shortName.label;."
+"Do you have more than one Firefox installed? Currently, "
+"&syncBrand.fullName.label; only supports one Firefox installation at a time. "
+"Please uninstall other instances to use &syncBrand.shortName.label;."
 msgstr ""
 "Ai mai mult decât un Firefox instalat? În prezent &syncBrand.fullName.label; "
-"suportă doar o instalare de Firefox odată. Dezinstalează celelalte instanțe "
-"pentru a folosi &syncBrand.shortName.label;."
+"suportă doar o instalare de Firefox odată. Te rugăm să dezinstalezi "
+"celelalte instanțe pentru a folosi &syncBrand.shortName.label;."
 
 #. Setup Success
 #: sync.title.success.label
@@ -202,8 +202,8 @@ msgid ""
 "To activate your new device, select “Set up &syncBrand.shortName.label;” on "
 "the device, and then select “I Have an Account.”"
 msgstr ""
-"Pentru a activa noul dispozitiv, selectează „Setează &syncBrand.shortName."
-"label;” pe dispozitiv și apoi „Am un cont.”"
+"Pentru a activa noul dispozitiv, selectează „Setează "
+"&syncBrand.shortName.label;” pe dispozitiv și apoi „Am un cont.”"
 
 #. Firefox SyncAdapter Settings Screen
 #: sync.settings.options.label
@@ -229,7 +229,6 @@ msgid "Bookmarks"
 msgstr "Semne de carte"
 
 #: sync.configure.engines.title.passwords2
-#, fuzzy
 msgctxt "sync.configure.engines.title.passwords2"
 msgid "Logins"
 msgstr "Autentificări"
@@ -428,10 +427,9 @@ msgid "Welcome to &syncBrand.shortName.label;"
 msgstr "Bun venit la &syncBrand.shortName.label;"
 
 #: fxaccount_getting_started_description2
-#, fuzzy
 msgid "Sign in to sync your tabs, bookmarks, logins & more."
 msgstr ""
-"Autentifică-te pentru a sincroniza paginile, semnele de carte, parolele și "
+"Autentifică-te pentru a sincroniza filele, semnele de carte, parolele și "
 "altele."
 
 #: fxaccount_getting_started_get_started
@@ -471,12 +469,12 @@ msgid ""
 "By proceeding, I agree to the &formatS1; and &formatS2; of Firefox cloud "
 "services."
 msgstr ""
-"Continunând, sunt de acord cu &formatS1; și &formatS2; a serviciilor cloud "
+"Continuând, sunt de acord cu &formatS1; și &formatS2; a serviciilor cloud "
 "Firefox."
 
 #: fxaccount_create_account_button
 msgid "Next"
-msgstr "Următor"
+msgstr "Înainte"
 
 #: fxaccount_create_account_choose_what_to_sync
 msgid "Choose what to sync"
@@ -648,12 +646,12 @@ msgstr "&syncBrand.shortName.label;: activată"
 #: fxaccount_status_needs_verification2
 msgid "Your account needs to be verified. Tap to resend verification email."
 msgstr ""
-"Contul trebuie să fie verificat. Apasă pentru a retrimite e-mailul de "
+"Contul trebuie să fie verificat. Atinge pentru a retrimite e-mailul de "
 "verificare."
 
 #: fxaccount_status_needs_credentials
 msgid "Cannot connect. Tap to sign in."
-msgstr "Nu se poate conecta. Apasă pentru a te autentifica."
+msgstr "Nu se poate conecta. Atinge pentru a te autentifica."
 
 #: fxaccount_status_needs_upgrade
 msgid "You need to upgrade &brandShortName; to sign in."
@@ -679,7 +677,7 @@ msgstr ""
 
 #: fxaccount_status_needs_finish_migrating
 msgid "Tap to sign in to your new Firefox Account."
-msgstr "Apasă pentru a te autentifica în noul cont Firefox."
+msgstr "Atinge pentru a te autentifica în contul nou Firefox."
 
 #: fxaccount_status_bookmarks
 msgctxt "fxaccount_status_bookmarks"
@@ -692,7 +690,6 @@ msgid "History"
 msgstr "Istoric"
 
 #: fxaccount_status_passwords2
-#, fuzzy
 msgctxt "fxaccount_status_passwords2"
 msgid "Logins"
 msgstr "Autentificări"
@@ -747,7 +744,7 @@ msgstr "Elimină contul"
 
 #: fxaccount_enable_debug_mode
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "Intră în modul depanare"
 
 #. Localization note: this is the name shown by the Android system
 #. itself for a Firefox Account. Don't localize this.
@@ -825,7 +822,7 @@ msgstr "&syncBrand.shortName.label; nu este conectat"
 #: fxaccount_sync_sign_in_error_notification_text2
 msgctxt "fxaccount_sync_sign_in_error_notification_text2"
 msgid "Tap to sign in as &formatS;"
-msgstr "Apasă pentru a te autentifica ca &formatS;"
+msgstr "Atinge pentru a te autentifica ca &formatS;"
 
 #: fxaccount_sync_finish_migrating_notification_title
 msgid "Finish upgrading &syncBrand.shortName.label;?"
@@ -836,12 +833,4 @@ msgstr "Ai termiant actualizarea &syncBrand.shortName.label;?"
 #: fxaccount_sync_finish_migrating_notification_text
 msgctxt "fxaccount_sync_finish_migrating_notification_text"
 msgid "Tap to sign in as &formatS;"
-msgstr "Apasă pentru a te autentifica ca &formatS;"
-
-#~ msgctxt "sync.configure.engines.title.passwords"
-#~ msgid "Passwords"
-#~ msgstr "Parolele"
-
-#~ msgctxt "fxaccount_status_passwords"
-#~ msgid "Passwords"
-#~ msgstr "Parole"
+msgstr "Atinge pentru a te autentifica ca &formatS;"

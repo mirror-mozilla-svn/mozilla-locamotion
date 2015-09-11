@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./mobile/android/chrome/pippki.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-10 22:26+0100\n"
-"PO-Revision-Date: 2015-08-25 14:49+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440514147.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/chrome/pippki.properties.po\n"
-"X-Pootle-Revision: 70112\n"
+"X-Pootle-Revision: 100168\n"
 
 #: nssdialogs.ok.label
 msgid "OK"
@@ -73,8 +64,8 @@ msgstr "Dialog de introducere al parolei"
 msgid ""
 "Please enter the password that was used to encrypt this certificate backup."
 msgstr ""
-"Introdu parola cu care s-a criptat această copie de siguranță a "
-"certificatelor."
+"Te rugăm să introduci parola cu care s-a criptat această copie de siguranță "
+"a certificatelor."
 
 #: clientAuthAsk.title
 msgid "User Identification Request"
@@ -161,12 +152,3 @@ msgstr "Începe la"
 #: certmgr.expires
 msgid "Expires On"
 msgstr "Expiră la"
-
-#~ msgid "MD5 Fingerprint"
-#~ msgstr "Amprentă MD5"
-
-#~ msgid "Validity"
-#~ msgstr "Valabilitate"
-
-#~ msgid "Issued On"
-#~ msgstr "Emis la"
