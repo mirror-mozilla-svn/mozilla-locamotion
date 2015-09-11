@@ -1,0 +1,93 @@
+#. extracted from ./apps/communications/dialer/shared.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-07 17:26+0000\n"
+"PO-Revision-Date: 2014-11-07 18:10+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1415383814.000000\n"
+"X-Pootle-Path: /ro/firefoxos/apps/communications/dialer/shared.properties."
+"po\n"
+"X-Pootle-Revision: 0\n"
+
+#: voiceMail
+msgid "Voicemail"
+msgstr "Mesaj vocal"
+
+#~ msgid "To make a call you need to disable airplane mode in settings."
+#~ msgstr ""
+#~ "Pentru a efectua un apel, trebuie să dezactivezi modul avion din Setări."
+
+#~ msgctxt "callAirplaneModeBtnOk"
+#~ msgid "OK"
+#~ msgstr "Ok"
+
+#~ msgid "Airplane mode activated"
+#~ msgstr "Modul avion activat"
+
+#~ msgid "Number is busy"
+#~ msgstr "Numărul este ocupat"
+
+#~ msgid "The number is currently busy. Please try again later."
+#~ msgstr "Numărul este în prezent ocupat. Te rugăm reîncearcă mai târziu."
+
+#~ msgid "FDN active"
+#~ msgstr "FDN activ"
+
+#~ msgid "Emergency number"
+#~ msgstr "Număr de urgență"
+
+#~ msgid "To make a call, the phone must be connected to a network."
+#~ msgstr ""
+#~ "Pentru a efectua un apel, telefonul trebuie să fie conectat la o rețea."
+
+#~ msgid "Emergency calls are not allowed by the network."
+#~ msgstr "Apelurile de urgență nu sunt permise de către rețea."
+
+#~ msgctxt "emergencyDialogBtnOk"
+#~ msgid "OK"
+#~ msgstr "Ok"
+
+#~ msgid "No network connection"
+#~ msgstr "Fără conexiune la rețea"
+
+#~ msgid "Invalid phone number"
+#~ msgstr "Număr de telefon incorect"
+
+#~ msgid "The phone number you are calling is not valid."
+#~ msgstr "Numărul de telefon pe care îl apelezi nu este valabil."
+
+#~ msgid "Unable to make a phone call now"
+#~ msgstr "Nu se poate efectua un apel telefonic acum"
+
+#~ msgid ""
+#~ "Cannot make a call. If you are already dialing, please hang up first."
+#~ msgstr ""
+#~ "Nu se poate efectua un apel. Dacă apelezi deja, te rugăm să închizi mai "
+#~ "întâi."
+
+#~ msgid "Other connection in use"
+#~ msgstr "Altă conexiune în uz"
+
+#~ msgid ""
+#~ "You have an active call on another connection. You can only use one "
+#~ "connection at a time."
+#~ msgstr ""
+#~ "Ai un apel activ pe altă conexiune. Poți folosi doar o conexiune în "
+#~ "același timp."
+
+#~ msgid ""
+#~ "This number is blocked as it is not in your list of authorized numbers."
+#~ msgstr ""
+#~ "Acest număr este blocat deoarece nu este în lista ta de numere autorizate."

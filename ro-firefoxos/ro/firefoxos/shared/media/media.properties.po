@@ -1,0 +1,71 @@
+#. extracted from ./shared/media/media.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-19 18:45+0000\n"
+"PO-Revision-Date: 2015-08-20 00:00+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"Language-Team: none\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1440028822.000000\n"
+"X-Pootle-Path: /ro/firefoxos/shared/media/media.properties.po\n"
+"X-Pootle-Revision: 64441\n"
+
+#. # Frame descriptions
+#: imageDescription
+msgid "{{orientation}} image, %I:%M %p, %B %e, %Y"
+msgstr "imagine {{orientation}}, %H:%M, %e %B %Y"
+
+#: imageDescriptionNoTimestamp
+msgid "{{orientation}} image"
+msgstr "imagine {{orientation}}"
+
+#: videoDescription
+msgid "{{orientation}} video, %I:%M %p, %B %e, %Y"
+msgstr "videoclip {{orientation}}, %H:%M, %e %B %Y"
+
+#: videoDescriptionNoTimestamp
+msgid "{{orientation}} video"
+msgstr "videoclip {{orientation}}"
+
+#: orientationPortrait
+msgid "portrait"
+msgstr "portret"
+
+#: orientationLandscape
+msgid "landscape"
+msgstr "pe orizontală"
+
+#. # Video controls
+#: playbackPlay.ariaLabel
+msgid "Play"
+msgstr "Redă"
+
+#: playbackPause.ariaLabel
+msgid "Pause"
+msgstr "Pauză"
+
+#: playbackNext.ariaLabel
+msgid "Next"
+msgstr "Următoarea"
+
+#: playbackPrevious.ariaLabel
+msgid "Previous"
+msgstr "Precedenta"
+
+#: playbackFullscreen.ariaLabel
+msgid "Fullscreen"
+msgstr "Ecran complet"
+
+#: playbackSeekBar.ariaLabel
+msgid "Seek bar, duration {{ duration }}"
+msgstr "Bară de căutare, durată {{ duration }}"

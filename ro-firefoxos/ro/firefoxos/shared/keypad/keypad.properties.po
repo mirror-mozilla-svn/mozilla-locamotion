@@ -1,0 +1,57 @@
+#. extracted from ./shared/keypad/keypad.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-05 15:45+0000\n"
+"PO-Revision-Date: 2015-03-22 15:36+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"Language-Team: none\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1427038610.000000\n"
+"X-Pootle-Path: /ro/firefoxos/shared/keypad/keypad.properties.po\n"
+"X-Pootle-Revision: 0\n"
+
+#: phoneNumberInput.ariaLabel
+msgid "Phone number"
+msgstr "Număr de telefon"
+
+#: keypadDelete.ariaLabel
+msgid "Delete"
+msgstr "Șterge"
+
+#: voiceMailKey.ariaLabel
+msgid "Voicemail"
+msgstr "Căsuță vocală"
+
+#: asterisk.ariaLabel
+msgid "Asterisk"
+msgstr "Asterisc"
+
+#: hashSign.ariaLabel
+msgid "Hash sign"
+msgstr "Diez"
+
+#: cancel
+msgid "Cancel"
+msgstr "Renunță"
+
+#: loadingSimContacts
+msgid "Loading SIM card contacts…"
+msgstr "Se încarcă contactele cardului SIM…"
+
+#: noContactsWereFound
+msgid "No contacts were found"
+msgstr "Nu s-a găsit niciun contact"
+
+#: noContactsFoundDialogOk
+msgid "OK"
+msgstr "Ok"

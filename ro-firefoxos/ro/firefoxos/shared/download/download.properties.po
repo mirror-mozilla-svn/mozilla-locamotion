@@ -1,0 +1,341 @@
+#. # Download UI
+#. extracted from ./shared/download/download.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-17 10:03+0100\n"
+"PO-Revision-Date: 2015-03-25 09:46+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1427276815.000000\n"
+"X-Pootle-Path: /ro/firefoxos/shared/download/download.properties.po\n"
+"X-Pootle-Revision: 0\n"
+
+#: stopped_download_title
+msgid "Download stopped"
+msgstr "Descărcare oprită"
+
+#: stopped_download_message
+msgid "Download was stopped. Try downloading again?"
+msgstr "Descărcarea a fost oprită. Încerci descărcarea din nou?"
+
+#: stopped_download_left_button
+msgctxt "stopped_download_left_button"
+msgid "Cancel"
+msgstr "Renunță"
+
+#: stopped_download_right_button
+msgctxt "stopped_download_right_button"
+msgid "Try again"
+msgstr "Încearcă din nou"
+
+#: failed_download_title
+msgctxt "failed_download_title"
+msgid "Download failed"
+msgstr "Descărcare eșuată"
+
+#: failed_download_message
+msgid "{{name}} failed to download. Try downloading again?"
+msgstr "A eșuat descărcarea lui {{name}}. Încerci să descarci din nou?"
+
+#: failed_download_left_button
+msgctxt "failed_download_left_button"
+msgid "Cancel"
+msgstr "Renunță"
+
+#: failed_download_right_button
+msgctxt "failed_download_right_button"
+msgid "Try again"
+msgstr "Încearcă din nou"
+
+#: stop_download_title
+msgid "Stop download"
+msgstr "Oprește descărcarea"
+
+#: stop_download_message
+msgid "Are you sure you want to stop the download?"
+msgstr "Sigur dorești să oprești descărcarea?"
+
+#: stop_download_left_button
+msgid "No"
+msgstr "Nu"
+
+#: stop_download_right_button
+msgid "Yes"
+msgstr "Da"
+
+#: delete_download_title
+msgctxt "delete_download_title"
+msgid "Delete"
+msgstr "Șterge"
+
+#: delete_download_message
+msgid "Delete {{name}}?"
+msgstr "Ștergi {{name}}?"
+
+#: delete_download_left_button
+msgctxt "delete_download_left_button"
+msgid "Cancel"
+msgstr "Renunță"
+
+#: delete_download_right_button
+msgctxt "delete_download_right_button"
+msgid "Delete"
+msgstr "Șterge"
+
+#: delete_all_download_title
+msgctxt "delete_all_download_title"
+msgid "Delete"
+msgstr "Șterge"
+
+#: delete_all_download_left_button
+msgctxt "delete_all_download_left_button"
+msgid "Cancel"
+msgstr "Renunță"
+
+#: delete_all_download_right_button
+msgctxt "delete_all_download_right_button"
+msgid "Delete"
+msgstr "Șterge"
+
+#. # LOCALIZATION NOTE: `number' will always be 2 or greater.
+#: delete_all_download_message
+msgid "{[ plural(number) ]}"
+msgstr "{[ plural(number) ]}"
+
+#: delete_all_download_message[zero]
+msgid "Delete no files?"
+msgstr "Nu ștergi niciun fișier?"
+
+#: delete_all_download_message[one]
+msgid "Delete one file?"
+msgstr "Ștergi un fișier?"
+
+#: delete_all_download_message[two]
+msgctxt "delete_all_download_message[two]"
+msgid "Delete {{number}} files?"
+msgstr "Ștergi {{number}} fișiere?"
+
+#: delete_all_download_message[few]
+msgctxt "delete_all_download_message[few]"
+msgid "Delete {{number}} files?"
+msgstr "Ștergi {{number}} fișiere?"
+
+#: delete_all_download_message[many]
+msgctxt "delete_all_download_message[many]"
+msgid "Delete {{number}} files?"
+msgstr "Ștergi {{number}} fișiere?"
+
+#: delete_all_download_message[other]
+msgctxt "delete_all_download_message[other]"
+msgid "Delete {{number}} files?"
+msgstr "Ștergi {{number}} fișiere?"
+
+#: unsupported_file_type_download_title
+msgctxt "unsupported_file_type_download_title"
+msgid "Unable to open"
+msgstr "Nu se poate deschide"
+
+#: unsupported_file_type_download_message
+msgid ""
+"There isn’t an app that can open {{name}}. Would you like to save the file "
+"or delete it?"
+msgstr ""
+"Nu există o aplicație care poate deschide {{name}}. Dorești să salvezi "
+"fișierul sau să-l ștergi?"
+
+#: unsupported_file_type_download_left_button
+msgctxt "unsupported_file_type_download_left_button"
+msgid "Keep File"
+msgstr "Păstrează fișierul"
+
+#: unsupported_file_type_download_right_button
+msgctxt "unsupported_file_type_download_right_button"
+msgid "Delete"
+msgstr "Șterge"
+
+#: file_not_found_download_title
+msgid "File not found"
+msgstr "Fișier negăsit"
+
+#: file_not_found_download_message
+msgid "The file wasn’t found on the device"
+msgstr "Fișierul nu a fost găsit pe dispozitiv"
+
+#: file_not_found_download_right_button
+msgctxt "file_not_found_download_right_button"
+msgid "OK"
+msgstr "Ok"
+
+#: unmounted_sdcard_2_download_title
+msgid "Memory card in use"
+msgstr "Card de memorie în uz"
+
+#: unmounted_sdcard_2_download_message
+msgid "Unplug the phone"
+msgstr "Deconectează telefonul"
+
+#: unmounted_sdcard_2_download_right_button
+msgctxt "unmounted_sdcard_2_download_right_button"
+msgid "OK"
+msgstr "Ok"
+
+#: no_provider_download_title
+msgid "Unable to share"
+msgstr "Nu se poate partaja"
+
+#: no_provider_download_message
+msgid "No provider found"
+msgstr "Niciun furnizor găsit"
+
+#: no_provider_download_right_button
+msgctxt "no_provider_download_right_button"
+msgid "OK"
+msgstr "Ok"
+
+#: no_memory_download_title
+msgid "SD Card is full"
+msgstr "Cardul SD e plin"
+
+#: no_memory_download_message
+msgid ""
+"There is no more room on your SD card to save your download. Please remove "
+"some files before restarting the download."
+msgstr ""
+"Nu mai ai loc pe cardul SD pentru a salva descărcarea. Te rugăm să ștergi "
+"niște fișiere înainte de a reporni descărcarea."
+
+#: no_memory_download_right_button
+msgctxt "no_memory_download_right_button"
+msgid "OK"
+msgstr "Ok"
+
+#: no_sdcard_found_2_download_title
+msgid "No memory card found"
+msgstr "Niciun card de memorie găsit"
+
+#: no_sdcard_found_2_download_message
+msgid ""
+"Insert a memory card or select an alternate default media location in "
+"settings"
+msgstr ""
+"Inserează un card de memorie sau selectează o locație media implicită "
+"alternativă din Setări"
+
+#: no_sdcard_found_2_download_right_button
+msgctxt "no_sdcard_found_2_download_right_button"
+msgid "OK"
+msgstr "Ok"
+
+#: file_open_error_download_title
+msgctxt "file_open_error_download_title"
+msgid "Unable to open"
+msgstr "Nu se poate deschide"
+
+#: file_open_error_download_message
+msgid ""
+"There is a problem opening {{name}}. Would you like to save the file or "
+"delete it?"
+msgstr ""
+"A apărut o eroare la deschiderea {{name}}. Dorești să salvezi fișierul sau "
+"să-l ștergi?"
+
+#: file_open_error_download_left_button
+msgctxt "file_open_error_download_left_button"
+msgid "Keep File"
+msgstr "Păstrează fișierul"
+
+#: file_open_error_download_right_button
+msgctxt "file_open_error_download_right_button"
+msgid "Delete"
+msgstr "Șterge"
+
+#: restart_download_error
+msgid ""
+"There was an error while restarting the download. Please try to download "
+"again."
+msgstr ""
+"A apărut o eroare la repornirea descărcării. Te rugăm să reîncerci "
+"descărcarea."
+
+#: no-downloads
+msgid "No downloads"
+msgstr "Nicio descărcare"
+
+#. # File sizes
+#: byteUnit-B
+msgid "B"
+msgstr "B"
+
+#: byteUnit-KB
+msgid "KB"
+msgstr "KB"
+
+#: byteUnit-MB
+msgid "MB"
+msgstr "MB"
+
+#: byteUnit-GB
+msgid "GB"
+msgstr "GB"
+
+#: byteUnit-TB
+msgid "TB"
+msgstr "TB"
+
+#: fileSize
+msgid "{{size}} {{unit}}"
+msgstr "{{size}} {{unit}}"
+
+#: percentage
+msgid "{{percentage}} %"
+msgstr "{{percentage}} %"
+
+#: partialResult
+msgid "{{partial}} of {{total}}"
+msgstr "{{partial}} din {{total}}"
+
+#: summary
+msgid "{{date}} - {{status}}"
+msgstr "{{date}} - {{status}}"
+
+#. # States
+#: download-stopped
+msgid "Stopped"
+msgstr "Oprită"
+
+#: download-failed
+msgctxt "download-failed"
+msgid "Download failed"
+msgstr "Descărcare eșuată"
+
+#: open_downloaded_file
+msgid "Open"
+msgstr "Deschide"
+
+#: share_downloaded_file
+msgid "Share"
+msgstr "Partajează"
+
+#: wallpaper_downloaded_file
+msgid "Set as wallpaper"
+msgstr "Setează ca fundal"
+
+#: ringtone_downloaded_file
+msgid "Set as ringtone"
+msgstr "Setează ca ton de apel"
+
+#: cancel_downloaded_file
+msgctxt "cancel_downloaded_file"
+msgid "Cancel"
+msgstr "Renunță"

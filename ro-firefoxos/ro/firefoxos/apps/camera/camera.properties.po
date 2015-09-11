@@ -1,0 +1,377 @@
+#. extracted from ./apps/camera/camera.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-27 07:48+0000\n"
+"PO-Revision-Date: 2015-03-27 10:44+0000\n"
+"Last-Translator: Raul Malea <raul.malea@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1427453097.000000\n"
+"X-Pootle-Path: /ro/firefoxos/apps/camera/camera.properties.po\n"
+"X-Pootle-Revision: 0\n"
+
+#: nospace2-title
+msgid "Not enough space on memory card"
+msgstr "Spațiu insuficient pe cardul de memorie"
+
+#: nospace2-text
+msgid "Try freeing up space by deleting media."
+msgstr "Încearcă să eliberezi spațiu ștergând conținut media."
+
+#: error-saving-title
+msgid "Picture not saved"
+msgstr "Fotografie nesalvată"
+
+#: error-saving-text
+msgid "An error prevented Camera from saving the picture."
+msgstr "O eroare a împiedicat camera să salveze fotografia."
+
+#: error-recording-title
+msgctxt "error-recording-title"
+msgid "Video not recorded"
+msgstr "Videoclip neînregistrat"
+
+#: error-recording-text
+msgid "An error prevented Camera from recording the video."
+msgstr "O eroare a împiedicat camera să înregistreze videoclipul."
+
+#: error-video-file-path-title
+msgctxt "error-video-file-path-title"
+msgid "Video not recorded"
+msgstr "Videoclip neînregistrat"
+
+#: error-video-file-path-text
+msgid "Error creating video file path."
+msgstr "Eroare la crearea căii pentru fișierul video."
+
+#: nocard2-title
+msgid "No memory card found"
+msgstr "Niciun card de memorie găsit"
+
+#: nocard3-text
+msgid "Insert a memory card to take pictures."
+msgstr "Inserează un card de memorie pentru a realiza fotografii."
+
+#: pluggedin2-title
+msgid "Camera can not be used while phone is plugged in"
+msgstr "Camera nu poate fi folosită cât timp dispozitivul e conectat"
+
+#: pluggedin2-text
+msgid "Unplug the phone to capture photos and videos"
+msgstr "Deconectează telefonul pentru a captura fotografii și videoclipuri"
+
+#: storage-size-limit-reached
+msgid "You have run out of media storage space."
+msgstr "Ai rămas fără spațiu de stocare media."
+
+#: activity-size-limit-reached
+msgid "You have reached the maximum file size for this attachment."
+msgstr "Ai atins mărimea maximă a fișierului pentru acest atașament."
+
+#: retake-button
+msgid "Retake"
+msgstr "Refotografiază"
+
+#: select-button
+msgid "Select"
+msgstr "Selectează"
+
+#: close-button
+msgctxt "close-button"
+msgid "Close"
+msgstr "Închide"
+
+#: delete-photo?
+msgid "Delete photo?"
+msgstr "Ștergi fotografia?"
+
+#: delete-video?
+msgid "Delete video?"
+msgstr "Ștergi videoclipul?"
+
+#: cancel
+msgid "Cancel"
+msgstr "Renunță"
+
+#: delete
+msgid "Delete"
+msgstr "Șterge"
+
+#. # LOCALIZATION NOTE(mp): MP stands for mega-pixels
+#: mp
+msgid "MP"
+msgstr "MP"
+
+#: camera-resolution
+msgid "Camera Resolution"
+msgstr "Rezoluție cameră"
+
+#. # LOCALIZATION NOTE (camera-resolution-header): if you leave the original
+#. # en-US value "{{camera-resolution}}" in the following string, the localization
+#. # will be automatically picked from the existing string with ID "camera-resolution".
+#. # If you need to adapt your localization to the reduced space available in
+#. # headers, you can use a shorter string here. The same comment is valid for
+#. # all -header strings using a {{variable}}.
+#: camera-resolution-header
+msgid "{{camera-resolution}}"
+msgstr "{{camera-resolution}}"
+
+#: video-resolution
+msgid "Video Resolution"
+msgstr "Rezoluție video"
+
+#: video-resolution-header
+msgid "{{video-resolution}}"
+msgstr "{{video-resolution}}"
+
+#: scene-mode
+msgid "Scene Mode"
+msgstr "Mod scenă"
+
+#: scene-mode-header
+msgid "{{scene-mode}}"
+msgstr "{{scene-mode}}"
+
+#: self-timer
+msgid "Self-Timer"
+msgstr "Temporizator"
+
+#: self-timer-header
+msgid "{{self-timer}}"
+msgstr "{{self-timer}}"
+
+#: self-timer-off
+msgctxt "self-timer-off"
+msgid "Off"
+msgstr "Dezactivat"
+
+#: self-timer-2-seconds
+msgid "2 seconds"
+msgstr "2 secunde"
+
+#: self-timer-5-seconds
+msgid "5 seconds"
+msgstr "5 secunde"
+
+#: self-timer-10-seconds
+msgid "10 seconds"
+msgstr "10 secunde"
+
+#: battery-shutdown-title
+msgid "Low Battery"
+msgstr "Baterie descărcată"
+
+#: battery-shutdown-text
+msgid "The battery is too low to use the camera."
+msgstr "Bateria este prea slabă pentru a folosi camera."
+
+#: battery-critical-text
+msgid "Critically low battery"
+msgstr "Baterie extrem de descărcată"
+
+#: battery-verylow-text
+msgid "10% battery remaining"
+msgstr "10% baterie rămasă"
+
+#: battery-low-text
+msgid "15% battery remaining"
+msgstr "15% baterie rămasă"
+
+#: camera-unavailable-title
+msgid "Camera Unavailable"
+msgstr "Cameră indisponibilă"
+
+#: camera-unavailable-text
+msgid "The camera is in use by another app."
+msgstr "Camera este folosită de o altă aplicație."
+
+#: hdr
+msgid "HDR"
+msgstr "HDR"
+
+#: hdr-header
+msgid "{{hdr}}"
+msgstr "{{hdr}}"
+
+#: hdr-on
+msgctxt "hdr-on"
+msgid "On"
+msgstr "Activat"
+
+#: hdr-off
+msgctxt "hdr-off"
+msgid "Off"
+msgstr "Dezactivat"
+
+#: hdr-deactivated
+msgid "(HDR deactivated)"
+msgstr "(HDR dezactivat)"
+
+#: grid
+msgid "Grid Lines"
+msgstr "Linii de grilă"
+
+#: grid-header
+msgid "{{grid}}"
+msgstr "{{grid}}"
+
+#: grid-on
+msgctxt "grid-on"
+msgid "On"
+msgstr "Activat"
+
+#: grid-off
+msgctxt "grid-off"
+msgid "Off"
+msgstr "Dezactivat"
+
+#: flash
+msgid "Flash"
+msgstr "Bliț"
+
+#: flash-on
+msgctxt "flash-on"
+msgid "On"
+msgstr "Activat"
+
+#: flash-off
+msgctxt "flash-off"
+msgid "Off"
+msgstr "Dezactivat"
+
+#: flash-auto
+msgid "Auto"
+msgstr "Automat"
+
+#: flash-deactivated
+msgid "(Flash deactivated)"
+msgstr "(Bliț dezactivat)"
+
+#: Photo-Mode
+msgid "Photo Mode"
+msgstr "Mod foto"
+
+#: Video-Mode
+msgid "Video Mode"
+msgstr "Mod video"
+
+#: options
+msgid "Options"
+msgstr "Opțiuni"
+
+#: open-gallery
+msgid "Open Gallery"
+msgstr "Deschide Galerie"
+
+#: preview
+msgctxt "preview"
+msgid "Preview"
+msgstr "Previzualizează"
+
+#. # The following strings are spoken by screen readers and not shown on the
+#. # screen.
+#: close-menu-button.ariaLabel
+msgid "Close menu"
+msgstr "Închide meniul"
+
+#: back-button.ariaLabel
+msgid "Back"
+msgstr "Înapoi"
+
+#: setting-option.ariaLabel
+msgid "{{value}}"
+msgstr "{{value}}"
+
+#: setting-option-hdr.ariaLabel
+msgid "HDR {{value}}"
+msgstr "HDR {{value}}"
+
+#: setting-option-self-timer.ariaLabel
+msgid "Self-Timer {{value}}"
+msgstr "Temporizator {{value}}"
+
+#: setting-option-grid.ariaLabel
+msgid "Grid Lines {{value}}"
+msgstr "Linii de grilă {{value}}"
+
+#: setting-option-scene-mode.ariaLabel
+msgid "Scene Mode {{value}}"
+msgstr "Mod scenă {{value}}"
+
+#: setting-option-camera-resolution.ariaLabel
+msgid "Camera Resolution {{value}}"
+msgstr "Rezoluție cameră {{value}}"
+
+#: setting-option-video-resolution.ariaLabel
+msgid "Video Resolution {{value}}"
+msgstr "Rezoluție video {{value}}"
+
+#: flash-on-button.ariaLabel
+msgid "Flash On"
+msgstr "Flash activat"
+
+#: flash-off-button.ariaLabel
+msgid "Flash Off"
+msgstr "Flash dezactivat"
+
+#: flash-auto-button.ariaLabel
+msgid "Flash Auto"
+msgstr "Flash auto"
+
+#: toggle-camera-rear-button.ariaLabel
+msgid "Rear camera"
+msgstr "Cameră spate"
+
+#: toggle-camera-front-button.ariaLabel
+msgid "Front camera"
+msgstr "Cameră față"
+
+#: menu-button.ariaLabel
+msgid "Menu"
+msgstr "Meniu"
+
+#: preview-button.ariaLabel
+msgctxt "preview-button.ariaLabel"
+msgid "Preview"
+msgstr "Previzualizează"
+
+#: controls-button-close.ariaLabel
+msgctxt "controls-button-close.ariaLabel"
+msgid "Close"
+msgstr "Închide"
+
+#: share-button.ariaLabel
+msgid "Share"
+msgstr "Partajare"
+
+#: more-button.ariaLabel
+msgid "More"
+msgstr "Mai mult"
+
+#: media-frame.ariaLabel
+msgid "Frame {{current}} of {{total}}"
+msgstr "Cadrul {{current}} din {{total}}"
+
+#: media-frame.ariaMozHint
+msgid ""
+"Swipe left with 2 fingers to jump to next, or swipe right to jump to previous"
+msgstr ""
+"Glisați spre stânga cu 2 degete pentru a trece la următoarea sau glisați "
+"spre dreapta pentru a trece la precedenta"
+
+#~ msgctxt "close-button.ariaLabel"
+#~ msgid "Close"
+#~ msgstr "Închide"
+
+#~ msgid "Unplug the phone to view pictures."
+#~ msgstr "Deconectează telefonul pentru a vedea fotografii."

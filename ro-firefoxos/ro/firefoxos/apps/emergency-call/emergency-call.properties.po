@@ -1,0 +1,51 @@
+#. extracted from ./apps/emergency-call/emergency-call.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-03 10:18+0000\n"
+"PO-Revision-Date: 2015-03-07 12:19+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"Language-Team: none\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1425730799.000000\n"
+"X-Pootle-Path: /ro/firefoxos/apps/emergency-call/emergency-call.properties."
+"po\n"
+"X-Pootle-Revision: 0\n"
+
+#. # emergency call on lockscreen
+#: error
+msgid "Error"
+msgstr "Eroare"
+
+#: ok
+msgid "OK"
+msgstr "Ok"
+
+#: cancel
+msgid "Cancel"
+msgstr "Renunță"
+
+#: emergency-call-only
+msgid "Emergency Call Only"
+msgstr "Doar apel de urgență"
+
+#: emergency-call-error
+msgid "{{ number }} is not an emergency number."
+msgstr "{{ number }} nu este un număr de urgență."
+
+#: ice-contacts-bar-text
+msgid "ICE Contacts - In Case of Emergency"
+msgstr "Contacte ICE - În caz de urgență"
+
+#: ice-contacts-overlay-title
+msgid "ICE Contacts"
+msgstr "Contacte ICE"
