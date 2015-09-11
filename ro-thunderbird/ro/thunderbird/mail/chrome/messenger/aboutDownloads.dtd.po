@@ -1,0 +1,56 @@
+#. extracted from ./mail/chrome/messenger/aboutDownloads.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: l 10n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-24 01:00+0000\n"
+"PO-Revision-Date: 2015-03-01 19:09+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"Language-Team: none\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1425236990.000000\n"
+"X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/aboutDownloads.dtd.po\n"
+"X-Pootle-Revision: 0\n"
+
+#. This Source Code Form is subject to the terms of the Mozilla Public
+#. - License, v. 2.0. If a copy of the MPL was not distributed with this
+#. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#: aboutDownloads.title
+msgid "Saved Files"
+msgstr "Fișiere salvate"
+
+#: aboutDownloads.empty
+msgid "No Saved Files"
+msgstr "Niciun fișier salvat"
+
+#. LOCALIZATION NOTE (cmd.show.label, cmd.show.accesskey, cmd.showMac.label,
+#. cmd.showMac.accesskey):
+#. The show and showMac commands are never shown together, thus they can share
+#. the same access key (though the two access keys can also be different).
+#: cmd.show.label cmd.show.accesskey
+msgid "Open Containing &Folder"
+msgstr "Deschide &dosarul conținător"
+
+#: cmd.showMac.label cmd.showMac.accesskey
+msgid "Show In &Finder"
+msgstr "Arată în &Finder"
+
+#: cmd.open.label cmd.open.accesskey
+msgid "&Open"
+msgstr "&Deschide"
+
+#: cmd.removeFromHistory.label cmd.removeFromHistory.accesskey
+msgid "R&emove From History"
+msgstr "Înlătu&ră din istoric"
+
+#: cmd.clearDownloads.label cmd.clearDownloads.accesskey
+msgid "Clear &Downloads"
+msgstr "Curăță &descărcările"
