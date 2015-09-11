@@ -1,0 +1,1083 @@
+#. extracted from ./apps/communications/contacts/contacts.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-19 13:37+0000\n"
+"PO-Revision-Date: 2015-07-21 10:06+0000\n"
+"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1437473209.000000\n"
+"X-Pootle-Path: "
+"/ro/firefoxos_2.1/apps/communications/contacts/contacts.properties.po\n"
+"X-Pootle-Revision: 0\n"
+
+#: call
+msgctxt "call"
+msgid "Call"
+msgstr "Apelează"
+
+#: edit
+msgctxt "edit"
+msgid "Edit"
+msgstr "Editează"
+
+#: cancel
+msgid "Cancel"
+msgstr "Renunță"
+
+#: done
+msgid "Done"
+msgstr "Gata"
+
+#: ok
+msgid "OK"
+msgstr "Ok"
+
+#: update
+msgid "Update"
+msgstr "Actualizează"
+
+#: retry
+msgid "Retry"
+msgstr "Reîncearcă"
+
+#. # Menus and dialog strings
+#: contacts
+msgctxt "contacts"
+msgid "Contacts"
+msgstr "Contacte"
+
+#: addContact
+msgid "Add contact"
+msgstr "Adaugă contact"
+
+#: deleteContact
+msgid "Delete contact"
+msgstr "Șterge contactul"
+
+#: selectContact
+msgid "Select contact"
+msgstr "Selectează contactul"
+
+#: selectAll
+msgid "Select all"
+msgstr "Selectează tot"
+
+#: deselectAll
+msgid "Deselect all"
+msgstr "Deselectează tot"
+
+#: editContact
+msgid "Edit contact"
+msgstr "Editează contactul"
+
+#: deleteConfirmMsg
+msgid "Delete contact?"
+msgstr "Ștergi contactul?"
+
+#: remove
+msgctxt "remove"
+msgid "Remove"
+msgstr "Elimină"
+
+#: delete
+msgctxt "delete"
+msgid "Delete"
+msgstr "Șterge"
+
+#: comments
+msgid "Comments"
+msgstr "Comentarii"
+
+#: no_contact_phones
+msgid "This contact does not have a phone number"
+msgstr "Acest contact nu are un număr de telefon"
+
+#: no_contact_email
+msgid "This contact does not have an email address"
+msgstr "Acest contact nu are o adresă de e-mail"
+
+#: no_contact_data
+msgid "This contact does not have a phone number and email address"
+msgstr "Acest contact nu are un număr de telefon și o adresă de e-mail"
+
+#: removePhotoConfirm
+msgid "Remove contact picture?"
+msgstr "Elimini fotografia de contact?"
+
+#: loadingContacts
+msgid "Loading contacts…"
+msgstr "Se încarcă contactele…"
+
+#. # LOCALIZATION NOTE(noContactsActivity): Shown when using the context menu to add
+#. # a number from your call list to a contact, and your contacts list is empty.
+#: noContactsActivity
+msgid "Cannot add to contact as your contact list is empty"
+msgstr "Nu se poate adăuga la contact fiindcă lista de contacte este goală"
+
+#. # Contact fields
+#: noName
+msgid "No name"
+msgstr "Niciun nume"
+
+#: givenName.placeholder
+msgid "Name"
+msgstr "Nume"
+
+#: familyName.placeholder
+msgid "Last name"
+msgstr "Nume"
+
+#: tel.placeholder
+msgctxt "tel.placeholder"
+msgid "Phone"
+msgstr "Telefon"
+
+#: carrier
+msgctxt "carrier"
+msgid "Carrier"
+msgstr "Operator"
+
+#: separator
+msgid ","
+msgstr ","
+
+#: carrier.placeholder
+msgctxt "carrier.placeholder"
+msgid "Carrier"
+msgstr "Operator"
+
+#: email
+msgctxt "email"
+msgid "Email"
+msgstr "E-mail"
+
+#: email.placeholder
+msgctxt "email.placeholder"
+msgid "Email"
+msgstr "E-mail"
+
+#: streetAddress.placeholder
+msgid "Street"
+msgstr "Stradă"
+
+#: postalCode.placeholder
+msgid "Zip code"
+msgstr "Cod poștal"
+
+#: locality.placeholder
+msgid "City"
+msgstr "Oraș"
+
+#: countryName.placeholder
+msgid "Country"
+msgstr "Țară"
+
+#: comment.placeholder
+msgid "Comment"
+msgstr "Comentariu"
+
+#: org.placeholder
+msgid "Company"
+msgstr "Companie"
+
+#: date
+msgctxt "date"
+msgid "Date"
+msgstr "Dată"
+
+#: date-span-placeholder
+msgctxt "date-span-placeholder"
+msgid "Date"
+msgstr "Dată"
+
+#: date.placeholder
+msgctxt "date.placeholder"
+msgid "Date"
+msgstr "Dată"
+
+#: birthday
+msgid "Birthday"
+msgstr "Zi de naștere"
+
+#. # see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
+#: dateFormat
+msgid "%B %e"
+msgstr "%e %B"
+
+#: dateOutput
+msgid "{{dayMonthFormatted}} {{year}}"
+msgstr "{{dayMonthFormatted}} {{year}}"
+
+#: anniversary
+msgid "Anniversary"
+msgstr "Aniversare"
+
+#. # Contact action buttons
+#: addPhoto
+msgid "Add Picture"
+msgstr "Adaugă fotografie"
+
+#: addPhone
+msgid "Add Phone"
+msgstr "Adaugă telefon"
+
+#: addEmail
+msgid "Add Email"
+msgstr "Adaugă e-mail"
+
+#: addAddress
+msgid "Add Address"
+msgstr "Adaugă adresă"
+
+#: addDate
+msgid "Add Date"
+msgstr "Adaugă dată"
+
+#: addComment
+msgid "Add Comment"
+msgstr "Adaugă comentariu"
+
+#: addFavorite
+msgid "Add as Favorite"
+msgstr "Adaugă ca favorit"
+
+#: removeFavorite
+msgid "Remove as Favorite"
+msgstr "Elimină din favoriți"
+
+#. # The following strings are spoken by screen readers and not shown on the
+#. # screen.
+#: addButton.ariaLabel
+msgid "Add"
+msgstr "Adaugă"
+
+#: editButton.ariaLabel
+msgctxt "editButton.ariaLabel"
+msgid "Edit"
+msgstr "Editează"
+
+#: settingsButton.ariaLabel
+msgid "Settings"
+msgstr "Setări"
+
+#: phoneDetail.ariaLabel
+msgctxt "phoneDetail.ariaLabel"
+msgid "Phone"
+msgstr "Telefon"
+
+#: emailDetail.ariaLabel
+msgctxt "emailDetail.ariaLabel"
+msgid "Email"
+msgstr "E-mail"
+
+#: addressDetail.ariaLabel
+msgctxt "addressDetail.ariaLabel"
+msgid "Address"
+msgstr "Adresă"
+
+#: dateDetail.ariaLabel
+msgctxt "dateDetail.ariaLabel"
+msgid "Date"
+msgstr "Dată"
+
+#: composeEmail.ariaLabel
+msgctxt "composeEmail.ariaLabel"
+msgid "Email"
+msgstr "E-mail"
+
+#: makeCall.ariaLabel
+msgctxt "makeCall.ariaLabel"
+msgid "Call"
+msgstr "Apelează"
+
+#: phones.ariaLabel
+msgid "Phones"
+msgstr "Telefoane"
+
+#: emails.ariaLabel
+msgid "Emails"
+msgstr "E-mailuri"
+
+#: addresses.ariaLabel
+msgid "Addresses"
+msgstr "Adrese"
+
+#: dates.ariaLabel
+msgid "Dates"
+msgstr "Date"
+
+#: notes.ariaLabel
+msgid "Notes"
+msgstr "Notițe"
+
+#: exit
+msgid "Exit"
+msgstr "Ieși"
+
+#: expand
+msgid "Expand"
+msgstr "Extinde"
+
+#: labelName
+msgid "Name:"
+msgstr "Prenume:"
+
+#: labelLastName
+msgid "Last name:"
+msgstr "Nume:"
+
+#: labelPhoneNumber
+msgid "Phone number:"
+msgstr "Număr de telefon:"
+
+#: labelCarrier
+msgid "Carrier:"
+msgstr "Operator:"
+
+#: labelEmail
+msgid "Email:"
+msgstr "E-mail:"
+
+#: labelStreet
+msgid "Street:"
+msgstr "Stradă:"
+
+#: labelZip
+msgid "Zip code:"
+msgstr "Cod poștal:"
+
+#: labelCity
+msgid "City:"
+msgstr "Oraș:"
+
+#: labelCountry
+msgid "Country:"
+msgstr "Țară:"
+
+#: labelComment
+msgid "Comment:"
+msgstr "Comentariu:"
+
+#: legendTitleMain
+msgid "Main information"
+msgstr "Informații de bază"
+
+#: legendPhones
+msgid "Phone numbers"
+msgstr "Numere de telefon"
+
+#: legendEmail
+msgid "Email address"
+msgstr "Adresă de e-mail"
+
+#: legendAddress
+msgctxt "legendAddress"
+msgid "Address"
+msgstr "Adresă"
+
+#. # search related
+#: search-contact.placeholder
+msgid "Search"
+msgstr "Caută"
+
+#: noResults
+msgid "No contacts found"
+msgstr "Niciun contact găsit"
+
+#: transferContactsTitle
+msgid "Transfer Contacts"
+msgstr "Transferă contacte"
+
+#: importContactsTitle
+msgctxt "importContactsTitle"
+msgid "Import Contacts"
+msgstr "Importă contacte"
+
+#: importContactsButton
+msgctxt "importContactsButton"
+msgid "Import Contacts"
+msgstr "Importă contacte"
+
+#: exportContactsTitle
+msgctxt "exportContactsTitle"
+msgid "Export Contacts"
+msgstr "Exportă contacte"
+
+#: exportContactsButton
+msgctxt "exportContactsButton"
+msgid "Export Contacts"
+msgstr "Exportă contacte"
+
+#: exportContactsAction
+msgid "Export"
+msgstr "Exportă"
+
+#. # Export
+#: simExport-title
+msgid "Export to SIM"
+msgstr "Exportă în SIM"
+
+#: sdExport-title
+msgid "Export to SD Card"
+msgstr "Exportă în cardul SD"
+
+#: btExport-title
+msgid "Export to Bluetooth"
+msgstr "Exportă în Bluetooth"
+
+#: sdUMSEnabled
+msgid "Cannot use SD Card because USB storage is enabled"
+msgstr "Nu se poate folosi cardul SD deoarece stocarea USB e activată"
+
+#: exportErrorTitle
+msgid "Export error"
+msgstr "Eroare la exportare"
+
+#: contactsExported2
+msgid "{[ plural(exported) ]}"
+msgstr "{[ plural(exported) ]}"
+
+#: contactsExported2[zero]
+msgid "No contacts exported"
+msgstr "Niciun contact exportat"
+
+#: contactsExported2[one]
+msgctxt "contactsExported2[one]"
+msgid "{{exported}}/{{total}} contacts exported"
+msgstr "{{exported}}/{{total}} contacte exportate"
+
+#: contactsExported2[two]
+msgctxt "contactsExported2[two]"
+msgid "{{exported}}/{{total}} contacts exported"
+msgstr "{{exported}}/{{total}} contacte exportate"
+
+#: contactsExported2[few]
+msgctxt "contactsExported2[few]"
+msgid "{{exported}}/{{total}} contacts exported"
+msgstr "{{exported}}/{{total}} contacte exportate"
+
+#: contactsExported2[many]
+msgctxt "contactsExported2[many]"
+msgid "{{exported}}/{{total}} contacts exported"
+msgstr "{{exported}}/{{total}} contacte exportate"
+
+#: contactsExported2[other]
+msgctxt "contactsExported2[other]"
+msgid "{{exported}}/{{total}} contacts exported"
+msgstr "{{exported}}/{{total}} contacte exportate"
+
+#: exportError-general
+msgid "Some error happened while exporting"
+msgstr "S-a produs o eroare la exportare"
+
+#: exportError-SD-shared
+msgctxt "exportError-SD-shared"
+msgid "Can’t access memory card because it’s shared"
+msgstr "Nu se poate accesa cardul de memorie deoarece este partajat"
+
+#: exportError-SD-unavailable
+msgctxt "exportError-SD-unavailable"
+msgid "Memory card is not available"
+msgstr "Cardul de memorie este indisponibil"
+
+#: exportError-SD-noSpace
+msgctxt "exportError-SD-noSpace"
+msgid "There’s not enough space on the memory card to export the contacts"
+msgstr ""
+"Nu există spațiu suficient pe cardul de memorie pentru a exporta contactele"
+
+#: exportError-SIM-unavailable
+msgid "SIM card is not available"
+msgstr "Cartela SIM este indisponibilă"
+
+#: exportError-BT-shared
+msgctxt "exportError-BT-shared"
+msgid "Can’t access memory card because it’s shared"
+msgstr "Nu se poate accesa cardul de memorie deoarece este partajat"
+
+#: exportError-BT-unavailable
+msgctxt "exportError-BT-unavailable"
+msgid "Memory card is not available"
+msgstr "Cardul de memorie este indisponibil"
+
+#: exportError-BT-noSpace
+msgctxt "exportError-BT-noSpace"
+msgid "There’s not enough space on the memory card to export the contacts"
+msgstr ""
+"Nu există spațiu suficient pe cardul de memorie pentru a exporta contactele"
+
+#. # Social networks
+#: social-network
+msgid "Social networks"
+msgstr "Rețele sociale"
+
+#: social-link
+msgid "Link contact"
+msgstr "Leagă contactul"
+
+#: social-unlink
+msgid "Unlink contact"
+msgstr "Dezleagă contactul"
+
+#: social-unlink-confirm-title
+msgid "Do you want to unlink your friend?"
+msgstr "Dorești să dezlegi prietenul tău?"
+
+#: social-unlink-confirm-accept
+msgid "Unlink"
+msgstr "Dezleagă"
+
+#: facebook-import
+msgid "Import Facebook friends"
+msgstr "Importă prietenii de pe Facebook"
+
+#: show-fb-profile
+msgid "View Facebook profile"
+msgstr "Vezi profilul de Facebook"
+
+#: msg-send
+msgid "Message"
+msgstr "Mesaj"
+
+#: wall-post
+msgid "Wall post"
+msgstr "Postare pe perete"
+
+#: facebook-export-forbidden
+msgid "The contact cannot be shared due to Facebook constraint."
+msgstr "Contactul nu poate fi partajat datorită constrângerilor Facebook."
+
+#: otherAccount
+msgid "Other accounts"
+msgstr "Alte conturi"
+
+#: facebookSwitchMsg
+msgid "Sync friends"
+msgstr "Sincronizează amicii"
+
+#. # value selector
+#: select_mobile
+msgid "Select mobile"
+msgstr "Selectează mobilul"
+
+#: select_email
+msgid "Select email"
+msgstr "Selectează e-mailul"
+
+#: select_recipient
+msgid "Select recipient"
+msgstr "Selectează destinatarul"
+
+#. # Settings related
+#: contactsOrderBy
+msgid "Order by last name"
+msgstr "Ordonează după nume"
+
+#: importSim2
+msgctxt "importSim2"
+msgid "SIM card"
+msgstr "Cartelă SIM"
+
+#: importGmail
+msgid "Gmail"
+msgstr "Gmail"
+
+#: bluetooth
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: importOutlook
+msgid "Outlook"
+msgstr "Outlook"
+
+#: fbUpdateFriends
+msgid "Update imported friends"
+msgstr "Actualizează prietenii importați"
+
+#: cleaningFbData
+msgid "Removing Facebook data"
+msgstr "Se elimină datele de Facebook"
+
+#: loggingOutFb
+msgid "Logging out from Facebook"
+msgstr "Deconectare de la Facebook"
+
+#: cleanFbConfirmMsg
+msgid "Remove all Facebook data?"
+msgstr "Elimini toate datele de Facebook?"
+
+#: renewPwdMsg
+msgid "Your password in Facebook has changed. Please, update it."
+msgstr "Parola ta pe Facebook s-a schimbat. Te rugăm să o actualizezi."
+
+#: notEnabledYet
+msgid "Not enabled yet"
+msgstr "Neactivat încă"
+
+#: genericNoConnection
+msgid "To import contacts connect to Wi-Fi or data network"
+msgstr ""
+"Pentru a importa contacte conectează-te la o rețea Wi-Fi sau rețea de date"
+
+#. # Used for export, just in case the strings will diverge on time
+#: simCard
+msgctxt "simCard"
+msgid "SIM card"
+msgstr "Cartelă SIM"
+
+#: memoryCard
+msgid "Memory card"
+msgstr "Card de memorie"
+
+#: simNumber
+msgid "SIM {{number}}"
+msgstr "SIM {{number}}"
+
+#. # ICE Contacts
+#: setICEButton
+msgid "Set ICE Contacts"
+msgstr "Setează contacte ICE"
+
+#: ICESettingTitle
+msgctxt "ICESettingTitle"
+msgid "ICE Contacts"
+msgstr "Contacte ICE"
+
+#: ICEDescription
+msgid "Add two contacts for making “In Case of Emergency” calls."
+msgstr "Adaugă două contacte pentru apeluri „În caz de urgență”."
+
+#: ICEContact1
+msgid "ICE Contact 1"
+msgstr "Contact ICE 1"
+
+#: ICESelectContact
+msgid "Select a contact"
+msgstr "Selectează un contact"
+
+#: ICEContact2
+msgid "ICE Contact 2"
+msgstr "Contact ICE 2"
+
+#. # No contacts
+#: no-contacts
+msgid "No contacts"
+msgstr "Niciun contact"
+
+#: start-adding
+msgid "Start adding them now"
+msgstr "Începe adăugarea lor acum"
+
+#: notImported
+msgid "Not imported"
+msgstr "Neimportate"
+
+#: imported
+msgid "Imported"
+msgstr "Importate"
+
+#: today
+msgid "Today"
+msgstr "Astăzi"
+
+#: yesterday
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: messageCanceling
+msgid "Please hold on. We are canceling the ongoing operation."
+msgstr "Te rugăm să aștepți. Anulăm operația în curs de desfășurare."
+
+#: organise-contacts
+msgid "Organize Contacts"
+msgstr "Organizează contactele"
+
+#: find-merge-contacts
+msgid "Find duplicate contacts"
+msgstr "Găsește contacte duplicate"
+
+#: preparing-contacts
+msgid "Preparing contacts"
+msgstr "Pregătirea contactelor"
+
+#: exportError-SIM-NoFreeRecordFound
+msgid "SIM Card is full"
+msgstr "Cartela SIM este plină"
+
+#: exportError-SIM-CannotAccessPhoneBook
+msgid "Cannot access SIM card’s phone book"
+msgstr "Nu se poate accesa agenda telefonică SIM"
+
+#: exportError-SIM-Unavailable
+msgid "No SIM detected"
+msgstr "Niciun SIM detectat"
+
+#: exportError-SIM-GenericError
+msgid "An error occurred while exporting a contact"
+msgstr "A apărut o eroare la exportarea unui contact"
+
+#: noSimMsgExport
+msgid "To export contacts insert or unlock your SIM card"
+msgstr "Pentru a exporta contacte inserează sau deblochează cartela SIM"
+
+#: noMemoryCardMsgExport
+msgid "To export contacts insert a memory card"
+msgstr "Pentru a exporta contacte inserează un card de memorie"
+
+#: ContactManagementTitle
+msgid "Contacts Management"
+msgstr "Gestionarea contactelor"
+
+#: DeleteTitle
+msgctxt "DeleteTitle"
+msgid "Delete"
+msgstr "Șterge"
+
+#: bulkDeleteButton
+msgid "Delete Contacts"
+msgstr "Șterge contacte"
+
+#: BulkDelCancel
+msgid "Contacts delete cancelled"
+msgstr "Ștergerea contactelor anulată"
+
+#: DeletedTxt
+msgctxt "DeletedTxt"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: DeletedTxt[zero]
+msgctxt "DeletedTxt[zero]"
+msgid "No Contact to Delete"
+msgstr "Niciun contact de șters"
+
+#: DeletedTxt[one]
+msgid "1 Contact removed"
+msgstr "1 contact eliminat"
+
+#: DeletedTxt[two]
+msgctxt "DeletedTxt[two]"
+msgid "{{n}} Contacts removed"
+msgstr "{{n}} contacte eliminate"
+
+#: DeletedTxt[few]
+msgctxt "DeletedTxt[few]"
+msgid "{{n}} Contacts removed"
+msgstr "{{n}} contacte eliminate"
+
+#: DeletedTxt[many]
+msgctxt "DeletedTxt[many]"
+msgid "{{n}} Contacts removed"
+msgstr "{{n}} contacte eliminate"
+
+#: DeletedTxt[other]
+msgctxt "DeletedTxt[other]"
+msgid "{{n}} Contacts removed"
+msgstr "{{n}} contacte eliminate"
+
+#: DeletingContacts
+msgid "Deleting contacts"
+msgstr "Ștergerea contactelor"
+
+#: ContactConfirmDel
+msgctxt "ContactConfirmDel"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: ContactConfirmDel[zero]
+msgctxt "ContactConfirmDel[zero]"
+msgid "No Contact to Delete"
+msgstr "Niciun contact de șters"
+
+#: ContactConfirmDel[one]
+msgid "Delete 1 Contact? This cannot be undone."
+msgstr "Ștergi 1 contact? Acest lucru nu poate fi anulat."
+
+#: ContactConfirmDel[two]
+msgctxt "ContactConfirmDel[two]"
+msgid "Delete {{n}} Contacts? This cannot be undone."
+msgstr "Ștergi {{n}} contacte? Acest lucru nu poate fi anulat."
+
+#: ContactConfirmDel[few]
+msgctxt "ContactConfirmDel[few]"
+msgid "Delete {{n}} Contacts? This cannot be undone."
+msgstr "Ștergi {{n}} contacte? Acest lucru nu poate fi anulat."
+
+#: ContactConfirmDel[many]
+msgctxt "ContactConfirmDel[many]"
+msgid "Delete {{n}} Contacts? This cannot be undone."
+msgstr "Ștergi {{n}} contacte? Acest lucru nu poate fi anulat."
+
+#: ContactConfirmDel[other]
+msgctxt "ContactConfirmDel[other]"
+msgid "Delete {{n}} Contacts? This cannot be undone."
+msgstr "Ștergi {{n}} contacte? Acest lucru nu poate fi anulat."
+
+#: SelectedTxt
+msgctxt "SelectedTxt"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: SelectedTxt[zero]
+msgctxt "SelectedTxt[zero]"
+msgid "Contacts"
+msgstr "Contacte"
+
+#: SelectedTxt[one]
+msgctxt "SelectedTxt[one]"
+msgid "{{n}} selected"
+msgstr "{{n}} selectat"
+
+#: SelectedTxt[two]
+msgctxt "SelectedTxt[two]"
+msgid "{{n}} selected"
+msgstr "{{n}} selectate"
+
+#: SelectedTxt[few]
+msgctxt "SelectedTxt[few]"
+msgid "{{n}} selected"
+msgstr "{{n}} selectate"
+
+#: SelectedTxt[many]
+msgctxt "SelectedTxt[many]"
+msgid "{{n}} selected"
+msgstr "{{n}} selectate"
+
+#: SelectedTxt[other]
+msgctxt "SelectedTxt[other]"
+msgid "{{n}} selected"
+msgstr "{{n}} selectate"
+
+#. # WebRTC App
+#: video
+msgid "Video"
+msgstr "Video"
+
+#: audio
+msgid "Audio"
+msgstr "Audio"
+
+#. # Pick Destination
+#: pick_destination
+msgid "{{ destination }} {{ carrier }}"
+msgstr "{{ destination }} {{ carrier }}"
+
+#. # The following strings are spoken by screen readers and not shown on the
+#. # screen.
+#: removeField.ariaLabel
+msgctxt "removeField.ariaLabel"
+msgid "Remove"
+msgstr "Elimină"
+
+#: undo.ariaLabel
+msgid "Undo"
+msgstr "Anulează"
+
+#: send-sms-button.ariaLabel
+msgid "SMS"
+msgstr "SMS"
+
+#. # In Case of Emergency contacts (ICE)
+#: ice_contacts
+msgctxt "ice_contacts"
+msgid "ICE Contacts"
+msgstr "Contacte ICE"
+
+#: edit-picture
+msgid "Edit Picture"
+msgstr "Editează fotografie"
+
+#: remove-photo
+msgid "Remove photo"
+msgstr "Elimină fotografia"
+
+#: change-photo
+msgid "Change photo"
+msgstr "Schimbă fotografia"
+
+#: photo-options
+msgid "Photo options"
+msgstr "Opțiuni pentru fotografie"
+
+#~ msgid "Create a new contact"
+#~ msgstr "Crează un contact nou"
+
+#~ msgid "Import your contacts from SIM card or Facebook"
+#~ msgstr "Importă contactele tale de pe cartela SIM sau Facebook"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizat"
+
+#~ msgid "Label"
+#~ msgstr "Etichetă"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobil"
+
+#~ msgid "Home"
+#~ msgstr "Acasă"
+
+#~ msgid "Work"
+#~ msgstr "Serviciu"
+
+#~ msgid "Personal"
+#~ msgstr "Personal"
+
+#~ msgid "Fax home"
+#~ msgstr "Acasă fax"
+
+#~ msgid "Fax office"
+#~ msgstr "Birou fax"
+
+#~ msgid "Fax other"
+#~ msgstr "Alt fax"
+
+#~ msgid "Another"
+#~ msgstr "Altul"
+
+#~ msgid "Other"
+#~ msgstr "Alta"
+
+#~ msgid "Custom tag"
+#~ msgstr "Tag personalizat"
+
+#~ msgid "Current"
+#~ msgstr "Actuală"
+
+#~ msgid "{{label}}, {{item}}"
+#~ msgstr "{{label}}, {{item}}"
+
+#~ msgid "Import SIM contacts"
+#~ msgstr "Importă contacte SIM"
+
+#~ msgid "Importing SIM contacts…"
+#~ msgstr "Se importă contacte SIM…"
+
+#~ msgid "Reading from SIM card…"
+#~ msgstr "Se citește de pe cartela SIM…"
+
+#~ msgid "Could not import contacts from SIM"
+#~ msgstr "Nu s-au putut importa contacte de pe cartela SIM"
+
+#~ msgid "No contacts detected on SIM to import"
+#~ msgstr "Niciun contact detectat pe cartela SIM pentru importare"
+
+#~ msgctxt "simContacts-imported3[one]"
+#~ msgid "Imported one contact"
+#~ msgstr "Importat un contact"
+
+#~ msgctxt "simContacts-imported3[two]"
+#~ msgid "Imported {{n}} contacts"
+#~ msgstr "Importate {{n}} contacte"
+
+#~ msgctxt "simContacts-imported3[few]"
+#~ msgid "Imported {{n}} contacts"
+#~ msgstr "Importate {{n}} contacte"
+
+#~ msgctxt "simContacts-imported3[many]"
+#~ msgid "Imported {{n}} contacts"
+#~ msgstr "Importate {{n}} contacte"
+
+#~ msgctxt "simContacts-imported3[other]"
+#~ msgid "Imported {{n}} contacts"
+#~ msgstr "Importate {{n}} contacte"
+
+#~ msgid "Import contacts from memory card"
+#~ msgstr "Importă contacte de pe cardul de memorie"
+
+#~ msgid "Importing contacts from memory card…"
+#~ msgstr "Se importă contacte de pe cardul de memorie…"
+
+#~ msgid "Reading from memory card…"
+#~ msgstr "Se citește de pe cardul de memorie…"
+
+#~ msgid "Could not import contacts from memory card"
+#~ msgstr "Nu s-au putut importa contacte de pe cardul de memorie"
+
+#~ msgctxt "memoryCardContacts-imported3"
+#~ msgid "{[ plural(n) ]}"
+#~ msgstr "{[ plural(n) ]}"
+
+#~ msgid "No contacts detected on memory card to import"
+#~ msgstr "Niciun contact detectat pe cardul de memorie pentru importare"
+
+#~ msgctxt "memoryCardContacts-imported3[one]"
+#~ msgid "Imported one contact"
+#~ msgstr "Importat un contact"
+
+#~ msgctxt "memoryCardContacts-imported3[two]"
+#~ msgid "Imported {{n}} contacts"
+#~ msgstr "Importate {{n}} contacte"
+
+#~ msgctxt "memoryCardContacts-imported3[few]"
+#~ msgid "Imported {{n}} contacts"
+#~ msgstr "Importate {{n}} contacte"
+
+#~ msgctxt "memoryCardContacts-imported3[many]"
+#~ msgid "Imported {{n}} contacts"
+#~ msgstr "Importate {{n}} contacte"
+
+#~ msgctxt "memoryCardContacts-imported3[other]"
+#~ msgid "Imported {{n}} contacts"
+#~ msgstr "Importate {{n}} contacte"
+
+#~ msgid "{{current}}/{{total}}"
+#~ msgstr "{{current}}/{{total}}"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "{[ plural(imported) ]}"
+#~ msgstr "{[ plural(imported) ]}"
+
+#~ msgid "No friends imported (out of {{total}})"
+#~ msgstr "Niciun prieten importat (din {{total}})"
+
+#~ msgid "One friend imported (out of {{total}})"
+#~ msgstr "Un prieten importat (din {{total}})"
+
+#~ msgctxt "facebook-import-msg[two]"
+#~ msgid "{{imported}}/{{total}} friends imported"
+#~ msgstr "{{imported}}/{{total}} prieteni importați"
+
+#~ msgctxt "facebook-import-msg[few]"
+#~ msgid "{{imported}}/{{total}} friends imported"
+#~ msgstr "{{imported}}/{{total}} prieteni importați"
+
+#~ msgctxt "facebook-import-msg[many]"
+#~ msgid "{{imported}}/{{total}} friends imported"
+#~ msgstr "{{imported}}/{{total}} prieteni importați"
+
+#~ msgctxt "facebook-import-msg[other]"
+#~ msgid "{{imported}}/{{total}} friends imported"
+#~ msgstr "{{imported}}/{{total}} prieteni importați"
+
+#~ msgid "Back"
+#~ msgstr "Înapoi"
+
+#~ msgid "To import contacts insert or unlock your SIM card"
+#~ msgstr "Pentru a importa contacte inserează sau deblochează cartela SIM"
+
+#~ msgid "To import contacts insert a memory card"
+#~ msgstr "Pentru a importa contacte inserează un card de memorie"
+
+#~ msgid ""
+#~ "To import Facebook friends or contacts connect to Wi-Fi or data network"
+#~ msgstr ""
+#~ "Pentru a importa prietenii de pe Facebook sau contactele conectează-te la "
+#~ "Wi-Fi sau rețeaua de date"
+
+#~ msgctxt "memoryCard"
+#~ msgid "Memory card"
+#~ msgstr "Card de memorie"

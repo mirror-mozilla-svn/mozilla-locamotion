@@ -1,0 +1,101 @@
+#. extracted from ./apps/communications/contacts/matcher/matcher.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-09 16:39+0100\n"
+"PO-Revision-Date: 2015-03-19 16:35+0000\n"
+"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1426782931.000000\n"
+"X-Pootle-Path: "
+"/ro/firefoxos_2.1/apps/communications/contacts/matcher/matcher.properties."
+"po\n"
+"X-Pootle-Revision: 0\n"
+
+#. # Wait
+#: waitDuplicateContacts
+msgid "Looking for duplicate contacts"
+msgstr "Se caută contacte duplicate"
+
+#: waitMergingDuplicateContacts
+msgid "Merging duplicate contacts"
+msgstr "Se contopesc contactele duplicate"
+
+#. # Alert
+#: alertNoDuplicateContacts
+msgid "No duplicate contacts found"
+msgstr "Niciun contact duplicat găsit"
+
+#: curtainCancel
+msgid "Cancel"
+msgstr "Renunță"
+
+#: merge
+msgid "Merge"
+msgstr "Contopește"
+
+#: close
+msgid "Ignore"
+msgstr "Ignoră"
+
+#: mergeDuplicateTitle
+msgid "Merge duplicates"
+msgstr "Contopește duplicatele"
+
+#: suggestedDuplicateContacts
+msgid "Suggested duplicate contacts for {{name}}"
+msgstr "Contacte duplicate sugerate pentru {{name}}"
+
+#: mergeActionButtonLabel
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: mergeActionButtonLabel[zero]
+msgid "No contacts selected"
+msgstr "Niciun contact selectat"
+
+#: mergeActionButtonLabel[one]
+msgid "Merge with {{n}} contact"
+msgstr "Contopește cu {{n}} contact"
+
+#: mergeActionButtonLabel[two]
+msgctxt "mergeActionButtonLabel[two]"
+msgid "Merge with {{n}} contacts"
+msgstr "Contopește cu {{n}} contacte"
+
+#: mergeActionButtonLabel[few]
+msgctxt "mergeActionButtonLabel[few]"
+msgid "Merge with {{n}} contacts"
+msgstr "Contopește cu {{n}} contacte"
+
+#: mergeActionButtonLabel[many]
+msgctxt "mergeActionButtonLabel[many]"
+msgid "Merge with {{n}} contacts"
+msgstr "Contopește cu {{n}} contacte"
+
+#: mergeActionButtonLabel[other]
+msgctxt "mergeActionButtonLabel[other]"
+msgid "Merge with {{n}} contacts"
+msgstr "Contopește cu {{n}} contacte"
+
+#: duplicatesFoundTitle
+msgid "Duplicates found"
+msgstr "Duplicate găsite"
+
+#: duplicatesFoundMessage
+msgid "{{name}} duplicates information in the following contacts"
+msgstr "{{name}} duplică informații în următoarele contacte"
+
+#: ok
+msgid "OK"
+msgstr "Ok"
