@@ -1,25 +1,19 @@
-#. extracted from ./apps/communications/contacts/contacts.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 19:45+0000\n"
-"PO-Revision-Date: 2015-03-26 15:32+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1427383952.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefoxos/apps/communications/contacts/contacts.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 95253\n"
 
 #: call
 msgctxt "call"
@@ -268,6 +262,7 @@ msgid "Edit"
 msgstr "Editează"
 
 #: settingsButton.ariaLabel
+msgctxt "settingsButton.ariaLabel"
 msgid "Settings"
 msgstr "Setări"
 
@@ -584,6 +579,11 @@ msgid "Select recipient"
 msgstr "Selectează destinatarul"
 
 #. # Settings related
+#: settings
+msgctxt "settings"
+msgid "Settings"
+msgstr "Setări"
+
 #: contactsOrderBy
 msgid "Order by last name"
 msgstr "Ordonează după nume"
@@ -949,180 +949,40 @@ msgstr "Schimbă fotografia"
 msgid "Photo options"
 msgstr "Opțiuni pentru fotografie"
 
-#~ msgid "Cannot add to contact as your contact list is empty"
-#~ msgstr "Nu se poate adăuga la contact fiindcă lista de contacte este goală"
+#. # Importing from multiple vCard
+#: importAll
+msgid "Import all"
+msgstr "Importă totul"
 
-#~ msgid "Export to SD Card"
-#~ msgstr "Exportă în cardul SD"
+#: vCardContacts-imported
+msgctxt "vCardContacts-imported"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
 
-#~ msgid "Create a new contact"
-#~ msgstr "Crează un contact nou"
+#: vCardContacts-imported[zero]
+msgid "No contacts imported"
+msgstr "Niciun contact importat"
 
-#~ msgid "Import your contacts from SIM card or Facebook"
-#~ msgstr "Importă contactele tale de pe cartela SIM sau Facebook"
+#: vCardContacts-imported[one]
+msgid "Imported one contact"
+msgstr "Importat un contact"
 
-#~ msgid "Custom"
-#~ msgstr "Personalizat"
+#: vCardContacts-imported[two]
+msgctxt "vCardContacts-imported[two]"
+msgid "Imported {{n}} contacts"
+msgstr "Importate {{n}} contacte"
 
-#~ msgid "Label"
-#~ msgstr "Etichetă"
+#: vCardContacts-imported[few]
+msgctxt "vCardContacts-imported[few]"
+msgid "Imported {{n}} contacts"
+msgstr "Importate {{n}} contacte"
 
-#~ msgid "Mobile"
-#~ msgstr "Mobil"
+#: vCardContacts-imported[many]
+msgctxt "vCardContacts-imported[many]"
+msgid "Imported {{n}} contacts"
+msgstr "Importate {{n}} contacte"
 
-#~ msgid "Home"
-#~ msgstr "Acasă"
-
-#~ msgid "Work"
-#~ msgstr "Serviciu"
-
-#~ msgid "Personal"
-#~ msgstr "Personal"
-
-#~ msgid "Fax home"
-#~ msgstr "Acasă fax"
-
-#~ msgid "Fax office"
-#~ msgstr "Birou fax"
-
-#~ msgid "Fax other"
-#~ msgstr "Alt fax"
-
-#~ msgid "Another"
-#~ msgstr "Altul"
-
-#~ msgid "Other"
-#~ msgstr "Alta"
-
-#~ msgid "Custom tag"
-#~ msgstr "Tag personalizat"
-
-#~ msgid "Current"
-#~ msgstr "Actuală"
-
-#~ msgid "{{label}}, {{item}}"
-#~ msgstr "{{label}}, {{item}}"
-
-#~ msgid "Import SIM contacts"
-#~ msgstr "Importă contacte SIM"
-
-#~ msgid "Importing SIM contacts…"
-#~ msgstr "Se importă contacte SIM…"
-
-#~ msgid "Reading from SIM card…"
-#~ msgstr "Se citește de pe cartela SIM…"
-
-#~ msgid "Could not import contacts from SIM"
-#~ msgstr "Nu s-au putut importa contacte de pe cartela SIM"
-
-#~ msgid "No contacts detected on SIM to import"
-#~ msgstr "Niciun contact detectat pe cartela SIM pentru importare"
-
-#~ msgctxt "simContacts-imported3[one]"
-#~ msgid "Imported one contact"
-#~ msgstr "Importat un contact"
-
-#~ msgctxt "simContacts-imported3[two]"
-#~ msgid "Imported {{n}} contacts"
-#~ msgstr "Importate {{n}} contacte"
-
-#~ msgctxt "simContacts-imported3[few]"
-#~ msgid "Imported {{n}} contacts"
-#~ msgstr "Importate {{n}} contacte"
-
-#~ msgctxt "simContacts-imported3[many]"
-#~ msgid "Imported {{n}} contacts"
-#~ msgstr "Importate {{n}} contacte"
-
-#~ msgctxt "simContacts-imported3[other]"
-#~ msgid "Imported {{n}} contacts"
-#~ msgstr "Importate {{n}} contacte"
-
-#~ msgid "Import contacts from memory card"
-#~ msgstr "Importă contacte de pe cardul de memorie"
-
-#~ msgid "Importing contacts from memory card…"
-#~ msgstr "Se importă contacte de pe cardul de memorie…"
-
-#~ msgid "Reading from memory card…"
-#~ msgstr "Se citește de pe cardul de memorie…"
-
-#~ msgid "Could not import contacts from memory card"
-#~ msgstr "Nu s-au putut importa contacte de pe cardul de memorie"
-
-#~ msgctxt "memoryCardContacts-imported3"
-#~ msgid "{[ plural(n) ]}"
-#~ msgstr "{[ plural(n) ]}"
-
-#~ msgid "No contacts detected on memory card to import"
-#~ msgstr "Niciun contact detectat pe cardul de memorie pentru importare"
-
-#~ msgctxt "memoryCardContacts-imported3[one]"
-#~ msgid "Imported one contact"
-#~ msgstr "Importat un contact"
-
-#~ msgctxt "memoryCardContacts-imported3[two]"
-#~ msgid "Imported {{n}} contacts"
-#~ msgstr "Importate {{n}} contacte"
-
-#~ msgctxt "memoryCardContacts-imported3[few]"
-#~ msgid "Imported {{n}} contacts"
-#~ msgstr "Importate {{n}} contacte"
-
-#~ msgctxt "memoryCardContacts-imported3[many]"
-#~ msgid "Imported {{n}} contacts"
-#~ msgstr "Importate {{n}} contacte"
-
-#~ msgctxt "memoryCardContacts-imported3[other]"
-#~ msgid "Imported {{n}} contacts"
-#~ msgstr "Importate {{n}} contacte"
-
-#~ msgid "{{current}}/{{total}}"
-#~ msgstr "{{current}}/{{total}}"
-
-#~ msgid "Facebook"
-#~ msgstr "Facebook"
-
-#~ msgid "{[ plural(imported) ]}"
-#~ msgstr "{[ plural(imported) ]}"
-
-#~ msgid "No friends imported (out of {{total}})"
-#~ msgstr "Niciun prieten importat (din {{total}})"
-
-#~ msgid "One friend imported (out of {{total}})"
-#~ msgstr "Un prieten importat (din {{total}})"
-
-#~ msgctxt "facebook-import-msg[two]"
-#~ msgid "{{imported}}/{{total}} friends imported"
-#~ msgstr "{{imported}}/{{total}} prieteni importați"
-
-#~ msgctxt "facebook-import-msg[few]"
-#~ msgid "{{imported}}/{{total}} friends imported"
-#~ msgstr "{{imported}}/{{total}} prieteni importați"
-
-#~ msgctxt "facebook-import-msg[many]"
-#~ msgid "{{imported}}/{{total}} friends imported"
-#~ msgstr "{{imported}}/{{total}} prieteni importați"
-
-#~ msgctxt "facebook-import-msg[other]"
-#~ msgid "{{imported}}/{{total}} friends imported"
-#~ msgstr "{{imported}}/{{total}} prieteni importați"
-
-#~ msgid "Back"
-#~ msgstr "Înapoi"
-
-#~ msgid "To import contacts insert or unlock your SIM card"
-#~ msgstr "Pentru a importa contacte inserează sau deblochează cartela SIM"
-
-#~ msgid "To import contacts insert a memory card"
-#~ msgstr "Pentru a importa contacte inserează un card de memorie"
-
-#~ msgid ""
-#~ "To import Facebook friends or contacts connect to Wi-Fi or data network"
-#~ msgstr ""
-#~ "Pentru a importa prietenii de pe Facebook sau contactele conectează-te la "
-#~ "Wi-Fi sau rețeaua de date"
-
-#~ msgctxt "memoryCard"
-#~ msgid "Memory card"
-#~ msgstr "Card de memorie"
+#: vCardContacts-imported[other]
+msgctxt "vCardContacts-imported[other]"
+msgid "Imported {{n}} contacts"
+msgstr "Importate {{n}} contacte"

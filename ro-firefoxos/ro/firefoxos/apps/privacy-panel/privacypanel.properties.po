@@ -1,24 +1,18 @@
-#. extracted from ./apps/privacy-panel/privacypanel.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-27 07:48+0000\n"
-"PO-Revision-Date: 2015-03-27 10:45+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1427453105.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/privacy-panel/privacypanel.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 99447\n"
 
 #. # Main Page
 #: privacy-controls
@@ -30,8 +24,18 @@ msgctxt "location-accuracy"
 msgid "Location Accuracy"
 msgstr "Acuretețea locației"
 
+#: location-accuracy.ariaLabel
+msgctxt "location-accuracy.ariaLabel"
+msgid "Location Accuracy"
+msgstr "Acuretețea locației"
+
 #: transparency-control
 msgctxt "transparency-control"
+msgid "Transparency Control"
+msgstr "Control de transparență"
+
+#: transparency-control.ariaLabel
+msgctxt "transparency-control.ariaLabel"
 msgid "Transparency Control"
 msgstr "Control de transparență"
 
@@ -40,7 +44,18 @@ msgctxt "privacy-protection"
 msgid "Remote Protection"
 msgstr "Protecție de la distanță"
 
+#: privacy-protection.ariaLabel
+msgctxt "privacy-protection.ariaLabel"
+msgid "Remote Protection"
+msgstr "Protecție de la distanță"
+
 #: guided-tour
+msgctxt "guided-tour"
+msgid "Guided Tour"
+msgstr "Tur cu ghid"
+
+#: guided-tour.ariaLabel
+msgctxt "guided-tour.ariaLabel"
 msgid "Guided Tour"
 msgstr "Tur cu ghid"
 
@@ -656,9 +671,9 @@ msgid ""
 "features. If you have forgotten your actual passphrase you can reset it "
 "using your SIM PIN or lockscreen passcode."
 msgstr ""
-"Apasă „Protecție de la distanță” și setează fraza de acces pentru a securiza "
-"funcțiile de la distanță. Dacă ai uitat fraza de acces actuală o poți reseta "
-"folosind PIN-ul pentru SIM sau codul de acces."
+"Atinge „Protecție de la distanță” și setează fraza de acces pentru a "
+"securiza funcțiile de la distanță. Dacă ai uitat fraza de acces actuală o "
+"poți reseta folosind PIN-ul pentru SIM sau codul de acces."
 
 #. # GT-8 (GT: RP locate phone)
 #: gt-rp-locate-header
@@ -794,6 +809,3 @@ msgstr ""
 "Împreună cu Deutsche Telekom, Mozilla Foundation a dezvoltat Opțiuni de "
 "intimitate pentru a permite utilizatorului să preia controlul datelor "
 "personale"
-
-#~ msgid "Custom location"
-#~ msgstr "Locație personalizată"

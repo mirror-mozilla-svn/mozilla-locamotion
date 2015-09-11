@@ -1,24 +1,18 @@
-#. extracted from ./apps/settings/settings.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-27 18:45+0000\n"
-"PO-Revision-Date: 2015-08-27 14:14+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440684859.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 71330\n"
+"X-Pootle-Revision: 100914\n"
 
 #: settings
 msgid "Settings"
@@ -66,11 +60,16 @@ msgctxt "reset"
 msgid "Reset"
 msgstr "Resetează"
 
+#: factory-reset
+msgid "Factory Reset"
+msgstr "Resetare din fabrică"
+
 #: cancel
 msgid "Cancel"
 msgstr "Renunță"
 
 #: close
+msgctxt "close"
 msgid "Close"
 msgstr "Închide"
 
@@ -91,6 +90,7 @@ msgid "Pair"
 msgstr "Asociază"
 
 #: add
+msgctxt "add"
 msgid "Add"
 msgstr "Adaugă"
 
@@ -149,10 +149,22 @@ msgid "Network & Connectivity"
 msgstr "Rețea și conectivitate"
 
 #: airplaneMode
+msgctxt "airplaneMode"
+msgid "Airplane Mode"
+msgstr "Mod avion"
+
+#: airplaneMode.ariaLabel
+msgctxt "airplaneMode.ariaLabel"
 msgid "Airplane Mode"
 msgstr "Mod avion"
 
 #: geolocation
+msgctxt "geolocation"
+msgid "Geolocation"
+msgstr "Geolocație"
+
+#: geolocation.ariaLabel
+msgctxt "geolocation.ariaLabel"
 msgid "Geolocation"
 msgstr "Geolocație"
 
@@ -253,7 +265,7 @@ msgstr "Mod inactiv Wi-Fi"
 
 #: wifi-sleep-description
 msgid ""
-"Enable to automatically turn off Wi-Fi during sleep to save battery power.  "
+"Enable to automatically turn off Wi-Fi during sleep to save battery power."
 msgstr ""
 "Activează pentru a opri automat Wi-Fi în modul inactiv pentru a economisi "
 "baterie. "
@@ -284,12 +296,18 @@ msgid "{{manageNetworks}}"
 msgstr "{{manageNetworks}}"
 
 #: manageCertificates
-msgid "Manage certificates"
+msgid "Manage Certificates"
 msgstr "Gestionează certificate"
 
-#: manageCert
-msgid "Manage Cert."
-msgstr "Gestionează cert."
+#. # LOCALIZATION NOTE (manageCertificates-header): if you leave the original
+#. # en-US value "{{manageCertificates}}" in the following string, the localization
+#. # will be automatically picked from the existing string with ID
+#. # "manageCertificates".
+#. # If you need to adapt your localization to the reduced space available
+#. # in headers, you can use a shorter string here.
+#: manageCertificates-header
+msgid "{{manageCertificates}}"
+msgstr "{{manageCertificates}}"
 
 #: joinHiddenNetwork
 msgid "Join Hidden Network"
@@ -397,8 +415,8 @@ msgid ""
 "Notice: If you need to import new certificates, please go to \"Manage "
 "certificates\"."
 msgstr ""
-"Aviz: Dacă ai nevoie să imporți certificate noi, te rugăm să te duci la "
-"„Gestionează certificate”."
+"Aviz: Dacă ai nevoie să imporți certificate noi, te rugăm să te duci la „"
+"Gestionează certificate”."
 
 #: identity
 msgid "Identifier"
@@ -445,6 +463,7 @@ msgid "No known networks"
 msgstr "Nicio rețea cunoscută"
 
 #: edit
+msgctxt "edit"
 msgid "Edit"
 msgstr "Editează"
 
@@ -457,15 +476,15 @@ msgid "No certificates imported"
 msgstr "Nu sunt certificate importate"
 
 #: deleteCertificate
-msgid "Delete certificate"
+msgid "Delete Certificate"
 msgstr "Șterge certificatul"
 
 #: importCertificate
-msgid "Import certificate"
+msgid "Import Certificate"
 msgstr "Importă certificat"
 
 #: selectCertificateFile
-msgid "Select certificate file"
+msgid "Select Certificate File"
 msgstr "Selectează fișierul de certificat"
 
 #: enterCertificateNickname
@@ -578,6 +597,7 @@ msgstr "Eșec la anularea WPS [{{error}}]"
 
 #. # Connectivity :: Call
 #: callSettings
+msgctxt "callSettings"
 msgid "Call Settings"
 msgstr "Setări de apel"
 
@@ -688,7 +708,7 @@ msgstr "Redirect. când e inaccesibil"
 msgid "When unreachable"
 msgstr "Când e inaccesibil"
 
-#: callForwardingForwardingVoiceToNumber.innerHTML
+#: callForwardingForwardingVoiceToNumber
 msgid "Voice calls to <bdi>{{number}}</bdi>"
 msgstr "Apeluri vocale către <bdi>{{number}}</bdi>"
 
@@ -966,10 +986,6 @@ msgstr ""
 msgid "The PIN2 code is incorrect."
 msgstr "Codul PIN2 este incorect."
 
-#: fdn-enabled-warning
-msgid "Call forwarding is disabled by FDN."
-msgstr "Redirecționarea apelurilor e dezactivată de către FDN."
-
 #: fdnContact-name
 msgid "name"
 msgstr "nume"
@@ -1011,6 +1027,7 @@ msgstr "FDN maxim atins. Nu poți adăuga mai multe numere."
 
 #. # Connectivity :: Messaging
 #: messagingSettings
+msgctxt "messagingSettings"
 msgid "Messaging Settings"
 msgstr "Setări de mesagerie"
 
@@ -1043,13 +1060,9 @@ msgstr "Citește rapoartele"
 msgid "Request read report for each message sent"
 msgstr "Solicită raport de citire pentru fiecare mesaj trimis"
 
-#. # LOCALIZATION NOTE (mmsTitle): LRE (&#x202a;) and PDF (&#x202c;)
-#. # force the proper directionality of parentheses at the end of the string
-#. # regardless of the direction of the surrounding layout. Remove them only
-#. # if the translation puts them between other text.
-#: mmsTitle.innerHTML
-msgid "&#x202a;Multimedia Messaging (MMS)&#x202c;"
-msgstr "&#x202a;Mesagerie multimedia (MMS)&#x202c;"
+#: mmsTitle
+msgid "Multimedia Messaging (MMS)"
+msgstr "Mesagerie multimedia (MMS)"
 
 #: auto-retrieve
 msgid "Auto Retrieve"
@@ -1115,6 +1128,7 @@ msgstr "Informație nedisponibilă"
 
 #. # Connectivity :: Cellular & Data
 #: cellularAndData
+msgctxt "cellularAndData"
 msgid "Cellular & Data"
 msgstr "Celular și date"
 
@@ -1219,6 +1233,10 @@ msgstr "WCDMA preferat"
 msgid "Auto (2G/3G)"
 msgstr "Automat (2G/3G)"
 
+#: operator-networkType-auto-3G-4G
+msgid "Auto (3G/4G)"
+msgstr "Automat (3G/4G)"
+
 #: operator-networkType-auto-CDMA-EVDO
 msgid "Auto (CDMA/EVDO)"
 msgstr "Automat (CDMA/EVDO)"
@@ -1230,6 +1248,10 @@ msgstr "Automat (WCDMA/GSM)"
 #: operator-networkType-auto-LTE-WCDMA-GSM
 msgid "Auto (LTE/WCDMA/GSM)"
 msgstr "Automat (LTE/WCDMA/GSM)"
+
+#: operator-networkType-auto-LTE-WCDMA
+msgid "Auto (LTE/WCDMA)"
+msgstr "Automat (LTE/WCDMA)"
 
 #: operator-networkType-auto-LTE-CDMA-EVDO
 msgid "Auto (LTE/CDMA/EVDO)"
@@ -1257,20 +1279,40 @@ msgid "Turn automatic selection off to view available network operators."
 msgstr ""
 "Închide selecția automată pentru a vedea operatorii de rețea disponibili."
 
-#: operator-status-connecting
-msgctxt "operator-status-connecting"
+#: operator-info-connecting
+msgctxt "operator-info-connecting"
 msgid "Connecting…"
 msgstr "Conectare…"
 
-#: operator-status-connectingfailed
-msgctxt "operator-status-connectingfailed"
+#: operator-info-failed
+msgctxt "operator-info-failed"
 msgid "Connection failed"
 msgstr "Conexiune eșuată"
 
-#: operator-status-connected
-msgctxt "operator-status-connected"
+#: operator-info-connected
+msgctxt "operator-info-connected"
 msgid "Connected"
 msgstr "Conectat"
+
+#: operator-info-available
+msgctxt "operator-info-available"
+msgid "Available"
+msgstr "Disponibil"
+
+#: operator-info-current
+msgctxt "operator-info-current"
+msgid "Connected"
+msgstr "Conectat"
+
+#: operator-info-forbidden
+msgctxt "operator-info-forbidden"
+msgid "Forbidden"
+msgstr "Interzis"
+
+#: operator-info-unknown
+msgctxt "operator-info-unknown"
+msgid "Unknown state"
+msgstr "Stare necunoscută"
 
 #: operator-roamingPreference
 msgid "Roaming preference"
@@ -1370,6 +1412,19 @@ msgstr "Setări IMS"
 #: imsSettings-header2
 msgid "{{imsSettings}}"
 msgstr "{{imsSettings}}"
+
+#: fotaSettings
+msgid "FOTA Settings"
+msgstr "Setări FOTA"
+
+#. # LOCALIZATION NOTE (fotaSettings-header): if you leave the original
+#. # en-US value "{{fotaSettings}}" in the following string, the localization
+#. # will be automatically picked from the existing string with ID "fotaSettings".
+#. # If you need to adapt your localization to the reduced space available
+#. # in headers, you can use a shorter string here.
+#: fotaSettings-header
+msgid "{{fotaSettings}}"
+msgstr "{{fotaSettings}}"
 
 #: apn-editor-header
 msgid "APN Editor"
@@ -1499,10 +1554,12 @@ msgstr ""
 "anulat."
 
 #: state-unknown
+msgctxt "state-unknown"
 msgid "Unknown state"
 msgstr "Stare necunoscută"
 
 #: state-available
+msgctxt "state-available"
 msgid "Available"
 msgstr "Disponibil"
 
@@ -1517,6 +1574,7 @@ msgid "Connected"
 msgstr "Conectat"
 
 #: state-forbidden
+msgctxt "state-forbidden"
 msgid "Forbidden"
 msgstr "Interzis"
 
@@ -1544,6 +1602,7 @@ msgstr "Resetează setările APN"
 
 #. # Connectivity :: Bluetooth
 #: bluetooth
+msgctxt "bluetooth"
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -1630,7 +1689,7 @@ msgstr "{{name}} + încă {{n}}"
 
 #: device-status-tap-connect
 msgid "Tap to connect"
-msgstr "Apasă pentru conectare"
+msgstr "Atinge pentru conectare"
 
 #: device-status-pairing
 msgid "Pairing with device…"
@@ -1700,9 +1759,13 @@ msgstr "Redenumește-mi dispozitivul"
 msgid "Unknown device"
 msgstr "Dispozitiv necunoscut"
 
-#: change-phone-name-desc
-msgid "Change the name of your device as it appears in your computer"
-msgstr "Schimbă numele dispozitivului așa cum apare în calculator"
+#: change-btdevice-name
+msgid "Change device name"
+msgstr "Schimbă numele dispozitivului"
+
+#: change-btdevice-name-desc
+msgid "This name will appear on your other Bluetooth devices"
+msgstr "Acest nume va apărea pe celelalte dispozitive Bluetooth"
 
 #: bluetooth-new-name
 msgid "New name"
@@ -1744,17 +1807,28 @@ msgstr ""
 "În prezent ești conectat la acest dispozitiv. Dezasocierea va duce și la "
 "deconectarea de acesta."
 
+#: unpair-confirm
+msgid ""
+"{{unpair-title}}\n"
+"{{unpair-msg}}"
+msgstr ""
+"{{unpair-title}}\n"
+"{{unpair-msg}}"
+
 #. # Connectivity :: NFC
 #: nfc
+msgctxt "nfc"
+msgid "NFC"
+msgstr "NFC"
+
+#: nfc.ariaLabel
+msgctxt "nfc.ariaLabel"
 msgid "NFC"
 msgstr "NFC"
 
 #. # Connectivity :: Internet Sharing
-#: SSIDCannotBeEmpty
-msgid "The SSID cannot be empty"
-msgstr "SSID-ul nu poate să fie necompletat"
-
 #: internetSharing
+msgctxt "internetSharing"
 msgid "Internet Sharing"
 msgstr "Partajare internet"
 
@@ -1835,7 +1909,7 @@ msgstr "{{hotspotSettings}}"
 msgid "SSID Network Name"
 msgstr "Numele rețelei SSID"
 
-#: hotspot-open
+#: hotspot-security-open
 msgid "open"
 msgstr "deschisă"
 
@@ -1846,8 +1920,8 @@ msgstr "deschisă"
 #. # and PDF (&#x202c;) entities to these translations to force the correct direction.
 #. #
 #. # RTL locales should have a translation similar to this:
-#. # hotspot-wpa-psk.innerHTML= &#x202a;WPA (TKIP)&#x202c;
-#. # hotspot-wpa2-psk.innerHTML= &#x202a;WPA2 (AES)&#x202c;
+#. # hotspot-wpa-psk= &#x202a;WPA (TKIP)&#x202c;
+#. # hotspot-wpa2-psk= &#x202a;WPA2 (AES)&#x202c;
 #. #
 #. # [More details]
 #. #
@@ -1858,17 +1932,13 @@ msgstr "deschisă"
 #. # automatically in a wrong way by browser. Because from engineering side,
 #. # we can only change settings.ar.properties, for localizers, please remember to
 #. # put them in the other RTL languages.
-#. #
-#. # Additionally, in order to make this hack work, we got some help from l10n.js
-#. # that we need to put these strings inside "KEY".innerHTML, so that's the
-#. # reason why these two strings below would be suffixed with ".innerHTML"
-#: hotspot-wpa-psk.innerHTML
-msgid "WPA (TKIP)"
-msgstr "WPA (TKIP)"
+#: hotspot-security-wpa-psk
+msgid "WPA"
+msgstr "WPA"
 
-#: hotspot-wpa2-psk.innerHTML
-msgid "WPA2 (AES)"
-msgstr "WPA2 (AES)"
+#: hotspot-security-wpa2-psk
+msgid "WPA2"
+msgstr "WPA2"
 
 #: hotspot-password-desc
 msgid "The password must have at least 8 characters."
@@ -1883,6 +1953,12 @@ msgstr "Personalizare"
 
 #. # Personalization :: Sound
 #: sound
+msgctxt "sound"
+msgid "Sound"
+msgstr "Sunet"
+
+#: sound.ariaLabel
+msgctxt "sound.ariaLabel"
 msgid "Sound"
 msgstr "Sunet"
 
@@ -1969,6 +2045,12 @@ msgstr "Nu am putut găsi o aplicație pentru tonuri ca să gestioneze tonurile!
 
 #. # Personalization :: Display
 #: display
+msgctxt "display"
+msgid "Display"
+msgstr "Afișaj"
+
+#: display.ariaLabel
+msgctxt "display.ariaLabel"
 msgid "Display"
 msgstr "Afișaj"
 
@@ -2027,6 +2109,12 @@ msgstr "Blochează orientarea"
 
 #. # Personalization :: Navigation
 #: navigation
+msgctxt "navigation"
+msgid "Navigation"
+msgstr "Navigare"
+
+#: navigation.ariaLabel
+msgctxt "navigation.ariaLabel"
 msgid "Navigation"
 msgstr "Navigare"
 
@@ -2051,6 +2139,12 @@ msgstr ""
 
 #. # Personalization :: Notifications
 #: notifications
+msgctxt "notifications"
+msgid "Notifications"
+msgstr "Notificări"
+
+#: notifications.ariaLabel
+msgctxt "notifications.ariaLabel"
 msgid "Notifications"
 msgstr "Notificări"
 
@@ -2073,6 +2167,7 @@ msgstr "Afișează după repornire"
 
 #. # Personalization :: Date & Time
 #: dateAndTime
+msgctxt "dateAndTime"
 msgid "Date & Time"
 msgstr "Dată și oră"
 
@@ -2136,6 +2231,7 @@ msgid "Language & Region"
 msgstr "Limbă și regiune"
 
 #: language
+msgctxt "language"
 msgid "Language"
 msgstr "Limbă"
 
@@ -2173,6 +2269,7 @@ msgstr "%d %B %Y"
 
 #. # Personalization :: Sim cards manager
 #: simManager
+msgctxt "simManager"
 msgid "SIM Manager"
 msgstr "Manager SIM"
 
@@ -2250,6 +2347,11 @@ msgctxt "homescreen"
 msgid "Homescreen"
 msgstr "Ecran principal"
 
+#: homescreen.ariaLabel
+msgctxt "homescreen.ariaLabel"
+msgid "Homescreen"
+msgstr "Ecran principal"
+
 #: vertical-homescreen-header
 msgctxt "vertical-homescreen-header"
 msgid "Homescreen"
@@ -2280,6 +2382,11 @@ msgctxt "search"
 msgid "Search"
 msgstr "Căutare"
 
+#: search.ariaLabel
+msgctxt "search.ariaLabel"
+msgid "Search"
+msgstr "Căutare"
+
 #: search-header
 msgctxt "search-header"
 msgid "Search"
@@ -2306,8 +2413,14 @@ msgstr ""
 
 #. # Personalization :: Homescreens
 #: homescreens
+msgctxt "homescreens"
 msgid "Homescreens"
-msgstr "Ecran principal"
+msgstr "Ecrane principale"
+
+#: homescreens.ariaLabel
+msgctxt "homescreens.ariaLabel"
+msgid "Homescreens"
+msgstr "Ecrane principale"
 
 #. # LOCALIZATION NOTE (homescreens-header): if you leave the original
 #. # en-US value "{{homescreens}}" in the following string, the localization
@@ -2328,6 +2441,7 @@ msgid "Change"
 msgstr "Schimbă"
 
 #: description
+msgctxt "description"
 msgid "Description"
 msgstr "Descriere"
 
@@ -2341,6 +2455,7 @@ msgid "Selected Keyboards"
 msgstr "Tastaturi selectate"
 
 #: keyboards
+msgctxt "keyboards"
 msgid "Keyboards"
 msgstr "Tastaturi"
 
@@ -2405,6 +2520,12 @@ msgstr "{{appName}} {{layoutName}} e setată ca metodă de intrare implicită"
 
 #. # Personalization :: Themes
 #: themes
+msgctxt "themes"
+msgid "Themes"
+msgstr "Teme"
+
+#: themes.ariaLabel
+msgctxt "themes.ariaLabel"
 msgid "Themes"
 msgstr "Teme"
 
@@ -2472,16 +2593,9 @@ msgstr "Anulează confirmarea contului"
 msgid "A verification link has been sent to {{email}}."
 msgstr "Un link de verificare a fost trimis către {{email}}."
 
-#. # LOCALIZATION NOTE (fxa-dont-see-email): the "{{resend}}" placeholder
-#. # will be replaced with a link containing the string with ID "fxa-resend":
-#. # "Don't see an email? <a>Resend</a>."
-#: fxa-dont-see-email
-msgid "Don’t see an email? {{resend}}."
-msgstr "Nu vezi un e-mail? {{resend}}."
-
-#: fxa-resend
-msgid "Resend"
-msgstr "Retrimite"
+#: fxa-dont-see-email-resend
+msgid "Don’t see an email? <a>Resend</a>."
+msgstr "Nu vezi un e-mail? <a>Retrimite</a>."
 
 #. # Panel: logged in, verified
 #: fxa-about
@@ -2506,6 +2620,7 @@ msgid "Find My Device"
 msgstr "Găsește-mi dispozitivul"
 
 #: fxa-options
+msgctxt "fxa-options"
 msgid "Options"
 msgstr "Opțiuni"
 
@@ -2565,7 +2680,7 @@ msgstr "Te rugăm să încerci din nou."
 
 #: findmydevice-please-tap
 msgid "Please tap to try again."
-msgstr "Te rugăm să apeși pentru a încerca din nou."
+msgstr "Te rugăm să atingi pentru a încerca din nou."
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Security
@@ -2583,6 +2698,7 @@ msgid "Passcode: {{code}}"
 msgstr "Cod de acces: {{code}}"
 
 #: screenLock
+msgctxt "screenLock"
 msgid "Screen Lock"
 msgstr "Blocare ecran"
 
@@ -2595,7 +2711,16 @@ msgstr "Blocare ecran"
 msgid "{{screenLock}}"
 msgstr "{{screenLock}}"
 
+#: screenLock-enabled-with-no-passcode
+msgid "Enabled with no passcode"
+msgstr "Activată fără cod de acces"
+
+#: screenLock-enabled-with-passcode
+msgid "Enabled with passcode"
+msgstr "Activată cu cod de acces"
+
 #: simSecurity
+msgctxt "simSecurity"
 msgid "SIM Security"
 msgstr "Securitate SIM"
 
@@ -2610,6 +2735,12 @@ msgstr "{{simSecurity}}"
 
 #. # Security :: App permissions
 #: appPermissions
+msgctxt "appPermissions"
+msgid "App Permissions"
+msgstr "Permisiuni pentru aplicații"
+
+#: appPermissions.ariaLabel
+msgctxt "appPermissions.ariaLabel"
 msgid "App Permissions"
 msgstr "Permisiuni pentru aplicații"
 
@@ -3057,6 +3188,7 @@ msgstr "S-a produs o eroare necunoscută"
 
 #. # Security :: Do Not Track
 #: doNotTrack
+msgctxt "doNotTrack"
 msgid "Do Not Track"
 msgstr "Nu mă urmări"
 
@@ -3110,6 +3242,12 @@ msgstr ""
 
 #. # Security :: Browsing Privacy
 #: browsingPrivacy
+msgctxt "browsingPrivacy"
+msgid "Browsing Privacy"
+msgstr "Confidențialitate navigare"
+
+#: browsingPrivacy.ariaLabel
+msgctxt "browsingPrivacy.ariaLabel"
 msgid "Browsing Privacy"
 msgstr "Confidențialitate navigare"
 
@@ -3150,12 +3288,13 @@ msgstr "Curăță"
 
 #. # Security :: Privacy Panel
 #: privacy-controls
+msgctxt "privacy-controls"
 msgid "Privacy Controls"
 msgstr "Opțiuni de intimitate"
 
-#: no-privacy-panel
-msgid "No privacy panel app found"
-msgstr "Nicio aplicație găsită pentru panou intimitate"
+#: no-privacy-controls
+msgid "No privacy controls app found"
+msgstr "Nicio aplicație găsită pentru opțiuni de intimitate"
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Storage
@@ -3174,6 +3313,7 @@ msgid "Unplug USB cable to disable"
 msgstr "Deconectează cablul USB pentru a dezactiva"
 
 #: appStorage
+msgctxt "appStorage"
 msgid "Application Storage"
 msgstr "Stocare de aplicații"
 
@@ -3185,26 +3325,6 @@ msgstr "Stocare de aplicații"
 #: appStorage-header
 msgid "{{appStorage}}"
 msgstr "{{appStorage}}"
-
-#: byteUnit-B
-msgid "B"
-msgstr "B"
-
-#: byteUnit-KB
-msgid "KB"
-msgstr "KB"
-
-#: byteUnit-MB
-msgid "MB"
-msgstr "MB"
-
-#: byteUnit-GB
-msgid "GB"
-msgstr "GB"
-
-#: byteUnit-TB
-msgid "TB"
-msgstr "TB"
 
 #: storageSize
 msgid "{{size}} {{unit}}"
@@ -3274,15 +3394,16 @@ msgid "Transfer Protocol"
 msgstr "Protocol de transfer"
 
 #: protocol-mtp
-msgid "Media transfer protocol (MTP)"
+msgid "Media Transfer Protocol (MTP)"
 msgstr "Protocol de transfer media (MTP)"
 
 #: protocol-ums
-msgid "USB mass Storage (UMS)"
+msgid "USB Mass Storage (UMS)"
 msgstr "Stocare în masă USB (UMS)"
 
 #. # Storage :: Media storage
 #: mediaStorage
+msgctxt "mediaStorage"
 msgid "Media Storage"
 msgstr "Stocare media"
 
@@ -3450,6 +3571,28 @@ msgstr "Formatează"
 msgid "SD card unmounted"
 msgstr "Card SD demontat"
 
+#: ums-partial-support-warning-title
+msgid "Warning: USB Mass Storage may not work"
+msgstr "Atenție: Stocarea în masă USB este posibil să nu funcționeze"
+
+#: ums-partial-support-warning-msg-1
+msgid ""
+"USB Mass Storage will only work correctly with an external SD card. If you'd "
+"like to be able to access both your internal and external storage, you must "
+"use MTP."
+msgstr ""
+"Stocarea în masă USB va funcționa corect doar cu un card SD extern. Dacă "
+"dorești să poți accesa atât stocarea internă, cât și cea externă, trebuie să "
+"folosești MTP."
+
+#: ums-partial-support-warning-msg-2
+msgid ""
+"Press \"OK\" to switch to USB Mass Storage, or \"Cancel\" to remain in MTP "
+"mode."
+msgstr ""
+"Apasă „Ok” pentru a comuta la stocarea în masă USB sau „Renunță” pentru a "
+"rămâne în modul MTP."
+
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Device
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
@@ -3462,8 +3605,19 @@ msgctxt "help"
 msgid "Help"
 msgstr "Ajutor"
 
+#: help.ariaLabel
+msgctxt "help.ariaLabel"
+msgid "Help"
+msgstr "Ajutor"
+
 #. # Device :: Information
 #: deviceInfo
+msgctxt "deviceInfo"
+msgid "Device Information"
+msgstr "Informații dispozitiv"
+
+#: deviceInfo.ariaLabel
+msgctxt "deviceInfo.ariaLabel"
 msgid "Device Information"
 msgstr "Informații dispozitiv"
 
@@ -3480,7 +3634,7 @@ msgstr "{{deviceInfo}}"
 msgid "IMEI"
 msgstr "IMEI"
 
-#: deviceInfo-IMEI-with-index.innerHTML
+#: deviceInfo-IMEI-with-index
 msgid "IMEI {{index}}: <bdi>{{imei}}</bdi>"
 msgstr "IMEI {{index}}: <bdi>{{imei}}</bdi>"
 
@@ -3488,7 +3642,7 @@ msgstr "IMEI {{index}}: <bdi>{{imei}}</bdi>"
 msgid "ICCID"
 msgstr "ICCID"
 
-#: deviceInfo-ICCID-with-index.innerHTML
+#: deviceInfo-ICCID-with-index
 msgid "SIM {{index}}: <bdi>{{iccid}}</bdi>"
 msgstr "SIM {{index}}: <bdi>{{iccid}}</bdi>"
 
@@ -3496,7 +3650,7 @@ msgstr "SIM {{index}}: <bdi>{{iccid}}</bdi>"
 msgid "Phone Number"
 msgstr "Număr de telefon"
 
-#: deviceInfo-MSISDN-with-index.innerHTML
+#: deviceInfo-MSISDN-with-index
 msgid "SIM {{index}}: <bdi>{{msisdn}}</bdi>"
 msgstr "SIM {{index}}: <bdi>{{msisdn}}</bdi>"
 
@@ -3505,6 +3659,12 @@ msgid "SIM {{index}}: Not available"
 msgstr "SIM {{index}}: Indisponibil"
 
 #: downloads
+msgctxt "downloads"
+msgid "Downloads"
+msgstr "Descărcări"
+
+#: downloads.ariaLabel
+msgctxt "downloads.ariaLabel"
 msgid "Downloads"
 msgstr "Descărcări"
 
@@ -3529,263 +3689,6 @@ msgstr "SIM {{index}}: Necunoscut"
 msgid "Git Commit Info"
 msgstr "Informații de comitere git"
 
-#: developer
-msgid "Developer"
-msgstr "Dezvoltator"
-
-#. # LOCALIZATION NOTE (developer-header): if you leave the original
-#. # en-US value "{{developer}}" in the following string, the localization
-#. # will be automatically picked from the existing string with ID "developer".
-#. # If you need to adapt your localization to the reduced space available
-#. # in headers, you can use a shorter string here.
-#: developer-header
-msgid "{{developer}}"
-msgstr "{{developer}}"
-
-#: hud-settings-button
-msgid "Developer HUD"
-msgstr "HUD dezvoltator"
-
-#. # LOCALIZATION NOTE (hud-settings-header): if you leave the original en-US value
-#. # "{{hud-settings-button}}" in the following string, the localization will be
-#. # automatically picked from the existing string with ID "hud-settings-button". If you
-#. # need to adapt your localizations to the available space in headers or
-#. # buttons, you can use different strings here.
-#: hud-settings-header
-msgid "{{hud-settings-button}}"
-msgstr "{{hud-settings-button}}"
-
-#: hud-devtools
-msgid "Developer tools"
-msgstr "Unelte de dezvoltare"
-
-#. # LOCALIZATION NOTE (hud-devtools-header): if you leave the original en-US
-#. # value "{{hud-devtools}}" in the following string, the localization will be
-#. # automatically picked from the existing string with ID "hud-devtools". If you
-#. # need to adapt your localizations to the available space in headers or
-#. # buttons, you can use different strings here.
-#: hud-devtools-header
-msgid "{{hud-devtools}}"
-msgstr "{{hud-devtools}}"
-
-#: hud-logging
-msgid "Log changes in ADB"
-msgstr "Înregistrează schimbările în ADB"
-
-#: hud-system
-msgid "Show system HUD"
-msgstr "Arată HUD-ul sistemului"
-
-#: hud-problems
-msgid "Problems"
-msgstr "Probleme"
-
-#: hud-warnings
-msgid "Warnings"
-msgstr "Avertismente"
-
-#: hud-errors
-msgid "Errors"
-msgstr "Erori"
-
-#: hud-security
-msgid "Security issues"
-msgstr "Probleme de securitate"
-
-#: hud-performance
-msgid "Performance"
-msgstr "Performanță"
-
-#: hud-reflows
-msgid "Reflows"
-msgstr "Reflows"
-
-#: hud-jank
-msgid "Jank"
-msgstr "Jank"
-
-#: jank-threshold
-msgid "Jank Threshold"
-msgstr "Jank Threshold"
-
-#: hud-fps
-msgid "Frames per second"
-msgstr "Cadre per secundă"
-
-#: hud-ttl
-msgid "Time to load"
-msgstr "Timp de încărcare"
-
-#: hud-memory
-msgid "Memory"
-msgstr "Memorie"
-
-#: hud-uss
-msgid "Unique Set Size"
-msgstr "Unique Set Size"
-
-#: hud-appmemory
-msgid "App memory"
-msgstr "Memoria aplicației"
-
-#: hud-jsobjects
-msgid "JS objects"
-msgstr "Obiecte JS"
-
-#: hud-jsstrings
-msgid "JS strings"
-msgstr "Șiruri JS"
-
-#: hud-jsother
-msgid "JS other"
-msgstr "JS other"
-
-#: hud-dom
-msgid "DOM"
-msgstr "DOM"
-
-#: hud-style
-msgid "Style"
-msgstr "Style"
-
-#: hud-other
-msgctxt "hud-other"
-msgid "Other"
-msgstr "Other"
-
-#: software
-msgid "Software"
-msgstr "Software"
-
-#: devSettings
-msgid "Developer Settings"
-msgstr "Setări pentru dezvoltator"
-
-#: debug
-msgid "Debug"
-msgstr "Depanare"
-
-#: developer-menu
-msgid "Developer Menu"
-msgstr "Meniu dezvoltator"
-
-#: developer-tools
-msgid "Developer Tools"
-msgstr "Unelte de dezvoltare"
-
-#: graphics
-msgid "Graphics"
-msgstr "Grafică"
-
-#: hardware-composer
-msgid "Hardware composer"
-msgstr "Compozitor hardware"
-
-#: paint-flashing
-msgid "Flash repainted area"
-msgstr "Flash repainted area"
-
-#: dumps-layers
-msgid "Dump layers tree"
-msgstr "Dump layers tree"
-
-#: dumps-layerscope
-msgid "Dump layerscope"
-msgstr "Informații layerscope"
-
-#: apz-overscroll
-msgid "Overscrolling"
-msgstr "Overscrolling"
-
-#: tiling
-msgid "Tiling"
-msgstr "Tiling"
-
-#: low-precision
-msgid "Low-precision painting"
-msgstr "Low-precision painting"
-
-#: low-opacity
-msgid "Low-precision transparency"
-msgstr "Transparență de joasă precizie"
-
-#: draw-tile-borders
-msgid "Draw tile borders"
-msgstr "Desenează marginile miniaturilor"
-
-#: draw-layer-borders
-msgid "Draw layer borders"
-msgstr "Desenează marginile straturilor"
-
-#: log-animations
-msgid "Log slow animations"
-msgstr "Înregistrează animațiile lente"
-
-#: remote-debugging-usb
-msgid "Debugging via USB"
-msgstr "Depanare via USB"
-
-#: dev-tools-wifi
-msgid "DevTools via Wi-Fi"
-msgstr "DevTools via Wi-Fi"
-
-#: dev-tools-qps
-msgid "Pseudo-localization"
-msgstr "Pseudolocalizare"
-
-#: debugger-disabled
-msgctxt "debugger-disabled"
-msgid "Disabled"
-msgstr "Dezactivată"
-
-#: debugger-adb-only
-msgid "ADB only"
-msgstr "Doar ADB"
-
-#: debugger-adb-and-devtools
-msgid "ADB and DevTools"
-msgstr "ADB și DevTools"
-
-#: wifi-debugging
-msgid "Wi-Fi output in ADB"
-msgstr "Ieșire Wi-Fi în ADB"
-
-#: bluetooth-debugging
-msgid "Bluetooth output in ADB"
-msgstr "Ieșire Bluetooth în ADB"
-
-#: nfc-debugging
-msgid "NFC output in ADB"
-msgstr "Ieșire NFC în ADB"
-
-#: ril-debugging
-msgid "RIL output in ADB"
-msgstr "Ieșire RIL în ADB"
-
-#: console-enabled
-msgid "Console enabled"
-msgstr "Consolă activată"
-
-#: cards-view-screenshots
-msgid "Cards View: Screenshots"
-msgstr "Vizualizare carduri: capturi de ecran"
-
-#: geolocation-debugging-enabled
-msgid "Geolocation output in ADB"
-msgstr "Ieșire geolocație în ADB"
-
-#: geolocation-debugging-gps-locations-ignored
-msgid "Ignore GPS locations"
-msgstr "Ignoră locațiile GPS"
-
-#: use-reviewer-certs
-msgid "Use Marketplace reviewer certs"
-msgstr "Folosește examinatorul de certificate Marketplace"
-
-#: shake-to-log
-msgid "Shake to save system log"
-msgstr "Scutură pentru a salva jurnalul sistemului"
-
 #: model-name
 msgid "Model"
 msgstr "Model"
@@ -3797,6 +3700,14 @@ msgstr "Versiune SO"
 #: firmware_revision
 msgid "Firmware Revision"
 msgstr "Revizie firmware"
+
+#: hardware_manufacturer
+msgid "Hardware Manufacturer"
+msgstr "Producător hardware"
+
+#: hardware_platform
+msgid "Hardware Platform"
+msgstr "Platformă hardware"
 
 #: hardware_revision
 msgid "Hardware Revision"
@@ -3919,21 +3830,6 @@ msgctxt "reset-warning-title"
 msgid "CAUTION"
 msgstr "ATENȚIE"
 
-#. # LOCALIZATION NOTE: this string is in developer settings and reset also enables
-#. # full DevTools access.
-#: unlock-privileges
-msgid "Unlock Privileges"
-msgstr "Deblochează privilegii"
-
-#: reset-devtools
-msgid "Reset and enable full DevTools"
-msgstr "Resetează și activează DevTools complet"
-
-#: reset-devtools-warning-title
-msgctxt "reset-devtools-warning-title"
-msgid "CAUTION"
-msgstr "ATENȚIE"
-
 #. # LOCALIZATION NOTE: the licensing* strings below aren’t ready for translation yet.
 #: your-rights
 msgid "Your Rights"
@@ -3982,19 +3878,6 @@ msgstr ""
 "Nu ți se acordă drepturi asupra mărcii comerciale sau asupra licențelor "
 "pentru mărcile comerciale ale Mozilla Foundation sau ale unei alte părți, "
 "inclusiv, dar fără a se limita la numele {{brandShortName}} sau logo."
-
-#: about-your-rights-3
-msgid ""
-"Some features in {{brandShortName}}, such as the Crash Reporter, give you "
-"the option to provide feedback to Mozilla. By choosing to submit feedback, "
-"you give Mozilla permission to use the feedback to improve its products, to "
-"publish the feedback on its websites, and to distribute the feedback."
-msgstr ""
-"Unele funcționalități din {{brandShortName}}, cum ar fi raportorul de "
-"defecțiuni îți oferă posibilitatea să îți faci părerea auzită la Mozilla. "
-"Alegând să trimiți reacțiile, îi dai permisiunea Mozillei să folosească "
-"reacțiile pentru a-și îmbunătăți produsele, să publice reacțiile pe "
-"propriile site-uri web și să distribuie reacțiile."
 
 #: about-legal-info
 msgid "Legal Information"
@@ -4102,6 +3985,317 @@ msgstr "Licența publică Mozilla 2.0"
 msgid "Apache License 2.0"
 msgstr "Licența Apache 2.0"
 
+#. # Device :: Developer
+#: developer
+msgctxt "developer"
+msgid "Developer"
+msgstr "Dezvoltator"
+
+#: developer.ariaLabel
+msgctxt "developer.ariaLabel"
+msgid "Developer"
+msgstr "Dezvoltator"
+
+#. # LOCALIZATION NOTE (developer-header): if you leave the original
+#. # en-US value "{{developer}}" in the following string, the localization
+#. # will be automatically picked from the existing string with ID "developer".
+#. # If you need to adapt your localization to the reduced space available
+#. # in headers, you can use a shorter string here.
+#: developer-header
+msgid "{{developer}}"
+msgstr "{{developer}}"
+
+#: hud-settings-button
+msgid "Developer HUD"
+msgstr "HUD dezvoltator"
+
+#. # LOCALIZATION NOTE (hud-settings-header): if you leave the original en-US value
+#. # "{{hud-settings-button}}" in the following string, the localization will be
+#. # automatically picked from the existing string with ID "hud-settings-button". If you
+#. # need to adapt your localizations to the available space in headers or
+#. # buttons, you can use different strings here.
+#: hud-settings-header
+msgid "{{hud-settings-button}}"
+msgstr "{{hud-settings-button}}"
+
+#: hud-devtools
+msgctxt "hud-devtools"
+msgid "Developer Tools"
+msgstr "Unelte de dezvoltare"
+
+#. # LOCALIZATION NOTE (hud-devtools-header): if you leave the original en-US
+#. # value "{{hud-devtools}}" in the following string, the localization will be
+#. # automatically picked from the existing string with ID "hud-devtools". If you
+#. # need to adapt your localizations to the available space in headers or
+#. # buttons, you can use different strings here.
+#: hud-devtools-header
+msgid "{{hud-devtools}}"
+msgstr "{{hud-devtools}}"
+
+#: hud-hide
+msgid "Hide All HUD Elements"
+msgstr "Ascunde toate elementele HUD"
+
+#: hud-logging
+msgid "Log Changes in ADB"
+msgstr "Înregistrează schimbările în ADB"
+
+#: hud-system
+msgid "Show System HUD"
+msgstr "Arată HUD-ul sistemului"
+
+#: hud-problems
+msgid "Problems"
+msgstr "Probleme"
+
+#: hud-warnings
+msgid "Warnings"
+msgstr "Avertismente"
+
+#: hud-errors
+msgid "Errors"
+msgstr "Erori"
+
+#: hud-security
+msgid "Security Issues"
+msgstr "Probleme de securitate"
+
+#: hud-performance
+msgid "Performance"
+msgstr "Performanță"
+
+#: hud-reflows
+msgid "Reflows"
+msgstr "Reflows"
+
+#: hud-jank
+msgid "Jank"
+msgstr "Jank"
+
+#: jank-threshold
+msgid "Jank Threshold"
+msgstr "Jank Threshold"
+
+#: hud-fps
+msgid "Frames per Second"
+msgstr "Cadre per secundă"
+
+#: hud-ttl
+msgid "Time to Load"
+msgstr "Timp de încărcare"
+
+#: hud-memory
+msgid "Memory"
+msgstr "Memorie"
+
+#: about-your-rights-3
+msgid ""
+"Some features in {{brandShortName}}, such as the Crash Reporter, give you "
+"the option to provide feedback to Mozilla. By choosing to submit feedback, "
+"you give Mozilla permission to use the feedback to improve its products, to "
+"publish the feedback on its websites, and to distribute the feedback."
+msgstr ""
+"Unele funcționalități din {{brandShortName}}, cum ar fi raportorul de "
+"defecțiuni îți oferă posibilitatea să furnizezi feedback la Mozilla. Alegând "
+"să trimiți feedback, îi dai permisiunea lui Mozilla să folosească "
+"feedbackurile pentru a-și îmbunătăți produsele, să publice feedbackurile pe "
+"propriile site-uri web și să distribuie feedbackurile."
+
+#: hud-uss
+msgid "Unique Set Size"
+msgstr "Unique Set Size"
+
+#: hud-appmemory
+msgid "App Memory"
+msgstr "Memoria aplicației"
+
+#: hud-jsobjects
+msgid "JS Objects"
+msgstr "Obiecte JS"
+
+#: hud-jsstrings
+msgid "JS Strings"
+msgstr "Șiruri JS"
+
+#: hud-jsother
+msgid "JS Other"
+msgstr "Alt JS"
+
+#: hud-dom
+msgid "DOM"
+msgstr "DOM"
+
+#: hud-style
+msgid "Style"
+msgstr "Style"
+
+#: hud-other
+msgctxt "hud-other"
+msgid "Other"
+msgstr "Other"
+
+#: hud-telemetry
+msgid "Telemetry"
+msgstr "Telemetrie"
+
+#: software
+msgid "Software"
+msgstr "Software"
+
+#: devSettings
+msgid "Developer Settings"
+msgstr "Setări pentru dezvoltator"
+
+#: debug
+msgid "Debug"
+msgstr "Depanare"
+
+#: developer-menu
+msgid "Developer Menu"
+msgstr "Meniu dezvoltator"
+
+#: developer-tools
+msgctxt "developer-tools"
+msgid "Developer Tools"
+msgstr "Unelte de dezvoltare"
+
+#: graphics
+msgid "Graphics"
+msgstr "Grafică"
+
+#: hardware-composer
+msgid "Hardware Composer"
+msgstr "Compozitor hardware"
+
+#: paint-flashing
+msgid "Flash Repainted Area"
+msgstr "Flash repainted area"
+
+#: dumps-layers
+msgid "Dump Layers Tree"
+msgstr "Dump layers tree"
+
+#: dumps-display-list
+msgid "Dump Display List"
+msgstr "Dump Display List"
+
+#: dumps-layerscope
+msgid "Dump LayerScope"
+msgstr "Informații layerscope"
+
+#: apz-overscroll
+msgid "Overscrolling"
+msgstr "Overscrolling"
+
+#: tiling
+msgid "Tiling"
+msgstr "Tiling"
+
+#: low-precision
+msgid "Low Precision Painting"
+msgstr "Low-precision painting"
+
+#: low-opacity
+msgid "Low Precision Transparency"
+msgstr "Transparență de joasă precizie"
+
+#: draw-tile-borders
+msgid "Draw Tile Borders"
+msgstr "Desenează marginile miniaturilor"
+
+#: draw-layer-borders
+msgid "Draw Layer Borders"
+msgstr "Desenează marginile straturilor"
+
+#: log-animations
+msgid "Log Slow Animations"
+msgstr "Înregistrează animațiile lente"
+
+#: remote-debugging-usb
+msgid "Debugging via USB"
+msgstr "Depanare via USB"
+
+#: devtools-wifi
+msgid "DevTools via Wi-Fi"
+msgstr "DevTools via Wi-Fi"
+
+#: devtools-device-name
+msgid "DevTools Wi-Fi Device Name"
+msgstr "Numele dispozitivului în Wi-Fi DevTools"
+
+#: devtools-qps
+msgid "Pseudo-Localization"
+msgstr "Pseudolocalizare"
+
+#: debugger-disabled
+msgctxt "debugger-disabled"
+msgid "Disabled"
+msgstr "Dezactivată"
+
+#: debugger-adb-only
+msgid "ADB only"
+msgstr "Doar ADB"
+
+#: debugger-adb-and-devtools
+msgid "ADB and DevTools"
+msgstr "ADB și DevTools"
+
+#: wifi-debugging
+msgid "Wi-Fi Output in ADB"
+msgstr "Ieșire Wi-Fi în ADB"
+
+#: bluetooth-debugging
+msgid "Bluetooth Output in ADB"
+msgstr "Ieșire Bluetooth în ADB"
+
+#: bluetooth-snoop-debugging
+msgid "Bluetooth HCI Sniffing Logs to SD Card"
+msgstr "Înregistrează Bluetooth HCI sniffing pe cardul SD"
+
+#: nfc-debugging
+msgid "NFC Output in ADB"
+msgstr "Ieșire NFC în ADB"
+
+#: ril-debugging
+msgid "RIL Output in ADB"
+msgstr "Ieșire RIL în ADB"
+
+#: network-debugging
+msgid "Network Output in ADB"
+msgstr "Ieșire rețea în ADB"
+
+#: mms-debugging
+msgid "MMS Output in ADB"
+msgstr "Ieșire MMS în ADB"
+
+#: console-enabled
+msgid "Console Enabled"
+msgstr "Consolă activată"
+
+#: cards-view-screenshots
+msgid "Cards View: Screenshots"
+msgstr "Vizualizare carduri: capturi de ecran"
+
+#: geolocation-debugging-enabled
+msgid "Geolocation Output in ADB"
+msgstr "Ieșire geolocație în ADB"
+
+#: geolocation-debugging-gps-locations-ignored
+msgid "Ignore GPS Locations"
+msgstr "Ignoră locațiile GPS"
+
+#: use-reviewer-certs
+msgid "Use Marketplace Reviewer Certs"
+msgstr "Folosește examinatorul de certificate Marketplace"
+
+#: shake-to-log
+msgid "Shake to Save System Log"
+msgstr "Scutură pentru a salva jurnalul sistemului"
+
+#: enable-logshake-qa
+msgid "Enable LogShake QA Mode"
+msgstr "Activează modul LogShake QA"
+
 #: launch-ftu
 msgid "Launch First Time Use"
 msgstr "Lansează prima folosire"
@@ -4111,44 +4305,203 @@ msgid "No first time use app found"
 msgstr "Nicio aplicație FTU găsită"
 
 #: software-home-button
-msgid "Software home button"
+msgid "Software Home Button"
 msgstr "Butonul software acasă"
 
 #: home-gesture
-msgid "Home gesture"
+msgid "Home Gesture"
 msgstr "Gesturi către ecranul principal"
 
+#: screenReader-enable-msg
+msgid ""
+"When the screen reader is enabled, your device will provide spoken feedback "
+"to assist blind and low-vision users."
+msgstr ""
+"Când cititorul de ecran e activat, dispozitivul va furniza feedback vorbit "
+"pentru a asista utilizatorii nevăzători sau cu vedere slabă."
+
 #: continuous-transition
-msgid "Continuous transition"
+msgid "Continuous Transition"
 msgstr "Tranziție continuă"
 
 #: debug-gaia-enabled
-msgid "Gaia debug traces"
+msgid "Gaia Debug Traces"
 msgstr "Urme de depanare Gaia"
 
 #: showScreenReaderSettings
-msgid "Show screen reader settings"
+msgid "Show Screen Reader Settings"
 msgstr "Arată setările cititorului de ecran"
 
 #: app-transition
-msgid "App transition"
+msgid "App Transition"
 msgstr "Tranziție pentru aplicații"
 
 #: app-suspending
-msgid "App suspending"
+msgid "App Suspending"
 msgstr "Suspendare pentru aplicații"
 
 #: copypaste
-msgid "Copy/paste"
+msgid "Copy/Paste"
 msgstr "Copiază/lipește"
 
+#: multi-screen
+msgid "Multi-Screen"
+msgstr "Multiecrane"
+
+#: screenReader-confirm-description-stop
+msgid "Stopping the screen reader will end all speech feedback."
+msgstr "Oprirea cititorului de ecran va opri feedbackul vorbit."
+
 #: verbose-app-permissions
-msgid "Verbose app permissions"
+msgid "Verbose App Permissions"
 msgstr "Permisiuni detaliate pentru aplicații"
 
+#: pinning-the-web
+msgid "Enable Pinning the Web"
+msgstr "Activează fixarea webului"
+
+#: view-source
+msgid "Enable View Source Gesture"
+msgstr ""
+
 #: window-management
-msgid "Window management"
+msgid "Window Management"
 msgstr "Gestionarea ferestrelor"
+
+#. # LOCALIZATION NOTE: this string is in developer settings and reset also enables
+#. # full DevTools access.
+#: unlock-privileges
+msgid "Unlock Privileges"
+msgstr "Deblochează privilegii"
+
+#: full-devtools
+msgid "Full DevTools"
+msgstr "DevTools complet"
+
+#: reset-devtools-warning-title
+msgctxt "reset-devtools-warning-title"
+msgid "CAUTION"
+msgstr "ATENȚIE"
+
+#: sendMozillaFeedback
+msgid "Send Mozilla Feedback"
+msgstr "Trimite feedbackul la Mozilla"
+
+#. # Device :: Developer :: Service Workers
+#: service-worker
+msgid "Service Workers"
+msgstr "Service Workers"
+
+#: service-worker-scope
+msgid "Scope"
+msgstr "Domeniu"
+
+#: service-worker-script-spec
+msgid "Script spec"
+msgstr "Specificație script"
+
+#: service-worker-current-worker-url
+msgid "Current worker URL"
+msgstr "URL actual pentru worker"
+
+#: service-worker-active-cache-name
+msgid "Active cache name"
+msgstr "Nume cache activ"
+
+#: service-worker-waiting-cache-name
+msgid "Waiting cache name"
+msgstr "Nume cache în așteptare"
+
+#: service-worker-update
+msgid "Update"
+msgstr "Actualizează"
+
+#: service-worker-unregister
+msgid "Unregister"
+msgstr "Ștergere înregistrarea"
+
+#: service-worker-no-registrations
+msgid "No service workers found"
+msgstr ""
+
+#. # Device :: Full Developer Mode
+#: developer-menu-disabled-warning-title
+msgid "Developer menu not enabled"
+msgstr ""
+
+#: developer-menu-disabled-warning-msg-1
+msgid ""
+"Developer Mode can't be enabled without the developer menu first being "
+"enabled."
+msgstr ""
+
+#: developer-menu-disabled-warning-msg-2
+msgid ""
+"Please enable it from Settings > Device Information > More Information > "
+"Developer Menu."
+msgstr ""
+
+#: enable-full-dev-mode-first-warning-title
+msgid "Would you like to enable developer mode?"
+msgstr ""
+
+#: enable-full-dev-mode-first-warning-msg-1
+msgid "THIS WILL DELETE ALL YOUR DATA AND FACTORY RESET YOUR DEVICE."
+msgstr ""
+"ACEST LUCRU VA ȘTERGE TOATE DATELE ȘI VA RESETA SETĂRILE LA CELE DIN FABRICĂ."
+
+#: enable-full-dev-mode-first-warning-msg-2
+msgid "THIS WILL DISABLE ALL SECURITY MEASURES ON YOUR DEVICE."
+msgstr ""
+
+#. # Device :: Improve Browser OS :: Submit Your Feedback
+#: sendFeedbackTitle
+msgid "Submit Your Feedback"
+msgstr "Trimite feedbackul"
+
+#: enable-full-dev-mode-final-warning-title
+msgid "Are you sure you want to enable developer mode?"
+msgstr "Sigur dorești să activezi modul dezvoltator?"
+
+#: feedback-description
+msgid "Your feedback will help us to improve Firefox OS."
+msgstr "Feedbackul tău ne va ajuta să îmbunătățim Firefox OS."
+
+#: enable-full-dev-mode-final-warning-msg
+msgid "{[ plural(count) ]}"
+msgstr "{[ plural(count) ]}"
+
+#: enable-full-dev-mode-final-warning-msg[one]
+msgid "Tap 'Enable' {{count}} more time to continue."
+msgstr "Atinge 'Activează' încă {{count}} dată pentru a continua."
+
+#: enable-full-dev-mode-final-warning-msg[two]
+msgctxt "enable-full-dev-mode-final-warning-msg[two]"
+msgid "Tap 'Enable' {{count}} more times to continue."
+msgstr "Atinge 'Activează' de încă {{count}} ori pentru a continua."
+
+#: enable-full-dev-mode-final-warning-msg[few]
+msgctxt "enable-full-dev-mode-final-warning-msg[few]"
+msgid "Tap 'Enable' {{count}} more times to continue."
+msgstr "Atinge 'Activează' de încă {{count}} ori pentru a continua."
+
+#: enable-full-dev-mode-final-warning-msg[many]
+msgctxt "enable-full-dev-mode-final-warning-msg[many]"
+msgid "Tap 'Enable' {{count}} more times to continue."
+msgstr "Atinge 'Activează' de încă {{count}} ori pentru a continua."
+
+#: enable-full-dev-mode-final-warning-msg[other]
+msgctxt "enable-full-dev-mode-final-warning-msg[other]"
+msgid "Tap 'Enable' {{count}} more times to continue."
+msgstr "Atinge 'Activează' de încă {{count}} ori pentru a continua."
+
+#: feedback-public-description
+msgid ""
+"The content of your feedback will be public, so please be sure not include "
+"any personal information."
+msgstr ""
+"Conținutul feedbackului va fi public, atfel încât te rugăm să te asiguri că "
+"nu incluzi vreo informație personală."
 
 #. # Device :: Downloads
 #: downloads-edit
@@ -4168,8 +4521,13 @@ msgctxt "downloads-delete"
 msgid "Delete"
 msgstr "Șterge"
 
+#: feedback-sendbtn
+msgid "Send Feedback"
+msgstr "Trimite feedbackul"
+
 #. # Device :: Battery
 #: battery
+msgctxt "battery"
 msgid "Battery"
 msgstr "Baterie"
 
@@ -4186,22 +4544,65 @@ msgstr "{{battery}}"
 msgid "Current Level"
 msgstr "Nivel actual"
 
+#: feedback-errormessage-timeout
+msgid ""
+"Sorry, the system can’t send your suggestion because of a timeout. Please "
+"restart and try again."
+msgstr ""
+"Ne pare rău, sistemul nu poate trimite sugestia deoarece timpul a expirat. "
+"Te rugăm să repornești dispozitivul și să încerci iar."
+
 #: batteryLevel-percent-unplugged
 msgid "{{level}}%"
 msgstr "{{level}}%"
+
+#: feedback-errormessage-wrong-email
+msgid ""
+"Sorry, the system can’t send your suggestion because the email address is "
+"missing or due to a formatting error. Please use a valid email address and "
+"try again."
+msgstr ""
+"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece adresa de e-mail "
+"este lipsă sau datorită unei erori de formatare. Te rugăm să folosești o "
+"adresă de e-mail validă și să încerci din nou."
 
 #: batteryLevel-percent-charging
 msgid "{{level}}% (charging)"
 msgstr "{{level}}% (se încarcă)"
 
+#: feedback-errormessage-empty-comment
+msgid ""
+"Sorry, the system can’t send your suggestion because the comment field is "
+"empty. Please enter some text and try again."
+msgstr ""
+"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece câmpul "
+"comentariu este gol. Te rugăm să introduci un text și să încerci din nou."
+
 #: batteryLevel-percent-charged
 msgid "{{level}}% (charged)"
 msgstr "{{level}}% (încărcată)"
+
+#: feedback-errormessage-just-sent
+msgid ""
+"Sorry, the system can’t send your suggestion because you already sent us "
+"feedback. Please try our next software update and send again."
+msgstr ""
+"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece ai trimis deja "
+"un feedback. Te rugăm să încerci următoarea actualizare software și să îl "
+"trimiți din nou."
 
 #: powerSaveModeTitle
 msgctxt "powerSaveModeTitle"
 msgid "Power Save Mode"
 msgstr "Mod de economisire"
+
+#: feedback-complete-msg
+msgid ""
+"Thanks for the feedback! We use it to help create better experiences in "
+"future releases of Firefox OS."
+msgstr ""
+"Îți mulțumim pentru feedback! Îl folosim pentru a contribui la crearea unei "
+"experiențe mai bune în versiunile viitoare ale Firefox OS."
 
 #: powerSaveMode
 msgctxt "powerSaveMode"
@@ -4218,6 +4619,12 @@ msgstr "Pornește automat"
 
 #. # Device :: Accessibility
 #: accessibility
+msgctxt "accessibility"
+msgid "Accessibility"
+msgstr "Accesibilitate"
+
+#: accessibility.ariaLabel
+msgctxt "accessibility.ariaLabel"
 msgid "Accessibility"
 msgstr "Accesibilitate"
 
@@ -4263,14 +4670,6 @@ msgstr "{{colorFilter}}"
 msgid "Display speech"
 msgstr "Afișează subtitrări"
 
-#: screenReader-enable-msg
-msgid ""
-"When the screen reader is enabled, your device will provide spoken feedback "
-"to assist blind and low-vision users."
-msgstr ""
-"Când cititorul de ecran e activat, dispozitivul va furniza feedback vocal "
-"pentru a asista utilizatorii nevăzători sau cu vedere slabă."
-
 #: screen-reader-speech-volume
 msgid "Speech Volume"
 msgstr "Volum de citire"
@@ -4290,8 +4689,8 @@ msgid ""
 "activate."
 msgstr ""
 "Activarea cititorului de ecran va schimba modul în care ecranul tactil "
-"funcționează. Apasă oriunde pentru a auzi elementul de sub deget și dublă "
-"apăsare pentru activare."
+"funcționează. Atinge oriunde pentru a auzi elementul de sub deget și dublă "
+"atingere pentru activare."
 
 #: screenReader-confirm-button-start
 msgid "Start"
@@ -4300,10 +4699,6 @@ msgstr "Start"
 #: screenReader-confirm-title-stop
 msgid "Stop Screen Reader?"
 msgstr "Oprești cititorul de ecran?"
-
-#: screenReader-confirm-description-stop
-msgid "Stopping the screen reader will end all speech feedback."
-msgstr "Oprirea cititorului de ecran va opri feedbackul vocal."
 
 #: screenReader-confirm-button-stop
 msgid "Stop"
@@ -4328,14 +4723,15 @@ msgctxt "improveBrowserOS"
 msgid "Improve {{brandShortName}}"
 msgstr "Îmbunătățește {{brandShortName}}"
 
+#: improveBrowserOS.ariaLabel
+msgctxt "improveBrowserOS.ariaLabel"
+msgid "Improve {{brandShortName}}"
+msgstr "Îmbunătățește {{brandShortName}}"
+
 #: improveBrowserOSTitle
 msgctxt "improveBrowserOSTitle"
 msgid "Improve {{brandShortName}}"
 msgstr "Îmbunătățește {{brandShortName}}"
-
-#: sendMozillaFeedback
-msgid "Send Mozilla Feedback"
-msgstr "Trimite opinia la Mozilla"
 
 #: performanceAndUsageData
 msgid "Performance and Usage Data"
@@ -4423,15 +4819,6 @@ msgstr "politica de confidențialitate"
 msgid "."
 msgstr "."
 
-#. # Device :: Improve Browser OS :: Submit Your Feedback
-#: sendFeedbackTitle
-msgid "Submit Your Feedback"
-msgstr "Trimite opinia ta"
-
-#: feedback-description
-msgid "Your feedback will help us to improve Firefox OS."
-msgstr "Opinia ta ne va ajuta să îmbunătățim Firefox OS."
-
 #: feedback-happy
 msgid "Happy"
 msgstr "Fericit"
@@ -4456,14 +4843,6 @@ msgstr "De ce te simți trist?"
 msgid "Please tell us in detail."
 msgstr "Te rugăm să ne spui în detaliu."
 
-#: feedback-public-description
-msgid ""
-"The content of your feedback will be public, so please be sure not include "
-"any personal information."
-msgstr ""
-"Conținutul opiniei tale va fi public, așadar asigură-te că nu incluzi vreo "
-"informație personală."
-
 #: feedback-contactyou
 msgid "Check here to let us contact you from your email."
 msgstr "Bifează aici pentru a ne permite să te contactăm prin e-mail."
@@ -4475,10 +4854,6 @@ msgstr "Adresă de e-mail:"
 #: email-keepprivate
 msgid "Don’t worry. Your email will always be kept private."
 msgstr "Nu-ți fă griji. E-mailul tău va rămâne mereu privat."
-
-#: feedback-sendbtn
-msgid "Send Feedback"
-msgstr "Trimite opinia"
 
 #: feedback-errormessage-connect-error
 msgid ""
@@ -4496,48 +4871,9 @@ msgstr ""
 "Ne pare rău, sistemul nu poate trimite sugestia ta deoarece serverul este "
 "închis. Te rugăm să aștepți o clipă și să încerci din nou."
 
-#: feedback-errormessage-timeout
-msgid ""
-"Sorry, the system can’t send your suggestion because of a timeout. Please "
-"restart and try again."
-msgstr ""
-"Scuze, sistemul nu poate trimite sugestia deoarece timpul a expirat. Te "
-"rugăm să repornești dispozitivul și să încerci iar."
-
-#: feedback-errormessage-wrong-email
-msgid ""
-"Sorry, the system can’t send your suggestion because the email address is "
-"missing or due to a formatting error. Please use a valid email address and "
-"try again."
-msgstr ""
-"Scuze, sistemul nu poate trimite sugestia ta deoarece adresa de e-mail este "
-"lipsă sau datorită unei erori de formatare. Te rugăm să folosești o adresă "
-"de e-mail corectă și să încerci din nou."
-
-#: feedback-errormessage-empty-comment
-msgid ""
-"Sorry, the system can’t send your suggestion because the comment field is "
-"empty. Please enter some text and try again."
-msgstr ""
-"Scuze, sistemul nu poate trimite sugestia ta deoarece câmpul comentariu este "
-"gol. Te rugăm să introduci un text și să încerci din nou."
-
-#: feedback-errormessage-just-sent
-msgid ""
-"Sorry, the system can’t send your suggestion because you already sent us "
-"feedback. Please try our next software update and send again."
-msgstr ""
-"Scuze, sistemul nu poate trimite sugestia ta deoarece ai trimis deja o "
-"opinie. Te rugăm să încerci actualizarea următoare a programului și să o "
-"trimiți din nou."
-
-#: feedback-complete-msg
-msgid ""
-"Thanks for the feedback! We use it to help create better experiences in "
-"future releases of Firefox OS."
-msgstr ""
-"Îți mulțumim pentru opinie! O folosim pentru a ne ajuta la crearea unei "
-"experiențe mai bune în versiunile viitoare ale Firefox OS."
+#: feedback-errormessage-unknown-error
+msgid "Something went wrong. Please try again."
+msgstr "Ceva a mers prost. Te rugăm să reîncerci."
 
 #. # Device :: Help
 #: online-support
@@ -4675,8 +5011,13 @@ msgstr "Obține starea canalului"
 msgid "End of the proactive session"
 msgstr "Finalul sesiunii proactive"
 
+#: stkEntry.ariaLabel
+msgid "{{ title }}"
+msgstr "{{ title }}"
+
 #. # Incompatible Settings :: USB Storage - USB Tethering - WiFi Tethering
 #: is-warning-storage-header
+msgctxt "is-warning-storage-header"
 msgid "USB storage"
 msgstr "Stocare USB"
 
@@ -4746,352 +5087,288 @@ msgstr "{{settings-dialog-confirm}}"
 msgid "{{settings-dialog-prompt}}"
 msgstr "{{settings-dialog-prompt}}"
 
-#~ msgid "No imported certificate"
-#~ msgstr "Niciun certificat importat"
-
-#~ msgid "Voice calls to {{number}}"
-#~ msgstr "Apeluri vocale către {{number}}"
-
-#~ msgid "Multimedia Messaging (MMS)"
-#~ msgstr "Mesagerie multimedia (MMS)"
-
-#~ msgctxt "fdnSettings"
-#~ msgid "Fixed dialing numbers"
-#~ msgstr "Numere de apelare fixă"
-
-#~ msgid "Clear bookmarks data"
-#~ msgstr "Curăță datele semnelor de carte"
-
-#~ msgid ""
-#~ "This clears private data from bookmarks that have been added to the home "
-#~ "screen. This cannot be undone."
-#~ msgstr ""
-#~ "Acesta curăță datele private de la semnele de carte care au fost adăugate "
-#~ "la ecranul principal. Acest lucru nu poate fi anulat."
-
-#~ msgctxt "total-space"
-#~ msgid "Total space"
-#~ msgstr "Spațiu total"
-
-#, fuzzy
-#~ msgctxt "is-warning-storage-header"
-#~ msgid "USB storage"
-#~ msgstr "Stocare USB"
-
-#, fuzzy
-#~ msgctxt "is-warning-tethering-header"
-#~ msgid "USB tethering"
-#~ msgstr "Tethering prin USB"
-
-#, fuzzy
-#~ msgctxt "is-warning-wifi-header"
-#~ msgid "Wi-Fi hotspot"
-#~ msgstr "Hotspot Wi-Fi"
-
-#~ msgctxt "hud-header"
-#~ msgid "{{hud}}"
-#~ msgstr "{{hud}}"
-
-#~ msgctxt "hud-button"
-#~ msgid "{{hud}}"
-#~ msgstr "{{hud}}"
-
-#~ msgid "Rocketbar enabled"
-#~ msgstr "Rocketbar enabled"
-
-#~ msgid "Saving ringtone…"
-#~ msgstr "Se salvează tonul…"
-
-#~ msgid "Invert colors"
-#~ msgstr "Inversează culorile"
-
-#~ msgid "Show accessibility settings"
-#~ msgstr "Arată setările de accesibilitate?"
-
-#~ msgid "Ringer"
-#~ msgstr "Sunet"
-
-#~ msgid "Alert tones"
-#~ msgstr "Tonuri de alertă"
-
-#~ msgid "Are you sure you want to uninstall {{ app }}?"
-#~ msgstr "Sigur doreși să dezinstalezi {{ app }}?"
-
-#~ msgid "Clear private data from bookmarks?"
-#~ msgstr "Cureți datele private de la semnele de carte?"
-
-#~ msgid "Share using USB"
-#~ msgstr "Partajează prin USB"
-
-#~ msgid "WPS failed"
-#~ msgstr "WPS a eșuat"
-
-#~ msgid "Failed to cancel WPS"
-#~ msgstr "Eșec la anularea WPS"
-
-#~ msgid "Voice calls to"
-#~ msgstr "Apeluri vocale către"
-
-#, fuzzy
-#~ msgid "SMSC"
-#~ msgstr "MMSC"
-
-#~ msgid "Connected to phone audio"
-#~ msgstr "Conectat la sistemul audio al telefonului"
-
-#~ msgid "Connected to phone/media audio"
-#~ msgstr "Conectat la sistemul audio al telefonului/media"
-
-#~ msgid "Change phone name"
-#~ msgstr "Schimbă numele telefonului"
-
-#~ msgid "Share my phone’s Internet connection with a USB-connected device."
-#~ msgstr ""
-#~ "Partajează conexiunea de internet a telefonului meu cu un dispozitiv "
-#~ "conectat la USB."
-
-#~ msgid ""
-#~ "Allow other devices to share my phone’s Internet connection by connecting "
-#~ "via Wi-Fi."
-#~ msgstr ""
-#~ "Permite altor dispozitive să partajeze conexiunea de internet a "
-#~ "telefonului meu conectându-se via Wi-Fi."
-
-#~ msgid ""
-#~ "The ringtone was not changed because the selected file can not be played "
-#~ "on this phone."
-#~ msgstr ""
-#~ "Tonul de apel nu a fost schimbat deoarece fișierul selectat nu a putut fi "
-#~ "redat pe acest telefon."
-
-#~ msgid ""
-#~ "Turning on Enable USB storage allows another computer or device connected "
-#~ "using USB to access files on this phone."
-#~ msgstr ""
-#~ "Pornind „Stocare USB” permite altui calculator sau dispozitiv conectat "
-#~ "folosind USB să acceseze fișierele pe acest telefon."
-
-#~ msgid "Reset Phone"
-#~ msgstr "Resetează telefonul"
-
-#~ msgid ""
-#~ "Resetting will erase all your data, including any apps you’ve purchased. "
-#~ "The phone will be restored to its factory condition. None of your "
-#~ "settings or data will be saved."
-#~ msgstr ""
-#~ "Resetarea va șterge toate datele, inclusiv orice aplicație pe care ai "
-#~ "achiziționat-o. Telefonul va fi restaurat la starea din fabrică. Niciuna "
-#~ "din setările tale sau din date nu va fi salvată."
-
-#~ msgid ""
-#~ "Turning on power save mode turns off the phone’s data, Bluetooth and "
-#~ "Geolocation connections to extend battery life. You can still turn these "
-#~ "services back on manually."
-#~ msgstr ""
-#~ "Pornirea modului de economisire a energiei oprește conexiunea de date a "
-#~ "telefonului, Bluetooth și geolocația pentru a extinde durata de viață a "
-#~ "bateriei. Poți porni în continuare aceste servicii din nou manual."
-
-#~ msgid "Installed input methods"
-#~ msgstr "Metode de introducere instalate"
-
-#~ msgid "Add more keyboards"
-#~ msgstr "Adaugă mai multe tastaturi"
-
-#~ msgid "{{addMoreKeyboards}}"
-#~ msgstr "{{addMoreKeyboards}}"
-
-#~ msgid "After 5 seconds"
-#~ msgstr "După 5 secunde"
-
-#~ msgid "After 15 seconds"
-#~ msgstr "După 15 secunde"
-
-#~ msgid "After 30 seconds"
-#~ msgstr "După 30 de secunde"
-
-#~ msgid "After 2 minutes"
-#~ msgstr "După 2 minute"
-
-#~ msgid "After 10 minutes"
-#~ msgstr "După 10 minute"
-
-#~ msgid "After 4 hours"
-#~ msgstr "După 4 ore"
-
-#~ msgid "Show devtools overlay"
-#~ msgstr "Show devtools overlay"
-
-#~ msgid "Performance data"
-#~ msgstr "Date despre performanță"
-
-#~ msgid "Help us improve {{brandShortName}} by sharing data about your phone."
-#~ msgstr ""
-#~ "Ajută-ne să îmbunătățim {{brandShortName}} prin împărtășirea datelor "
-#~ "despre telefonul tău."
-
-#~ msgid "Submit performance data"
-#~ msgstr "Trimite datele"
-
-#~ msgid "Sent Mail"
-#~ msgstr "Mesaje trimise"
-
-#~ msgid "Camera shutter"
-#~ msgstr "Obturatorul camerei"
-
-#~ msgid "Video recording"
-#~ msgstr "Înregistrare video"
-
-#~ msgid "Confirm devices to pair"
-#~ msgstr "Confirmă dispozitivele pentru asociere"
-
-#~ msgid ""
-#~ "To pair with {{device}}, make sure that both devices currently have the "
-#~ "following PIN displayed:"
-#~ msgstr ""
-#~ "Pentru a asocia cu {{device}}, asigură-te că ambele dispozitivele au "
-#~ "următorul cod PIN afișat:"
-
-#~ msgid "To pair with {{device}}, enter the PIN on the device."
-#~ msgstr "Pentru a asocia cu {{device}}, introdu codul PIN în dispozitiv."
-
-#~ msgid "To pair with {{device}}, enter the passkey on the device."
-#~ msgstr ""
-#~ "Pentru a asocia cu {{device}}, introdu cheia de acces în dispozitiv."
-
-#~ msgid "Bluetooth pairing request"
-#~ msgstr "Cerere de asociere Bluetooth"
-
-#~ msgid ""
-#~ "{{device}} would like to pair with this phone. To accept, make sure that "
-#~ "both devices currently have the following PIN displayed:"
-#~ msgstr ""
-#~ "{{device}} dorește să se asocieze cu acest telefon. Pentru a accepta, "
-#~ "asigură-te că ambele dispozitive au următorul cod PIN afișat:"
-
-#~ msgid ""
-#~ "{{device}} would like to pair with this phone. To accept, enter the PIN "
-#~ "on the device."
-#~ msgstr ""
-#~ "{{device}} dorește să se asocieze cu acest telefon. Pentru a accepta, "
-#~ "introdu codul PIN în dispozitiv."
-
-#~ msgid ""
-#~ "{{device}} would like to pair with this phone. To accept, enter the "
-#~ "passkey on the device."
-#~ msgstr ""
-#~ "{{device}} dorește să se asocieze cu acest telefon. Pentru a accepta, "
-#~ "introdu cheia de acces în dispozitiv."
-
-#~ msgid "Bluetooth Request From"
-#~ msgstr "Cerere Bluetooth de la"
-
-#~ msgid ""
-#~ "When entering a roaming area, your data connection will be turned off."
-#~ msgstr "Când intrii într-o zonă roaming, conexiunea de date va fi oprită."
-
-#~ msgid "Hotspot"
-#~ msgstr "Hotspot"
-
-#~ msgid "Message"
-#~ msgstr "Mesaj"
-
-#~ msgid "Volume & Tones"
-#~ msgstr "Volum și tonuri"
-
-#~ msgid "Voice"
-#~ msgstr "Voce"
-
-#~ msgid "Device storage"
-#~ msgstr "Stocare pe dispozitiv"
-
-#~ msgid "USB mass storage"
-#~ msgstr "Stocare în masă USB"
-
-#~ msgctxt "enableUSBStorage2"
-#~ msgid "USB storage"
-#~ msgstr "Stocare USB"
-
-#~ msgctxt "storage-name-internal"
-#~ msgid "Internal Storage"
-#~ msgstr "Stocare internă"
-
-#, fuzzy
-#~ msgid "Displayport heuristics"
-#~ msgstr "Euristici privind portul de vizualizare"
-
-#~ msgctxt "apz-heuristic-default"
-#~ msgid "Default"
-#~ msgstr "Implicit"
-
-#~ msgid "Center displayport"
-#~ msgstr "Centrează portul de vizualizare"
-
-#~ msgid "Assume perfect paints"
-#~ msgstr "Presupune picturi perfecte"
-
-#~ msgid "Taller displayport"
-#~ msgstr "Port de vizualizare mai mare"
-
-#~ msgid "Faster paints"
-#~ msgstr "Picturi mai rapide"
-
-#~ msgid "No checkerboarding"
-#~ msgstr "Fără tablă de șah"
-
-#~ msgid ""
-#~ "Internet connection, MMS, A-GPS and Marketplace payments will be sent from"
-#~ msgstr ""
-#~ "Plățile prin conexiunea de internet, MMS-ul, A-GPS-ul și Marketplace vor "
-#~ "fi trimise de la"
-
-#~ msgid "Accounts"
-#~ msgstr "Conturi"
-
-#~ msgid "Persona"
-#~ msgstr "Persona"
-
-#~ msgid "Mail"
-#~ msgstr "Mail"
-
-#~ msgid "{{phoneLock}}"
-#~ msgstr "{{phoneLock}}"
-
-#~ msgid "Enable hardware composer"
-#~ msgstr "Activează compozitorul hardware"
-
-#~ msgid "Enable APZ for all content processes"
-#~ msgstr "Activează APZ pentru toate procesele de conținut"
-
-#~ msgid "Layers: Enable Tiles"
-#~ msgstr "Straturi: Activează mozaicuri"
-
-#~ msgid "Layers: Simple Tiles"
-#~ msgstr "Layers: Simple Tiles"
-
-#~ msgid "Layers: Progressive Paint"
-#~ msgstr "Straturi: Pictură progresivă"
-
-#~ msgid "Layers: Draw Tile Borders"
-#~ msgstr "Straturi: Desenează marginile în mozaic"
-
-#~ msgid "Remote debugging"
-#~ msgstr "Depanare de la distanță"
-
-#~ msgid "Enable software home button"
-#~ msgstr "Activează butonul software acasă"
-
-#~ msgid "Home gesture enabled"
-#~ msgstr "Gesturile pentru acasă activate"
-
-#~ msgid "Edges gesture enabled"
-#~ msgstr "Gesturile de margini activate"
-
-#~ msgid "Continuous transition enabled"
-#~ msgstr "Continuous transition enabled"
-
-#~ msgid "App transition enabled"
-#~ msgstr "Tranziție pt. aplicație activată"
-
-#~ msgid "Keep killed app in task manager"
-#~ msgstr "Keep killed app in task manager"
+#: accessible-app-icon.ariaLabel
+msgid "Icon for {{ appName }} app"
+msgstr "Iconiță pentru aplicația {{ appName }}"
+
+#. # Addongs settings
+#: addon
+msgid "Add-on"
+msgstr "Supliment"
+
+#: addons
+msgctxt "addons"
+msgid "Add-ons"
+msgstr "Suplimente"
+
+#: addons.ariaLabel
+msgctxt "addons.ariaLabel"
+msgid "Add-ons"
+msgstr "Suplimente"
+
+#: addons-header
+msgid "{{addons}}"
+msgstr "{{addons}}"
+
+#: addon-details-header1
+msgid "{{ appName }}"
+msgstr "{{ appName }}"
+
+#: addon-enable
+msgid "Enable Add-on"
+msgstr "Activează suplimentul"
+
+#: addon-description-header
+msgctxt "addon-description-header"
+msgid "Description"
+msgstr "Descriere"
+
+#: addon-developer-name
+msgid "{{ developerName }}"
+msgstr "{{ developerName }}"
+
+#: addon-targets
+msgid "Affected Apps"
+msgstr "Aplicații afectate"
+
+#: addon-options
+msgctxt "addon-options"
+msgid "Options"
+msgstr "Opțiuni"
+
+#: addon-delete
+msgid "Delete Add-on"
+msgstr "Șterge suplimentul"
+
+#: addon-share
+msgid "Share Add-on"
+msgstr "Partajează suplimentul"
+
+#: addon-share-no-provider
+msgid "No sharing app available"
+msgstr ""
+
+#: addon-no-description
+msgid "This add-on does not include a description in its manifest file."
+msgstr ""
+
+#: addon-no-targets
+msgid "This add-on does not affect any installed apps."
+msgstr ""
+
+#: addon-restart-apps-to-disable
+msgid "Add-on disabled; restart affected apps."
+msgstr ""
+
+#: addon-reboot-required
+msgid ""
+"This add-on affected system apps; you must reboot your device to fully "
+"disable it."
+msgstr ""
+
+#: addon-rename
+msgid "Rename"
+msgstr "Redenumește"
+
+#: addon-rename-input
+msgid "Enter add-on name"
+msgstr "Introdu numele suplimentului"
+
+#: addon-rename-desc
+msgid "Change the name of your add-on"
+msgstr "Schimbă numele suplimentului"
+
+#: addon-obsolete
+msgid "This add-on is obsolete and does not work."
+msgstr "Acest supliment este învechit și nu funcționează."
+
+#: addon-obsolete-can-delete
+msgid "This add-on is obsolete and does not work. Please delete it."
+msgstr "Acest supliment este învechit și nu funcționează. Te rugăm să-l ștergi."
+
+#. # Achievements
+#: achievements
+msgid "Achievements"
+msgstr "Realizări"
+
+#: achievements.ariaLabel
+msgid "achievements"
+msgstr "realizări"
+
+#: achievements-customize-champ-name
+msgid "Customize Champ"
+msgstr ""
+
+#: achievements-customize-champ-description
+msgid "Open Customizer in an app"
+msgstr ""
+
+#: achievements-add-on-all-star-name
+msgid "Add-on All-Star"
+msgstr ""
+
+#: achievements-add-on-all-star-description
+msgid "Use Customizer to create your own add-on"
+msgstr ""
+
+#: achievements-fab-finder-name
+msgid "Fab Finder"
+msgstr ""
+
+#: achievements-fab-finder-description
+msgid "Install an app or add-on from Hackerplace"
+msgstr ""
+
+#: achievements-content-commander-name
+msgid "Content Commander"
+msgstr ""
+
+#: achievements-content-commander-description
+msgid "Submit an app or add-on to Hackerplace"
+msgstr ""
+
+#: achievements-sharing-is-caring-name
+msgid "Sharing is Caring"
+msgstr ""
+
+#: achievements-sharing-is-caring-description
+msgid "Share your apps and add-ons with the Sharing app"
+msgstr ""
+
+#: achievements-creative-kind-name
+msgid "Creative Kind"
+msgstr ""
+
+#: achievements-creative-kind-description
+msgid "Use Theme Editor to create a new theme"
+msgstr ""
+
+#. # Service Workers
+#: service-workers-interception
+msgid "Intercept requests"
+msgstr ""
+
+#: service-workers-testing
+msgid "Allow over HTTP"
+msgstr "Permite peste HTTP"
+
+#. # LOCALIZATION NOTE: The following strings are spoken by screen readers and not
+#. # shown on the screen.
+#: addButton.ariaLabel
+msgctxt "addButton.ariaLabel"
+msgid "Add"
+msgstr "Adaugă"
+
+#: closeButton.ariaLabel
+msgctxt "closeButton.ariaLabel"
+msgid "Close"
+msgstr "Închide"
+
+#: changeWallpaperButton.ariaLabel
+msgid "Change wallpaper"
+msgstr "Schimbă fundalul"
+
+#: editButton.ariaLabel
+msgctxt "editButton.ariaLabel"
+msgid "Edit"
+msgstr "Editează"
+
+#: wifiSection.ariaLabel
+msgctxt "wifiSection.ariaLabel"
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: simManagerSection.ariaLabel
+msgctxt "simManagerSection.ariaLabel"
+msgid "SIM Manager"
+msgstr "Manager SIM"
+
+#: callSettingsSection.ariaLabel
+msgctxt "callSettingsSection.ariaLabel"
+msgid "Call Settings"
+msgstr "Setări de apel"
+
+#: messagingSettingsSection.ariaLabel
+msgctxt "messagingSettingsSection.ariaLabel"
+msgid "Messaging Settings"
+msgstr "Setări de mesagerie"
+
+#: cellularAndDataSection.ariaLabel
+msgctxt "cellularAndDataSection.ariaLabel"
+msgid "Cellular & Data"
+msgstr "Celular și date"
+
+#: bluetoothSection.ariaLabel
+msgctxt "bluetoothSection.ariaLabel"
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: internetSharingSection.ariaLabel
+msgctxt "internetSharingSection.ariaLabel"
+msgid "Internet Sharing"
+msgstr "Partajare internet"
+
+#: dateAndTimeSection.ariaLabel
+msgctxt "dateAndTimeSection.ariaLabel"
+msgid "Date & Time"
+msgstr "Dată și oră"
+
+#: languageSection.ariaLabel
+msgctxt "languageSection.ariaLabel"
+msgid "Language"
+msgstr "Limbă"
+
+#: keyboardsSection.ariaLabel
+msgctxt "keyboardsSection.ariaLabel"
+msgid "Keyboards"
+msgstr "Tastaturi"
+
+#: fxa-accountsSection.ariaLabel
+msgctxt "fxa-accountsSection.ariaLabel"
+msgid "Firefox Accounts"
+msgstr "Conturi Firefox"
+
+#: findmydeviceSection.ariaLabel
+msgctxt "findmydeviceSection.ariaLabel"
+msgid "Find My Device"
+msgstr "Găsește-mi dispozitivul"
+
+#: screenLockSection.ariaLabel
+msgctxt "screenLockSection.ariaLabel"
+msgid "Screen Lock"
+msgstr "Blocare ecran"
+
+#: simSecuritySection.ariaLabel
+msgctxt "simSecuritySection.ariaLabel"
+msgid "SIM Security"
+msgstr "Securitate SIM"
+
+#: doNotTrackSection.ariaLabel
+msgctxt "doNotTrackSection.ariaLabel"
+msgid "Do Not Track"
+msgstr "Nu mă urmări"
+
+#: privacySection.ariaLabel
+msgctxt "privacySection.ariaLabel"
+msgid "Privacy Controls"
+msgstr "Opțiuni de intimitate"
+
+#: enableStorageSection.ariaLabel
+msgctxt "enableStorageSection.ariaLabel"
+msgid "USB storage"
+msgstr "Stocare USB"
+
+#: mediaStorageSection.ariaLabel
+msgctxt "mediaStorageSection.ariaLabel"
+msgid "Media Storage"
+msgstr "Stocare media"
+
+#: appStorageSection.ariaLabel
+msgctxt "appStorageSection.ariaLabel"
+msgid "Application Storage"
+msgstr "Stocare de aplicații"
+
+#: batterySection.ariaLabel
+msgctxt "batterySection.ariaLabel"
+msgid "Battery"
+msgstr "Baterie"

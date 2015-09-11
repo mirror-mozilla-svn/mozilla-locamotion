@@ -1,24 +1,18 @@
-#. extracted from ./apps/gallery/gallery.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 19:45+0000\n"
-"PO-Revision-Date: 2015-03-26 15:33+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1427383980.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/gallery/gallery.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 95287\n"
 
 #: number-selected2
 msgctxt "number-selected2"
@@ -318,19 +312,13 @@ msgstr "Galerie"
 msgid "Preview"
 msgstr "Previzualizează"
 
-#. # Header format used in thumbnail view
-#. # see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
-#: date-group-header
-msgid "%B %Y"
-msgstr "%B %Y"
+#: videoDated.ariaLabel
+msgid "Video dated {{ timeStamp }}"
+msgstr "Videoclip creat la {{ timeStamp }}"
 
-#: videoDescriptionShort
-msgid "Video dated %I:%M %p, %B %e, %Y"
-msgstr "Video creat la %H:%M, %e %B %Y"
-
-#: imageDescriptionShort
-msgid "Image dated %I:%M %p, %B %e, %Y"
-msgstr "Video creat la %H:%M, %e %B %Y"
+#: imageDated.ariaLabel
+msgid "Image dated {{ timeStamp }}"
+msgstr "Imagine creată la {{ timeStamp }}"
 
 #. # Full screen back-button
 #: back-button.ariaLabel
@@ -342,10 +330,6 @@ msgstr "Înapoi"
 msgctxt "crop-options.ariaLabel"
 msgid "Crop"
 msgstr "Decupare"
-
-#: crop-revert.ariaLabel
-msgid "Revert"
-msgstr "Restaurează"
 
 #: crop-aspect-free.ariaLabel
 msgid "Custom aspect ratio"
@@ -362,6 +346,22 @@ msgstr "Raport de aspect de tip peisaj"
 #: crop-aspect-square.ariaLabel
 msgid "Square aspect ratio"
 msgstr "Raport de aspect de tip pătrat"
+
+#: crop-aspect-more.ariaLabel
+msgid "More aspect ratios"
+msgstr "Mai multe rapoarte de aspect"
+
+#: crop-aspect-3x4
+msgid "3:4 portrait"
+msgstr "Portret 3:4"
+
+#: crop-aspect-4x3
+msgid "4:3 landscape"
+msgstr "Peisaj 4:3"
+
+#: crop-aspect-16x9
+msgid "16:9 landscape"
+msgstr "Peisaj 16:9"
 
 #. # Edit effect buttons
 #: effect-options.ariaLabel

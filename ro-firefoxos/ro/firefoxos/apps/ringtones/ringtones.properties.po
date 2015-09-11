@@ -1,25 +1,18 @@
-#. ##### Ringtone Management ####
-#. extracted from ./apps/ringtones/ringtones.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17 11:13+0000\n"
-"PO-Revision-Date: 2015-03-19 16:56+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1426784163.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/ringtones/ringtones.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 99448\n"
 
 #: manage-title-2
 msgid "Manage Tones"
@@ -54,29 +47,25 @@ msgstr "Șterge tonul de apel"
 msgid "Delete Alert"
 msgstr "Șterge alerta"
 
-#: delete-desc
-msgid "Are you sure you want to delete \"{{tone}}\"?"
-msgstr "Sigur dorești să ștergi „{{tone}}”?"
+#: delete-message
+msgid "Are you sure you want to delete \"<bdi>{{tone}}</bdi>\"?"
+msgstr "Sigur dorești să ștergi „<bdi>{{tone}}</bdi>”?"
 
-#: delete-desc-default-ringtone
+#: delete-message-default-ringtone
 msgid ""
-"\"{{tone}}\" is the current default ringtone.\n"
-"\n"
-"Are you sure you want to delete it?"
+"\"<bdi>{{tone}}</bdi>\" is the current default ringtone.<br><br>Are you sure "
+"you want to delete it?"
 msgstr ""
-"„{{tone}}” e tonul de apel actual implicit.\n"
-"\n"
-"Sigur dorești să-l ștergi?"
+"„<bdi>{{tone}}</bdi>” e tonul de apel actual implicit.<br><br>Sigur dorești "
+"să-l ștergi?"
 
-#: delete-desc-default-alerttone
+#: delete-message-default-alerttone
 msgid ""
-"\"{{tone}}\" is the current default alert.\n"
-"\n"
-"Are you sure you want to delete it?"
+"\"<bdi>{{tone}}</bdi>\" is the current default alert.<br><br>Are you sure "
+"you want to delete it?"
 msgstr ""
-"„{{tone}}” e alerta actuală implicită.\n"
-"\n"
-"Sigur dorești să o ștergi?"
+"„<bdi>{{tone}}</bdi>” e alerta actuală implicită.<br><br>Sigur dorești să o "
+"ștergi?"
 
 #: delete-cancel
 msgctxt "delete-cancel"
@@ -153,8 +142,7 @@ msgstr "Fișier corupt"
 
 #: play-error-desc
 msgid "The file is corrupted. It cannot be used to create a ringtone."
-msgstr ""
-"Fișierul este corupt. Nu poate fi folosit pentru a crea un ton de apel."
+msgstr "Fișierul este corupt. Nu poate fi folosit pentru a crea un ton de apel."
 
 #: save-error-title
 msgid "Ringtone Not Created"
@@ -176,92 +164,7 @@ msgstr "Ok"
 msgid "Untitled"
 msgstr "Fără titlu"
 
-#~ msgid "Done"
-#~ msgstr "Gata"
-
-#~ msgid "Select alert tone"
-#~ msgstr "Selectează tonul de alertă"
-
-#~ msgid "Classic Prism"
-#~ msgstr "Classic Prism"
-
-#~ msgid "Classic Courier"
-#~ msgstr "Classic Courier"
-
-#~ msgid "Classic Touchmatic"
-#~ msgstr "Classic Touchmatic"
-
-#~ msgid "Classic Electric"
-#~ msgstr "Classic Electric"
-
-#~ msgid "Classic Wallphone"
-#~ msgstr "Classic Wallphone"
-
-#~ msgid "Disco Drive"
-#~ msgstr "Disco Drive"
-
-#~ msgid "Vamos Là Elektro"
-#~ msgstr "Vamos Là Elektro"
-
-#~ msgid "Analog Ascent"
-#~ msgstr "Analog Ascent"
-
-#~ msgid "Low Bit Swing"
-#~ msgstr "Low Bit Swing"
-
-#~ msgid "Ringing Gems"
-#~ msgstr "Ringing Gems"
-
-#~ msgid "Rain Echoes"
-#~ msgstr "Rain Echoes"
-
-#~ msgid "Progressive Dapple"
-#~ msgstr "Progressive Dapple"
-
-#~ msgid "Analog Dapple"
-#~ msgstr "Analog Dapple"
-
-#~ msgid "Wind Chimes"
-#~ msgstr "Wind Chimes"
-
-#~ msgid "Bit Bounce"
-#~ msgstr "Bit Bounce"
-
-#~ msgid "None"
-#~ msgstr "Niciunul"
-
-#~ msgid "Minimal Bands"
-#~ msgstr "Minimal Bands"
-
-#~ msgid "Exclamation"
-#~ msgstr "Exclamation"
-
-#~ msgid "Boomer"
-#~ msgstr "Boomer"
-
-#~ msgid "Rewind"
-#~ msgstr "Rewind"
-
-#~ msgid "Bop"
-#~ msgstr "Bop"
-
-#~ msgid "Ting"
-#~ msgstr "Ting"
-
-#~ msgid "Bap"
-#~ msgstr "Bap"
-
-#~ msgid "Dididi"
-#~ msgstr "Dididi"
-
-#~ msgid "Spring"
-#~ msgstr "Spring"
-
-#~ msgid "Bell"
-#~ msgstr "Bell"
-
-#~ msgid "Bell Extended"
-#~ msgstr "Bell Extended"
-
-#~ msgid "Ring"
-#~ msgstr "Sonerie"
+#. # The following string is spoken by screen readers and not shown on the screen.
+#: addButton.ariaLabel
+msgid "Add"
+msgstr "Adaugă"

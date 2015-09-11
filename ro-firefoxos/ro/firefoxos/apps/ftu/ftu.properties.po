@@ -1,27 +1,18 @@
-#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-#. # Unlock Codes
-#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-#. extracted from ./apps/ftu/ftu.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-19 18:45+0000\n"
-"PO-Revision-Date: 2015-08-27 14:14+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440684855.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/ftu/ftu.properties.po\n"
-"X-Pootle-Revision: 71329\n"
+"X-Pootle-Revision: 100151\n"
 
 #: pincode2
 msgid "Enter PIN code"
@@ -772,10 +763,6 @@ msgstr "Importă contacte"
 msgid "SIM card"
 msgstr "Cartelă SIM"
 
-#: importFb2
-msgid "Facebook"
-msgstr "Facebook"
-
 #: importOutlook
 msgid "Outlook"
 msgstr "Outlook"
@@ -783,10 +770,6 @@ msgstr "Outlook"
 #: importGmail
 msgid "Gmail"
 msgstr "Gmail"
-
-#: fb-checking
-msgid "… checking"
-msgstr "… se verifică"
 
 #: notImportedYet
 msgid "Not imported yet"
@@ -796,44 +779,6 @@ msgstr "Neimportat încă"
 msgid "Other accounts"
 msgstr "Alte conturi"
 
-#: afterFbImport
-msgid "You can import and edit Facebook friends anytime in Contacts settings"
-msgstr ""
-"Poți să imporți și să editezi prietenii Facebook oricând din setările "
-"Contacte."
-
-#: facebook-import-msg
-msgid "{[ plural(imported) ]}"
-msgstr "{[ plural(imported) ]}"
-
-#: facebook-import-msg[zero]
-msgid "No friends imported (out of {{total}})"
-msgstr "Niciun prieten importat (din {{total}})"
-
-#: facebook-import-msg[one]
-msgid "One friend imported (out of {{total}})"
-msgstr "Un prieten importat (din {{total}})"
-
-#: facebook-import-msg[two]
-msgctxt "facebook-import-msg[two]"
-msgid "{{imported}}/{{total}} friends imported"
-msgstr "{{imported}}/{{total}} prieteni importați"
-
-#: facebook-import-msg[few]
-msgctxt "facebook-import-msg[few]"
-msgid "{{imported}}/{{total}} friends imported"
-msgstr "{{imported}}/{{total}} prieteni importați"
-
-#: facebook-import-msg[many]
-msgctxt "facebook-import-msg[many]"
-msgid "{{imported}}/{{total}} friends imported"
-msgstr "{{imported}}/{{total}} prieteni importați"
-
-#: facebook-import-msg[other]
-msgctxt "facebook-import-msg[other]"
-msgid "{{imported}}/{{total}} friends imported"
-msgstr "{{imported}}/{{total}} prieteni importați"
-
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Fxa Intro
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
@@ -841,7 +786,7 @@ msgstr "{{imported}}/{{total}} prieteni importați"
 msgid "Firefox Accounts"
 msgstr "Conturi Firefox"
 
-#: fxa-upsell.innerHTML
+#: fxa-upsell
 msgid ""
 "A Firefox Account lets you find a lost phone and buy apps from the Firefox "
 "Marketplace."
@@ -900,19 +845,6 @@ msgstr ""
 "pentru mărcile comerciale ale Mozilla Foundation sau ale unei alte părți, "
 "inclusiv, dar fără a se limita la numele {{brandShortName}} sau logo."
 
-#: about-your-rights-3
-msgid ""
-"Some features in {{brandShortName}}, such as the Crash Reporter, give you "
-"the option to provide feedback to Mozilla. By choosing to submit feedback, "
-"you give Mozilla permission to use the feedback to improve its products, to "
-"publish the feedback on its websites, and to distribute the feedback."
-msgstr ""
-"Unele funcționalități din {{brandShortName}}, cum ar fi raportorul de "
-"defecțiuni îți oferă posibilitatea să îți faci părerea auzită la Mozilla. "
-"Alegând să trimiți reacțiile, îi dai permisiunea Mozillei să folosească "
-"reacțiile pentru a-și îmbunătăți produsele, să publice reacțiile pe "
-"propriile site-uri web și să distribuie reacțiile."
-
 #: about-other
 msgid "Other"
 msgstr "Altele"
@@ -926,7 +858,7 @@ msgstr "Avertisment privind cartela SIM"
 
 #: SIM_mandatory_warm
 msgid "Please, insert a SIM card and reboot your phone."
-msgstr "Te rugăm, inserează o cartelă SIM și repornește telefonul."
+msgstr "Te rugăm să inserezi o cartelă SIM și să repornești telefonul."
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Sharing Performance Data
@@ -942,69 +874,57 @@ msgstr ""
 "folosim pentru a face produsele noastre mai bune, mai rapide și mai "
 "receptive."
 
-#: learn-more-telemetry2.innerHTML
-msgid ""
-"Learn more at <a href=\"{{href}}\" class=\"{{className}}\">{{textContent}}</"
-"a>"
-msgstr ""
-"Află mai multe la <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a>"
+#: learn-more-telemetry2
+msgid "Learn more at <a>{{url}}</a>"
+msgstr "Află mai multe la <a>{{url}}</a>"
 
-#: learn-more-information2.innerHTML
-msgid ""
-"Learn how Mozilla handles your information at <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a>"
-msgstr ""
-"Află cum gestionează Mozilla informațiile tale la <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a>"
+#: learn-more-information2
+msgid "Learn how Mozilla handles your information at <a>{{url}}</a>"
+msgstr "Află cum gestionează Mozilla informațiile tale la <a>{{url}}</a>"
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # OS privacy
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-#: htmlWelcome2.innerHTML
+#: htmlWelcome2
 msgid ""
-"Welcome to <a href=\"{{href}}\" class=\"{{className}}\">{{textContent}}</a>, "
-"the free and open source operating system from Mozilla. Our mission is to "
-"promote openness, innovation and opportunity by keeping the power of the Web "
-"in your hands."
+"Welcome to <a>{{brandShortName}}</a>, the free and open source operating "
+"system from Mozilla. Our mission is to promote openness, innovation and "
+"opportunity by keeping the power of the Web in your hands."
 msgstr ""
-"Bun venit la <a href=\"{{href}}\" class=\"{{className}}\">{{textContent}}</"
-"a>, sistemul de operare cu sursă deschisă și liberă de la Mozilla. Misiunea "
-"noastră este de a promova deschiderea, inovația și oportunitatea prin "
-"păstrarea puterii internetului în mâinile tale."
+"Bun venit la <a>{{brandShortName}}</a>, sistemul de operare cu sursă "
+"deschisă și liberă de la Mozilla. Misiunea noastră este de a promova "
+"deschiderea, inovația și oportunitatea prin păstrarea puterii internetului "
+"în mâinile tale."
 
-#: htmlWelcome-link
-msgctxt "htmlWelcome-link"
-msgid "{{brandShortName}}"
-msgstr "{{brandShortName}}"
-
-#: helpImprove2.innerHTML
+#: helpImprove2
 msgid ""
 "You can help us improve our products and services by automatically sending "
-"analytics data. See our <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a> to learn how we handle data from your "
-"device."
+"analytics data. See our <a>Privacy Notice</a> to learn how we handle data "
+"from your device."
 msgstr ""
 "Ne poți ajuta la îmbunătățirea produselor și serviciilor noastre trimițând "
-"automat date statistice. Vezi <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a> pentru a afla cum gestionăm datele de "
-"pe dispozitiv."
+"automat date statistice. Vezi  <a>politica de confidențialitate</a> pentru a "
+"afla cum prelucrăm datele de pe dispozitiv."
 
-#: helpImprove-link
-msgid "Privacy Notice"
-msgstr "Politica de confidențialitate"
-
-#: learn-more-privacy2.innerHTML
+#: learn-more-privacy2
 msgid ""
-"Learn how Mozilla handles your information in our <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a>."
+"Learn how Mozilla handles your information in our <a>privacy policy</a>."
 msgstr ""
-"Află cum gestionează Mozilla informațiile tale în <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a>."
+"Află cum gestionează Mozilla informațiile tale în <a>politica noastră de "
+"confidențialitate</a>."
 
-#: learn-more-privacy-link
-msgid "privacy policy"
-msgstr "politica de confidențialitate"
+#: about-your-rights-3
+msgid ""
+"Some features in {{brandShortName}}, such as the Crash Reporter, give you "
+"the option to provide feedback to Mozilla. By choosing to submit feedback, "
+"you give Mozilla permission to use the feedback to improve its products, to "
+"publish the feedback on its websites, and to distribute the feedback."
+msgstr ""
+"Unele funcționalități din {{brandShortName}}, cum ar fi raportorul de "
+"defecțiuni îți oferă posibilitatea să furnizezi feedback la Mozilla. Alegând "
+"să trimiți feedback, îi dai permisiunea lui Mozilla să folosească "
+"feedbackurile pentru a-și îmbunătăți produsele, să publice feedbackurile pe "
+"propriile site-uri web și să distribuie feedbackurile."
 
 #: aboutBrowser
 msgid "About {{brandShortName}}"
@@ -1024,8 +944,8 @@ msgstr ""
 "Când folosești {{brandShortName}}, devii parte a unei comunități globale "
 "care ajută la clădirea unui viitor mai luminos pentru web. Dacă dorești să "
 "cunoști mai multe despre comunitatea Mozilla, celelalte produse ale noastre "
-"sau evenimente din apropierea ta, te rugăm introdu adresa ta de e-mail mai "
-"jos."
+"sau evenimente din apropierea ta, te rugăm să introduci adresa ta de e-mail "
+"mai jos."
 
 #: sharePerformanceAndUsageData2
 msgid "Yes! Send data."
@@ -1169,7 +1089,7 @@ msgstr ""
 
 #: tutorial-step3-large-2
 msgid "Tap and hold on an icon to delete or move it."
-msgstr "Apasă și ține apăsat pe o iconiță ca să o ștergi sau să o muți."
+msgstr "Atinge lung pe o iconiță ca să o ștergi sau să o muți."
 
 #: tutorial-step4-large-2
 msgid "Two fingers swipe up from the bottom edge to trigger card view."
@@ -1183,7 +1103,7 @@ msgid ""
 "delete, move, or edit it."
 msgstr ""
 "Glisează în sus și în jos ca să răsfoiești aplicațiile și semnele de carte. "
-"Apasă și ține apăsat pe o iconiță ca să o ștergi sau să o muți."
+"Atinge lung pe o iconiță ca să o ștergi sau să o muți."
 
 #: tutorial-notifications-v2-tiny
 msgctxt "tutorial-notifications-v2-tiny"
@@ -1202,7 +1122,7 @@ msgstr ""
 #: tutorial-rocketbar-tiny
 msgid "Tap on the search box anytime to start a search or go to a website."
 msgstr ""
-"Apasă pe caseta de căutare oricând pentru a începe o căutare sau a accesa un "
+"Atinge caseta de căutare oricând pentru a începe o căutare sau a accesa un "
 "site web."
 
 #: tutorial-bookmarks-migration-tiny
@@ -1210,15 +1130,15 @@ msgid ""
 "Your bookmarks have been moved to the homescreen. When editing, tap a "
 "bookmark to edit or rename it."
 msgstr ""
-"Semnele de carte au fost mutate pe ecranul principal. Când editezi, apasă pe "
-"un semn de carte pentru a-l edita sau a-l redenumi."
+"Semnele de carte au fost mutate pe ecranul principal. Când editezi, atinge "
+"pe un semn de carte pentru a-l edita sau a-l redenumi."
 
 #: tutorial-app-grouping-tiny
 msgid ""
 "Tap to expand and collapse app groups. Drag an app into a new space to "
 "create a group."
 msgstr ""
-"Apasă ca să extinzi sau să restrângi grupurile de aplicații. Trage o "
+"Atinge ca să extinzi sau să restrângi grupurile de aplicații. Trage o "
 "aplicație într-un spațiu nou pentru a crea un grup."
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
@@ -1233,8 +1153,8 @@ msgid ""
 "Please go back and connect to the Internet. You can also view the page later "
 "from Settings or by entering {{url}} in any browser."
 msgstr ""
-"Te rugăm du-te înapoi și conectează-te la internet. Poți să vezi pagina mai "
-"târziu din Setări sau tastând {{url}} în orice browser."
+"Te rugăm să mergi înapoi și să te conectezi la internet. Poți să vezi pagina "
+"mai târziu din Setări sau tastând {{url}} în orice browser."
 
 #: OK
 msgctxt "OK"
@@ -1251,7 +1171,7 @@ msgstr ""
 
 #: offline-newsletter-dialog-text
 msgid "Please go back and connect to the Internet."
-msgstr "Te rugăm du-te înapoi și conectează-te la internet."
+msgstr "Te rugăm să mergi înapoi și să te conectezi la internet."
 
 #: invalid-email-dialog-title
 msgid "Your email is not valid"
@@ -1259,7 +1179,7 @@ msgstr "E-mailul tău este incorect"
 
 #: invalid-email-dialog-text
 msgid "Please go back and correct your entry."
-msgstr "Te rugăm du-te înapoi și corectează intrarea."
+msgstr "Te rugăm să mergi înapoi și să corectezi intrarea."
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Memory Card Contacts Import Error Dialog
@@ -1281,136 +1201,3 @@ msgstr "Pasul {{step}} din {{total}}"
 #: progressbar.ariaLabel
 msgid "First Time Experience"
 msgstr "Prima experiență"
-
-#~ msgid "Swipe from right to left to browse your apps."
-#~ msgstr "Glisează de la dreapta la stânga ca să răsfoiești aplicațiile."
-
-#~ msgid "Enter any keyword or topic and your phone will instantly adapt."
-#~ msgstr ""
-#~ "Introdu orice cuvânt cheie sau subiect, iar telefonul se va adapta "
-#~ "instantaneu."
-
-#~ msgid "Tap and hold the home button to browse and close recent apps."
-#~ msgstr ""
-#~ "Apasă și ține apăsat pe butonul acasă ca să răsfoiești și să închizi "
-#~ "aplicațiile recente."
-
-#~ msgid ""
-#~ "Swipe from the side of the screen to move back and forth between recent "
-#~ "apps."
-#~ msgstr ""
-#~ "Glisează din partea laterală a ecranului pentru a te deplasa înainte și "
-#~ "înapoi între aplicațiile recente."
-
-#, fuzzy
-#~ msgid ""
-#~ "Swipe down from top to access recent notifications, credit information "
-#~ "and settings."
-#~ msgstr ""
-#~ "Glisează în jos ca să accesezi notificările recente, informații privind "
-#~ "creditul și setările."
-
-#~ msgctxt "tutorial-step3-large-2"
-#~ msgid "Tap and hold on an icon to delete or move it."
-#~ msgstr "Apasă și ține apăsat pe o iconiță ca să o ștergi sau să o muți."
-
-#, fuzzy
-#~ msgctxt "tutorial-notifications-tiny"
-#~ msgid ""
-#~ "Swipe down to access recent notifications, credit information and "
-#~ "settings."
-#~ msgstr ""
-#~ "Glisează în jos ca să accesezi notificările recente, informații privind "
-#~ "creditul și setările."
-
-#, fuzzy
-#~ msgid "Learn how Mozilla handles your information at {{link}}"
-#~ msgstr "Află cum gestionează Mozilla informațiile tale la"
-
-#, fuzzy
-#~ msgid "Learn how Mozilla handles your information in our {{link}}."
-#~ msgstr "Află cum gestionează Mozilla informațiile tale în"
-
-#, fuzzy
-#~ msgid ""
-#~ "I want to help improve {{brandShortName}} by sharing data about my phone "
-#~ "and the way I use it."
-#~ msgstr ""
-#~ "Vreau să ajut la îmbunătățirea lui {{brandShortName}} prin împărtășirea "
-#~ "informațiilor despre performanțele telefonului meu."
-
-#~ msgid "Learn more."
-#~ msgstr "Află mai multe."
-
-#~ msgid "English"
-#~ msgstr "Engleză"
-
-#~ msgid "English (Dvorak)"
-#~ msgstr "Engleză (Dvorak)"
-
-#~ msgid "Spanish"
-#~ msgstr "Spaniolă"
-
-#~ msgid "Portuguese Brazilian"
-#~ msgstr "Portugheză braziliană"
-
-#~ msgid "French"
-#~ msgstr "Franceză"
-
-#~ msgid "Italian"
-#~ msgstr "Italiană"
-
-#~ msgid "Arabic"
-#~ msgstr "Arabă"
-
-#~ msgid "Greek"
-#~ msgstr "Greacă"
-
-#~ msgid "Hebrew"
-#~ msgstr "Ebraică"
-
-#~ msgid "Japanese"
-#~ msgstr "Japoneză"
-
-#~ msgid "Kanji"
-#~ msgstr "Kanji"
-
-#~ msgid "Traditional Chinese"
-#~ msgstr "Chineză tradițională"
-
-#~ msgid "Zhuyin"
-#~ msgstr "Zhuyin"
-
-#~ msgid "Simplified Chinese"
-#~ msgstr "Chineză simplificată"
-
-#~ msgid "Pinyin"
-#~ msgstr "Pinyin"
-
-#~ msgid "Wi-Fi"
-#~ msgstr "Wi-Fi"
-
-#~ msgid "Set automatically"
-#~ msgstr "Setează automat"
-
-#~ msgctxt "timeZone"
-#~ msgid "Time zone"
-#~ msgstr "Fus orar"
-
-#~ msgid "Mobile"
-#~ msgstr "Mobil"
-
-#~ msgid "Sharing Performance Data"
-#~ msgstr "Împărtășește datele de performanță"
-
-#~ msgid "{{brandShortName}} Privacy Choices"
-#~ msgstr "Alegeri de confidențialitate {{brandShortName}}"
-
-#~ msgid "Learn more at"
-#~ msgstr "Învață mai multe la"
-
-#~ msgid "Telemetry"
-#~ msgstr "Telemetrie"
-
-#~ msgid "Privacy"
-#~ msgstr "Confidențialitate"

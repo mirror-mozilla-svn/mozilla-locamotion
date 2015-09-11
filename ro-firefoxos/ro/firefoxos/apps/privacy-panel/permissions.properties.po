@@ -1,23 +1,16 @@
-#. # https://developer.mozilla.org/en-US/Apps/Build/App_permissions
-#. extracted from ./apps/privacy-panel/permissions.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 19:45+0000\n"
-"PO-Revision-Date: 2015-08-25 13:55+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440510950.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/privacy-panel/permissions.properties.po\n"
 "X-Pootle-Revision: 70052\n"
 
@@ -100,8 +93,7 @@ msgstr "Afișează o notificare pe dispozitivul utilizatorului."
 #: perm-device-storage-music-description
 msgctxt "perm-device-storage-music-description"
 msgid "Add, read or modify music files stored on the device."
-msgstr ""
-"Adaugă, citește sau modifică fișierele de muzică stocate pe dispozitiv."
+msgstr "Adaugă, citește sau modifică fișierele de muzică stocate pe dispozitiv."
 
 #: perm-device-storage-music-readonly-description
 msgid "Read music files stored on the device."
@@ -114,8 +106,7 @@ msgstr "Citește sau modifică fișierele de muzică stocate pe dispozitiv."
 #: perm-device-storage-music-readcreate-description
 msgctxt "perm-device-storage-music-readcreate-description"
 msgid "Add, read or modify music files stored on the device."
-msgstr ""
-"Adaugă, citește sau modifică fișierele de muzică stocate pe dispozitiv."
+msgstr "Adaugă, citește sau modifică fișierele de muzică stocate pe dispozitiv."
 
 #: perm-device-storage-music-createonly-description
 msgid "Store new music files on the device."
@@ -385,120 +376,3 @@ msgstr ""
 #: perm-wappush-description
 msgid "Receive WAP Push messages."
 msgstr "Primește mesaje WAP Push."
-
-#~ msgid "Microphone"
-#~ msgstr "Microfon"
-
-#~ msgid "Would you like to share your microphone with {{app}}?"
-#~ msgstr "Dorești să împărtășești microfonul cu {{app}}?"
-
-#~ msgid "Would you like to share your microphone with {{site}}?"
-#~ msgstr "Dorești să împărtășești camera cu {{site}}?"
-
-#, fuzzy
-#~ msgid "Cameras"
-#~ msgstr "Cameră"
-
-#~ msgid "Contacts"
-#~ msgstr "Contacte"
-
-#~ msgid "{{app}} would like to access your contact list."
-#~ msgstr "Aplicația {{app}} dorește să-ți acceseze lista de contacte."
-
-#~ msgid "{{site}} would like to access your contact list."
-#~ msgstr "{{site}} dorește să-ți acceseze lista de contacte."
-
-#~ msgid "Notifications"
-#~ msgstr "Notificări"
-
-#~ msgid "{{app}} would like to display notifications."
-#~ msgstr "Aplicația {{app}} dorește să afișeze notificări."
-
-#~ msgid "{{site}} would like to display notifications."
-#~ msgstr "{{site}} dorește să afișeze notificări."
-
-#~ msgid "Music Storage"
-#~ msgstr "Stocare de muzică"
-
-#~ msgid "{{app}} would like to access your music."
-#~ msgstr "Aplicația {{app}} dorește să-ți acceseze muzica."
-
-#~ msgid "{{site}} would like to access your music."
-#~ msgstr "{{site}} dorește să-ți acceseze muzica."
-
-#~ msgid "Image Storage"
-#~ msgstr "Stocare de imagini"
-
-#~ msgid "{{app}} would like to access your images."
-#~ msgstr "Aplicația {{app}} dorește să-ți acceseze imaginile."
-
-#~ msgid "{{site}} would like to access your images."
-#~ msgstr "{{site}} dorește să-ți acceseze imaginile."
-
-#~ msgid "Memory Card Storage"
-#~ msgstr "Stocare pe cardul de memorie"
-
-#~ msgid "{{app}} would like to access your memory card."
-#~ msgstr "Aplicația {{app}} dorește să acceseze cardul de memorie."
-
-#~ msgid "{{site}} would like to access your memory card."
-#~ msgstr "{{site}} dorește să acceseze cardul de memorie."
-
-#~ msgid "Video Storage"
-#~ msgstr "Stocare de videoclipuri"
-
-#~ msgid "{{app}} would like to access your videos."
-#~ msgstr "Aplicația {{app}} dorește să-ți acceseze videoclipurile."
-
-#~ msgid "{{site}} would like to access your videos."
-#~ msgstr "{{site}} dorește să-ți acceseze videoclipurile."
-
-#~ msgid "FM Radio"
-#~ msgstr "Radio FM"
-
-#~ msgid "{{app}} would like to use the FM Radio."
-#~ msgstr "Aplicația {{app}} dorește să-ți folosească radioul FM."
-
-#~ msgid "{{site}} would like to use the FM Radio."
-#~ msgstr "{{site}} dorește să-ți folosească radioul FM."
-
-#~ msgid "Geolocation"
-#~ msgstr "Geolocație"
-
-#~ msgid "{{app}} would like to know your location."
-#~ msgstr "Aplicația {{app}} dorește să-ți cunoască locația."
-
-#~ msgid ""
-#~ "{{brandShortName}} uses data such as GPS, Wi-Fi, and mobile networks near "
-#~ "you to help determine your approximate location. Data is sent to Mozilla "
-#~ "and other service providers and will be used in the aggregate to improve "
-#~ "those location databases.  Data may be stored on your device and data "
-#~ "collection may occur even when no apps are running."
-#~ msgstr ""
-#~ "{{brandShortName}} folosește date precum GPS, Wi-Fi și rețele mobile din "
-#~ "apropierea ta pentru a ajuta la determinarea locației tale actuale. "
-#~ "Datele sunt trimise Mozillei și altor furnizori de servicii și vor fi "
-#~ "folosite per ansamblu pentru a îmbunătăți aceste baze de date privind "
-#~ "locațiile.  Datele pot fi stocate pe dispozitivul tău și colectarea de "
-#~ "date poate avea loc când nicio aplicație nu rulează."
-
-#~ msgid "{{site}} would like to know your location."
-#~ msgstr "{{site}} dorește să-ți cunoască locația."
-
-#~ msgid "Camera and Microphone"
-#~ msgstr "Cameră și microfon"
-
-#~ msgid "Would you like to share your camera and microphone with {{app}}?"
-#~ msgstr "Dorești să împărtășești camera și microfonul cu {{app}}?"
-
-#~ msgid "Would you like to share your camera and microphone with {{site}}?"
-#~ msgstr "Dorești să împărtășești camera și microfonul cu {{site}}?"
-
-#~ msgid "Camera"
-#~ msgstr "Cameră"
-
-#~ msgid "Would you like to share your camera with {{app}}?"
-#~ msgstr "Dorești să împărtășești camera cu {{app}}?"
-
-#~ msgid "Would you like to share your camera with {{site}}?"
-#~ msgstr "Dorești să împărtășești camera cu {{site}}?"

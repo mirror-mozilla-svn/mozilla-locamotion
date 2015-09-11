@@ -1,24 +1,18 @@
-#. extracted from ./apps/sms/sms.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-01 05:45+0000\n"
-"PO-Revision-Date: 2015-08-23 12:06+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440331606.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/sms/sms.properties.po\n"
-"X-Pootle-Revision: 67737\n"
+"X-Pootle-Revision: 99973\n"
 
 #. # Headers
 #: messages
@@ -60,6 +54,18 @@ msgstr "Gata"
 #: delete
 msgid "Delete"
 msgstr "Șterge"
+
+#: delete-thread
+msgid "Delete thread"
+msgstr "Șterge firul"
+
+#: mark-as-read
+msgid "Mark as read"
+msgstr "Marchează ca citit"
+
+#: mark-as-unread
+msgid "Mark as unread"
+msgstr "Marchează ca necitit"
 
 #: deleting-messages
 msgid "Deleting…"
@@ -153,6 +159,7 @@ msgid "Select Messages"
 msgstr "Selectează mesaje"
 
 #: settings
+msgctxt "settings"
 msgid "Settings"
 msgstr "Setări"
 
@@ -178,8 +185,8 @@ msgctxt "message"
 msgid "Message"
 msgstr "Mesaj"
 
-#: messagesInput_placeholder
-msgctxt "messagesInput_placeholder"
+#: messagesInput.title
+msgctxt "messagesInput.title"
 msgid "Message"
 msgstr "Mesaj"
 
@@ -215,6 +222,7 @@ msgstr ""
 "multimedia. Elimină atașamentele sau scurtează mesajul pentru a-l trimite."
 
 #: newMessage
+msgctxt "newMessage"
 msgid "New message"
 msgstr "Mesaj nou"
 
@@ -375,14 +383,6 @@ msgstr "Mesaj respins"
 msgid "Message size:"
 msgstr "Mărimea mesajului:"
 
-#: report-dateTimeFormat12
-msgid "%e %B %Y, {{shortTimeFormat12}}"
-msgstr "%e %B %Y, {{shortTimeFormat12}}"
-
-#: report-dateTimeFormat24
-msgid "%e %B %Y, {{shortTimeFormat24}}"
-msgstr "%e %B %Y, {{shortTimeFormat24}}"
-
 #: report-to-title
 msgid "To"
 msgstr "Către"
@@ -455,10 +455,9 @@ msgstr "Înlocuiește mesajul nefinalizat existent"
 msgid "Save as Draft"
 msgstr "Salvează ca mesaj nefinalizat"
 
-#: discard-message
-msgctxt "discard-message"
-msgid "Discard"
-msgstr "Înlătură"
+#: delete-draft
+msgid "Delete draft"
+msgstr "Șterge mesajul nefinalizat"
 
 #: discard-sms
 msgid "Are you sure you want to discard this message?"
@@ -477,16 +476,76 @@ msgid "Resend this message"
 msgstr "Retrimite acest mesaj"
 
 #: deleteMessage-confirmation
+msgctxt "deleteMessage-confirmation"
 msgid "Delete selected message?"
 msgstr "Ștergi mesajul selectat?"
 
-#: deleteMessages-confirmation
-msgid "Delete selected messages?"
-msgstr "Ștergi mesajele selectate?"
+#: deleteMessages-confirmation-message
+msgctxt "deleteMessages-confirmation-message"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
 
-#: deleteThreads-confirmation2
-msgid "Delete selected message threads?"
-msgstr "Ștergi mesajele selectate?"
+#: deleteMessages-confirmation-message[zero]
+msgid "Please select messages to be deleted."
+msgstr "Te rugăm să selectezi mesajele care să fie șterse."
+
+#: deleteMessages-confirmation-message[one]
+msgctxt "deleteMessages-confirmation-message[one]"
+msgid "Delete selected message?"
+msgstr "Ștergi mesajul selectat?"
+
+#: deleteMessages-confirmation-message[two]
+msgctxt "deleteMessages-confirmation-message[two]"
+msgid "Delete {{n}} selected messages?"
+msgstr "Ștergi {{n}} mesaje selectate?"
+
+#: deleteMessages-confirmation-message[few]
+msgctxt "deleteMessages-confirmation-message[few]"
+msgid "Delete {{n}} selected messages?"
+msgstr "Ștergi {{n}} mesaje selectate?"
+
+#: deleteMessages-confirmation-message[many]
+msgctxt "deleteMessages-confirmation-message[many]"
+msgid "Delete {{n}} selected messages?"
+msgstr "Ștergi {{n}} mesaje selectate?"
+
+#: deleteMessages-confirmation-message[other]
+msgctxt "deleteMessages-confirmation-message[other]"
+msgid "Delete {{n}} selected messages?"
+msgstr "Ștergi {{n}} mesaje selectate?"
+
+#: deleteThreads-confirmation-message
+msgctxt "deleteThreads-confirmation-message"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: deleteThreads-confirmation-message[zero]
+msgid "Please select message threads to be deleted."
+msgstr "Te rugăm să selectezi mesajele care să fie șterse."
+
+#: deleteThreads-confirmation-message[one]
+msgid "Delete selected message thread?"
+msgstr "Ștergi mesajul selectat?"
+
+#: deleteThreads-confirmation-message[two]
+msgctxt "deleteThreads-confirmation-message[two]"
+msgid "Delete {{n}} selected message threads?"
+msgstr "Ștergi {{n}} mesaje selectate?"
+
+#: deleteThreads-confirmation-message[few]
+msgctxt "deleteThreads-confirmation-message[few]"
+msgid "Delete {{n}} selected message threads?"
+msgstr "Ștergi {{n}} mesaje selectate?"
+
+#: deleteThreads-confirmation-message[many]
+msgctxt "deleteThreads-confirmation-message[many]"
+msgid "Delete {{n}} selected message threads?"
+msgstr "Ștergi {{n}} mesaje selectate?"
+
+#: deleteThreads-confirmation-message[other]
+msgctxt "deleteThreads-confirmation-message[other]"
+msgid "Delete {{n}} selected message threads?"
+msgstr "Ștergi {{n}} mesaje selectate?"
 
 #: new-message-notice-text
 msgid "New message from"
@@ -571,14 +630,13 @@ msgstr "Editarea SMS-ului {{number}}"
 
 #. #LOCALIZATION NOTE (fdnErrorBody): the English translation does not need the
 #. # actual number of phone numbers. If your translation needs it, you can still add it
-#. # using the parameter {{ n }}. Also take into account that you could add HTML so be
-#. # careful with the content, it may affect to the whole app.
-#: fdnErrorBody.innerHTML
-msgctxt "fdnErrorBody.innerHTML"
+#. # using the parameter {{ n }}.
+#: fdnErrorBody
+msgctxt "fdnErrorBody"
 msgid "{[ plural(n) ]}"
 msgstr "{[ plural(n) ]}"
 
-#: fdnErrorBody.innerHTML[one]
+#: fdnErrorBody[one]
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipient are in your FDN list:"
@@ -586,8 +644,8 @@ msgstr ""
 "FDN (Numere de apelare fixă) este activat. Asigură-te că centrul de SMS-uri "
 "și următorii destinatari sunt în lista FDN:"
 
-#: fdnErrorBody.innerHTML[two]
-msgctxt "fdnErrorBody.innerHTML[two]"
+#: fdnErrorBody[two]
+msgctxt "fdnErrorBody[two]"
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipients are in your FDN list:"
@@ -595,8 +653,8 @@ msgstr ""
 "FDN (Numere de apelare fixă) este activat. Asigură-te că centrul de SMS-uri "
 "și următorii destinatari sunt în lista FDN:"
 
-#: fdnErrorBody.innerHTML[few]
-msgctxt "fdnErrorBody.innerHTML[few]"
+#: fdnErrorBody[few]
+msgctxt "fdnErrorBody[few]"
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipients are in your FDN list:"
@@ -604,8 +662,8 @@ msgstr ""
 "FDN (Numere de apelare fixă) este activat. Asigură-te că centrul de SMS-uri "
 "și următorii destinatari sunt în lista FDN:"
 
-#: fdnErrorBody.innerHTML[many]
-msgctxt "fdnErrorBody.innerHTML[many]"
+#: fdnErrorBody[many]
+msgctxt "fdnErrorBody[many]"
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipients are in your FDN list:"
@@ -613,8 +671,8 @@ msgstr ""
 "FDN (Numere de apelare fixă) este activat. Asigură-te că centrul de SMS-uri "
 "și următorii destinatari sunt în lista FDN:"
 
-#: fdnErrorBody.innerHTML[other]
-msgctxt "fdnErrorBody.innerHTML[other]"
+#: fdnErrorBody[other]
+msgctxt "fdnErrorBody[other]"
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipients are in your FDN list:"
@@ -788,13 +846,13 @@ msgstr "Înlocuiește atașamentul"
 msgid "Unsent Message"
 msgstr "Mesaj netrimis"
 
-#: unsent-message-description
+#: unsent-message-text
 msgid ""
-"Your previous message was not sent. Do you want to edit the unsent message "
-"or discard it and continue?"
+"Your previous message was not sent. Do you want to discard the unsent "
+"message and continue?"
 msgstr ""
-"Mesajul tău anterior nu a fost trimis. Dorești să editezi mesajul netrimis "
-"sau înlături și continui?"
+"Mesajul tău anterior nu a fost trimis. Dorești să înlături mesajul netrimis "
+"și să continui?"
 
 #: unsent-message-option-edit
 msgctxt "unsent-message-option-edit"
@@ -802,13 +860,16 @@ msgid "Edit"
 msgstr "Editează"
 
 #: unsent-message-option-discard
-msgctxt "unsent-message-option-discard"
 msgid "Discard"
 msgstr "Înlătură"
 
 #: message-options
 msgid "Message options"
 msgstr "Opțiuni pentru mesaje"
+
+#: thread-options
+msgid "Thread options"
+msgstr ""
 
 #: forward
 msgid "Forward"
@@ -847,6 +908,10 @@ msgstr "Acasă fax"
 msgid "Fax office"
 msgstr "Birou fax"
 
+#: expired-attachment
+msgid "Sorry, the message expired on {{date}} and cannot be downloaded."
+msgstr "Ne pare rău, mesajul a expirat pe {{date}} și nu poate fi descărcat."
+
 #: faxOther
 msgid "Fax other"
 msgstr "Alt fax"
@@ -864,13 +929,17 @@ msgstr "Altele"
 msgid "today"
 msgstr "astăzi"
 
+#: todayWithTime
+msgid "today {{ time }}"
+msgstr "astăzi {{ time }}"
+
 #: yesterday
 msgid "yesterday"
 msgstr "ieri"
 
-#: incorrectDate
-msgid "(incorrect date)"
-msgstr "(dată incorectă)"
+#: yesterdayWithTime
+msgid "yesterday {{ time }}"
+msgstr "ieri {{ time }}"
 
 #. #Phone Context Menu
 #: addToExistingContact
@@ -886,6 +955,7 @@ msgid "View contact"
 msgstr "Vezi contactul"
 
 #: call
+msgctxt "call"
 msgid "Call"
 msgstr "Apelează"
 
@@ -912,10 +982,6 @@ msgid ""
 msgstr ""
 "Ai primit un mesaj multimedia. Poți folosi linkul de mai jos pentru a-i "
 "descărca conținutul până la {{date}}."
-
-#: expired-attachment
-msgid "Sorry, the message expired on {{date}} and cannot be downloaded."
-msgstr "Scuze, mesajul a expirat pe {{date}} și nu poate fi descărcat."
 
 #: download-attachment
 msgid "Download"
@@ -1020,6 +1086,10 @@ msgstr "SIM {{id}}"
 msgid "SIM {{id}}, {{detailString}}"
 msgstr "SIM {{id}}, {{detailString}}"
 
+#: dsds-unknown-sim
+msgid "unknown SIM"
+msgstr "SIM necunoscut"
+
 #: dsds-notification-title-with-sim
 msgid "({{sim}}) {{sender}}"
 msgstr "({{sim}}) {{sender}}"
@@ -1039,16 +1109,6 @@ msgstr "{{n}}"
 #: send-button-sim-indication.ariaLabel
 msgid "using SIM {{n}}"
 msgstr "folosind SIM {{n}}"
-
-#. # Date formats specific for SMS app
-#. # LOCALIZATION NOTE (expiry-date-format): this is a date format.
-#. # See http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
-#. # %A is the full weekday name from shared/date/date.properties and it might
-#. # not be in the correct grammatical case. To work around this issue, you can
-#. # use a different format like "%m/%d/%Y".
-#: expiry-date-format
-msgid "%A, %b %e"
-msgstr "%A, %e %b"
 
 #. # Labels for screen reader
 #: attach-button.ariaLabel
@@ -1070,6 +1130,25 @@ msgstr "Are mesaj nefinalizat"
 #: is-draft.ariaLabel
 msgid "Draft"
 msgstr "Mesaj nefinalizat"
+
+#: actionsButton.ariaLabel
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: settingsButton.ariaLabel
+msgctxt "settingsButton.ariaLabel"
+msgid "Settings"
+msgstr "Setări"
+
+#: composeLink.ariaLabel
+msgctxt "composeLink.ariaLabel"
+msgid "New message"
+msgstr "Mesaj nou"
+
+#: callButton.ariaLabel
+msgctxt "callButton.ariaLabel"
+msgid "Call"
+msgstr "Apelează"
 
 #. # Message statuses
 #: message-delivery-status-sending
@@ -1105,230 +1184,3 @@ msgstr "Renunță"
 msgctxt "modal-dialog-default-title"
 msgid "Messages"
 msgstr "Mesaje"
-
-#~ msgctxt "fdnBlocked2Body.innerHTML"
-#~ msgid "{[ plural(n) ]}"
-#~ msgstr "{[ plural(n) ]}"
-
-#~ msgctxt "fdnBlocked2Body.innerHTML[few]"
-#~ msgid ""
-#~ "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and "
-#~ "the following recipients are in your FDN list:<br />{{ numbers }}"
-#~ msgstr ""
-#~ "FDN (Numere de apelare fixă) este activat. Asigură-te că centrul de SMS-"
-#~ "uri și următorii destinatari sunt în lista FDN:<br />{{ numbers }}"
-
-#~ msgctxt "fdnBlocked2Body.innerHTML[many]"
-#~ msgid ""
-#~ "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and "
-#~ "the following recipients are in your FDN list:<br />{{ numbers }}"
-#~ msgstr ""
-#~ "FDN (Numere de apelare fixă) este activat. Asigură-te că centrul de SMS-"
-#~ "uri și următorii destinatari sunt în lista FDN:<br />{{ numbers }}"
-
-#~ msgctxt "fdnBlocked2Body.innerHTML[other]"
-#~ msgid ""
-#~ "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and "
-#~ "the following recipients are in your FDN list:<br />{{ numbers }}"
-#~ msgstr ""
-#~ "FDN (Numere de apelare fixă) este activat. Asigură-te că centrul de SMS-"
-#~ "uri și următorii destinatari sunt în lista FDN:<br />{{ numbers }}"
-
-#~ msgctxt "fdnBlocked2BtnOk"
-#~ msgid "OK"
-#~ msgstr "Ok"
-
-#, fuzzy
-#~ msgid ""
-#~ "You’ve exceeded the maximum size. Remove attachments or shorten the "
-#~ "message to send it."
-#~ msgstr ""
-#~ "Ai depășit lungimea maximă. Elimină caracterele speciale sau scurtează "
-#~ "mesajul pentru a-l trimite."
-
-#, fuzzy
-#~ msgctxt "files-too-large"
-#~ msgid "{[ plural(n) ]}"
-#~ msgstr "{[ plural(n) ]}"
-
-#, fuzzy
-#~ msgctxt "files-too-large[zero]"
-#~ msgid "The file you have selected is too large."
-#~ msgstr "FIșierul selectat este prea mare"
-
-#, fuzzy
-#~ msgctxt "files-too-large[one]"
-#~ msgid "The file you have selected is too large."
-#~ msgstr "FIșierul selectat este prea mare"
-
-#, fuzzy
-#~ msgctxt "files-too-large[two]"
-#~ msgid "The files you have selected are too large."
-#~ msgstr "FIșierul selectat este prea mare"
-
-#, fuzzy
-#~ msgctxt "files-too-large[few]"
-#~ msgid "The files you have selected are too large."
-#~ msgstr "FIșierul selectat este prea mare"
-
-#, fuzzy
-#~ msgctxt "files-too-large[many]"
-#~ msgid "The files you have selected are too large."
-#~ msgstr "FIșierul selectat este prea mare"
-
-#, fuzzy
-#~ msgctxt "files-too-large[other]"
-#~ msgid "The files you have selected are too large."
-#~ msgstr "FIșierul selectat este prea mare"
-
-#, fuzzy
-#~ msgctxt "send-button.ariaLabel"
-#~ msgid "Send"
-#~ msgstr "Trimite"
-
-#~ msgid "{{name}}"
-#~ msgstr "{{name}}"
-
-#~ msgctxt "thread-header-text[one]"
-#~ msgid "{{name}} (+{{n}})"
-#~ msgstr "{{name}} (+{{n}})"
-
-#~ msgctxt "thread-header-text[two]"
-#~ msgid "{{name}} (+{{n}})"
-#~ msgstr "{{name}} (+{{n}})"
-
-#~ msgctxt "thread-header-text[few]"
-#~ msgid "{{name}} (+{{n}})"
-#~ msgstr "{{name}} (+{{n}})"
-
-#~ msgctxt "thread-header-text[many]"
-#~ msgid "{{name}} (+{{n}})"
-#~ msgstr "{{name}} (+{{n}})"
-
-#~ msgctxt "thread-header-text[other]"
-#~ msgid "{{name}} (+{{n}})"
-#~ msgstr "{{name}} (+{{n}})"
-
-#~ msgid "Status:"
-#~ msgstr "Stare"
-
-#~ msgid "sent"
-#~ msgstr "trimis"
-
-#~ msgid "received"
-#~ msgstr "primit"
-
-#~ msgid "sending"
-#~ msgstr "se trimite"
-
-#~ msgid "error"
-#~ msgstr "eroare"
-
-#~ msgid "Requested"
-#~ msgstr "Solicitat"
-
-#~ msgid "Recipients:"
-#~ msgstr "Destinatari:"
-
-#~ msgid "Unknown"
-#~ msgstr "Necunoscută"
-
-#~ msgctxt "selected"
-#~ msgid "{[ plural(n) ]}"
-#~ msgstr "{[ plural(n) ]}"
-
-#~ msgctxt "selected[two]"
-#~ msgid "{{n}} selected"
-#~ msgstr "{{n}} selectate"
-
-#~ msgctxt "selected[few]"
-#~ msgid "{{n}} selected"
-#~ msgstr "{{n}} selectate"
-
-#~ msgctxt "selected[many]"
-#~ msgid "{{n}} selected"
-#~ msgstr "{{n}} selectate"
-
-#~ msgctxt "selected[other]"
-#~ msgid "{{n}} selected"
-#~ msgstr "{{n}} selectate"
-
-#~ msgctxt "nonActiveSimConfirm"
-#~ msgid "OK"
-#~ msgstr "Ok"
-
-#~ msgid "{{nonActiveSimTitle}}"
-#~ msgstr "{{nonActiveSimTitle}}"
-
-#~ msgid "{{nonActiveSimBtnOk}}"
-#~ msgstr "{{nonActiveSimBtnOk}}"
-
-#~ msgid "{{nonActiveSimConfirm}}"
-#~ msgstr "{{nonActiveSimConfirm}}"
-
-#~ msgid "Carrier unknown"
-#~ msgstr "Operator necunoscut"
-
-#~ msgctxt "composeMessage.dataset.placeholder"
-#~ msgid "Message"
-#~ msgstr "Mesaj"
-
-#~ msgid "I have sent you a file. It will be available until {{date}}"
-#~ msgstr "Ți-am trimis un fișier. Acesta va fi disponibil până la {{date}}"
-
-#~ msgid "Sorry, message cannot be downloaded as it expired on {{date}}"
-#~ msgstr ""
-#~ "Scuze, mesajul nu a putut fi descărcat fiindcă a expirat pe {{date}}"
-
-#~ msgid "Service currently unavailable"
-#~ msgstr "Serviciu în prezent indisponibil"
-
-#~ msgid "Message will automatically be sent once service is available."
-#~ msgstr "Mesajul va fi trimis automat odată ce serviciul este disponibil."
-
-#~ msgctxt "fdnBlockedBody.innerHTML"
-#~ msgid "{[ plural(n) ]}"
-#~ msgstr "{[ plural(n) ]}"
-
-#~ msgid ""
-#~ "FDN is enabled and the following recipient is not in your FDN list:<br /"
-#~ ">{{ numbers }}"
-#~ msgstr ""
-#~ "FDN este activat și următorul destinatar nu este în lista FDN:<br /"
-#~ ">{{ numbers }}"
-
-#~ msgctxt "fdnBlockedBody.innerHTML[two]"
-#~ msgid ""
-#~ "FDN is enabled and the following recipients are not in your FDN list:<br /"
-#~ ">{{ numbers }}"
-#~ msgstr ""
-#~ "FDN este activat și următorii destinatari nu sunt în lista FDN:<br /"
-#~ ">{{ numbers }}"
-
-#~ msgctxt "fdnBlockedBody.innerHTML[few]"
-#~ msgid ""
-#~ "FDN is enabled and the following recipients are not in your FDN list:<br /"
-#~ ">{{ numbers }}"
-#~ msgstr ""
-#~ "FDN este activat și următorii destinatari nu sunt în lista FDN:<br /"
-#~ ">{{ numbers }}"
-
-#~ msgctxt "fdnBlockedBody.innerHTML[many]"
-#~ msgid ""
-#~ "FDN is enabled and the following recipients are not in your FDN list:<br /"
-#~ ">{{ numbers }}"
-#~ msgstr ""
-#~ "FDN este activat și următorii destinatari nu sunt în lista FDN:<br /"
-#~ ">{{ numbers }}"
-
-#~ msgctxt "fdnBlockedBody.innerHTML[other]"
-#~ msgid ""
-#~ "FDN is enabled and the following recipients are not in your FDN list:<br /"
-#~ ">{{ numbers }}"
-#~ msgstr ""
-#~ "FDN este activat și următorii destinatari nu sunt în lista FDN:<br /"
-#~ ">{{ numbers }}"
-
-#~ msgctxt "fdnBlockedBtnOk"
-#~ msgid "OK"
-#~ msgstr "Ok"

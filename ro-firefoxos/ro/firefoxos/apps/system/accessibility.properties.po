@@ -1,24 +1,18 @@
-#. extracted from ./apps/system/accessibility.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-27 07:48+0000\n"
-"PO-Revision-Date: 2015-08-23 12:06+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440331615.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/accessibility.properties.po\n"
-"X-Pootle-Revision: 67738\n"
+"X-Pootle-Revision: 86771\n"
 
 #. # Instructions to enable or disable the screen reader
 #. # The sequence to enable or disable is volume up + volume down, repeat the
@@ -1296,41 +1290,41 @@ msgstr "( )"
 #: accessibility-pushbutton-hint
 msgctxt "accessibility-pushbutton-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
+msgstr "Dublă atingere pentru activare"
 
 #: accessibility-checkbutton-hint
 msgctxt "accessibility-checkbutton-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
+msgstr "Dublă atingere pentru activare"
 
 #: accessibility-combobox-hint
 msgctxt "accessibility-combobox-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
+msgstr "Dublă atingere pentru activare"
 
 #: accessibility-key-hint
 msgid "Tap and hold to activate"
-msgstr "Apasă și ține apăsat pentru activare"
+msgstr "Atinge lung pentru activare"
 
 #: accessibility-link-hint
 msgctxt "accessibility-link-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
+msgstr "Dublă atingere pentru activare"
 
 #: accessibility-menuitem-hint
 msgctxt "accessibility-menuitem-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
+msgstr "Dublă atingere pentru activare"
 
 #: accessibility-option-hint
 msgctxt "accessibility-option-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
+msgstr "Dublă atingere pentru activare"
 
 #: accessibility-radiobutton-hint
 msgctxt "accessibility-radiobutton-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
+msgstr "Dublă atingere pentru activare"
 
 #: accessibility-slider-hint
 msgctxt "accessibility-slider-hint"
@@ -1345,22 +1339,14 @@ msgstr "Glisează în sus pentru mărire sau în jos pentru micșorare"
 #: accessibility-pagetab-hint
 msgctxt "accessibility-pagetab-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
+msgstr "Dublă atingere pentru activare"
 
 #: accessibility-entry-hint
 msgctxt "accessibility-entry-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
+msgstr "Dublă atingere pentru activare"
 
 #: accessibility-outlineitem-hint
 msgctxt "accessibility-outlineitem-hint"
 msgid "Double tap to activate"
-msgstr "Dublă apăsare pentru activare"
-
-#~ msgctxt "accessibility-checkmenuitem"
-#~ msgid "Double tap to activate"
-#~ msgstr "Dublă apăsare pt. activare"
-
-#~ msgctxt "accessibility-radiomenuitem"
-#~ msgid "Double tap to activate"
-#~ msgstr "Dublă apăsare pt. activare"
+msgstr "Dublă atingere pentru activare"

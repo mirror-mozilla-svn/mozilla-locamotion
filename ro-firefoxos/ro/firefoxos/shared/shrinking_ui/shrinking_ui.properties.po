@@ -11,15 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
-"X-Pootle-Path: /ro/firefoxos/apps/findmydevice/manifest.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Path: /ro/firefoxos/shared/shrinking_ui/shrinking_ui.properties.po\n"
+"X-Pootle-Revision: 99854\n"
 
-#: name
-msgid "Find My Device"
-msgstr "Găsește-mi dispozitivul"
-
-#: description
-msgid "Find My Device helps find, lock and erase a lost phone"
-msgstr ""
-"Găsește-mi dispozitivul te ajută să găseși, să blochezi și să ștergi un "
-"telefon pierdut"
+#: shrinking-tip
+msgid "Swipe to share"
+msgstr "Glisează pentru a partaja"
