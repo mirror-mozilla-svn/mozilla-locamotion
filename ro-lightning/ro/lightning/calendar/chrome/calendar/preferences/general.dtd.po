@@ -1,25 +1,19 @@
-#. extracted from ./calendar/chrome/calendar/preferences/general.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-26 22:25+0000\n"
-"PO-Revision-Date: 2015-03-01 14:25+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1425219901.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/lightning/calendar/chrome/calendar/preferences/general.dtd.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 100018\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -31,7 +25,8 @@ msgstr ""
 msgid "General Settings"
 msgstr "Setări generale"
 
-#: pref.dateformat.label pref.dateformat.accesskey
+#: pref.dateformat.label
+#: pref.dateformat.accesskey
 msgid "&Date Text Format:"
 msgstr "Formatul &datei:"
 
@@ -47,7 +42,8 @@ msgstr "Scurt"
 msgid "Timezone"
 msgstr "Fus orar"
 
-#: pref.timezones.label pref.timezones.accesskey
+#: pref.timezones.label
+#: pref.timezones.accesskey
 msgid "&Select the closest city in your timezone:"
 msgstr "&Selectați orașul cel mai apropiat din fusul orar în care vă aflați:"
 
@@ -63,7 +59,8 @@ msgstr "Evenimente"
 msgid "Tasks"
 msgstr "Sarcini"
 
-#: pref.default_event_length.label pref.default_event_length.accesskey
+#: pref.default_event_length.label
+#: pref.default_event_length.accesskey
 msgid "D&efault Length:"
 msgstr "Lungim&e implicită:"
 
@@ -89,7 +86,7 @@ msgstr "Săptămâna viitoare"
 
 #: pref.default_task_offset_current.label
 msgid "Relative to Current Time"
-msgstr "Relativ față de ora curentă"
+msgstr "Relativ față de ora actuală"
 
 #: pref.default_task_offset_start.label
 msgid "Relative to Start"
@@ -103,7 +100,8 @@ msgstr "Relativ față ora următoare"
 msgid "Today Pane"
 msgstr "Panoul zilei de azi"
 
-#: pref.soondays.label pref.soondays.accesskey
+#: pref.soondays.label
+#: pref.soondays.accesskey
 msgid "The &upcoming section shows:"
 msgstr "Secțiunea de &pe viitor arată:"
 
@@ -111,12 +109,7 @@ msgstr "Secțiunea de &pe viitor arată:"
 msgid "Accessibility"
 msgstr "Accesibilitate"
 
-#: pref.systemcolors.label pref.systemcolors.accesskey
+#: pref.systemcolors.label
+#: pref.systemcolors.accesskey
 msgid "Optimize &colors for accessibility"
 msgstr "&Optimizare culori pentru accesibilitate"
-
-#~ msgid "Default &Event Length:"
-#~ msgstr "Durata implicită a &evenimentului:"
-
-#~ msgid "Default &Snooze Length:"
-#~ msgstr "&Durata implicită a amânării alarmei:"

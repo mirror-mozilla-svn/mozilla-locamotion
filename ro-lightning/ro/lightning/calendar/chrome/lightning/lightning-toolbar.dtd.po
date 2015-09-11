@@ -1,22 +1,16 @@
-#. extracted from ./calendar/chrome/lightning/lightning-toolbar.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-02 22:04+0000\n"
-"PO-Revision-Date: 2015-07-30 14:31+0000\n"
-"Last-Translator: Raul Malea <raul.malea@gmail.com>\n"
+"POT-Creation-Date: 2015-09-11 21:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1438266676.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/lightning/calendar/chrome/lightning/lightning-toolbar.dtd."
 "po\n"
 "X-Pootle-Revision: 41521\n"
@@ -83,7 +77,8 @@ msgid "Print events or tasks"
 msgstr "Tipărește evenimente sau sarcini"
 
 #. Mode Toolbar
-#: lightning.toolbar.calendar.label lightning.toolbar.calendar.accesskey
+#: lightning.toolbar.calendar.label
+#: lightning.toolbar.calendar.accesskey
 msgid "&Calendar"
 msgstr "&Calendar"
 
@@ -91,7 +86,8 @@ msgstr "&Calendar"
 msgid "Switch to the calendar tab"
 msgstr "Comutare la fila calendar"
 
-#: lightning.toolbar.task.label lightning.toolbar.task.accesskey
+#: lightning.toolbar.task.label
+#: lightning.toolbar.task.accesskey
 msgid "&Tasks"
 msgstr "&Sarcini"
 
@@ -117,19 +113,23 @@ msgid "Create a new task"
 msgstr "Creează o sarcină nouă"
 
 #. Calendar and Task Mode Toolbar
-#: lightning.toolbar.day.label lightning.toolbar.day.accesskey
+#: lightning.toolbar.day.label
+#: lightning.toolbar.day.accesskey
 msgid "&Day"
 msgstr "&Ziua"
 
-#: lightning.toolbar.week.label lightning.toolbar.week.accesskey
+#: lightning.toolbar.week.label
+#: lightning.toolbar.week.accesskey
 msgid "&Week"
 msgstr "&Săptămâna"
 
-#: lightning.toolbar.multiweek.label lightning.toolbar.multiweek.accesskey
+#: lightning.toolbar.multiweek.label
+#: lightning.toolbar.multiweek.accesskey
 msgid "M&ultiweek"
 msgstr "&Mai multe săptămâni"
 
-#: lightning.toolbar.month.label lightning.toolbar.month.accesskey
+#: lightning.toolbar.month.label
+#: lightning.toolbar.month.accesskey
 msgid "&Month"
 msgstr "&Lună"
 

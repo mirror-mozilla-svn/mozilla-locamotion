@@ -1,30 +1,25 @@
-#. extracted from ./calendar/chrome/calendar/calendar.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-12 05:47+0000\n"
-"PO-Revision-Date: 2015-08-25 16:03+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440518590.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/lightning/calendar/chrome/calendar/calendar.dtd.po\n"
-"X-Pootle-Revision: 70442\n"
+"X-Pootle-Revision: 100032\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
 #. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #. General
-#: calendar.calendar.label calendar.calendar.accesskey
+#: calendar.calendar.label
+#: calendar.calendar.accesskey
 msgid "&Calendar"
 msgstr "&Calendar"
 
@@ -75,7 +70,7 @@ msgstr "Ziua selectată"
 
 #: calendar.events.filter.currentview.label
 msgid "Events in Current View"
-msgstr "Evenimente în vizualizarea curentă"
+msgstr "Evenimente în vizualizarea actuală"
 
 #: calendar.events.filter.next7Days.label
 msgid "Events in the Next 7 Days"
@@ -228,27 +223,33 @@ msgstr "Comută la vizualizarea lunii"
 msgid "Switch to multiweek view"
 msgstr "Comută la vizualizarea săptămânilor"
 
-#: calendar.nextday.label calendar.nextday.accesskey
+#: calendar.nextday.label
+#: calendar.nextday.accesskey
 msgid "Ne&xt Day"
 msgstr "Zi&ua următoare"
 
-#: calendar.prevday.label calendar.prevday.accesskey
+#: calendar.prevday.label
+#: calendar.prevday.accesskey
 msgid "Previou&s Day"
 msgstr "Ziua &trecută"
 
-#: calendar.nextweek.label calendar.nextweek.accesskey
+#: calendar.nextweek.label
+#: calendar.nextweek.accesskey
 msgid "Ne&xt Week"
 msgstr "Săptămâna &viitoare"
 
-#: calendar.prevweek.label calendar.prevweek.accesskey
+#: calendar.prevweek.label
+#: calendar.prevweek.accesskey
 msgid "Previou&s Week"
 msgstr "&Săptămâna trecută"
 
-#: calendar.nextmonth.label calendar.nextmonth.accesskey
+#: calendar.nextmonth.label
+#: calendar.nextmonth.accesskey
 msgid "Ne&xt Month"
 msgstr "L&una următoare"
 
-#: calendar.prevmonth.label calendar.prevmonth.accesskey
+#: calendar.prevmonth.label
+#: calendar.prevmonth.accesskey
 msgid "Previou&s Month"
 msgstr "Luna &trecută"
 
@@ -284,7 +285,8 @@ msgstr "Eveniment nou"
 msgid "New Task"
 msgstr "Sarcină nouă"
 
-#: calendar.print.button.label calendar.print.button.accesskey
+#: calendar.print.button.label
+#: calendar.print.button.accesskey
 msgid "&Print"
 msgstr "&Tipărire"
 
@@ -304,7 +306,8 @@ msgstr "Lună"
 msgid "Multiweek"
 msgstr "Săptămâni"
 
-#: calendar.onlyworkday.checkbox.label calendar.onlyworkday.checkbox.accesskey
+#: calendar.onlyworkday.checkbox.label
+#: calendar.onlyworkday.checkbox.accesskey
 msgid "Wo&rkweek days only"
 msgstr "Doa&r zilele lucrătoare"
 
@@ -318,7 +321,8 @@ msgstr "&Afișează sarcinile în vizualizare"
 msgid "Show &completed Tasks"
 msgstr "Arată sar&cinile îndeplinite"
 
-#: calendar.orientation.label calendar.orientation.accesskey
+#: calendar.orientation.label
+#: calendar.orientation.accesskey
 msgid "R&otate View"
 msgstr "R&otește vizualizarea"
 
@@ -334,11 +338,13 @@ msgstr "Calendar"
 msgid "Show"
 msgstr "Arată"
 
-#: calendar.task.filter.all.label calendar.task.filter.all.accesskey
+#: calendar.task.filter.all.label
+#: calendar.task.filter.all.accesskey
 msgid "&All"
 msgstr "To&ate"
 
-#: calendar.task.filter.today.label calendar.task.filter.today.accesskey
+#: calendar.task.filter.today.label
+#: calendar.task.filter.today.accesskey
 msgid "&Today"
 msgstr "&Astăzi"
 
@@ -352,7 +358,8 @@ msgstr "&Următoarele șapte zile"
 msgid "Not St&arted Tasks"
 msgstr "S&arcini neîncepute"
 
-#: calendar.task.filter.overdue.label calendar.task.filter.overdue.accesskey
+#: calendar.task.filter.overdue.label
+#: calendar.task.filter.overdue.accesskey
 msgid "&Overdue Tasks"
 msgstr "&Sarcini depășite"
 
@@ -361,7 +368,8 @@ msgstr "&Sarcini depășite"
 msgid "&Completed Tasks"
 msgstr "Sar&cini îndeplinite"
 
-#: calendar.task.filter.open.label calendar.task.filter.open.accesskey
+#: calendar.task.filter.open.label
+#: calendar.task.filter.open.accesskey
 msgid "Inco&mplete Tasks"
 msgstr "Sarcini neter&minate"
 
@@ -370,9 +378,10 @@ msgstr "Sarcini neter&minate"
 #. that is after today and after the selected date. If a task repeats, a
 #. separate entry will be shown for each of the occurrences that happen on or
 #. before today (or the selected date, whichever is later).
-#: calendar.task.filter.current.label calendar.task.filter.current.accesskey
+#: calendar.task.filter.current.label
+#: calendar.task.filter.current.accesskey
 msgid "C&urrent Tasks"
-msgstr "&Sarcini curente"
+msgstr "Sarcini act&uale"
 
 #: calendar.task-details.title.label
 msgid "title"
@@ -460,35 +469,43 @@ msgstr "&Deschide"
 msgid "&Open Task…"
 msgstr "Deschide &o sarcină…"
 
-#: calendar.context.newevent.label calendar.context.newevent.accesskey
+#: calendar.context.newevent.label
+#: calendar.context.newevent.accesskey
 msgid "&New Event…"
 msgstr "Eve&niment nou…"
 
-#: calendar.context.newtodo.label calendar.context.newtodo.accesskey
+#: calendar.context.newtodo.label
+#: calendar.context.newtodo.accesskey
 msgid "New Tas&k…"
 msgstr "&Sarcină nouă…"
 
-#: calendar.context.deletetask.label calendar.context.deletetask.accesskey
+#: calendar.context.deletetask.label
+#: calendar.context.deletetask.accesskey
 msgid "De&lete Task"
 msgstr "Șterge sarcina de &lucru"
 
-#: calendar.context.deleteevent.label calendar.context.deleteevent.accesskey
+#: calendar.context.deleteevent.label
+#: calendar.context.deleteevent.accesskey
 msgid "De&lete Event"
 msgstr "Șterge evenimentu&l"
 
-#: calendar.context.cutevent.label calendar.context.cutevent.accesskey
+#: calendar.context.cutevent.label
+#: calendar.context.cutevent.accesskey
 msgid "Cu&t"
 msgstr "&Taie"
 
-#: calendar.context.copyevent.label calendar.context.copyevent.accesskey
+#: calendar.context.copyevent.label
+#: calendar.context.copyevent.accesskey
 msgid "&Copy"
 msgstr "&Copiază"
 
-#: calendar.context.pasteevent.label calendar.context.pasteevent.accesskey
+#: calendar.context.pasteevent.label
+#: calendar.context.pasteevent.accesskey
 msgid "&Paste"
 msgstr "Li&pește"
 
-#: calendar.context.button.label calendar.context.button.accesskey
+#: calendar.context.button.label
+#: calendar.context.button.accesskey
 msgid "&Today Pane"
 msgstr "&Panoul zilei de azi"
 
@@ -506,15 +523,18 @@ msgid "All Occurrences"
 msgstr "Toate aparițiile"
 
 #. Task Context Menu
-#: calendar.context.progress.label calendar.context.progress.accesskey
+#: calendar.context.progress.label
+#: calendar.context.progress.accesskey
 msgid "&Progress"
 msgstr "&Progres"
 
-#: calendar.context.priority.label calendar.context.priority.accesskey
+#: calendar.context.priority.label
+#: calendar.context.priority.accesskey
 msgid "P&riority"
 msgstr "P&rioritate"
 
-#: calendar.context.postpone.label calendar.context.postpone.accesskey
+#: calendar.context.postpone.label
+#: calendar.context.postpone.accesskey
 msgid "Po&stpone Task"
 msgstr "Amână &sarcina cu"
 
@@ -619,7 +639,8 @@ msgstr "1 &zi"
 msgid "1 &Week"
 msgstr "1 &săptămână"
 
-#: calendar.copylink.label calendar.copylink.accesskey
+#: calendar.copylink.label
+#: calendar.copylink.accesskey
 msgid "&Copy Link Location"
 msgstr "&Copiază adresa linkului"
 
@@ -631,11 +652,13 @@ msgid "Delete"
 msgstr "Șterge"
 
 #. Server Context Menu
-#: calendar.context.newserver.label calendar.context.newserver.accesskey
+#: calendar.context.newserver.label
+#: calendar.context.newserver.accesskey
 msgid "&New Calendar…"
 msgstr "Cale&ndar nou…"
 
-#: calendar.context.findcalendar.label calendar.context.findcalendar.accesskey
+#: calendar.context.findcalendar.label
+#: calendar.context.findcalendar.accesskey
 msgid "&Find Calendar…"
 msgstr "&Caută calendar…"
 
@@ -648,7 +671,8 @@ msgstr "Șterge calen&darul…"
 #. calendar is the general action of removing it, while deleting means to
 #. clear the data and unsubscribing means just taking it out of the calendar
 #. list.
-#: calendar.context.removeserver.label calendar.context.removeserver.accesskey
+#: calendar.context.removeserver.label
+#: calendar.context.removeserver.accesskey
 msgid "&Remove Calendar…"
 msgstr "Înlătu&ră calendarul…"
 
@@ -662,15 +686,18 @@ msgstr "Dezab&onare de la calendar…"
 msgid "&Synchronize Calendars"
 msgstr "&Sincronizare Calendare"
 
-#: calendar.context.publish.label calendar.context.publish.accesskey
+#: calendar.context.publish.label
+#: calendar.context.publish.accesskey
 msgid "Pu&blish Calendar…"
 msgstr "Pu&blică calendarul…"
 
-#: calendar.context.export.label calendar.context.export.accesskey
+#: calendar.context.export.label
+#: calendar.context.export.accesskey
 msgid "&Export Calendar…"
 msgstr "&Exportă calendarul…"
 
-#: calendar.context.properties.label calendar.context.properties.accesskey
+#: calendar.context.properties.label
+#: calendar.context.properties.accesskey
 msgid "&Properties"
 msgstr "&Proprietăți"
 
@@ -693,7 +720,8 @@ msgstr "H"
 msgid "O"
 msgstr "O"
 
-#: calendar.context.showall.label calendar.context.showall.accesskey
+#: calendar.context.showall.label
+#: calendar.context.showall.accesskey
 msgid "Show &All Calendars"
 msgstr "Ar&ată toate calendarele"
 
@@ -724,7 +752,8 @@ msgstr "&Mesaj…"
 msgid "&Task…"
 msgstr "&Sarcină…"
 
-#: calendar.tasks.view.minimonth.label calendar.tasks.view.minimonth.accesskey
+#: calendar.tasks.view.minimonth.label
+#: calendar.tasks.view.minimonth.accesskey
 msgid "&Mini-Month"
 msgstr "&Mini lună"
 
@@ -930,7 +959,7 @@ msgstr "Ce se tipărește"
 
 #: calendar.print.currentView2.label
 msgid "Current view"
-msgstr "Vedere curentă"
+msgstr "Vizualizare actuală"
 
 #: calendar.print.selectedEventsAndTasks.label
 msgid "Selected events/tasks"
@@ -1015,13 +1044,3 @@ msgid ""
 msgstr ""
 "Extrage informații de tip calendar din mesaj și le adaugă în calendar ca o "
 "sarcină"
-
-#~ msgctxt "calendar.context.togglevisible.accesskey"
-#~ msgid "H"
-#~ msgstr "H"
-
-#~ msgid "Soon"
-#~ msgstr "În curând"
-
-#~ msgid "Print"
-#~ msgstr "Tipărește"

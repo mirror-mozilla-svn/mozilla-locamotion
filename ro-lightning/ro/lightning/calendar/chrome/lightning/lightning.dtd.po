@@ -1,22 +1,16 @@
-#. extracted from ./calendar/chrome/lightning/lightning.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13 19:54+0000\n"
-"PO-Revision-Date: 2015-03-17 12:34+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1426595669.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/lightning/calendar/chrome/lightning/lightning.dtd.po\n"
 "X-Pootle-Revision: 0\n"
 
@@ -32,11 +26,13 @@ msgid "Calendar"
 msgstr "Calendar"
 
 #. New menu popup in File menu
-#: lightning.menupopup.new.event.label lightning.menupopup.new.event.accesskey
+#: lightning.menupopup.new.event.label
+#: lightning.menupopup.new.event.accesskey
 msgid "&Event…"
 msgstr "&Eveniment…"
 
-#: lightning.menupopup.new.task.label lightning.menupopup.new.task.accesskey
+#: lightning.menupopup.new.task.label
+#: lightning.menupopup.new.task.accesskey
 msgid "&Task…"
 msgstr "&Sarcină…"
 
@@ -46,7 +42,8 @@ msgid "Cale&ndar…"
 msgstr "&Calendar…"
 
 #. Open menu popup in File menu
-#: lightning.menupopup.open.label lightning.menupopup.open.accesskey
+#: lightning.menupopup.open.label
+#: lightning.menupopup.open.accesskey
 msgid "&Open"
 msgstr "&Deschide"
 
@@ -61,16 +58,19 @@ msgid "&Calendar File…"
 msgstr "Fișier &cu calendar…"
 
 #. View Menu
-#: lightning.menu.view.calendar.label lightning.menu.view.calendar.accesskey
+#: lightning.menu.view.calendar.label
+#: lightning.menu.view.calendar.accesskey
 msgid "Cale&ndar"
 msgstr "Cale&ndar"
 
-#: lightning.menu.view.tasks.label lightning.menu.view.tasks.accesskey
+#: lightning.menu.view.tasks.label
+#: lightning.menu.view.tasks.accesskey
 msgid "Tas&ks"
 msgstr "&Sarcini"
 
 #. Events and Tasks menu
-#: lightning.menu.eventtask.label lightning.menu.eventtask.accesskey
+#: lightning.menu.eventtask.label
+#: lightning.menu.eventtask.accesskey
 msgid "Eve&nts and Tasks"
 msgstr "Eve&nimente și sarcini"
 
@@ -219,19 +219,23 @@ msgid "Create a new calendar"
 msgstr "Creează un calendar nou"
 
 #. today-pane-specific
-#: todaypane.showMinimonth.label todaypane.showMinimonth.accesskey
+#: todaypane.showMinimonth.label
+#: todaypane.showMinimonth.accesskey
 msgid "Show &Mini-Month"
 msgstr "Arată &miniluna"
 
-#: todaypane.showMiniday.label todaypane.showMiniday.accesskey
+#: todaypane.showMiniday.label
+#: todaypane.showMiniday.accesskey
 msgid "Show Mini-&Day"
 msgstr "&Arată miniziua"
 
-#: todaypane.showNone.label todaypane.showNone.accesskey
+#: todaypane.showNone.label
+#: todaypane.showNone.accesskey
 msgid "Show &None"
 msgstr "&Nu arăta nimic"
 
-#: todaypane.showTodayPane.label todaypane.showTodayPane.accesskey
+#: todaypane.showTodayPane.label
+#: todaypane.showTodayPane.accesskey
 msgid "Sh&ow Today Pane"
 msgstr "Arată pan&oul de azi"
 

@@ -1,25 +1,19 @@
-#. extracted from ./calendar/chrome/calendar/providers/gdata/gdata.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-28 21:28+0000\n"
-"PO-Revision-Date: 2015-03-17 12:34+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1426595655.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/lightning/calendar/chrome/calendar/providers/gdata/gdata.dtd.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 100163\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -28,7 +22,8 @@ msgstr ""
 msgid "Google Calendar"
 msgstr "Calendar Google"
 
-#: gdata.privacy.default.label gdata.privacy.default.accesskey
+#: gdata.privacy.default.label
+#: gdata.privacy.default.accesskey
 msgid "Google &Default"
 msgstr "Implicit &de la Google"
 
@@ -45,10 +40,11 @@ msgid ""
 msgstr ""
 "Furnizorul de date pentru calendarul Google a detectat că aveți calendare "
 "existente care pot accesa calendarul Google doar pentru a citi din el. Dacă "
-"doriți să actualizați aceste calendare pentru a se putea scrie în ele, "
-"selectați-le mai jos"
+"doriți să actualizați aceste calendare pentru a se putea scrie în ele, vă "
+"rugăm să le selectați mai jos"
 
-#: gdata.migration.upgrade.label gdata.migration.upgrade.accesskey
+#: gdata.migration.upgrade.label
+#: gdata.migration.upgrade.accesskey
 msgid "&Upgrade"
 msgstr "Act&ualizare"
 
@@ -69,7 +65,7 @@ msgid ""
 "Please pick an existing session or enter your email address to create a new "
 "session. You only need one session per account."
 msgstr ""
-"Vă rugăm alegeți o sesiune existentă sau introduceți-vă adresa de e-mail "
+"Vă rugăm să alegeți o sesiune existentă sau introduceți-vă adresa de e-mail "
 "pentru a crea o nouă sesiune. Este necesară doar o sesiune per cont."
 
 #: gdata.wizard.calendars.description
@@ -81,5 +77,4 @@ msgstr ""
 
 #: gdata.wizard.nextstep.description
 msgid "Please advance to the next step to set up your calendars."
-msgstr ""
-"Vă rugăm să treceți la pasul următor pentru a vă configura calendarele."
+msgstr "Vă rugăm să treceți la pasul următor pentru a vă configura calendarele."
