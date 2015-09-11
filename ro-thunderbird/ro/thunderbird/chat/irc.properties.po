@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./chat/irc.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-24 01:00+0000\n"
-"PO-Revision-Date: 2015-08-27 14:35+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440686124.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/chat/irc.properties.po\n"
-"X-Pootle-Revision: 71383\n"
+"X-Pootle-Revision: 100034\n"
 
 #. # LOCALIZATION NOTE (irc.usernameHint):
 #. #  This is displayed inside the accountUsernameInfoWithDescription
@@ -195,19 +186,19 @@ msgstr ""
 
 #: command.modeChannel
 msgid ""
-"%S &lt;channel&gt;[ (+|-)&lt;new mode&gt; [&lt;parameter&gt;][,&lt;"
-"parameter&gt;]*]: Get, set or unset a channel mode."
+"%S &lt;channel&gt;[ (+|-)&lt;new mode&gt; "
+"[&lt;parameter&gt;][,&lt;parameter&gt;]*]: Get, set or unset a channel mode."
 msgstr ""
-"%S &lt;channel&gt;[ (+|-)&lt;new mode&gt; [&lt;parameter&gt;][,&lt;"
-"parameter&gt;]*]: Get, set or unset a channel mode."
+"%S &lt;channel&gt;[ (+|-)&lt;new mode&gt; "
+"[&lt;parameter&gt;][,&lt;parameter&gt;]*]: Get, set or unset a channel mode."
 
 #: command.msg
 msgid ""
 "%S &lt;nick&gt; &lt;message&gt;: Send a private message to a user (as "
 "opposed to a channel)."
 msgstr ""
-"%S &lt;pseudonim&gt; &lt;mesaj&gt;: Trimite un mesaj privat unui utilizator "
-"(spre deosebire de un canal)."
+"%S &lt;pseudonim&gt; &lt;mesaj&gt;: Trimite un mesaj privat unui utilizator ("
+"spre deosebire de un canal)."
 
 #: command.nick
 msgid "%S &lt;new nickname&gt;: Change your nickname."
@@ -237,7 +228,7 @@ msgstr "%S &lt;command&gt;: Trimite o comandă la OperServ."
 
 #: command.part
 msgid "%S [message]: Leave the current channel with an optional message."
-msgstr "%S [message]: Părăsiți canalul curent cu un mesaj opțional."
+msgstr "%S [mesaj]: Părăsiți canalul actual cu un mesaj opțional."
 
 #: command.ping
 msgid ""
@@ -634,9 +625,3 @@ msgstr "Da"
 #: no
 msgid "No"
 msgstr "Nu"
-
-#~ msgid "਀a0਀a0%1$S: %2$S"
-#~ msgstr "਀a0਀a0%1$S: %2$S"
-
-#~ msgid "Idle for"
-#~ msgstr "Inactiv de"

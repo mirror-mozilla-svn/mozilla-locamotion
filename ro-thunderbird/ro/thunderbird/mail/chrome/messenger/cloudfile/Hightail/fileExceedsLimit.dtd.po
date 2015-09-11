@@ -1,22 +1,16 @@
-#. extracted from ./mail/chrome/messenger/cloudfile/Hightail/fileExceedsLimit.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-24 01:00+0000\n"
-"PO-Revision-Date: 2015-08-21 13:20+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440163211.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/cloudfile/Hightail/fileE"
 "xceedsLimit.dtd.po\n"
 "X-Pootle-Revision: 65952\n"
@@ -38,30 +32,3 @@ msgstr ""
 #: fileExceedsLimit.style
 msgid "width: 40em; min-height: 20em;"
 msgstr "width: 40em; min-height: 20em;"
-
-#~ msgid "Sending files larger than 50 MB"
-#~ msgstr "Trimiterea de fișiere mai mari de 50 MB"
-
-#~ msgid "is a premium feature."
-#~ msgstr "este o funcție premium."
-
-#~ msgid "Upgrade"
-#~ msgstr "Actualizare"
-
-#~ msgid "Cancel"
-#~ msgstr "Revocare"
-
-#~ msgid "Upgrade now to send this file plus:"
-#~ msgstr "Upgrade now to send this file plus:"
-
-#~ msgid "Send files and folders up to 2GB"
-#~ msgstr "Trimite fișiere și dosare de până la 2GB"
-
-#~ msgid "Store unlimited files online"
-#~ msgstr "Stocați fișiere nelimitate online"
-
-#~ msgid "Access and share files from anywhere"
-#~ msgstr "Accesați și distribuiți fișiere de oriunde"
-
-#~ msgid "YouSendIt"
-#~ msgstr "YouSendIt"

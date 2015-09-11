@@ -1,24 +1,18 @@
-#. extracted from ./mail/chrome/messenger/importDialog.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-14 13:44+0100\n"
-"PO-Revision-Date: 2015-03-22 12:51+0000\n"
-"Last-Translator: Raul Malea <raul.malea@gmail.com>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1427028682.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/importDialog.dtd.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 100244\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -32,27 +26,33 @@ msgstr ""
 msgid "Import"
 msgstr "Importă"
 
-#: importAll.label importAll.accesskey
+#: importAll.label
+#: importAll.accesskey
 msgid "Import &Everything"
 msgstr "&Importă totul"
 
-#: importMail.label importMail.accesskey
+#: importMail.label
+#: importMail.accesskey
 msgid "&Mail"
 msgstr "&Corespondență"
 
-#: importFeeds.label importFeeds.accesskey
+#: importFeeds.label
+#: importFeeds.accesskey
 msgid "Fee&d Subscriptions"
 msgstr "Abonamente la flu&xuri"
 
-#: importAddressbook.label importAddressbook.accesskey
+#: importAddressbook.label
+#: importAddressbook.accesskey
 msgid "&Address Books"
 msgstr "&Agende de contacte"
 
-#: importSettings.label importSettings.accesskey
+#: importSettings.label
+#: importSettings.accesskey
 msgid "&Settings"
 msgstr "&Setări"
 
-#: importFilters.label importFilters.accesskey
+#: importFilters.label
+#: importFilters.accesskey
 msgid "&Filters"
 msgstr "&Filtre"
 
@@ -92,15 +92,17 @@ msgstr ""
 "Odată ce acestea au fost importate, le veți putea accesa din cadrul "
 "&brandShortName;."
 
-#: selectDescription.label selectDescription.accesskey
+#: selectDescription.label
+#: selectDescription.accesskey
 msgid "&Please select the type of file that you would like to import:"
-msgstr "&Vă rugăm alegeți tipul de fișier din care doriți să importați:"
+msgstr "&Vă rugăm să selectați tipul de fișier din care doriți să importați:"
 
 #: selectDescriptionB.label
 msgid "Please select an existing account or create a new account:"
-msgstr "Vă rugăm selectați un cont existent sau creați un cont nou:"
+msgstr "Vă rugăm să selectați un cont existent sau să creați un cont nou:"
 
-#: acctName.label acctName.accesskey
+#: acctName.label
+#: acctName.accesskey
 msgid "&Name:"
 msgstr "&Nume:"
 
@@ -122,7 +124,7 @@ msgstr "Renunță"
 
 #: select.label
 msgid "or select the type of material to import:"
-msgstr "sau alegeți tipul de date ce se vor importa:"
+msgstr "sau să selectați tipul de date ce se vor importa:"
 
 #: title.label
 msgid "Title"

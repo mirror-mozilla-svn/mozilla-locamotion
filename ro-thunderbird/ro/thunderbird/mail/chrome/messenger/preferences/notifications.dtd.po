@@ -1,22 +1,16 @@
-#. extracted from ./mail/chrome/messenger/preferences/notifications.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-14 13:44+0100\n"
-"PO-Revision-Date: 2015-03-14 13:23+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1426339408.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/preferences/notifications.dtd.po\n"
 "X-Pootle-Revision: 0\n"
@@ -37,15 +31,18 @@ msgstr "32em"
 msgid "Choose which fields to show in the alert notification:"
 msgstr "Alege care câmpuri să fie afișate în notificare:"
 
-#: previewText.label previewText.accesskey
+#: previewText.label
+#: previewText.accesskey
 msgid "&Message Preview Text"
 msgstr "Previzualizarea textului din &mesaj"
 
-#: subject.label subject.accesskey
+#: subject.label
+#: subject.accesskey
 msgid "&Subject"
 msgstr "&Subiectul"
 
-#: sender.label sender.accesskey
+#: sender.label
+#: sender.accesskey
 msgid "S&ender"
 msgstr "&Expeditorul"
 
@@ -55,7 +52,8 @@ msgstr "&Expeditorul"
 #. totalOpenTimeBefore.label and totalOpenTimeEnd.label parts don't have to mean
 #. the exact same thing as in English; please try instead to translate the whole
 #. sentence.
-#: totalOpenTimeBefore.label totalOpenTimeBefore.accesskey
+#: totalOpenTimeBefore.label
+#: totalOpenTimeBefore.accesskey
 msgid "Show &New Mail Alert for"
 msgstr "Arată alerta de mesaj &nou pentru"
 

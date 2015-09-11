@@ -1,28 +1,19 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./mail/chrome/messenger/messenger.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-12 04:52+0000\n"
-"PO-Revision-Date: 2015-08-25 15:59+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440518394.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messenger.properties."
 "po\n"
-"X-Pootle-Revision: 70427\n"
+"X-Pootle-Revision: 100247\n"
 
 #. # The following are used by the messenger application
 #. #
@@ -127,7 +118,7 @@ msgstr "Salvează toate atașamentele"
 
 #: ChooseFolder
 msgid "Choose Folder"
-msgstr "Alegere dosar"
+msgstr "Alege dosarul"
 
 #: LoadingMessageToPrint
 msgid "Loading message to print…"
@@ -182,14 +173,15 @@ msgid ""
 "Unable to save the attachment. Please check your file name and try again "
 "later."
 msgstr ""
-"Nu se poate salva atașamentul. Vă rugăm verificați numele fișierului și "
-"încercați din nou."
+"Nu se poate salva atașamentul. Vă rugăm să verificați numele fișierului și "
+"să încercați din nou."
 
 #: saveMessageFailed
 msgid ""
 "Unable to save the message. Please check your file name and try again later."
 msgstr ""
-"Nu se poate salva mesajul. Verificați numele fișierului și încercați din nou."
+"Nu se poate salva mesajul. Vă rugăm să verificați numele fișierului și să "
+"încercați din nou."
 
 #: fileExists
 msgid "%S already exists. Do you want to replace it?"
@@ -373,7 +365,7 @@ msgid ""
 msgstr ""
 "Mesajele nu au putut fi mutate sau copiate în dosarul „%S” deoarece scrierea "
 "în el a eșuat. Pentru a obține spațiu pe disc, alegeți din meniul Fișier "
-"opțiunea Golește coșul de gunoi, apoi Compactează dosarele, după care "
+"opțiunea Golește coșul de gunoi, apoi Compactează dosarele, iar apoi "
 "încercați din nou."
 
 #: cantMoveMsgWOBodyOffline
@@ -1386,7 +1378,9 @@ msgstr "#1 dosar ales; #1 dosare alese"
 #: alertNoSearchFoldersSelected
 msgid ""
 "You must choose at least one folder to search for the saved search folder."
-msgstr "Trebuie să alegeți cel puțin un dosar în care se va căuta."
+msgstr ""
+"Trebuie să alegeți cel puțin un dosar în care să căutați pentru fișierele "
+"salvate."
 
 #. # These are displayed in the message and folder pane windows
 #. # LOCALIZATION NOTE %.*f is the abbreviated size in the appropriate units
@@ -1836,8 +1830,7 @@ msgstr ""
 #: addonError-4
 msgctxt "addonError-4"
 msgid "#1 could not be installed because #3 cannot modify the needed file."
-msgstr ""
-"#1 nu poate fi instalat deoarece #3 nu poate modifica fișierul necesar."
+msgstr "#1 nu poate fi instalat deoarece #3 nu poate modifica fișierul necesar."
 
 #. # LOCALIZATION NOTE (addonLocalError-1, addonLocalError-2, addonLocalError-3, addonLocalError-4, addonErrorIncompatible, addonErrorBlocklisted):
 #. # #1 is the add-on name, #3 is the application name, #4 is the application version
@@ -1852,8 +1845,8 @@ msgid ""
 "This add-on could not be installed because it does not match the add-on #3 "
 "expected."
 msgstr ""
-"Suplimentul nu a putut fi instalat deoarece nu se potrivește cu suplimentul "
-"#3 așteptat."
+"Suplimentul nu a putut fi instalat deoarece nu se potrivește cu suplimentul #"
+"3 așteptat."
 
 #: addonLocalError-3
 msgid "This add-on could not be installed because it appears to be corrupt."
@@ -1862,8 +1855,7 @@ msgstr "Acest supliment nu a putut fi instalat deoarece pare a fi corupt."
 #: addonLocalError-4
 msgctxt "addonLocalError-4"
 msgid "#1 could not be installed because #3 cannot modify the needed file."
-msgstr ""
-"#1 nu poate fi instalat deoarece #3 nu poate modifica fișierul necesar."
+msgstr "#1 nu poate fi instalat deoarece #3 nu poate modifica fișierul necesar."
 
 #: addonErrorIncompatible
 msgid "#1 could not be installed because it is not compatible with #3 #4."
@@ -1962,7 +1954,7 @@ msgstr "Se aplică schimbările?"
 #. # its children.
 #: threadPane.columnPicker.confirmFolder.noChildren.message
 msgid "Apply the current folder's columns to %S?"
-msgstr "Aplicați coloanele dosarului curent la %S?"
+msgstr "Aplicați coloanele dosarului actual la %S?"
 
 #. # LOCALIZATION NOTE (threadPane.columnPicker.confirmFolder.withChildren.title):
 #. # When the user selects a folder to apply the currently displayed columns to via
@@ -1985,7 +1977,7 @@ msgstr "Se aplică schimbările?"
 #. # of its children.
 #: threadPane.columnPicker.confirmFolder.withChildren.message
 msgid "Apply the current folder's columns to %S and its children?"
-msgstr "Aplicați coloanele dosarului curent la %S și copii lui?"
+msgstr "Aplicați coloanele dosarului actual la %S și copii lui?"
 
 #. # LOCALIZATION NOTE (lwthemeInstallRequest.message): %S will be replaced with
 #. # the host name of the site.
@@ -2050,8 +2042,8 @@ msgstr "Unele pluginuri folosite de această pagină sunt învechite."
 #: outdatedpluginsMessage.updateButton.label
 #: outdatedpluginsMessage.updateButton.accesskey
 msgctxt ""
-"outdatedpluginsMessage.updateButton.label outdatedpluginsMessage."
-"updateButton.accesskey"
+"outdatedpluginsMessage.updateButton.label "
+"outdatedpluginsMessage.updateButton.accesskey"
 msgid "&Update Plugins…"
 msgstr "Act&ualizează pluginurile…"
 
@@ -2070,8 +2062,8 @@ msgstr "&Detalii…"
 #: blockedpluginsMessage.searchButton.label
 #: blockedpluginsMessage.searchButton.accesskey
 msgctxt ""
-"blockedpluginsMessage.searchButton.label blockedpluginsMessage.searchButton."
-"accesskey"
+"blockedpluginsMessage.searchButton.label "
+"blockedpluginsMessage.searchButton.accesskey"
 msgid "&Update Plugins…"
 msgstr "Act&ualizează pluginurile…"
 
@@ -2209,92 +2201,3 @@ msgstr "Căutare %1$S pentru „%2$S”"
 #: openSearch.label.truncated
 msgid "Search %1$S for \"%2$S…\""
 msgstr "Căutare %1$S pentru „%2$S…”"
-
-#~ msgid "Click to sort by size"
-#~ msgstr "Clic pentru a sorta după mărime"
-
-#~ msgid "Click to sort by lines"
-#~ msgstr "Clic pentru a sorta după numărul de rânduri"
-
-#~ msgid "Set this search engine as the default"
-#~ msgstr "Setează acest motor de căutare ca cel implicit"
-
-#~ msgid "This search engine is currently the default"
-#~ msgstr "Acest motor de căutare este actualmente cel implicit"
-
-#~ msgid ""
-#~ "Additional plugins are required to display all the media on this page."
-#~ msgstr ""
-#~ "Este nevoie de plugin-uri suplimentare pentru a afișa toate elementele "
-#~ "multimedia de pe această pagină."
-
-#~ msgid "&Install Missing Plugins…"
-#~ msgstr "&Instalează modulele lipsă..."
-
-#~ msgctxt "emptyJunkTitle"
-#~ msgid "Confirm"
-#~ msgstr "Confirmare"
-
-#~ msgid ""
-#~ "Are you sure you want to permanently delete all messages and subfolders "
-#~ "in the Junk folder?"
-#~ msgstr ""
-#~ "Sigur doriți să ștergeți toate mesajele și dosarele din dosarul cu mesaje "
-#~ "nesolicitate?"
-
-#~ msgctxt "emptyTrashTitle"
-#~ msgid "Confirm"
-#~ msgstr "Confirmare"
-
-#~ msgid ""
-#~ "Are you sure you want to permanently delete all messages and subfolders "
-#~ "in the Trash folder?"
-#~ msgstr ""
-#~ "Sigur doriți să ștergeți permanent toate mesajele și subdosarele din "
-#~ "dosarul Gunoi?"
-
-#~ msgid "Done compacting"
-#~ msgstr "Compactarea s-a încheiat"
-
-#~ msgid ""
-#~ "Do you wish to compact all local and offline folders to save disk space?"
-#~ msgstr ""
-#~ "Doriți să compactați toate dosarele locale și cele pentru lucrul "
-#~ "deconectat pentru a câștiga spațiu liber pe disc?"
-
-#~ msgid "No"
-#~ msgstr "Nu"
-
-#~ msgid "Yes"
-#~ msgstr "Da"
-
-#~ msgid "I"
-#~ msgstr "I"
-
-#~ msgctxt "outdatedpluginsMessage.updateButton.accesskey"
-#~ msgid "U"
-#~ msgstr "u"
-
-#~ msgctxt "blockedpluginsMessage.infoButton.accesskey"
-#~ msgid "D"
-#~ msgstr "D"
-
-#~ msgctxt "blockedpluginsMessage.searchButton.label"
-#~ msgid "Update Plugins…"
-#~ msgstr "Actualizează plugin-urile"
-
-#~ msgctxt "blockedpluginsMessage.searchButton.accesskey"
-#~ msgid "U"
-#~ msgstr "u"
-
-#~ msgctxt "crashedpluginsMessage.reloadButton.accesskey"
-#~ msgid "R"
-#~ msgstr "R"
-
-#~ msgctxt "crashedpluginsMessage.submitButton.accesskey"
-#~ msgid "S"
-#~ msgstr "R"
-
-#~ msgctxt "carbonFailurePluginsMessage.restartButton.accesskey"
-#~ msgid "R"
-#~ msgstr "R"

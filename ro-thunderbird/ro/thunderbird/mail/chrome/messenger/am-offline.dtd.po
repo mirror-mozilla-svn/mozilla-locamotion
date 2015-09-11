@@ -1,22 +1,16 @@
-#. extracted from ./mail/chrome/messenger/am-offline.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-14 13:44+0100\n"
-"PO-Revision-Date: 2015-08-23 11:54+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440330884.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/am-offline.dtd.po\n"
 "X-Pootle-Revision: 67689\n"
 
@@ -41,15 +35,18 @@ msgstr ""
 "păstrarea copiilor locale pentru folosire offline poate fi restricționată "
 "după vechime sau mărime."
 
-#: allFoldersOffline.label allFoldersOffline.accesskey
+#: allFoldersOffline.label
+#: allFoldersOffline.accesskey
 msgid "Keep messages f&or this account on this computer"
 msgstr "Păstrează mesajele c&ontului pe acest calculator"
 
-#: offlineNotDownload.label offlineNotDownload.accesskey
+#: offlineNotDownload.label
+#: offlineNotDownload.accesskey
 msgid "&Messages larger than"
 msgstr "&Mesaje mai mari de"
 
-#: autosyncNotDownload.label autosyncNotDownload.accesskey
+#: autosyncNotDownload.label
+#: autosyncNotDownload.accesskey
 msgid "Don't download &messages larger than"
 msgstr "Nu descărca &mesaje mai mari de"
 
@@ -65,11 +62,13 @@ msgstr "zile"
 msgid "messages"
 msgstr "mesaje"
 
-#: nntpNotDownloadRead.label nntpNotDownloadRead.accesskey
+#: nntpNotDownloadRead.label
+#: nntpNotDownloadRead.accesskey
 msgid "Rea&d messages"
 msgstr "Mesaje &citite"
 
-#: nntpDownloadMsg.label nntpDownloadMsg.accesskey
+#: nntpDownloadMsg.label
+#: nntpDownloadMsg.accesskey
 msgid "M&essages more than"
 msgstr "M&esaje mai vechi de"
 
@@ -94,15 +93,18 @@ msgstr ""
 "Pentru a câștiga spațiu pe disc, mesajele vechi pot fi șterse definitiv, "
 "inclusiv originalele de pe server."
 
-#: retentionKeepMsg.label retentionKeepMsg.accesskey
+#: retentionKeepMsg.label
+#: retentionKeepMsg.accesskey
 msgid "Dele&te messages more than"
 msgstr "Șter&ge mesajele mai vechi de"
 
-#: retentionKeepAll.label retentionKeepAll.accesskey
+#: retentionKeepAll.label
+#: retentionKeepAll.accesskey
 msgid "Do&n't delete any messages"
 msgstr "&Nu șterge nici un mesaj"
 
-#: retentionKeepRecent.label retentionKeepRecent.accesskey
+#: retentionKeepRecent.label
+#: retentionKeepRecent.accesskey
 msgid "Delete all &but the most recent"
 msgstr "Ș&terge tot cu excepția celor mai recente"
 
@@ -111,19 +113,23 @@ msgstr "Ș&terge tot cu excepția celor mai recente"
 msgid "Always delete read messages (overrides age settings)"
 msgstr "Șterge mereu mesajele citite (suprascrie setările de vechime)"
 
-#: retentionApplyToFlagged.label retentionApplyToFlagged.accesskey
+#: retentionApplyToFlagged.label
+#: retentionApplyToFlagged.accesskey
 msgid "Always &keep starred messages"
 msgstr "Păstr&ează întotdeauna mesajele cu steluță"
 
-#: nntpRemoveMsgBody.label nntpRemoveMsgBody.accesskey
+#: nntpRemoveMsgBody.label
+#: nntpRemoveMsgBody.accesskey
 msgid "Rem&ove bodies from messages more than"
 msgstr "Elimină c&orpul mesajelor mai mari de"
 
-#: offlineSelectNntp.label offlineSelectNntp.accesskey
+#: offlineSelectNntp.label
+#: offlineSelectNntp.accesskey
 msgid "&Select newsgroups for offline use…"
 msgstr "&Selectați grupurile de știri pentru folosire offline…"
 
-#: offlineImapAdvancedOffline.label offlineImapAdvancedOffline.accesskey
+#: offlineImapAdvancedOffline.label
+#: offlineImapAdvancedOffline.accesskey
 msgid "Ad&vanced…"
 msgstr "&Avansat…"
 
@@ -139,7 +145,8 @@ msgstr "Spațiu pe disc"
 #. The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
 #. on a single line within the scope of useAutosync.ByAge as follows:
 #. &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
-#: allAutosync.label allAutosync.accesskey
+#: allAutosync.label
+#: allAutosync.accesskey
 msgid "Syn&chronize all messages locally regardless of age"
 msgstr "Sin&cronizează toate mesajele local indiferent de vechime"
 

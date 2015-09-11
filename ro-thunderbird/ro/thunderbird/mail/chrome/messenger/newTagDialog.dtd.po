@@ -1,22 +1,16 @@
-#. extracted from ./mail/chrome/messenger/newTagDialog.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-14 13:44+0100\n"
-"PO-Revision-Date: 2014-04-01 14:42+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1396363355.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/newTagDialog.dtd.po\n"
 "X-Pootle-Revision: 0\n"
 
@@ -28,6 +22,7 @@ msgstr ""
 msgid "Create New Tag"
 msgstr "Creează o etichetă nouă"
 
-#: name.label name.accesskey
+#: name.label
+#: name.accesskey
 msgid "&Tag Name:"
 msgstr "Nume e&tichetă:"

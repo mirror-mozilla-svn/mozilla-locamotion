@@ -1,22 +1,16 @@
-#. extracted from ./mail/chrome/messenger/preferences/advanced.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-03 00:20+0000\n"
-"PO-Revision-Date: 2015-08-25 12:37+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440506244.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/preferences/advanced.dtd.po\n"
 "X-Pootle-Revision: 69907\n"
@@ -45,15 +39,18 @@ msgid "Certificates"
 msgstr "Certificate"
 
 #. General Settings
-#: enableGlodaSearch.label enableGlodaSearch.accesskey
+#: enableGlodaSearch.label
+#: enableGlodaSearch.accesskey
 msgid "&Enable Global Search and Indexer"
 msgstr "Act&ivează căutarea globală și indexarea"
 
-#: allowHWAccel.label allowHWAccel.accesskey
+#: allowHWAccel.label
+#: allowHWAccel.accesskey
 msgid "Use &hardware acceleration when available"
 msgstr "Folosește accelerarea &hardware când este disponibilă"
 
-#: storeType.label storeType.accesskey
+#: storeType.label
+#: storeType.accesskey
 msgid "Message Store &Type for new accounts:"
 msgstr "&Tipul de stocare al mesajelor pentru conturile noi:"
 
@@ -69,11 +66,13 @@ msgstr "Fișiere per mesaj (maildir)"
 msgid "Scrolling"
 msgstr "Derulare"
 
-#: useAutoScroll.label useAutoScroll.accesskey
+#: useAutoScroll.label
+#: useAutoScroll.accesskey
 msgid "&Use autoscrolling"
 msgstr "&Utilizează derularea automată"
 
-#: useSmoothScrolling.label useSmoothScrolling.accesskey
+#: useSmoothScrolling.label
+#: useSmoothScrolling.accesskey
 msgid "Use s&mooth scrolling"
 msgstr "F&olosește derularea lină"
 
@@ -81,7 +80,8 @@ msgstr "F&olosește derularea lină"
 msgid "System Integration"
 msgstr "Integrare cu sistemul"
 
-#: alwaysCheckDefault.label alwaysCheckDefault.accesskey
+#: alwaysCheckDefault.label
+#: alwaysCheckDefault.accesskey
 msgid ""
 "&Always check to see if &brandShortName; is the default mail client on "
 "startup"
@@ -89,11 +89,13 @@ msgstr ""
 "Verifică întotdeaun&a la pornire dacă &brandShortName; este clientul "
 "implicit de e-mail"
 
-#: searchIntegration.label searchIntegration.accesskey
+#: searchIntegration.label
+#: searchIntegration.accesskey
 msgid "Allow &searchIntegration.engineName; to &search messages"
 msgstr "&Permite la &searchIntegration.engineName; să caute în mesaje"
 
-#: checkDefaultsNow.label checkDefaultsNow.accesskey
+#: checkDefaultsNow.label
+#: checkDefaultsNow.accesskey
 msgid "Check &Now…"
 msgstr "&Verifică acum…"
 
@@ -101,7 +103,8 @@ msgstr "&Verifică acum…"
 msgid "Advanced Configuration"
 msgstr "Configurare avansată"
 
-#: configEdit.label configEdit.accesskey
+#: configEdit.label
+#: configEdit.accesskey
 msgid "&Config Editor…"
 msgstr "Editor de confi&gurație…"
 
@@ -109,7 +112,8 @@ msgstr "Editor de confi&gurație…"
 msgid "Determine how &brandShortName; handles return receipts"
 msgstr "Configurați cum gestionează &brandShortName; confirmările de primire"
 
-#: showReturnReceipts.label showReturnReceipts.accesskey
+#: showReturnReceipts.label
+#: showReturnReceipts.accesskey
 msgid "&Return Receipts…"
 msgstr "Confi&rmări de primire…"
 
@@ -127,7 +131,8 @@ msgstr ""
 "personalizările browserului dumneavoastră cu &vendorShortName; pentru a ne "
 "ajuta să facem &brandShortName; mai bun"
 
-#: enableTelemetry.label enableTelemetry.accesskey
+#: enableTelemetry.label
+#: enableTelemetry.accesskey
 msgid "Enable &Telemetry"
 msgstr "Activează &telemetria"
 
@@ -149,7 +154,8 @@ msgstr ""
 "&vendorShortName; să facă clientul dumneavoastră de e-mail mai stabil și "
 "sigur"
 
-#: enableCrashReporter.label enableCrashReporter.accesskey
+#: enableCrashReporter.label
+#: enableCrashReporter.accesskey
 msgid "Enable &Crash Reporter"
 msgstr "Activează raportorul de defe&cțiuni"
 
@@ -163,35 +169,42 @@ msgstr "Află mai multe"
 msgid "&brandShortName; updates:"
 msgstr "actualizări &brandShortName;:"
 
-#: updateAuto.label updateAuto.accesskey
+#: updateAuto.label
+#: updateAuto.accesskey
 msgid "&Automatically install updates (recommended: improved security)"
 msgstr "Instalează actualizări &automat (recomandat: securitate sporită)"
 
-#: updateCheck.label updateCheck.accesskey
+#: updateCheck.label
+#: updateCheck.accesskey
 msgid "&Check for updates, but let me choose whether to install them"
 msgstr "&Caută actualizări, dar lasă-mă pe mine să decid dacă să le instalez"
 
-#: updateManual.label updateManual.accesskey
+#: updateManual.label
+#: updateManual.accesskey
 msgid "&Never check for updates (not recommended: security risk)"
 msgstr "&Nu căuta niciodată actualizări (nerecomandat: risc de securitate)"
 
-#: updateAutoAddonWarn.label updateAutoAddonWarn.accesskey
+#: updateAutoAddonWarn.label
+#: updateAutoAddonWarn.accesskey
 msgid "&Warn me if this will disable any of my add-ons"
 msgstr ""
 "A&vertizează-mă dacă asta va duce la dezactivarea unora dintre suplimentele "
 "mele"
 
-#: updateHistory.label updateHistory.accesskey
+#: updateHistory.label
+#: updateHistory.accesskey
 msgid "Show U&pdate History"
 msgstr "Arată istoricul ac&tualizărilor"
 
-#: useService.label useService.accesskey
+#: useService.label
+#: useService.accesskey
 msgid "Use a &background service to install updates"
 msgstr ""
 "Folo&sește serviciul care rulează în fundal pentru a instala actualizări"
 
 #. Networking and Disk Space
-#: showSettings.label showSettings.accesskey
+#: showSettings.label
+#: showSettings.accesskey
 msgid "&Settings…"
 msgstr "&Setări…"
 
@@ -211,7 +224,8 @@ msgstr "Deconectat"
 msgid "Configure offline settings"
 msgstr "Configurează preferințele pentru modul deconectat"
 
-#: showOffline.label showOffline.accesskey
+#: showOffline.label
+#: showOffline.accesskey
 msgid "&Offline…"
 msgstr "&Offline…"
 
@@ -219,7 +233,8 @@ msgstr "&Offline…"
 msgid "Disk Space"
 msgstr "Spațiu pe disc"
 
-#: offlineCompactFolders.label offlineCompactFolders.accesskey
+#: offlineCompactFolders.label
+#: offlineCompactFolders.accesskey
 msgid "Comp&act all folders when it will save over"
 msgstr "&Compactează toate dosarele pentru a salva peste"
 
@@ -231,7 +246,8 @@ msgstr "MB în total"
 #. The entities useCacheBefore.label and useCacheAfter.label appear on a single
 #. line in preferences as follows:
 #. &useCacheBefore.label  [ textbox for cache size in MB ]   &useCacheAfter.label;
-#: useCacheBefore.label useCacheBefore.accesskey
+#: useCacheBefore.label
+#: useCacheBefore.accesskey
 msgid "&Use up to"
 msgstr "&Utilizează până la"
 
@@ -239,7 +255,8 @@ msgstr "&Utilizează până la"
 msgid "MB of space for the cache"
 msgstr "MB de spațiu pentru cache"
 
-#: clearCacheNow.label clearCacheNow.accesskey
+#: clearCacheNow.label
+#: clearCacheNow.accesskey
 msgid "&Clear Now"
 msgstr "&Curăță acum"
 
@@ -264,75 +281,20 @@ msgstr "Întreabă-mă de fiecare dată"
 msgid "A"
 msgstr "A"
 
-#: enableOCSP.label enableOCSP.accesskey
+#: enableOCSP.label
+#: enableOCSP.accesskey
 msgid ""
 "&Query OCSP responder servers to confirm the current validity of certificates"
 msgstr ""
 "Interog&hează serverele de răspuns OCSP pentru confirmarea valabilității "
 "actuale a certificatelor"
 
-#: viewCertificates.label viewCertificates.accesskey
+#: viewCertificates.label
+#: viewCertificates.accesskey
 msgid "View &Certificates"
 msgstr "Vizu&alizare certificate"
 
-#: viewSecurityDevices.label viewSecurityDevices.accesskey
+#: viewSecurityDevices.label
+#: viewSecurityDevices.accesskey
 msgid "Security &Devices"
 msgstr "Dispozitive de sec&uritate"
-
-#~ msgid "Reading & Display"
-#~ msgstr "Citire și afișare"
-
-#~ msgid "Reading"
-#~ msgstr "Citire"
-
-#~ msgid "Display"
-#~ msgstr "Afișare"
-
-#~ msgid "&Show only display name for people in my address book"
-#~ msgstr "Arată numai numele pentru cei &din agenda mea de contacte"
-
-#~ msgid "&Automatically mark messages as read"
-#~ msgstr "M&archează automat mesajele ca citite"
-
-#~ msgid "Immediately &on display"
-#~ msgstr "Ime&diat la afișare"
-
-#~ msgid "After &displaying for"
-#~ msgstr "După c&e sunt afișate"
-
-#~ msgid "seconds"
-#~ msgstr "secunde"
-
-#~ msgid "Open messages in:"
-#~ msgstr "Deschide mesajele în:"
-
-#~ msgid "A new &tab"
-#~ msgstr "&O filă nouă"
-
-#~ msgid "A &new message window"
-#~ msgstr "&O fereastră de mesaj nouă"
-
-#~ msgid "An &existing message window"
-#~ msgstr "O fereastră de mesaj e&xistentă"
-
-#~ msgid "&Close message window/tab on move or delete"
-#~ msgstr "În&chide fereastra sau fila cu mesajul la mutare sau ștergere"
-
-#~ msgid "One large file (mbox)"
-#~ msgstr "Un fișier mare (mbox)"
-
-#~ msgid "Submit &Performance Data"
-#~ msgstr "Trimite date des&pre performanță"
-
-#~ msgid "More information about Telemetry"
-#~ msgstr "Detalii despre telemetrie"
-
-#~ msgid "m"
-#~ msgstr "m"
-
-#~ msgid "&Validation"
-#~ msgstr "Vali&dare"
-
-#~ msgctxt "certs.ask.accesskey"
-#~ msgid "A"
-#~ msgstr "a"

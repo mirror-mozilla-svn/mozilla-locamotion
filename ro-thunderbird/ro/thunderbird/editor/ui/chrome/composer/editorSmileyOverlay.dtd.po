@@ -1,22 +1,16 @@
-#. extracted from ./editor/ui/chrome/composer/editorSmileyOverlay.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-20 10:36+0100\n"
-"PO-Revision-Date: 2014-04-01 14:41+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1396363304.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/editor/ui/chrome/composer/editorSmileyOverlay.dtd.po\n"
 "X-Pootle-Revision: 0\n"
@@ -25,11 +19,13 @@ msgstr ""
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
 #. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #. Smiley Menu items
-#: insertSmiley.label insertSmiley.accesskey
+#: insertSmiley.label
+#: insertSmiley.accesskey
 msgid "&Smiley"
 msgstr "&Zâmbăreț"
 
-#: smiley1Cmd.label smiley1Cmd.accesskey
+#: smiley1Cmd.label
+#: smiley1Cmd.accesskey
 msgid "&Smile"
 msgstr "&Zâmbitor"
 
@@ -38,7 +34,8 @@ msgctxt "smiley1Cmd.tooltip"
 msgid "Insert a smiley face"
 msgstr "Inserează o figură zâmbitoare"
 
-#: smiley2Cmd.label smiley2Cmd.accesskey
+#: smiley2Cmd.label
+#: smiley2Cmd.accesskey
 msgid "&Frown"
 msgstr "În&cruntat"
 
@@ -46,7 +43,8 @@ msgstr "În&cruntat"
 msgid "Insert a frown face"
 msgstr "Inserează o figură încruntată"
 
-#: smiley3Cmd.label smiley3Cmd.accesskey
+#: smiley3Cmd.label
+#: smiley3Cmd.accesskey
 msgid "&Wink"
 msgstr "&Făcând cu ochiul"
 
@@ -54,7 +52,8 @@ msgstr "&Făcând cu ochiul"
 msgid "Insert a wink face"
 msgstr "Inserează o figură care face cu ochiul"
 
-#: smiley4Cmd.label smiley4Cmd.accesskey
+#: smiley4Cmd.label
+#: smiley4Cmd.accesskey
 msgid "&Tongue-out"
 msgstr "Cu &limba scoasă"
 
@@ -62,7 +61,8 @@ msgstr "Cu &limba scoasă"
 msgid "Insert a tongue-out face"
 msgstr "Inserează o figură care scoate limba"
 
-#: smiley5Cmd.label smiley5Cmd.accesskey
+#: smiley5Cmd.label
+#: smiley5Cmd.accesskey
 msgid "&Laughing"
 msgstr "&Râzând"
 
@@ -70,7 +70,8 @@ msgstr "&Râzând"
 msgid "Insert a laughing face"
 msgstr "Inserează o figură care râde"
 
-#: smiley6Cmd.label smiley6Cmd.accesskey
+#: smiley6Cmd.label
+#: smiley6Cmd.accesskey
 msgid "&Embarrassed"
 msgstr "R&ușinat"
 
@@ -78,7 +79,8 @@ msgstr "R&ușinat"
 msgid "Insert an embarrassed face"
 msgstr "Inserează o figură rușinată"
 
-#: smiley7Cmd.label smiley7Cmd.accesskey
+#: smiley7Cmd.label
+#: smiley7Cmd.accesskey
 msgid "&Undecided"
 msgstr "&Nehotărât"
 
@@ -86,7 +88,8 @@ msgstr "&Nehotărât"
 msgid "Insert an undecided face"
 msgstr "Inserează o figură nehotărâtă"
 
-#: smiley8Cmd.label smiley8Cmd.accesskey
+#: smiley8Cmd.label
+#: smiley8Cmd.accesskey
 msgid "Sur&prise"
 msgstr "Sur&prins"
 
@@ -94,7 +97,8 @@ msgstr "Sur&prins"
 msgid "Insert a surprised face"
 msgstr "Inserează o figură surprinsă"
 
-#: smiley9Cmd.label smiley9Cmd.accesskey
+#: smiley9Cmd.label
+#: smiley9Cmd.accesskey
 msgid "&Kiss"
 msgstr "Săru&tând"
 
@@ -102,7 +106,8 @@ msgstr "Săru&tând"
 msgid "Insert a kiss face"
 msgstr "Inserează o figură care trimite un sărut"
 
-#: smiley10Cmd.label smiley10Cmd.accesskey
+#: smiley10Cmd.label
+#: smiley10Cmd.accesskey
 msgid "&Yell"
 msgstr "Țipân&d"
 
@@ -110,7 +115,8 @@ msgstr "Țipân&d"
 msgid "Insert a yelling face"
 msgstr "Inserează o figură care țipă"
 
-#: smiley11Cmd.label smiley11Cmd.accesskey
+#: smiley11Cmd.label
+#: smiley11Cmd.accesskey
 msgid "&Cool"
 msgstr "Șme&cher"
 
@@ -118,7 +124,8 @@ msgstr "Șme&cher"
 msgid "Insert a cool face"
 msgstr "Inserează o figură șmecheră"
 
-#: smiley12Cmd.label smiley12Cmd.accesskey
+#: smiley12Cmd.label
+#: smiley12Cmd.accesskey
 msgid "&Money-Mouth"
 msgstr "Cu b&anul în gură"
 
@@ -126,7 +133,8 @@ msgstr "Cu b&anul în gură"
 msgid "Insert a money-mouth face"
 msgstr "Inserează o figură cu gura în formă de dolar"
 
-#: smiley13Cmd.label smiley13Cmd.accesskey
+#: smiley13Cmd.label
+#: smiley13Cmd.accesskey
 msgid "F&oot-in-Mouth"
 msgstr "Cu piciorul în &gură"
 
@@ -134,7 +142,8 @@ msgstr "Cu piciorul în &gură"
 msgid "Insert a foot-in-mouth face"
 msgstr "Inserează o figură distrusă"
 
-#: smiley14Cmd.label smiley14Cmd.accesskey
+#: smiley14Cmd.label
+#: smiley14Cmd.accesskey
 msgid "&Innocent"
 msgstr "&Inocent"
 
@@ -142,7 +151,8 @@ msgstr "&Inocent"
 msgid "Insert an innocent face"
 msgstr "Inserează o figură inocentă"
 
-#: smiley15Cmd.label smiley15Cmd.accesskey
+#: smiley15Cmd.label
+#: smiley15Cmd.accesskey
 msgid "C&ry"
 msgstr "Plân&gând"
 
@@ -150,7 +160,8 @@ msgstr "Plân&gând"
 msgid "Insert a crying face"
 msgstr "Inserează o figură care plânge"
 
-#: smiley16Cmd.label smiley16Cmd.accesskey
+#: smiley16Cmd.label
+#: smiley16Cmd.accesskey
 msgid "Lips-&are-Sealed"
 msgstr "Cu &buzele pecetluite"
 

@@ -1,25 +1,19 @@
-#. extracted from ./mail/chrome/messenger/addressbook/abMainWindow.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-24 01:00+0000\n"
-"PO-Revision-Date: 2015-07-22 22:09+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1437602956.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/addressbook/abMainWindow.dtd.po\n"
-"X-Pootle-Revision: 33190\n"
+"X-Pootle-Revision: 94831\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -38,15 +32,18 @@ msgstr ""
 "Contactele din agendele de la distanță nu sunt afișate înainte de căutare"
 
 #. File Menu
-#: fileMenu.label fileMenu.accesskey
+#: fileMenu.label
+#: fileMenu.accesskey
 msgid "&File"
 msgstr "&Fișier"
 
-#: newMenu.label newMenu.accesskey
+#: newMenu.label
+#: newMenu.accesskey
 msgid "&New"
 msgstr "&Creează"
 
-#: newContact.label newContact.accesskey
+#: newContact.label
+#: newContact.accesskey
 msgid "Address Book &Contact…"
 msgstr "&Contact în agendă…"
 
@@ -54,19 +51,23 @@ msgstr "&Contact în agendă…"
 msgid "N"
 msgstr "N"
 
-#: newListCmd.label newListCmd.accesskey
+#: newListCmd.label
+#: newListCmd.accesskey
 msgid "Mailing &List…"
 msgstr "O &listă nouă de expediție…"
 
-#: newAddressBookCmd.label newAddressBookCmd.accesskey
+#: newAddressBookCmd.label
+#: newAddressBookCmd.accesskey
 msgid "Address &Book…"
 msgstr "O nouă listă de &contacte…"
 
-#: newLDAPDirectoryCmd.label newLDAPDirectoryCmd.accesskey
+#: newLDAPDirectoryCmd.label
+#: newLDAPDirectoryCmd.accesskey
 msgid "L&DAP Directory…"
 msgstr "Un nou director L&DAP…"
 
-#: newMessageCmd.label newMessageCmd.accesskey
+#: newMessageCmd.label
+#: newMessageCmd.accesskey
 msgid "&Message"
 msgstr "Un &mesaj nou"
 
@@ -75,11 +76,13 @@ msgid "M"
 msgstr "M"
 
 #. LOCALIZATION NOTE (osxAddressBook) : These entities are only used on Mac
-#: osxAddressBook.label osxAddressBook.accesskey
+#: osxAddressBook.label
+#: osxAddressBook.accesskey
 msgid "Use Mac &OS X Address Book"
 msgstr "Folosește agenda de contacte Mac &OS X"
 
-#: closeCmd.label closeCmd.accesskey
+#: closeCmd.label
+#: closeCmd.accesskey
 msgid "&Close"
 msgstr "Înc&hide"
 
@@ -87,19 +90,23 @@ msgstr "Înc&hide"
 msgid "W"
 msgstr "w"
 
-#: printSetupCmd.label printSetupCmd.accesskey
+#: printSetupCmd.label
+#: printSetupCmd.accesskey
 msgid "Page Set&up…"
 msgstr "Aran&jare în pagină…"
 
-#: printPreviewContactCmd.label printPreviewContactCmd.accesskey
+#: printPreviewContactCmd.label
+#: printPreviewContactCmd.accesskey
 msgid "Print Pre&view Contact"
 msgstr "Pre&vizualizare tipărire contact"
 
-#: printPreviewAddressBook.label printPreviewAddressBook.accesskey
+#: printPreviewAddressBook.label
+#: printPreviewAddressBook.accesskey
 msgid "Print Preview Address &Book"
 msgstr "&Previzualizează tipărirea agendei de contacte"
 
-#: printContactCmd.label printContactCmd.accesskey
+#: printContactCmd.label
+#: printContactCmd.accesskey
 msgid "&Print Contact…"
 msgstr "&Tipărește contactul…"
 
@@ -107,16 +114,19 @@ msgstr "&Tipărește contactul…"
 msgid "P"
 msgstr "P"
 
-#: printAddressBook.label printAddressBook.accesskey
+#: printAddressBook.label
+#: printAddressBook.accesskey
 msgid "Print &Address Book…"
 msgstr "Tipărește &agenda de contacte…"
 
 #. Edit Menu
-#: editMenu.label editMenu.accesskey
+#: editMenu.label
+#: editMenu.accesskey
 msgid "&Edit"
 msgstr "&Editare"
 
-#: undoCmd.label undoCmd.accesskey
+#: undoCmd.label
+#: undoCmd.accesskey
 msgid "&Undo"
 msgstr "An&ulează"
 
@@ -124,7 +134,8 @@ msgstr "An&ulează"
 msgid "Z"
 msgstr "Z"
 
-#: redoCmd.label redoCmd.accesskey
+#: redoCmd.label
+#: redoCmd.accesskey
 msgid "&Redo"
 msgstr "&Restaurează"
 
@@ -132,7 +143,8 @@ msgstr "&Restaurează"
 msgid "Y"
 msgstr "Y"
 
-#: cutCmd.label cutCmd.accesskey
+#: cutCmd.label
+#: cutCmd.accesskey
 msgid "Cu&t"
 msgstr "&Decupează"
 
@@ -140,7 +152,8 @@ msgstr "&Decupează"
 msgid "X"
 msgstr "X"
 
-#: copyCmd.label copyCmd.accesskey
+#: copyCmd.label
+#: copyCmd.accesskey
 msgid "&Copy"
 msgstr "&Copiază"
 
@@ -148,7 +161,8 @@ msgstr "&Copiază"
 msgid "C"
 msgstr "C"
 
-#: pasteCmd.label pasteCmd.accesskey
+#: pasteCmd.label
+#: pasteCmd.accesskey
 msgid "&Paste"
 msgstr "L&ipește"
 
@@ -156,7 +170,8 @@ msgstr "L&ipește"
 msgid "V"
 msgstr "v"
 
-#: deleteCmd.label deleteCmd.accesskey
+#: deleteCmd.label
+#: deleteCmd.accesskey
 msgctxt "deleteCmd.label deleteCmd.accesskey"
 msgid "&Delete"
 msgstr "Ș&terge"
@@ -185,7 +200,8 @@ msgstr "Șterge listele"
 msgid "Delete Items"
 msgstr "Șterge elementele"
 
-#: selectAllCmd.label selectAllCmd.accesskey
+#: selectAllCmd.label
+#: selectAllCmd.accesskey
 msgid "Select &All"
 msgstr "Selecte&ază tot"
 
@@ -197,11 +213,13 @@ msgstr "A"
 msgid "f"
 msgstr "F"
 
-#: swapFirstNameLastNameCmd.label swapFirstNameLastNameCmd.accesskey
+#: swapFirstNameLastNameCmd.label
+#: swapFirstNameLastNameCmd.accesskey
 msgid "S&wap First/Last Name"
 msgstr "Interschim&bă numele cu prenumele"
 
-#: propertiesCmd2.label propertiesCmd2.accesskey
+#: propertiesCmd2.label
+#: propertiesCmd2.accesskey
 msgid "Propert&ies"
 msgstr "Propr&ietăți"
 
@@ -210,70 +228,86 @@ msgid "i"
 msgstr "I"
 
 #. View Menu
-#: viewMenu.label viewMenu.accesskey
+#: viewMenu.label
+#: viewMenu.accesskey
 msgid "&View"
 msgstr "&Vizualizare"
 
-#: viewToolbarsMenu.label viewToolbarsMenu.accesskey
+#: viewToolbarsMenu.label
+#: viewToolbarsMenu.accesskey
 msgid "&Toolbars"
 msgstr "Bare de unel&te"
 
-#: menubarCmd.label menubarCmd.accesskey
+#: menubarCmd.label
+#: menubarCmd.accesskey
 msgid "&Menu Bar"
 msgstr "Bara cu &meniul"
 
-#: showAbToolbarCmd.label showAbToolbarCmd.accesskey
+#: showAbToolbarCmd.label
+#: showAbToolbarCmd.accesskey
 msgid "Address B&ook Toolbar"
 msgstr "Bara cu c&ontacte"
 
-#: showTaskbarCmd.label showTaskbarCmd.accesskey
+#: showTaskbarCmd.label
+#: showTaskbarCmd.accesskey
 msgid "&Status Bar"
 msgstr "Bară de &stare"
 
-#: customizeToolbar.label customizeToolbar.accesskey
+#: customizeToolbar.label
+#: customizeToolbar.accesskey
 msgid "&Customize…"
 msgstr "&Personalizează…"
 
-#: layoutMenu.label layoutMenu.accesskey
+#: layoutMenu.label
+#: layoutMenu.accesskey
 msgid "&Layout"
 msgstr "&Aspect"
 
-#: showDirectoryPane.label showDirectoryPane.accesskey
+#: showDirectoryPane.label
+#: showDirectoryPane.accesskey
 msgid "&Directory Pane"
 msgstr "Panoul cu &directoare"
 
-#: showContactPane2.label showContactPane2.accesskey
+#: showContactPane2.label
+#: showContactPane2.accesskey
 msgid "&Contact Pane"
 msgstr "Panoul &cu contacte"
 
-#: menu_ShowNameAs.label menu_ShowNameAs.accesskey
+#: menu_ShowNameAs.label
+#: menu_ShowNameAs.accesskey
 msgid "Show &Name As"
 msgstr "Afișează &numele în forma"
 
 #. We're not including a comma here
 #. because displayed names don't have the comma in between.
-#: firstLastCmd2.label firstLastCmd2.accesskey
+#: firstLastCmd2.label
+#: firstLastCmd2.accesskey
 msgid "&First Last"
 msgstr "&Prenume Nume"
 
-#: lastFirstCmd.label lastFirstCmd.accesskey
+#: lastFirstCmd.label
+#: lastFirstCmd.accesskey
 msgid "&Last, First"
 msgstr "&Nume, Prenume"
 
-#: displayNameCmd.label displayNameCmd.accesskey
+#: displayNameCmd.label
+#: displayNameCmd.accesskey
 msgid "&Display Name"
 msgstr "Nume de &afișat"
 
-#: sortMenu.label sortMenu.accesskey
+#: sortMenu.label
+#: sortMenu.accesskey
 msgid "&Sort by"
 msgstr "&Sortează după"
 
 #. Tools Menu
-#: tasksMenu.label tasksMenu.accesskey
+#: tasksMenu.label
+#: tasksMenu.accesskey
 msgid "&Tools"
 msgstr "Unel&te"
 
-#: messengerCmd.label messengerCmd.accesskey
+#: messengerCmd.label
+#: messengerCmd.accesskey
 msgid "&Mail & Newsgroups"
 msgstr "&Corespondență și grupuri de discuții"
 
@@ -281,48 +315,59 @@ msgstr "&Corespondență și grupuri de discuții"
 msgid "1"
 msgstr "1"
 
-#: searchAddressesCmd.label searchAddressesCmd.accesskey
+#: searchAddressesCmd.label
+#: searchAddressesCmd.accesskey
 msgid "&Search Addresses…"
 msgstr "Caută adre&se…"
 
-#: importCmd.label importCmd.accesskey
+#: importCmd.label
+#: importCmd.accesskey
 msgid "&Import…"
 msgstr "&Import…"
 
-#: exportCmd.label exportCmd.accesskey
+#: exportCmd.label
+#: exportCmd.accesskey
 msgid "&Export…"
 msgstr "&Export…"
 
-#: preferencesCmd2.label preferencesCmd2.accesskey
+#: preferencesCmd2.label
+#: preferencesCmd2.accesskey
 msgid "&Options"
 msgstr "&Opțiuni"
 
-#: preferencesCmdUnix.label preferencesCmdUnix.accesskey
+#: preferencesCmdUnix.label
+#: preferencesCmdUnix.accesskey
 msgid "Prefere&nces"
 msgstr "Preferi&nțe"
 
 #. Address Book Toolbar and Context Menus
-#: newContactButton.label newContactButton.accesskey
+#: newContactButton.label
+#: newContactButton.accesskey
 msgid "New &Contact"
 msgstr "&Contact nou"
 
-#: newlistButton.label newlistButton.accesskey
+#: newlistButton.label
+#: newlistButton.accesskey
 msgid "New &List"
 msgstr "&Listă nouă"
 
-#: editButton2.label editButton2.accesskey
+#: editButton2.label
+#: editButton2.accesskey
 msgid "&Properties"
 msgstr "&Proprietăți"
 
-#: newmsgButton.label newmsgButton.accesskey
+#: newmsgButton.label
+#: newmsgButton.accesskey
 msgid "&Write"
 msgstr "Scrie &mesaj"
 
-#: newIM.label newIM.accesskey
+#: newIM.label
+#: newIM.accesskey
 msgid "&Instant Message"
 msgstr "Mesaj &instantaneu"
 
-#: deleteButton2.label deleteButton2.accesskey
+#: deleteButton2.label
+#: deleteButton2.accesskey
 msgctxt "deleteButton2.label deleteButton2.accesskey"
 msgid "&Delete"
 msgstr "Ș&terge"
@@ -358,7 +403,8 @@ msgid "Address Books"
 msgstr "Agende de contacte"
 
 #. Search Bar
-#: SearchNameOrEmail.label SearchNameOrEmail.accesskey
+#: SearchNameOrEmail.label
+#: SearchNameOrEmail.accesskey
 msgid "&Name or Email"
 msgstr "&Nume sau e-mail"
 
@@ -375,71 +421,88 @@ msgid "Quick Search"
 msgstr "Căutare rapidă"
 
 #. Results Pane
-#: Addrbook.label Addrbook.accesskey
+#: Addrbook.label
+#: Addrbook.accesskey
 msgid "Address &Book"
 msgstr "Age&ndă de contacte"
 
-#: GeneratedName.label GeneratedName.accesskey
+#: GeneratedName.label
+#: GeneratedName.accesskey
 msgid "&Name"
 msgstr "&Nume"
 
-#: PrimaryEmail.label PrimaryEmail.accesskey
+#: PrimaryEmail.label
+#: PrimaryEmail.accesskey
 msgid "&Email"
-msgstr "&Email"
+msgstr "&E-mail"
 
-#: ChatName.label ChatName.accesskey
+#: ChatName.label
+#: ChatName.accesskey
 msgid "&Chat Name"
 msgstr "&Nume chat"
 
-#: Company.label Company.accesskey
+#: Company.label
+#: Company.accesskey
 msgid "Organi&zation"
 msgstr "Organi&zația"
 
-#: NickName.label NickName.accesskey
+#: NickName.label
+#: NickName.accesskey
 msgid "N&ickname"
 msgstr "Pseudon&im"
 
-#: SecondEmail.label SecondEmail.accesskey
+#: SecondEmail.label
+#: SecondEmail.accesskey
 msgid "Additiona&l Email"
 msgstr "A doua adresă de emai&l"
 
-#: Department.label Department.accesskey
+#: Department.label
+#: Department.accesskey
 msgid "Depa&rtment"
 msgstr "Depa&rtamentul"
 
-#: JobTitle.label JobTitle.accesskey
+#: JobTitle.label
+#: JobTitle.accesskey
 msgid "&Title"
 msgstr "&Titlul"
 
-#: CellularNumber.label CellularNumber.accesskey
+#: CellularNumber.label
+#: CellularNumber.accesskey
 msgid "&Mobile"
 msgstr "&Mobil"
 
-#: PagerNumber.label PagerNumber.accesskey
+#: PagerNumber.label
+#: PagerNumber.accesskey
 msgid "&Pager"
 msgstr "Nr. de &pager"
 
-#: FaxNumber.label FaxNumber.accesskey
+#: FaxNumber.label
+#: FaxNumber.accesskey
 msgid "&Fax"
 msgstr "Nr. de &fax"
 
-#: HomePhone.label HomePhone.accesskey
+#: HomePhone.label
+#: HomePhone.accesskey
 msgid "&Home Phone"
 msgstr "&Telefon de acasă"
 
-#: WorkPhone.label WorkPhone.accesskey
+#: WorkPhone.label
+#: WorkPhone.accesskey
 msgid "&Work Phone"
 msgstr "&Telefon de serviciu"
 
-#: sortAscending.label sortAscending.accesskey
+#: sortAscending.label
+#: sortAscending.accesskey
 msgid "&Ascending"
 msgstr "&Crescător"
 
-#: sortDescending.label sortDescending.accesskey
+#: sortDescending.label
+#: sortDescending.accesskey
 msgid "&Descending"
 msgstr "&Descrescător"
 
-#: _PhoneticName.label _PhoneticName.accesskey
+#: _PhoneticName.label
+#: _PhoneticName.accesskey
 msgid "Ph&onetic Name"
 msgstr "Nume f&onetic"
 

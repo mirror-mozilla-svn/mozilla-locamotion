@@ -1,24 +1,18 @@
-#. extracted from ./mail/chrome/messenger/AccountWizard.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-14 13:44+0100\n"
-"PO-Revision-Date: 2015-08-21 13:22+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440163357.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/AccountWizard.dtd.po\n"
-"X-Pootle-Revision: 65964\n"
+"X-Pootle-Revision: 100228\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -49,18 +43,20 @@ msgid ""
 "Administrator or Internet Service Provider."
 msgstr ""
 "Această fereastră va colecta informațiile necesare setării unui cont. Dacă "
-"nu cunoști informațiile necesare, contactează administratorul de sistem sau "
-"furnizorul de Internet."
+"nu cunoști informațiile necesare, te rugăm să contactezi administratorul de "
+"sistem sau furnizorul de Internet."
 
 #: accountTypeDirections.label
 msgid "Select the type of account you would like to set up:"
-msgstr "Alegeți tipul de cont pe care doriți să-l creați:"
+msgstr "Selectați tipul de cont pe care doriți să-l creați:"
 
-#: accountTypeMail.label accountTypeMail.accesskey
+#: accountTypeMail.label
+#: accountTypeMail.accesskey
 msgid "E&mail account"
 msgstr "Cont de e&mail"
 
-#: accountTypeNews.label accountTypeNews.accesskey
+#: accountTypeNews.label
+#: accountTypeNews.accesskey
 msgid "Ne&wsgroup account"
 msgstr "Con&t pentru grupuri de discuții"
 
@@ -93,11 +89,13 @@ msgstr ""
 msgid "(for example, \"John Smith\")."
 msgstr "(de exemplu, „Ion Popescu”)."
 
-#: fullnameLabel.label fullnameLabel.accesskey
+#: fullnameLabel.label
+#: fullnameLabel.accesskey
 msgid "&Your Name:"
 msgstr "&Numele dumneavoastră:"
 
-#: emailLabel.label emailLabel.accesskey
+#: emailLabel.label
+#: emailLabel.accesskey
 msgid "&Email Address:"
 msgstr "&Adresa de e-mail:"
 
@@ -108,23 +106,27 @@ msgstr "Informații server de intrare"
 
 #: incomingServerTypeDesc.label
 msgid "Select the type of incoming server you are using."
-msgstr "Alegeți tipul serverului de primire pe care îl folosiți."
+msgstr "Selectați tipul serverului de primire pe care îl folosiți."
 
 #. Do not translate "IMAP" in below line
-#: imapType.label imapType.accesskey
+#: imapType.label
+#: imapType.accesskey
 msgid "&IMAP"
 msgstr "&IMAP"
 
 #. Do not translate "POP" in below line
-#: popType.label popType.accesskey
+#: popType.label
+#: popType.accesskey
 msgid "&POP"
 msgstr "&POP"
 
-#: leaveMsgsOnSrvr.label leaveMsgsOnSrvr.accesskey
+#: leaveMsgsOnSrvr.label
+#: leaveMsgsOnSrvr.accesskey
 msgid "&Leave messages on server"
 msgstr "&Păstrează mesajele pe server"
 
-#: portNum.label portNum.accesskey
+#: portNum.label
+#: portNum.accesskey
 msgid "P&ort:"
 msgstr "P&ort:"
 
@@ -144,7 +146,8 @@ msgid ""
 msgstr ""
 "Introduceți numele serverului de primire (de exemplu, „mail.example.net”)."
 
-#: incomingServer.label incomingServer.accesskey
+#: incomingServer.label
+#: incomingServer.accesskey
 msgid "Incoming &Server:"
 msgstr "&Server de primire:"
 
@@ -157,20 +160,22 @@ msgstr ""
 "Introduceți numele de utilizator pentru primire oferit de furnizorul de "
 "servicii de e-mail (de exemplu, „ipopescu”)."
 
-#: incomingUsername.label incomingUsername.accesskey
+#: incomingUsername.label
+#: incomingUsername.accesskey
 msgid "&User Name:"
 msgstr "Nume de &utilizator:"
 
 #. Do not translate "NNTP" or the "&quot;" entities in below line
 #: newsServerNameDesc.label
 msgid ""
-"Enter the name of your news server (NNTP) (for example, \"news.example.net"
-"\")."
+"Enter the name of your news server (NNTP) (for example, \"news.example.net\""
+")."
 msgstr ""
-"Introduceți numele serverului de știri (NNTP) (de exemplu, „news.example."
-"net”)."
+"Introduceți numele serverului de știri (NNTP) (de exemplu, "
+"„news.example.net”)."
 
-#: newsServerLabel.label newsServerLabel.accesskey
+#: newsServerLabel.label
+#: newsServerLabel.accesskey
 msgid "Newsgroup &Server:"
 msgstr "&Server grup de discuții/știri:"
 
@@ -185,10 +190,11 @@ msgid ""
 "Enter the name of your outgoing server (SMTP) (for example, \"smtp.example."
 "net\")."
 msgstr ""
-"Introduceți numele serverului de trimitere (SMTP) (de exemplu, „smtp.example."
-"net”)."
+"Introduceți numele serverului de trimitere (SMTP) (de exemplu, "
+"„smtp.example.net”)."
 
-#: outgoingServer.label outgoingServer.accesskey
+#: outgoingServer.label
+#: outgoingServer.accesskey
 msgid "Outgoing &Server:"
 msgstr "Server de &trimitere:"
 
@@ -201,7 +207,8 @@ msgstr ""
 "dumneavoastră de e-mail (de obicei este același cu numele de utilizator "
 "pentru primire)."
 
-#: outgoingUsername.label outgoingUsername.accesskey
+#: outgoingUsername.label
+#: outgoingUsername.accesskey
 msgid "Outgoing &User Name:"
 msgstr "Nume de &utilizator pentru trimitere:"
 
@@ -262,10 +269,11 @@ msgid ""
 "Enter the name by which you would like to refer to this account (for "
 "example, \"Work Account\", \"Home Account\" or \"News Account\")."
 msgstr ""
-"Introduceți un nume pe care doriți să-l acordați acestui cont (de exemplu, "
-"„Cont Serviciu”, „Cont Acasă” sau „Cont Știri”)."
+"Introduceți un nume pe care doriți să-l acordați acestui cont (de exemplu, „"
+"Cont de la serviciu”, „Cont de acasă” sau „Cont pentru știri”)."
 
-#: accnameLabel.label accnameLabel.accesskey
+#: accnameLabel.label
+#: accnameLabel.accesskey
 msgid "&Account Name:"
 msgstr "Nume &cont:"
 
@@ -276,7 +284,7 @@ msgstr "Felicitări!"
 
 #: completionText.label
 msgid "Please verify that the information below is correct."
-msgstr "Vă rugăm verificați ca datele de mai jos să fie corecte."
+msgstr "Vă rugăm să verificați ca datele de mai jos să fie corecte."
 
 #: serverTypePrefix.label
 msgid "Incoming Server Type:"
@@ -294,7 +302,8 @@ msgstr "Nume server de trimitere (SMTP):"
 msgid "News Server Name (NNTP):"
 msgstr "Nume server de știri (NNTP):"
 
-#: downloadOnLogin.label downloadOnLogin.accesskey
+#: downloadOnLogin.label
+#: downloadOnLogin.accesskey
 msgid "&Download messages now"
 msgstr "&Descarcă mesajele acum"
 
@@ -308,7 +317,8 @@ msgstr ""
 "Aceasta va face ca acest cont să apară pe nivelul cel mai de sus. În caz "
 "contrar, mesajele vor fi în căsuța poștală globală din dosarele locale."
 
-#: deferStorage.label deferStorage.accesskey
+#: deferStorage.label
+#: deferStorage.accesskey
 msgid "Use &Global Inbox (store mail in Local Folders)"
 msgstr ""
 "&Folosește căsuța poștală globală (stochează mesajele în dosarele locale)"

@@ -1,28 +1,18 @@
-#. # 
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./mail/chrome/mozldap/ldap.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-14 13:44+0100\n"
-"PO-Revision-Date: 2015-07-30 14:09+0000\n"
-"Last-Translator: Raul Malea <raul.malea@gmail.com>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1438265385.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/mozldap/ldap.properties.po\n"
-"X-Pootle-Revision: 41513\n"
+"X-Pootle-Revision: 100277\n"
 
 #. # The following two strings are used when prompting the user for authentication
 #. # information:
@@ -36,7 +26,7 @@ msgstr "Parolă necesară pentru serverul LDAP"
 #. ## @loc %1$S should not be localized.  It is the hostname of the LDAP server.
 #: authPromptText
 msgid "Please enter your password for %1$S."
-msgstr "Vă rugăm introduceți parola pentru %1$S."
+msgstr "Vă rugăm să introduceți parola pentru %1$S."
 
 #. # These are string versions of all the errors defined in
 #. # nsILDAPErrors.idl, as well as the nsresult codes based on those
@@ -149,7 +139,7 @@ msgstr "Matching nepotrivit"
 #. ## @loc none
 #: 19
 msgid "Constraint violation"
-msgstr "Violare constrângere"
+msgstr "Încălcarea de constrângeri"
 
 #. ## @name TYPE_OR_VALUE_EXISTS
 #. ## @loc none
@@ -203,7 +193,7 @@ msgstr "Autentificare nepotrivită"
 #. ## @loc none
 #: 49
 msgid "Invalid credentials"
-msgstr "Acreditive nevalide"
+msgstr "Acreditive invalide"
 
 #. ## @name INSUFFICIENT_ACCESS
 #. ## @loc none
@@ -257,7 +247,7 @@ msgstr "Încălcare de denumire"
 #. ## @loc none
 #: 65
 msgid "Object class violation"
-msgstr "Violare clasă obiect"
+msgstr "Încălcare pentru clasa obiectului"
 
 #. ## @name NOT_ALLOWED_ON_NONLEAF
 #. ## @loc none
@@ -341,7 +331,7 @@ msgstr "Metodă autentificare necunoscută"
 #. ## @loc none
 #: 87
 msgid "Invalid search filter"
-msgstr "Filtru căutare nevalid"
+msgstr "Filtru de căutare invalid"
 
 #. ## @name USER_CANCELLED
 #. ## @loc none

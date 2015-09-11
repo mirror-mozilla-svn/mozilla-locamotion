@@ -1,24 +1,18 @@
-#. extracted from ./mail/chrome/messenger/news.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-14 13:44+0100\n"
-"PO-Revision-Date: 2015-03-22 12:30+0000\n"
-"Last-Translator: Raul Malea <raul.malea@gmail.com>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1427027419.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/news.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 100269\n"
 
 #. # This Source Code Form is subject to the terms of the Mozilla Public
 #. # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -73,13 +67,15 @@ msgstr "Nume de utilizator și parolă necesare pentru serverul de știri"
 #. # LOCALIZATION NOTE (enterUserPassServer): %S is the server being accessed
 #: enterUserPassServer
 msgid "Please enter a username and password for %S:"
-msgstr "Introduceți un nume de utilizator și o parolă pentru %S:"
+msgstr "Vă rugăm să introduceți un nume de utilizator și o parolă pentru %S:"
 
 #. # LOCALIZATION NOTE (enterUserPassGroup): %1$S is a specific newsgroup to set
 #. # the password for; %2$S is the server from which the newsgroup is accessed
 #: enterUserPassGroup
 msgid "Please enter a username and password for %1$S on %2$S:"
-msgstr "Introduceți un nume de utilizator și o parolă pentru %1$S pe %2$S:"
+msgstr ""
+"Vă rugăm să introduceți un nume de utilizator și o parolă pentru %1$S pe "
+"%2$S:"
 
 #: okButtonText
 msgid "Download"
@@ -158,8 +154,8 @@ msgid ""
 "An authorization error occurred.  Please try entering your name and/or "
 "password again."
 msgstr ""
-"A apărut o eroare la autorizare.  Încercați să vă introduceți din nou numele/"
-"parola."
+"A apărut o eroare la autorizare.  Vă rugăm să încercați să vă introduceți "
+"din nou numele/parola."
 
 #. # Error - TCP error
 #. ## @name TCP_ERROR

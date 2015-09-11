@@ -1,22 +1,16 @@
-#. extracted from ./editor/ui/chrome/composer/editingOverlay.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-31 01:45+0000\n"
-"PO-Revision-Date: 2015-08-25 14:50+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440514252.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/editor/ui/chrome/composer/editingOverlay.dtd."
 "po\n"
 "X-Pootle-Revision: 70120\n"
@@ -25,7 +19,8 @@ msgstr ""
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
 #. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #. File menu items
-#: openFileCmd.label openFileCmd.accesskey
+#: openFileCmd.label
+#: openFileCmd.accesskey
 msgid "&Open File…"
 msgstr "&Deschide un fișier…"
 
@@ -33,7 +28,8 @@ msgstr "&Deschide un fișier…"
 msgid "O"
 msgstr "D"
 
-#: openRemoteCmd.label openRemoteCmd.accesskey
+#: openRemoteCmd.label
+#: openRemoteCmd.accesskey
 msgid "Open Web &Location…"
 msgstr "&Deschide o adresă web…"
 
@@ -41,23 +37,28 @@ msgstr "&Deschide o adresă web…"
 msgid "L"
 msgstr "D"
 
-#: fileRecentMenu.label fileRecentMenu.accesskey
+#: fileRecentMenu.label
+#: fileRecentMenu.accesskey
 msgid "&Recent Pages"
 msgstr "Pagini &recente"
 
-#: saveCmd.label saveCmd.accesskey
+#: saveCmd.label
+#: saveCmd.accesskey
 msgid "&Save"
 msgstr "&Salvează"
 
-#: saveAsCmd.label saveAsCmd.accesskey
+#: saveAsCmd.label
+#: saveAsCmd.accesskey
 msgid "Save &As…"
 msgstr "S&alvează ca…"
 
-#: saveAsChangeEncodingCmd2.label saveAsChangeEncodingCmd2.accesskey
+#: saveAsChangeEncodingCmd2.label
+#: saveAsChangeEncodingCmd2.accesskey
 msgid "Save And Change Text &Encoding"
 msgstr "Salvează și schimbă codar&ea de caractere"
 
-#: publishCmd.label publishCmd.accesskey
+#: publishCmd.label
+#: publishCmd.accesskey
 msgid "Pu&blish"
 msgstr "Pu&blică"
 
@@ -65,16 +66,19 @@ msgstr "Pu&blică"
 msgid "S"
 msgstr "P"
 
-#: publishAsCmd.label publishAsCmd.accesskey
+#: publishAsCmd.label
+#: publishAsCmd.accesskey
 msgid "Publis&h As…"
 msgstr "&Publică ca…"
 
-#: fileRevert.label fileRevert.accesskey
+#: fileRevert.label
+#: fileRevert.accesskey
 msgid "Rever&t"
 msgstr "&Revenire"
 
 #. Edit menu items
-#: publishSettings.label publishSettings.accesskey
+#: publishSettings.label
+#: publishSettings.accesskey
 msgid "Pu&blishing Site Settings…"
 msgstr "Opțiuni pentru pu&blicarea pe site…"
 

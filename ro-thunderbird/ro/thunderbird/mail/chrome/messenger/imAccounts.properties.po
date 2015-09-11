@@ -1,28 +1,19 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./mail/chrome/messenger/imAccounts.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19 09:56+0100\n"
-"PO-Revision-Date: 2015-08-24 16:33+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440434016.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/imAccounts.properties."
 "po\n"
-"X-Pootle-Revision: 69512\n"
+"X-Pootle-Revision: 100238\n"
 
 #. # LOCALIZATION NOTE (protoOptions):
 #. # %S is replaced by the name of a protocol
@@ -45,8 +36,7 @@ msgstr "%S:"
 #. # %S is replaced by the name of a protocol
 #: accountUsernameInfo
 msgid "Please enter the username for your %S account."
-msgstr ""
-"Vă rugăm introduceți numele de utilizator pentru contul dumneavoastră %S."
+msgstr "Vă rugăm să vă introduceți numele de utilizator pentru contul %S."
 
 #. # LOCALIZATION NOTE (accountUsernameInfoWithDescription):
 #. # %1$S is a hint for the expected format of the username
@@ -54,8 +44,7 @@ msgstr ""
 #: accountUsernameInfoWithDescription
 msgid "Please enter the username (%1$S) for your %2$S account."
 msgstr ""
-"Vă rugăm introduceți numele de utilizator (%1$S) pentru contul dumneavoastră "
-"%2$S."
+"Vă rugăm să vă introduceți numele de utilizator (%1$S) pentru contul %2$S."
 
 #. # LOCALIZATION NOTE (account.connection.error):
 #. # %S is the error message.
@@ -71,8 +60,7 @@ msgstr "Niciun plugin de protocol „%S”."
 
 #: account.connection.errorEnteringPasswordRequired
 msgid "Entering a password is required to connect this account."
-msgstr ""
-"Este necesară introducerea unei parole pentru conectarea la acest cont."
+msgstr "Este necesară introducerea unei parole pentru conectarea la acest cont."
 
 #: account.connection.errorCrashedAccount
 msgid "A crash occurred while connecting this account."
@@ -186,6 +174,3 @@ msgstr ""
 #: accountsManager.notification.other.label
 msgid "Automatic connection has been disabled."
 msgstr "Conectarea automată a fost oprită."
-
-#~ msgid "C"
-#~ msgstr "C"

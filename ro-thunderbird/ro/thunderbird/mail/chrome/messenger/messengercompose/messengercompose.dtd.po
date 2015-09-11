@@ -1,22 +1,16 @@
-#. extracted from ./mail/chrome/messenger/messengercompose/messengercompose.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-12 04:07+0000\n"
-"PO-Revision-Date: 2015-08-21 12:27+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440160028.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/messengercompose/messengercompose.dtd."
 "po\n"
@@ -31,15 +25,18 @@ msgid "Write: (no subject)"
 msgstr "Redactare mesaj: (fără subiect)"
 
 #. File Menu
-#: fileMenu.label fileMenu.accesskey
+#: fileMenu.label
+#: fileMenu.accesskey
 msgid "&File"
 msgstr "&Fișier"
 
-#: newMenu.label newMenu.accesskey
+#: newMenu.label
+#: newMenu.accesskey
 msgid "&New"
 msgstr "&Creează"
 
-#: newMessage.label newMessage.accesskey
+#: newMessage.label
+#: newMessage.accesskey
 msgid "&Message"
 msgstr "&Mesaj"
 
@@ -51,15 +48,18 @@ msgstr "M"
 msgid "N"
 msgstr "N"
 
-#: newContact.label newContact.accesskey
+#: newContact.label
+#: newContact.accesskey
 msgid "Address Book &Contact…"
 msgstr "&Contact în agendă…"
 
-#: attachMenu.label attachMenu.accesskey
+#: attachMenu.label
+#: attachMenu.accesskey
 msgid "Attac&h"
 msgstr "Ane&xează"
 
-#: attachFileCmd.label attachFileCmd.accesskey
+#: attachFileCmd.label
+#: attachFileCmd.accesskey
 msgid "&File(s)…"
 msgstr "&Fișier(e)…"
 
@@ -68,24 +68,29 @@ msgctxt "attachFileCmd.key"
 msgid "A"
 msgstr "A"
 
-#: attachCloudCmd.label attachCloudCmd.accesskey
+#: attachCloudCmd.label
+#: attachCloudCmd.accesskey
 msgid "F&ilelink"
 msgstr "F&ilelink"
 
-#: attachPageCmd.label attachPageCmd.accesskey
+#: attachPageCmd.label
+#: attachPageCmd.accesskey
 msgid "&Web Page…"
 msgstr "Pagină &web…"
 
 #. LOCALIZATION NOTE attachVCardCmd.label Don't translate the term 'vCard'
-#: attachVCardCmd.label attachVCardCmd.accesskey
+#: attachVCardCmd.label
+#: attachVCardCmd.accesskey
 msgid "&Personal Card (vCard)"
 msgstr "&Fișă personală (vCard)"
 
-#: remindLater.label remindLater.accesskey
+#: remindLater.label
+#: remindLater.accesskey
 msgid "Remind Me &Later"
 msgstr "Amintește-mi &mai târziu"
 
-#: closeCmd.label closeCmd.accesskey
+#: closeCmd.label
+#: closeCmd.accesskey
 msgid "&Close"
 msgstr "În&chide"
 
@@ -93,7 +98,8 @@ msgstr "În&chide"
 msgid "W"
 msgstr "w"
 
-#: saveCmd.label saveCmd.accesskey
+#: saveCmd.label
+#: saveCmd.accesskey
 msgid "&Save"
 msgstr "&Salvează"
 
@@ -102,23 +108,28 @@ msgctxt "saveCmd.key"
 msgid "S"
 msgstr "S"
 
-#: saveAsCmd.label saveAsCmd.accesskey
+#: saveAsCmd.label
+#: saveAsCmd.accesskey
 msgid "Save &As"
 msgstr "Salvează &ca"
 
-#: saveAsFileCmd.label saveAsFileCmd.accesskey
+#: saveAsFileCmd.label
+#: saveAsFileCmd.accesskey
 msgid "&File…"
 msgstr "&Fișier…"
 
-#: saveAsDraftCmd.label saveAsDraftCmd.accesskey
+#: saveAsDraftCmd.label
+#: saveAsDraftCmd.accesskey
 msgid "&Draft"
 msgstr "&Ciornă"
 
-#: saveAsTemplateCmd.label saveAsTemplateCmd.accesskey
+#: saveAsTemplateCmd.label
+#: saveAsTemplateCmd.accesskey
 msgid "&Template"
 msgstr "Șab&lon"
 
-#: sendNowCmd.label sendNowCmd.accesskey
+#: sendNowCmd.label
+#: sendNowCmd.accesskey
 msgid "Sen&d Now"
 msgstr "&Trimite acum"
 
@@ -127,7 +138,8 @@ msgctxt "sendCmd.keycode"
 msgid "VK_RETURN"
 msgstr "VK_RETURN"
 
-#: sendLaterCmd.label sendLaterCmd.accesskey
+#: sendLaterCmd.label
+#: sendLaterCmd.accesskey
 msgid "Send &Later"
 msgstr "T&rimite mai târziu"
 
@@ -136,15 +148,18 @@ msgctxt "sendLaterCmd.keycode"
 msgid "VK_RETURN"
 msgstr "VK_RETURN"
 
-#: printSetupCmd.label printSetupCmd.accesskey
+#: printSetupCmd.label
+#: printSetupCmd.accesskey
 msgid "Page Set&up…"
 msgstr "Aran&jare în pagină…"
 
-#: printPreviewCmd.label printPreviewCmd.accesskey
+#: printPreviewCmd.label
+#: printPreviewCmd.accesskey
 msgid "Print Pre&view"
 msgstr "Pre&vizualizează tipărirea"
 
-#: printCmd.label printCmd.accesskey
+#: printCmd.label
+#: printCmd.accesskey
 msgid "&Print…"
 msgstr "Ti&părește…"
 
@@ -153,11 +168,13 @@ msgid "P"
 msgstr "P"
 
 #. Edit Menu
-#: editMenu.label editMenu.accesskey
+#: editMenu.label
+#: editMenu.accesskey
 msgid "&Edit"
 msgstr "&Editare"
 
-#: undoCmd.label undoCmd.accesskey
+#: undoCmd.label
+#: undoCmd.accesskey
 msgctxt "undoCmd.label undoCmd.accesskey"
 msgid "&Undo"
 msgstr "An&ulează"
@@ -166,7 +183,8 @@ msgstr "An&ulează"
 msgid "Z"
 msgstr "Z"
 
-#: redoCmd.label redoCmd.accesskey
+#: redoCmd.label
+#: redoCmd.accesskey
 msgid "&Redo"
 msgstr "&Restaurează"
 
@@ -174,7 +192,8 @@ msgstr "&Restaurează"
 msgid "Y"
 msgstr "Y"
 
-#: cutCmd.label cutCmd.accesskey
+#: cutCmd.label
+#: cutCmd.accesskey
 msgctxt "cutCmd.label cutCmd.accesskey"
 msgid "Cu&t"
 msgstr "&Taie"
@@ -183,7 +202,8 @@ msgstr "&Taie"
 msgid "X"
 msgstr "X"
 
-#: copyCmd.label copyCmd.accesskey
+#: copyCmd.label
+#: copyCmd.accesskey
 msgctxt "copyCmd.label copyCmd.accesskey"
 msgid "&Copy"
 msgstr "&Copiază"
@@ -192,7 +212,8 @@ msgstr "&Copiază"
 msgid "C"
 msgstr "C"
 
-#: pasteCmd.label pasteCmd.accesskey
+#: pasteCmd.label
+#: pasteCmd.accesskey
 msgctxt "pasteCmd.label pasteCmd.accesskey"
 msgid "&Paste"
 msgstr "L&ipește"
@@ -211,11 +232,13 @@ msgstr "V"
 msgid "o"
 msgstr "o"
 
-#: editRewrapCmd.label editRewrapCmd.accesskey
+#: editRewrapCmd.label
+#: editRewrapCmd.accesskey
 msgid "Re&wrap"
 msgstr "Î&nfășoară rândurile"
 
-#: deleteCmd.label deleteCmd.accesskey
+#: deleteCmd.label
+#: deleteCmd.accesskey
 msgctxt "deleteCmd.label deleteCmd.accesskey"
 msgid "&Delete"
 msgstr "Ș&terge"
@@ -224,11 +247,13 @@ msgstr "Ș&terge"
 msgid "R"
 msgstr "R"
 
-#: renameAttachmentCmd.label renameAttachmentCmd.accesskey
+#: renameAttachmentCmd.label
+#: renameAttachmentCmd.accesskey
 msgid "R&ename Attachment…"
 msgstr "&Redenumire atașament…"
 
-#: selectAllCmd.label selectAllCmd.accesskey
+#: selectAllCmd.label
+#: selectAllCmd.accesskey
 msgctxt "selectAllCmd.label selectAllCmd.accesskey"
 msgid "Select &All"
 msgstr "Selecte&ază tot"
@@ -238,7 +263,8 @@ msgctxt "selectAllCmd.key"
 msgid "A"
 msgstr "A"
 
-#: findBarCmd.label findBarCmd.accesskey
+#: findBarCmd.label
+#: findBarCmd.accesskey
 msgid "&Find…"
 msgstr "&Caută…"
 
@@ -246,7 +272,8 @@ msgstr "&Caută…"
 msgid "F"
 msgstr "F"
 
-#: findReplaceCmd.label findReplaceCmd.accesskey
+#: findReplaceCmd.label
+#: findReplaceCmd.accesskey
 msgid "Find and Rep&lace…"
 msgstr "&Caută și înlocuiește…"
 
@@ -254,7 +281,8 @@ msgstr "&Caută și înlocuiește…"
 msgid "H"
 msgstr "s"
 
-#: findAgainCmd.label findAgainCmd.accesskey
+#: findAgainCmd.label
+#: findAgainCmd.accesskey
 msgid "Find A&gain"
 msgstr "Caută &din nou"
 
@@ -268,7 +296,8 @@ msgctxt "findAgainCmd.key2"
 msgid "VK_F3"
 msgstr "VK_F3"
 
-#: findPrevCmd.label findPrevCmd.accesskey
+#: findPrevCmd.label
+#: findPrevCmd.accesskey
 msgid "Find Pre&vious"
 msgstr "Caută î&napoi"
 
@@ -283,49 +312,60 @@ msgid "VK_F3"
 msgstr "VK_F3"
 
 #. View Menu
-#: viewMenu.label viewMenu.accesskey
+#: viewMenu.label
+#: viewMenu.accesskey
 msgid "&View"
 msgstr "&Vizualizare"
 
-#: viewToolbarsMenuNew.label viewToolbarsMenuNew.accesskey
+#: viewToolbarsMenuNew.label
+#: viewToolbarsMenuNew.accesskey
 msgid "&Toolbars"
 msgstr "Bare de unel&te"
 
-#: menubarCmd.label menubarCmd.accesskey
+#: menubarCmd.label
+#: menubarCmd.accesskey
 msgid "&Menu Bar"
 msgstr "Bara cu &meniul"
 
-#: showCompositionToolbarCmd.label showCompositionToolbarCmd.accesskey
+#: showCompositionToolbarCmd.label
+#: showCompositionToolbarCmd.accesskey
 msgid "C&omposition Toolbar"
 msgstr "&Bară de redactare"
 
-#: showFormattingBarCmd.label showFormattingBarCmd.accesskey
+#: showFormattingBarCmd.label
+#: showFormattingBarCmd.accesskey
 msgid "&Formatting Bar"
 msgstr "Bară de &formatare"
 
-#: showTaskbarCmd.label showTaskbarCmd.accesskey
+#: showTaskbarCmd.label
+#: showTaskbarCmd.accesskey
 msgid "&Status Bar"
 msgstr "Bară de &stare"
 
-#: customizeToolbar.label customizeToolbar.accesskey
+#: customizeToolbar.label
+#: customizeToolbar.accesskey
 msgid "&Customize…"
 msgstr "&Personalizează…"
 
-#: addressSidebar.label addressSidebar.accesskey
+#: addressSidebar.label
+#: addressSidebar.accesskey
 msgid "C&ontacts Sidebar"
 msgstr "Listă de c&ontacte"
 
 #. Format Menu
-#: formatMenu.label formatMenu.accesskey
+#: formatMenu.label
+#: formatMenu.accesskey
 msgid "F&ormat"
 msgstr "F&ormatare"
 
 #. Options Menu
-#: optionsMenu.label optionsMenu.accesskey
+#: optionsMenu.label
+#: optionsMenu.accesskey
 msgid "O&ptions"
 msgstr "O&pțiuni"
 
-#: checkSpellingCmd2.label checkSpellingCmd2.accesskey
+#: checkSpellingCmd2.label
+#: checkSpellingCmd2.accesskey
 msgid "C&heck Spelling…"
 msgstr "&Verifică ortografia…"
 
@@ -337,48 +377,59 @@ msgstr "o"
 msgid "VK_F7"
 msgstr "VK_F7"
 
-#: enableInlineSpellChecker.label enableInlineSpellChecker.accesskey
+#: enableInlineSpellChecker.label
+#: enableInlineSpellChecker.accesskey
 msgid "&Spell Check As You Type"
 msgstr "Verifică ortografia pe mă&sură ce tastez"
 
-#: quoteCmd.label quoteCmd.accesskey
+#: quoteCmd.label
+#: quoteCmd.accesskey
 msgid "&Quote Message"
 msgstr "&Citează mesajul"
 
 #. LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard'
-#: attachVCard.label attachVCard.accesskey
+#: attachVCard.label
+#: attachVCard.accesskey
 msgid "Attach Personal Card (&vCard)"
 msgstr "Atașează card personal (&vCard)"
 
-#: returnReceiptMenu.label returnReceiptMenu.accesskey
+#: returnReceiptMenu.label
+#: returnReceiptMenu.accesskey
 msgid "Re&turn Receipt"
 msgstr "&Confirmare de primire"
 
-#: dsnMenu.label dsnMenu.accesskey
+#: dsnMenu.label
+#: dsnMenu.accesskey
 msgid "Delivery Status &Notification"
 msgstr "&Notificare asupra stadiului livrării"
 
-#: deliveryFormatMenu.label deliveryFormatMenu.accesskey
+#: deliveryFormatMenu.label
+#: deliveryFormatMenu.accesskey
 msgid "Delivery &Format"
 msgstr "&Format de trimitere"
 
-#: autoFormatCmd.label autoFormatCmd.accesskey
+#: autoFormatCmd.label
+#: autoFormatCmd.accesskey
 msgid "&Auto-Detect"
 msgstr "&Autodetecție"
 
-#: plainTextFormatCmd.label plainTextFormatCmd.accesskey
+#: plainTextFormatCmd.label
+#: plainTextFormatCmd.accesskey
 msgid "&Plain Text Only"
 msgstr "Doar te&xt"
 
-#: htmlFormatCmd.label htmlFormatCmd.accesskey
+#: htmlFormatCmd.label
+#: htmlFormatCmd.accesskey
 msgid "&Rich Text (HTML) Only"
 msgstr "Doar text îm&bogățit (HTML)"
 
-#: bothFormatCmd.label bothFormatCmd.accesskey
+#: bothFormatCmd.label
+#: bothFormatCmd.accesskey
 msgid "P&lain and Rich (HTML) Text"
 msgstr "Text simp&lu și îmbunătățit (HTML)"
 
-#: priorityMenu.label priorityMenu.accesskey
+#: priorityMenu.label
+#: priorityMenu.accesskey
 msgid "&Priority"
 msgstr "&Prioritate"
 
@@ -394,27 +445,33 @@ msgstr "Schimbă prioritatea mesajului"
 msgid "Priority:"
 msgstr "Prioritate:"
 
-#: lowestPriorityCmd.label lowestPriorityCmd.accesskey
+#: lowestPriorityCmd.label
+#: lowestPriorityCmd.accesskey
 msgid "&Lowest"
 msgstr "&Cea mai mică"
 
-#: lowPriorityCmd.label lowPriorityCmd.accesskey
+#: lowPriorityCmd.label
+#: lowPriorityCmd.accesskey
 msgid "L&ow"
 msgstr "&Mică"
 
-#: normalPriorityCmd.label normalPriorityCmd.accesskey
+#: normalPriorityCmd.label
+#: normalPriorityCmd.accesskey
 msgid "&Normal"
 msgstr "&Normală"
 
-#: highPriorityCmd.label highPriorityCmd.accesskey
+#: highPriorityCmd.label
+#: highPriorityCmd.accesskey
 msgid "H&igh"
 msgstr "&Mare"
 
-#: highestPriorityCmd.label highestPriorityCmd.accesskey
+#: highestPriorityCmd.label
+#: highestPriorityCmd.accesskey
 msgid "&Highest"
 msgstr "&Cea mai mare"
 
-#: fileCarbonCopyCmd.label fileCarbonCopyCmd.accesskey
+#: fileCarbonCopyCmd.label
+#: fileCarbonCopyCmd.accesskey
 msgid "Sen&d a Copy To"
 msgstr "&Trimite copie în"
 
@@ -423,11 +480,13 @@ msgid "File Here"
 msgstr "Îndosariază aici"
 
 #. Tools Menu
-#: tasksMenu.label tasksMenu.accesskey
+#: tasksMenu.label
+#: tasksMenu.accesskey
 msgid "&Tools"
 msgstr "Unel&te"
 
-#: messengerCmd.label messengerCmd.accesskey
+#: messengerCmd.label
+#: messengerCmd.accesskey
 msgid "&Mail & Newsgroups"
 msgstr "&Corespondență și grupuri de discuții"
 
@@ -435,7 +494,8 @@ msgstr "&Corespondență și grupuri de discuții"
 msgid "1"
 msgstr "1"
 
-#: addressBookCmd.label addressBookCmd.accesskey
+#: addressBookCmd.label
+#: addressBookCmd.accesskey
 msgid "&Address Book"
 msgstr "&Agendă de contacte"
 
@@ -443,7 +503,8 @@ msgstr "&Agendă de contacte"
 msgid "B"
 msgstr "B"
 
-#: accountManagerCmd2.label accountManagerCmd2.accesskey
+#: accountManagerCmd2.label
+#: accountManagerCmd2.accesskey
 msgid "Account &Settings"
 msgstr "Setările &conturilor"
 
@@ -452,11 +513,13 @@ msgctxt "accountManagerCmdUnix2.accesskey"
 msgid "S"
 msgstr "S"
 
-#: preferencesCmd2.label preferencesCmd2.accesskey
+#: preferencesCmd2.label
+#: preferencesCmd2.accesskey
 msgid "&Options"
 msgstr "&Opțiuni"
 
-#: preferencesCmdUnix.label preferencesCmdUnix.accesskey
+#: preferencesCmdUnix.label
+#: preferencesCmdUnix.accesskey
 msgid "Prefere&nces"
 msgstr "Preferi&nțe"
 
@@ -565,7 +628,8 @@ msgstr "Tipărește acest mesaj"
 msgid "width: 9em;"
 msgstr "width: 9em;"
 
-#: fromAddr.label fromAddr.accesskey
+#: fromAddr.label
+#: fromAddr.accesskey
 msgid "F&rom:"
 msgstr "&De la:"
 
@@ -593,7 +657,8 @@ msgstr "Grup de discuții:"
 msgid "Followup-To:"
 msgstr "Urmare la:"
 
-#: subject.label subject.accesskey
+#: subject.label
+#: subject.accesskey
 msgid "&Subject:"
 msgstr "&Subiect:"
 
@@ -678,86 +743,105 @@ msgstr "Buze pecetluite"
 msgid "No Suggestions Found"
 msgstr "Nicio sugestie găsită"
 
-#: spellCheckIgnoreWord.label spellCheckIgnoreWord.accesskey
+#: spellCheckIgnoreWord.label
+#: spellCheckIgnoreWord.accesskey
 msgid "&Ignore Word"
 msgstr "&Ignoră cuvânt"
 
-#: spellCheckAddToDictionary.label spellCheckAddToDictionary.accesskey
+#: spellCheckAddToDictionary.label
+#: spellCheckAddToDictionary.accesskey
 msgid "Add to Dictio&nary"
 msgstr "Adaugă î&n dicționar"
 
-#: undo.label undo.accesskey
+#: undo.label
+#: undo.accesskey
 msgctxt "undo.label undo.accesskey"
 msgid "&Undo"
 msgstr "An&ulează"
 
-#: cut.label cut.accesskey
+#: cut.label
+#: cut.accesskey
 msgctxt "cut.label cut.accesskey"
 msgid "Cu&t"
 msgstr "&Taie"
 
-#: copy.label copy.accesskey
+#: copy.label
+#: copy.accesskey
 msgctxt "copy.label copy.accesskey"
 msgid "&Copy"
 msgstr "&Copiază"
 
-#: paste.label paste.accesskey
+#: paste.label
+#: paste.accesskey
 msgctxt "paste.label paste.accesskey"
 msgid "&Paste"
 msgstr "L&ipește"
 
-#: pasteQuote.label pasteQuote.accesskey
+#: pasteQuote.label
+#: pasteQuote.accesskey
 msgid "Paste As &Quotation"
 msgstr "Li&pește ca citat"
 
-#: openAttachment.label openAttachment.accesskey
+#: openAttachment.label
+#: openAttachment.accesskey
 msgid "&Open"
 msgstr "&Deschide"
 
-#: delete.label delete.accesskey
+#: delete.label
+#: delete.accesskey
 msgctxt "delete.label delete.accesskey"
 msgid "&Delete"
 msgstr "Ș&terge"
 
-#: removeAttachment.label removeAttachment.accesskey
+#: removeAttachment.label
+#: removeAttachment.accesskey
 msgid "Re&move Attachment"
 msgstr "Eli&mină atașamentul"
 
-#: renameAttachment.label renameAttachment.accesskey
+#: renameAttachment.label
+#: renameAttachment.accesskey
 msgid "&Rename…"
 msgstr "&Redenumește…"
 
-#: selectAll.label selectAll.accesskey
+#: selectAll.label
+#: selectAll.accesskey
 msgctxt "selectAll.label selectAll.accesskey"
 msgid "Select &All"
 msgstr "Selecte&ază tot"
 
-#: attachFile.label attachFile.accesskey
+#: attachFile.label
+#: attachFile.accesskey
 msgid "Attach &File(s)…"
 msgstr "Atașează &fișier(e)…"
 
-#: attachCloud.label attachCloud.accesskey
+#: attachCloud.label
+#: attachCloud.accesskey
 msgid "F&ilelink…"
 msgstr "Filelin&k…"
 
-#: convertCloud.label convertCloud.accesskey
+#: convertCloud.label
+#: convertCloud.accesskey
 msgid "&Convert to…"
 msgstr "&Convertire la…"
 
-#: cancelUpload.label cancelUpload.accesskey
+#: cancelUpload.label
+#: cancelUpload.accesskey
 msgid "Ca&ncel Upload"
 msgstr "&Anulare încărcare"
 
-#: convertRegularAttachment.label convertRegularAttachment.accesskey
+#: convertRegularAttachment.label
+#: convertRegularAttachment.accesskey
 msgid "Regular &Attachment"
 msgstr "A&tașament normal"
 
-#: attachPage.label attachPage.accesskey
+#: attachPage.label
+#: attachPage.accesskey
 msgid "Attach &Web Page…"
 msgstr "Atașează pagină &web…"
 
 #. Spell checker context menu items
-#: spellAddDictionaries.label spellAddDictionaries.accesskey
+#: spellAddDictionaries.label
+#: spellAddDictionaries.accesskey
 msgid "&Add Dictionaries…"
 msgstr "&Adaugă dicționare"
 
@@ -766,7 +850,3 @@ msgstr "&Adaugă dicționare"
 msgctxt "addressesSidebarTitle.label"
 msgid "Contacts"
 msgstr "Adrese"
-
-#~ msgctxt "accountManagerCmdUnix.accesskey"
-#~ msgid "S"
-#~ msgstr "S"

@@ -1,25 +1,19 @@
-#. extracted from ./editor/ui/chrome/dialogs/EditorTableProperties.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-20 10:36+0100\n"
-"PO-Revision-Date: 2015-03-07 12:59+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1425733190.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/editor/ui/chrome/dialogs/EditorTableProperties.dtd.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 100036\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -28,7 +22,8 @@ msgstr ""
 msgid "Table Properties"
 msgstr "Proprietăți tabel"
 
-#: applyButton.label applyButton.accesskey
+#: applyButton.label
+#: applyButton.accesskey
 msgid "&Apply"
 msgstr "&Aplică"
 
@@ -44,19 +39,23 @@ msgstr "Tabel"
 msgid "Cells"
 msgstr "Celule"
 
-#: tableRows.label tableRows.accessKey
+#: tableRows.label
+#: tableRows.accessKey
 msgid "&Rows:"
 msgstr "&Rânduri:"
 
-#: tableColumns.label tableColumns.accessKey
+#: tableColumns.label
+#: tableColumns.accessKey
 msgid "&Columns:"
 msgstr "&Coloane:"
 
-#: tableHeight.label tableHeight.accessKey
+#: tableHeight.label
+#: tableHeight.accessKey
 msgid "Hei&ght:"
 msgstr "Î&nălțime:"
 
-#: tableWidth.label tableWidth.accessKey
+#: tableWidth.label
+#: tableWidth.accessKey
 msgid "&Width:"
 msgstr "&Lățime:"
 
@@ -64,15 +63,18 @@ msgstr "&Lățime:"
 msgid "Borders and Spacing"
 msgstr "Borduri și spațiere"
 
-#: tableBorderWidth.label tableBorderWidth.accessKey
+#: tableBorderWidth.label
+#: tableBorderWidth.accessKey
 msgid "&Border:"
 msgstr "&Bordură:"
 
-#: tableSpacing.label tableSpacing.accessKey
+#: tableSpacing.label
+#: tableSpacing.accessKey
 msgid "&Spacing:"
 msgstr "&Spațiere:"
 
-#: tablePadding.label tablePadding.accessKey
+#: tablePadding.label
+#: tablePadding.accessKey
 msgid "&Padding:"
 msgstr "S&pațiu umplere:"
 
@@ -84,11 +86,13 @@ msgstr "pixeli între celule"
 msgid "pixels between cell border and content"
 msgstr "pixeli între marginea și conținutul celulei"
 
-#: tableAlignment.label tableAlignment.accessKey
+#: tableAlignment.label
+#: tableAlignment.accessKey
 msgid "&Table Alignment:"
 msgstr "&Aliniere tabel:"
 
-#: tableCaption.label tableCaption.accessKey
+#: tableCaption.label
+#: tableCaption.accessKey
 msgid "Captio&n:"
 msgstr "E&xplicație:"
 
@@ -132,31 +136,36 @@ msgstr "Rând"
 msgid "Column"
 msgstr "Coloană"
 
-#: cellSelectNext.label cellSelectNext.accessKey
+#: cellSelectNext.label
+#: cellSelectNext.accessKey
 msgid "&Next"
 msgstr "Îna&inte"
 
-#: cellSelectPrevious.label cellSelectPrevious.accessKey
+#: cellSelectPrevious.label
+#: cellSelectPrevious.accessKey
 msgid "&Previous"
 msgstr "Îna&poi"
 
 #: applyBeforeChange.label
 msgid "Current changes will be applied before changing the selection."
-msgstr "Schimbările curente vor fi aplicate înainte de schimbarea selecției."
+msgstr "Schimbările actuale vor fi aplicate înainte de schimbarea selecției."
 
 #: cellContentAlignment.label
 msgid "Content Alignment"
 msgstr "Aliniere conținut"
 
-#: cellHorizontal.label cellHorizontal.accessKey
+#: cellHorizontal.label
+#: cellHorizontal.accessKey
 msgid "Hori&zontal:"
 msgstr "Ori&zontală:"
 
-#: cellVertical.label cellVertical.accessKey
+#: cellVertical.label
+#: cellVertical.accessKey
 msgid "&Vertical:"
 msgstr "&Verticală:"
 
-#: cellStyle.label cellStyle.accessKey
+#: cellStyle.label
+#: cellStyle.accessKey
 msgid "&Cell Style:"
 msgstr "&Stil celulă:"
 
@@ -168,7 +177,8 @@ msgstr "Normală"
 msgid "Header"
 msgstr "Antet"
 
-#: cellTextWrap.label cellTextWrap.accessKey
+#: cellTextWrap.label
+#: cellTextWrap.accessKey
 msgid "&Text Wrap:"
 msgstr "Înfășurare &text:"
 
@@ -216,7 +226,8 @@ msgstr "Mărime"
 msgid "pixels"
 msgstr "pixeli"
 
-#: backgroundColor.label backgroundColor.accessKey
+#: backgroundColor.label
+#: backgroundColor.accessKey
 msgid "&Background Color:"
 msgstr "Culoare &fundal:"
 

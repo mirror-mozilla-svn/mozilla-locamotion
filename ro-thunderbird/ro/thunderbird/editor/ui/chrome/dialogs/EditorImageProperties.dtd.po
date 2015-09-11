@@ -1,22 +1,16 @@
-#. extracted from ./editor/ui/chrome/dialogs/EditorImageProperties.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-20 10:36+0100\n"
-"PO-Revision-Date: 2015-08-25 15:12+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440515527.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/editor/ui/chrome/dialogs/EditorImageProperties.dtd.po\n"
 "X-Pootle-Revision: 70186\n"
@@ -35,7 +29,8 @@ msgid "pixels"
 msgstr "pixeli"
 
 #. These are in the Location tab panel
-#: locationEditField.label locationEditField.accessKey
+#: locationEditField.label
+#: locationEditField.accessKey
 msgid "Image &Location:"
 msgstr "&Locație imagine:"
 
@@ -43,7 +38,8 @@ msgstr "&Locație imagine:"
 msgid "Type the image's filename or location"
 msgstr "Tastați numele fișierului sau locația imaginii"
 
-#: title.label title.accessKey
+#: title.label
+#: title.accessKey
 msgid "&Tooltip:"
 msgstr "In&diciu:"
 
@@ -51,7 +47,8 @@ msgstr "In&diciu:"
 msgid "The html 'title' attribute that displays as a tooltip"
 msgstr "Atributul HTML 'title', care se afișează ca indicație rapidă (tooltip)"
 
-#: altText.label altText.accessKey
+#: altText.label
+#: altText.accessKey
 msgid "&Alternate text:"
 msgstr "Text &alternativ:"
 
@@ -59,7 +56,8 @@ msgstr "Text &alternativ:"
 msgid "Type text to display in place of the image"
 msgstr "Tastați textul de afișat în locul imaginii"
 
-#: noAltText.label noAltText.accessKey
+#: noAltText.label
+#: noAltText.accessKey
 msgid "&Don't use alternate text"
 msgstr "&Fără text alternativ"
 
@@ -73,7 +71,8 @@ msgstr "Previzualizare imagine"
 msgid "Actual Size:"
 msgstr "Dimensiune reală:"
 
-#: actualSizeRadio.label actualSizeRadio.accessKey
+#: actualSizeRadio.label
+#: actualSizeRadio.accessKey
 msgid "&Actual Size"
 msgstr "Dimensiune &reală"
 
@@ -81,7 +80,8 @@ msgstr "Dimensiune &reală"
 msgid "Revert to the image's actual size"
 msgstr "Înapoi la dimensiunea reală a imaginii"
 
-#: customSizeRadio.label customSizeRadio.accessKey
+#: customSizeRadio.label
+#: customSizeRadio.accessKey
 msgid "Custom &Size"
 msgstr "Dimensiune &personalizată"
 
@@ -89,15 +89,18 @@ msgstr "Dimensiune &personalizată"
 msgid "Change the image's size as displayed in the page"
 msgstr "Modificați dimensiunea imaginii așa cum va fi afișată pe pagină"
 
-#: heightEditField.label heightEditField.accessKey
+#: heightEditField.label
+#: heightEditField.accessKey
 msgid "Hei&ght:"
 msgstr "Î&nălțime:"
 
-#: widthEditField.label widthEditField.accessKey
+#: widthEditField.label
+#: widthEditField.accessKey
 msgid "&Width:"
 msgstr "&Lățime:"
 
-#: constrainCheckbox.label constrainCheckbox.accessKey
+#: constrainCheckbox.label
+#: constrainCheckbox.accessKey
 msgid "&Constrain"
 msgstr "&Constrânge"
 
@@ -110,7 +113,8 @@ msgstr "Menține raportul de aspect al imaginii"
 msgid "Image Map"
 msgstr "Hartă imagine"
 
-#: removeImageMapButton.label removeImageMapButton.accessKey
+#: removeImageMapButton.label
+#: removeImageMapButton.accessKey
 msgid "&Remove"
 msgstr "&Elimină"
 
@@ -144,24 +148,29 @@ msgstr "Înfășurare la stânga"
 msgid "Spacing"
 msgstr "Spațiere"
 
-#: leftRightEditField.label leftRightEditField.accessKey
+#: leftRightEditField.label
+#: leftRightEditField.accessKey
 msgid "&Left and Right:"
 msgstr "&Stânga și dreapta:"
 
-#: topBottomEditField.label topBottomEditField.accessKey
+#: topBottomEditField.label
+#: topBottomEditField.accessKey
 msgid "&Top and Bottom:"
 msgstr "S&us și jos:"
 
-#: borderEditField.label borderEditField.accessKey
+#: borderEditField.label
+#: borderEditField.accessKey
 msgid "Solid &Border:"
 msgstr "&Bordură plină:"
 
 #. These controls are in the Link Box
-#: showImageLinkBorder.label showImageLinkBorder.accessKey
+#: showImageLinkBorder.label
+#: showImageLinkBorder.accessKey
 msgid "Show &border around linked image"
 msgstr "&Afișează cu bordură imaginea cu linkuri"
 
-#: LinkAdvancedEditButton.label LinkAdvancedEditButton.accessKey
+#: LinkAdvancedEditButton.label
+#: LinkAdvancedEditButton.accessKey
 msgid "&Link Advanced Edit…"
 msgstr "Editare avansată a &linkului…"
 

@@ -1,25 +1,19 @@
-#. extracted from ./mail/chrome/messenger/addressbook/abCardOverlay.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-29 17:35+0100\n"
-"PO-Revision-Date: 2015-03-05 22:26+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1425594363.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/addressbook/abCardOverlay.dtd.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 94830\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -36,11 +30,13 @@ msgstr "C"
 msgid "Name"
 msgstr "Nume"
 
-#: NameField1.label NameField1.accesskey
+#: NameField1.label
+#: NameField1.accesskey
 msgid "&First:"
 msgstr "&Prenume:"
 
-#: NameField2.label NameField2.accesskey
+#: NameField2.label
+#: NameField2.accesskey
 msgid "&Last:"
 msgstr "Nume de &familie:"
 
@@ -54,27 +50,33 @@ msgctxt "PhoneticField2.label"
 msgid "Phonetic:"
 msgstr "Fonetic:"
 
-#: DisplayName.label DisplayName.accesskey
+#: DisplayName.label
+#: DisplayName.accesskey
 msgid "&Display:"
 msgstr "&Afișat ca:"
 
-#: preferDisplayName.label preferDisplayName.accesskey
+#: preferDisplayName.label
+#: preferDisplayName.accesskey
 msgid "Alwa&ys prefer display name over message header"
 msgstr "&Prefer întotdeauna afișarea numelui deasupra antetului mesajului"
 
-#: NickName.label NickName.accesskey
+#: NickName.label
+#: NickName.accesskey
 msgid "&Nickname:"
 msgstr "Pseudo&nim:"
 
-#: PrimaryEmail.label PrimaryEmail.accesskey
+#: PrimaryEmail.label
+#: PrimaryEmail.accesskey
 msgid "&Email:"
-msgstr "&Email:"
+msgstr "&E-mail:"
 
-#: SecondEmail.label SecondEmail.accesskey
+#: SecondEmail.label
+#: SecondEmail.accesskey
 msgid "Add&itional Email:"
 msgstr "E&mail suplimentar:"
 
-#: PreferMailFormat.label PreferMailFormat.accesskey
+#: PreferMailFormat.label
+#: PreferMailFormat.accesskey
 msgid "Prefers to recei&ve messages formatted as:"
 msgstr "P&refer să primească mesaje în format:"
 
@@ -94,23 +96,28 @@ msgstr "Necunoscut"
 msgid "Chat Name:"
 msgstr "Nume la chat:"
 
-#: WorkPhone.label WorkPhone.accesskey
+#: WorkPhone.label
+#: WorkPhone.accesskey
 msgid "Wor&k:"
 msgstr "&Serviciu:"
 
-#: HomePhone.label HomePhone.accesskey
+#: HomePhone.label
+#: HomePhone.accesskey
 msgid "Ho&me:"
 msgstr "A&casă:"
 
-#: FaxNumber.label FaxNumber.accesskey
+#: FaxNumber.label
+#: FaxNumber.accesskey
 msgid "Fa&x:"
 msgstr "Fa&x:"
 
-#: PagerNumber.label PagerNumber.accesskey
+#: PagerNumber.label
+#: PagerNumber.accesskey
 msgid "Pa&ger:"
 msgstr "Pa&ger:"
 
-#: CellularNumber.label CellularNumber.accesskey
+#: CellularNumber.label
+#: CellularNumber.accesskey
 msgid "Mo&bile:"
 msgstr "&Mobil:"
 
@@ -122,7 +129,8 @@ msgstr "Privat"
 msgid "P"
 msgstr "P"
 
-#: HomeAddress.label HomeAddress.accesskey
+#: HomeAddress.label
+#: HomeAddress.accesskey
 msgctxt "HomeAddress.label HomeAddress.accesskey"
 msgid "A&ddress:"
 msgstr "&Adresă:"
@@ -137,32 +145,38 @@ msgctxt "HomeAddress2.accesskey"
 msgid ""
 msgstr ""
 
-#: HomeCity.label HomeCity.accesskey
+#: HomeCity.label
+#: HomeCity.accesskey
 msgctxt "HomeCity.label HomeCity.accesskey"
 msgid "Cit&y:"
 msgstr "&Localitate:"
 
-#: HomeState.label HomeState.accesskey
+#: HomeState.label
+#: HomeState.accesskey
 msgctxt "HomeState.label HomeState.accesskey"
 msgid "&State/Province:"
 msgstr "&Județ/provincie:"
 
-#: HomeZipCode.label HomeZipCode.accesskey
+#: HomeZipCode.label
+#: HomeZipCode.accesskey
 msgctxt "HomeZipCode.label HomeZipCode.accesskey"
 msgid "&ZIP/Postal Code:"
 msgstr "&Cod poștal:"
 
-#: HomeCountry.label HomeCountry.accesskey
+#: HomeCountry.label
+#: HomeCountry.accesskey
 msgctxt "HomeCountry.label HomeCountry.accesskey"
 msgid "Co&untry:"
 msgstr "Ț&ară:"
 
-#: HomeWebPage.label HomeWebPage.accesskey
+#: HomeWebPage.label
+#: HomeWebPage.accesskey
 msgctxt "HomeWebPage.label HomeWebPage.accesskey"
 msgid "W&eb Page:"
 msgstr "&Pagină web:"
 
-#: Birthday.label Birthday.accesskey
+#: Birthday.label
+#: Birthday.accesskey
 msgid "&Birthday:"
 msgstr "&Zi de naștere:"
 
@@ -196,19 +210,23 @@ msgstr "Lucru"
 msgid "W"
 msgstr "L"
 
-#: JobTitle.label JobTitle.accesskey
+#: JobTitle.label
+#: JobTitle.accesskey
 msgid "T&itle:"
 msgstr "&Titlu:"
 
-#: Department.label Department.accesskey
+#: Department.label
+#: Department.accesskey
 msgid "Depart&ment:"
 msgstr "&Departament:"
 
-#: Company.label Company.accesskey
+#: Company.label
+#: Company.accesskey
 msgid "Orga&nization:"
 msgstr "&Organizație:"
 
-#: WorkAddress.label WorkAddress.accesskey
+#: WorkAddress.label
+#: WorkAddress.accesskey
 msgctxt "WorkAddress.label WorkAddress.accesskey"
 msgid "A&ddress:"
 msgstr "&Adresă:"
@@ -223,27 +241,32 @@ msgctxt "WorkAddress2.accesskey"
 msgid ""
 msgstr ""
 
-#: WorkCity.label WorkCity.accesskey
+#: WorkCity.label
+#: WorkCity.accesskey
 msgctxt "WorkCity.label WorkCity.accesskey"
 msgid "Cit&y:"
 msgstr "&Localitate:"
 
-#: WorkState.label WorkState.accesskey
+#: WorkState.label
+#: WorkState.accesskey
 msgctxt "WorkState.label WorkState.accesskey"
 msgid "&State/Province:"
 msgstr "&Județ/provincie:"
 
-#: WorkZipCode.label WorkZipCode.accesskey
+#: WorkZipCode.label
+#: WorkZipCode.accesskey
 msgctxt "WorkZipCode.label WorkZipCode.accesskey"
 msgid "&ZIP/Postal Code:"
 msgstr "&Cod poștal:"
 
-#: WorkCountry.label WorkCountry.accesskey
+#: WorkCountry.label
+#: WorkCountry.accesskey
 msgctxt "WorkCountry.label WorkCountry.accesskey"
 msgid "Co&untry:"
 msgstr "Ț&ară:"
 
-#: WorkWebPage.label WorkWebPage.accesskey
+#: WorkWebPage.label
+#: WorkWebPage.accesskey
 msgctxt "WorkWebPage.label WorkWebPage.accesskey"
 msgid "W&eb Page:"
 msgstr "&Pagină web:"
@@ -256,23 +279,28 @@ msgstr "Altele"
 msgid "h"
 msgstr "A"
 
-#: Custom1.label Custom1.accesskey
+#: Custom1.label
+#: Custom1.accesskey
 msgid "Custom &1:"
 msgstr "Diverse &1:"
 
-#: Custom2.label Custom2.accesskey
+#: Custom2.label
+#: Custom2.accesskey
 msgid "Custom &2:"
 msgstr "Diverse &2:"
 
-#: Custom3.label Custom3.accesskey
+#: Custom3.label
+#: Custom3.accesskey
 msgid "Custom &3:"
 msgstr "Diverse &3:"
 
-#: Custom4.label Custom4.accesskey
+#: Custom4.label
+#: Custom4.accesskey
 msgid "Custom &4:"
 msgstr "Diverse &4:"
 
-#: Notes.label Notes.accesskey
+#: Notes.label
+#: Notes.accesskey
 msgid "&Notes:"
 msgstr "&Note:"
 
@@ -284,7 +312,8 @@ msgstr "Chat"
 msgid "a"
 msgstr "i"
 
-#: Gtalk.label Gtalk.accesskey
+#: Gtalk.label
+#: Gtalk.accesskey
 msgid "&Google Talk:"
 msgstr "&Google Talk:"
 
@@ -296,31 +325,38 @@ msgstr "AIM:"
 msgid "r"
 msgstr "A"
 
-#: Yahoo.label Yahoo.accesskey
+#: Yahoo.label
+#: Yahoo.accesskey
 msgid "&Yahoo!:"
 msgstr "&Yahoo!:"
 
-#: Skype.label Skype.accesskey
+#: Skype.label
+#: Skype.accesskey
 msgid "&Skype:"
 msgstr "S&kype:"
 
-#: QQ.label QQ.accesskey
+#: QQ.label
+#: QQ.accesskey
 msgid "&QQ:"
 msgstr "&QQ:"
 
-#: MSN.label MSN.accesskey
+#: MSN.label
+#: MSN.accesskey
 msgid "&MSN:"
 msgstr "&MSN:"
 
-#: ICQ.label ICQ.accesskey
+#: ICQ.label
+#: ICQ.accesskey
 msgid "&ICQ:"
 msgstr "I&CQ:"
 
-#: XMPP.label XMPP.accesskey
+#: XMPP.label
+#: XMPP.accesskey
 msgid "&Jabber ID:"
 msgstr "ID &Jabber:"
 
-#: IRC.label IRC.accesskey
+#: IRC.label
+#: IRC.accesskey
 msgid "I&RC Nick:"
 msgstr "&Pseudonim IRC:"
 
@@ -336,7 +372,8 @@ msgstr "o"
 msgid "Pick one of the following:"
 msgstr "Alegeți una din următoarele:"
 
-#: GenericPhoto.label GenericPhoto.accesskey
+#: GenericPhoto.label
+#: GenericPhoto.accesskey
 msgid "&Generic Photo"
 msgstr "Poză &generică"
 
@@ -344,15 +381,18 @@ msgstr "Poză &generică"
 msgid "Default"
 msgstr "Implicit"
 
-#: PhotoFile.label PhotoFile.accesskey
+#: PhotoFile.label
+#: PhotoFile.accesskey
 msgid "O&n this Computer"
 msgstr "&Pe acest calculator"
 
-#: BrowsePhoto.label BrowsePhoto.accesskey
+#: BrowsePhoto.label
+#: BrowsePhoto.accesskey
 msgid "B&rowse"
 msgstr "&Răsfoiește"
 
-#: PhotoURL.label PhotoURL.accesskey
+#: PhotoURL.label
+#: PhotoURL.accesskey
 msgid "On the We&b"
 msgstr "Pe we&b"
 
@@ -360,22 +400,7 @@ msgstr "Pe we&b"
 msgid "Paste or type the web address of a photo"
 msgstr "Inserați sau tastați adresa web a pozei"
 
-#: UpdatePhoto.label UpdatePhoto.accesskey
+#: UpdatePhoto.label
+#: UpdatePhoto.accesskey
 msgid "&Update"
 msgstr "Act&ualizează"
-
-#~ msgid "Allow &remote content."
-#~ msgstr "Pe&rmite conținutul aflat la distanță."
-
-#~ msgid ""
-#~ "In HTML messages it is possible to \n"
-#~ "embed content from remote sources. Opening such a message will open a \n"
-#~ "connection to this external source. This may allow tracking of the \n"
-#~ "message being read. Checking this box will allow such external embedded \n"
-#~ "content in HTML messages from this contact."
-#~ msgstr ""
-#~ "În mesajele HTML se poate include conținut aflat pe internet. Deschiderea "
-#~ "unor astfel de mesaje va deschide o conexiune la sursa acestui conținut. "
-#~ "Acest lucru poate fi folosit pentru a detecta dacă mesajul a fost citit. "
-#~ "Bifând această opțiune veți permite încărcarea conținutului de pe "
-#~ "internet în mesajele de la această persoană."

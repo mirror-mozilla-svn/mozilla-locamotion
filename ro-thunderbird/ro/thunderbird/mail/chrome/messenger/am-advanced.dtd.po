@@ -1,22 +1,16 @@
-#. extracted from ./mail/chrome/messenger/am-advanced.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-14 13:44+0100\n"
-"PO-Revision-Date: 2015-03-19 17:21+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1426785714.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/am-advanced.dtd.po\n"
 "X-Pootle-Revision: 0\n"
 
@@ -40,19 +34,23 @@ msgstr ""
 "selecting it as the Outgoing Server (SMTP), or you can use the default "
 "server from this list by selecting \"Use Default Server\"."
 
-#: smtpListAdd.label smtpListAdd.accesskey
+#: smtpListAdd.label
+#: smtpListAdd.accesskey
 msgid "A&dd…"
 msgstr "&Adaugă…"
 
-#: smtpListEdit.label smtpListEdit.accesskey
+#: smtpListEdit.label
+#: smtpListEdit.accesskey
 msgid "&Edit…"
 msgstr "&Editează…"
 
-#: smtpListDelete.label smtpListDelete.accesskey
+#: smtpListDelete.label
+#: smtpListDelete.accesskey
 msgid "Re&move"
 msgstr "Șter&ge"
 
-#: smtpListSetDefault.label smtpListSetDefault.accesskey
+#: smtpListSetDefault.label
+#: smtpListSetDefault.accesskey
 msgid "Se&t Default"
 msgstr "&Implicit"
 

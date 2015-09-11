@@ -1,22 +1,16 @@
-#. extracted from ./mail/chrome/communicator/utilityOverlay.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-29 17:35+0100\n"
-"PO-Revision-Date: 2015-03-14 16:39+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1426351186.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/communicator/utilityOverlay.dtd."
 "po\n"
 "X-Pootle-Revision: 0\n"
@@ -25,19 +19,23 @@ msgstr ""
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
 #. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #. LOCALIZATION NOTE : FILE This file contains the global menu items
-#: fileMenu.label fileMenu.accesskey
+#: fileMenu.label
+#: fileMenu.accesskey
 msgid "&File"
 msgstr "&Fișier"
 
-#: newMenu.label newMenu.accesskey
+#: newMenu.label
+#: newMenu.accesskey
 msgid "&New"
 msgstr "&Creează"
 
-#: editMenu.label editMenu.accesskey
+#: editMenu.label
+#: editMenu.accesskey
 msgid "&Edit"
 msgstr "&Editare"
 
-#: undoCmd.label undoCmd.accesskey
+#: undoCmd.label
+#: undoCmd.accesskey
 msgid "&Undo"
 msgstr "An&ulează"
 
@@ -45,7 +43,8 @@ msgstr "An&ulează"
 msgid "Z"
 msgstr "Z"
 
-#: redoCmd.label redoCmd.accesskey
+#: redoCmd.label
+#: redoCmd.accesskey
 msgid "&Redo"
 msgstr "&Refă"
 
@@ -53,7 +52,8 @@ msgstr "&Refă"
 msgid "Y"
 msgstr "Y"
 
-#: cutCmd.label cutCmd.accesskey
+#: cutCmd.label
+#: cutCmd.accesskey
 msgid "Cu&t"
 msgstr "&Taie"
 
@@ -61,7 +61,8 @@ msgstr "&Taie"
 msgid "X"
 msgstr "X"
 
-#: copyCmd.label copyCmd.accesskey
+#: copyCmd.label
+#: copyCmd.accesskey
 msgid "&Copy"
 msgstr "&Copiază"
 
@@ -69,7 +70,8 @@ msgstr "&Copiază"
 msgid "C"
 msgstr "C"
 
-#: pasteCmd.label pasteCmd.accesskey
+#: pasteCmd.label
+#: pasteCmd.accesskey
 msgid "&Paste"
 msgstr "&Lipește"
 
@@ -77,11 +79,13 @@ msgstr "&Lipește"
 msgid "V"
 msgstr "v"
 
-#: deleteCmd.label deleteCmd.accesskey
+#: deleteCmd.label
+#: deleteCmd.accesskey
 msgid "&Delete"
 msgstr "Șter&ge"
 
-#: selectAllCmd.label selectAllCmd.accesskey
+#: selectAllCmd.label
+#: selectAllCmd.accesskey
 msgid "Select &All"
 msgstr "Selectează t&ot"
 
@@ -89,27 +93,33 @@ msgstr "Selectează t&ot"
 msgid "A"
 msgstr "A"
 
-#: preferencesCmd2.label preferencesCmd2.accesskey
+#: preferencesCmd2.label
+#: preferencesCmd2.accesskey
 msgid "&Options"
 msgstr "&Opțiuni"
 
-#: preferencesCmdUnix.label preferencesCmdUnix.accesskey
+#: preferencesCmdUnix.label
+#: preferencesCmdUnix.accesskey
 msgid "Prefere&nces"
 msgstr "Pr&eferințe"
 
-#: viewMenu.label viewMenu.accesskey
+#: viewMenu.label
+#: viewMenu.accesskey
 msgid "&View"
 msgstr "&Vizualizare"
 
-#: viewToolbarsMenu.label viewToolbarsMenu.accesskey
+#: viewToolbarsMenu.label
+#: viewToolbarsMenu.accesskey
 msgid "&Toolbars"
 msgstr "&Bare de unelte"
 
-#: showTaskbarCmd.label showTaskbarCmd.accesskey
+#: showTaskbarCmd.label
+#: showTaskbarCmd.accesskey
 msgid "Stat&us Bar"
 msgstr "Bară de &stare"
 
-#: closeCmd.label closeCmd.accesskey
+#: closeCmd.label
+#: closeCmd.accesskey
 msgid "&Close"
 msgstr "În&chide"
 
@@ -117,7 +127,8 @@ msgstr "În&chide"
 msgid "W"
 msgstr "w"
 
-#: quitApplicationCmd.label quitApplicationCmd.accesskey
+#: quitApplicationCmd.label
+#: quitApplicationCmd.accesskey
 msgid "E&xit"
 msgstr "&Ieșire"
 
@@ -125,13 +136,12 @@ msgstr "&Ieșire"
 msgid "Q"
 msgstr "Q"
 
-#: quitApplicationCmdUnix.label quitApplicationCmdUnix.accesskey
+#: quitApplicationCmdUnix.label
+#: quitApplicationCmdUnix.accesskey
 msgid "&Quit"
 msgstr "I&eșire"
 
-#: quitApplicationCmdMac.label quitApplicationCmdMac.accesskey
+#: quitApplicationCmdMac.label
+#: quitApplicationCmdMac.accesskey
 msgid "&Quit &brandShortName;"
 msgstr "&Ieșire din &brandShortName;"
-
-#~ msgid "Proxy &Configuration…"
-#~ msgstr "&Configurare proxy…"

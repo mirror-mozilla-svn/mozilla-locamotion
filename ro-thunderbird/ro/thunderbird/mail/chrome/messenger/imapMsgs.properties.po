@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./mail/chrome/messenger/imapMsgs.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-02 12:52+0000\n"
-"PO-Revision-Date: 2015-08-22 12:35+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440246945.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/imapMsgs.properties.po\n"
-"X-Pootle-Revision: 67035\n"
+"X-Pootle-Revision: 100243\n"
 
 #. #
 #. # The following are used by the imap code to display progress/status/error messages
@@ -407,10 +398,10 @@ msgid ""
 "or provider."
 msgstr ""
 "Serverul IMAP %S nu pare să suporte parole criptate. Dacă tocmai ați creat "
-"acest cont, încercați să schimbați „Metoda de autentificare” în „Parolă "
-"normală” la „Setările contului | Setările serverului”. Dacă în trecut "
-"funcționa iar acum nu mai funcționează, contactați administratorul sau "
-"furnizorul de e-mail."
+"acest cont, vă rugăm să încercați să schimbați „Metoda de autentificare” în „"
+"Parolă normală” la „Setările contului | Setările serverului”. Dacă în trecut "
+"funcționa iar acum nu mai funcționează, vă rugăm să contactați "
+"administratorul sau furnizorul de e-mail."
 
 #. # LOCALIZATION NOTE (imapAuthChangePlainToEncrypt): %S is the server hostname
 #: imapAuthChangePlainToEncrypt
@@ -419,9 +410,9 @@ msgid ""
 "to 'Encrypted password' as the 'Authentication method' in the 'Account "
 "Settings | Server settings'."
 msgstr ""
-"Serverul IMAP %S nu permite parole în clar. Încercați să schimbați „Metoda "
-"de autentificare” în „Parolă criptată” la „Setările conturilor | Setările "
-"serverului”."
+"Serverul IMAP %S nu permite parole în clar. Vă rugăm să încercați să "
+"schimbați „Metoda de autentificare” în „Parolă criptată” la „Setările "
+"conturilor | Setările serverului”."
 
 #. # LOCALIZATION NOTE (imapAuthChangeEncryptToPlainNoSSL): %S is the server hostname
 #: imapAuthChangeEncryptToPlainNoSSL
@@ -433,10 +424,10 @@ msgid ""
 "scenario how someone could steal your password."
 msgstr ""
 "Serverul IMAP %S nu pare să suporte parole criptate. Dacă tocmai ați "
-"configurat contul, încercați să modificați „Metoda de autentificare” în „Cu "
-"parolă, transmisă nesigur” la „Setările contului | Setările serverului”. "
-"Dacă în trecut funcționa iar acum eșuează, este posibil ca cineva să încerce "
-"să vă fure parola."
+"configurat contul, vă rugăm să încercați să modificați „Metoda de "
+"autentificare” în „Cu parolă, transmisă nesigur” la „Setările contului | "
+"Setările serverului”. Dacă în trecut funcționa iar acum eșuează, este "
+"posibil ca cineva să încerce să vă fure parola."
 
 #. # LOCALIZATION NOTE (imapAuthMechNotSupported): %S is the server hostname
 #: imapAuthMechNotSupported
@@ -477,7 +468,7 @@ msgid ""
 "The current operation on '%2$S' did not succeed. The mail server for account "
 "%1$S responded: %3$S"
 msgstr ""
-"Operațiunea curentă privind „%2$S” nu a reușit. Serverul de mail pentru "
+"Operațiunea actuală privind „%2$S” nu a reușit. Serverul de mail pentru "
 "contul %1$S a răspuns: %3$S"
 
 #. # LOCALIZATION NOTE (imapServerAlert):
@@ -486,6 +477,3 @@ msgstr ""
 #: imapServerAlert
 msgid "Alert from account %1$S: %2$S"
 msgstr "Alertă de la contul %1$S: %2$S"
-
-#~ msgid "Enter your password for %S:"
-#~ msgstr "Introduceți parola pentru %S:"

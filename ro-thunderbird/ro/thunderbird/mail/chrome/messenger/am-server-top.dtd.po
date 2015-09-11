@@ -1,24 +1,18 @@
-#. extracted from ./mail/chrome/messenger/am-server-top.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-31 01:45+0000\n"
-"PO-Revision-Date: 2015-08-25 15:43+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440517436.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/am-server-top.dtd.po\n"
-"X-Pootle-Revision: 70365\n"
+"X-Pootle-Revision: 97162\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -40,15 +34,18 @@ msgstr "Setările serverului"
 msgid "Server Type:"
 msgstr "Tip server:"
 
-#: serverName.label serverName.accesskey
+#: serverName.label
+#: serverName.accesskey
 msgid "&Server Name:"
 msgstr "Nume &server:"
 
-#: userName.label userName.accesskey
+#: userName.label
+#: userName.accesskey
 msgid "User &Name:"
 msgstr "N&ume utilizator:"
 
-#: port.label port.accesskey
+#: port.label
+#: port.accesskey
 msgid "&Port:"
 msgstr "&Port:"
 
@@ -60,7 +57,8 @@ msgstr "Implicit:"
 #. For example, in Japanese cases:
 #. biffStart.label "every"
 #. biffEnd.label   "minutes for new messages Check"
-#: biffStart.label biffStart.accesskey
+#: biffStart.label
+#: biffStart.accesskey
 msgid "Check for new messages ever&y "
 msgstr "Ca&ută mesaje noi la fiecare "
 
@@ -68,7 +66,8 @@ msgstr "Ca&ută mesaje noi la fiecare "
 msgid "minutes"
 msgstr "Minute"
 
-#: connectionSecurity.label connectionSecurity.accesskey
+#: connectionSecurity.label
+#: connectionSecurity.accesskey
 msgid "Connection sec&urity:"
 msgstr "Sec&uritatea conexiunii:"
 
@@ -88,19 +87,23 @@ msgstr "STARTTLS"
 msgid "SSL/TLS"
 msgstr "SSL/TLS"
 
-#: authMethod.label authMethod.accesskey
+#: authMethod.label
+#: authMethod.accesskey
 msgid "Authent&ication method:"
 msgstr "&Metoda de autentificare:"
 
-#: leaveOnServer.label leaveOnServer.accesskey
+#: leaveOnServer.label
+#: leaveOnServer.accesskey
 msgid "Leave messa&ges on server"
 msgstr "Păstrează mesajele pe ser&ver"
 
-#: headersOnly.label headersOnly.accesskey
+#: headersOnly.label
+#: headersOnly.accesskey
 msgid "F&etch headers only"
 msgstr "&Descarcă doar antetele"
 
-#: deleteByAgeFromServer.label deleteByAgeFromServer.accesskey
+#: deleteByAgeFromServer.label
+#: deleteByAgeFromServer.accesskey
 msgid "F&or at most"
 msgstr "Pe&ntru cel mult"
 
@@ -108,11 +111,13 @@ msgstr "Pe&ntru cel mult"
 msgid "days"
 msgstr "zile"
 
-#: deleteOnServer2.label deleteOnServer2.accesskey
+#: deleteOnServer2.label
+#: deleteOnServer2.accesskey
 msgid "Until I &delete them"
 msgstr "&Până le șterg eu"
 
-#: downloadOnBiff.label downloadOnBiff.accesskey
+#: downloadOnBiff.label
+#: downloadOnBiff.accesskey
 msgid "Auto&matically download new messages"
 msgstr "&Descarcă automat mesajele noi"
 
@@ -124,35 +129,42 @@ msgstr "Numele dumneavoastră de autentificare"
 msgid "When I delete a message:"
 msgstr "Când șterg un mesaj:"
 
-#: modelMoveToTrash.label modelMoveToTrash.accesskey
+#: modelMoveToTrash.label
+#: modelMoveToTrash.accesskey
 msgid "M&ove it to this folder:"
 msgstr "&Mută-l în coșul de gunoi"
 
-#: modelMarkDeleted.label modelMarkDeleted.accesskey
+#: modelMarkDeleted.label
+#: modelMarkDeleted.accesskey
 msgid "Just mar&k it as deleted"
 msgstr "&Marchează-l ca șters"
 
-#: modelDeleteImmediately.label modelDeleteImmediately.accesskey
+#: modelDeleteImmediately.label
+#: modelDeleteImmediately.accesskey
 msgid "Remove it imme&diately"
 msgstr "Ș&terge-l imediat"
 
 #. do not translate two of "&quot;" in below line
-#: expungeOnExit.label expungeOnExit.accesskey
+#: expungeOnExit.label
+#: expungeOnExit.accesskey
 msgid "Clean up (\"&Expunge\") Inbox on Exit"
 msgstr "Goleșt&e dosarul „Primite” la ieșire"
 
-#: emptyTrashOnExit.label emptyTrashOnExit.accesskey
+#: emptyTrashOnExit.label
+#: emptyTrashOnExit.accesskey
 msgid "Empty Trash on E&xit"
 msgstr "&Golește coșul de gunoi la ieșire"
 
-#: loginAtStartup.label loginAtStartup.accesskey
+#: loginAtStartup.label
+#: loginAtStartup.accesskey
 msgid "&Check for new messages at startup"
 msgstr "&Caută mesaje noi la fiecare"
 
 #. translate below 2 lines with grammar dependency
 #. maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
 #. of messages between them
-#: maxMessagesStart.label maxMessagesStart.accesskey
+#: maxMessagesStart.label
+#: maxMessagesStart.accesskey
 msgid "Ask &me before downloading more than"
 msgstr "Întreabă-&mă înainte de a descărca mai mult de"
 
@@ -161,7 +173,8 @@ msgstr "Întreabă-&mă înainte de a descărca mai mult de"
 msgid "messages"
 msgstr "mesaje"
 
-#: alwaysAuthenticate.label alwaysAuthenticate.accesskey
+#: alwaysAuthenticate.label
+#: alwaysAuthenticate.accesskey
 msgid "Al&ways request authentication when connecting to this server"
 msgstr "Solicită întotde&auna autentificare la conectarea la acest server"
 
@@ -185,7 +198,8 @@ msgstr "Nume complete (ex: „netscape.public.mozilla.mail-news”)"
 msgid "Abbreviate names (For example, 'n.p.m.mail-news')"
 msgstr "Nume abreviate (ex: „n.p.m.mail-news”)"
 
-#: advancedButton.label advancedButton.accesskey
+#: advancedButton.label
+#: advancedButton.accesskey
 msgid "Ad&vanced…"
 msgstr "A&vansat…"
 
@@ -199,13 +213,15 @@ msgstr "Director local:"
 
 #: localFolderPicker.label
 msgid "Select Local Directory"
-msgstr "Alegeți directorul local"
+msgstr "Selectați directorul local"
 
-#: browseFolder.label browseFolder.accesskey
+#: browseFolder.label
+#: browseFolder.accesskey
 msgid "&Browse…"
 msgstr "Răs&foiește…"
 
-#: browseNewsrc.label browseNewsrc.accesskey
+#: browseNewsrc.label
+#: browseNewsrc.accesskey
 msgid "Brows&e…"
 msgstr "Răsfoi&ește…"
 
@@ -219,7 +235,8 @@ msgid ""
 "it."
 msgstr "Acesta este un cont special. Cu acesta nu sunt asociate identități."
 
-#: storeType.label storeType.accesskey
+#: storeType.label
+#: storeType.accesskey
 msgid "Message Store &Type:"
 msgstr "&Tipul de stocare al mesajelor:"
 
@@ -230,9 +247,3 @@ msgstr "Fișier per dosar (mbox)"
 #: maildirStore.label
 msgid "File per message (maildir)"
 msgstr "Fișiere per mesaj (maildir)"
-
-#~ msgid "Default Character Encoding:"
-#~ msgstr "Codare caractere implicită:"
-
-#~ msgid "One large file (mbox)"
-#~ msgstr "Un fișier mare (mbox)"

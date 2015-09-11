@@ -1,28 +1,19 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./mail/chrome/messenger/messengercompose/composeMsgs.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-12 04:07+0000\n"
-"PO-Revision-Date: 2015-08-25 15:12+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440515538.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messengercompose/compose"
 "Msgs.properties.po\n"
-"X-Pootle-Revision: 70187\n"
+"X-Pootle-Revision: 100266\n"
 
 #. #
 #. # The following are used by the compose back end
@@ -70,8 +61,8 @@ msgid ""
 "No recipients were specified. Please enter a recipient or newsgroup in the "
 "addressing area."
 msgstr ""
-"Nu ați specificat nici un destinatar. Introduceți un destinatar sau un grup "
-"de discuții în zona de adrese."
+"Nu ați specificat nici un destinatar. Vă rugăm să introduceți un destinatar "
+"sau un grup de discuții în zona de adrese."
 
 #: errorWritingFile
 msgid "Error writing temporary file."
@@ -85,8 +76,8 @@ msgid ""
 "again."
 msgstr ""
 "S-a produs o eroare la trimiterea de e-mail. Serverul de mail a răspuns: %s. "
-"Vedeți dacă adresa de e-mail vă este corectă în setările contului și "
-"încercați din nou."
+"Vă rugăm să verificați dacă adresa de e-mail vă este corectă în setările "
+"contului și să încercați din nou."
 
 #. ## LOCALIZATION NOTE (errorSendingDataCommand): argument %s is the Outgoing server (SMTP) response
 #: errorSendingDataCommand
@@ -103,8 +94,8 @@ msgid ""
 "An error occurred while sending mail. The mail server responded:  %s. Please "
 "check the message and try again."
 msgstr ""
-"S-a produs o eroare la trimiterea de e-mail. Serverul de mail a răspuns:  "
-"%s. Verificați mesajul și încercați din nou."
+"S-a produs o eroare la trimiterea de e-mail. Serverul de mail a răspuns:  %"
+"s. Vă rugăm să verificați mesajul și să încercați din nou."
 
 #: postFailed
 msgid ""
@@ -114,7 +105,8 @@ msgid ""
 msgstr ""
 "Mesajul nu a putut fi postat pentru că a eșuat conexiunea cu serverul de "
 "știri. Se poate ca serverul să fie indisponibil sau să refuze conexiunile. "
-"Verificați corectitudinea setărilor contului de știri și încercați din nou."
+"Vă rugăm să verificați corectitudinea setărilor contului de știri și să "
+"încercați din nou."
 
 #: errorQueuedDeliveryFailed
 msgid "An error occurred while delivering the unsent messages."
@@ -140,7 +132,7 @@ msgstr "Ne pare rău, nu putem salva mesajul pentru expediere mai târziu."
 #. ## LOCALIZATION NOTE (communicationsError): argument %d is the error code
 #: communicationsError
 msgid "A communications error occurred: %d.  Please try again."
-msgstr "Eroare de comunicație: %d.  Vă rugăm încercați din nou."
+msgstr "S-a produs o eroare de comunicare: %d.  Vă rugăm să încercați din nou."
 
 #: dontShowAlert
 msgid "THIS IS JUST A PLACEHOLDER.  YOU SHOULD NEVER SEE THIS STRING."
@@ -163,8 +155,8 @@ msgid ""
 "and try again."
 msgstr ""
 "S-a produs o eroare la trimiterea de e-mail:  adresa de retur este "
-"invalidă.  Verificați dacă adresa de e-mail vă este corectă în setările "
-"contului și încercați din nou."
+"invalidă.  Vă rugăm să verificați dacă adresa de e-mail vă este corectă în "
+"setările contului și să încercați din nou."
 
 #: mimeMpartAttachmentError
 msgid "Attachment error."
@@ -216,8 +208,8 @@ msgid ""
 "There was an error attaching %S. Please check that you have access to the "
 "file."
 msgstr ""
-"A apărut o eroare la atașarea %S. Vă rugăm verificați că aveți acces la acel "
-"fișier."
+"A apărut o eroare la atașarea %S. Vă rugăm să verificați că aveți acces la "
+"acel fișier."
 
 #. ## LOCALIZATION NOTE (incorrectSmtpGreeting): argument %s is the Outgoing server (SMTP) greeting
 #: incorrectSmtpGreeting
@@ -310,15 +302,15 @@ msgstr ""
 #. ## LOCALIZATION NOTE (smtpSendRequestRefused): argument %S is the Outgoing server (SMTP)
 #: smtpSendRequestRefused
 msgid ""
-"The message could not be sent because connecting to Outgoing server (SMTP) "
-"%S failed. The server may be unavailable or is refusing SMTP connections. "
+"The message could not be sent because connecting to Outgoing server (SMTP) %"
+"S failed. The server may be unavailable or is refusing SMTP connections. "
 "Please verify that your Outgoing server (SMTP) settings are correct and try "
 "again."
 msgstr ""
 "Mesajul nu a putut fi trimis deoarece a eșuat conexiunea cu serverul de "
 "trimitere (SMTP) %S. Se poate ca serverul să fie indisponibil sau să refuze "
-"conexiunile SMTP. Verificați corectitudinea setărilor serverului de "
-"trimitere (SMTP) și încercați din nou."
+"conexiunile SMTP. Vă rugăm să verificați corectitudinea setărilor serverului "
+"de trimitere (SMTP) și să încercați din nou."
 
 #. ## LOCALIZATION NOTE (smtpSendInterrupted): argument %S is the Outgoing server (SMTP)
 #: smtpSendInterrupted
@@ -346,8 +338,8 @@ msgid ""
 "and try again."
 msgstr ""
 "Mesajul nu a putut fi trimis folosind serverul de trimitere (SMTP) %S dintr-"
-"un motiv necunoscut. Verificați corectitudinea setărilor serverului de "
-"trimitere (SMTP) și încercați din nou."
+"un motiv necunoscut. Vă rugăm să verificați corectitudinea setărilor "
+"serverului de trimitere (SMTP) și să încercați din nou."
 
 #. # LOCALIZATION NOTE (smtpHintAuthEncryptToPlainNoSsl): %S is the server hostname
 #: smtpHintAuthEncryptToPlainNoSsl
@@ -360,8 +352,8 @@ msgid ""
 msgstr ""
 "Serverul de trimitere (SMTP) %S nu pare să suporte parole criptate. Dacă "
 "tocmai ați configurat contul, încercați să schimbați „Metoda de "
-"autentificare” la „Setările contului | Server de trimitere (SMTP)” în "
-"„Parolă, transmisă nesigur”. Dacă în trecut funcționa iar acum nu mai "
+"autentificare” la „Setările contului | Server de trimitere (SMTP)” în „"
+"Parolă, transmisă nesigur”. Dacă în trecut funcționa iar acum nu mai "
 "funcționează, s-ar putea ca parola dumneavoastră să fi fost furată."
 
 #. # LOCALIZATION NOTE (smtpHintAuthEncryptToPlainSsl): %S is the server hostname
@@ -373,8 +365,8 @@ msgid ""
 msgstr ""
 "Serverul de trimitere (SMTP) %S nu pare să suporte parole criptate. Dacă "
 "tocmai ați configurat contul, încercați să schimbați „Metoda de "
-"autentificare” la „Setările contului | Server de trimitere (SMTP)” în "
-"„Parolă normală”."
+"autentificare” la „Setările contului | Server de trimitere (SMTP)” în „"
+"Parolă normală”."
 
 #. # LOCALIZATION NOTE (smtpHintAuthPlainToEncrypt): %S is the server hostname
 #: smtpHintAuthPlainToEncrypt
@@ -394,15 +386,15 @@ msgid ""
 "password and verify the 'Authentication method' in 'Account Settings | "
 "Outgoing server (SMTP)'."
 msgstr ""
-"Nu se poate efectua autentificarea la serverul de trimitere (SMTP) %S. "
-"Verificați parola și „Metoda de autentificare” la „Setările contului | "
-"Server de trimitere (SMTP)”."
+"Nu se poate efectua autentificarea la serverul de trimitere (SMTP) %S. Vă "
+"rugăm să verificați parola și „Metoda de autentificare” la „Setările "
+"contului | Server de trimitere (SMTP)”."
 
 #. # LOCALIZATION NOTE (smtpAuthGssapi): %S is the server hostname
 #: smtpAuthGssapi
 msgid ""
-"The Kerberos/GSSAPI ticket was not accepted by the Outgoing server (SMTP) "
-"%S. Please check that you are logged in to the Kerberos/GSSAPI realm."
+"The Kerberos/GSSAPI ticket was not accepted by the Outgoing server (SMTP) %"
+"S. Please check that you are logged in to the Kerberos/GSSAPI realm."
 msgstr ""
 "Certificatul Kerberos/GSSAPI nu a fost acceptat de serverul de trimitere "
 "(SMTP) %S. Vă rugăm să verificați că sunteți autentificat la domeniul "
@@ -437,12 +429,12 @@ msgstr ""
 #. # LOCALIZATION NOTE (errorIllegalLocalPart): %s is an email address with an illegal localpart
 #: errorIllegalLocalPart
 msgid ""
-"There are non-ASCII characters in the local part of the recipient address "
-"%s. This is not yet supported. Please change this address and try again."
+"There are non-ASCII characters in the local part of the recipient address %"
+"s. This is not yet supported. Please change this address and try again."
 msgstr ""
 "Există caractere non-ASCII în partea locală a adresei destinatarului %s. "
-"Aceasta nu este momentan suportată. Vă rugăm schimbați această adresă și "
-"încercați din nou."
+"Aceasta nu este momentan suportată. Vă rugăm să schimbați această adresă și "
+"să încercați din nou."
 
 #. ## Strings used for the save message dialog shown when the user closes a message compose window
 #: saveDlogTitle
@@ -470,7 +462,9 @@ msgstr "Atașare fișier(e)"
 
 #: genericFailureExplanation
 msgid "Please verify that your account settings are correct and try again."
-msgstr "Verificați corectitudinea setărilor contului și încercați din nou."
+msgstr ""
+"Vă rugăm să verificați corectitudinea setărilor contului și să încercați din "
+"nou."
 
 #. ## LOCALIZATION NOTE (undisclosedRecipients): this string must use only US_ASCII characters
 #: undisclosedRecipients
@@ -521,20 +515,20 @@ msgstr ""
 #. ## Strings used by the alert that tells the user that an e-mail address is invalid.
 #: addressInvalidTitle
 msgid "Invalid Recipient Address"
-msgstr "Adresă de destinatar nevalidă"
+msgstr "Adresă de destinatar invalidă"
 
 #: addressInvalid
 msgid ""
 "%1$S is not a valid e-mail address because it is not of the form user@host. "
 "You must correct it before sending the e-mail."
 msgstr ""
-"%1$S nu este o adresă de e-mail validă întrucât nu are forma "
-"utilizator@gazdă. Trebuie să o corectați înainte de a putea trimite e-mailul."
+"%1$S nu este o adresă de e-mail validă întrucât nu are forma utilizator@"
+"gazdă. Trebuie să o corectați înainte de a putea trimite e-mailul."
 
 #. ## String used by the dialog that asks the user to attach a web page
 #: attachPageDlogTitle
 msgid "Please specify a location to attach"
-msgstr "Vă rugăm specificați locația de atașat"
+msgstr "Vă rugăm să specificați o locație pentru atașare"
 
 #: attachPageDlogMessage
 msgid "Web Page (URL):"
@@ -566,8 +560,8 @@ msgstr "Redactare mesaj"
 msgid ""
 "An error occurred while creating a message compose window. Please try again."
 msgstr ""
-"A apărut o eroare la crearea ferestrei de compunere a mesajului. Încercați "
-"din nou."
+"A apărut o eroare la crearea ferestrei de compunere a mesajului. Vă rugăm să "
+"încercați din nou."
 
 #. ## String used if a file to attach does not exist when passed as
 #. ## a command line argument
@@ -795,8 +789,8 @@ msgstr "Noul nume al atașamentuluii:"
 #. ## words that should trigger an attachment reminder.
 #: mail.compose.attachment_reminder_keywords
 msgid ""
-".doc,.pdf,.xls,.ppt,.rtf,.pps,attachment,attach,attached,attaching,enclosed,"
-"CV,cover letter"
+".doc,.pdf,.xls,.ppt,.rtf,.pps,attachment,attach,attached,attaching,enclosed,C"
+"V,cover letter"
 msgstr ""
 "atașament,atașat,.doc,.pdf,cv,scrisoare de "
 "intenție,attachment,attached,resume,cover letter"
@@ -849,7 +843,8 @@ msgid "No, Send Now"
 msgstr "Nu, trimite așa"
 
 #. # Strings used by the Filelink offer notification bar.
-#: learnMore.label learnMore.accesskey
+#: learnMore.label
+#: learnMore.accesskey
 msgid "Learn &More…"
 msgstr "Aflați mai &multe…"
 
@@ -864,11 +859,13 @@ msgstr ""
 "Acesta este un fișier mare. Ar fi mai bine să folosiți în schimb Filelink .;"
 "Acestea sunt fișiere mari. Ar fi mai bine să folosiți în schimb Filelink."
 
-#: bigFileShare.label bigFileShare.accesskey
+#: bigFileShare.label
+#: bigFileShare.accesskey
 msgid "&Link"
 msgstr "&Link"
 
-#: bigFileAttach.label bigFileAttach.accesskey
+#: bigFileAttach.label
+#: bigFileAttach.accesskey
 msgid "&Ignore"
 msgstr "&Ignorare"
 
@@ -917,7 +914,8 @@ msgstr ""
 "gata.;Fișierele sunt adăugate cu linkuri. Vor apărea în conținutul mesajului "
 "când sunt gata."
 
-#: cloudFileUploadingCancel.label cloudFileUploadingCancel.accesskey
+#: cloudFileUploadingCancel.label
+#: cloudFileUploadingCancel.accesskey
 msgid "Can&cel"
 msgstr "Revo&care"
 
@@ -1084,136 +1082,11 @@ msgstr "* %1$S (%2$S) găzduit pe %3$S: %4$S"
 msgid "&Never show this again"
 msgstr "&Nu mai afișa asta din nou"
 
-#: replaceButton.label replaceButton.accesskey
+#: replaceButton.label
+#: replaceButton.accesskey
 msgid "Rep&lace…"
 msgstr "În&locuire…"
 
 #: replaceButton.tooltip
 msgid "Show the Find and Replace dialog"
 msgstr "Arată dialogul căutare și înlocuire"
-
-#~ msgid ""
-#~ "An error occurred sending mail: SMTP server error. The server responded:  "
-#~ "%s Contact your mail administrator for assistance."
-#~ msgstr ""
-#~ "Eroare la trimiterea de mail: eroare server SMTP. Serverul a răspuns:  %s "
-#~ "Luați legătura cu administratorul de rețea pentru ajutor."
-
-#~ msgid "Unable to save your message in order to send it later."
-#~ msgstr "Nu vă pot salva mesajul pentru a fi trimis mai târziu."
-
-#~ msgid ""
-#~ "The message could not be sent because connecting to SMTP server %S "
-#~ "failed. The server may be unavailable or is refusing SMTP connections. "
-#~ "Please verify that your SMTP server settings are correct and try again, "
-#~ "or contact the server administrator."
-#~ msgstr ""
-#~ "Mesajul nu a putut fi trimis pentru că conectarea la serverul SMTP %S a "
-#~ "eșuat. Serverul ar putea fi indisponibil sau refuză conexiuni SMTP. Vă "
-#~ "rugăm să verificați că setările serverului SMTP sunt corecte și încercați "
-#~ "din nou sau contactați administratorul serverului."
-
-#~ msgid ""
-#~ "The message could not be sent because the connection to SMTP server %S "
-#~ "was lost in the middle of the transaction. Try again or contact your "
-#~ "network administrator."
-#~ msgstr ""
-#~ "Mesajul nu a putut fi trimis pentru că conexiunea la serverul SMTP %S s-a "
-#~ "pierdut în mijlocul tranzacției. Încercați din nou sau contactați "
-#~ "administratorul de rețea."
-
-#~ msgid ""
-#~ "The message could not be sent because the connection to SMTP server %S "
-#~ "timed out. Try again or contact your network administrator."
-#~ msgstr ""
-#~ "Mesajul nu a putut fi trimis pentru că conectarea la serverul SMTP %S a "
-#~ "expirat. Încercați din nou sau contactați administratorul de rețea."
-
-#~ msgid ""
-#~ "The message could not be sent using SMTP server %S for an unknown reason. "
-#~ "Please verify that your SMTP server settings are correct and try again, "
-#~ "or contact your network administrator."
-#~ msgstr ""
-#~ "Mesajul nu a putut fi trimis folosind serverul SMTP %S dintr-un motiv "
-#~ "necunoscut. Vă rugăm să verificați corectitudinea setărilor serverului "
-#~ "SMTP și să încercați din nou sau să contactați administratorul de rețea."
-
-#~ msgid ""
-#~ "The SMTP server %S does not seem to support encrypted passwords. If you "
-#~ "just set up the account, please try changing to 'Password, transmitted "
-#~ "insecurely' as the 'Authentication method' in the 'Account Settings | "
-#~ "Server settings'. If it used to work and now suddenly fails, this is a "
-#~ "common scenario how someone could steal your password."
-#~ msgstr ""
-#~ "Serverul SMTP %S nu pare să suporte parole criptate. Dacă tocmai ați "
-#~ "configurat contul, încercați să modificați „Metoda de autentificare” în "
-#~ "„Cu parolă, transmisă nesigur” la „Setările contului | Setările "
-#~ "serverului”. Dacă în trecut funcționa iar acum eșuează, este posibil ca "
-#~ "cineva să încerce să vă fure parola."
-
-#~ msgid ""
-#~ "The SMTP server %S does not seem to support encrypted passwords. If you "
-#~ "just set up this account, please try changing to 'Normal password' as the "
-#~ "'Authentication method' in the 'Account Settings | Server settings'. If "
-#~ "it used to work and now suddenly fails, please contact your email "
-#~ "administrator or provider."
-#~ msgstr ""
-#~ "Serverul SMTP %S nu pare să suporte parole criptate. Dacă tocmai ați "
-#~ "configurat contul, încercați să modificați „Parolă normală” de la „Metoda "
-#~ "de autentificare” de la „Setările contului | Setările serverului”. Dacă "
-#~ "în trecut funcționa iar acum eșuează, vă rugăm să contactați "
-#~ "administratorul sau furnizorul serverului de email."
-
-#~ msgid ""
-#~ "The SMTP server %S does not allow plaintext passwords. Please try "
-#~ "changing to 'Encrypted password' as the 'Authentication method' in the "
-#~ "'Account Settings | Server settings'."
-#~ msgstr ""
-#~ "Serverul SMTP %S nu permite trimiterea parolelor în clar. Încercați să "
-#~ "schimbați „Metoda de autentificare” în „Parolă criptată” la „Setările "
-#~ "contului | Setările serverului”."
-
-#~ msgid "SMTP Server Password Required"
-#~ msgstr "E necesară parola pentru serverul SMTP"
-
-#~ msgid ""
-#~ "Uploading %2$S to %1$S contains has more than 120 characters in its name. "
-#~ "Please rename the file to have 120 characters or less in its name and "
-#~ "upload again."
-#~ msgstr ""
-#~ "Uploading %2$S to %1$S contains has more than 120 characters in its name. "
-#~ "Please rename the file to have 120 characters or less in its name and "
-#~ "upload again."
-
-#~ msgid "Loading attachments…"
-#~ msgstr "Se încarcă anexele…"
-
-#~ msgid "Loading attachment…"
-#~ msgstr "Se încarcă anexa…"
-
-#~ msgid "Can't post to multiple news hosts. Try again."
-#~ msgstr "Nu pot posta la mai multe servere de știri. Încercați din nou."
-
-#~ msgid "Mail: Message sent; waiting for reply…"
-#~ msgstr "Mail: Mesaj trimis; aștept răspunsul…"
-
-#~ msgid "%s wrote"
-#~ msgstr "%s a scris"
-
-#~ msgid "On %s"
-#~ msgstr "Pe %s"
-
-#~ msgid "m"
-#~ msgstr "f"
-
-#~ msgid "l"
-#~ msgstr "l"
-
-#~ msgid "i"
-#~ msgstr "i"
-
-#~ msgid "c"
-#~ msgstr "r"
-
-#~ msgid "N"
-#~ msgstr "N"
