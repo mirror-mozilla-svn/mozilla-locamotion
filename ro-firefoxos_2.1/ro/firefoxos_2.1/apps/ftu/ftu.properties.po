@@ -1,27 +1,18 @@
-#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-#. # Unlock Codes
-#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-#. extracted from ./apps/ftu/ftu.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17 11:13+0000\n"
-"PO-Revision-Date: 2015-08-27 14:14+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440684844.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.1/apps/ftu/ftu.properties.po\n"
-"X-Pootle-Revision: 71325\n"
+"X-Pootle-Revision: 100147\n"
 
 #: pincode2
 msgid "Enter PIN code"
@@ -866,10 +857,10 @@ msgid ""
 "publish the feedback on its websites, and to distribute the feedback."
 msgstr ""
 "Unele funcționalități din {{brandShortName}}, cum ar fi raportorul de "
-"defecțiuni îți oferă posibilitatea să îți faci părerea auzită la Mozilla. "
-"Alegând să trimiți reacțiile, îi dai permisiunea Mozillei să folosească "
-"reacțiile pentru a-și îmbunătăți produsele, să publice reacțiile pe "
-"propriile site-uri web și să distribuie reacțiile."
+"defecțiuni îți oferă posibilitatea să furnizezi feedback la Mozilla. Alegând "
+"să trimiți feedback, îi dai permisiunea lui Mozilla să folosească "
+"feedbackurile pentru a-și îmbunătăți produsele, să publice feedbackurile pe "
+"propriile site-uri web și să distribuie feedbackurile."
 
 #: about-other
 msgid "Other"
@@ -884,7 +875,7 @@ msgstr "Avertisment privind cartela SIM"
 
 #: SIM_mandatory_warm
 msgid "Please, insert a SIM card and reboot your phone."
-msgstr "Te rugăm, inserează o cartelă SIM și repornește telefonul."
+msgstr "Te rugăm să inserezi o cartelă SIM și să repornești telefonul."
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Sharing Performance Data
@@ -936,7 +927,7 @@ msgid ""
 "device."
 msgstr ""
 "Ne poți ajuta la îmbunătățirea produselor și serviciilor noastre trimițând "
-"automat date statistice. Vezi {{link}} pentru a afla cum gestionăm datele de "
+"automat date statistice. Vezi {{link}} pentru a afla cum prelucrăm datele de "
 "pe dispozitiv."
 
 #: helpImprove-link
@@ -972,8 +963,8 @@ msgstr ""
 "Când folosești {{brandShortName}}, devii parte a unei comunități globale "
 "care ajută la clădirea unui viitor mai luminos pentru web. Dacă dorești să "
 "cunoști mai multe despre comunitatea Mozilla, celelalte produse ale noastre "
-"sau evenimente din apropierea ta, te rugăm introdu adresa ta de e-mail mai "
-"jos."
+"sau evenimente din apropierea ta, te rugăm să introduci adresa ta de e-mail "
+"mai jos."
 
 #: sharePerformanceAndUsageData2
 msgid "Yes! Send data."
@@ -1108,7 +1099,7 @@ msgstr "Glisează de la dreapta la stânga ca să răsfoiești aplicațiile."
 #: tutorial-step2-tiny
 msgctxt "tutorial-step2-tiny"
 msgid "Tap and hold on an icon to delete or move it."
-msgstr "Apasă și ține apăsat pe o iconiță ca să o ștergi sau să o muți."
+msgstr "Atinge lung pe o iconiță ca să o ștergi sau să o muți."
 
 #: tutorial-step3-tiny
 msgid "Enter any keyword or topic and your phone will instantly adapt."
@@ -1127,8 +1118,8 @@ msgstr ""
 #: tutorial-step5-tiny
 msgid "Tap and hold the home button to browse and close recent apps."
 msgstr ""
-"Apasă și ține apăsat pe butonul acasă ca să răsfoiești și să închizi "
-"aplicațiile recente."
+"Atinge lung pe butonul acasă ca să răsfoiești și să închizi aplicațiile "
+"recente."
 
 #: tutorial-step6-tiny
 msgid ""
@@ -1154,7 +1145,7 @@ msgstr ""
 #: tutorial-step3-large-2
 msgctxt "tutorial-step3-large-2"
 msgid "Tap and hold on an icon to delete or move it."
-msgstr "Apasă și ține apăsat pe o iconiță ca să o ștergi sau să o muți."
+msgstr "Atinge lung pe o iconiță ca să o ștergi sau să o muți."
 
 #: tutorial-step4-large-2
 msgid "Two fingers swipe up from the bottom edge to trigger card view."
@@ -1168,7 +1159,7 @@ msgid ""
 "delete, move, or edit it."
 msgstr ""
 "Glisează în sus și în jos ca să răsfoiești aplicațiile și semnele de carte. "
-"Apasă și ține apăsat pe o iconiță ca să o ștergi sau să o muți."
+"Atinge lung pe o iconiță ca să o ștergi sau să o muți."
 
 #: tutorial-notifications-tiny
 msgctxt "tutorial-notifications-tiny"
@@ -1187,7 +1178,7 @@ msgstr ""
 #: tutorial-rocketbar-tiny
 msgid "Tap on the search box anytime to start a search or go to a website."
 msgstr ""
-"Apasă pe caseta de căutare oricând pentru a începe o căutare sau a accesa un "
+"Atinge caseta de căutare oricând pentru a începe o căutare sau a accesa un "
 "site web."
 
 #: tutorial-bookmarks-migration-tiny
@@ -1195,8 +1186,8 @@ msgid ""
 "Your bookmarks have been moved to the homescreen. When editing, tap a "
 "bookmark to edit or rename it."
 msgstr ""
-"Semnele de carte au fost mutate pe ecranul principal. Când editezi, apasă pe "
-"un semn de carte pentru a-l edita sau a-l redenumi."
+"Semnele de carte au fost mutate pe ecranul principal. Când editezi, atinge "
+"pe un semn de carte pentru a-l edita sau a-l redenumi."
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Offline Error Dialog
@@ -1210,8 +1201,8 @@ msgid ""
 "Please go back and connect to the Internet. You can also view the page later "
 "from Settings or by entering {{url}} in any browser."
 msgstr ""
-"Te rugăm du-te înapoi și conectează-te la internet. Poți să vezi pagina mai "
-"târziu din Setări sau tastând {{url}} în orice browser."
+"Te rugăm să mergi înapoi și să te conectezi la internet. Poți să vezi pagina "
+"mai târziu din Setări sau tastând {{url}} în orice browser."
 
 #: OK
 msgctxt "OK"
@@ -1228,7 +1219,7 @@ msgstr ""
 
 #: offline-newsletter-dialog-text
 msgid "Please go back and connect to the Internet."
-msgstr "Te rugăm du-te înapoi și conectează-te la internet."
+msgstr "Te rugăm să mergi înapoi și să te conectezi la internet."
 
 #: invalid-email-dialog-title
 msgid "Your email is not valid"
@@ -1236,7 +1227,7 @@ msgstr "E-mailul tău este incorect"
 
 #: invalid-email-dialog-text
 msgid "Please go back and correct your entry."
-msgstr "Te rugăm du-te înapoi și corectează intrarea."
+msgstr "Te rugăm să mergi înapoi și să corectezi intrarea."
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Memory Card Contacts Import Error Dialog
@@ -1258,87 +1249,3 @@ msgstr "Pasul {{step}} din {{total}}"
 #: progressbar.ariaLabel
 msgid "First Time Experience"
 msgstr "Prima experiență"
-
-#, fuzzy
-#~ msgid ""
-#~ "I want to help improve {{brandShortName}} by sharing data about my phone "
-#~ "and the way I use it."
-#~ msgstr ""
-#~ "Vreau să ajut la îmbunătățirea lui {{brandShortName}} prin împărtășirea "
-#~ "informațiilor despre performanțele telefonului meu."
-
-#~ msgid "Learn more."
-#~ msgstr "Află mai multe."
-
-#~ msgid "English"
-#~ msgstr "Engleză"
-
-#~ msgid "English (Dvorak)"
-#~ msgstr "Engleză (Dvorak)"
-
-#~ msgid "Spanish"
-#~ msgstr "Spaniolă"
-
-#~ msgid "Portuguese Brazilian"
-#~ msgstr "Portugheză braziliană"
-
-#~ msgid "French"
-#~ msgstr "Franceză"
-
-#~ msgid "Italian"
-#~ msgstr "Italiană"
-
-#~ msgid "Arabic"
-#~ msgstr "Arabă"
-
-#~ msgid "Greek"
-#~ msgstr "Greacă"
-
-#~ msgid "Hebrew"
-#~ msgstr "Ebraică"
-
-#~ msgid "Japanese"
-#~ msgstr "Japoneză"
-
-#~ msgid "Kanji"
-#~ msgstr "Kanji"
-
-#~ msgid "Traditional Chinese"
-#~ msgstr "Chineză tradițională"
-
-#~ msgid "Zhuyin"
-#~ msgstr "Zhuyin"
-
-#~ msgid "Simplified Chinese"
-#~ msgstr "Chineză simplificată"
-
-#~ msgid "Pinyin"
-#~ msgstr "Pinyin"
-
-#~ msgid "Wi-Fi"
-#~ msgstr "Wi-Fi"
-
-#~ msgid "Set automatically"
-#~ msgstr "Setează automat"
-
-#~ msgctxt "timeZone"
-#~ msgid "Time zone"
-#~ msgstr "Fus orar"
-
-#~ msgid "Mobile"
-#~ msgstr "Mobil"
-
-#~ msgid "Sharing Performance Data"
-#~ msgstr "Împărtășește datele de performanță"
-
-#~ msgid "{{brandShortName}} Privacy Choices"
-#~ msgstr "Alegeri de confidențialitate {{brandShortName}}"
-
-#~ msgid "Learn more at"
-#~ msgstr "Învață mai multe la"
-
-#~ msgid "Telemetry"
-#~ msgstr "Telemetrie"
-
-#~ msgid "Privacy"
-#~ msgstr "Confidențialitate"

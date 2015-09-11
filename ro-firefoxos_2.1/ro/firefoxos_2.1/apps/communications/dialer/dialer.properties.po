@@ -1,25 +1,19 @@
-#. extracted from ./apps/communications/dialer/dialer.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17 11:13+0000\n"
-"PO-Revision-Date: 2015-03-23 22:34+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1427150058.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefoxos_2.1/apps/communications/dialer/dialer.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 94741\n"
 
 #: addNewNumber
 msgid "Add new number"
@@ -241,7 +235,7 @@ msgstr "({{sim}}) {{title}}"
 
 #: mute.ariaLabel
 msgid "Mute"
-msgstr "Muțire"
+msgstr "Dezactivează sunetul"
 
 #: newCall.ariaLabel
 msgid "New call"
@@ -892,37 +886,3 @@ msgstr "Receptor"
 msgctxt "speaker"
 msgid "Speaker"
 msgstr "Difuzor"
-
-#, fuzzy
-#~ msgctxt "keypadDelete.ariaLabel"
-#~ msgid "Delete"
-#~ msgstr "Șterge"
-
-#, fuzzy
-#~ msgctxt "conference"
-#~ msgid "{[ plural(n) ]}"
-#~ msgstr "{[ plural(n) ]}"
-
-#~ msgctxt "group-call"
-#~ msgid "{[ plural(n) ]}"
-#~ msgstr "{[ plural(n) ]}"
-
-#~ msgctxt "group-call[one]"
-#~ msgid "Group call ({{ n }})"
-#~ msgstr "Apel în grup ({{ n }})"
-
-#~ msgctxt "group-call[two]"
-#~ msgid "Group call ({{ n }})"
-#~ msgstr "Apel în grup ({{ n }})"
-
-#~ msgctxt "group-call[few]"
-#~ msgid "Group call ({{ n }})"
-#~ msgstr "Apel în grup ({{ n }})"
-
-#~ msgctxt "group-call[many]"
-#~ msgid "Group call ({{ n }})"
-#~ msgstr "Apel în grup ({{ n }})"
-
-#~ msgctxt "group-call[other]"
-#~ msgid "Group call ({{ n }})"
-#~ msgstr "Apel în grup ({{ n }})"
