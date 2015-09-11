@@ -1,28 +1,19 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./browser/chrome/browser/devtools/webconsole.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 17:16+0000\n"
-"PO-Revision-Date: 2015-08-07 23:17+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1438989423.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/webconsole.properties.po\n"
-"X-Pootle-Revision: 49254\n"
+"X-Pootle-Revision: 86095\n"
 
 #. # LOCALIZATION NOTE
 #. # The correct localization of this file might be to keep it in
@@ -84,7 +75,7 @@ msgstr "Mutație DOM"
 
 #: tipMutation
 msgid "Toggle DOM Mutation event logging"
-msgstr "Alternează înregistrarea mutațiilor DOM"
+msgstr "Comută înregistrarea evenimentelor de modificare DOM"
 
 #: btnGlobal
 msgid "Global Messages"
@@ -92,13 +83,14 @@ msgstr "Mesaje globale"
 
 #: tipGlobal
 msgid "Toggle Global Message logging"
-msgstr "Alternează înregistrarea mesajelor globale"
+msgstr "Comută înregistrarea mesajelor globale"
 
 #: localConsole
 msgid "Local Console"
 msgstr "Consola locală"
 
-#: clearConsoleCmd.label clearConsoleCmd.accesskey
+#: clearConsoleCmd.label
+#: clearConsoleCmd.accesskey
 msgid "Cl&ear Console"
 msgstr "&Curăță consola"
 
@@ -120,7 +112,7 @@ msgstr "u"
 
 #: cmd.commandkey
 msgid "K"
-msgstr ""
+msgstr "K"
 
 #: webConsoleCmd.accesskey
 msgid "W"
@@ -507,13 +499,3 @@ msgstr "Informații"
 #: severity.log
 msgid "Log"
 msgstr "Jurnal"
-
-#~ msgid "k"
-#~ msgstr "k"
-
-#~ msgctxt "ToolboxWebconsole.tooltip"
-#~ msgid "Web Console"
-#~ msgstr "Consolă web"
-
-#~ msgid "e"
-#~ msgstr "e"

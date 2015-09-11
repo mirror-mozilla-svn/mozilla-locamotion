@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./browser/chrome/browser/accounts.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: l 10n\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 17:16+0000\n"
-"PO-Revision-Date: 2015-09-01 18:04+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1441130643.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/accounts.properties.po\n"
-"X-Pootle-Revision: 64502\n"
+"X-Pootle-Revision: 97193\n"
 
 #. # LOCALIZATION NOTE (needUserShort)
 #. # %S = Firefox Accounts brand name from syncBrand.dtd
@@ -37,7 +28,8 @@ msgstr ""
 "Am reconstruit Sincronizare pentru a-l face mai ușor pentru toți. Vă rugăm "
 "să actualizați la un cont Firefox pentru a continua sincronizarea."
 
-#: upgradeToFxA.label upgradeToFxA.accessKey
+#: upgradeToFxA.label
+#: upgradeToFxA.accessKey
 msgid "&Upgrade"
 msgstr "&Actualizare"
 
@@ -65,7 +57,8 @@ msgid "Please click the verification link in the email sent to %S"
 msgstr ""
 "Vă rugăm să dați clic pe linkul de verificare din e-mailul trimis către %S"
 
-#: resendVerificationEmail.label resendVerificationEmail.accessKey
+#: resendVerificationEmail.label
+#: resendVerificationEmail.accessKey
 msgid "&Resend"
 msgstr "&Retrimite"
 
@@ -74,11 +67,13 @@ msgstr "&Retrimite"
 msgid "Reconnect %S"
 msgstr "Reconectează %S"
 
-#: forgetMigration.label forgetMigration.accessKey
+#: forgetMigration.label
+#: forgetMigration.accessKey
 msgid "&Forget"
 msgstr "&Uită"
 
-#: unlinkMigration.label unlinkMigration.accessKey
+#: unlinkMigration.label
+#: unlinkMigration.accessKey
 msgid "Un&link Sync"
 msgstr "De&zasociați sincronizarea"
 
@@ -126,4 +121,4 @@ msgstr "Nu putem trimite un e-mail de verificare în acest moment"
 
 #: verificationNotSentDescription
 msgid "Please try again later."
-msgstr "Vă rugăm încercați din nou mai târziu."
+msgstr "Vă rugăm să încercați din nou mai târziu."

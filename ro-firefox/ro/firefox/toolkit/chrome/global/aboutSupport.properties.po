@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./toolkit/chrome/global/aboutSupport.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 17:16+0000\n"
-"PO-Revision-Date: 2015-08-26 11:45+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440589548.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutSupport.properties.po\n"
-"X-Pootle-Revision: 70893\n"
+"X-Pootle-Revision: 91942\n"
 
 #. # LOCALIZATION NOTE (downloadsTitleFiles): Semi-colon list of plural forms.
 #. # See: http://developer.mozilla.org/en/docs/Localization_and_Plurals
@@ -78,7 +69,7 @@ msgstr "Accelerare GPU Windows"
 
 #: supportsHardwareH264
 msgid "Supports Hardware H264 Decoding"
-msgstr ""
+msgstr "Suportă decodare hardware H264"
 
 #. # LOCALIZATION NOTE (rawDataCopied) Text displayed in a mobile "Toast" to user when the
 #. # raw data is successfully copied to the clipboard via button press.
@@ -123,6 +114,8 @@ msgstr "Blocate pentru versiunea sistemului dumneavoastră de operare."
 msgid ""
 "Blocked for your graphics driver version mismatch between registry and DLL."
 msgstr ""
+"Blocat din cauza necorelării versiunilor driverelor grafice între registru "
+"și DLL."
 
 #: direct2DEnabled
 msgid "Direct2D Enabled"
@@ -256,9 +249,8 @@ msgid "Asynchronous Pan/Zoom"
 msgstr "Panoramare asincronă/Zoom"
 
 #: apzNone
-#, fuzzy
 msgid "none"
-msgstr "notă"
+msgstr "niciunul"
 
 #: wheelEnabled
 msgid "wheel input enabled"

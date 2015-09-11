@@ -1,34 +1,28 @@
-#. extracted from ./dom/chrome/security/security.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-11 11:38+0000\n"
-"PO-Revision-Date: 2015-08-25 12:05+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440504306.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/dom/chrome/security/security.properties.po\n"
-"X-Pootle-Revision: 69832\n"
+"X-Pootle-Revision: 100058\n"
 
 #. # Mixed Content Blocker
 #. # LOCALIZATION NOTE: "%1$S" is the URI of the blocked mixed content resource
 #: BlockMixedDisplayContent
 msgid "Blocked loading mixed display content \"%1$S\""
-msgstr "Blocare încărcare conținut mixt afișat mixt \"%1$S\""
+msgstr "Încărcare blocată pentru conținut afișat mixt „%1$S\""
 
 #: BlockMixedActiveContent
 msgid "Blocked loading mixed active content \"%1$S\""
-msgstr "Blocată încărcarea conținutului activ mixt \"%1$S\""
+msgstr "Încărcare blocată pentru conținut activ mixt „%1$S\""
 
 #. # CORS
 #. # LOCALIZATION NOTE: Do not translate "Access-Control-Allow-Origin", Access-Control-Allow-Credentials, Access-Control-Allow-Methods, Access-Control-Allow-Headers
@@ -132,54 +126,72 @@ msgid ""
 "Strict-Transport-Security: An unknown error occurred processing the header "
 "specified by the site."
 msgstr ""
+"Strict-Transport-Security: S-a produs o eroare necunoscută la procesarea "
+"antetului specificat de site."
 
 #: STSUntrustworthyConnection
 msgid ""
 "Strict-Transport-Security: The connection to the site is untrustworthy, so "
 "the specified header was ignored."
 msgstr ""
+"Strict-Transport-Security: Conexiunea cu site-ul este nesigură, așa că "
+"antetul specificat a fost ignorat."
 
 #: STSCouldNotParseHeader
 msgid ""
 "Strict-Transport-Security: The site specified a header that could not be "
 "parsed successfully."
 msgstr ""
+"Strict-Transport-Security: Site-ul a specificat un antet care nu a putut fi "
+"analizat cu succes."
 
 #: STSNoMaxAge
 msgid ""
 "Strict-Transport-Security: The site specified a header that did not include "
 "a 'max-age' directive."
 msgstr ""
+"Strict-Transport-Security: Site-ul a specificat un antet care nu a inclus o "
+"directivă „max-age”."
 
 #: STSMultipleMaxAges
 msgid ""
 "Strict-Transport-Security: The site specified a header that included "
 "multiple 'max-age' directives."
 msgstr ""
+"Strict-Transport-Security: Site-ul a specificat un antet care a inclus mai "
+"multe directive „max-age”."
 
 #: STSInvalidMaxAge
 msgid ""
 "Strict-Transport-Security: The site specified a header that included an "
 "invalid 'max-age' directive."
 msgstr ""
+"Strict-Transport-Security: Site-ul a specificat un antet care a inclus o "
+"directivă invalidă „max-age”."
 
 #: STSMultipleIncludeSubdomains
 msgid ""
 "Strict-Transport-Security: The site specified a header that included "
 "multiple 'includeSubDomains' directives."
 msgstr ""
+"Strict-Transport-Security: Site-ul a specificat un antet care a inclus mai "
+"multe directive „includeSubDomains”."
 
 #: STSInvalidIncludeSubdomains
 msgid ""
 "Strict-Transport-Security: The site specified a header that included an "
 "invalid 'includeSubDomains' directive."
 msgstr ""
+"Strict-Transport-Security: Site-ul a specificat un antet care a inclus o "
+"directivă „includeSubDomains” invalidă."
 
 #: STSCouldNotSaveState
 msgid ""
 "Strict-Transport-Security: An error occurred noting the site as a Strict-"
 "Transport-Security host."
 msgstr ""
+"Strict-Transport-Security: S-a produs o eroare cu specificarea că site-ul ar "
+"fi o gazdă Strict-Transport-Security."
 
 #. # LOCALIZATION NOTE: Do not translate "Public-Key-Pins", "HPKP", "max-age" or "includeSubDomains"
 #: PKPUnknownError
@@ -187,76 +199,103 @@ msgid ""
 "Public-Key-Pins: An unknown error occurred processing the header specified "
 "by the site."
 msgstr ""
+"Public-Key-Pins: S-a produs o eroare necunoscută la procesarea unui antet "
+"specificat de site."
 
 #: PKPUntrustworthyConnection
 msgid ""
 "Public-Key-Pins: The connection to the site is untrustworthy, so the "
 "specified header was ignored."
 msgstr ""
+"Public-Key-Pins: Conexiunea la site este nesigură, așa că antetul specificat "
+"a fost ignorat."
 
 #: PKPCouldNotParseHeader
 msgid ""
 "Public-Key-Pins: The site specified a header that could not be parsed "
 "successfully."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care nu a putut fi analizat "
+"cu succes."
 
 #: PKPNoMaxAge
 msgid ""
 "Public-Key-Pins: The site specified a header that did not include a 'max-"
 "age' directive."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care nu a inclus o directivă "
+"„max-age”."
 
 #: PKPMultipleMaxAges
 msgid ""
 "Public-Key-Pins: The site specified a header that included multiple 'max-"
 "age' directives."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care a inclus mai multe "
+"directive „max-age”."
 
 #: PKPInvalidMaxAge
 msgid ""
 "Public-Key-Pins: The site specified a header that included an invalid 'max-"
 "age' directive."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care a inclus o directivă "
+"„max-age” invalidă."
 
 #: PKPMultipleIncludeSubdomains
 msgid ""
 "Public-Key-Pins: The site specified a header that included multiple "
 "'includeSubDomains' directives."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care a inclus mai multe "
+"directive „includeSubDomains”."
 
 #: PKPInvalidIncludeSubdomains
 msgid ""
 "Public-Key-Pins: The site specified a header that included an invalid "
 "'includeSubDomains' directive."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care a inclus o directivă "
+"„includeSubDomains” invalidă."
 
+# Aici „pin” nu se traduce pentru că are legătură cu „certificate pinning” sau „key pinning” https://wiki.mozilla.org/SecurityEngineering/Public_Key_Pinning care este un termen tehnic de jargon
 #: PKPInvalidPin
 msgid ""
 "Public-Key-Pins: The site specified a header that included an invalid pin."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care a inclus un „pin” "
+"invalid."
 
 #: PKPMultipleReportURIs
 msgid ""
 "Public-Key-Pins: The site specified a header that included multiple 'report-"
 "uri' directives."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care a inclus mai multe "
+"directive de tip „report-uri”."
 
 #: PKPPinsetDoesNotMatch
 msgid ""
 "Public-Key-Pins: The site specified a header that did not include a matching "
 "pin."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care nu a inclus un pin "
+"corespunzător."
 
 #: PKPNoBackupPin
 msgid ""
 "Public-Key-Pins: The site specified a header that did not include a backup "
 "pin."
 msgstr ""
+"Public-Key-Pins: Site-ul a specificat un antet care nu a inclus un pin ca "
+"soluție de rezervă."
 
 #: PKPCouldNotSaveState
 msgid ""
 "Public-Key-Pins: An error occurred noting the site as a Public-Key-Pins host."
 msgstr ""
+"Public-Key-Pins: S-a produs o eroare cu specificarea că site-ul ar fi gazdă "
+"Public-Key-Pins."
 
 #. # LOCALIZATION NOTE: Do not translate "SHA-1"
 #: SHA1Sig
@@ -297,12 +336,12 @@ msgstr ""
 #: LoadingMixedActiveContent2
 msgid "Loading mixed (insecure) active content \"%1$S\" on a secure page"
 msgstr ""
-"Se încarcă conținut activ mixt (nesecurizat) %1$S pe o pagină securizată"
+"Se încarcă conținut activ mixt (nesecurizat) „%1$S” pe o pagină securizată"
 
 #: LoadingMixedDisplayContent2
 msgid "Loading mixed (insecure) display content \"%1$S\" on a secure page"
 msgstr ""
-"Se încarcă conținut mixt (nesecurizat) afișat „%1$S” pe o pagină securizată"
+"Se încarcă conținut afișat mixt (nesecurizat) „%1$S” pe o pagină securizată"
 
 #. # LOCALIZATION NOTE: Do not translate "allow-scripts", "allow-same-origin", "sandbox" or "iframe"
 #: BothAllowScriptsAndSameOriginPresent
@@ -330,43 +369,3 @@ msgid ""
 msgstr ""
 "Acest site folosește cifrul RC4 pentru criptare, care este descurajat și "
 "nesigur."
-
-#~ msgid ""
-#~ "Cross-Origin Request Blocked: The Same Origin Policy disallows reading "
-#~ "the remote resource at %1$S. (Reason: CORS request failed)."
-#~ msgstr ""
-#~ "Cross-Origin Request Blocked: The Same Origin Policy disallows reading "
-#~ "the remote resource at %1$S. (Reason: CORS request failed)."
-
-#~ msgid "The site specified an invalid Strict-Transport-Security header."
-#~ msgstr "Saitul specifică un antet Strict-Transport-Security invalid."
-
-#~ msgid "The site specified an invalid Public-Key-Pins header."
-#~ msgstr "Saitul specifică un antet Public-Key-Pins invalid."
-
-#~ msgid ""
-#~ "Report-only CSP policy will be ignored because there are other non-report-"
-#~ "only CSP policies applied."
-#~ msgstr ""
-#~ "Report-only CSP policy will be ignored because there are other non-report-"
-#~ "only CSP policies applied."
-
-#~ msgid ""
-#~ "The X-Content-Security-Policy and X-Content-Security-Report-Only headers "
-#~ "will be deprecated in the future. Please use the Content-Security-Policy "
-#~ "and Content-Security-Report-Only headers with CSP spec compliant syntax "
-#~ "instead."
-#~ msgstr ""
-#~ "The X-Content-Security-Policy and X-Content-Security-Report-Only headers "
-#~ "will be deprecated in the future. Please use the Content-Security-Policy "
-#~ "and Content-Security-Report-Only headers with CSP spec compliant syntax "
-#~ "instead."
-
-#~ msgid ""
-#~ "This site specified both an X-Content-Security-Policy/Report-Only header "
-#~ "and a Content-Security-Policy/Report-Only header. The X-Content-Security-"
-#~ "Policy/Report-Only header(s) will be ignored."
-#~ msgstr ""
-#~ "This site specified both an X-Content-Security-Policy/Report-Only header "
-#~ "and a Content-Security-Policy/Report-Only header. The X-Content-Security-"
-#~ "Policy/Report-Only header(s) will be ignored."

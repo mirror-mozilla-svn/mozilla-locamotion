@@ -1,22 +1,16 @@
-#. extracted from ./browser/chrome/browser/places/places.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 20:18+0000\n"
-"PO-Revision-Date: 2015-08-23 12:38+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440333514.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/places/places.dtd.po\n"
 "X-Pootle-Revision: 67876\n"
 
@@ -38,7 +32,8 @@ msgstr "700"
 msgid "500"
 msgstr "500"
 
-#: organize.label organize.accesskey
+#: organize.label
+#: organize.accesskey
 msgid "&Organize"
 msgstr "&Organizare"
 
@@ -46,7 +41,8 @@ msgstr "&Organizare"
 msgid "Organize your bookmarks"
 msgstr "Organizează semnele dumneavoastră de carte"
 
-#: file.close.label file.close.accesskey
+#: file.close.label
+#: file.close.accesskey
 msgid "&Close"
 msgstr "În&chide"
 
@@ -54,7 +50,8 @@ msgstr "În&chide"
 msgid "w"
 msgstr "w"
 
-#: views.label views.accesskey
+#: views.label
+#: views.accesskey
 msgid "&Views"
 msgstr "&Vizualizări"
 
@@ -62,87 +59,108 @@ msgstr "&Vizualizări"
 msgid "Change your view"
 msgstr "Schimbați perspectiva"
 
-#: view.columns.label view.columns.accesskey
+#: view.columns.label
+#: view.columns.accesskey
 msgid "Show &Columns"
 msgstr "Arată &coloane"
 
-#: view.sort.label view.sort.accesskey
+#: view.sort.label
+#: view.sort.accesskey
 msgid "&Sort"
 msgstr "&Sortează"
 
-#: view.unsorted.label view.unsorted.accesskey
+#: view.unsorted.label
+#: view.unsorted.accesskey
 msgid "&Unsorted"
 msgstr "&Nesortat"
 
-#: view.sortAscending.label view.sortAscending.accesskey
+#: view.sortAscending.label
+#: view.sortAscending.accesskey
 msgid "&A > Z Sort Order"
 msgstr "De la &A la Z"
 
-#: view.sortDescending.label view.sortDescending.accesskey
+#: view.sortDescending.label
+#: view.sortDescending.accesskey
 msgid "&Z > A Sort Order"
 msgstr "De la &Z la A"
 
-#: importBookmarksFromHTML.label importBookmarksFromHTML.accesskey
+#: importBookmarksFromHTML.label
+#: importBookmarksFromHTML.accesskey
 msgid "&Import Bookmarks from HTML…"
 msgstr "&Importă semne de carte dintr-un fișier HTML…"
 
-#: exportBookmarksToHTML.label exportBookmarksToHTML.accesskey
+#: exportBookmarksToHTML.label
+#: exportBookmarksToHTML.accesskey
 msgid "&Export Bookmarks to HTML…"
 msgstr "&Exportă semne de carte într-un fișier HTML…"
 
-#: importOtherBrowser.label importOtherBrowser.accesskey
+#: importOtherBrowser.label
+#: importOtherBrowser.accesskey
 msgid "Import Data from &Another Browser…"
 msgstr "Importă date din &alt browser…"
 
-#: cmd.backup.label cmd.backup.accesskey
+#: cmd.backup.label
+#: cmd.backup.accesskey
 msgid "&Backup…"
 msgstr "Copie de si&guranță…"
 
-#: cmd.restore2.label cmd.restore2.accesskey
+#: cmd.restore2.label
+#: cmd.restore2.accesskey
 msgid "&Restore"
 msgstr "&Restaurează"
 
-#: cmd.restoreFromFile.label cmd.restoreFromFile.accesskey
+#: cmd.restoreFromFile.label
+#: cmd.restoreFromFile.accesskey
 msgid "&Choose File…"
 msgstr "A&lege fișierul…"
 
-#: cmd.bookmarkLink.label cmd.bookmarkLink.accesskey
+#: cmd.bookmarkLink.label
+#: cmd.bookmarkLink.accesskey
 msgid "&Bookmark This Page…"
 msgstr "&Pune semn de carte aici…"
 
-#: cmd.delete.label cmd.delete.accesskey
+#: cmd.delete.label
+#: cmd.delete.accesskey
 msgid "&Delete This Page"
 msgstr "Ș&terge această pagină"
 
-#: cmd.deleteDomainData.label cmd.deleteDomainData.accesskey
+#: cmd.deleteDomainData.label
+#: cmd.deleteDomainData.accesskey
 msgid "&Forget About This Site"
 msgstr "Uită totul &despre acest site"
 
-#: cmd.open.label cmd.open.accesskey
+#: cmd.open.label
+#: cmd.open.accesskey
 msgid "&Open"
 msgstr "&Deschide"
 
-#: cmd.open_window.label cmd.open_window.accesskey
+#: cmd.open_window.label
+#: cmd.open_window.accesskey
 msgid "Open in a &New Window"
 msgstr "Deschide î&ntr-o fereastră nouă"
 
-#: cmd.open_private_window.label cmd.open_private_window.accesskey
+#: cmd.open_private_window.label
+#: cmd.open_private_window.accesskey
 msgid "Open in a New &Private Window"
 msgstr "Deschide în fereastră fără ur&me nouă"
 
-#: cmd.open_tab.label cmd.open_tab.accesskey
+#: cmd.open_tab.label
+#: cmd.open_tab.accesskey
 msgid "Open in a Ne&w Tab"
 msgstr "Deschide într-o &filă nouă"
 
-#: cmd.open_all_in_tabs.label cmd.open_all_in_tabs.accesskey
+#: cmd.open_all_in_tabs.label
+#: cmd.open_all_in_tabs.accesskey
 msgid "&Open All in Tabs"
 msgstr "Deschide t&oate în file"
 
-#: cmd.properties.label cmd.properties.accesskey
+#: cmd.properties.label
+#: cmd.properties.accesskey
 msgid "Propert&ies"
 msgstr "Propr&ietăți"
 
-#: cmd.sortby_name.label cmd.sortby_name.accesskey
+#: cmd.sortby_name.label
+#: cmd.sortby_name.accesskey
 msgid "&Sort By Name"
 msgstr "&Sortează după nume"
 
@@ -150,11 +168,13 @@ msgstr "&Sortează după nume"
 msgid "r"
 msgstr "r"
 
-#: cmd.new_bookmark.label cmd.new_bookmark.accesskey
+#: cmd.new_bookmark.label
+#: cmd.new_bookmark.accesskey
 msgid "New &Bookmark…"
 msgstr "Semn de &carte nou…"
 
-#: cmd.new_folder.label cmd.new_folder.accesskey
+#: cmd.new_folder.label
+#: cmd.new_folder.accesskey
 msgid "New F&older…"
 msgstr "D&osar nou…"
 
@@ -162,15 +182,18 @@ msgstr "D&osar nou…"
 msgid "F"
 msgstr "o"
 
-#: cmd.new_separator.label cmd.new_separator.accesskey
+#: cmd.new_separator.label
+#: cmd.new_separator.accesskey
 msgid "New &Separator"
 msgstr "&Separator nou"
 
-#: cmd.reloadLivebookmark.label cmd.reloadLivebookmark.accesskey
+#: cmd.reloadLivebookmark.label
+#: cmd.reloadLivebookmark.accesskey
 msgid "&Reload Live Bookmark"
 msgstr "&Reîncarcă semnul actualizabil"
 
-#: cmd.moveBookmarks.label cmd.moveBookmarks.accesskey
+#: cmd.moveBookmarks.label
+#: cmd.moveBookmarks.accesskey
 msgid "&Move…"
 msgstr "&Mută…"
 
@@ -206,7 +229,8 @@ msgstr "Adăugat"
 msgid "Last Modified"
 msgstr "Ultima modificare"
 
-#: search.label search.accesskey
+#: search.label
+#: search.accesskey
 msgctxt "search.label search.accesskey"
 msgid "&Search:"
 msgstr "&Caută în:"
@@ -215,7 +239,8 @@ msgstr "&Caută în:"
 msgid "f"
 msgstr "f"
 
-#: maintenance.label maintenance.accesskey
+#: maintenance.label
+#: maintenance.accesskey
 msgid "&Import and Backup"
 msgstr "&Import și export"
 
@@ -231,11 +256,13 @@ msgstr "Mergi înapoi"
 msgid "Go forward"
 msgstr "Mergi înainte"
 
-#: detailsPane.more.label detailsPane.more.accesskey
+#: detailsPane.more.label
+#: detailsPane.more.accesskey
 msgid "Mor&e"
 msgstr "&Mai mult"
 
-#: detailsPane.less.label detailsPane.less.accesskey
+#: detailsPane.less.label
+#: detailsPane.less.accesskey
 msgid "L&ess"
 msgstr "&Mai puțin"
 
@@ -243,34 +270,38 @@ msgstr "&Mai puțin"
 msgid "Select an item to view and edit its properties"
 msgstr "Selectați un element pentru a-l vedea și a-i edita proprietățile"
 
-#: find.label find.accesskey
+#: find.label
+#: find.accesskey
 msgctxt "find.label find.accesskey"
 msgid "&Search:"
 msgstr "&Căutare:"
 
-#: view.label view.accesskey
+#: view.label
+#: view.accesskey
 msgid "Vie&w"
 msgstr "&Vizualizare"
 
-#: byDate.label byDate.accesskey
+#: byDate.label
+#: byDate.accesskey
 msgid "By &Date"
 msgstr "&După dată"
 
-#: bySite.label bySite.accesskey
+#: bySite.label
+#: bySite.accesskey
 msgid "By &Site"
 msgstr "După &site"
 
-#: byMostVisited.label byMostVisited.accesskey
+#: byMostVisited.label
+#: byMostVisited.accesskey
 msgid "By Most &Visited"
 msgstr "După cele mai &vizitate"
 
-#: byLastVisited.label byLastVisited.accesskey
+#: byLastVisited.label
+#: byLastVisited.accesskey
 msgid "By &Last Visited"
 msgstr "După u&ltimele vizitate"
 
-#: byDayAndSite.label byDayAndSite.accesskey
+#: byDayAndSite.label
+#: byDayAndSite.accesskey
 msgid "By Da&te and Site"
 msgstr "După da&tă și site"
-
-#~ msgid "Keyword"
-#~ msgstr "Cuvânt cheie"

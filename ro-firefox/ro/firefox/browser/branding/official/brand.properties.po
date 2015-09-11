@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./browser/branding/official/brand.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 18:16+0000\n"
-"PO-Revision-Date: 2015-03-04 13:49+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1425476976.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/branding/official/brand.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 97116\n"
 
 #: brandShorterName
 msgctxt "brandShorterName"
@@ -55,7 +46,7 @@ msgstr "Alegere pagină de start"
 
 #: homePageMigrationDescription
 msgid "Please select the home page you wish to use:"
-msgstr "Vă rugăm alegeți ce pagină de start doriți să folosiți:"
+msgstr "Vă rugăm să selectați ce pagină de start doriți să folosiți:"
 
 #: syncBrandShortName
 msgid "Sync"

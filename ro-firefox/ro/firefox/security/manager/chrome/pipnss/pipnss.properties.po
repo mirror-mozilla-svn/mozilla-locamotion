@@ -1,33 +1,23 @@
-#. #
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./security/manager/chrome/pipnss/pipnss.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 20:18+0000\n"
-"PO-Revision-Date: 2015-08-27 14:05+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440684321.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/security/manager/chrome/pipnss/pipnss.properties."
 "po\n"
-"X-Pootle-Revision: 71316\n"
+"X-Pootle-Revision: 100008\n"
 
 #: CertPassPrompt
 msgid "Please enter the master password for the %S."
-msgstr "Introduceți parola generală pentru %S."
+msgstr "Vă rugăm să introduceți parola generală pentru %S."
 
 #. # the following strings have special requirements:
 #. # they must fit in a 32 or 64 byte buffer after being translated
@@ -565,7 +555,7 @@ msgstr "Microsoft Principal Name"
 
 #: CertDumpMSCAVersion
 msgid "Microsoft CA Version"
-msgstr "Versiunea CA Microsoft"
+msgstr "Versiunea AC Microsoft"
 
 #: CertDumpMSDomainGUID
 msgid "Microsoft Domain GUID"
@@ -625,7 +615,7 @@ msgstr "Compromis de cheie"
 
 #: CertDumpCACompromise
 msgid "CA Compromise"
-msgstr "Compromis CA"
+msgstr "Compromis AC"
 
 #: CertDumpAffiliationChanged
 msgid "Affiliation Changed"
@@ -702,8 +692,7 @@ msgstr "ANSI X9.62 curbă eliptică prime 239v3"
 
 #: CertDumpECprime256v1
 msgid "ANSI X9.62 elliptic curve prime256v1 (aka secp256r1, NIST P-256)"
-msgstr ""
-"ANSI X9.62 curbă eliptică prime256v1 (echivalent secp256r1, NIST P-256)"
+msgstr "ANSI X9.62 curbă eliptică prime256v1 (echivalent secp256r1, NIST P-256)"
 
 #: CertDumpECsecp112r1
 msgid "SECG elliptic curve secp112r1"
@@ -1031,8 +1020,8 @@ msgstr ""
 #: PSMERR_HostReusedIssuerSerial
 msgid ""
 "You have received an invalid certificate.  Please contact the server "
-"administrator or email correspondent and give them the following "
-"information:\n"
+"administrator or email correspondent and give them the following information:"
+"\n"
 "\n"
 "Your certificate contains the same serial number as another certificate "
 "issued by the certificate authority.  Please get a new certificate "
@@ -1118,11 +1107,11 @@ msgstr "Certificatul nu este valid pentru numele %S."
 #. # LOCALIZATION NOTE (certErrorMismatchSingle2): Do not translate <a id="cert_domain_link" title="%1$S">%1$S</a>
 #: certErrorMismatchSingle2
 msgid ""
-"The certificate is only valid for <a id=\"cert_domain_link\" title=\"%1$S\">"
-"%1$S</a>"
+"The certificate is only valid for <a id=\"cert_domain_link\" title=\"%1$S\""
+">%1$S</a>"
 msgstr ""
-"Certificatul este valid numai pentru <a id=\"cert_domain_link\" title=\"%1$S"
-"\">%1$S</a>"
+"Certificatul este valid numai pentru <a id=\"cert_domain_link\" title=\"%1$"
+"S\">%1$S</a>"
 
 #: certErrorMismatchSinglePlain
 msgid "The certificate is only valid for %S"
@@ -1139,13 +1128,13 @@ msgstr "Certificatul nu este valid pentru niciun nume de server."
 #. # LOCALIZATION NOTE (certErrorExpiredNow): Do not translate %1$S (date+time of expired certificate) or %2$S (current date+time)
 #: certErrorExpiredNow
 msgid "The certificate expired on %1$S. The current time is %2$S."
-msgstr "Certificatul a expirat pe %1$S. Ora curentă este %2$S."
+msgstr "Certificatul a expirat pe %1$S. Ora actuală este %2$S."
 
 #. # LOCALIZATION NOTE (certErrorNotYetValidNow): Do not translate %1$S (date+time certificate will become valid) or %2$S (current date+time)
 #: certErrorNotYetValidNow
 msgid "The certificate will not be valid until %1$S. The current time is %2$S."
 msgstr ""
-"Certificatul nu va fi valabil decât din %1$S. Data și ora curentă acum: %2$S."
+"Certificatul nu va fi valabil decât din %1$S. Data și ora actuală este: %2$S."
 
 #: certErrorCodePrefix
 msgid "(Error code: %S)"
@@ -1177,7 +1166,7 @@ msgstr "Scopuri"
 
 #: CertInfoEmail
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: CertInfoStoredIn
 msgid "Stored in:"
@@ -1309,150 +1298,3 @@ msgstr "Permanentă"
 #: CertExceptionTemporary
 msgid "Temporary"
 msgstr "Temporar"
-
-#~ msgid "SSL Server with Step-up"
-#~ msgstr "Server SSL cu Step-up"
-
-#~ msgctxt "VerifyProtectObjSign"
-#~ msgid "Protected Object Signer"
-#~ msgstr "Semnatar obiect protejat"
-
-#~ msgid "User Import Cert"
-#~ msgstr "Certificat user import"
-
-#~ msgid "Any Certificate Authority"
-#~ msgstr "Oricare autoritate de certificare"
-
-#~ msgid "Object Identifier"
-#~ msgstr "Identificator obiect"
-
-#~ msgid "NULL"
-#~ msgstr "NULL"
-
-#~ msgid "Relative Distinguished Name"
-#~ msgstr "Nume propriu relativ (RDN)"
-
-#~ msgid "Attribute Type and Value"
-#~ msgstr "Tip și valoare atribut"
-
-#~ msgid "Step-up"
-#~ msgstr "Pas în sus"
-
-#~ msgctxt "VerifyProtectObjSign_p"
-#~ msgid "Protected Object Signer"
-#~ msgstr "Semnatar obiect protejat"
-
-#~ msgid "User Import"
-#~ msgstr "Import utilizator"
-
-#~ msgid "CA"
-#~ msgstr "AC"
-
-#~ msgid "true"
-#~ msgstr "adevărat"
-
-#~ msgid "false"
-#~ msgstr "fals"
-
-#~ msgid ""
-#~ "Could not decode PKCS #12 file.  Perhaps the password you entered was "
-#~ "incorrect?"
-#~ msgstr ""
-#~ "Nu se poate decoda fișierul de tip PKCS #12.  Se poate ca parola "
-#~ "introdusă să fie incorectă?"
-
-#~ msgid "Are you sure you want to install this security module?"
-#~ msgstr "Sigur doriți să instalați acest modul de securitate?"
-
-#~ msgid "Module Name: %S"
-#~ msgstr "Nume modul: %S"
-
-#~ msgid "Path: %S"
-#~ msgstr "Cale: %S"
-
-#~ msgid "A new security module has been installed"
-#~ msgstr "A fost instalat un nou modul de securitate"
-
-#~ msgid "Invalid module name."
-#~ msgstr "Numele modulului nu este valid."
-
-#~ msgid "Internal security module successfully deleted"
-#~ msgstr "Modul intern de securitate eliminat cu succes"
-
-#~ msgid "External security module successfully deleted"
-#~ msgstr "Modul extern de securitate eliminat cu succes"
-
-#~ msgid ""
-#~ "You should make a password-protected backup copy of your new security "
-#~ "certificate and its associated private key."
-#~ msgstr ""
-#~ "Este indicat să vă faceți o copie de siguranță personală, protejată cu "
-#~ "parolă, a noului certificat și a cheii private asociate."
-
-#~ msgid ""
-#~ "If you ever lose access to your private key by forgetting your personal "
-#~ "security password, or by experiencing file corruption, you can restore "
-#~ "this private key and certificate from this backup copy."
-#~ msgstr ""
-#~ "În cazul în care veți pierde accesul la cheia privată, uitând parola "
-#~ "personală de securitate, sau prin coruperea unor fișiere, puteți restaura "
-#~ "cheia privată și certificatul din acea copie de siguranță."
-
-#~ msgid ""
-#~ "To make a copy, click OK. If possible, you should save your backup copy "
-#~ "on a floppy disk that you keep in a safe location."
-#~ msgstr ""
-#~ "Pentru a efectua o copie, apăsați OK. Este indicat, dacă e posibil, să vă "
-#~ "salvați copia de siguranță pe o dischetă pe care să o păstrați într-un "
-#~ "loc sigur."
-
-#~ msgid "(Unknown Issuer)"
-#~ msgstr "(Emitent necunoscut)"
-
-#~ msgid "(Unknown Organization)"
-#~ msgstr "(Organizație necunoscută)"
-
-#~ msgid "The certificate is not trusted because no issuer chain was provided."
-#~ msgstr ""
-#~ "Certificatul nu este de încredere deoarece nu s-au furnizat informații "
-#~ "despre emitent."
-
-#~ msgid "Netscape Certificate Type"
-#~ msgstr "Tip certificat Netscape"
-
-#~ msgid "Netscape Certificate Extension Base URL"
-#~ msgstr "URL de bază pentru extensia de certificat Netscape"
-
-#~ msgid "Netscape Certificate Revocation URL"
-#~ msgstr "URL-ul revocării certificării Netscape"
-
-#~ msgid "Netscape Certificate Authority Revocation URL"
-#~ msgstr "URL pentru revocarea autorității certificatului Netscape"
-
-#~ msgid "Netscape Certificate Renewal URL"
-#~ msgstr "Adresa URL de reînnoire a certificatului Netscape"
-
-#~ msgid "Netscape Certificate Authority Policy URL"
-#~ msgstr "URL pentru politica de autoritate a certificatului Netscape"
-
-#~ msgid "Netscape Certificate SSL Server Name"
-#~ msgstr "Certificarea Netscape a numelui serverului SSL"
-
-#~ msgid "Netscape Certificate Comment"
-#~ msgstr "Comentariu la certificatul Netscape"
-
-#~ msgid "Netscape Lost Password URL"
-#~ msgstr "URL pentru parolă Netscape pierdută"
-
-#~ msgid "NetscapeCertificate Renewal Time"
-#~ msgstr "Timpul de reînnoire pentru NetscapeCertificate"
-
-#~ msgid "AOL Screenname"
-#~ msgstr "Pseudonim AOL"
-
-#~ msgid "Email Certificate Authority"
-#~ msgstr "Autoritate certificare email"
-
-#~ msgctxt "CertInfoEmail"
-#~ msgid "Email"
-#~ msgstr "Email"

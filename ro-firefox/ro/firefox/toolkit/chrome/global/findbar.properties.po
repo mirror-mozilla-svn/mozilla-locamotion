@@ -1,25 +1,16 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./toolkit/chrome/global/findbar.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-10 15:35+0100\n"
-"PO-Revision-Date: 2015-08-22 12:37+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440247054.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/findbar.properties.po\n"
 "X-Pootle-Revision: 67040\n"
 
@@ -66,12 +57,3 @@ msgstr "#1 din #2 potriviri;#1 din #2 potriviri"
 #: FoundMatchesCountLimit
 msgid "More than #1 match;More than #1 matches"
 msgstr "Mai mult de #1 potrivire;Mai mult de #1 potriviri"
-
-#~ msgid "%S match"
-#~ msgstr "%S potrivire"
-
-#~ msgid "%S matches"
-#~ msgstr "%S potriviri"
-
-#~ msgid "More than %S matches"
-#~ msgstr "Mai mult de %S potriviri"

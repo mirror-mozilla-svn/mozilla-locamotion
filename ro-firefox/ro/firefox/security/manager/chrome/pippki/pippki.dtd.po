@@ -1,24 +1,18 @@
-#. extracted from ./security/manager/chrome/pippki/pippki.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-30 19:16+0000\n"
-"PO-Revision-Date: 2015-08-25 12:29+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440505781.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/security/manager/chrome/pippki/pippki.dtd.po\n"
-"X-Pootle-Revision: 69875\n"
+"X-Pootle-Revision: 100009\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -34,7 +28,7 @@ msgstr "Dispozitiv de securitate"
 
 #: setPassword.oldPassword.label
 msgid "Current password:"
-msgstr "Parola curentă:"
+msgstr "Parola actuală:"
 
 #: setPassword.newPassword.label
 msgid "New password:"
@@ -103,7 +97,7 @@ msgstr "Vizualizează"
 
 #: downloadCert.viewCert.text
 msgid "Examine CA certificate"
-msgstr "Examinează certificat AC"
+msgstr "Examinează certificatul AC"
 
 #. Strings for the SSL client auth ask dialog
 #: clientAuthAsk.title
@@ -165,8 +159,8 @@ msgid ""
 "able to restore this backup later.  Please record it in a safe location."
 msgstr ""
 "Important: Dacă uitați parola de siguranță pentru certificate, nu veți putea "
-"reface această copie mai târziu.  Aveți grijă să o păstrați într-un loc "
-"sigur."
+"reface această copie mai târziu.  Vă rugăm să aveți grijă să o păstrați într-"
+"un loc sigur."
 
 #: chooseToken.title
 msgid "Choose Token Dialog"
@@ -187,7 +181,7 @@ msgstr "Generarea cheii în curs… Aceasta poate dura câteva minute…."
 
 #: createCertInfo.msg2
 msgid "Please wait…"
-msgstr "Vă rugăm așteptați…"
+msgstr "Vă rugăm să așteptați…"
 
 #. Strings for protectedAuth dialog
 #: protectedAuth.title
@@ -199,125 +193,9 @@ msgid ""
 "Please authenticate to the token. Authentication method depends on the type "
 "of your token."
 msgstr ""
-"Vă rugăm autentificați-vă cu token. Metoda de autentificare depinde de tipul "
-"tokenului dumneavoastră."
+"Vă rugăm să vă autentificați cu tokenul. Metoda de autentificare depinde de "
+"tipul tokenului dumneavoastră."
 
 #: protectedAuth.tokenName.label
 msgid "Token:"
 msgstr "Identificator:"
-
-#~ msgid "Enter Master Password"
-#~ msgstr "Parola generală"
-
-#~ msgid "Security Device:"
-#~ msgstr "Dispozitiv de securitate:"
-
-#~ msgid "Password:"
-#~ msgstr "Parolă:"
-
-#~ msgid "Encryption Key Copy"
-#~ msgstr "Copie chei criptare"
-
-#~ msgid ""
-#~ "Important: This certificate authority has asked to make a backup of your "
-#~ "encryption private key."
-#~ msgstr ""
-#~ "Important: Autoritatea de certificare a solicitat să păstreze o copie de "
-#~ "siguranță a cheii dumneavoastră private."
-
-#~ msgid ""
-#~ "The benefit is that if you lose access to your encryption private key, "
-#~ "you can request a copy from this certificate authority."
-#~ msgstr ""
-#~ "Avantajul este că în cazul în care pierdeți accesul la cheia "
-#~ "dumneavoastră privată de criptare, veți putea cere o copie de la "
-#~ "autoritatea de certificare."
-
-#~ msgid ""
-#~ "However, your encryption private key will be stored by the certificate "
-#~ "authority, and could be used to read your encrypted email or documents "
-#~ "without your permission."
-#~ msgstr ""
-#~ "Însă cheia privată va fi stocată de către autoritatea de certificare, și "
-#~ "ar putea fi folosită pentru citirea mesajelor sau documentelor "
-#~ "dumneavoastră criptate, fără permisiunea dumneavoastră."
-
-#~ msgid "&View Certificate"
-#~ msgstr "&Vizualizează certificat"
-
-#~ msgid "Loading"
-#~ msgstr "Încarc"
-
-#~ msgid "Error"
-#~ msgstr "Eroare"
-
-#~ msgid "Error - cannot recover"
-#~ msgstr "Eroare iremediabilă"
-
-#~ msgid "Security"
-#~ msgstr "Securitate"
-
-#~ msgctxt "pref.security.general.rHeader"
-#~ msgid "Settings for general security"
-#~ msgstr "Parametri generali de securitate"
-
-#~ msgctxt "pref.security.general.header"
-#~ msgid "Settings for general security"
-#~ msgstr "Parametri generali de securitate"
-
-#~ msgid "Security Level"
-#~ msgstr "Nivel de securitate"
-
-#~ msgid "Use paranoid security settings"
-#~ msgstr "Parametri 'paranoici'"
-
-#~ msgid "Certificates"
-#~ msgstr "Certificate"
-
-#~ msgid "Manage Certificates"
-#~ msgstr "Gestionare certificate"
-
-#~ msgid "Policy"
-#~ msgstr "Politică"
-
-#~ msgid "Examine CA policies and procedures"
-#~ msgstr "Examinează politicile și procedurile AC"
-
-#~ msgid "Password Entry Dialog"
-#~ msgstr "Introducere parolă"
-
-#~ msgid ""
-#~ "Please enter the password that was used to encrypt this certificate "
-#~ "backup."
-#~ msgstr ""
-#~ "Parola cu care s-a criptat această copie de siguranță a certificatelor."
-
-#~ msgid "Text Signing Request"
-#~ msgstr "Semnare text"
-
-#~ msgid "Signing Certificate"
-#~ msgstr "Certificat pentru semnare"
-
-#~ msgid ""
-#~ "To confirm you agree to sign this text message using your selected "
-#~ "certificate, please confirm by entering the master password:"
-#~ msgstr ""
-#~ "Pentru a confirma că sunteți de acord să semnați acest mesaj text cu "
-#~ "certificatul selectat, vă rugăm tastați parola generală:"
-
-#~ msgid "Secure Connection Failed"
-#~ msgstr "Conexiunea sigură a eșuat"
-
-#~ msgid ""
-#~ "This could be a problem with the server's configuration or it could be "
-#~ "someone trying to impersonate the server."
-#~ msgstr ""
-#~ "Aceasta ar putea fi o problemă în configurația serverului sau ar putea fi "
-#~ "cineva care încearcă să pretindă că este acest server."
-
-#~ msgid ""
-#~ "If you have connected to this server successfully in the past the error "
-#~ "may be temporary and you can try again later."
-#~ msgstr ""
-#~ "Dacă v-ați mai conectat la acest server cu succes în trecut, eroarea ar "
-#~ "putea fi temporară și puteți încerca din nou mai târziu."

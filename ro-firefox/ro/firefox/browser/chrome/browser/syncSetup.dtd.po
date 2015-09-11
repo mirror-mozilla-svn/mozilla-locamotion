@@ -1,24 +1,18 @@
-#. extracted from ./browser/chrome/browser/syncSetup.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 20:18+0000\n"
-"PO-Revision-Date: 2015-08-21 12:05+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440158732.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/syncSetup.dtd.po\n"
-"X-Pootle-Revision: 65723\n"
+"X-Pootle-Revision: 97204\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -69,15 +63,18 @@ msgstr "Implicit: serverul &syncBrand.fullName.label; de la Mozilla"
 msgid "Use a custom server…"
 msgstr "Folosește alt server…"
 
-#: signIn.account2.label signIn.account2.accesskey
+#: signIn.account2.label
+#: signIn.account2.accesskey
 msgid "&Account"
 msgstr "&Cont"
 
-#: signIn.password.label signIn.password.accesskey
+#: signIn.password.label
+#: signIn.password.accesskey
 msgid "&Password"
 msgstr "&Parolă"
 
-#: signIn.recoveryKey.label signIn.recoveryKey.accesskey
+#: signIn.recoveryKey.label
+#: signIn.recoveryKey.accesskey
 msgid "Recovery &Key"
 msgstr "Cheie de &recuperare"
 
@@ -86,21 +83,25 @@ msgstr "Cheie de &recuperare"
 msgid "Account Details"
 msgstr "Detalii despre cont"
 
-#: setup.emailAddress.label setup.emailAddress.accesskey
+#: setup.emailAddress.label
+#: setup.emailAddress.accesskey
 msgid "&Email Address"
 msgstr "Adr&esa de e-mail"
 
-#: setup.choosePassword.label setup.choosePassword.accesskey
+#: setup.choosePassword.label
+#: setup.choosePassword.accesskey
 msgid "Choose a &Password"
 msgstr "Alegeți o &parolă"
 
-#: setup.confirmPassword.label setup.confirmPassword.accesskey
+#: setup.confirmPassword.label
+#: setup.confirmPassword.accesskey
 msgid "Confir&m Password"
 msgstr "Confir&mați parola"
 
 #. LOCALIZATION NOTE: tosAgree1, tosLink, tosAgree2, ppLink, tosAgree3 are
 #. joined with implicit white space, so spaces in the strings aren't necessary
-#: setup.tosAgree1.label setup.tosAgree1.accesskey
+#: setup.tosAgree1.label
+#: setup.tosAgree1.accesskey
 msgid "I &agree to the"
 msgstr "Sunt de &acord cu"
 
@@ -141,7 +142,8 @@ msgstr ""
 "înainte de a fi încărcate pe server. Cheia de recuperare e necesară pentru a "
 "decripta datele nu este încărcată."
 
-#: recoveryKeyEntry.label recoveryKeyEntry.accesskey
+#: recoveryKeyEntry.label
+#: recoveryKeyEntry.accesskey
 msgid "Your Recovery &Key"
 msgstr "&Cheia dumneavoastră de recuperare"
 
@@ -155,15 +157,17 @@ msgid ""
 "machines. Please create a backup copy. We cannot help you recover your "
 "Recovery Key."
 msgstr ""
-"Cheia dumneavoastră de recuperare e necesară pentru a accesa &syncBrand."
-"fullName.label; pe alte mașini. Vă rugăm creați o copie de rezervă. Nu vă "
-"putem ajuta să o recuperați."
+"Cheia de recuperare e necesară pentru a accesa &syncBrand.fullName.label; pe "
+"alte mașini. Vă rugăm să creați o copie de rezervă. Nu vă putem ajuta să o "
+"recuperați."
 
-#: button.syncKeyBackup.print.label button.syncKeyBackup.print.accesskey
+#: button.syncKeyBackup.print.label
+#: button.syncKeyBackup.print.accesskey
 msgid "&Print…"
 msgstr "Ti&părește…"
 
-#: button.syncKeyBackup.save.label button.syncKeyBackup.save.accesskey
+#: button.syncKeyBackup.save.label
+#: button.syncKeyBackup.save.accesskey
 msgid "&Save…"
 msgstr "&Salvează…"
 
@@ -202,7 +206,7 @@ msgstr "Introduceți codul furnizat de dispozitiv:"
 
 #: addDevice.dialog.tryAgain.label
 msgid "Please try again."
-msgstr "Vă rugăm încercați încă o dată."
+msgstr "Vă rugăm să încercați încă o dată."
 
 #: addDevice.dialog.successful.label
 msgid ""
@@ -218,7 +222,8 @@ msgid ""
 "print or save this key and take it with you."
 msgstr ""
 "Pentru a vă activa dispozitivul, va trebui să introduceți cheia de "
-"recuperare. Vă rugăm tipăriți-o sau salvați-o și luați-o cu dumneavoastră."
+"recuperare. Vă rugăm să o tipăriți sau să o salvați și să o luați cu "
+"dumneavoastră."
 
 #: addDevice.dialog.connected.label
 msgid "Device Connected"
@@ -231,13 +236,13 @@ msgstr "Autentificare"
 
 #: existingRecoveryKey.description
 msgid ""
-"You can get a copy of your Recovery Key by going to &syncBrand.shortName."
-"label; Options on your other device, and selecting  \"My Recovery Key\" "
-"under \"Manage Account\"."
+"You can get a copy of your Recovery Key by going to "
+"&syncBrand.shortName.label; Options on your other device, and selecting  \""
+"My Recovery Key\" under \"Manage Account\"."
 msgstr ""
-"Puteți obține o copie a cheii de recuperare accesând opțiunile &syncBrand."
-"shortName.label; de pe dispozitivul dumneavoastră și selectând „Cheia mea de "
-"recuperare” din „Gestionare cont”."
+"Puteți obține o copie a cheii de recuperare accesând opțiunile "
+"&syncBrand.shortName.label; de pe dispozitivul dumneavoastră și selectând „"
+"Cheia mea de recuperare” din „Gestionare cont”."
 
 #: verifying.label
 msgid "Verifying…"
@@ -256,7 +261,8 @@ msgstr "Am pierdut celălalt dispozitiv."
 msgid "Sync Options"
 msgstr "Opțiuni de sincronizare"
 
-#: syncDeviceName.label syncDeviceName.accesskey
+#: syncDeviceName.label
+#: syncDeviceName.accesskey
 msgid "Devi&ce Name:"
 msgstr "Numele &dispozitivului:"
 
@@ -264,27 +270,33 @@ msgstr "Numele &dispozitivului:"
 msgid "Sync My"
 msgstr "Sincronizează"
 
-#: engine.bookmarks.label engine.bookmarks.accesskey
+#: engine.bookmarks.label
+#: engine.bookmarks.accesskey
 msgid "Book&marks"
 msgstr "Se&mne de carte"
 
-#: engine.tabs.label engine.tabs.accesskey
+#: engine.tabs.label
+#: engine.tabs.accesskey
 msgid "&Tabs"
 msgstr "&File"
 
-#: engine.history.label engine.history.accesskey
+#: engine.history.label
+#: engine.history.accesskey
 msgid "Histo&ry"
 msgstr "Isto&ric"
 
-#: engine.passwords.label engine.passwords.accesskey
+#: engine.passwords.label
+#: engine.passwords.accesskey
 msgid "&Passwords"
 msgstr "&Parole"
 
-#: engine.prefs.label engine.prefs.accesskey
+#: engine.prefs.label
+#: engine.prefs.accesskey
 msgid "Preference&s"
 msgstr "&Preferințe"
 
-#: engine.addons.label engine.addons.accesskey
+#: engine.addons.label
+#: engine.addons.accesskey
 msgid "&Add-ons"
 msgstr "&Suplimente"
 
@@ -301,8 +313,8 @@ msgstr "Recomandat:"
 msgid ""
 "Replace all data on this device with my &syncBrand.shortName.label; data"
 msgstr ""
-"Înlocuiește toate datele de pe acest dispozitiv cu datele &syncBrand."
-"shortName.label;"
+"Înlocuiește toate datele de pe acest dispozitiv cu datele "
+"&syncBrand.shortName.label;"
 
 #: choice2a.server.main.label
 msgid "Replace all other devices with this device's data"
@@ -356,6 +368,3 @@ msgstr "Puteți schimba această preferință selectând opțiunile de mai jos."
 #: continueUsing.label
 msgid "You may now continue using &brandShortName;."
 msgstr "Puteți folosi &brandShortName; în continuare."
-
-#~ msgid "&Sync with Windows 8 style &brandShortName;"
-#~ msgstr "&Sincronizare &brandShortName; cu stilul Windows 8"

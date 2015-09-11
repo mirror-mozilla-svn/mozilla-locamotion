@@ -1,24 +1,18 @@
-#. extracted from ./toolkit/chrome/global/aboutSupport.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-11 11:38+0000\n"
-"PO-Revision-Date: 2015-08-26 11:44+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440589461.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutSupport.dtd.po\n"
-"X-Pootle-Revision: 70891\n"
+"X-Pootle-Revision: 88508\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -30,12 +24,12 @@ msgstr "Informații de depanare"
 #. don't change the 'supportLink' id.
 #: aboutSupport.pageSubtitle
 msgid ""
-"  This page contains technical information that might be useful when "
-"you're \n"
+"  This page contains technical information that might be useful when you're "
+"\n"
 "trying to solve a problem. If you are looking for answers to common "
 "questions \n"
-"about &brandShortName;, check out our <a id='supportLink'>support website</"
-"a>."
+"about &brandShortName;, check out our <a id='supportLink'>support "
+"website</a>."
 msgstr ""
 "  Această pagină conține informații tehnice care ar putea fi utile atunci "
 "când \n"
@@ -182,7 +176,7 @@ msgstr "Utilizare memorie"
 #. LOCALIZATION NOTE the term "Service Workers" should not be translated.
 #: aboutSupport.appBasicsServiceWorkers
 msgid "Registered Service Workers"
-msgstr ""
+msgstr "Service workeri înregistrați"
 
 #: aboutSupport.appBasicsMultiProcessSupport
 msgid "Multiprocess Windows"
@@ -190,7 +184,7 @@ msgstr "Ferestre multiproces"
 
 #: aboutSupport.appBasicsSafeMode
 msgid "Safe Mode"
-msgstr ""
+msgstr "Mod sigur"
 
 #: aboutSupport.showDir.label
 msgid "Open Directory"

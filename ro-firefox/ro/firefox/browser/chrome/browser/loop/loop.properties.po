@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./browser/chrome/browser/loop/loop.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: l 10n\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-11 11:38+0000\n"
-"PO-Revision-Date: 2015-08-20 00:35+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440030907.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/loop/loop.properties.po\n"
-"X-Pootle-Revision: 64535\n"
+"X-Pootle-Revision: 100279\n"
 
 #. # Panel Strings
 #. ## LOCALIZATION NOTE(clientShortname2): This should not be localized and
@@ -50,11 +41,11 @@ msgstr "Contacte"
 #. ## {{clientShortname2}} will be replaced by the brand name for either string.
 #: sign_in_again_title_line_one
 msgid "Please sign in again"
-msgstr ""
+msgstr "Vă rugăm să vă autentificați din nou"
 
 #: sign_in_again_title_line_two2
 msgid "to continue using {{clientShortname2}}"
-msgstr ""
+msgstr "pentru a continua să folosiți {{clientShortname2}}"
 
 #: sign_in_again_button
 msgctxt "sign_in_again_button"
@@ -65,7 +56,7 @@ msgstr "Autentificare"
 #. ## will be replaced by the super short brandname.
 #: sign_in_again_use_as_guest_button2
 msgid "Use {{clientSuperShortname}} as a Guest"
-msgstr ""
+msgstr "Folosiți {{clientSuperShortname}} ca oaspete"
 
 #. ## LOCALIZATION_NOTE(first_time_experience.title): clientShortname will be
 #. ## replaced by the brand name
@@ -119,7 +110,7 @@ msgstr "V-ați schimbat parola?"
 
 #: try_again_later
 msgid "Please try again later"
-msgstr "Reîncercați mai târziu"
+msgstr "Vă rugăm să reîncercați mai târziu"
 
 #: could_not_connect
 msgid "Could Not Connect To The Server"
@@ -127,7 +118,7 @@ msgstr "Nu se poate stabili o conexiune la server"
 
 #: check_internet_connection
 msgid "Please check your internet connection"
-msgstr "Vă rugăm verificați-vă conexiunea la internet"
+msgstr "Vă rugăm să vă verificați conexiunea la internet"
 
 #: login_expired
 msgid "Your Login Has Expired"
@@ -150,7 +141,7 @@ msgstr "Reîncearcă"
 
 #: share_email_subject6
 msgid "Join me for a video conversation"
-msgstr ""
+msgstr "Intră cu mine într-o conversație video."
 
 #. ## LOCALIZATION NOTE (share_email_body6): In this item, don't translate the
 #. ## part between {{..}} and leave the \n\n part alone
@@ -158,6 +149,8 @@ msgstr ""
 msgid ""
 "Click the Firefox Hello link to connect to the conversation now: {{callUrl}}"
 msgstr ""
+"Clic pe linkul de Firefox Hello pentru a vă conecta la conversație acum: "
+"{{callUrl}}"
 
 #. ## LOCALIZATION NOTE (share_email_body_context2): In this item, don't translate
 #. ## the part between {{..}} and leave the \n\n part alone.
@@ -168,6 +161,10 @@ msgid ""
 "\n"
 "Let’s talk about this during our conversation: {{title}}"
 msgstr ""
+"Intră cu mine într-o conversație video. Clic pe linkul Firefox Hello pentru "
+"a te conecta acum: {{callUrl}}\n"
+"\n"
+"Să vorbim despre asta în timpul conversației: {{title}}"
 
 #. ## LOCALIZATION NOTE (share_email_footer): Common footer content for both email types
 #: share_email_footer
@@ -179,6 +176,12 @@ msgid ""
 "over video with anyone, anywhere. No downloads or registration. Learn more "
 "at http://www.firefox.com/hello"
 msgstr ""
+"\n"
+"\n"
+"________\n"
+"Alătură-te și creează conversații video gratuite cu Firefox Hello. "
+"Conectează-te ușor prin chat video cu oricine, oriunde. Fără descărcări sau "
+"înregistrare. Află mai multe la http://www.firefox.com/hello"
 
 #. ## LOCALIZATION NOTE (share_tweeet): In this item, don't translate the part
 #. ## between {{..}}. Please keep the text below 117 characters to make sure it fits
@@ -305,8 +308,7 @@ msgstr "Se importă…"
 
 #: import_contacts_failure_message
 msgid "Some contacts could not be imported. Please try again."
-msgstr ""
-"Unele contacte nu au putut fi importate. Vă rugăm să încercați din nou."
+msgstr "Unele contacte nu au putut fi importate. Vă rugăm să încercați din nou."
 
 #. ## LOCALIZATION NOTE(import_contacts_success_message): Success notification message
 #. ## when user's contacts have been successfully imported.
@@ -337,7 +339,7 @@ msgstr "Niciun contact încă"
 #. ## to add people to his contact list
 #: no_contacts_import_or_add
 msgid "Import or add someone"
-msgstr ""
+msgstr "Importă și adaugă pe cineva"
 
 #. ## LOCALIZATION NOTE(import_failed_description simple): Displayed when an import of
 #. ## contacts fails. This is displayed in the error field.
@@ -514,19 +516,19 @@ msgstr "Ieșire"
 
 #: mute_local_audio_button_title
 msgid "Mute your audio"
-msgstr "Oprește audio"
+msgstr "Dezactivează sunetul pentru audio"
 
 #: unmute_local_audio_button_title
 msgid "Unmute your audio"
-msgstr "Pornește audio"
+msgstr "Activează sunetul pentru audio"
 
 #: mute_local_video_button_title
 msgid "Mute your video"
-msgstr "Oprește video"
+msgstr "Dezactivează sunetul pentru video"
 
 #: unmute_local_video_button_title
 msgid "Unmute your video"
-msgstr "Pornește video"
+msgstr "Activează sunetul pentru video"
 
 #: active_screenshare_button_title
 msgid "Stop sharing"
@@ -538,7 +540,7 @@ msgstr "Partajează ecranul dumneavoastră"
 
 #: share_tabs_button_title2
 msgid "Share your Tabs"
-msgstr ""
+msgstr "Partajează filele mele"
 
 #: share_windows_button_title
 msgid "Share other Windows"
@@ -547,6 +549,8 @@ msgstr "Partajează alte ferestre"
 #: self_view_hidden_message
 msgid "Self-view hidden but still being sent; resize window to show"
 msgstr ""
+"Autovizualizarea ascunsă, dar este trimisă în continuare; redimensionează "
+"fereastra pentru a afișa"
 
 #. ## LOCALIZATION NOTE (call_with_contact_title): The title displayed
 #. ## when calling a contact. Don't translate the part between {{..}} because
@@ -669,7 +673,7 @@ msgstr "Apel eșuat; vedeți consola pentru detalii."
 
 #: no_media_failure_message
 msgid "No camera or microphone found."
-msgstr ""
+msgstr "Nu s-a găsit cameră sau microfon."
 
 #. ## LOCALIZATION NOTE (legal_text_and_links3): In this item, don't translate the
 #. ## parts between {{..}} because these will be replaced with links with the labels
@@ -721,9 +725,8 @@ msgid "How was your conversation?"
 msgstr "Cum a fost conversația dumneavoastră?"
 
 #: feedback_request_button
-#, fuzzy
 msgid "Leave Feedback"
-msgstr "Trimiteți opiniile"
+msgstr "Lăsați feedbackul"
 
 #: help_label
 msgctxt "help_label"
@@ -764,7 +767,7 @@ msgstr "Șterge conversația"
 
 #: rooms_list_deleteConfirmation_label
 msgid "Are you sure?"
-msgstr "Sunteți sigur?"
+msgstr "Sigur doriți?"
 
 #: rooms_list_no_current_conversations
 msgid "No current conversations"
@@ -862,7 +865,7 @@ msgstr "Comentarii"
 
 #: context_add_some_label
 msgid "Add some context"
-msgstr ""
+msgstr "Adaugă un context"
 
 #: context_edit_tooltip
 msgid "Edit Context"
@@ -892,208 +895,3 @@ msgstr "Află mai multe."
 #: chat_textbox_placeholder
 msgid "Type here…"
 msgstr "Tastează aici…"
-
-#~ msgid "{{clientShortname2}} — Join the conversation"
-#~ msgstr "{{clientShortname2}} — Alăturați-vă conversației"
-
-#~ msgid "{{clientShortname2}} conversation: {{title}}"
-#~ msgstr "{{clientShortname2}} conversația: {{title}}"
-
-#, fuzzy
-#~ msgid ""
-#~ "Hello!\n"
-#~ "\n"
-#~ "Join me for a video conversation on {{clientShortname2}}.\n"
-#~ "\n"
-#~ "It's the easiest way to connect by video with anyone anywhere.  With "
-#~ "{{clientSuperShortname}}, you don't have to download or install anything. "
-#~ "Just click or paste this link into your {{brandShortname}}, Opera or "
-#~ "Chrome browser to join the conversation:\n"
-#~ "\n"
-#~ "{{callUrl}}\n"
-#~ "\n"
-#~ "If you'd like to learn more about {{clientSuperShortname}} and how you "
-#~ "can start your own free video conversations, visit {{learnMoreUrl}}\n"
-#~ "\n"
-#~ "Talk to you soon!"
-#~ msgstr ""
-#~ "Salut!\n"
-#~ "\n"
-#~ "Intră cu mine la o conversație video pe {{clientShortname2}}.\n"
-#~ "\n"
-#~ "Este cel mai simplu mod de a te conecta prin video cu oricine "
-#~ "oriunde.  Cu {{clientSuperShortname}}, nu trebuie să descarci sau să "
-#~ "instalezi nimic. Doar dă clic sau lipește această legătură în navigatorul "
-#~ "{{brandShortname}}, Opera sau Chrome pentru a te alătura conversației:\n"
-#~ "\n"
-#~ "{{callUrl}}\n"
-#~ "\n"
-#~ "Dacă dorești să afli mai multe despre {{clientSuperShortname}} și despre "
-#~ "cum poți începe propriile conversații video gratuite, vizitează "
-#~ "{{learnMoreUrl}}\n"
-#~ "\n"
-#~ "Vorbim cât de curând!"
-
-#, fuzzy
-#~ msgid ""
-#~ "Hello!\n"
-#~ "\n"
-#~ "Join me for a video conversation on {{clientShortname2}} about:\n"
-#~ "{{title}}.\n"
-#~ "\n"
-#~ "It's the easiest way to connect by video with anyone anywhere.  With "
-#~ "{{clientSuperShortname}}, you don't have to download or install anything. "
-#~ "Just click or paste this link into your {{brandShortname}}, Opera or "
-#~ "Chrome browser to join the conversation:\n"
-#~ "\n"
-#~ "{{callUrl}}\n"
-#~ "\n"
-#~ "If you'd like to learn more about {{clientSuperShortname}} and how you "
-#~ "can start your own free video conversations, visit {{learnMoreUrl}}\n"
-#~ "\n"
-#~ "Talk to you soon!"
-#~ msgstr ""
-#~ "Salut!\n"
-#~ "\n"
-#~ "Intră cu mine la o conversație video pe {{clientShortname2}} în legătură "
-#~ "cu:\n"
-#~ "{{title}}.\n"
-#~ "\n"
-#~ "Este cel mai simplu mod de a te conecta prin video cu oricine "
-#~ "oriunde.  Cu {{clientSuperShortname}}, nu trebuie să descarci sau să "
-#~ "instalezi nimic. Doar dă clic sau lipește această legătură în navigatorul "
-#~ "{{brandShortname}}, Opera sau Chrome pentru a te alătura conversației:\n"
-#~ "\n"
-#~ "{{callUrl}}\n"
-#~ "\n"
-#~ "Dacă dorești să afli mai multe despre {{clientSuperShortname}} și despre "
-#~ "cum poți începe propriile conversații video gratuite, vizitează "
-#~ "{{learnMoreUrl}}\n"
-#~ "\n"
-#~ "Vorbim cât de curând!"
-
-#~ msgid "Thank you for your feedback!"
-#~ msgstr "Vă mulțumim pentru opinia dumneavoastră!"
-
-#~ msgid "What made you sad?"
-#~ msgstr "Ce vă întristează?"
-
-#~ msgid "Audio quality"
-#~ msgstr "Calitate audio"
-
-#~ msgid "Video quality"
-#~ msgstr "Calitate video"
-
-#~ msgid "Was disconnected"
-#~ msgstr "s-a deconectat"
-
-#~ msgid "Confusing controls"
-#~ msgstr "Controale confuze"
-
-#~ msgid "Other"
-#~ msgstr "Altceva"
-
-#~ msgid "What went wrong?"
-#~ msgstr "Ce anume a mers prost?"
-
-#~ msgid "Submit"
-#~ msgstr "Trimite"
-
-#~ msgid "Back"
-#~ msgstr "Înapoi"
-
-#~ msgid ""
-#~ "This window will close in {{countdown}} second;This window will close in "
-#~ "{{countdown}} seconds"
-#~ msgstr ""
-#~ "Această fereastră se va închide în {{countdown}} secundă;Această "
-#~ "fereastră se va închide în {{countdown}} secunde"
-
-#~ msgid "Add the Share panel to my toolbar"
-#~ msgstr "Adaugă panoul Partajare în bara mea de unelte"
-
-#~ msgid "Share the web with your friends!"
-#~ msgstr "Partajați web-ul cu prietenii!"
-
-#~ msgid ""
-#~ "{{brandShortname}}'s new Share panel allows you to quickly share links or "
-#~ "{{clientSuperShortname}} invitations with your favourite social networks."
-#~ msgstr ""
-#~ "Noul panou Partajare al {{brandShortname}} vă permite să partajați rapid "
-#~ "legături sau invitații {{clientSuperShortname}} pe rețelele dumneavoastră "
-#~ "sociale favorite."
-
-#~ msgid "Let's talk about this page"
-#~ msgstr "Să vorbim despre această pagină"
-
-#~ msgid "Share my Tabs"
-#~ msgstr "Partajează filele mele"
-
-#~ msgid "Name this conversation"
-#~ msgstr "Numele acestei conversații"
-
-#~ msgid "Click to edit the conversation name"
-#~ msgstr "Clic pentru a edita numele conversației"
-
-#~ msgctxt "email_link_button"
-#~ msgid "Email Link"
-#~ msgstr "Trimite e-mail cu legătură"
-
-#~ msgid "Share this link to invite someone to talk:"
-#~ msgstr "Distribuiți această legătură pentru a invita pe cineva la discuție:"
-
-#~ msgid "Who are you inviting?"
-#~ msgstr "Pe cine invitați?"
-
-#~ msgid ""
-#~ "Invitation will expire in {{expiry_time}} day;Invitation will expire in "
-#~ "{{expiry_time}} days"
-#~ msgstr ""
-#~ "Invitația va expira în {{expiry_time}} zi;Invitația va expira în "
-#~ "{{expiry_time}} zile"
-
-#~ msgid ""
-#~ "Invitation will expire in {{expiry_time}} hour;Invitation will expire in "
-#~ "{{expiry_time}} hours"
-#~ msgstr ""
-#~ "Invitația va expira în {{expiry_time}} oră;Invitația va expira în "
-#~ "{{expiry_time}} ore"
-
-#~ msgctxt "share_email_subject4"
-#~ msgid "{{clientShortname}} — Join the conversation"
-#~ msgstr "{{clientShortname}} — Alăturați-vă conversației"
-
-#~ msgid ""
-#~ "Hello!\r\n"
-#~ "\r\n"
-#~ "Join me for a video conversation using {{clientShortname}}:\r\n"
-#~ "\r\n"
-#~ "You don't have to download or install anything. Just copy and paste this "
-#~ "URL into your browser:\r\n"
-#~ "\r\n"
-#~ "{{callUrl}}\r\n"
-#~ "\r\n"
-#~ "If you want, you can also learn more about {{clientShortname}} at "
-#~ "{{learnMoreUrl}}\r\n"
-#~ "\r\n"
-#~ "Talk to you soon!"
-#~ msgstr ""
-#~ "Salut! \n"
-#~ "\n"
-#~ "Alătură-te mie într-o conversație video folosind {{clientShortname}}: \n"
-#~ "\n"
-#~ "Nu trebuie să descarci sau să instalezi ceva. Doar copiază și lipește "
-#~ "acest URL în navigatorul tău: \n"
-#~ "\n"
-#~ "{{callUrl}} \n"
-#~ "\n"
-#~ "Dacă dorești, poți și să afli mai multe despre {{clientShortname}} la "
-#~ "{{learnMoreUrl}} \n"
-#~ "\n"
-#~ "Vorbim cât de curând!"
-
-#~ msgid "Copy"
-#~ msgstr "Copiază"
-
-#~ msgid "Confusing"
-#~ msgstr "Confuz"

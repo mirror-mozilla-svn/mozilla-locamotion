@@ -1,22 +1,16 @@
-#. extracted from ./toolkit/chrome/global/printjoboptions.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 17:16+0000\n"
-"PO-Revision-Date: 2015-07-01 12:04+0000\n"
-"Last-Translator: system user <>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1435752244.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/printjoboptions.dtd.po\n"
 "X-Pootle-Revision: 0\n"
 
@@ -28,11 +22,13 @@ msgstr ""
 msgid "Printer Properties"
 msgstr "Proprietăți imprimantă"
 
-#: paperInput.label paperInput.accesskey
+#: paperInput.label
+#: paperInput.accesskey
 msgid "&Paper Size:"
 msgstr "&Mărime hârtie:"
 
-#: jobTitleInput.label jobTitleInput.accesskey
+#: jobTitleInput.label
+#: jobTitleInput.accesskey
 msgid "&Job Title:"
 msgstr "Titlu &job:"
 
@@ -40,11 +36,13 @@ msgstr "Titlu &job:"
 msgid "Color:"
 msgstr "Culoare:"
 
-#: grayRadio.label grayRadio.accesskey
+#: grayRadio.label
+#: grayRadio.accesskey
 msgid "&Grayscale"
 msgstr "Nuanțe de &gri"
 
-#: colorRadio.label colorRadio.accesskey
+#: colorRadio.label
+#: colorRadio.accesskey
 msgid "&Color"
 msgstr "&Culoare"
 
@@ -52,36 +50,22 @@ msgstr "&Culoare"
 msgid "Gap from edge of paper to Margin"
 msgstr "Distanța între marginea hârtiei și zona tipărită (țoli)"
 
-#: topInput.label topInput.accesskey
+#: topInput.label
+#: topInput.accesskey
 msgid "&Top:"
 msgstr "&Sus:"
 
-#: bottomInput.label bottomInput.accesskey
+#: bottomInput.label
+#: bottomInput.accesskey
 msgid "&Bottom:"
 msgstr "&Jos:"
 
-#: leftInput.label leftInput.accesskey
+#: leftInput.label
+#: leftInput.accesskey
 msgid "&Left:"
 msgstr "&Stânga:"
 
-#: rightInput.label rightInput.accesskey
+#: rightInput.label
+#: rightInput.accesskey
 msgid "&Right:"
 msgstr "D&reapta:"
-
-#~ msgid "Plex &mode:"
-#~ msgstr "&Mod plex:"
-
-#~ msgid "R&esolution/Quality:"
-#~ msgstr "R&ezoluție/Calitate:"
-
-#~ msgid "Print C&ommand:"
-#~ msgstr "C&omandă pentru tipărire:"
-
-#~ msgid "Color&space:"
-#~ msgstr "&Spațiu de culori:"
-
-#~ msgid "Fonts:"
-#~ msgstr "Fonturi:"
-
-#~ msgid "&Download fonts to printer"
-#~ msgstr "&Descarcă fonturile către imprimantă"

@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./browser/installer/override.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-01 10:39+0100\n"
-"PO-Revision-Date: 2015-08-25 15:30+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440516633.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/installer/override.properties.po\n"
-"X-Pootle-Revision: 70287\n"
+"X-Pootle-Revision: 100189\n"
 
 #. # LOCALIZATION NOTE:
 #. # This file must be saved as UTF8
@@ -107,8 +98,8 @@ msgid ""
 "Please review the license agreement before installing $BrandFullNameDA. If "
 "you accept all terms of the agreement, select the first option below. $_CLICK"
 msgstr ""
-"Vă rugăm revizuiți acordul de licențiere înainte de a instala "
-"$BrandFullNameDA. Dacă acceptați toți termenii acordului, selectați prima "
+"Vă rugăm să revizuiți acordul de licențiere înainte de a instala $"
+"BrandFullNameDA. Dacă acceptați toți termenii acordului, selectați prima "
 "opțiune de mai jos. $_CLICK"
 
 #: ComponentsText
@@ -129,7 +120,8 @@ msgid ""
 "different folder, click Browse and select another folder. $_CLICK"
 msgstr ""
 "Instalarea va instala $BrandFullNameDA în următorul dosar. Pentru a instala "
-"într-un alt dosar, clic pe „Răsfoiește” și selectați un alt dosar. $_CLICK"
+"într-un dosar diferit, clic pe „Răsfoiește” și selectați un alt dosar. "
+"$_CLICK"
 
 #: DirSubText
 msgid "Destination Folder"
@@ -255,7 +247,7 @@ msgstr "Eroarea la înregistrarea DLL"
 
 #: ExecShell
 msgid "\"ExecShell: \""
-msgstr "„Shell de execuție: ”"
+msgstr "\"Shell de execuție: \""
 
 #: Exec
 msgid "\"Execute: \""
@@ -275,7 +267,7 @@ msgstr "Instalator corupt: invalid opcode"
 
 #: NoOLE
 msgid "\"No OLE for: \""
-msgstr "\"Niciun OLE pentru: \""
+msgstr "\"Niciun OLE pentru: ”"
 
 #: OutputFolder
 msgid "\"Output folder: \""
@@ -283,7 +275,7 @@ msgstr "\"Dosar de ieșire: \""
 
 #: RemoveFolder
 msgid "\"Remove folder: \""
-msgstr "\"Șterge dosarul: \""
+msgstr "\"Elimină dosarul: \""
 
 #: RenameOnReboot
 msgid "\"Rename on reboot: \""

@@ -1,25 +1,19 @@
-#. extracted from ./browser/chrome/browser/devtools/styleinspector.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 17:16+0000\n"
-"PO-Revision-Date: 2015-08-21 11:59+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440158346.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/styleinspector.dtd.po\n"
-"X-Pootle-Revision: 65700\n"
+"X-Pootle-Revision: 86093\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -46,9 +40,8 @@ msgstr "Filtrează stiluri"
 #. -  hovering the `Add new rule` button in the rules view toolbar. This should
 #. -  match ruleView.contextmenu.addNewRule in styleinspector.properties
 #: addRuleButtonTooltip
-#, fuzzy
 msgid "Add new rule"
-msgstr "Adaugă regulă nouă"
+msgstr "Adaugă o nouă regulă"
 
 #. This is the label for the path of
 #. -  the highlighted element in the web page. This path is based on the document
@@ -62,7 +55,7 @@ msgstr "Elementul selectat:"
 #. -  rule view toolbar.
 #: togglePseudoClassPanel
 msgid "Toggle pseudo-classes"
-msgstr ""
+msgstr "Comută pseudo-clase"
 
 #. In the case where there are no CSS
 #. -  properties to display e.g. due to search criteria this message is
@@ -79,6 +72,3 @@ msgstr "Evaluat"
 #: ruleViewTitle
 msgid "Rules"
 msgstr "Reguli"
-
-#~ msgid "Search"
-#~ msgstr "Caută"

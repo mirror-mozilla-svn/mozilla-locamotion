@@ -1,28 +1,19 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./browser/chrome/browser/devtools/webide.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: l 10n\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 17:16+0000\n"
-"PO-Revision-Date: 2015-08-12 00:20+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1439338835.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/webide.properties."
 "po\n"
-"X-Pootle-Revision: 49256\n"
+"X-Pootle-Revision: 83846\n"
 
 #: title_noApp
 msgid "Firefox WebIDE"
@@ -147,6 +138,9 @@ msgid ""
 "Firefox (%2$S) does. This is an unsupported setup and may cause DevTools to "
 "fail. Please update Firefox."
 msgstr ""
+"Runtime-ul conectat este mai recent (%1$S) decât cel al browserului Firefox "
+"pentru calculator utilizat (%2$S). Este o configurație nesuportată și poate "
+"cauza erori în DevTools. Vă rugăm să actualizați Firefox."
 
 #: addons_stable
 msgid "stable"
@@ -266,7 +260,3 @@ msgstr "Binarul personalizat Gaia…"
 #: simulator_default_profile
 msgid "Use default"
 msgstr "Folosește setările implicite"
-
-#, fuzzy
-#~ msgid "unknown"
-#~ msgstr "Necunoscut"

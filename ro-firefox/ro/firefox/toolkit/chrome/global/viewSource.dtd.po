@@ -1,22 +1,16 @@
-#. extracted from ./toolkit/chrome/global/viewSource.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-18 12:21+0100\n"
-"PO-Revision-Date: 2015-08-22 12:37+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440247065.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/viewSource.dtd.po\n"
 "X-Pootle-Revision: 67041\n"
 
@@ -24,11 +18,13 @@ msgstr ""
 msgid "Source of: "
 msgstr "Sursă: "
 
-#: fileMenu.label fileMenu.accesskey
+#: fileMenu.label
+#: fileMenu.accesskey
 msgid "&File"
 msgstr "&Fișier"
 
-#: savePageCmd.label savePageCmd.accesskey
+#: savePageCmd.label
+#: savePageCmd.accesskey
 msgid "Save Page &As…"
 msgstr "S&alvează pagina ca…"
 
@@ -36,15 +32,18 @@ msgstr "S&alvează pagina ca…"
 msgid "S"
 msgstr "S"
 
-#: pageSetupCmd.label pageSetupCmd.accesskey
+#: pageSetupCmd.label
+#: pageSetupCmd.accesskey
 msgid "Page Set&up…"
 msgstr "Aran&jare în pagină…"
 
-#: printPreviewCmd.label printPreviewCmd.accesskey
+#: printPreviewCmd.label
+#: printPreviewCmd.accesskey
 msgid "Print Pre&view"
 msgstr "Pre&vizualizare tipărire"
 
-#: printCmd.label printCmd.accesskey
+#: printCmd.label
+#: printCmd.accesskey
 msgid "&Print…"
 msgstr "Ti&părește…"
 
@@ -52,7 +51,8 @@ msgstr "Ti&părește…"
 msgid "P"
 msgstr "P"
 
-#: closeCmd.label closeCmd.accesskey
+#: closeCmd.label
+#: closeCmd.accesskey
 msgid "&Close"
 msgstr "În&chide"
 
@@ -96,7 +96,8 @@ msgctxt "textReset.commandkey2"
 msgid ""
 msgstr ""
 
-#: goToLineCmd.label goToLineCmd.accesskey
+#: goToLineCmd.label
+#: goToLineCmd.accesskey
 msgid "&Go to Line…"
 msgstr "Mer&gi la linia…"
 
@@ -104,11 +105,13 @@ msgstr "Mer&gi la linia…"
 msgid "l"
 msgstr "l"
 
-#: viewMenu.label viewMenu.accesskey
+#: viewMenu.label
+#: viewMenu.accesskey
 msgid "&View"
 msgstr "&Vizualizare"
 
-#: reloadCmd.label reloadCmd.accesskey
+#: reloadCmd.label
+#: reloadCmd.accesskey
 msgid "&Reload"
 msgstr "&Reîncarcă"
 
@@ -116,31 +119,38 @@ msgstr "&Reîncarcă"
 msgid "r"
 msgstr "r"
 
-#: menu_wrapLongLines.title menu_wrapLongLines.accesskey
+#: menu_wrapLongLines.title
+#: menu_wrapLongLines.accesskey
 msgid "&Wrap Long Lines"
 msgstr "Î&nfășoară rândurile lungi"
 
-#: menu_highlightSyntax.label menu_highlightSyntax.accesskey
+#: menu_highlightSyntax.label
+#: menu_highlightSyntax.accesskey
 msgid "Syntax &Highlighting"
 msgstr "&Evidențiere sintaxă"
 
-#: menu_textSize.label menu_textSize.accesskey
+#: menu_textSize.label
+#: menu_textSize.accesskey
 msgid "Text Si&ze"
 msgstr "&Mărime text"
 
-#: menu_textEnlarge.label menu_textEnlarge.accesskey
+#: menu_textEnlarge.label
+#: menu_textEnlarge.accesskey
 msgid "&Increase"
 msgstr "Ma&i mare"
 
-#: menu_textReduce.label menu_textReduce.accesskey
+#: menu_textReduce.label
+#: menu_textReduce.accesskey
 msgid "&Decrease"
 msgstr "Mai mi&că"
 
-#: menu_textReset.label menu_textReset.accesskey
+#: menu_textReset.label
+#: menu_textReset.accesskey
 msgid "&Normal"
 msgstr "&Normală"
 
-#: findOnCmd.label findOnCmd.accesskey
+#: findOnCmd.label
+#: findOnCmd.accesskey
 msgid "&Find in This Page…"
 msgstr "&Caută în această pagină…"
 
@@ -148,7 +158,8 @@ msgstr "&Caută în această pagină…"
 msgid "f"
 msgstr "f"
 
-#: findAgainCmd.label findAgainCmd.accesskey
+#: findAgainCmd.label
+#: findAgainCmd.accesskey
 msgid "Find A&gain"
 msgstr "Caută &din nou"
 
@@ -164,11 +175,13 @@ msgstr "VK_F3"
 msgid "e"
 msgstr "e"
 
-#: backCmd.label backCmd.accesskey
+#: backCmd.label
+#: backCmd.accesskey
 msgid "&Back"
 msgstr "Î&napoi"
 
-#: forwardCmd.label forwardCmd.accesskey
+#: forwardCmd.label
+#: forwardCmd.accesskey
 msgid "&Forward"
 msgstr "Î&nainte"
 
@@ -180,10 +193,12 @@ msgstr "["
 msgid "]"
 msgstr "]"
 
-#: copyLinkCmd.label copyLinkCmd.accesskey
+#: copyLinkCmd.label
+#: copyLinkCmd.accesskey
 msgid "Copy &Link Location"
 msgstr "Copiază adresa &linkului"
 
-#: copyEmailCmd.label copyEmailCmd.accesskey
+#: copyEmailCmd.label
+#: copyEmailCmd.accesskey
 msgid "Copy &Email Address"
 msgstr "Copiază adresa de &e-mail"

@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./webapprt/webapprt/overrides/dom.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-11 11:38+0000\n"
-"PO-Revision-Date: 2015-08-25 15:55+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440518133.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/webapprt/webapprt/overrides/dom.properties.po\n"
-"X-Pootle-Revision: 70416\n"
+"X-Pootle-Revision: 100121\n"
 
 #: KillScriptTitle
 msgid "Warning: Unresponsive script"
@@ -80,7 +71,7 @@ msgstr "Scripts may not close windows that were not opened by script."
 
 #: OnBeforeUnloadTitle
 msgid "Are you sure?"
-msgstr "Sunteți sigur?"
+msgstr "Sigur doriți?"
 
 #: OnBeforeUnloadMessage
 msgid ""
@@ -121,12 +112,12 @@ msgstr "An application script has been stopped due to a low memory condition."
 #: SpeculationFailed
 msgid ""
 "An unbalanced tree was written using document.write() causing data from the "
-"network to be reparsed. For more information https://developer.mozilla.org/"
-"en/Optimizing_Your_Pages_for_Speculative_Parsing"
+"network to be reparsed. For more information https://developer.mozilla.org/en"
+"/Optimizing_Your_Pages_for_Speculative_Parsing"
 msgstr ""
 "An unbalanced tree was written using document.write() causing data from the "
-"network to be reparsed. For more information https://developer.mozilla.org/"
-"en/Optimizing_Your_Pages_for_Speculative_Parsing"
+"network to be reparsed. For more information https://developer.mozilla.org/en"
+"/Optimizing_Your_Pages_for_Speculative_Parsing"
 
 #: DocumentWriteIgnored
 msgid ""
@@ -138,11 +129,11 @@ msgstr ""
 
 #: FormValidationTextTooLong
 msgid ""
-"Please shorten this text to %S characters or less (you are currently using "
-"%S characters)."
+"Please shorten this text to %S characters or less (you are currently using %"
+"S characters)."
 msgstr ""
-"Please shorten this text to %S characters or less (you are currently using "
-"%S characters)."
+"Vă rugăm să scurtați acest text la %S caractere sau mai puțin (în prezent "
+"folosiți %S caractere)."
 
 #: FormValidationValueMissing
 msgid "Please fill out this field."
@@ -158,7 +149,7 @@ msgstr "Vă rugăm să selectați una dintre aceste opțiuni."
 
 #: FormValidationFileMissing
 msgid "Please select a file."
-msgstr "Vă rugăm selectați un fișier."
+msgstr "Vă rugăm să selectați un fișier."
 
 #: FormValidationSelectMissing
 msgid "Please select an item in the list."
@@ -226,7 +217,9 @@ msgstr ""
 #. # LOCALIZATION NOTE (FormValidationStepMismatchOneValue): %S can be a number, a date or a time. This is called instead of FormValidationStepMismatch when the second value is the same as the first.
 #: FormValidationStepMismatchOneValue
 msgid "Please select a valid value. The nearest valid value is %S."
-msgstr "Selectați o valoare valabilă. Cea mai apropiată valoare validă e %S."
+msgstr ""
+"Vă rugăm să selectați o valoare validă. Cea mai apropiată valoare validă e "
+"%S."
 
 #: FormValidationBadInputNumber
 msgid "Please enter a number."
@@ -275,8 +268,8 @@ msgstr ""
 
 #: CreateAttributeNSWarning
 msgid ""
-"Use of document.createAttributeNS() is deprecated. Use element."
-"setAttributeNS() instead."
+"Use of document.createAttributeNS() is deprecated. Use "
+"element.setAttributeNS() instead."
 msgstr ""
 "Folosirea document.createAttributeNS() este descurajată. Folosiți în schimb "
 "element.setAttributeNS()."
@@ -302,18 +295,19 @@ msgid ""
 "Use of enablePrivilege is deprecated. Please use code that runs with the "
 "system principal (e.g. an extension) instead."
 msgstr ""
-"Folosirea enablePrivilege este descurajată. Vă rugăm folosiți în schimb cod "
-"care rulează la același nivel cu procesul principal (ex. o extensie)."
+"Folosirea enablePrivilege este descurajată. Vă rugăm să folosiți în schimb "
+"cod care rulează la același nivel cu procesul principal (ex. o extensie)."
 
 #: nsIJSONDecodeDeprecatedWarning
 msgid "nsIJSON.decode is deprecated. Please use JSON.parse instead."
 msgstr ""
-"nsIJSON.decode este descurajat. Vă rugăm folosiți în schimb JSON.parse."
+"nsIJSON.decode este descurajat. Vă rugăm să folosiți JSON.parse în schimb."
 
 #: nsIJSONEncodeDeprecatedWarning
 msgid "nsIJSON.encode is deprecated. Please use JSON.stringify instead."
 msgstr ""
-"nsIJSON.encode este descurajat. Vă rugăm folosiți în schimb JSON.stringify."
+"nsIJSON.encode este descurajat. Vă rugăm să folosiți JSON.stringify în "
+"schimb."
 
 #: nsIDOMWindowInternalWarning
 msgid "Use of nsIDOMWindowInternal is deprecated. Use nsIDOMWindow instead."
@@ -360,9 +354,9 @@ msgid ""
 "Request for full-screen was denied because Element.mozRequestFullScreen() "
 "was not called from inside a short running user-generated event handler."
 msgstr ""
-"Solicitarea pentru ecran complet a fost refuzată pentru că Element."
-"mozRequestFullScreen() nu a fost chemată din interiorul unui gestionar de "
-"eveniment generat de utilizator."
+"Solicitarea pentru ecran complet a fost refuzată pentru că "
+"Element.mozRequestFullScreen() nu a fost chemată din interiorul unui "
+"gestionar de eveniment generat de utilizator."
 
 #: FullScreenDeniedNotInDocument
 msgid ""
@@ -400,7 +394,8 @@ msgid ""
 "descendant of the current full-screen element."
 msgstr ""
 "Solicitarea pentru ecran complet a fost refuzată pentru că elementul care o "
-"cerea nu este un descendent al elementului curent care e în ecran complet."
+"cerea nu este un descendent al elementului actual care se află în ecran "
+"complet."
 
 #: FullScreenDeniedNotFocusedTab
 msgid ""
@@ -472,8 +467,7 @@ msgstr ""
 #. # LOCALIZATION NOTE: Do not translate AudioBufferSourceNode
 #: MediaBufferSourceNodeResampleOutOfMemory
 msgid "Insufficient memory to resample the AudioBufferSourceNode for playback."
-msgstr ""
-"Insufficient memory to resample the AudioBufferSourceNode for playback."
+msgstr "Insufficient memory to resample the AudioBufferSourceNode for playback."
 
 #. # LOCALIZATION NOTE: Do not translate decodeAudioData.
 #: MediaDecodeAudioDataUnknownContentType
@@ -544,8 +538,8 @@ msgid ""
 "HTTP \"Content-Type\" of \"%1$S\" is not supported. Load of media resource "
 "%2$S failed."
 msgstr ""
-"„%1$S” nu e suportat ca și „Content-Type” HTTP. Încărcarea resursei media "
-"%2$S a eșuat."
+"„%1$S” nu e suportat ca și „Content-Type” HTTP. Încărcarea resursei media %2$"
+"S a eșuat."
 
 #. # LOCALIZATION NOTE: %S is the URL of the media resource which failed to load because of error in decoding.
 #: MediaLoadDecodeError
@@ -609,8 +603,8 @@ msgid ""
 "'mozHidden' and 'mozVisibilityState' are deprecated. Please use the "
 "unprefixed 'hidden' and 'visibilityState' instead."
 msgstr ""
-"'mozHidden' și 'mozVisibilityState' sunt învechite. Vă rugăm folosiți în "
-"schimb 'hidden' și 'visibilityState' neprefixate."
+"'mozHidden' și 'mozVisibilityState' sunt învechite. Vă rugăm să folosiți "
+"'hidden' și 'visibilityState' neprefixate în schimb."
 
 #. # LOCALIZATION NOTE: Do not translate "NodeIterator" or "detach()".
 #: NodeIteratorDetachWarning
@@ -645,8 +639,8 @@ msgstr ""
 #. # LOCALIZATION NOTE: Do not translate "getUserData", "setUserData", "WeakMap", or "element.dataset".
 #: GetSetUserDataWarning
 msgid ""
-"Use of getUserData() or setUserData() is deprecated. Use WeakMap or element."
-"dataset instead."
+"Use of getUserData() or setUserData() is deprecated. Use WeakMap or "
+"element.dataset instead."
 msgstr ""
 "Folosirea getUserData() sau setUserData() este învechită. Folosiți în schimb "
 "WeakMap sau element.dataset."
@@ -664,8 +658,8 @@ msgstr ""
 #: UseOfCaptureEventsWarning
 msgid ""
 "Use of captureEvents() is deprecated. To upgrade your code, use the DOM 2 "
-"addEventListener() method. For more help http://developer.mozilla.org/en/"
-"docs/DOM:element.addEventListener"
+"addEventListener() method. For more help "
+"http://developer.mozilla.org/en/docs/DOM:element.addEventListener"
 msgstr ""
 "Folosirea captureEvents() este descurajată. Pentru actualizarea codului "
 "dumneavoastră folosiți metoda DOM 2 addEventListener() . Pentru mai multe "
@@ -675,8 +669,8 @@ msgstr ""
 #: UseOfReleaseEventsWarning
 msgid ""
 "Use of releaseEvents() is deprecated. To upgrade your code, use the DOM 2 "
-"removeEventListener() method. For more help http://developer.mozilla.org/en/"
-"docs/DOM:element.removeEventListener"
+"removeEventListener() method. For more help "
+"http://developer.mozilla.org/en/docs/DOM:element.removeEventListener"
 msgstr ""
 "Folosirea releaseEvents() este descurajată. Pentru actualizarea codului "
 "dumneavoastră folosiți metoda DOM 2 removeEventListener() . Pentru mai multe "
@@ -686,8 +680,8 @@ msgstr ""
 #: UseOfDOM3LoadMethodWarning
 msgid ""
 "Use of document.load() is deprecated. To upgrade your code, use the DOM "
-"XMLHttpRequest object. For more help https://developer.mozilla.org/en/"
-"XMLHttpRequest"
+"XMLHttpRequest object. For more help "
+"https://developer.mozilla.org/en/XMLHttpRequest"
 msgstr ""
 "Folosirea funcției document.load() este descurajată. Pentru actualizarea "
 "codului dumneavoastră folosiți obiectul DOM XMLHttpRequest. Pentru mai multe "
@@ -699,21 +693,23 @@ msgid ""
 "Use of window.showModalDialog() is deprecated. Use window.open() instead. "
 "For more help https://developer.mozilla.org/en-US/docs/Web/API/Window.open"
 msgstr ""
-"Folosirea window.showModalDialog() este învechită. Folosiți în schimb window."
-"open() . Pentru mai multe detalii https://developer.mozilla.org/en-US/docs/"
-"Web/API/Window.open"
+"Folosirea window.showModalDialog() este învechită. Folosiți în schimb "
+"window.open() . Pentru mai multe detalii https://developer.mozilla.org/en-"
+"US/docs/Web/API/Window.open"
 
 #. # LOCALIZATION NOTE: Do not translate "window._content" or "window.content"
 #: Window_ContentWarning
 msgid "window._content is deprecated. Please use window.content instead."
-msgstr "window._content este descurajat. Folosiți în schimb window.content."
+msgstr ""
+"window._content este descurajat. Vă rugăm să folosiți window.content în "
+"schimb."
 
 #. # LOCALIZATION NOTE: Do not translate "XMLHttpRequest"
 #: SyncXMLHttpRequestWarning
 msgid ""
 "Synchronous XMLHttpRequest on the main thread is deprecated because of its "
-"detrimental effects to the end user's experience. For more help http://xhr."
-"spec.whatwg.org/"
+"detrimental effects to the end user's experience. For more help "
+"http://xhr.spec.whatwg.org/"
 msgstr ""
 "HTMLHttpReqest sincron pe firul de execuție principal este descurajat din "
 "cauza efectelor negative asupra experienței utilizatorului final. Pentru mai "
@@ -731,44 +727,5 @@ msgid ""
 "Attempting to create a Worker from an empty source. This is probably "
 "unintentional."
 msgstr ""
-"Se încearcă să se creeze un Worker de la o sursă goală. Aceasta este "
+"Se încearcă să se creeze un worker de la o sursă goală. Aceasta este "
 "probabil neintenționat."
-
-#~ msgid ""
-#~ "MozBeforePaint events are no longer supported. mozRequestAnimationFrame "
-#~ "must be passed a non-null callback argument."
-#~ msgstr ""
-#~ "MozBeforePaint events are no longer supported. mozRequestAnimationFrame "
-#~ "must be passed a non-null callback argument."
-
-#~ msgid ""
-#~ "Request for full-screen was denied because this domain has been blocked "
-#~ "from full-screen by user."
-#~ msgstr ""
-#~ "Solicitarea pentru ecran complet a fost respinsă deoarece acest domeniu a "
-#~ "fost blocat pentru mod ecran complet de către utilizator."
-
-#~ msgid ""
-#~ "Request for full-screen was denied because requesting element is in the "
-#~ "chrome document and the fullscreen API is configured for content only."
-#~ msgstr ""
-#~ "Solicitarea pentru ecran complet a fost respinsă pentru că elementul "
-#~ "solicitat în documentul chroem și API-ul fullscreen este configurat doar "
-#~ "pentru conținut."
-
-#~ msgid "Please select a value that is higher than %S."
-#~ msgstr "Please select a value that is higher than %S."
-
-#~ msgid ""
-#~ "Use of attributes' specified attribute is deprecated. It always returns "
-#~ "true."
-#~ msgstr ""
-#~ "Use of attributes' specified attribute is deprecated. It always returns "
-#~ "true."
-
-#~ msgid ""
-#~ "The Mozilla Audio Data API is deprecated. Please use the Web Audio API "
-#~ "instead."
-#~ msgstr ""
-#~ "The Mozilla Audio Data API is deprecated.  Please use the Web Audio API "
-#~ "instead."

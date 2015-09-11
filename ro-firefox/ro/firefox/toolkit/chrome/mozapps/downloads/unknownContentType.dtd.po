@@ -1,22 +1,16 @@
-#. extracted from ./toolkit/chrome/mozapps/downloads/unknownContentType.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-17 16:32+0200\n"
-"PO-Revision-Date: 2015-08-25 15:43+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440517430.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/toolkit/chrome/mozapps/downloads/unknownContentType.dtd.po\n"
 "X-Pootle-Revision: 70363\n"
@@ -36,7 +30,8 @@ msgstr "De la:"
 msgid "What should &brandShortName; do with this file?"
 msgstr "Ce să facă &brandShortName; cu acest fișier?"
 
-#: openWith.label openWith.accesskey
+#: openWith.label
+#: openWith.accesskey
 msgid "&Open with"
 msgstr "&Deschidere cu"
 
@@ -44,11 +39,13 @@ msgstr "&Deschidere cu"
 msgid "Other…"
 msgstr "Altceva…"
 
-#: saveFile.label saveFile.accesskey
+#: saveFile.label
+#: saveFile.accesskey
 msgid "&Save File"
 msgstr "&Salvează fișierul"
 
-#: rememberChoice.label rememberChoice.accesskey
+#: rememberChoice.label
+#: rememberChoice.accesskey
 msgid "Do this &automatically for files like this from now on."
 msgstr "Fă l&a fel în mod automat pentru fișiere ca acesta de acum înainte."
 
@@ -56,11 +53,13 @@ msgstr "Fă l&a fel în mod automat pentru fișiere ca acesta de acum înainte."
 msgid "which is:"
 msgstr "care este:"
 
-#: chooseHandlerMac.label chooseHandlerMac.accesskey
+#: chooseHandlerMac.label
+#: chooseHandlerMac.accesskey
 msgid "&Choose…"
 msgstr "&Alege…"
 
-#: chooseHandler.label chooseHandler.accesskey
+#: chooseHandler.label
+#: chooseHandler.accesskey
 msgid "&Browse…"
 msgstr "Răs&foiește…"
 

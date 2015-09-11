@@ -1,25 +1,16 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./toolkit/chrome/global/aboutReader.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: l 10n\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-30 19:16+0000\n"
-"PO-Revision-Date: 2015-04-24 22:37+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1429915049.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutReader.properties.po\n"
 "X-Pootle-Revision: 0\n"
 
@@ -115,15 +106,3 @@ msgstr "Închide modul lectură"
 msgctxt "readerView.close.accesskey"
 msgid "R"
 msgstr "R"
-
-#~ msgid "A"
-#~ msgstr "A"
-
-#~ msgid "Charis SIL Compact"
-#~ msgstr "Charis SIL Compact"
-
-#~ msgid "Clear Sans"
-#~ msgstr "Clear Sans"
-
-#~ msgid "Tap the screen to show reader options"
-#~ msgstr "Atingeți ecranul pentru a afișa opțiunile cititorului"

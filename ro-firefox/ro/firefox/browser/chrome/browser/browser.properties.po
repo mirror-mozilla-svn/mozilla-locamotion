@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./browser/chrome/browser/browser.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-11 11:38+0000\n"
-"PO-Revision-Date: 2015-08-26 11:41+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440589314.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/browser.properties.po\n"
-"X-Pootle-Revision: 70886\n"
+"X-Pootle-Revision: 85684\n"
 
 #: nv_timeout
 msgid "Timed Out"
@@ -37,7 +28,7 @@ msgstr "Stabilire pagină de start"
 
 #: droponhomemsg
 msgid "Do you want this document to be your new home page?"
-msgstr "Doriți ca acest document să fie noua dumneavoastră pagină de start?"
+msgstr "Doriți ca acest document să fie noua pagină de start?"
 
 #. # context menu strings
 #. # LOCALIZATION NOTE (contextMenuSearch): %1$S is the search engine,
@@ -115,11 +106,13 @@ msgstr "Se verifică"
 msgid "(Unverified)"
 msgstr "(Neverificat)"
 
-#: addonInstall.cancelButton.label addonInstall.cancelButton.accesskey
+#: addonInstall.cancelButton.label
+#: addonInstall.cancelButton.accesskey
 msgid "&Cancel"
 msgstr "&Anulează"
 
-#: addonInstall.acceptButton.label addonInstall.acceptButton.accesskey
+#: addonInstall.acceptButton.label
+#: addonInstall.acceptButton.accesskey
 msgid "&Install"
 msgstr "&Instalare"
 
@@ -167,11 +160,13 @@ msgstr "%1$S ar putea face ca %2$S să încetinească"
 msgid "Disable %S"
 msgstr "Dezactivează %S"
 
-#: addonwatch.ignoreSession.label addonwatch.ignoreSession.accesskey
+#: addonwatch.ignoreSession.label
+#: addonwatch.ignoreSession.accesskey
 msgid "&Ignore for now"
 msgstr "&Ignoră deocamdată"
 
-#: addonwatch.ignorePerm.label addonwatch.ignorePerm.accesskey
+#: addonwatch.ignorePerm.label
+#: addonwatch.ignorePerm.accesskey
 msgid "Ignore &permanently"
 msgstr "Ingoră &permanent"
 
@@ -179,7 +174,8 @@ msgstr "Ingoră &permanent"
 msgid "To disable %1$S you must restart %2$S"
 msgstr "Pentru a dezactiva %1$S trebuie să reporniți %2$S"
 
-#: addonwatch.restart.label addonwatch.restart.accesskey
+#: addonwatch.restart.label
+#: addonwatch.restart.accesskey
 msgid "&Restart %S"
 msgstr "&Repornește %S"
 
@@ -298,8 +294,8 @@ msgstr ""
 #: unsignedAddonsDisabled.learnMore.label
 #: unsignedAddonsDisabled.learnMore.accesskey
 msgctxt ""
-"unsignedAddonsDisabled.learnMore.label unsignedAddonsDisabled.learnMore."
-"accesskey"
+"unsignedAddonsDisabled.learnMore.label "
+"unsignedAddonsDisabled.learnMore.accesskey"
 msgid "&Learn More"
 msgstr "Află mai mu&lte"
 
@@ -553,22 +549,26 @@ msgstr "Necunoscut"
 #. # LOCALIZATION NOTE (pluginActivateNow.label): This button will enable the
 #. # plugin in the current session for an short time (about an hour), auto-renewed
 #. # if the site keeps using the plugin.
-#: pluginActivateNow.label pluginActivateNow.accesskey
+#: pluginActivateNow.label
+#: pluginActivateNow.accesskey
 msgid "Allow &Now"
 msgstr "&Permite acum"
 
 #. # LOCALIZATION NOTE (pluginActivateAlways.label): This button will enable the
 #. # plugin for a long while (90 days), auto-renewed if the site keeps using the
 #. # plugin.
-#: pluginActivateAlways.label pluginActivateAlways.accesskey
+#: pluginActivateAlways.label
+#: pluginActivateAlways.accesskey
 msgid "Allow and &Remember"
 msgstr "Pe&rmite și ține minte"
 
-#: pluginBlockNow.label pluginBlockNow.accesskey
+#: pluginBlockNow.label
+#: pluginBlockNow.accesskey
 msgid "&Block Plugin"
 msgstr "&Blochează pluginul"
 
-#: pluginContinue.label pluginContinue.accesskey
+#: pluginContinue.label
+#: pluginContinue.accesskey
 msgid "&Continue Allowing"
 msgstr "Permite în &continuare"
 
@@ -586,13 +586,15 @@ msgid "This plugin has security vulnerabilities."
 msgstr "Acest plugin are vulnerabilități de securitate."
 
 #. # infobar UI
-#: pluginContinueBlocking.label pluginContinueBlocking.accesskey
+#: pluginContinueBlocking.label
+#: pluginContinueBlocking.accesskey
 msgid "Continue &Blocking"
 msgstr "Continuă &blocarea"
 
 #. # LOCALIZATION NOTE (pluginActivateTrigger): Use the unicode ellipsis char, \u2026,
 #. # or use "..." if \u2026 doesn't suit traditions in your locale.
-#: pluginActivateTrigger.label pluginActivateTrigger.accesskey
+#: pluginActivateTrigger.label
+#: pluginActivateTrigger.accesskey
 msgid "&Allow…"
 msgstr "&Permite…"
 
@@ -842,7 +844,7 @@ msgstr "Acest site nu furnizează informații despre identitatea sa."
 
 #: trackingProtection.intro.title
 msgid "How Tracking Protection works"
-msgstr ""
+msgstr "Cum funcționează protecția față de urmărire"
 
 #. # LOCALIZATION NOTE (trackingProtection.intro.description): %S is brandShortName
 #: trackingProtection.intro.description
@@ -850,24 +852,25 @@ msgid ""
 "When the shield is visible, that means Firefox is actively blocking content "
 "that tracks you."
 msgstr ""
+"Când scutul este vizibil, înseamnă că Firefox blochează în mod activ "
+"conținut care vă urmărește."
 
 #. # LOCALIZATION NOTE (trackingProtection.intro.step1of3): Indicates that the intro panel is step one of three in a tour.
 #: trackingProtection.intro.step1of3
 msgid "1 of 3"
-msgstr ""
+msgstr "1 din 3"
 
 #: trackingProtection.intro.nextButton.label
-#, fuzzy
 msgid "Next"
-msgstr "Î&nainte"
+msgstr "Mai departe"
 
 #: trackingProtection.icon.activeTooltip
 msgid "Tracking attempts blocked"
-msgstr ""
+msgstr "Au fost blocate tentative de urmărire"
 
 #: trackingProtection.icon.disabledTooltip
 msgid "Tracking content detected"
-msgstr ""
+msgstr "A fost detectat conținut de urmărire"
 
 #. # Edit Bookmark UI
 #: editBookmarkPanel.pageBookmarkedTitle
@@ -897,7 +900,8 @@ msgid "Remove Bookmark;Remove #1 Bookmarks"
 msgstr "Șterge semnul de carte;Șterge #1 semne de carte"
 
 #. # Post Update Notifications
-#: pu.notifyButton.label pu.notifyButton.accesskey
+#: pu.notifyButton.label
+#: pu.notifyButton.accesskey
 msgid "&Details…"
 msgstr "&Detalii…"
 
@@ -1174,7 +1178,7 @@ msgstr "Aflați mai multe"
 #: syncPromoNotification.addons.description
 msgid "You can access your add-ons on all your devices with %S. "
 msgstr ""
-"Puteși accesa suplimentele de pe toate dispozitivele dumneavoastră cu %S. "
+"Puteți accesa suplimentele de pe toate dispozitivele dumneavoastră cu %S. "
 
 #. # LOCALIZATION NOTE (syncPromoNotification.addons-sync-disabled.label):
 #. # This appears in the add-on install complete panel when Sync is set
@@ -1206,7 +1210,8 @@ msgstr "&Alegeți ceea ce partajați"
 msgid "A web page is causing %1$S to run slowly. What would you like to do?"
 msgstr "O pagină web face ca %1$S să încetinească. Ce ați dori să faceți?"
 
-#: processHang.button.label processHang.button.accessKey
+#: processHang.button.label
+#: processHang.button.accessKey
 msgctxt "processHang.button.label processHang.button.accessKey"
 msgid "&Options"
 msgstr "&Opțiuni"
@@ -1284,7 +1289,8 @@ msgstr ""
 "Doriți să permiteți serviciilor de la %1$S să afișeze în bara de unelte și "
 "bara laterală din %2$S?"
 
-#: service.install.ok.label service.install.ok.accesskey
+#: service.install.ok.label
+#: service.install.ok.accesskey
 msgid "&Enable Services"
 msgstr "Activează s&ervicii"
 
@@ -1303,11 +1309,13 @@ msgstr "Salvează linkul pe %S"
 msgid "%1$S is unable to connect with %2$S right now."
 msgstr "%1$S nu poate să se conecteze pentru moment la %2$S."
 
-#: social.error.tryAgain.label social.error.tryAgain.accesskey
+#: social.error.tryAgain.label
+#: social.error.tryAgain.accesskey
 msgid "&Try Again"
 msgstr "Î&ncearcă din nou"
 
-#: social.error.closeSidebar.label social.error.closeSidebar.accesskey
+#: social.error.closeSidebar.label
+#: social.error.closeSidebar.accesskey
 msgid "&Close This Sidebar"
 msgstr "În&chide această bară laterală"
 
@@ -1334,7 +1342,8 @@ msgstr "Autentificare la %S"
 msgid "Use an existing email"
 msgstr "Utilizează un e-mail existent"
 
-#: identity.newIdentity.label identity.newIdentity.accessKey
+#: identity.newIdentity.label
+#: identity.newIdentity.accessKey
 msgid "Us&e a different email"
 msgstr "Folosiți o adr&esă diferită de e-mail"
 
@@ -1347,7 +1356,8 @@ msgstr "E-mail"
 msgid "Enter your email address to sign in to %S"
 msgstr "Introduceți adresa de e-mail pentru autentificarea la %S"
 
-#: identity.next.label identity.next.accessKey
+#: identity.next.label
+#: identity.next.accessKey
 msgid "&Next"
 msgstr "Î&nainte"
 
@@ -1357,7 +1367,8 @@ msgstr "Î&nainte"
 msgid "Signed in as: %S"
 msgstr "Autenficat ca: %S"
 
-#: identity.loggedIn.signOut.label identity.loggedIn.signOut.accessKey
+#: identity.loggedIn.signOut.label
+#: identity.loggedIn.signOut.accessKey
 msgid "Sign &Out"
 msgstr "Dec&onectare"
 
@@ -1383,9 +1394,8 @@ msgid "Would you like to share your camera and microphone with %S?"
 msgstr "Doriți să vă partajați camera și microfonul cu %S?"
 
 #: getUserMedia.shareCameraAndAudioCapture.message
-#, fuzzy
 msgid "Would you like to share your camera and this tab's audio with %S?"
-msgstr "Doriți să vă partajați camera și microfonul cu %S?"
+msgstr "Doriți să vă partajați camera și microfonul din această filă cu %S?"
 
 #: getUserMedia.shareScreenAndMicrophone.message
 msgid "Would you like to share your microphone and screen with %S?"
@@ -1393,18 +1403,19 @@ msgstr "Doriți să partajați microfonul și ecranul cu %S?"
 
 #: getUserMedia.shareScreenAndAudioCapture.message
 msgid "Would you like to share this tab's audio and your screen with %S?"
-msgstr ""
+msgstr "Doriți să partajați microfonul din această filă și ecranul cu %S?"
 
 #: getUserMedia.shareAudioCapture.message
-#, fuzzy
 msgid "Would you like to share this tab's audio with %S?"
-msgstr "Doriți să vă partajați camera și microfonul cu %S?"
+msgstr "Doriți să vă partajați microfonul din această filă cu %S?"
 
-#: getUserMedia.selectWindow.label getUserMedia.selectWindow.accesskey
+#: getUserMedia.selectWindow.label
+#: getUserMedia.selectWindow.accesskey
 msgid "&Window to share:"
 msgstr "F&ereastră de partajat:"
 
-#: getUserMedia.selectScreen.label getUserMedia.selectScreen.accesskey
+#: getUserMedia.selectScreen.label
+#: getUserMedia.selectScreen.accesskey
 msgid "&Screen to share:"
 msgstr "Ecr&an de partajat:"
 
@@ -1471,15 +1482,18 @@ msgstr "Partajează fereastra selectată"
 msgid "Share Selected Items"
 msgstr "Partajează elementele alese"
 
-#: getUserMedia.always.label getUserMedia.always.accesskey
+#: getUserMedia.always.label
+#: getUserMedia.always.accesskey
 msgid "&Always Share"
 msgstr "Împărtășește întotde&auna"
 
-#: getUserMedia.denyRequest.label getUserMedia.denyRequest.accesskey
+#: getUserMedia.denyRequest.label
+#: getUserMedia.denyRequest.accesskey
 msgid "&Don't Share"
 msgstr "&Nu o împărtăși"
 
-#: getUserMedia.never.label getUserMedia.never.accesskey
+#: getUserMedia.never.label
+#: getUserMedia.never.accesskey
 msgid "&Never Share"
 msgstr "&Nu o împărtăși niciodată"
 
@@ -1512,19 +1526,21 @@ msgid "You are currently sharing a tab with this page."
 msgstr "În prezent partajați o filă cu această pagină."
 
 #: getUserMedia.sharingAudioCapture.message
-#, fuzzy
 msgid "You are currently sharing a tab's audio with this page."
-msgstr "În prezent partajați o filă cu această pagină."
+msgstr "În prezent partajați microfonul dintr-o filă cu această pagină."
 
-#: getUserMedia.continueSharing.label getUserMedia.continueSharing.accesskey
+#: getUserMedia.continueSharing.label
+#: getUserMedia.continueSharing.accesskey
 msgid "&Continue Sharing"
 msgstr "&Continuă partajarea"
 
-#: getUserMedia.stopSharing.label getUserMedia.stopSharing.accesskey
+#: getUserMedia.stopSharing.label
+#: getUserMedia.stopSharing.accesskey
 msgid "&Stop Sharing"
 msgstr "Oprește &partajarea"
 
-#: getUserMedia.sharingMenu.label getUserMedia.sharingMenu.accesskey
+#: getUserMedia.sharingMenu.label
+#: getUserMedia.sharingMenu.accesskey
 msgid "Tabs sharing &devices"
 msgstr "Partajarea filelor pe &dispozitive"
 
@@ -1568,7 +1584,7 @@ msgstr "%S (microfon)"
 
 #: getUserMedia.sharingMenuAudioCapture
 msgid "%S (tab audio)"
-msgstr ""
+msgstr "%S (microfon filă)"
 
 #: getUserMedia.sharingMenuApplication
 msgid "%S (application)"
@@ -1607,25 +1623,24 @@ msgid "%S (camera, microphone and tab)"
 msgstr "%S (cameră, microfon și filă)"
 
 #: getUserMedia.sharingMenuCameraAudioCapture
-#, fuzzy
 msgid "%S (camera and tab audio)"
-msgstr "%S (cameră și filă)"
+msgstr "%S (cameră microfon filă)"
 
 #: getUserMedia.sharingMenuCameraAudioCaptureApplication
 msgid "%S (camera, tab audio and application)"
-msgstr ""
+msgstr "%S (cameră, microfon filă și aplicație)"
 
 #: getUserMedia.sharingMenuCameraAudioCaptureScreen
 msgid "%S (camera, tab audio and screen)"
-msgstr ""
+msgstr "%S (cameră, microfon filă și ecran)"
 
 #: getUserMedia.sharingMenuCameraAudioCaptureWindow
 msgid "%S (camera, tab audio and window)"
-msgstr ""
+msgstr "%S (cameră, microfon filă și fereastră)"
 
 #: getUserMedia.sharingMenuCameraAudioCaptureBrowser
 msgid "%S (camera, tab audio and tab)"
-msgstr ""
+msgstr "%S (cameră, microfon filă și filă)"
 
 #: getUserMedia.sharingMenuCameraApplication
 msgid "%S (camera and application)"
@@ -1661,19 +1676,19 @@ msgstr "%S (microfon și filă)"
 
 #: getUserMedia.sharingMenuAudioCaptureApplication
 msgid "%S (tab audio and application)"
-msgstr ""
+msgstr "%S (microfon filă și aplicație)"
 
 #: getUserMedia.sharingMenuAudioCaptureScreen
 msgid "%S (tab audio and screen)"
-msgstr ""
+msgstr "%S (microfon filă și ecran)"
 
 #: getUserMedia.sharingMenuAudioCaptureWindow
 msgid "%S (tab audio and window)"
-msgstr ""
+msgstr "%S (microfon filă și fereastră)"
 
 #: getUserMedia.sharingMenuAudioCaptureBrowser
 msgid "%S (tab audio and tab)"
-msgstr ""
+msgstr "%S (microfon filă și filă)"
 
 #. # LOCALIZATION NOTE(getUserMedia.sharingMenuUnknownHost): this is used for the website
 #. # origin for the sharing menu if no readable origin could be deduced from the URL.
@@ -1719,8 +1734,8 @@ msgid ""
 "The audio or video on this page requires DRM software that %1$S does not "
 "support. %2$S"
 msgstr ""
-"Clipul audio sau video de pe această pagină necesită programe DRM pe care "
-"%1$S nu le suportă. %2$S"
+"Clipul audio sau video de pe această pagină necesită programe DRM pe care %1$"
+"S nu le suportă. %2$S"
 
 #. # LOCALIZATION NOTE(emeNotifications.drmContentCDMNotSupported.learnMoreLabel): NB: inserted via innerHTML, so please don't use <, > or & in this string.
 #: emeNotifications.drmContentCDMNotSupported.learnMoreLabel
@@ -1761,8 +1776,8 @@ msgid ""
 "The audio or video on this page requires DRM software that %1$S does not "
 "support on %2$S. %3$S"
 msgstr ""
-"Clipul audio sau video de pe aceasta pagină necesită programe DRM pe care "
-"%1$S nu le suportă la %2$S. %3$S"
+"Clipul audio sau video de pe aceasta pagină necesită programe DRM pe care %1$"
+"S nu le suportă la %2$S. %3$S"
 
 #: emeNotifications.optionsButton.label
 #: emeNotifications.optionsButton.accesskey
@@ -1781,7 +1796,8 @@ msgstr "Necunoscut"
 msgid "%S seems slow… to… start."
 msgstr "%S pare încet… la… pornire."
 
-#: slowStartup.helpButton.label slowStartup.helpButton.accesskey
+#: slowStartup.helpButton.label
+#: slowStartup.helpButton.accesskey
 msgid "&Learn How to Speed It Up"
 msgstr "A&flă cum poți să-l faci să pornească mai repede"
 
@@ -1796,7 +1812,8 @@ msgid "%S changed some Adobe Flash settings to improve performance."
 msgstr ""
 "%S a schimbat unele setări ale Adobe Flash pentru a îmbunătăți performanța."
 
-#: flashHang.helpButton.label flashHang.helpButton.accesskey
+#: flashHang.helpButton.label
+#: flashHang.helpButton.accesskey
 msgid "&Learn More…"
 msgstr "Aflați mai mu&lte…"
 
@@ -1891,7 +1908,8 @@ msgstr "Mai puține defecțiuni"
 msgid "&Enable and Restart"
 msgstr "Activ&ează și repornește"
 
-#: e10s.offerPopup.noThanks.label e10s.offerPopup.noThanks.accesskey
+#: e10s.offerPopup.noThanks.label
+#: e10s.offerPopup.noThanks.accesskey
 msgid "&No, thanks"
 msgstr "&Nu, mulțumesc"
 
@@ -1906,8 +1924,8 @@ msgstr ""
 #: e10s.postActivationInfobar.learnMore.label
 #: e10s.postActivationInfobar.learnMore.accesskey
 msgctxt ""
-"e10s.postActivationInfobar.learnMore.label e10s.postActivationInfobar."
-"learnMore.accesskey"
+"e10s.postActivationInfobar.learnMore.label "
+"e10s.postActivationInfobar.learnMore.accesskey"
 msgid "&Learn More"
 msgstr "Află mai mu&lte"
 
@@ -1929,297 +1947,3 @@ msgstr "Dezactivează și &repornește"
 #: e10s.accessibilityNotice.dontDisable.accesskey
 msgid "&Don't Disable"
 msgstr "Nu &dezactiva"
-
-#~ msgid ""
-#~ "The connection to this website is not fully secure because it contains "
-#~ "unencrypted elements (such as images) or the encryption is not strong "
-#~ "enough."
-#~ msgstr ""
-#~ "Conexiunea la acest sait nu este pe deplin sigură, deoarece conține "
-#~ "elemente necriptate (cum ar fi imagini) ori criptarea nu este suficient "
-#~ "de puternică."
-
-#~ msgid ""
-#~ "This website contains interactive content that isn't encrypted (such as "
-#~ "scripts). Other people can view your information or modify the website's "
-#~ "behavior."
-#~ msgstr ""
-#~ "Acest websait conține conținut interactiv care nu este criptat (cum ar fi "
-#~ "script-uri). Alte persoane pot vizualiza informațiile sau pot modifica "
-#~ "comportamentul websaitului."
-
-#~ msgid "Remember decision for %S"
-#~ msgstr "Reține decizia pentru %S"
-
-#~ msgid "Show %S more item;Show %S more items"
-#~ msgstr "Arată %S încă un articol; Arată %S mai multe articole"
-
-#~ msgid "Add page to Reading List"
-#~ msgstr "Adăugați pagina în lista de citit"
-
-#~ msgid "Page added to Reading List"
-#~ msgstr "Pagină adăugată la lista de citit"
-
-#~ msgid "Remove page from Reading List"
-#~ msgstr "Eliminați pagina din lista de citit"
-
-#~ msgid "Page removed from Reading List"
-#~ msgstr "Pagină eliminată din lista de citit"
-
-#~ msgid "Access your Reading List on all your devices. %S"
-#~ msgstr "Accesați lista dumneavoastră de citit pe toate dispozitivele. %S"
-
-#~ msgid "Get started with %S."
-#~ msgstr "Începeți cu %S."
-
-#~ msgid ""
-#~ "You can now access your Reading List on all your devices connected by %S."
-#~ msgstr ""
-#~ "Acum puteți accesa lista de citit pe toate dispozitivele conectate prin "
-#~ "%S."
-
-#~ msgid "Read and save articles easily"
-#~ msgstr "Citiți și salvați articolele cu ușurință"
-
-#~ msgid ""
-#~ "Click the book to make articles easier to read and use the plus to save "
-#~ "them for later."
-#~ msgstr ""
-#~ "Clic pe carte pentru a face articolele mai ușor de citit și folosiți "
-#~ "plusul pentru a o salva pentru mai târziu."
-
-#~ msgid "Close"
-#~ msgstr "Închide"
-
-#~ msgid "Start Reading »"
-#~ msgstr "Pornește citirea »"
-
-#~ msgid "%1$S (%2$S/%3$S)"
-#~ msgstr "%1$S (%2$S/%3$S)"
-
-#~ msgid "Reading List"
-#~ msgstr "Listă de citit"
-
-#~ msgid "Save articles for later and find them easily when you need them."
-#~ msgstr ""
-#~ "Salvați articolele pentru mai târziu și găsiți-le cu ușurință când aveți "
-#~ "nevoie de ele."
-
-#~ msgid "Next: Easy finding »"
-#~ msgstr "Umător: Găsire ușoară »"
-
-#~ msgid "Next: Easy reading »"
-#~ msgstr "Următor: Citire ușoară »"
-
-#~ msgctxt "readingList.promo.firstUse.syncNotSignedIn.title"
-#~ msgid "Sync"
-#~ msgstr "Sincronizare"
-
-#~ msgid "Sign in to access your Reading List everywhere you use %S."
-#~ msgstr ""
-#~ "Autentificați-vă pentru a vă accesa lista de citit oriunde folosiți %S."
-
-#~ msgctxt "readingList.promo.firstUse.syncNotSignedIn.moveToButton"
-#~ msgid "Next: Easy access »"
-#~ msgstr "Următor: Acces facil »"
-
-#~ msgctxt "readingList.promo.firstUse.syncSignedIn.title"
-#~ msgid "Sync"
-#~ msgstr "Sincronizare"
-
-#~ msgid "Open your Reading List articles everywhere you use %S."
-#~ msgstr "Deschideți articole din lista de citit oriunde folosiți %S."
-
-#~ msgctxt "readingList.promo.firstUse.syncSignedIn.moveToButton"
-#~ msgid "Next: Easy access »"
-#~ msgstr "Următor: Acces facil »"
-
-#~ msgid "Learn how %S makes reading more pleasant"
-#~ msgstr "Aflați cum face %S lectura mai plăcută"
-
-#~ msgid "Save, sync and read pages anywhere with Reading List"
-#~ msgstr "Salvați, sincronizați și citiți paginile oriunde cu Lista de citit"
-
-#~ msgid "Enjoy clutter-free Web pages with Reader View"
-#~ msgstr "Bucurați-vă de pagini web fără dezordine cu modul lectură"
-
-#~ msgid "Access your Reading List anywhere with %S"
-#~ msgstr "Accesați Lista de citit oriunde cu %S"
-
-#~ msgid ""
-#~ "The add-on from #2 could not be installed because it does not match the "
-#~ "add-on #3 expected."
-#~ msgstr ""
-#~ "Nu s-a putut instala suplimentul de la #2 pentru că nu se potrivește cu "
-#~ "suplimentul așteptat, #3."
-
-#~ msgctxt "addonLocalError-4"
-#~ msgid "#1 could not be installed because #3 cannot modify the needed file."
-#~ msgstr ""
-#~ "#1 nu poate fi instalat deoarece #3 nu poate modifica fișierul necesar."
-
-#~ msgid "The connection to this website is secure."
-#~ msgstr "Conexiunea cu acest websait este sigură."
-
-#~ msgid "Your connection to this website is not encrypted."
-#~ msgstr "Conexiunea dumneavoastră la acest sait nu este criptată."
-
-#~ msgid "This is a secure %S page."
-#~ msgstr "Aceasta este o pagină %S sigură."
-
-#~ msgid "Would you like to share your location with %S?"
-#~ msgstr "Doriți să dezvăluiți locația dumneavoastră saitului %S?"
-
-#~ msgid "%S will hide the pointer."
-#~ msgstr "%S va ascunde cursorul."
-
-#~ msgid "Add-on downloading;Add-ons downloading"
-#~ msgstr "Descărcare supliment;Descărcare suplimente"
-
-#~ msgid "Add-on download cancelled.;Add-on downloads cancelled."
-#~ msgstr ""
-#~ "Descărcarea suplimentului anulată.;Descărcarea suplimentelor anulată."
-
-#~ msgid "Restart Download;Restart Downloads"
-#~ msgstr "Repornire descărcare;Repornire descărcări"
-
-#~ msgid ""
-#~ "This website (%1$S) is attempting to store more than %2$S MB of data on "
-#~ "your computer for offline use."
-#~ msgstr ""
-#~ "Saitul (%1$S) încearcă să stocheze mai mult de %2$S MO de date pe "
-#~ "calculator pentru utilizarea lor în mod neconectat."
-
-#~ msgid ";Show all #1 tabs"
-#~ msgstr ";Arată toate cele #1 file"
-
-#~ msgid ""
-#~ "The connection to this website is not fully secure because it contains "
-#~ "unencrypted elements (such as images)."
-#~ msgstr ""
-#~ "Conexiunea la acest sait nu este sigură în totalitate deoarece conține "
-#~ "elemente necriptate (cum ar fi imagini)."
-
-#~ msgid ""
-#~ "Would you like to install the plugin needed to display the media on this "
-#~ "page?"
-#~ msgstr ""
-#~ "Doriți să instalați plugin-ul necesar pentru a afișa conținutul "
-#~ "multimedia pe această pagină?"
-
-#~ msgid "&Install %S"
-#~ msgstr "&Instalează %S"
-
-#~ msgid "Do&n't ask again"
-#~ msgstr "&Nu mă mai întreba din nou"
-
-#~ msgid "%S has blocked content that isn't secure."
-#~ msgstr "%S are conținut blocat care nu este securizat."
-
-#~ msgid "Keep &Blocking"
-#~ msgstr "Păstrează &blocarea"
-
-#~ msgid "&Disable Protection on This Page"
-#~ msgstr "&Dezactivează protecția pe această pagină"
-
-#~ msgid "(unknown)"
-#~ msgstr "(necunoscut)"
-
-#~ msgctxt "crashedpluginsMessage.reloadButton.accesskey"
-#~ msgid "R"
-#~ msgstr "R"
-
-#~ msgctxt "crashedpluginsMessage.submitButton.accesskey"
-#~ msgid "S"
-#~ msgstr "R"
-
-#~ msgctxt "pluginActivateNow.accesskey"
-#~ msgid "N"
-#~ msgstr "p"
-
-#~ msgctxt "pluginActivateAlways.accesskey"
-#~ msgid "R"
-#~ msgstr "R"
-
-#~ msgctxt "pluginBlockNow.accesskeypluginBlockNow.accesskey"
-#~ msgid "B"
-#~ msgstr "b"
-
-#~ msgctxt "pluginContinue.accesskey"
-#~ msgid "C"
-#~ msgstr "p"
-
-#~ msgctxt "pluginContinueBlocking.accesskey"
-#~ msgid "B"
-#~ msgstr "B"
-
-#~ msgctxt "pluginActivateTrigger.accesskey"
-#~ msgid "A"
-#~ msgstr "A"
-
-#~ msgctxt "pu.notifyButton.accesskeypu.notifyButton.accesskey"
-#~ msgid "D"
-#~ msgstr "D"
-
-#~ msgid "G"
-#~ msgstr "D"
-
-#~ msgid "F"
-#~ msgstr "F"
-
-#~ msgctxt "safebrowsing.notAnAttackButton.accessKey"
-#~ msgid "A"
-#~ msgstr "A"
-
-#~ msgctxt "dataReportingNotification.button.accessKey"
-#~ msgid "C"
-#~ msgstr "p"
-
-#~ msgctxt "webapps.install.accesskey"
-#~ msgid "I"
-#~ msgstr "I"
-
-#~ msgid "E"
-#~ msgstr "s"
-
-#~ msgid "T"
-#~ msgstr "n"
-
-#~ msgctxt "social.error.closeSidebar.accesskey"
-#~ msgid "C"
-#~ msgstr "c"
-
-#~ msgctxt "identity.newIdentity.accessKey"
-#~ msgid "e"
-#~ msgstr "e"
-
-#~ msgctxt "identity.next.accessKey"
-#~ msgid "n"
-#~ msgstr "n"
-
-#~ msgctxt "identity.loggedIn.signOut.accessKey"
-#~ msgid "O"
-#~ msgstr "O"
-
-#~ msgctxt "getUserMedia.shareSelectedDevices.accesskey"
-#~ msgid "S"
-#~ msgstr "d"
-
-#~ msgctxt "getUserMedia.denyRequest.accesskey"
-#~ msgid "D"
-#~ msgstr "m"
-
-#~ msgctxt "mixedContentBlocked.keepBlockingButton.accesskey"
-#~ msgid "B"
-#~ msgstr "B"
-
-#~ msgctxt "mixedContentBlocked.unblock.accesskey"
-#~ msgid "D"
-#~ msgstr "d"
-
-#~ msgid "L"
-#~ msgstr "l"
-
-#~ msgctxt "slowStartup.disableNotificationButton.accesskey"
-#~ msgid "A"
-#~ msgstr "a"

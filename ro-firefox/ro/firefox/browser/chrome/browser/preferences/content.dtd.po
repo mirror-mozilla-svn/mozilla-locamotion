@@ -1,22 +1,16 @@
-#. extracted from ./browser/chrome/browser/preferences/content.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 18:17+0000\n"
-"PO-Revision-Date: 2015-07-22 22:00+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1437602454.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/content.dtd."
 "po\n"
 "X-Pootle-Revision: 33106\n"
@@ -28,11 +22,13 @@ msgstr ""
 msgid "Pop-ups"
 msgstr "Ferestre popup"
 
-#: blockPopups.label blockPopups.accesskey
+#: blockPopups.label
+#: blockPopups.accesskey
 msgid "&Block pop-up windows"
 msgstr "&Blochează ferestrele popup"
 
-#: popupExceptions.label popupExceptions.accesskey
+#: popupExceptions.label
+#: popupExceptions.accesskey
 msgid "&Exceptions…"
 msgstr "&Excepții…"
 
@@ -40,19 +36,23 @@ msgstr "&Excepții…"
 msgid "Fonts & Colors"
 msgstr "Fonturi și culori"
 
-#: defaultFont.label defaultFont.accesskey
+#: defaultFont.label
+#: defaultFont.accesskey
 msgid "&Default font:"
 msgstr "&Font implicit:"
 
-#: defaultSize.label defaultSize.accesskey
+#: defaultSize.label
+#: defaultSize.accesskey
 msgid "&Size:"
 msgstr "Măr&ime:"
 
-#: advancedFonts.label advancedFonts.accesskey
+#: advancedFonts.label
+#: advancedFonts.accesskey
 msgid "&Advanced…"
 msgstr "&Avansat…"
 
-#: colors.label colors.accesskey
+#: colors.label
+#: colors.accesskey
 msgid "&Colors…"
 msgstr "&Culori…"
 
@@ -64,15 +64,18 @@ msgstr "Limbi"
 msgid "Choose your preferred language for displaying pages"
 msgstr "Alege limba în care preferi să vezi paginile"
 
-#: chooseButton.label chooseButton.accesskey
+#: chooseButton.label
+#: chooseButton.accesskey
 msgid "Ch&oose…"
 msgstr "A&lege…"
 
-#: translateWebPages.label translateWebPages.accesskey
+#: translateWebPages.label
+#: translateWebPages.accesskey
 msgid "&Translate web content"
 msgstr "&Traduceți conținutul web"
 
-#: translateExceptions.label translateExceptions.accesskey
+#: translateExceptions.label
+#: translateExceptions.accesskey
 msgid "E&xceptions…"
 msgstr "E&xcepții…"
 
@@ -95,7 +98,8 @@ msgstr ""
 msgid "DRM content"
 msgstr "Conținut DRM"
 
-#: playDRMContent.label playDRMContent.accesskey
+#: playDRMContent.label
+#: playDRMContent.accesskey
 msgid "&Play DRM content"
 msgstr "Redă conținut de ti&p DRM"
 

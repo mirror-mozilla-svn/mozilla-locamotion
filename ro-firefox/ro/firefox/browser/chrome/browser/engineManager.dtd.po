@@ -1,22 +1,16 @@
-#. extracted from ./browser/chrome/browser/engineManager.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-01 10:39+0100\n"
-"PO-Revision-Date: 2015-07-22 21:59+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1437602353.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/engineManager.dtd.po\n"
 "X-Pootle-Revision: 33086\n"
 
@@ -45,30 +39,37 @@ msgid "Keyword"
 msgstr "Cuvânt cheie"
 
 #. Buttons
-#: up.label up.accesskey
+#: up.label
+#: up.accesskey
 msgid "Move &Up"
 msgstr "Mută mai &sus"
 
-#: dn.label dn.accesskey
+#: dn.label
+#: dn.accesskey
 msgid "Move &Down"
 msgstr "Mută mai j&os"
 
-#: remove.label remove.accesskey
+#: remove.label
+#: remove.accesskey
 msgid "&Remove"
 msgstr "&Elimină"
 
-#: edit.label edit.accesskey
+#: edit.label
+#: edit.accesskey
 msgid "Edi&t Keyword…"
 msgstr "Edi&tează cuvântul cheie…"
 
-#: addEngine.label addEngine.accesskey
+#: addEngine.label
+#: addEngine.accesskey
 msgid "Get more se&arch engines…"
 msgstr "&Adăugați alte motoare de căutare…"
 
-#: enableSuggest.label enableSuggest.accesskey
+#: enableSuggest.label
+#: enableSuggest.accesskey
 msgid "&Show search suggestions"
 msgstr "Arată &sugestii de căutare"
 
-#: restoreDefaults.label restoreDefaults.accesskey
+#: restoreDefaults.label
+#: restoreDefaults.accesskey
 msgid "R&estore Defaults"
 msgstr "R&estaurează setările implicite"

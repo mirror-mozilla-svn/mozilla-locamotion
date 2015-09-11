@@ -1,25 +1,19 @@
-#. extracted from ./toolkit/chrome/mozapps/profile/createProfileWizard.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-01 10:39+0100\n"
-"PO-Revision-Date: 2015-08-21 13:22+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440163323.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/toolkit/chrome/mozapps/profile/createProfileWizard.dtd.po\n"
-"X-Pootle-Revision: 65958\n"
+"X-Pootle-Revision: 94675\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -40,7 +34,7 @@ msgid ""
 "your personal profile."
 msgstr ""
 "&brandShortName; stochează informații despre opțiunile de configurare și "
-"preferințele dumneavoastră într-un profil personal."
+"preferințe în profilul personal."
 
 #: profileCreationExplanation_2.text
 msgid ""
@@ -89,7 +83,8 @@ msgstr ""
 "Dacă creați mai multe profiluri, le puteți deosebi după nume. Puteți folosi "
 "numele sugerat aici sau numele pe care îl doriți dumneavoastră."
 
-#: profilePrompt.label profilePrompt.accesskey
+#: profilePrompt.label
+#: profilePrompt.accesskey
 msgid "&Enter new profile name:"
 msgstr "Introduc&eți numele noului profil:"
 
@@ -105,10 +100,12 @@ msgstr ""
 msgid "Default User"
 msgstr "Utilizator implicit"
 
-#: button.choosefolder.label button.choosefolder.accesskey
+#: button.choosefolder.label
+#: button.choosefolder.accesskey
 msgid "&Choose Folder…"
-msgstr "&Alege dosar…"
+msgstr "Alege &dosarul…"
 
-#: button.usedefault.label button.usedefault.accesskey
+#: button.usedefault.label
+#: button.usedefault.accesskey
 msgid "&Use Default Folder"
 msgstr "&Utilizează dosarul implicit"

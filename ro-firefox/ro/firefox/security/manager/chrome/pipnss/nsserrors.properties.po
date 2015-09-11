@@ -1,28 +1,19 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./security/manager/chrome/pipnss/nsserrors.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-11 11:38+0000\n"
-"PO-Revision-Date: 2015-08-25 12:07+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440504457.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/security/manager/chrome/pipnss/nsserrors.properties.po\n"
-"X-Pootle-Revision: 69839\n"
+"X-Pootle-Revision: 100005\n"
 
 #: SSL_ERROR_EXPORT_ONLY_SERVER
 msgid ""
@@ -71,8 +62,7 @@ msgstr "Tip nesuportat de certificat."
 
 #: SSL_ERROR_UNSUPPORTED_VERSION
 msgid "Peer using unsupported version of security protocol."
-msgstr ""
-"Serverul folosește o versiune nesuportată a protocolului de securitate."
+msgstr "Serverul folosește o versiune nesuportată a protocolului de securitate."
 
 #: SSL_ERROR_WRONG_CERTIFICATE
 msgid ""
@@ -91,7 +81,6 @@ msgstr ""
 "corespunde cu certificatul serverului."
 
 #: SSL_ERROR_POST_WARNING
-#, fuzzy
 msgid "Unrecognized SSL error code."
 msgstr "Cod de eroare SSL nerecunoscut."
 
@@ -255,8 +244,7 @@ msgstr ""
 
 #: SSL_ERROR_RX_UNEXPECTED_HELLO_DONE
 msgid "SSL received an unexpected Server Hello Done handshake message."
-msgstr ""
-"SSL a primit un mesaj de negociere neașteptat de tip Server Hello Done."
+msgstr "SSL a primit un mesaj de negociere neașteptat de tip Server Hello Done."
 
 #: SSL_ERROR_RX_UNEXPECTED_CERT_VERIFY
 msgid "SSL received an unexpected Certificate Verify handshake message."
@@ -423,8 +411,7 @@ msgstr "Eșec la inițializarea suitei de cifrare selectate."
 
 #: SSL_ERROR_SESSION_KEY_GEN_FAILURE
 msgid "Client failed to generate session keys for SSL session."
-msgstr ""
-"Clientul a eșuat în generarea unor chei de sesiune pentru sesiunea SSL."
+msgstr "Clientul a eșuat în generarea unor chei de sesiune pentru sesiunea SSL."
 
 #: SSL_ERROR_NO_SERVER_KEY_FOR_ALG
 msgid "Server has no key for the attempted key exchange algorithm."
@@ -439,8 +426,7 @@ msgstr ""
 
 #: SSL_ERROR_TOKEN_SLOT_NOT_FOUND
 msgid "No PKCS#11 token could be found to do a required operation."
-msgstr ""
-"Nu s-a găsit niciun token PKCS#11 pentru a efectua o operație necesară."
+msgstr "Nu s-a găsit niciun token PKCS#11 pentru a efectua o operație necesară."
 
 #: SSL_ERROR_NO_COMPRESSION_OVERLAP
 msgid ""
@@ -497,8 +483,8 @@ msgstr ""
 #: SSL_ERROR_UNKNOWN_CA_ALERT
 msgid "Peer does not recognize and trust the CA that issued your certificate."
 msgstr ""
-"Partenerul de conexiune nu recunoaște și nu are încredere în AC care a emis "
-"certificatul dumneavoastră."
+"Partenerul de conexiune nu recunoaște și nu are încredere în AC-ul care a "
+"emis certificatul dumneavoastră."
 
 #: SSL_ERROR_ACCESS_DENIED_ALERT
 msgid "Peer received a valid certificate, but access was denied."
@@ -555,8 +541,7 @@ msgstr ""
 
 #: SSL_ERROR_UNSUPPORTED_EXTENSION_ALERT
 msgid "SSL peer does not support requested TLS hello extension."
-msgstr ""
-"Partenerul de conexiune SSL nu suportă extensia TLS de inițiere cerută."
+msgstr "Partenerul de conexiune SSL nu suportă extensia TLS de inițiere cerută."
 
 #: SSL_ERROR_CERTIFICATE_UNOBTAINABLE_ALERT
 msgid "SSL peer could not obtain your certificate from the supplied URL."
@@ -594,8 +579,7 @@ msgstr ""
 
 #: SSL_ERROR_DECOMPRESSION_FAILURE
 msgid "SSL received a compressed record that could not be decompressed."
-msgstr ""
-"SSL a primit o înregistrare comprimată care nu a putut fi decomprimată."
+msgstr "SSL a primit o înregistrare comprimată care nu a putut fi decomprimată."
 
 #: SSL_ERROR_RENEGOTIATION_NOT_ALLOWED
 msgid "Renegotiation is not allowed on this SSL socket."
@@ -676,8 +660,7 @@ msgstr "Funcția digest a eșuat."
 
 #: SSL_ERROR_INCORRECT_SIGNATURE_ALGORITHM
 msgid "Incorrect signature algorithm specified in a digitally-signed element."
-msgstr ""
-"Algoritm de semnare incorect specificat într-un element semnat digital."
+msgstr "Algoritm de semnare incorect specificat într-un element semnat digital."
 
 #: SSL_ERROR_NEXT_PROTOCOL_NO_CALLBACK
 msgid ""
@@ -691,8 +674,7 @@ msgstr ""
 msgid ""
 "The server supports no protocols that the client advertises in the ALPN "
 "extension."
-msgstr ""
-"Serverul nu suportă niciun protocol anunțat de client în extensia ALPN."
+msgstr "Serverul nu suportă niciun protocol anunțat de client în extensia ALPN."
 
 #: SSL_ERROR_INAPPROPRIATE_FALLBACK_ALERT
 msgid ""
@@ -705,6 +687,7 @@ msgstr ""
 #: SSL_ERROR_WEAK_SERVER_CERT_KEY
 msgid "The server certificate included a public key that was too weak."
 msgstr ""
+"Certificatul serverului include o cheie publică cu securitate prea slabă."
 
 #: SEC_ERROR_IO
 msgid "An I/O error occurred during security authorization."
@@ -875,7 +858,7 @@ msgstr "Constrângerea de lungime a căii către certificat este invalidă."
 
 #: SEC_ERROR_CERT_USAGES_INVALID
 msgid "Certificate usages field is invalid."
-msgstr "Câmpul de utilizare a certificatului este nevalid."
+msgstr "Câmpul de utilizare a certificatului este invalid."
 
 #: SEC_INTERNAL_ONLY
 msgid "**Internal ONLY module**"
@@ -891,7 +874,7 @@ msgstr "Certificatul conține o extensie critică necunoscută."
 
 #: SEC_ERROR_OLD_CRL
 msgid "New CRL is not later than the current one."
-msgstr "Noua listă CRL nu este mai nouă decât cea curentă."
+msgstr "Noua listă CRL nu este mai nouă decât cea actuală."
 
 #: SEC_ERROR_NO_EMAIL_CERT
 msgid "Not encrypted or signed: you do not yet have an email certificate."
@@ -953,7 +936,8 @@ msgstr "Nu a fost selectat niciun card Fortezza"
 #: XP_SEC_FORTEZZA_MORE_INFO
 msgid "Please select a personality to get more info on"
 msgstr ""
-"Selectați o personalitate pentru a obține mai multe informații despre ea"
+"Vă rugăm să selectați o personalitate pentru a obține mai multe informații "
+"despre ea"
 
 #: XP_SEC_FORTEZZA_PERSON_NOT_FOUND
 msgid "Personality not found"
@@ -1233,8 +1217,7 @@ msgstr "Amplasarea serverului de stare al certificatului e în format invalid."
 
 #: SEC_ERROR_OCSP_UNKNOWN_RESPONSE_TYPE
 msgid "The OCSP response cannot be fully decoded; it is of an unknown type."
-msgstr ""
-"Răspunsul OCSP nu poate fi decodificat complet; este de tip necunoscut."
+msgstr "Răspunsul OCSP nu poate fi decodificat complet; este de tip necunoscut."
 
 #: SEC_ERROR_OCSP_BAD_HTTP_RESPONSE
 msgid "The OCSP server returned unexpected/invalid HTTP data."
@@ -1381,7 +1364,7 @@ msgstr "S-a specificat un tip necunoscut de obiect."
 
 #: SEC_ERROR_INCOMPATIBLE_PKCS11
 msgid "PKCS #11 driver violates the spec in an incompatible way."
-msgstr "Driverul PKCS #11 violează specificațiile într-un mod incompatibil."
+msgstr "Driverul PKCS #11 încalcă specificațiile într-un mod incompatibil."
 
 #: SEC_ERROR_NO_EVENT
 msgid "No new slot event is available at this time."
@@ -1565,17 +1548,9 @@ msgstr ""
 msgid ""
 "The OCSP response does not include a status for the certificate being "
 "verified."
-msgstr ""
+msgstr "Răspunsul OCSP nu include starea certificatului în curs de verificare."
 
 #: MOZILLA_PKIX_ERROR_VALIDITY_TOO_LONG
-#, fuzzy
 msgid "The server presented a certificate that is valid for too long."
-msgstr "Serverul a prezentat un certificat care nu este încă valabil."
-
-#~ msgctxt "SSL_ERROR_UNUSED_10"
-#~ msgid "Unrecognized SSL error code."
-#~ msgstr "Cod de eroare SSL nerecunoscut."
-
-#~ msgctxt "SSL_ERROR_POST_WARNING"
-#~ msgid "Unrecognized SSL error code."
-#~ msgstr "Cod de eroare SSL nerecunoscut."
+msgstr ""
+"Serverul a prezentat un certificat care este valabil pentru prea mult timp."

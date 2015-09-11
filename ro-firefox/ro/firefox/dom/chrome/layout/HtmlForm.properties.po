@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./dom/chrome/layout/HtmlForm.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-11 11:38+0000\n"
-"PO-Revision-Date: 2015-08-25 15:41+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440517289.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/dom/chrome/layout/HtmlForm.properties.po\n"
-"X-Pootle-Revision: 70348\n"
+"X-Pootle-Revision: 94672\n"
 
 #: Reset
 msgid "Reset"
@@ -36,14 +27,12 @@ msgid "Browse…"
 msgstr "Răsfoiește…"
 
 #: ChooseFiles
-#, fuzzy
 msgid "Choose files…"
-msgstr "A&lege fișierul…"
+msgstr "Alege fișiere…"
 
 #: ChooseDirs
-#, fuzzy
 msgid "Choose folder…"
-msgstr "&Alege dosar…"
+msgstr "Alege dosarul…"
 
 #: FileUpload
 msgid "File Upload"
@@ -67,8 +56,8 @@ msgstr ""
 
 #: ForgotFileEnctypeWarning
 msgid ""
-"Form contains a file input, but is missing method=POST and enctype=multipart/"
-"form-data on the form.  The file will not be sent."
+"Form contains a file input, but is missing method=POST and enctype=multipart"
+"/form-data on the form.  The file will not be sent."
 msgstr ""
 "Formularul conține un câmp de tip „file”, dar nu are method=POST și "
 "enctype=multipart/form-data în formular.  Fișierul nu va fi trimis."

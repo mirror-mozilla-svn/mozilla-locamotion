@@ -1,22 +1,16 @@
-#. extracted from ./browser/chrome/browser/preferences/connection.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-18 12:21+0100\n"
-"PO-Revision-Date: 2015-08-25 15:46+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440517610.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/connection.dtd."
 "po\n"
 "X-Pootle-Revision: 70384\n"
@@ -42,55 +36,68 @@ msgstr "39em"
 msgid "Configure Proxies to Access the Internet"
 msgstr "Configurează proxy-uri pentru accesul la Internet"
 
-#: noProxyTypeRadio.label noProxyTypeRadio.accesskey
+#: noProxyTypeRadio.label
+#: noProxyTypeRadio.accesskey
 msgid "No prox&y"
 msgstr "Fără prox&y"
 
-#: systemTypeRadio.label systemTypeRadio.accesskey
+#: systemTypeRadio.label
+#: systemTypeRadio.accesskey
 msgid "&Use system proxy settings"
 msgstr "&Utilizează setările proxy ale sistemului"
 
-#: WPADTypeRadio.label WPADTypeRadio.accesskey
+#: WPADTypeRadio.label
+#: WPADTypeRadio.accesskey
 msgid "Auto-detect proxy settings for this net&work"
 msgstr "Detectează a&utomat parametrii proxy-ului pentru această rețea"
 
-#: manualTypeRadio.label manualTypeRadio.accesskey
+#: manualTypeRadio.label
+#: manualTypeRadio.accesskey
 msgid "&Manual proxy configuration:"
 msgstr "Configurare &manuală proxy:"
 
-#: autoTypeRadio.label autoTypeRadio.accesskey
+#: autoTypeRadio.label
+#: autoTypeRadio.accesskey
 msgid "&Automatic proxy configuration URL:"
 msgstr "URL pentru configurarea &automată a proxy-ului:"
 
-#: reload.label reload.accesskey
+#: reload.label
+#: reload.accesskey
 msgid "R&eload"
 msgstr "R&eîncarcă"
 
-#: ftp.label ftp.accesskey
+#: ftp.label
+#: ftp.accesskey
 msgid "&FTP Proxy:"
 msgstr "Proxy &FTP:"
 
-#: http.label http.accesskey
+#: http.label
+#: http.accesskey
 msgid "HTTP Pro&xy:"
 msgstr "Prox&y HTTP:"
 
-#: ssl.label ssl.accesskey
+#: ssl.label
+#: ssl.accesskey
 msgid "SS&L Proxy:"
 msgstr "Proxy &SSL:"
 
-#: socks.label socks.accesskey
+#: socks.label
+#: socks.accesskey
 msgid "SO&CKS Host:"
 msgstr "Gazdă SO&CKS:"
 
-#: socks4.label socks4.accesskey
+#: socks4.label
+#: socks4.accesskey
 msgid "SOC&KS v4"
 msgstr "SOC&KS v4"
 
-#: socks5.label socks5.accesskey
+#: socks5.label
+#: socks5.accesskey
 msgid "SOCKS &v5"
 msgstr "SOCKS &v5"
 
-#: socksRemoteDNS.label socksRemoteDNS.accesskey
+#: socksRemoteDNS.label
+#: socksRemoteDNS.accesskey
 msgid "Remote &DNS"
 msgstr "&DNS distant"
 
@@ -114,7 +121,8 @@ msgstr "r"
 msgid "t"
 msgstr "t"
 
-#: noproxy.label noproxy.accesskey
+#: noproxy.label
+#: noproxy.accesskey
 msgid "&No Proxy for:"
 msgstr "Fără proxy pe&ntru:"
 
@@ -122,11 +130,13 @@ msgstr "Fără proxy pe&ntru:"
 msgid "Example: .mozilla.org, .net.nz, 192.168.1.0/24"
 msgstr "Exemplu: .mozilla.org, .net.nz, 192.168.1.0/24"
 
-#: shareproxy.label shareproxy.accesskey
+#: shareproxy.label
+#: shareproxy.accesskey
 msgid "U&se this proxy server for all protocols"
 msgstr "Folosește acest pro&xy pentru toate protocoalele"
 
-#: autologinproxy.label autologinproxy.accesskey
+#: autologinproxy.label
+#: autologinproxy.accesskey
 msgid "Do not prompt for authent&ication if password is saved"
 msgstr "Nu se cer pentru autent&ificare dacă parola este salvată"
 

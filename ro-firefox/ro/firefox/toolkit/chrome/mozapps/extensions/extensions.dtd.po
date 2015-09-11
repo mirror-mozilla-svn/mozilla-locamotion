@@ -1,25 +1,19 @@
-#. extracted from ./toolkit/chrome/mozapps/extensions/extensions.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 20:18+0000\n"
-"PO-Revision-Date: 2015-08-27 19:48+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440704906.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/mozapps/extensions/extensions.dtd."
 "po\n"
-"X-Pootle-Revision: 71510\n"
+"X-Pootle-Revision: 83939\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -73,7 +67,8 @@ msgstr "Nu s-a putut găsi vreun supliment potrivit"
 msgid "Learn more about add-ons"
 msgstr "Află mai multe despre suplimente"
 
-#: installAddonFromFile.label installAddonFromFile.accesskey
+#: installAddonFromFile.label
+#: installAddonFromFile.accesskey
 msgid "&Install Add-on From File…"
 msgstr "&Instalează supliment dintr-un fișier…"
 
@@ -167,11 +162,13 @@ msgid "Available Updates"
 msgstr "Actualizări disponibile"
 
 #. addon updates
-#: updates.checkForUpdates.label updates.checkForUpdates.accesskey
+#: updates.checkForUpdates.label
+#: updates.checkForUpdates.accesskey
 msgid "&Check for Updates"
 msgstr "&Caută actualizări"
 
-#: updates.viewUpdates.label updates.viewUpdates.accesskey
+#: updates.viewUpdates.label
+#: updates.viewUpdates.accesskey
 msgid "&View Recent Updates"
 msgstr "&Vezi actualizările recente"
 
@@ -194,7 +191,8 @@ msgstr "&Actualizează suplimentele automat"
 msgid "&Reset All Add-ons to Update Automatically"
 msgstr "&Resetează toate suplimentele să se actualizeze automat"
 
-#: updates.resetUpdatesToManual.label updates.resetUpdatesToManual.accesskey
+#: updates.resetUpdatesToManual.label
+#: updates.resetUpdatesToManual.accesskey
 msgid "&Reset All Add-ons to Update Manually"
 msgstr "&Resetează toate suplimentele să se actualizeze manual"
 
@@ -232,41 +230,50 @@ msgid "Install available updates in this list"
 msgstr "Instalează actualizările disponibile în această listă"
 
 #. addon actions
-#: cmd.showDetails.label cmd.showDetails.accesskey
+#: cmd.showDetails.label
+#: cmd.showDetails.accesskey
 msgid "&Show More Information"
 msgstr "&Arată mai multe informații"
 
-#: cmd.findUpdates.label cmd.findUpdates.accesskey
+#: cmd.findUpdates.label
+#: cmd.findUpdates.accesskey
 msgid "&Find Updates"
 msgstr "&Caută actualizări"
 
-#: cmd.preferencesWin.label cmd.preferencesWin.accesskey
+#: cmd.preferencesWin.label
+#: cmd.preferencesWin.accesskey
 msgctxt "cmd.preferencesWin.label cmd.preferencesWin.accesskey"
 msgid "&Options"
 msgstr "&Opțiuni"
 
-#: cmd.preferencesUnix.label cmd.preferencesUnix.accesskey
+#: cmd.preferencesUnix.label
+#: cmd.preferencesUnix.accesskey
 msgctxt "cmd.preferencesUnix.label cmd.preferencesUnix.accesskey"
 msgid "&Preferences"
 msgstr "&Preferințe"
 
-#: cmd.about.label cmd.about.accesskey
+#: cmd.about.label
+#: cmd.about.accesskey
 msgid "&About"
 msgstr "&Despre"
 
-#: cmd.enableAddon.label cmd.enableAddon.accesskey
+#: cmd.enableAddon.label
+#: cmd.enableAddon.accesskey
 msgid "&Enable"
 msgstr "Activ&ează"
 
-#: cmd.disableAddon.label cmd.disableAddon.accesskey
+#: cmd.disableAddon.label
+#: cmd.disableAddon.accesskey
 msgid "&Disable"
 msgstr "&Dezactivează"
 
-#: cmd.enableTheme.label cmd.enableTheme.accesskey
+#: cmd.enableTheme.label
+#: cmd.enableTheme.accesskey
 msgid "&Wear Theme"
 msgstr "&Poartă tema"
 
-#: cmd.disableTheme.label cmd.disableTheme.accesskey
+#: cmd.disableTheme.label
+#: cmd.disableTheme.accesskey
 msgid "Stop &Wearing Theme"
 msgstr "&Nu mai purta tema"
 
@@ -298,15 +305,18 @@ msgstr "Nu utiliza niciodată această extensie"
 msgid "Change when this add-on runs"
 msgstr "Schimbă unde acest supliment rulează"
 
-#: cmd.installAddon.label cmd.installAddon.accesskey
+#: cmd.installAddon.label
+#: cmd.installAddon.accesskey
 msgid "&Install"
 msgstr "&Instalează"
 
-#: cmd.uninstallAddon.label cmd.uninstallAddon.accesskey
+#: cmd.uninstallAddon.label
+#: cmd.uninstallAddon.accesskey
 msgid "&Remove"
 msgstr "&Elimină"
 
-#: cmd.debugAddon.label cmd.debugAddon.accesskey
+#: cmd.debugAddon.label
+#: cmd.debugAddon.accesskey
 msgid "De&bug"
 msgstr "Depa&nare"
 
@@ -328,7 +338,8 @@ msgctxt "cmd.showPreferencesUnix.tooltip"
 msgid "Change this add-on's preferences"
 msgstr "Schimbă preferințele acestui supliment"
 
-#: cmd.contribute.label cmd.contribute.accesskey
+#: cmd.contribute.label
+#: cmd.contribute.accesskey
 msgid "&Contribute"
 msgstr "&Contribuie"
 
@@ -453,7 +464,8 @@ msgstr "Profilul suplimentului"
 msgid "Size"
 msgstr "Mărime"
 
-#: detail.checkForUpdates.label detail.checkForUpdates.accesskey
+#: detail.checkForUpdates.label
+#: detail.checkForUpdates.accesskey
 msgid "Check &for Updates"
 msgstr "&Caută actualizări"
 
@@ -461,7 +473,8 @@ msgstr "&Caută actualizări"
 msgid "Check for updates for this add-on"
 msgstr "Verifică dacă există actualizări pentru acest supliment"
 
-#: detail.showPreferencesWin.label detail.showPreferencesWin.accesskey
+#: detail.showPreferencesWin.label
+#: detail.showPreferencesWin.accesskey
 msgctxt "detail.showPreferencesWin.label detail.showPreferencesWin.accesskey"
 msgid "&Options"
 msgstr "&Opțiuni"
@@ -471,7 +484,8 @@ msgctxt "detail.showPreferencesWin.tooltip"
 msgid "Change this add-on's options"
 msgstr "Schimbă opțiunile acestui supliment"
 
-#: detail.showPreferencesUnix.label detail.showPreferencesUnix.accesskey
+#: detail.showPreferencesUnix.label
+#: detail.showPreferencesUnix.accesskey
 msgctxt "detail.showPreferencesUnix.label detail.showPreferencesUnix.accesskey"
 msgid "&Preferences"
 msgstr "&Preferințe"
@@ -721,15 +735,16 @@ msgstr ""
 
 #: disabledUnsigned.description.findAddonsLink
 msgid "find replacements"
-msgstr ""
+msgstr "găsește înlocuitori"
 
 #: disabledUnsigned.description.end
 msgid " or ask the developer to get them verified."
-msgstr ""
+msgstr " sau întreabă dezvoltatorii pentru a fi verificate.."
 
 #: disabledUnsigned.learnMore
 msgid "Learn more about our efforts to help keep you safe online."
 msgstr ""
+"Aflați mai multe despre eforturile noastre de a vă ține în siguranță online."
 
 #. LOCALIZATION NOTE (disabledUnsigned.devInfo.start, disabledUnsigned.devInfo.linkToManual, disabledUnsigned.devInfo.end):
 #. These entities form a sentence, with disabledUnsigned.devInfo.linkToManual
@@ -739,10 +754,12 @@ msgid ""
 "Developers interested in getting their add-ons verified can continue by "
 "reading our "
 msgstr ""
+"Dezvoltatorii interesați în obținerea verificării pentru suplimente pot "
+"continua să citească "
 
 #: disabledUnsigned.devInfo.linkToManual
 msgid "manual"
-msgstr ""
+msgstr "manual"
 
 #: disabledUnsigned.devInfo.end
 msgid "."

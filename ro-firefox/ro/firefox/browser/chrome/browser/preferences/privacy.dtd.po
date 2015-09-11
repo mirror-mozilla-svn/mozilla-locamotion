@@ -1,25 +1,19 @@
-#. extracted from ./browser/chrome/browser/preferences/privacy.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-11 11:38+0000\n"
-"PO-Revision-Date: 2015-08-25 13:47+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440510442.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/privacy.dtd."
 "po\n"
-"X-Pootle-Revision: 70009\n"
+"X-Pootle-Revision: 86146\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -28,30 +22,31 @@ msgstr ""
 msgid "Tracking"
 msgstr "Urmărire"
 
-#: dntTrackingNotOkay4.label dntTrackingNotOkay4.accesskey
+#: dntTrackingNotOkay4.label
+#: dntTrackingNotOkay4.accesskey
 msgid "Request that sites &not track you"
-msgstr ""
+msgstr "Solicitați ca site-urile să &nu vă urmărească"
 
 #: doNotTrackInfo.label
 msgid "Learn More"
 msgstr "Află mai multe"
 
-#: trackingProtection5.label trackingProtection5.accesskey
+#: trackingProtection5.label
+#: trackingProtection5.accesskey
 msgid "Use Track&ing Protection"
-msgstr ""
+msgstr "Utilizează protecț&ie față de urmărire"
 
 #: trackingProtectionLearnMore.label
-#, fuzzy
 msgctxt "trackingProtectionLearnMore.label"
 msgid "Learn more"
 msgstr "Aflați mai multe"
 
-#: trackingProtectionPBM5.label trackingProtectionPBM5.accesskey
+#: trackingProtectionPBM5.label
+#: trackingProtectionPBM5.accesskey
 msgid "Use Tracking Protection in Pri&vate Windows"
-msgstr ""
+msgstr "Utilizează protecția față de urmărire în ferestre private"
 
 #: trackingProtectionPBMLearnMore.label
-#, fuzzy
 msgctxt "trackingProtectionPBMLearnMore.label"
 msgid "Learn more"
 msgstr "Aflați mai multe"
@@ -68,31 +63,38 @@ msgstr "Bara adresei"
 msgid "When using the location bar, suggest:"
 msgstr "Când se folosește bara adresei, sugerează:"
 
-#: locbar.history.label locbar.history.accesskey
+#: locbar.history.label
+#: locbar.history.accesskey
 msgid "&History"
 msgstr "&Istoric"
 
-#: locbar.bookmarks.label locbar.bookmarks.accesskey
+#: locbar.bookmarks.label
+#: locbar.bookmarks.accesskey
 msgid "Boo&kmarks"
 msgstr "&Semne de carte"
 
-#: locbar.openpage.label locbar.openpage.accesskey
+#: locbar.openpage.label
+#: locbar.openpage.accesskey
 msgid "&Open tabs"
 msgstr "&Deschide filele"
 
-#: locbar.searches.label locbar.searches.accesskey
+#: locbar.searches.label
+#: locbar.searches.accesskey
 msgid "Relate&d searches from the default search engine"
-msgstr ""
+msgstr "Căutări similare &de la motorul de căutare implicit"
 
-#: suggestionSettings.label suggestionSettings.accesskey
+#: suggestionSettings.label
+#: suggestionSettings.accesskey
 msgid "Chan&ge preferences for search engine suggestions…"
-msgstr ""
+msgstr "Schimbă preferințele pentru su&gestiile motoarelor de căutare…"
 
-#: acceptCookies.label acceptCookies.accesskey
+#: acceptCookies.label
+#: acceptCookies.accesskey
 msgid "&Accept cookies from sites"
 msgstr "&Acceptă cookie-uri de la site-uri"
 
-#: acceptThirdParty.pre.label acceptThirdParty.pre.accesskey
+#: acceptThirdParty.pre.label
+#: acceptThirdParty.pre.accesskey
 msgid "A&ccept third-party cookies:"
 msgstr "Acceptă coo&kie-uri terțe:"
 
@@ -108,7 +110,8 @@ msgstr "Niciodată"
 msgid "From visited"
 msgstr "De la site-urile vizitate"
 
-#: keepUntil.label keepUntil.accesskey
+#: keepUntil.label
+#: keepUntil.accesskey
 msgid "Keep &until:"
 msgstr "&Păstrează-le până când:"
 
@@ -124,15 +127,18 @@ msgstr "închid &brandShortName;"
 msgid "ask me every time"
 msgstr "întreabă de fiecare dată"
 
-#: cookieExceptions.label cookieExceptions.accesskey
+#: cookieExceptions.label
+#: cookieExceptions.accesskey
 msgid "&Exceptions…"
 msgstr "&Excepții…"
 
-#: showCookies.label showCookies.accesskey
+#: showCookies.label
+#: showCookies.accesskey
 msgid "&Show Cookies…"
 msgstr "Arată coo&kie-urile…"
 
-#: historyHeader.pre.label historyHeader.pre.accesskey
+#: historyHeader.pre.label
+#: historyHeader.pre.accesskey
 msgid "&brandShortName; &will:"
 msgstr "&brandShortName; &va:"
 
@@ -209,53 +215,27 @@ msgctxt "dontrememberActions.post.label"
 msgid "."
 msgstr "."
 
-#: privateBrowsingPermanent2.label privateBrowsingPermanent2.accesskey
+#: privateBrowsingPermanent2.label
+#: privateBrowsingPermanent2.accesskey
 msgid "Always use &private browsing mode"
 msgstr "Folosește &mereu modul de navigare privată"
 
-#: rememberHistory2.label rememberHistory2.accesskey
+#: rememberHistory2.label
+#: rememberHistory2.accesskey
 msgid "Remem&ber my browsing and download history"
 msgstr "Memorează istoricul navi&gării și al descărcărilor"
 
-#: rememberSearchForm.label rememberSearchForm.accesskey
+#: rememberSearchForm.label
+#: rememberSearchForm.accesskey
 msgid "Remember search and &form history"
 msgstr "Memorează istoricul &formularelor și al căutărilor"
 
-#: clearOnClose.label clearOnClose.accesskey
+#: clearOnClose.label
+#: clearOnClose.accesskey
 msgid "Clea&r history when &brandShortName; closes"
 msgstr "&Curăță istoricul când &brandShortName; este închis"
 
-#: clearOnCloseSettings.label clearOnCloseSettings.accesskey
+#: clearOnCloseSettings.label
+#: clearOnCloseSettings.accesskey
 msgid "Se&ttings…"
 msgstr "Se&tări…"
-
-#~ msgid "Tell sites that I do not want to be tracked"
-#~ msgstr "Anunță saiturile că nu doresc să fiu urmărit"
-
-#~ msgid "n"
-#~ msgstr "n"
-
-#~ msgid "Prevent sites fro&m tracking me"
-#~ msgstr "Împiedicați saiturile să &mă urmărească"
-
-#~ msgid "Do not tell sites anything about my tracking preferences"
-#~ msgstr "Nu anunța nimic saiturilor despre preferințele mele de urmărire"
-
-#~ msgid "o"
-#~ msgstr "o"
-
-#~ msgid "Tell sites that I want to be tracked"
-#~ msgstr "Anunță saiturile că doresc să fiu urmărit"
-
-#~ msgid "History and Bookmarks"
-#~ msgstr "Istoric și semne de carte"
-
-#~ msgctxt "locbar.history.label"
-#~ msgid "History"
-#~ msgstr "Istoric"
-
-#~ msgid "Nothing"
-#~ msgstr "Nimic"
-
-#~ msgid "t"
-#~ msgstr "t"

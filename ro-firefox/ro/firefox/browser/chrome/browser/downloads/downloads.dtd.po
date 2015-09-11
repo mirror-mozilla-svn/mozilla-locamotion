@@ -1,22 +1,16 @@
-#. extracted from ./browser/chrome/browser/downloads/downloads.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-12 19:23+0000\n"
-"PO-Revision-Date: 2015-08-20 00:23+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440030182.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/downloads/downloads.dtd."
 "po\n"
 "X-Pootle-Revision: 64488\n"
@@ -56,15 +50,18 @@ msgstr "50ch"
 msgid "21ch"
 msgstr "21ch"
 
-#: cmd.pause.label cmd.pause.accesskey
+#: cmd.pause.label
+#: cmd.pause.accesskey
 msgid "&Pause"
 msgstr "&Pauză"
 
-#: cmd.resume.label cmd.resume.accesskey
+#: cmd.resume.label
+#: cmd.resume.accesskey
 msgid "&Resume"
 msgstr "&Continuă"
 
-#: cmd.cancel.label cmd.cancel.accesskey
+#: cmd.cancel.label
+#: cmd.cancel.accesskey
 msgid "&Cancel"
 msgstr "&Renunță"
 
@@ -72,11 +69,13 @@ msgstr "&Renunță"
 #. cmd.showMac.accesskey):
 #. The show and showMac commands are never shown together, thus they can share
 #. the same access key (though the two access keys can also be different).
-#: cmd.show.label cmd.show.accesskey
+#: cmd.show.label
+#: cmd.show.accesskey
 msgid "Open Containing &Folder"
 msgstr "&Deschide dosarul conținător"
 
-#: cmd.showMac.label cmd.showMac.accesskey
+#: cmd.showMac.label
+#: cmd.showMac.accesskey
 msgid "Show In &Finder"
 msgstr "Afișare în &Finder"
 
@@ -84,35 +83,42 @@ msgstr "Afișare în &Finder"
 msgid "Retry"
 msgstr "Reîncearcă"
 
-#: cmd.goToDownloadPage.label cmd.goToDownloadPage.accesskey
+#: cmd.goToDownloadPage.label
+#: cmd.goToDownloadPage.accesskey
 msgid "&Go To Download Page"
 msgstr "Mer&gi la pagina de descărcare"
 
-#: cmd.copyDownloadLink.label cmd.copyDownloadLink.accesskey
+#: cmd.copyDownloadLink.label
+#: cmd.copyDownloadLink.accesskey
 msgid "Copy Download &Link"
 msgstr "Copiază &linkul de descărcare"
 
-#: cmd.removeFromHistory.label cmd.removeFromHistory.accesskey
+#: cmd.removeFromHistory.label
+#: cmd.removeFromHistory.accesskey
 msgid "R&emove From History"
 msgstr "&Elimină din istoric"
 
-#: cmd.clearList.label cmd.clearList.accesskey
+#: cmd.clearList.label
+#: cmd.clearList.accesskey
 msgid "Cle&ar List"
 msgstr "Curăță list&a"
 
-#: cmd.clearDownloads.label cmd.clearDownloads.accesskey
+#: cmd.clearDownloads.label
+#: cmd.clearDownloads.accesskey
 msgid "Clear &Downloads"
 msgstr "Curăță &descărcările"
 
 #. This command may be shown in the context menu, as a menu button item, or as
 #. a text link when malware or potentially unwanted downloads are blocked.
-#: cmd.unblock.label cmd.unblock.accesskey
+#: cmd.unblock.label
+#: cmd.unblock.accesskey
 msgid "&Unblock"
 msgstr "D&eblocare"
 
 #. This command may be shown in the context menu or as a menu button label
 #. when malware or potentially unwanted downloads are blocked.
-#: cmd.removeFile.label cmd.removeFile.accesskey
+#: cmd.removeFile.label
+#: cmd.removeFile.accesskey
 msgid "Re&move File"
 msgstr "Ș&terge fișierul"
 
@@ -133,7 +139,8 @@ msgstr "Află mai multe"
 #. This string is shown at the bottom of the Downloads Panel when all the
 #. downloads fit in the available space, or when there are no downloads in
 #. the panel at all.
-#: downloadsHistory.label downloadsHistory.accesskey
+#: downloadsHistory.label
+#: downloadsHistory.accesskey
 msgid "&Show All Downloads"
 msgstr "Arată toate &descărcările"
 

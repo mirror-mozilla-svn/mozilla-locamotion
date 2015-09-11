@@ -1,24 +1,18 @@
-#. extracted from ./toolkit/chrome/mozapps/extensions/update.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-01 10:39+0100\n"
-"PO-Revision-Date: 2015-08-25 13:48+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440510496.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/mozapps/extensions/update.dtd.po\n"
-"X-Pootle-Revision: 70010\n"
+"X-Pootle-Revision: 99998\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -41,7 +35,8 @@ msgstr ""
 "actualizări disponibile pentru suplimentele dumneavoastră pentru a le face \n"
 "compatibile cu această versiune."
 
-#: offline.toggleOffline.label offline.toggleOffline.accesskey
+#: offline.toggleOffline.label
+#: offline.toggleOffline.accesskey
 msgid "&Go online now."
 msgstr "Mer&geți online acum."
 
@@ -84,19 +79,20 @@ msgstr "S-au găsit suplimente compatibile"
 
 #: found.top.label
 msgid "Select the add-ons you would like to install:"
-msgstr "Alegeți suplimentele pe care doriți să le instalați:"
+msgstr "Selectați suplimentele pe care doriți să le instalați:"
 
 #: found.disabledXPinstall.label
 msgid ""
-"These updates can't be installed because software installation is "
-"currently \n"
+"These updates can't be installed because software installation is currently "
+"\n"
 "disabled. You can change this setting below."
 msgstr ""
 "Aceste actualizări nu pot fi instalate deoarece instalarea de software este "
 "actualmente \n"
 "dezactivată. Puteți schimba această setare mai jos."
 
-#: found.enableXPInstall.label found.enableXPInstall.accesskey
+#: found.enableXPInstall.label
+#: found.enableXPInstall.accesskey
 msgid "&Allow websites to install software"
 msgstr "Permite c&a site-urile web să instaleze programe"
 
@@ -170,8 +166,8 @@ msgid ""
 "Please contact your System Administrator for assistance."
 msgstr ""
 "Nu se pot căuta actualizări pentru suplimentele incompatibile \n"
-"deoarece instalarea software în &brandShortName; a fost dezactivată. \n"
-"Vă rugăm contactați administratorul sistemului pentru asistență."
+"deoarece instalarea software pentru &brandShortName; a fost dezactivată. \n"
+"Vă rugăm să contactați administratorul sistemului pentru asistență."
 
 #: versioninfo.wizard.title
 msgid "Checking Compatibility of Add-ons"

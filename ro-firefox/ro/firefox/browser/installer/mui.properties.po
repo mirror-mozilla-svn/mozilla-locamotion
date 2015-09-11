@@ -1,27 +1,18 @@
-#. # This Source Code Form is subject to the terms of the Mozilla Public
-#. # License, v. 2.0. If a copy of the MPL was not distributed with this
-#. # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#. extracted from ./browser/installer/mui.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-01 10:39+0100\n"
-"PO-Revision-Date: 2015-08-25 15:40+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440517235.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/installer/mui.properties.po\n"
-"X-Pootle-Revision: 70344\n"
+"X-Pootle-Revision: 97205\n"
 
 #. # To make the l10n tinderboxen see changes to this file you can change a value
 #. # name by adding - to the end of the name followed by chars (e.g. Branding-2).
@@ -127,11 +118,11 @@ msgstr ""
 
 #: MUI_TEXT_FINISH_INFO_REBOOT
 msgid ""
-"Your computer must be restarted in order to complete the installation of "
-"$BrandFullNameDA. Do you want to reboot now?"
+"Your computer must be restarted in order to complete the installation of $"
+"BrandFullNameDA. Do you want to reboot now?"
 msgstr ""
-"Calculatorul trebuie să fie repornit pentru a încheia instalarea "
-"$BrandFullNameDA. Doriți să reporniți acum?"
+"Calculatorul trebuie să fie repornit pentru a încheia instalarea $"
+"BrandFullNameDA. Doriți să reporniți acum?"
 
 #: MUI_TEXT_FINISH_REBOOTNOW
 msgid "Reboot now"
@@ -155,8 +146,9 @@ msgid ""
 "Select the Start Menu folder in which you would like to create the program's "
 "shortcuts. You can also enter a name to create a new folder."
 msgstr ""
-"Alegeți dosarul de meniu start în care doriți să creați scurtăturile pentru "
-"program. Puteți introduce, de asemenea, un nume pentru a crea un dosar nou."
+"Selectați dosarul meniului Start în care doriți să creați scurtăturile "
+"pentru program. Puteți introduce, de asemenea, un nume pentru a crea un "
+"dosar nou."
 
 #: MUI_TEXT_ABORTWARNING
 msgid "Are you sure you want to quit $BrandFullName Setup?"
@@ -196,7 +188,7 @@ msgstr "Dezinstalare"
 
 #: MUI_UNTEXT_UNINSTALLING_SUBTITLE
 msgid "Please wait while $BrandFullNameDA is being uninstalled."
-msgstr "Vă rugăm așteptați cât timp $BrandFullNameDA se dezinstalează."
+msgstr "Vă rugăm să așteptați cât timp $BrandFullNameDA se dezinstalează."
 
 #: MUI_UNTEXT_FINISH_TITLE
 msgid "Uninstallation Complete"
@@ -230,11 +222,11 @@ msgstr ""
 
 #: MUI_UNTEXT_FINISH_INFO_REBOOT
 msgid ""
-"Your computer must be restarted in order to complete the uninstallation of "
-"$BrandFullNameDA. Do you want to reboot now?"
+"Your computer must be restarted in order to complete the uninstallation of $"
+"BrandFullNameDA. Do you want to reboot now?"
 msgstr ""
-"Calculatorul dumneavoastră trebuie repornit pentru a încheia dezinstalarea "
-"$BrandFullNameDA. Doriți să reporniți acum?"
+"Calculatorul dumneavoastră trebuie repornit pentru a încheia dezinstalarea $"
+"BrandFullNameDA. Doriți să reporniți acum?"
 
 #: MUI_UNTEXT_ABORTWARNING
 msgid "Are you sure you want to quit $BrandFullName Uninstall?"

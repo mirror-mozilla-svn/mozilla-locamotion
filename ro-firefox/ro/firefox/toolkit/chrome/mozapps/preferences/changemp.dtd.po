@@ -1,25 +1,19 @@
-#. extracted from ./toolkit/chrome/mozapps/preferences/changemp.dtd
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-01 10:39+0100\n"
-"PO-Revision-Date: 2015-08-25 12:29+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440505746.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/mozapps/preferences/changemp.dtd."
 "po\n"
-"X-Pootle-Revision: 69874\n"
+"X-Pootle-Revision: 100012\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -34,7 +28,7 @@ msgstr "Dispozitiv de securitate"
 
 #: setPassword.oldPassword.label
 msgid "Current password:"
-msgstr "Parola curentă:"
+msgstr "Parola actuală:"
 
 #: setPassword.newPassword.label
 msgid "Enter new password:"
@@ -70,6 +64,6 @@ msgid ""
 "forget your Master Password, you will be unable to access any of the "
 "information protected by it."
 msgstr ""
-"Vă rugăm asigurați-vă că rețineți parola generală pe care ați stabilit-o.  "
+"Vă rugăm să vă asigurați că rețineți parola generală pe care ați setat-o.  "
 "Dacă uitați parola generală, nu veți mai avea acces la nicio informație din "
 "cele protejate de aceasta."
