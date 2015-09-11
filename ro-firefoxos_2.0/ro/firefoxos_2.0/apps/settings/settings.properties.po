@@ -1,24 +1,18 @@
-#. extracted from ./apps/settings/settings.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-28 19:29+0100\n"
-"PO-Revision-Date: 2015-08-27 14:14+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440684841.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.0/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 71324\n"
+"X-Pootle-Revision: 99568\n"
 
 #: settings
 msgid "Settings"
@@ -351,8 +345,8 @@ msgid ""
 "Notice: If you need to import new certificates, please go to \"Manage "
 "certificates\"."
 msgstr ""
-"Aviz: Dacă ai nevoie să imporți certificate noi, te rugăm să te duci la "
-"„Gestionează certificate”."
+"Aviz: Dacă ai nevoie să imporți certificate noi, te rugăm să te duci la „"
+"Gestionează certificate”."
 
 #: identity
 msgid "Identifier"
@@ -1386,7 +1380,7 @@ msgstr "{{name}} + încă {{n}}"
 
 #: device-status-tap-connect
 msgid "Tap to connect"
-msgstr "Apasă pentru conectare"
+msgstr "Atinge pentru conectare"
 
 #: device-status-pairing
 msgid "Pairing with device…"
@@ -1541,8 +1535,8 @@ msgstr "USB"
 #: internetSharing-usb-desc
 msgid "Share my phone’s Internet connection with a USB-connected device."
 msgstr ""
-"Partajează conexiunea de internet a telefonului cu un dispozitiv conectat la "
-"USB."
+"Partajează conexiunea mea de internet a telefonului cu un dispozitiv "
+"conectat la USB."
 
 #: internetSharing-wifi
 msgctxt "internetSharing-wifi"
@@ -3360,7 +3354,7 @@ msgstr "Flash repainted area"
 
 #: dumps-layers
 msgid "Dump layers tree"
-msgstr "Golește straturile de tip arbore"
+msgstr "Dump layers tree"
 
 #: apz
 msgid "Async Pan/Zoom"
@@ -3633,10 +3627,10 @@ msgid ""
 "publish the feedback on its websites, and to distribute the feedback."
 msgstr ""
 "Unele funcționalități din {{brandShortName}}, cum ar fi raportorul de "
-"defecțiuni îți oferă posibilitatea să îți faci părerea auzită la Mozilla. "
-"Alegând să trimiți reacțiile, îi dai permisiunea Mozillei să folosească "
-"reacțiile pentru a-și îmbunătăți produsele, să publice reacțiile pe "
-"propriile site-uri web și să distribuie reacțiile."
+"defecțiuni îți oferă posibilitatea să furnizezi feedback la Mozilla. Alegând "
+"să trimiți feedback, îi dai permisiunea lui Mozilla să folosească "
+"feedbackurile pentru a-și îmbunătăți produsele, să publice feedbackurile pe "
+"propriile site-uri web și să distribuie feedbackurile."
 
 #: about-legal-info
 msgid "Legal Information"
@@ -3880,7 +3874,7 @@ msgid ""
 "When the screen reader is enabled, your device will provide spoken feedback "
 "to assist blind and low-vision users."
 msgstr ""
-"Când cititorul de ecran e activat, dispozitivul va furniza feedback vocal "
+"Când cititorul de ecran e activat, dispozitivul va furniza feedback vorbit "
 "pentru a asista utilizatorii nevăzători sau cu vedere slabă."
 
 #: screen-reader-speech-volume
@@ -3902,8 +3896,8 @@ msgid ""
 "activate."
 msgstr ""
 "Activarea cititorului de ecran va schimba modul în care ecranul tactil "
-"funcționează. Apasă oriunde pentru a auzi elementul de sub deget și dublă "
-"apăsare pentru activare."
+"funcționează. Atinge oriunde pentru a auzi elementul de sub deget și dublă "
+"atingere pentru activare."
 
 #: screenReader-confirm-button-start
 msgid "Start"
@@ -3915,7 +3909,7 @@ msgstr "Oprești cititorul de ecran?"
 
 #: screenReader-confirm-description-stop
 msgid "Stopping the screen reader will end all speech feedback."
-msgstr "Oprirea cititorului de ecran va opri feedbackul vocal."
+msgstr "Oprirea cititorului de ecran va opri feedbackul vorbit."
 
 #: screenReader-confirm-button-stop
 msgid "Stop"
@@ -3934,7 +3928,7 @@ msgstr "Sprijină {{brandShortName}}"
 
 #: sendMozillaFeedback
 msgid "Send Mozilla Feedback"
-msgstr "Trimite opinia la Mozilla"
+msgstr "Trimite feedbackul la Mozilla"
 
 #: performanceData
 msgid "Performance data"
@@ -4027,11 +4021,11 @@ msgstr "."
 #. # Device :: Improve Browser OS :: Submit Your Feedback
 #: sendFeedbackTitle
 msgid "Submit Your Feedback"
-msgstr "Trimite opinia ta"
+msgstr "Trimite feedbackul"
 
 #: feedback-description
 msgid "Your feedback will help us to improve Firefox OS."
-msgstr "Opinia ta ne va ajuta să îmbunătățim Firefox OS."
+msgstr "Feedbackul tău ne va ajuta să îmbunătățim Firefox OS."
 
 #: feedback-happy
 msgid "Happy"
@@ -4062,8 +4056,8 @@ msgid ""
 "The content of your feedback will be public, so please be sure not include "
 "any personal information."
 msgstr ""
-"Conținutul opiniei tale va fi public, așadar asigură-te că nu incluzi vreo "
-"informație personală."
+"Conținutul feedbackului va fi public, atfel încât te rugăm să te asiguri că "
+"nu incluzi vreo informație personală."
 
 #: feedback-contactyou
 msgid "Check here to let us contact you from your email."
@@ -4079,7 +4073,7 @@ msgstr "Nu-ți fă griji. E-mailul tău va rămâne mereu privat."
 
 #: feedback-sendbtn
 msgid "Send Feedback"
-msgstr "Trimite opinia"
+msgstr "Trimite feedbackul"
 
 #: feedback-errormessage-connect-error
 msgid ""
@@ -4102,8 +4096,8 @@ msgid ""
 "Sorry, the system can’t send your suggestion because of a timeout. Please "
 "restart and try again."
 msgstr ""
-"Scuze, sistemul nu poate trimite sugestia deoarece timpul a expirat. Te "
-"rugăm să repornești dispozitivul și să încerci iar."
+"Ne pare rău, sistemul nu poate trimite sugestia deoarece timpul a expirat. "
+"Te rugăm să repornești dispozitivul și să încerci iar."
 
 #: feedback-errormessage-wrong-email
 msgid ""
@@ -4111,25 +4105,25 @@ msgid ""
 "missing or due to a formatting error. Please use a valid email address and "
 "try again."
 msgstr ""
-"Scuze, sistemul nu poate trimite sugestia ta deoarece adresa de e-mail este "
-"lipsă sau datorită unei erori de formatare. Te rugăm să folosești o adresă "
-"de e-mail corectă și să încerci din nou."
+"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece adresa de e-mail "
+"este lipsă sau datorită unei erori de formatare. Te rugăm să folosești o "
+"adresă de e-mail validă și să încerci din nou."
 
 #: feedback-errormessage-empty-comment
 msgid ""
 "Sorry, the system can’t send your suggestion because the comment field is "
 "empty. Please enter some text and try again."
 msgstr ""
-"Scuze, sistemul nu poate trimite sugestia ta deoarece câmpul comentariu este "
-"gol. Te rugăm să introduci un text și să încerci din nou."
+"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece câmpul "
+"comentariu este gol. Te rugăm să introduci un text și să încerci din nou."
 
 #: feedback-errormessage-just-sent
 msgid ""
 "Sorry, the system can’t send your suggestion because you already sent us "
 "feedback. Please try our next software update and send again."
 msgstr ""
-"Scuze, sistemul nu poate trimite sugestia ta deoarece ai trimis deja o "
-"opinie. Te rugăm să încerci actualizarea următoare a software-ului și să "
+"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece ai trimis deja "
+"un feedback. Te rugăm să încerci următoarea actualizare software și să îl "
 "trimiți din nou."
 
 #: feedback-complete-msg
@@ -4137,8 +4131,8 @@ msgid ""
 "Thanks for the feedback! We use it to help create better experiences in "
 "future releases of Firefox OS."
 msgstr ""
-"Thanks for the feedback! We use it to help create better experiences in "
-"future releases of Firefox OS."
+"Îți mulțumim pentru feedback! Îl folosim pentru a contribui la crearea unei "
+"experiențe mai bune în versiunile viitoare ale Firefox OS."
 
 #. # Device :: Help
 #: online-support
@@ -4255,169 +4249,3 @@ msgstr "Trimite date"
 #: stkItemsNaiGetChannelStatus
 msgid "Get Channel Status"
 msgstr "Obține starea canalului"
-
-#~ msgid "Sent Mail"
-#~ msgstr "Mesaje trimise"
-
-#~ msgid "Camera shutter"
-#~ msgstr "Obturatorul camerei"
-
-#~ msgid "Video recording"
-#~ msgstr "Înregistrare video"
-
-#~ msgid "Confirm devices to pair"
-#~ msgstr "Confirmă dispozitivele pentru asociere"
-
-#~ msgid ""
-#~ "To pair with {{device}}, make sure that both devices currently have the "
-#~ "following PIN displayed:"
-#~ msgstr ""
-#~ "Pentru a asocia cu {{device}}, asigură-te că ambele dispozitivele au "
-#~ "următorul cod PIN afișat:"
-
-#~ msgid "To pair with {{device}}, enter the PIN on the device."
-#~ msgstr "Pentru a asocia cu {{device}}, introdu codul PIN în dispozitiv."
-
-#~ msgid "To pair with {{device}}, enter the passkey on the device."
-#~ msgstr ""
-#~ "Pentru a asocia cu {{device}}, introdu cheia de acces în dispozitiv."
-
-#~ msgid "Bluetooth pairing request"
-#~ msgstr "Cerere de asociere Bluetooth"
-
-#~ msgid ""
-#~ "{{device}} would like to pair with this phone. To accept, make sure that "
-#~ "both devices currently have the following PIN displayed:"
-#~ msgstr ""
-#~ "{{device}} dorește să se asocieze cu acest telefon. Pentru a accepta, "
-#~ "asigură-te că ambele dispozitive au următorul cod PIN afișat:"
-
-#~ msgid ""
-#~ "{{device}} would like to pair with this phone. To accept, enter the PIN "
-#~ "on the device."
-#~ msgstr ""
-#~ "{{device}} dorește să se asocieze cu acest telefon. Pentru a accepta, "
-#~ "introdu codul PIN în dispozitiv."
-
-#~ msgid ""
-#~ "{{device}} would like to pair with this phone. To accept, enter the "
-#~ "passkey on the device."
-#~ msgstr ""
-#~ "{{device}} dorește să se asocieze cu acest telefon. Pentru a accepta, "
-#~ "introdu cheia de acces în dispozitiv."
-
-#~ msgid "Bluetooth Request From"
-#~ msgstr "Cerere Bluetooth de la"
-
-#~ msgid ""
-#~ "When entering a roaming area, your data connection will be turned off."
-#~ msgstr "Când intrii într-o zonă roaming, conexiunea de date va fi oprită."
-
-#~ msgid "APN settings"
-#~ msgstr "Setări APN"
-
-#~ msgid "Hotspot"
-#~ msgstr "Hotspot"
-
-#~ msgid "Message"
-#~ msgstr "Mesaj"
-
-#~ msgid "Volume & Tones"
-#~ msgstr "Volum și tonuri"
-
-#~ msgid "Voice"
-#~ msgstr "Voce"
-
-#~ msgid "Device storage"
-#~ msgstr "Stocare pe dispozitiv"
-
-#~ msgid "USB mass storage"
-#~ msgstr "Stocare în masă USB"
-
-#~ msgctxt "enableUSBStorage2"
-#~ msgid "USB storage"
-#~ msgstr "Stocare USB"
-
-#~ msgctxt "storage-name-internal"
-#~ msgid "Internal Storage"
-#~ msgstr "Stocare internă"
-
-#, fuzzy
-#~ msgid "Displayport heuristics"
-#~ msgstr "Euristici privind portul de vizualizare"
-
-#~ msgctxt "apz-heuristic-default"
-#~ msgid "Default"
-#~ msgstr "Implicit"
-
-#~ msgid "Center displayport"
-#~ msgstr "Centrează portul de vizualizare"
-
-#~ msgid "Assume perfect paints"
-#~ msgstr "Presupune picturi perfecte"
-
-#~ msgid "Taller displayport"
-#~ msgstr "Port de vizualizare mai mare"
-
-#~ msgid "Faster paints"
-#~ msgstr "Picturi mai rapide"
-
-#~ msgid "No checkerboarding"
-#~ msgstr "Fără tablă de șah"
-
-#~ msgid ""
-#~ "Internet connection, MMS, A-GPS and Marketplace payments will be sent from"
-#~ msgstr ""
-#~ "Plățile prin conexiunea de internet, MMS-ul, A-GPS-ul și Marketplace vor "
-#~ "fi trimise de la"
-
-#~ msgid "Accounts"
-#~ msgstr "Conturi"
-
-#~ msgid "Persona"
-#~ msgstr "Persona"
-
-#~ msgid "Mail"
-#~ msgstr "Mail"
-
-#~ msgid "{{phoneLock}}"
-#~ msgstr "{{phoneLock}}"
-
-#~ msgid "Enable hardware composer"
-#~ msgstr "Activează compozitorul hardware"
-
-#~ msgid "Enable APZ for all content processes"
-#~ msgstr "Activează APZ pentru toate procesele de conținut"
-
-#~ msgid "Layers: Enable Tiles"
-#~ msgstr "Straturi: Activează mozaicuri"
-
-#~ msgid "Layers: Simple Tiles"
-#~ msgstr "Layers: Simple Tiles"
-
-#~ msgid "Layers: Progressive Paint"
-#~ msgstr "Straturi: Pictură progresivă"
-
-#~ msgid "Layers: Draw Tile Borders"
-#~ msgstr "Straturi: Desenează marginile în mozaic"
-
-#~ msgid "Remote debugging"
-#~ msgstr "Depanare de la distanță"
-
-#~ msgid "Enable software home button"
-#~ msgstr "Activează butonul software acasă"
-
-#~ msgid "Home gesture enabled"
-#~ msgstr "Gesturile pentru acasă activate"
-
-#~ msgid "Edges gesture enabled"
-#~ msgstr "Gesturile de margini activate"
-
-#~ msgid "Continuous transition enabled"
-#~ msgstr "Continuous transition enabled"
-
-#~ msgid "App transition enabled"
-#~ msgstr "Tranziție pt. aplicație activată"
-
-#~ msgid "Keep killed app in task manager"
-#~ msgstr "Keep killed app in task manager"

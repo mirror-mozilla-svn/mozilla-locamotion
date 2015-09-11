@@ -1,24 +1,18 @@
-#. extracted from ./apps/email/email.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-08 15:51+0000\n"
-"PO-Revision-Date: 2015-08-27 14:33+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1440685985.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.0/apps/email/email.properties.po\n"
-"X-Pootle-Revision: 71371\n"
+"X-Pootle-Revision: 99437\n"
 
 #: setup-app-name-header
 msgid "Mail"
@@ -28,8 +22,8 @@ msgstr "Mail"
 msgid ""
 "You are not set up to send or receive email. Would you like to do that now?"
 msgstr ""
-"Nu ai configurat niciun cont pentru a trimite și a primi e-mailuri. Dorești "
-"să o faci acum?"
+"Nu ai configurat să trimiți sau să primești e-mailuri. Dorești să o faci "
+"acum?"
 
 #: setup-pick-service
 msgid "To send and receive email, you will need to set up an account."
@@ -76,7 +70,7 @@ msgstr "Înainte"
 
 #: setup-progress-wait-msg
 msgid "Setting up account"
-msgstr "Te rugăm să aștepți cât timp contul este configurat"
+msgstr "Se configurează contul"
 
 #: setup-completed-header
 msgid "Mail account setup"
@@ -301,8 +295,7 @@ msgstr "Parolă greșită!"
 
 #: setup-bad-password
 msgid "We could not sign in to the server. Maybe your password is wrong?"
-msgstr ""
-"Nu ne-am putut autentifica pe server. Posibil ca parola să fie greșită?"
+msgstr "Nu ne-am putut autentifica pe server. Posibil ca parola să fie greșită?"
 
 #: setup-new-password.placeholder
 msgid "New password"
@@ -1443,75 +1436,3 @@ msgstr "{{ n }} e-mailuri noi ({{ accountName }})"
 #: new-emails-notify-multiple-accounts-body
 msgid "{{ from }} “{{ subject }}”"
 msgstr "{{ from }} „{{ subject }}”"
-
-#~ msgid "Cancel search"
-#~ msgstr "Anulează căutarea"
-
-#~ msgid "Folders"
-#~ msgstr "Dosare"
-
-#~ msgctxt "account-last-synced-label"
-#~ msgid "Last sync:"
-#~ msgstr "Ultima sincronizare:"
-
-#~ msgid "Never"
-#~ msgstr "Niciodată"
-
-#~ msgid "About"
-#~ msgstr "Despre"
-
-#~ msgid "Check mail"
-#~ msgstr "Verifică mailul"
-
-#~ msgid "Notify of new mail"
-#~ msgstr "Notifică-mă la apariția unui mail nou"
-
-#~ msgid "Every 3 minutes"
-#~ msgstr "La fiecare 3 minute"
-
-#~ msgctxt "accounts-header"
-#~ msgid "Accounts"
-#~ msgstr "Conturi"
-
-#~ msgctxt "accounts-button"
-#~ msgid "Accounts"
-#~ msgstr "Conturi"
-
-#~ msgid "Star"
-#~ msgstr "Marchează cu steluță"
-
-#~ msgid "Unstar"
-#~ msgstr "Scoate marcajul cu steluță"
-
-#~ msgid "Mark as read"
-#~ msgstr "Marchează ca citit"
-
-#~ msgid "Mark as unread"
-#~ msgstr "Marchează ca necitit"
-
-#~ msgid "Move"
-#~ msgstr "Mută"
-
-#~ msgctxt "toaster-message-star[few]"
-#~ msgid "{{ n }} messages flag set"
-#~ msgstr "Marcaj stabilit pentru {{ n }} mesaje"
-
-#~ msgctxt "toaster-message-star[many]"
-#~ msgid "{{ n }} messages flag set"
-#~ msgstr "Marcaj stabilit pentru {{ n }} mesaje"
-
-#~ msgctxt "toaster-message-star[other]"
-#~ msgid "{{ n }} messages flag set"
-#~ msgstr "Marcaj stabilit pentru {{ n }} mesaje"
-
-#~ msgctxt "toaster-message-unstar[few]"
-#~ msgid "{{ n }} messages flag removed"
-#~ msgstr "Marcaj eliminat pentru {{ n }} mesaje"
-
-#~ msgctxt "toaster-message-unstar[many]"
-#~ msgid "{{ n }} messages flag removed"
-#~ msgstr "Marcaj eliminat pentru {{ n }} mesaje"
-
-#~ msgctxt "toaster-message-unstar[other]"
-#~ msgid "{{ n }} messages flag removed"
-#~ msgstr "Marcaj eliminat pentru {{ n }} mesaje"

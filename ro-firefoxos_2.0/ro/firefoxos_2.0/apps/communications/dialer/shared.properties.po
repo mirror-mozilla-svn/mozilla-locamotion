@@ -1,25 +1,19 @@
-#. extracted from ./apps/communications/dialer/shared.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-01 15:24+0100\n"
-"PO-Revision-Date: 2015-03-17 10:53+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"POT-Creation-Date: 2015-09-11 21:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1426589589.000000\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefoxos_2.0/apps/communications/dialer/shared.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 100122\n"
 
 #: callAirplaneModeMessage
 msgid "To make a call you need to disable airplane mode in settings."
@@ -41,7 +35,7 @@ msgstr "Numărul e ocupat"
 
 #: numberIsBusyMessage
 msgid "The number is currently busy. Please try again later."
-msgstr "Numărul este în prezent ocupat. Te rugăm reîncearcă mai târziu."
+msgstr "Numărul este în prezent ocupat. Te rugăm să reîncerci mai târziu."
 
 #: fdnIsActiveTitle
 msgid "FDN active"
@@ -65,8 +59,7 @@ msgstr "Număr de urgență"
 
 #: emergencyDialogBodyBadNumber
 msgid "To make a call, the phone must be connected to a network."
-msgstr ""
-"Pentru a efectua un apel, telefonul trebuie să fie conectat la o rețea."
+msgstr "Pentru a efectua un apel, telefonul trebuie să fie conectat la o rețea."
 
 #: emergencyDialogBodyDeviceNotAccepted
 msgid "Emergency calls are not allowed by the network."
@@ -110,8 +103,3 @@ msgid ""
 msgstr ""
 "Ai un apel activ pe altă conexiune. Poți folosi doar o conexiune în același "
 "timp."
-
-#~ msgid ""
-#~ "This number is blocked as it is not in your list of authorized numbers."
-#~ msgstr ""
-#~ "Acest număr este blocat deoarece nu este în lista ta de numere autorizate."
