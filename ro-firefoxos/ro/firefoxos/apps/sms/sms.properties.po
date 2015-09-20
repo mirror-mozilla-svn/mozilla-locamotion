@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/sms/sms.properties.po\n"
-"X-Pootle-Revision: 99973\n"
+"X-Pootle-Revision: 160009\n"
 
 #. # Headers
 #: messages
@@ -908,10 +908,6 @@ msgstr "Acasă fax"
 msgid "Fax office"
 msgstr "Birou fax"
 
-#: expired-attachment
-msgid "Sorry, the message expired on {{date}} and cannot be downloaded."
-msgstr "Ne pare rău, mesajul a expirat pe {{date}} și nu poate fi descărcat."
-
 #: faxOther
 msgid "Fax other"
 msgstr "Alt fax"
@@ -982,6 +978,10 @@ msgid ""
 msgstr ""
 "Ai primit un mesaj multimedia. Poți folosi linkul de mai jos pentru a-i "
 "descărca conținutul până la {{date}}."
+
+#: expired-attachment
+msgid "Sorry, the message expired on {{date}} and cannot be downloaded."
+msgstr "Ne pare rău, mesajul a expirat pe {{date}} și nu poate fi descărcat."
 
 #: download-attachment
 msgid "Download"

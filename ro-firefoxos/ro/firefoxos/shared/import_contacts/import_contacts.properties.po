@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefoxos/shared/import_contacts/import_contacts.properties.po\n"
-"X-Pootle-Revision: 99852\n"
+"X-Pootle-Revision: 160034\n"
 
 #: back
 msgid "Back"
@@ -138,11 +138,15 @@ msgid "Imported {{n}} contacts"
 msgstr "Importate {{n}} contacte"
 
 #: genericProgress
+#, fuzzy
+msgctxt "genericProgress"
 msgid "{{current}}/{{total}}"
 msgstr "{{current}}/{{total}}"
 
 #. # Status
 #: friendsUpdated
+#, fuzzy
+msgctxt "friendsUpdated"
 msgid "{[ plural(numFriends) ]}"
 msgstr "{[ plural(numFriends) ]}"
 
@@ -239,3 +243,272 @@ msgstr "{{numDups}} contacte contopite"
 msgctxt "contactsMerged[other]"
 msgid "{{numDups}} contacts merged"
 msgstr "{{numDups}} contacte contopite"
+
+#: close
+msgid "Close"
+msgstr "Închide"
+
+#: import
+msgid "Import"
+msgstr "Importă"
+
+#: update
+msgid "Update"
+msgstr "Actualizează"
+
+#: fbFriends
+msgctxt "fbFriends"
+msgid "Facebook Friends"
+msgstr "Prieteni Facebook"
+
+#: live-serviceName
+msgid "Outlook"
+msgstr "Outlook"
+
+#: gmail-serviceName
+msgid "Gmail"
+msgstr "Gmail"
+
+#: facebook-serviceName
+msgctxt "facebook-serviceName"
+msgid "Facebook Friends"
+msgstr "Prieteni Facebook"
+
+#: selectAll
+msgid "Select all"
+msgstr "Selectează toate"
+
+#: deselectAll
+msgid "Deselect all"
+msgstr "Deselectează toate"
+
+#: viewAll
+msgid "View All Facebook Friends"
+msgstr "Vezi toți prietenii de pe Facebook"
+
+#: viewRecommend
+msgid "View Only Recommended"
+msgstr "Vezi doar recomandările"
+
+#: linkProposal
+msgctxt "linkProposal"
+msgid "{[ plural(numFriends) ]}"
+msgstr "{[ plural(numFriends) ]}"
+
+#: linkProposal[zero]
+msgid "No matching friends. Showing all"
+msgstr "Niciun prieten găsit. Se afișează toți"
+
+#: linkProposal[one]
+msgid "Select the recommended one"
+msgstr "Selectează recomandarea"
+
+#: linkProposal[two]
+msgctxt "linkProposal[two]"
+msgid "Select a recommended one"
+msgstr "Selectează o recomandare"
+
+#: linkProposal[few]
+msgctxt "linkProposal[few]"
+msgid "Select a recommended one"
+msgstr "Selectează o recomandare"
+
+#: linkProposal[many]
+msgctxt "linkProposal[many]"
+msgid "Select a recommended one"
+msgstr "Selectează o recomandare"
+
+#: linkProposal[other]
+msgctxt "linkProposal[other]"
+msgid "Select a recommended one"
+msgstr "Selectează o recomandare"
+
+#: fbFriendsFound
+msgctxt "fbFriendsFound"
+msgid "{[ plural(numFriends) ]}"
+msgstr "{[ plural(numFriends) ]}"
+
+#: fbNoFriends
+msgid "No contacts available to import"
+msgstr "Niciun contact disponibil pentru importare"
+
+#: fbFriendsFound[zero]
+msgid "All your friends are imported"
+msgstr "Toți prietenii tăi sunt importați"
+
+#: fbFriendsFound[one]
+msgid "Found one friend to import"
+msgstr "Un prieten găsit pentru importare"
+
+#: fbFriendsFound[two]
+msgctxt "fbFriendsFound[two]"
+msgid "Found {{numFriends}} friends to import"
+msgstr "Găsiți {{numFriends}} prieteni pentru importare"
+
+#: fbFriendsFound[few]
+msgctxt "fbFriendsFound[few]"
+msgid "Found {{numFriends}} friends to import"
+msgstr "Găsiți {{numFriends}} prieteni pentru importare"
+
+#: fbFriendsFound[many]
+msgctxt "fbFriendsFound[many]"
+msgid "Found {{numFriends}} friends to import"
+msgstr "Găsiți {{numFriends}} prieteni pentru importare"
+
+#: fbFriendsFound[other]
+msgctxt "fbFriendsFound[other]"
+msgid "Found {{numFriends}} friends to import"
+msgstr "Găsiți {{numFriends}} prieteni pentru importare"
+
+#: facebook
+msgid "Facebook"
+msgstr "Facebook"
+
+#. # search related
+#: search-contact.placeholder
+msgid "Search"
+msgstr "Caută"
+
+#: noResults
+msgid "No contacts found"
+msgstr "Niciun contact găsit"
+
+#: done-search
+msgid "Done"
+msgstr "Gata"
+
+#. # Progress
+#: progressFB3ImportTitle
+msgid "Importing friends to Contacts"
+msgstr "Se importă prietenii la Contacte"
+
+#: progressFB
+msgctxt "progressFB"
+msgid "{{current}}/{{total}}"
+msgstr "{{current}}/{{total}}"
+
+#: progressFB3UpdateTitle
+msgid "Updating friends in Contacts"
+msgstr "Se actualizează prietenii în Contacte"
+
+#. # Message
+#: message2
+msgctxt "message2"
+msgid "This may take a couple of minutes"
+msgstr ""
+
+#: messageLinking
+msgid "Please hold on. We are linking your friend and your contact."
+msgstr ""
+
+#: messageCanceling
+msgid "Please hold on. We are canceling the ongoing operation."
+msgstr ""
+
+#. # Errors
+#: error1
+msgid "Error {{from}}"
+msgstr ""
+
+#: error2
+msgctxt "error2"
+msgid "Do you want to retry?"
+msgstr ""
+
+#: errorProposal
+msgctxt "errorProposal"
+msgid "calculating proposals"
+msgstr ""
+
+#: errorFriends
+msgctxt "errorFriends"
+msgid "retrieving friends"
+msgstr ""
+
+#: errorLinking
+msgid "linking contact"
+msgstr ""
+
+#. # Timeouts
+#: timeout1
+msgid "Exceeded timeout {{from}}"
+msgstr ""
+
+#: timeout2
+msgctxt "timeout2"
+msgid "Do you want to retry?"
+msgstr ""
+
+#: timeoutProposal
+msgctxt "timeoutProposal"
+msgid "calculating proposals"
+msgstr ""
+
+#: timeoutFriends
+msgctxt "timeoutFriends"
+msgid "retrieving friends"
+msgstr ""
+
+#: timeoutLinking
+msgid "linking contacts"
+msgstr ""
+
+#. # Wait
+#: wait1
+msgid "Please hold on"
+msgstr ""
+
+#: wait2
+msgctxt "wait2"
+msgid "This may take a couple of minutes"
+msgstr ""
+
+#: waitProposal
+msgid "Please hold on. We are calculating a proposal."
+msgstr ""
+
+#: waitFriends
+msgid "Please hold on. We are connecting to obtain your friend list."
+msgstr ""
+
+#: curtainCancel
+msgctxt "curtainCancel"
+msgid "Cancel"
+msgstr ""
+
+#: curtainRetry
+msgid "Retry"
+msgstr ""
+
+#: curtainOK
+msgctxt "curtainOK"
+msgid "OK"
+msgstr ""
+
+#: connectionLost
+msgid "No Internet connection"
+msgstr ""
+
+#: connectionLostMsg
+msgid "Friends’ photos will not be added to your contacts. Continue anyway?"
+msgstr ""
+
+#: yesOption
+msgctxt "yesOption"
+msgid "OK"
+msgstr ""
+
+#: noOption
+msgctxt "noOption"
+msgid "Cancel"
+msgstr ""
+
+#. # Notification relogging is needed
+#: notificationLogin
+msgid "Your Facebook session is invalid. Please sign in."
+msgstr ""
+
+#. # Error sync
+#: syncError
+msgid "There was an error synchronizing your friend’s data"
+msgstr ""

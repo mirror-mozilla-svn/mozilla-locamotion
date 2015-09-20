@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Pootle-Path: "
 "/ro/firefoxos/apps/settings/device_type/tablet/settings.device.properties."
 "po\n"
-"X-Pootle-Revision: 99462\n"
+"X-Pootle-Revision: 160003\n"
 
 #. # Localization note: strings in this file refer to a specific type of device
 #. # (phone, tablet, etc.). Try to be consistent across files for each type of

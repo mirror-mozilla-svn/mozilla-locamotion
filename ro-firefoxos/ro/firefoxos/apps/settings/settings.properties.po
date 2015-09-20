@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 100914\n"
+"X-Pootle-Revision: 163335\n"
 
 #: settings
 msgid "Settings"
@@ -1854,9 +1854,9 @@ msgstr "Wi-Fi"
 msgid "Wi-Fi Hotspot"
 msgstr "Hotspot Wi-Fi"
 
-#: wifi-name
-msgid "Name"
-msgstr "Nume"
+#: wifi-hotspot-enabled-msg
+msgid "Hotspot \"{{hotspotSSID}}\" is enabled"
+msgstr ""
 
 #: wifi-password
 msgctxt "wifi-password"
@@ -2184,10 +2184,6 @@ msgstr "{{dateAndTime}}"
 msgid "Set Automatically"
 msgstr "Setează automat"
 
-#: setTimeManually
-msgid "Set Manually"
-msgstr "Setează manual"
-
 #: timezoneMessage
 msgid "Time Zone"
 msgstr "Fus orar"
@@ -2216,6 +2212,10 @@ msgstr "Format"
 #: time-format-time
 msgid "Time Format"
 msgstr "Formatul orei"
+
+#: useDefaultTimeFormat
+msgid "Use Default"
+msgstr ""
 
 #: hour-12
 msgid "12-hour"
@@ -2325,7 +2325,7 @@ msgstr "Niciun operator"
 
 #: cant-disable-simcard-alert
 msgid "At least one SIM should be activated at a time"
-msgstr "Cel puțin o cartelă SIM trebuie activată odată"
+msgstr "Cel puțin o cartelă SIM ar trebui activată odată"
 
 #: disable-simcard-confirm
 msgid ""
@@ -2341,21 +2341,18 @@ msgstr ""
 msgid "The current data transfer will be suspended. Continue anyway?"
 msgstr "Transferul de date actual va fi suspendat. Continui oricum?"
 
-#. # Personalization :: Homescreen
-#: homescreen
-msgctxt "homescreen"
-msgid "Homescreen"
-msgstr "Ecran principal"
+#. # Personalization :: Home Screens
+#: home-screens
+#, fuzzy
+msgctxt "home-screens"
+msgid "Home Screens"
+msgstr "Ecrane principale"
 
-#: homescreen.ariaLabel
-msgctxt "homescreen.ariaLabel"
-msgid "Homescreen"
-msgstr "Ecran principal"
-
-#: vertical-homescreen-header
-msgctxt "vertical-homescreen-header"
-msgid "Homescreen"
-msgstr "Ecran principal"
+#: home-screens.ariaLabel
+#, fuzzy
+msgctxt "home-screens.ariaLabel"
+msgid "Home Screens"
+msgstr "Ecrane principale"
 
 #: vertical-homescreen-layout
 msgid "Layout"
@@ -2411,39 +2408,34 @@ msgstr ""
 "pot aplica costuri în plus pentru traficul de date la folosirea acestei "
 "funcționalități."
 
-#. # Personalization :: Homescreens
-#: homescreens
-msgctxt "homescreens"
-msgid "Homescreens"
-msgstr "Ecrane principale"
+#: replaceable-home-screen
+msgid "Replaceable Home Screen"
+msgstr ""
 
-#: homescreens.ariaLabel
-msgctxt "homescreens.ariaLabel"
-msgid "Homescreens"
-msgstr "Ecrane principale"
-
-#. # LOCALIZATION NOTE (homescreens-header): if you leave the original
-#. # en-US value "{{homescreens}}" in the following string, the localization
-#. # will be automatically picked from the existing string with ID "homescreens".
-#. # If you need to adapt your localization to the reduced space available
-#. # in headers, you can use a shorter string here.
-#: homescreens-header
-msgid "{{homescreens}}"
-msgstr "{{homescreens}}"
-
-#: changeHomescreen
-msgid "Change homescreen"
+#. # Personalization :: Home Screens :: Home Screens List
+#: change-home-screen
+#, fuzzy
+msgid "Change Home Screen"
 msgstr "Schimbă ecranul principal"
 
-#: changeHomescreenButton
-msgctxt "changeHomescreenButton"
-msgid "Change"
-msgstr "Schimbă"
+#: get-more-home-screens
+msgid "Get More Home Screens"
+msgstr ""
 
-#: description
-msgctxt "description"
+#: my-home-screens
+msgid "My Home Screens"
+msgstr ""
+
+#. # Personalization :: Home Screens :: Home Screens List :: Home Screen Details
+#: home-screen-description
+#, fuzzy
+msgctxt "home-screen-description"
 msgid "Description"
 msgstr "Descriere"
+
+#: delete-home-screen-button
+msgid "Delete Home Screen"
+msgstr ""
 
 #. # Personalization :: Keyboard
 #: keyboardSettings
@@ -2499,7 +2491,7 @@ msgstr "{{selectKeyboards}}"
 
 #: mustHaveOneKeyboard
 msgid "At least one {{type}} keyboard should be selected"
-msgstr "Cel puțin o tastatură {{type}} trebuie să fie selectată"
+msgstr "Cel puțin o tastatură {{type}} ar trebui să fie selectată"
 
 #: keyboardType-text
 msgid "text"
@@ -2799,7 +2791,7 @@ msgid "Ring"
 msgstr "Sonerie"
 
 #: change
-msgctxt "change"
+#, fuzzy
 msgid "Change"
 msgstr "Schimbă"
 
@@ -3304,6 +3296,8 @@ msgid "Storage"
 msgstr "Stocare"
 
 #: enableUSBStorage1
+#, fuzzy
+msgctxt "enableUSBStorage1"
 msgid "USB Storage"
 msgstr "Stocare USB"
 
@@ -3875,9 +3869,22 @@ msgid ""
 "the Mozilla Foundation or any party, including without limitation the "
 "{{brandShortName}} name or logo."
 msgstr ""
-"Nu ți se acordă drepturi asupra mărcii comerciale sau asupra licențelor "
-"pentru mărcile comerciale ale Mozilla Foundation sau ale unei alte părți, "
-"inclusiv, dar fără a se limita la numele {{brandShortName}} sau logo."
+"Nu ți se acordă niciun drept asupra mărcii comerciale sau asupra licențelor "
+"referitor la mărcile comerciale ale Mozilla Foundation sau ale oricărei "
+"părți, inclusiv, dar fără a se limita la numele {{brandShortName}} sau logo."
+
+#: about-your-rights-3
+msgid ""
+"Some features in {{brandShortName}}, such as the Crash Reporter, give you "
+"the option to provide feedback to Mozilla. By choosing to submit feedback, "
+"you give Mozilla permission to use the feedback to improve its products, to "
+"publish the feedback on its websites, and to distribute the feedback."
+msgstr ""
+"Unele funcționalități din {{brandShortName}}, cum ar fi Raportorul de "
+"defecțiuni îți oferă posibilitatea să furnizezi feedback la Mozilla. Alegând "
+"să trimiți feedback, îi dai permisiunea lui Mozilla să folosească "
+"feedbackurile pentru a-și îmbunătăți produsele, să publice feedbackurile pe "
+"propriile site-uri web și să distribuie feedbackurile."
 
 #: about-legal-info
 msgid "Legal Information"
@@ -4087,19 +4094,6 @@ msgstr "Timp de încărcare"
 #: hud-memory
 msgid "Memory"
 msgstr "Memorie"
-
-#: about-your-rights-3
-msgid ""
-"Some features in {{brandShortName}}, such as the Crash Reporter, give you "
-"the option to provide feedback to Mozilla. By choosing to submit feedback, "
-"you give Mozilla permission to use the feedback to improve its products, to "
-"publish the feedback on its websites, and to distribute the feedback."
-msgstr ""
-"Unele funcționalități din {{brandShortName}}, cum ar fi raportorul de "
-"defecțiuni îți oferă posibilitatea să furnizezi feedback la Mozilla. Alegând "
-"să trimiți feedback, îi dai permisiunea lui Mozilla să folosească "
-"feedbackurile pentru a-și îmbunătăți produsele, să publice feedbackurile pe "
-"propriile site-uri web și să distribuie feedbackurile."
 
 #: hud-uss
 msgid "Unique Set Size"
@@ -4312,14 +4306,6 @@ msgstr "Butonul software acasă"
 msgid "Home Gesture"
 msgstr "Gesturi către ecranul principal"
 
-#: screenReader-enable-msg
-msgid ""
-"When the screen reader is enabled, your device will provide spoken feedback "
-"to assist blind and low-vision users."
-msgstr ""
-"Când cititorul de ecran e activat, dispozitivul va furniza feedback vorbit "
-"pentru a asista utilizatorii nevăzători sau cu vedere slabă."
-
 #: continuous-transition
 msgid "Continuous Transition"
 msgstr "Tranziție continuă"
@@ -4347,10 +4333,6 @@ msgstr "Copiază/lipește"
 #: multi-screen
 msgid "Multi-Screen"
 msgstr "Multiecrane"
-
-#: screenReader-confirm-description-stop
-msgid "Stopping the screen reader will end all speech feedback."
-msgstr "Oprirea cititorului de ecran va opri feedbackul vorbit."
 
 #: verbose-app-permissions
 msgid "Verbose App Permissions"
@@ -4382,10 +4364,6 @@ msgstr "DevTools complet"
 msgctxt "reset-devtools-warning-title"
 msgid "CAUTION"
 msgstr "ATENȚIE"
-
-#: sendMozillaFeedback
-msgid "Send Mozilla Feedback"
-msgstr "Trimite feedbackul la Mozilla"
 
 #. # Device :: Developer :: Service Workers
 #: service-worker
@@ -4454,18 +4432,9 @@ msgstr ""
 msgid "THIS WILL DISABLE ALL SECURITY MEASURES ON YOUR DEVICE."
 msgstr ""
 
-#. # Device :: Improve Browser OS :: Submit Your Feedback
-#: sendFeedbackTitle
-msgid "Submit Your Feedback"
-msgstr "Trimite feedbackul"
-
 #: enable-full-dev-mode-final-warning-title
 msgid "Are you sure you want to enable developer mode?"
 msgstr "Sigur dorești să activezi modul dezvoltator?"
-
-#: feedback-description
-msgid "Your feedback will help us to improve Firefox OS."
-msgstr "Feedbackul tău ne va ajuta să îmbunătățim Firefox OS."
 
 #: enable-full-dev-mode-final-warning-msg
 msgid "{[ plural(count) ]}"
@@ -4495,14 +4464,6 @@ msgctxt "enable-full-dev-mode-final-warning-msg[other]"
 msgid "Tap 'Enable' {{count}} more times to continue."
 msgstr "Atinge 'Activează' de încă {{count}} ori pentru a continua."
 
-#: feedback-public-description
-msgid ""
-"The content of your feedback will be public, so please be sure not include "
-"any personal information."
-msgstr ""
-"Conținutul feedbackului va fi public, atfel încât te rugăm să te asiguri că "
-"nu incluzi vreo informație personală."
-
 #. # Device :: Downloads
 #: downloads-edit
 msgid "Edit downloads"
@@ -4520,10 +4481,6 @@ msgstr "Deselectează toate"
 msgctxt "downloads-delete"
 msgid "Delete"
 msgstr "Șterge"
-
-#: feedback-sendbtn
-msgid "Send Feedback"
-msgstr "Trimite feedbackul"
 
 #. # Device :: Battery
 #: battery
@@ -4544,65 +4501,22 @@ msgstr "{{battery}}"
 msgid "Current Level"
 msgstr "Nivel actual"
 
-#: feedback-errormessage-timeout
-msgid ""
-"Sorry, the system can’t send your suggestion because of a timeout. Please "
-"restart and try again."
-msgstr ""
-"Ne pare rău, sistemul nu poate trimite sugestia deoarece timpul a expirat. "
-"Te rugăm să repornești dispozitivul și să încerci iar."
-
 #: batteryLevel-percent-unplugged
 msgid "{{level}}%"
 msgstr "{{level}}%"
-
-#: feedback-errormessage-wrong-email
-msgid ""
-"Sorry, the system can’t send your suggestion because the email address is "
-"missing or due to a formatting error. Please use a valid email address and "
-"try again."
-msgstr ""
-"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece adresa de e-mail "
-"este lipsă sau datorită unei erori de formatare. Te rugăm să folosești o "
-"adresă de e-mail validă și să încerci din nou."
 
 #: batteryLevel-percent-charging
 msgid "{{level}}% (charging)"
 msgstr "{{level}}% (se încarcă)"
 
-#: feedback-errormessage-empty-comment
-msgid ""
-"Sorry, the system can’t send your suggestion because the comment field is "
-"empty. Please enter some text and try again."
-msgstr ""
-"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece câmpul "
-"comentariu este gol. Te rugăm să introduci un text și să încerci din nou."
-
 #: batteryLevel-percent-charged
 msgid "{{level}}% (charged)"
 msgstr "{{level}}% (încărcată)"
-
-#: feedback-errormessage-just-sent
-msgid ""
-"Sorry, the system can’t send your suggestion because you already sent us "
-"feedback. Please try our next software update and send again."
-msgstr ""
-"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece ai trimis deja "
-"un feedback. Te rugăm să încerci următoarea actualizare software și să îl "
-"trimiți din nou."
 
 #: powerSaveModeTitle
 msgctxt "powerSaveModeTitle"
 msgid "Power Save Mode"
 msgstr "Mod de economisire"
-
-#: feedback-complete-msg
-msgid ""
-"Thanks for the feedback! We use it to help create better experiences in "
-"future releases of Firefox OS."
-msgstr ""
-"Îți mulțumim pentru feedback! Îl folosim pentru a contribui la crearea unei "
-"experiențe mai bune în versiunile viitoare ale Firefox OS."
 
 #: powerSaveMode
 msgctxt "powerSaveMode"
@@ -4670,6 +4584,14 @@ msgstr "{{colorFilter}}"
 msgid "Display speech"
 msgstr "Afișează subtitrări"
 
+#: screenReader-enable-msg
+msgid ""
+"When the screen reader is enabled, your device will provide spoken feedback "
+"to assist blind and low-vision users."
+msgstr ""
+"Când cititorul de ecran e activat, dispozitivul va furniza feedback vorbit "
+"pentru a asista utilizatorii nevăzători sau cu vedere slabă."
+
 #: screen-reader-speech-volume
 msgid "Speech Volume"
 msgstr "Volum de citire"
@@ -4699,6 +4621,10 @@ msgstr "Start"
 #: screenReader-confirm-title-stop
 msgid "Stop Screen Reader?"
 msgstr "Oprești cititorul de ecran?"
+
+#: screenReader-confirm-description-stop
+msgid "Stopping the screen reader will end all speech feedback."
+msgstr "Oprirea cititorului de ecran va opri feedbackul vorbit."
 
 #: screenReader-confirm-button-stop
 msgid "Stop"
@@ -4732,6 +4658,10 @@ msgstr "Îmbunătățește {{brandShortName}}"
 msgctxt "improveBrowserOSTitle"
 msgid "Improve {{brandShortName}}"
 msgstr "Îmbunătățește {{brandShortName}}"
+
+#: sendMozillaFeedback
+msgid "Send Mozilla Feedback"
+msgstr "Trimite feedbackul la Mozilla"
 
 #: performanceAndUsageData
 msgid "Performance and Usage Data"
@@ -4819,6 +4749,15 @@ msgstr "politica de confidențialitate"
 msgid "."
 msgstr "."
 
+#. # Device :: Improve Browser OS :: Submit Your Feedback
+#: sendFeedbackTitle
+msgid "Submit Your Feedback"
+msgstr "Trimite feedbackul"
+
+#: feedback-description
+msgid "Your feedback will help us to improve Firefox OS."
+msgstr "Feedbackul tău ne va ajuta să îmbunătățim Firefox OS."
+
 #: feedback-happy
 msgid "Happy"
 msgstr "Fericit"
@@ -4843,6 +4782,14 @@ msgstr "De ce te simți trist?"
 msgid "Please tell us in detail."
 msgstr "Te rugăm să ne spui în detaliu."
 
+#: feedback-public-description
+msgid ""
+"The content of your feedback will be public, so please be sure not include "
+"any personal information."
+msgstr ""
+"Conținutul feedbackului va fi public, atfel încât te rugăm să te asiguri că "
+"nu incluzi vreo informație personală."
+
 #: feedback-contactyou
 msgid "Check here to let us contact you from your email."
 msgstr "Bifează aici pentru a ne permite să te contactăm prin e-mail."
@@ -4854,6 +4801,10 @@ msgstr "Adresă de e-mail:"
 #: email-keepprivate
 msgid "Don’t worry. Your email will always be kept private."
 msgstr "Nu-ți fă griji. E-mailul tău va rămâne mereu privat."
+
+#: feedback-sendbtn
+msgid "Send Feedback"
+msgstr "Trimite feedbackul"
 
 #: feedback-errormessage-connect-error
 msgid ""
@@ -4870,6 +4821,40 @@ msgid ""
 msgstr ""
 "Ne pare rău, sistemul nu poate trimite sugestia ta deoarece serverul este "
 "închis. Te rugăm să aștepți o clipă și să încerci din nou."
+
+#: feedback-errormessage-timeout
+msgid ""
+"Sorry, the system can’t send your suggestion because of a timeout. Please "
+"restart and try again."
+msgstr ""
+"Ne pare rău, sistemul nu poate trimite sugestia deoarece timpul a expirat. "
+"Te rugăm să repornești dispozitivul și să încerci iar."
+
+#: feedback-errormessage-wrong-email
+msgid ""
+"Sorry, the system can’t send your suggestion because the email address is "
+"missing or due to a formatting error. Please use a valid email address and "
+"try again."
+msgstr ""
+"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece adresa de e-mail "
+"este lipsă sau datorită unei erori de formatare. Te rugăm să folosești o "
+"adresă de e-mail validă și să încerci din nou."
+
+#: feedback-errormessage-empty-comment
+msgid ""
+"Sorry, the system can’t send your suggestion because the comment field is "
+"empty. Please enter some text and try again."
+msgstr ""
+"Ne pare rău, sistemul nu poate trimite sugestia ta deoarece câmpul "
+"comentariu este gol. Te rugăm să introduci un text și să încerci din nou."
+
+#: feedback-complete-msg
+msgid ""
+"Thanks for the feedback! We use it to help create better experiences in "
+"future releases of Firefox OS."
+msgstr ""
+"Îți mulțumim pentru feedback! Îl folosim pentru a contribui la crearea unei "
+"experiențe mai bune în versiunile viitoare ale Firefox OS."
 
 #: feedback-errormessage-unknown-error
 msgid "Something went wrong. Please try again."
@@ -5017,7 +5002,7 @@ msgstr "{{ title }}"
 
 #. # Incompatible Settings :: USB Storage - USB Tethering - WiFi Tethering
 #: is-warning-storage-header
-msgctxt "is-warning-storage-header"
+#, fuzzy
 msgid "USB storage"
 msgstr "Stocare USB"
 
@@ -5354,8 +5339,9 @@ msgid "Privacy Controls"
 msgstr "Opțiuni de intimitate"
 
 #: enableStorageSection.ariaLabel
+#, fuzzy
 msgctxt "enableStorageSection.ariaLabel"
-msgid "USB storage"
+msgid "USB Storage"
 msgstr "Stocare USB"
 
 #: mediaStorageSection.ariaLabel

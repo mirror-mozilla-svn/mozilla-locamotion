@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/system.properties.po\n"
-"X-Pootle-Revision: 100162\n"
+"X-Pootle-Revision: 160016\n"
 
 #: ok
 msgctxt "ok"
@@ -152,11 +152,6 @@ msgstr "SIM {{id}}"
 msgid "{{date}}, {{operator}}"
 msgstr "{{date}}, {{operator}}"
 
-#. # see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
-#: statusbarDateFormat
-msgid "%b %e"
-msgstr "%e %b"
-
 #. # The following statusbar messages are for screen reader accessibility.
 #: statusbar.ariaLabel
 msgid "Status Bar"
@@ -228,10 +223,6 @@ msgstr "Tethering activat și activ"
 msgid "Alarm on"
 msgstr "Alarmă activată"
 
-#: statusbarIconOn-mute
-msgid "Mute on"
-msgstr "Sunet dezactivat"
-
 #: statusbarIconOn-bluetooth.ariaLabel
 msgctxt "statusbarIconOn-bluetooth.ariaLabel"
 msgid "Bluetooth on"
@@ -240,6 +231,10 @@ msgstr "Bluetooth activat"
 #: statusbarIconOnActive-bluetooth.ariaLabel
 msgid "Bluetooth on, active"
 msgstr "Bluetooth activat și activ"
+
+#: statusbarIconOn-mute.ariaLabel
+msgid "Mute on"
+msgstr "Sunet dezactivat"
 
 #: statusbarIconOn-vibration.ariaLabel
 msgid "Vibration on"
@@ -1169,6 +1164,11 @@ msgstr "Arată ferestrele"
 #: add-to-home-screen
 msgid "Add to home screen"
 msgstr "Adaugă pe ecran principal"
+
+#: pin-to-home-screen
+msgctxt "pin-to-home-screen"
+msgid "Pin"
+msgstr ""
 
 #: share
 msgctxt "share"
@@ -2270,13 +2270,21 @@ msgstr "Ok ({{n}})"
 #. # LOCALIZATION NOTE (pinning-pin): This string is used as
 #. # button label. "Pin" indicates the action to pin a website.
 #: pinning-pin
+msgctxt "pinning-pin"
 msgid "Pin"
 msgstr ""
 
 #. # LOCALIZATION NOTE (pinning-pin-type): This string is used as
-#. # panel title. "Pin" indicates the action to pin a site or page.
+#. # panel title. "Pin" indicates the action to pin a site.{type}
+#. # will be replaced with the url to be pinned.
 #: pinning-pin-type
 msgid "Pin \"{{type}}\""
+msgstr ""
+
+#. # LOCALIZATION NOTE (pinning-pin-page): This string is used as
+#. # panel title. "Pin" indicates the action to pin a page.
+#: pinning-pin-page
+msgid "Pin Page"
 msgstr ""
 
 #. # LOCALIZATION NOTE (from): is followed (on a new line) by the URL source of
@@ -2284,6 +2292,12 @@ msgstr ""
 #: from
 msgid "From"
 msgstr ""
+
+#. # LOCALIZATION NOTE: Message shown in a banner after successfully pinning a page
+#: pinned-to-home-screen-message
+#, fuzzy
+msgid "Added to home screen"
+msgstr "Adaugă pe ecran principal"
 
 #. # Multi-Screen
 #: multiscreen-pick
