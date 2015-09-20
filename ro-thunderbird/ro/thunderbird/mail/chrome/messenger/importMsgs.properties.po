@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/importMsgs.properties."
 "po\n"
-"X-Pootle-Revision: 97158\n"
+"X-Pootle-Revision: 153907\n"
 
 #. # The following are used by the import code to display status/error 
 #. # and informational messages
@@ -95,7 +95,7 @@ msgstr "Eroare la crearea căsuțelor poștale destinație, nu găsesc căsuța 
 #. # Place %S in your translation where the name of the mailbox should appear.
 #: 2009
 msgid "Error importing mailbox %S, unable to create destination mailbox"
-msgstr "Eroare la importul căsuței %S, nu pot crea căsuța destinație"
+msgstr "Eroare la importarea căsuței %S, nu pot crea căsuța destinație"
 
 #. # Error: No destination folder to import mailboxes
 #. ## @name IMPORT_ERROR_MB_NODESTFOLDER
@@ -369,8 +369,8 @@ msgid ""
 "An import operation is currently in progress. Try again when the current "
 "import has finished."
 msgstr ""
-"Se desfășoară o operație de import. Încercați din nou când importul se "
-"termină."
+"O operație de importare este în prezent în desfășurare. Încercați din nou "
+"când importarea se termină."
 
 #. #Error strings for settings import
 #: ImportSettingsBadModule
@@ -390,8 +390,8 @@ msgid ""
 "An error occurred while importing settings.  Some, or all, of the settings "
 "may not have been imported."
 msgstr ""
-"A apărut o eroare la importul setărilor. E posibil ca unele setări sau chiar "
-"toate să nu fi fost importate."
+"A apărut o eroare la importarea setărilor. E posibil ca unele setări sau "
+"chiar toate să nu fi fost importate."
 
 #. # LOCALIZATION NOTE : Do not translate the word "%S" below.
 #: ImportSettingsSuccess
@@ -418,7 +418,7 @@ msgstr "Nu se poate importa agenda de contacte goală %S."
 #. # LOCALIZATION NOTE: Do not translate the word "%S" below.
 #: ImportMailFailed
 msgid "An error occurred importing mail from %S"
-msgstr "A apărut o eroare la importul e-mailurilor din %S"
+msgstr "A apărut o eroare la importarea e-mailurilor din %S"
 
 #. # LOCALIZATION NOTE: Do not translate the word "%S" below.
 #: ImportMailSuccess
@@ -441,7 +441,7 @@ msgstr ""
 #. # LOCALIZATION NOTE : Do not translate the word "%S" below.
 #: ImportAddressFailed
 msgid "An error occurred importing addresses from %S."
-msgstr "A apărut o eroare la importul adreselor din %S."
+msgstr "A apărut o eroare la importarea adreselor din %S."
 
 #. # LOCALIZATION NOTE : Do not translate the word "%S" below.
 #: ImportAddressSuccess
@@ -456,7 +456,7 @@ msgstr "Nu se poate încărca modulul de importat filtre."
 #. # LOCALIZATION NOTE : The %S will get replaced by the name of the import module.
 #: ImportFiltersFailed
 msgid "An error occurred importing filters from %S."
-msgstr "A intervenit o eroare în timpul importului de filtre din %S."
+msgstr "A intervenit o eroare în timpul importării de filtre din %S."
 
 #. # LOCALIZATION NOTE : The %S will get replaced by the name of the import module.
 #: ImportFiltersSuccess

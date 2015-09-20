@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messengercompose/compose"
 "Msgs.properties.po\n"
-"X-Pootle-Revision: 100266\n"
+"X-Pootle-Revision: 153797\n"
 
 #. #
 #. # The following are used by the compose back end
@@ -137,7 +137,8 @@ msgstr "S-a produs o eroare de comunicare: %d.  Vă rugăm să încercați din n
 #: dontShowAlert
 msgid "THIS IS JUST A PLACEHOLDER.  YOU SHOULD NEVER SEE THIS STRING."
 msgstr ""
-"ACESTA ESTE DOAR UN CONTAINER. NU VEI VEDEA NICIODATĂ ACEST ȘIR DE CARACTERE."
+"ACESTA ESTE DOAR UN CONTAINER.  NU AR TREBUI SĂ VEDEȚI ACEST ȘIR DE "
+"CARACTERE."
 
 #. ## LOCALIZATION NOTE (tcpReadError): argument %s is the network error
 #: tcpReadError

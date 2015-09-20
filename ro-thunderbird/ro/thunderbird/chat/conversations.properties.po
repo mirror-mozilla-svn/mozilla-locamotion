@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/chat/conversations.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 101590\n"
 
 #. # LOCALIZATION NOTE (targetChanged):
 #. #  %1$S is the new conversation title (display name of the new target),
@@ -54,25 +54,25 @@ msgstr "%1$S este %2$S: %3$S."
 #. # mislead the user into thinking the person's status has just changed.
 #: statusKnown
 msgid "Your account has been reconnected (%1$S is %2$S)."
-msgstr "Contul dumneavoastră a fost reconectat (%1$S este %2$S)."
+msgstr "Contul v-a fost reconectat (%1$S este %2$S)."
 
 #: statusKnownWithStatusText
 msgid "Your account has been reconnected (%1$S is %2$S: %3$S)."
-msgstr "Contul dumneavoastră a fost reconectat (%1$S este %2$S: %3$S)."
+msgstr "Contul v-a fost reconectat (%1$S este %2$S: %3$S)."
 
 #. # LOCALIZATION NOTE (statusUnknown):
 #. #  %S is the display name of the contact.
 #: statusUnknown
 msgid "Your account is disconnected (the status of %S is no longer known)."
-msgstr "Contul dumneavoastră este deconectat (starea %S nu mai este cunoscută)."
+msgstr "Contul vă este deconectat (starea %S nu mai este cunoscută)."
 
 #: accountDisconnected
 msgid "Your account is disconnected."
-msgstr "Contul dumneavoastră este deconectat."
+msgstr "Contul vă este deconectat."
 
 #: accountReconnected
 msgid "Your account has been reconnected."
-msgstr "Contul dumneavoastră a fost reconectat."
+msgstr "Contul v-a fost reconectat."
 
 #. # LOCALIZATION NOTE (autoReply):
 #. #  %S is replaced by the text of a message that was sent as an automatic reply.

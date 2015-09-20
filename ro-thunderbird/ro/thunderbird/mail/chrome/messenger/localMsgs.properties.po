@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/localMsgs.properties."
 "po\n"
-"X-Pootle-Revision: 100245\n"
+"X-Pootle-Revision: 153896\n"
 
 #. #
 #. # The following are used by the local mail code to display progress/status/error messages
@@ -79,7 +79,7 @@ msgstr "Construiesc sumarul pentru %S…"
 #. # Status - parsing folder
 #: localStatusDocumentDone
 msgid "Done"
-msgstr "Terminat"
+msgstr "Gata"
 
 #. # Status - pop3 server error
 #. #LOCALIZATION NOTE (pop3ServerError): Do not translate POP3 in the following line.

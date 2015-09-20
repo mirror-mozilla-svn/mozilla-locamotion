@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/accountCreation.properties.po\n"
-"X-Pootle-Revision: 100227\n"
+"X-Pootle-Revision: 153894\n"
 
 #. # LOCALIZATION NOTE(cleartext_warning): %1$S will be the hostname of the server the user was trying to connect to.
 #: cleartext_warning
@@ -102,7 +102,7 @@ msgstr "The following settings were found by trying common server names"
 
 #: found_settings_halfmanual
 msgid "The following settings were found by probing the given server"
-msgstr "Următorii parametri au fost identificați încercând serverul dat"
+msgstr "Următoarele setări au fost identificate încercând serverul dat"
 
 #. # LOCALIZATION NOTE(failed_to_find_settings): %1$S will be the brandShortName.
 #: failed_to_find_settings

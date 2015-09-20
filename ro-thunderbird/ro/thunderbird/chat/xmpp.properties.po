@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/chat/xmpp.properties.po\n"
-"X-Pootle-Revision: 100208\n"
+"X-Pootle-Revision: 153799\n"
 
 #. # LOCALIZATION NOTE (connection.*)
 #. #   These will be displayed in the account manager in order to show the progress
@@ -46,7 +46,7 @@ msgstr "Se descarcă lista de contacte"
 #: connection.error.invalidUsername
 msgid "Invalid username (your username should contain an '@' character)"
 msgstr ""
-"Nume de utilizator incorect (numele de utilizator trebuie să conțină un "
+"Nume de utilizator invalid (numele de utilizator ar trebui să conțină un "
 "caracter '@')"
 
 #: connection.error.failedToCreateASocket

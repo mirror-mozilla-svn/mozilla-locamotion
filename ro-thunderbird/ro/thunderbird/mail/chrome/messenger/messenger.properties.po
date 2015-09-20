@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messenger.properties."
 "po\n"
-"X-Pootle-Revision: 100247\n"
+"X-Pootle-Revision: 153897\n"
 
 #. # The following are used by the messenger application
 #. #
@@ -235,7 +235,7 @@ msgstr "Se compactează dosarul %S…"
 #. # LOCALIZATION NOTE(compactingDone): %1$S is the compaction gain.
 #: compactingDone
 msgid "Done compacting (approx. %1$S saved)."
-msgstr "Compactare finalizată (aprox. %1$S salvat)."
+msgstr "Compactare realizată (aprox. %1$S salvat)."
 
 #: autoCompactAllFoldersTitle
 msgid "Compact Folders"
@@ -333,9 +333,9 @@ msgid ""
 "Some folders (e.g. '%S') cannot be compacted because there is not enough "
 "free disk space. Please delete some files and try again."
 msgstr ""
-"Unele dosare (de ex. '%S') nu pot fi compactate deoarece nu există suficient "
-"spațiu liber pe disc. Vă rugăm să ștergeți niște fișiere și să încercați din "
-"nou."
+"Unele dosare (de ex., '%S') nu pot fi compactate deoarece nu există "
+"suficient spațiu liber pe disc. Vă rugăm să ștergeți niște fișiere și să "
+"încercați din nou."
 
 #: filterFolderHdrAddFailed
 msgid ""
@@ -2069,7 +2069,7 @@ msgstr "Act&ualizează pluginurile…"
 
 #: crashedpluginsMessage.title
 msgid "The %S plugin has crashed."
-msgstr "Pluginul %S a fost închis din cauza unui defect."
+msgstr "Pluginul %S s-a închis neașteptat."
 
 #: crashedpluginsMessage.reloadButton.label
 #: crashedpluginsMessage.reloadButton.accesskey

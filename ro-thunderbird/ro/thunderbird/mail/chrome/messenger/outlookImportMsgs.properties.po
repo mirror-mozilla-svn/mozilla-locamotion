@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/outlookImportMsgs.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 153925\n"
 
 #. #
 #. # The following are used by the outlook express import code to display status/error 
@@ -42,7 +42,7 @@ msgstr "Cutia poștală %S, %d mesaje importate"
 #. ## @loc None
 #: 2003
 msgid "Bad parameter passed to import mailbox."
-msgstr "Parametru greșit la importul cutiei poștale."
+msgstr "Parametru greșit dat importării cutiei poștale."
 
 #. # Error message
 #. ## @name OUTLOOKIMPORT_MAILBOX_CONVERTERROR
@@ -54,7 +54,7 @@ msgid ""
 "Error importing mailbox %S, all messages may not be imported from this "
 "mailbox."
 msgstr ""
-"Eroare la importul cutiei poștale %S, se poate ca nu toate mesajele să fie "
+"Eroare la importarea cutiei poștale %S, se poate ca nu toate mesajele să fie "
 "importate."
 
 #. # Address book name
@@ -79,7 +79,7 @@ msgstr "Agenda de contacte importată %S"
 #. ## @loc None
 #: 2007
 msgid "Bad parameter passed to import address book."
-msgstr "Parametru greșit dat importului agendei de contacte."
+msgstr "Parametru greșit dat importării agendei de contacte."
 
 #. # Error message
 #. ## @name OUTLOOKIMPORT_ADDRESS_BADSOURCEFILE
@@ -99,5 +99,5 @@ msgstr "Eroare la accesarea fișierului cu agenda de contacte %S."
 msgid ""
 "Error importing address book %S, all addresses may not have been imported."
 msgstr ""
-"Eroare la importul agendei de contacte %S, s-ar putea să nu fi fost "
+"Eroare la importarea agendei de contacte %S, s-ar putea să nu fi fost "
 "importate toate adresele."

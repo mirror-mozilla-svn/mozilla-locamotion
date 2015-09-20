@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:19+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/safeMode.dtd.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 153892\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -32,8 +32,8 @@ msgid ""
 "your custom settings, themes, and extensions."
 msgstr ""
 "&brandShortName; rulează acum în modul sigur, ceea ce înseamnă că sunt "
-"dezactivate temporar temele și extensiile dumneavoastră, precum și "
-"parametrii personalizați."
+"dezactivate temporar temele și extensiile dumneavoastră, precum și setările "
+"personalizate."
 
 #: safeModeDescription2.label
 msgid "You can make some or all of these changes permanent:"
