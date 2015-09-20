@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:16+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/chrome/browser.properties.po\n"
-"X-Pootle-Revision: 94814\n"
+"X-Pootle-Revision: 153607\n"
 
 #: addonsConfirmInstall.title
 msgid "Installing Add-on"
@@ -249,8 +249,8 @@ msgid ""
 "it?;#1 prevented this site from opening #2 pop-up windows. Would you like to "
 "show them?"
 msgstr ""
-"#1 a împiedicat acest site să deschidă o fereastră popup. Dorești să o "
-"afișezi?;#1 a împiedicat acest site să deschidă #2 ferestre popup. Dorești "
+"#1 a împiedicat acest site să deschidă o fereastră pop-up. Dorești să o "
+"afișezi?;#1 a împiedicat acest site să deschidă #2 ferestre pop-up. Dorești "
 "să le afișezi?"
 
 #: popup.dontAskAgain
@@ -658,7 +658,7 @@ msgstr "Partajează numărul de telefon"
 
 #: contextmenu.changeInputMethod
 msgid "Select Input Method"
-msgstr "Alege metoda de introducere"
+msgstr "Selectează metoda de introducere"
 
 #: contextmenu.fullScreen
 msgid "Full Screen"

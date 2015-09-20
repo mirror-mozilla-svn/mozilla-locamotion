@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:16+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/base/android_strings.dtd.po\n"
-"X-Pootle-Revision: 96358\n"
+"X-Pootle-Revision: 153823\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -85,7 +85,7 @@ msgid ""
 "&brandShortName; had a problem and crashed. Your tabs should be listed on "
 "the &brandShortName; Start page when you restart."
 msgstr ""
-"&brandShortName; a avut o problemă și s-a închis neașteptat. Filele ar "
+"&brandShortName; a întâlnit o problemă și s-a închis neașteptat. Filele ar "
 "trebui să fie listate pe pagina de start &brandShortName; după ce repornești "
 "browserul."
 
@@ -926,7 +926,7 @@ msgstr "Cache"
 
 #: pref_private_data_offlineApps
 msgid "Offline website data"
-msgstr "Datele site-urilor offline"
+msgstr "Date offline ale site-urilor web"
 
 #: pref_private_data_siteSettings2
 msgid "Site settings"
@@ -1268,7 +1268,7 @@ msgstr "Împărtășește"
 
 #: contextmenu_pasteandgo
 msgid "Paste & Go"
-msgstr "Inserează și accesează"
+msgstr "Lipește și accesează"
 
 #: contextmenu_paste
 msgid "Paste"
