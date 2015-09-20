@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /ro/firefoxos_2.2/apps/collection/collection.properties.po\n"
+"X-Pootle-Revision: 95195\n"
+
+#. # create-collection
+#: loading
+msgid "Loading"
+msgstr "Se încarcă"
+
+#: cancel
+msgid "Cancel"
+msgstr "Renunță"
+
+#: custom
+msgid "Custom"
+msgstr "Personalizat"
+
+#: network-error-message
+msgid "Connect to the internet to add more Smart Collections"
+msgstr "Conectează-te la net pentru a adăuga mai multe colecții inteligente"
+
+#: no-available-collections
+msgid "All smart collections have been added."
+msgstr "Toate colecțiile inteligente au fost adăugate."
+
+#. # view-collection
+#: add-to-top-of-collection
+msgid "Add to top of collection"
+msgstr "Adaugă în fruntea colecției"
+
+#: add-to-home-screen
+msgid "Add to Home Screen"
+msgstr "Adaugă la ecranul principal"
+
+#: offline-webresults
+msgid "Connect to the internet to get apps for {{collectionName}}"
+msgstr "Conectează-te la net ca să obții aplicații pentru {{collectionName}}"
+
+#: edit-mode
+msgid "Edit"
+msgstr "Editează"
+
+#: edit-done
+msgctxt "edit-done"
+msgid "Done"
+msgstr "Gata"
+
+#. # delete-collection
+#: delete-generic-title
+msgid "Delete Collection"
+msgstr "Șterge colecția"
+
+#: delete-generic-body
+msgid "This collection and all of its data will be deleted."
+msgstr "Această colecție și toate datele sale vor fi șterse."
+
+#: delete
+msgid "Delete"
+msgstr "Șterge"
+
+#. # update-collection
+#: edit-collection-header
+msgid "Edit collection"
+msgstr "Editează colecția"
+
+#: done
+msgctxt "done"
+msgid "Done"
+msgstr "Gata"

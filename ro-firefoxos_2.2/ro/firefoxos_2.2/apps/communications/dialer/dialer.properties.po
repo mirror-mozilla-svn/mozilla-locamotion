@@ -1,0 +1,933 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: "
+"/ro/firefoxos_2.2/apps/communications/dialer/dialer.properties.po\n"
+"X-Pootle-Revision: 94743\n"
+
+#: addNewNumber
+msgid "Add new number"
+msgstr "Adaugă număr nou"
+
+#: contactDetails
+msgid "Contact details"
+msgstr "Detalii despre contact"
+
+#: addToExistingContact
+msgid "Add to existing contact"
+msgstr "Adaugă la contactul existent"
+
+#: all
+msgctxt "all"
+msgid "All"
+msgstr "Toate"
+
+#: all.ariaLabel
+msgctxt "all.ariaLabel"
+msgid "All"
+msgstr "Toate"
+
+#: bluetoothOption.ariaLabel
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: callLog
+msgid "Call log"
+msgstr "Lista de apeluri"
+
+#: callLogEdit.title
+msgid "Edit call log"
+msgstr "Editează lista de apeluri"
+
+#: callLogEditDialog.ariaLabel
+msgid "Edit call log dialog"
+msgstr "Editează lista de apeluri"
+
+#: connecting
+msgid "Connecting"
+msgstr "Conectare"
+
+#: connectingEllipsis
+msgid "Connecting…"
+msgstr "Conectare…"
+
+#. ## LOCALIZATION NOTE call-forwarding-async, call-forwarding-data, call-forwarding-fax, call-forwarding-packet, call-forwarding-pad, call-forwarding-sms, call-forwarding-sync and call-forwarding-voice are the service the call forwarding is activate/inactive for.
+#. ## LOCALIZATION NOTE Its variables might be a phone number or call-forwarding-inactive.
+#: call-forwarding-async
+msgid "Asynchronous: {{ async }}"
+msgstr "Asincronic: {{ async }}"
+
+#: call-forwarding-data
+msgid "Data: {{ data }}"
+msgstr "Data: {{ data }}"
+
+#: call-forwarding-error
+msgid "An error occurred while retrieving call forwarding status"
+msgstr ""
+"A apărut o eroare la preluarea statusului de redirecționare a apelurilor"
+
+#: call-forwarding-fax
+msgid "FAX: {{ fax }}"
+msgstr "FAX: {{ fax }}"
+
+#: call-forwarding-inactive
+msgid "Inactive"
+msgstr "Inactiv"
+
+#: call-forwarding-packet
+msgid "Packet: {{ packet }}"
+msgstr "Pachet: {{ packet }}"
+
+#: call-forwarding-pad
+msgid "PAD: {{ pad }}"
+msgstr "PAD: {{ pad }}"
+
+#: call-forwarding-sms
+msgid "SMS: {{ sms }}"
+msgstr "SMS: {{ sms }}"
+
+#: call-forwarding-status
+msgid "Call forwarding status"
+msgstr "Status de redirecționare a apelurilor"
+
+#: call-forwarding-sync
+msgid "Synchronous: {{ sync }}"
+msgstr "Sincronic: {{ sync }}"
+
+#: call-forwarding-voice
+msgid "Voice: {{ voice }}"
+msgstr "Voce: {{ voice }}"
+
+#: close
+msgid "Close"
+msgstr "Închide"
+
+#: confirm-deletion
+msgid "Clear selected calls?"
+msgstr "Cureți apelurile selectate?"
+
+#: contacts.ariaLabel
+msgid "Contacts"
+msgstr "Contacte"
+
+#: createNewContact
+msgid "Create new contact"
+msgstr "Creează contact nou"
+
+#: delete
+msgid "Delete"
+msgstr "Șterge"
+
+#: deselectAll
+msgid "Deselect all"
+msgstr "Deselectează tot"
+
+#: dialerAddContact.ariaLabel
+msgid "Add contact"
+msgstr "Adaugă contact"
+
+#: dialerAddContactDialog.ariaLabel
+msgid "Add Contact Dialog"
+msgstr "Dialog de adăugare contact"
+
+#: callInformation
+msgid "Call Information"
+msgstr "Informații despre apel"
+
+#: edit-selected
+msgctxt "edit-selected"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: edit-selected[one]
+msgctxt "edit-selected[one]"
+msgid "{{ n }} selected"
+msgstr "{{ n }} selectate"
+
+#: edit-selected[two]
+msgctxt "edit-selected[two]"
+msgid "{{ n }} selected"
+msgstr "{{ n }} selectate"
+
+#: edit-selected[few]
+msgctxt "edit-selected[few]"
+msgid "{{ n }} selected"
+msgstr "{{ n }} selectate"
+
+#: edit-selected[many]
+msgctxt "edit-selected[many]"
+msgid "{{ n }} selected"
+msgstr "{{ n }} selectate"
+
+#: edit-selected[other]
+msgctxt "edit-selected[other]"
+msgid "{{ n }} selected"
+msgstr "{{ n }} selectate"
+
+#: edit
+msgid "Edit"
+msgstr "Editează"
+
+#: hideKeypad.ariaLabel
+msgid "Hide keypad"
+msgstr "Ascunde tastatura"
+
+#: ignore
+msgid "Ignore Call"
+msgstr "Ignoră apelul"
+
+#: incoming
+msgid "Incoming"
+msgstr "Primite"
+
+#: keypad.ariaLabel
+msgid "Keypad"
+msgstr "Tastatură"
+
+#: makeCall.ariaLabel
+msgid "Make call"
+msgstr "Apelează"
+
+#: merge.ariaLabel
+msgid "Merge"
+msgstr "Contopește"
+
+#: info-missed
+msgctxt "info-missed"
+msgid "Missed"
+msgstr "Pierdute"
+
+#: missed
+msgctxt "missed"
+msgid "Missed"
+msgstr "Pierdute"
+
+#: missed.ariaLabel
+msgctxt "missed.ariaLabel"
+msgid "Missed"
+msgstr "Pierdute"
+
+#: canceled
+msgid "Canceled"
+msgstr "Anulat"
+
+#: missedCall
+msgid "Missed call"
+msgstr "Apel pierdut"
+
+#: missedCallMultiSims
+msgid "(SIM {{ n }}) Missed call"
+msgstr "(SIM {{ n }}) Apel pierdut"
+
+#: mmi-error
+msgid "An error occurred while sending the message"
+msgstr "A intervenit o eroare la trimiterea mesajului"
+
+#: mmi-session-expired
+msgid "Session expired"
+msgstr "Sesiune expirată"
+
+#: mmi-successfully-sent
+msgid "Message successfully sent"
+msgstr "Mesaj trimis cu succes"
+
+#: mmi-notification-title-with-sim
+msgid "({{sim}}) {{title}}"
+msgstr "({{sim}}) {{title}}"
+
+#: mute.ariaLabel
+msgid "Mute"
+msgstr "Dezactivează sunetul"
+
+#: newCall.ariaLabel
+msgid "New call"
+msgstr "Apel nou"
+
+#: no-logs-msg-1
+msgid "No calls recorded"
+msgstr "Niciun apel înregistrat"
+
+#: no-logs-msg-2
+msgid "Start communicating now"
+msgstr "Începe comunicarea acum"
+
+#: no-logs-msg-3
+msgid "No missed calls"
+msgstr "Niciun apel pierdut"
+
+#: onHoldOption.ariaLabel
+msgid "On hold"
+msgstr "În așteptare"
+
+#: outgoing
+msgid "Outgoing"
+msgstr "Efectuate"
+
+#: recents.ariaLabel
+msgid "Recent calls"
+msgstr "Apeluri recente"
+
+#: reply
+msgid "Reply"
+msgstr "Răspunde"
+
+#: selectAll
+msgid "Select all"
+msgstr "Selectează tot"
+
+#: send
+msgid "Send"
+msgstr "Trimite"
+
+#: switch-calls
+msgid "Switch calls"
+msgstr "Comută apelurile"
+
+#: today
+msgid "Today"
+msgstr "Astăzi"
+
+#: withheld-number
+msgid "Withheld number"
+msgstr "Număr ascuns"
+
+#: from-contact
+msgid "From {{ contact }}"
+msgstr "De la {{ contact }}"
+
+#: from-number
+msgid "From {{ number }}"
+msgstr "De la {{ number }}"
+
+#: from-withheld-number
+msgid "From withheld number"
+msgstr "De la număr ascuns"
+
+#: yesterday
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: sending
+msgid "Sending…"
+msgstr "Se trimite…"
+
+#: speakerOption.ariaLabel
+msgctxt "speakerOption.ariaLabel"
+msgid "Speaker"
+msgstr "Difuzor"
+
+#: ussd-services
+msgid "{{ operator }} services"
+msgstr "Servicii {{ operator }}"
+
+#: toggleKeypad.ariaLabel
+msgid "Toggle keypad"
+msgstr "Comută tastatura"
+
+#: type-your-response.placeholder
+msgid "Type your response…"
+msgstr "Tastează răspunsul…"
+
+#: clear-all-text
+msgid "Clear all text"
+msgstr "Curăță tot textul"
+
+#: hide
+msgid "Hide"
+msgstr "Ascunde"
+
+#. ## LOCALIZATION NOTE 'call' is an action verb
+#: call
+msgid "Call"
+msgstr "Apelează"
+
+#: hold.ariaLabel
+msgid "Hold"
+msgstr "În așteptare"
+
+#: resume
+msgctxt "resume"
+msgid "Resume"
+msgstr "Reia"
+
+#: resume.ariaLabel
+msgctxt "resume.ariaLabel"
+msgid "Resume"
+msgstr "Reia"
+
+#: sendSms
+msgid "Send Message"
+msgstr "Trimite mesaj"
+
+#: callEnded
+msgid "Call Ended"
+msgstr "Apel încheiat"
+
+#: via-sim
+msgid "via SIM{{ n }}"
+msgstr "via SIM{{ n }}"
+
+#: sim-number
+msgid "SIM{{ n }}"
+msgstr "SIM{{ n }}"
+
+#: unknown
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: cancel
+msgid "Cancel"
+msgstr "Renunță"
+
+#. ## LOCALIZATION NOTE: these labels aren't displayed but they're used for acessibility
+#: hangup-a11y-button.ariaLabel
+msgid "Hang Up"
+msgstr "Închide"
+
+#: pickup-a11y-button.ariaLabel
+msgid "Pick up"
+msgstr "Ridică"
+
+#: unlock-a11y-button.ariaLabel
+msgid "Slider"
+msgstr "Glisor"
+
+#: settings
+msgid "Settings"
+msgstr "Setări"
+
+#. #Call log
+#: delete-n-log?
+msgctxt "delete-n-log?"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: delete-n-log?[zero]
+msgid "Nothing selected"
+msgstr "Nimic selectat"
+
+#: delete-n-log?[one]
+msgid "Delete selected log?"
+msgstr "Ștergi jurnalul selectat?"
+
+#: delete-n-log?[two]
+msgctxt "delete-n-log?[two]"
+msgid "Delete {{ n }} logs?"
+msgstr "Ștergi {{ n }} intrări?"
+
+#: delete-n-log?[few]
+msgctxt "delete-n-log?[few]"
+msgid "Delete {{ n }} logs?"
+msgstr "Ștergi {{ n }} intrări?"
+
+#: delete-n-log?[many]
+msgctxt "delete-n-log?[many]"
+msgid "Delete {{ n }} logs?"
+msgstr "Ștergi {{ n }} intrări?"
+
+#: delete-n-log?[other]
+msgctxt "delete-n-log?[other]"
+msgid "Delete {{ n }} logs?"
+msgstr "Ștergi {{ n }} intrări?"
+
+#. # Call log information
+#: composeEmail.ariaLabel
+msgctxt "composeEmail.ariaLabel"
+msgid "Email"
+msgstr "E-mail"
+
+#: emailDetail.ariaLabel
+msgctxt "emailDetail.ariaLabel"
+msgid "Email"
+msgstr "E-mail"
+
+#: phoneDetail.ariaLabel
+msgid "Phone"
+msgstr "Telefon"
+
+#: send-sms-button.ariaLabel
+msgctxt "send-sms-button.ariaLabel"
+msgid "SMS"
+msgstr "SMS"
+
+#: separator
+msgid ","
+msgstr ","
+
+#. #Call duration units
+#: callDurationMinutes
+msgid "{{ m }}:{{ s }}"
+msgstr "{{ m }}:{{ s }}"
+
+#: callDurationHours
+msgid "{{ h }}:{{ m }}:{{ s}}"
+msgstr "{{ h }}:{{ m }}:{{ s}}"
+
+#: callDurationTextFormatSeconds
+msgid "{{ s }} s"
+msgstr "{{ s }} s"
+
+#: callDurationTextFormatMinutes
+msgid "{{ m }} m {{ s }} s"
+msgstr "{{ m }} m {{ s }} s"
+
+#: callDurationTextFormatHours
+msgid "{{ h }} h {{ m }} m {{ s }} s"
+msgstr "{{ h }} h {{ m }} m {{ s }} s"
+
+#. #Suggestion bar
+#: suggestionMatches
+msgctxt "suggestionMatches"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: suggestionMatches[one]
+msgid "{{ n }} match for \"{{ matchNumber }}\""
+msgstr "{{ n }} rezultat pentru „{{ matchNumber }}”"
+
+#: suggestionMatches[two]
+msgctxt "suggestionMatches[two]"
+msgid "{{ n }} matches for \"{{ matchNumber }}\""
+msgstr "{{ n }} rezultate pentru „{{ matchNumber }}”"
+
+#: suggestionMatches[few]
+msgctxt "suggestionMatches[few]"
+msgid "{{ n }} matches for \"{{ matchNumber }}\""
+msgstr "{{ n }} rezultate pentru „{{ matchNumber }}”"
+
+#: suggestionMatches[many]
+msgctxt "suggestionMatches[many]"
+msgid "{{ n }} matches for \"{{ matchNumber }}\""
+msgstr "{{ n }} rezultate pentru „{{ matchNumber }}”"
+
+#: suggestionMatches[other]
+msgctxt "suggestionMatches[other]"
+msgid "{{ n }} matches for \"{{ matchNumber }}\""
+msgstr "{{ n }} rezultate pentru „{{ matchNumber }}”"
+
+#. # MMI Service code
+#: scCallBarring
+msgid "Call barring"
+msgstr "Blocarea apelurilor"
+
+#: scCallForwarding
+msgid "Call forwarding"
+msgstr "Redirect. apeluri"
+
+#: scClip
+msgid "Incoming Caller ID"
+msgstr "ID-ul de intrare al apelantului"
+
+#: scClir
+msgid "Outgoing Caller ID"
+msgstr "ID-ul de ieșire al apelantului"
+
+#: scPwd
+msgid "Password change"
+msgstr "Schimbarea parolei"
+
+#: scCallWaiting
+msgid "Call waiting"
+msgstr "Apel în așteptare"
+
+#: scPin
+msgid "PIN change"
+msgstr "Schimbare PIN"
+
+#: scPin2
+msgid "PIN2 change"
+msgstr "Schimbare PIN2"
+
+#: scPuk
+msgid "Unblock PIN"
+msgstr "Deblocare PIN"
+
+#: scPuk2
+msgid "Unblock PIN2"
+msgstr "Deblocare PIN2"
+
+#: scImei
+msgid "IMEI"
+msgstr "IMEI"
+
+#: scUssd
+msgid "USSD"
+msgstr "USSD"
+
+#. # MMI Service class
+#: serviceClassVoice
+msgid "Voice"
+msgstr "Voce"
+
+#: serviceClassData
+msgid "Data"
+msgstr "Date"
+
+#: serviceClassFax
+msgid "FAX"
+msgstr "FAX"
+
+#: serviceClassSms
+msgctxt "serviceClassSms"
+msgid "SMS"
+msgstr "SMS"
+
+#: serviceClassDataSync
+msgid "Sync"
+msgstr "Sincronic"
+
+#: serviceClassDataAsync
+msgid "Async"
+msgstr "Asincronic"
+
+#: serviceClassPacket
+msgid "Packet"
+msgstr "Pachet"
+
+#: serviceClassPad
+msgid "PAD"
+msgstr "PAD"
+
+#. # MMI Status message
+#: smServiceEnabled
+msgid "Service was enabled"
+msgstr "Serviciul a fost activat"
+
+#: smServiceDisabled
+msgid "Service has been disabled"
+msgstr "Serviciul a fost dezactivat"
+
+#: smServiceRegistered
+msgid "Registration was successful"
+msgstr "Înregistrarea s-a efectuat cu succes"
+
+#: smServiceErased
+msgid "Erasure was successful"
+msgstr "Ștergerea s-a efectuat cu succes"
+
+#: smServiceInterrogated
+msgid "Request was successful"
+msgstr "Cerere realizată cu succes"
+
+#: smServiceNotProvisioned
+msgid "Service not provisioned"
+msgstr "Serviciu neaprovizionat"
+
+#: smClirPermanent
+msgid "You can not change the caller ID setting"
+msgstr "Nu poți schimba setarea ID-ului pentru apelant"
+
+#: smClirDefaultOnNextCallOn
+msgid "Caller ID defaults to restricted. Next call: Restricted"
+msgstr ""
+"ID-ul apelantului e implicit restricționat. Apelul următor: restricționat"
+
+#: smClirDefaultOnNextCallOff
+msgid "Caller ID defaults to restricted. Next call: Not restricted"
+msgstr ""
+"ID-ul apelantului e implicit restricționat. Apelul următor: nerestricționat"
+
+#: smClirDefaultOffNextCallOn
+msgid "Caller ID defaults to not restricted. Next call: Restricted"
+msgstr ""
+"ID-ul apelantului e implicit nerestricționat. Apelul următor: restricționat"
+
+#: smClirDefaultOffNextCallOff
+msgid "Caller ID defaults to not restricted. Next call: Not restricted"
+msgstr ""
+"ID-ul apelantului e implicit nerestricționat. Apelul următor: nerestricționat"
+
+#: smServiceEnabledFor
+msgid "Service was enabled for:"
+msgstr "Serviciul a fost activat pentru:"
+
+#: smPinChanged
+msgid "PIN successfully changed"
+msgstr "PIN schimbat cu succes"
+
+#: smPinUnblocked
+msgid "PIN successfully unblocked"
+msgstr "PIN deblocat cu succes"
+
+#: smPin2Changed
+msgid "PIN2 successfully changed"
+msgstr "PIN2 schimbat cu succes"
+
+#: smPin2Unblocked
+msgid "PIN2 successfully unblocked"
+msgstr "PIN2 deblocat cu succes"
+
+#: ServiceIsEnabled
+msgid "Service is enabled"
+msgstr "Serviciul e activat"
+
+#: ServiceIsDisabled
+msgid "Service is disabled"
+msgstr "Serviciul e dezactivat"
+
+#: ServiceIsEnabledFor
+msgid "Service is enabled for:"
+msgstr "Serviciul e activat pentru:"
+
+#. # MMI Error message
+#: emMmiError
+msgid "Connection problem or invalid MMI code"
+msgstr "Problemă la conexiune sau cod MMI invalid"
+
+#: emMmiErrorPasswordIncorrect
+msgid "Incorrect Password"
+msgstr "Parolă incorectă"
+
+#: emMmiErrorNotSupported
+msgid "Invalid or Unsupported MMI Code"
+msgstr "Cod MMI invalid sau nesuportat"
+
+#: emMmiErrorInvalidAction
+msgid "Invalid action"
+msgstr "Acțiune invalidă"
+
+#: emMmiErrorInvalidScCode
+msgid "Invalid service code"
+msgstr "Cod de serviciu invalid"
+
+#: emMmiErrorBadPuk
+msgid "The PUK you typed is not correct"
+msgstr "Codul PUK introdus este incorect"
+
+#: emMmiErrorBadPin
+msgid "The old PIN you typed is not correct."
+msgstr "PIN-ul vechi tastat nu este corect."
+
+#: emMmiErrorNeedPuk2
+msgid "Type PUK2 to unblock SIM card"
+msgstr "Tastează codul PUK2 pentru a debloca cartela SIM"
+
+#: emMmiErrorMismatchPin
+msgid "The PINs you typed do not match"
+msgstr "PIN-urile tastate nu se potrivesc"
+
+#: emMmiErrorInvalidPin
+msgid "Type a PIN that is 4 to 8 numbers"
+msgstr "Tastează un PIN între 4 și 8 numere"
+
+#: emMmiErrorNeedsPuk
+msgid "Your SIM card is PUK-locked"
+msgstr "Cartela ta SIM este blocată în PUK"
+
+#: emMmiErrorEnablePin
+msgid "Unsuccessful. Enable SIM/RUIM LOCK"
+msgstr "Fără succes. Activează BLOCAREA SIM/RUIM"
+
+#: emMmiErrorMmiFdn
+msgid "Operation is restricted to fixed dialing numbers only"
+msgstr "Operația este restricționată doar apelării numerelor fixe"
+
+#: emMmiErrorStkCcUssdDial
+msgid "USSD request is modified to DIAL request"
+msgstr "Cererea USSD este modificată în cerere DIAL"
+
+#: emMmiErrorStkCcUssdSs
+msgid "USSD request is modified to SS request"
+msgstr "Cererea USSD este modificată în cerere SS"
+
+#: emMmiErrorStkCcUssdUssd
+msgid "USSD request is modified to new USSD request"
+msgstr "Cererea USSD este modificată într-o cerere nouă USSD"
+
+#: emMmiErrorStkCcSsDial
+msgid "SS request is modified to DIAL request"
+msgstr "Cererea SS este modificată în cerere DIAL"
+
+#: emMmiErrorStkCcSsUssd
+msgid "SS request is modified to USSD request"
+msgstr "Cererea SS este modificată în cerere USSD"
+
+#: emMmiErrorStkCcSsSs
+msgid "SS request is modified to new SS request"
+msgstr "Cererea SS este modificată într-o cerere nouă SS"
+
+#: emMmiErrorPinPukAttempts
+msgctxt "emMmiErrorPinPukAttempts"
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: emMmiErrorPinPukAttempts[one]
+msgid "Only {{ n }} retry left"
+msgstr "Doar {{ n }} încercare rămasă"
+
+#: emMmiErrorPinPukAttempts[two]
+msgctxt "emMmiErrorPinPukAttempts[two]"
+msgid "{{ n }} retries left"
+msgstr "{{ n }} încercări rămase"
+
+#: emMmiErrorPinPukAttempts[few]
+msgctxt "emMmiErrorPinPukAttempts[few]"
+msgid "{{ n }} retries left"
+msgstr "{{ n }} încercări rămase"
+
+#: emMmiErrorPinPukAttempts[many]
+msgctxt "emMmiErrorPinPukAttempts[many]"
+msgid "{{ n }} retries left"
+msgstr "{{ n }} încercări rămase"
+
+#: emMmiErrorPinPukAttempts[other]
+msgctxt "emMmiErrorPinPukAttempts[other]"
+msgid "{{ n }} retries left"
+msgstr "{{ n }} încercări rămase"
+
+#: emMmiErrorSimBlocked
+msgid "Maximum number of retries exceeded. SIM blocked"
+msgstr "Numărul maxim de încercări a fost depășit. Cartela SIM blocată"
+
+#. # RIL errno
+#: RadioNotAvailable
+msgid "Radio not available"
+msgstr "Radio indisponibil"
+
+#: GenericFailure
+msgid "Generic failure"
+msgstr "Eșec generic"
+
+#: PasswordIncorrect
+msgid "Password incorrect"
+msgstr "Parolă incorectă"
+
+#: SimPin2
+msgid "SIM PIN2"
+msgstr "PIN2 pentru SIM"
+
+#: SimPuk2
+msgid "SIM PUK2"
+msgstr "PUK2 pentru SIM"
+
+#: RequestNotSupported
+msgid "Request not supported"
+msgstr "Cerere nesuportată"
+
+#: OpNotAllowedDuringVoiceCall
+msgid "Operation not allowed during voice call"
+msgstr "Operație nepermisă în timpul unui apel vocal"
+
+#: SmsSendFailRetry
+msgid "SMS send fail retry"
+msgstr "Reîncercarea de trimitere a SMS-ului a eșuat"
+
+#: SimAbsent
+msgid "SIM absent"
+msgstr "Cartelă SIM absentă"
+
+#: SubscriptionNotAvailable
+msgid "Subscription not available"
+msgstr "Abonarea indisponibilă"
+
+#: ModeNotSupported
+msgid "Mode not supported"
+msgstr "Mod nesuportat"
+
+#: FdnCheckFailure
+msgid "Fdn check failure"
+msgstr "Eșec la verificarea Fdn"
+
+#: IllegalSimOrMe
+msgid "Illegal SIM or ME"
+msgstr "Cartelă SIM sau ME ilegală"
+
+#: DialModifiedToUssd
+msgid "Dial modified to USSD"
+msgstr "Apel modificat în USSD"
+
+#: DialModifiedToSs
+msgid "Dial modified to SS"
+msgstr "Apel modificat în SS"
+
+#: DialModifiedToDial
+msgid "Dial modified to dial"
+msgstr "Apel modificat în apel"
+
+#: UssdModifiedToDial
+msgid "USSD modified to dial"
+msgstr "USSD modificat în apel"
+
+#: UssdModifiedToSs
+msgid "USSD modified to SS"
+msgstr "USSD modificat în SS"
+
+#: UssdModifiedToUssd
+msgid "USSD modified to USSD"
+msgstr "USSD modificat în USSD"
+
+#: SsModifiedToDial
+msgid "SS modified to dial"
+msgstr "SS modificat în apel"
+
+#: SsModifiedToUssd
+msgid "SS modified to USSD"
+msgstr "SS modificat în USSD"
+
+#: SsModifiedToSs
+msgid "SS modified to SS"
+msgstr "SS modificat în SS"
+
+#: SubscriptionNotSupported
+msgid "Subscription not supported"
+msgstr "Abonare nesuportată"
+
+#: InvalidParameter
+msgid "Invalid parameter"
+msgstr "Parametru invalid"
+
+#: RejectedByRemote
+msgid "Rejected by remote"
+msgstr "Respins de la distanță"
+
+#. # Conference call
+#. # LOCALIZATION NOTE(conferenceCall): {{n}} represents the number of
+#. # participants in the group call.
+#: conferenceCall
+msgid "Conference ({{n}})"
+msgstr "Conferință ({{n}})"
+
+#: caller-left-call
+msgid "{{ caller }} has left the call."
+msgstr "{{ caller }} a abandonat apelul."
+
+#: conferenceAddError
+msgid "Unable to merge calls"
+msgstr "Nu se pot contopi apelurile"
+
+#: conferenceRemoveError
+msgid "Unable to unmerge calls"
+msgstr "Nu se pot descontopi apelurile"
+
+#. # date string. see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
+#: longDateFormat
+msgid "%A, %B %e"
+msgstr "%A, %e %B"
+
+#. # Bluetooth menu
+#: select-audio-sources
+msgid "Select audio sources"
+msgstr "Selectează sursele audio"
+
+#: bluetooth-handsfree-device
+msgid "Bluetooth handsfree device"
+msgstr "Dispozitiv handsfree Bluetooth"
+
+#: receiver
+msgid "Receiver"
+msgstr "Receptor"
+
+#: speaker
+msgctxt "speaker"
+msgid "Speaker"
+msgstr "Difuzor"
