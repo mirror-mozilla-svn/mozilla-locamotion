@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/newTab.properties.po\n"
-"X-Pootle-Revision: 94761\n"
+"X-Pootle-Revision: 113509\n"
 
 #: newtab.pin
 msgid "Pin this site at its current position"
@@ -123,7 +123,7 @@ msgstr "Aflați mai multe…"
 
 #: newtab.privacy.link
 msgid "Privacy Notice"
-msgstr "Notă privind politica de confidențialitate"
+msgstr "Notă cu privire la politica de confidențialitate"
 
 #: newtab.learn.link2
 msgid "More about New Tab"

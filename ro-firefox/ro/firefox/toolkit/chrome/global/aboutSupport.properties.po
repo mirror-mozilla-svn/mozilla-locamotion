@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutSupport.properties.po\n"
-"X-Pootle-Revision: 91942\n"
+"X-Pootle-Revision: 153367\n"
 
 #. # LOCALIZATION NOTE (downloadsTitleFiles): Semi-colon list of plural forms.
 #. # See: http://developer.mozilla.org/en/docs/Localization_and_Plurals
@@ -254,7 +254,7 @@ msgstr "niciunul"
 
 #: wheelEnabled
 msgid "wheel input enabled"
-msgstr "intrare pentru rotița de maus activată"
+msgstr "intrare pentru rotița de mouse activată"
 
 #: touchEnabled
 msgid "touch input enabled"
@@ -264,7 +264,7 @@ msgstr "intrare tactilă activată"
 #: wheelWarning
 msgid "async wheel input disabled due to unsupported pref: %S"
 msgstr ""
-"intrarea pentru rotița de maus dezactivată datorită unei preferințe "
+"intrarea pentru rotița de mouse dezactivată datorită unei preferințe "
 "nesuportate: %S"
 
 #: touchWarning

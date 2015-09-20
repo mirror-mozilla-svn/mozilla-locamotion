@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/dom/chrome/layout/htmlparser.properties.po\n"
-"X-Pootle-Revision: 100203\n"
+"X-Pootle-Revision: 153729\n"
 
 #. # Encoding warnings and errors
 #: EncNoDeclarationFrame
@@ -189,8 +189,8 @@ msgid ""
 "Consecutive hyphens did not terminate a comment. “--” is not permitted "
 "inside a comment, but e.g. “- -” is."
 msgstr ""
-"Cratimele consecutive nu au încheiat comentariul. „--” nu este permis într-"
-"un comentariu, dar de ex. „- -” este."
+"Cratimele consecutive nu au încheiat un comentariu. „--” nu este permis într-"
+"un comentariu, dar de ex., „- -” este."
 
 #: errPrematureEndOfComment
 msgid "Premature end of comment. Use “-->” to end a comment properly."
@@ -317,7 +317,7 @@ msgid ""
 "probably should have been escaped as “&amp;”.)"
 msgstr ""
 "Șirul care urmează „&” a fost interpretat ca o referință la caracter. („&” "
-"probabil ar fi fost scăpat drept „&amp;”.)"
+"probabil ar trebui să fi fost scăpat drept „&amp;”.)"
 
 #: errNotSemicolonTerminated
 msgid ""
@@ -325,15 +325,15 @@ msgid ""
 "have been escaped as “&amp;”.)"
 msgstr ""
 "Referința la caracter numită nu a fost terminată cu punct și virgulă. (Sau "
-"„&” ar fi fost scăpat drept „&amp;”.)"
+"„&” ar trebui să fi fost scăpat drept „&amp;”.)"
 
 #: errNoNamedCharacterMatch
 msgid ""
 "“&” did not start a character reference. (“&” probably should have been "
 "escaped as “&amp;”.)"
 msgstr ""
-"„&” nu a început o referință la caracter . („&” probabil ar fi fost scăpat "
-"drept „&amp;”.)"
+"„&” nu a început o referință la caracter . („&” probabil ar trebui să fi "
+"fost scăpat drept „&amp;”.)"
 
 #: errQuoteBeforeAttributeName
 msgid ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/toolkit/chrome/mozapps/profile/profileSelection.properties.po\n"
-"X-Pootle-Revision: 100205\n"
+"X-Pootle-Revision: 117605\n"
 
 #. # LOCALIZATION NOTE: These strings are used for startup/profile problems and the profile manager.
 #. # Application not responding
@@ -62,7 +62,7 @@ msgstr "Profil: „%S” - Cale: „%S”"
 
 #: pleaseSelectTitle
 msgid "Select Profile"
-msgstr "Selecție profil"
+msgstr "Selectați profilul"
 
 #: pleaseSelect
 msgid "Please select a profile to begin %S, or create a new profile."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/advanced.dtd."
 "po\n"
-"X-Pootle-Revision: 70887\n"
+"X-Pootle-Revision: 153815\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -233,7 +233,8 @@ msgstr "&Motoare de căutare"
 #: offlineNotify.label
 #: offlineNotify.accesskey
 msgid "&Tell me when a website asks to store data for offline use"
-msgstr "Spune-mi când un si&te cere să stocheze date pentru folosire offline"
+msgstr ""
+"Spune-mi când un si&te web solicită să stocheze date pentru folosire offline"
 
 #: offlineNotifyExceptions.label
 #: offlineNotifyExceptions.accesskey

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/preferences/preferences.properties.po\n"
-"X-Pootle-Revision: 97200\n"
+"X-Pootle-Revision: 153826\n"
 
 #. #### Security
 #. # LOCALIZATION NOTE: phishBefore uses %S to represent the name of the provider
@@ -84,13 +84,13 @@ msgid ""
 "You can specify which websites are allowed to open pop-up windows. Type the "
 "exact address of the site you want to allow and then click Allow."
 msgstr ""
-"Puteți specifica ce site-uri web au permisiunea de a deschide ferestre "
-"popup. Tastați adresa exactă a site-ului pe care doriți să-l autorizați și "
-"apoi apăsați Permite."
+"Puteți specifica ce site-uri web au permisiunea de a deschide ferestre pop-"
+"up. Tastați adresa exactă a site-ului pe care doriți să-l autorizați și apoi "
+"apăsați Permite."
 
 #: popuppermissionstitle
 msgid "Allowed Sites - Pop-ups"
-msgstr "Site-uri autorizate - Ferestre popup"
+msgstr "Site-uri autorizate - Ferestre pop-up"
 
 #: invalidURI
 msgid "Please enter a valid hostname"
@@ -279,7 +279,7 @@ msgstr "7em"
 
 #: offlineAppRemoveTitle
 msgid "Remove offline website data"
-msgstr "Șerge datele offline ale site-ului"
+msgstr "Elimină datele offline ale site-urilor web"
 
 #: offlineAppRemovePrompt
 msgid ""
@@ -287,7 +287,7 @@ msgid ""
 "you want to remove this offline website?"
 msgstr ""
 "După ștergerea acestor date, %S nu va mai fi disponibil offline.  Sigur "
-"doriți să ștergeți aceste date offline ale site-ului?"
+"doriți să eliminați aceste date offline ale site-ului web?"
 
 #: offlineAppRemoveConfirm
 msgid "Remove offline data"
@@ -305,7 +305,7 @@ msgstr "%1$S %2$S"
 #: offlinepermissionstext
 msgid "The following websites are not allowed to store data for offline use:"
 msgstr ""
-"Următoarele site-uri nu au permisiunea de a stoca date pentru folosire "
+"Următoarele site-uri web nu au permisiunea de a stoca date pentru folosire "
 "offline:"
 
 #: offlinepermissionstitle

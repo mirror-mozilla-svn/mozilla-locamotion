@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/app-manager.dtd."
 "po\n"
-"X-Pootle-Revision: 65697\n"
+"X-Pootle-Revision: 165057\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -43,8 +43,7 @@ msgstr "Depanare proces principal"
 #: device.debugMainProcessTooltip
 msgid "Open the Developer Tools connected to the main process on the device"
 msgstr ""
-"Deschideți uneltele de dezvoltare conectate procesului principal pe "
-"dispozitiv"
+"Deschide uneltele de dezvoltare conectate procesului principal pe dispozitiv"
 
 #: device.screenshot
 msgid "Screenshot"
@@ -136,7 +135,7 @@ msgid ""
 "View a list of apps installed on the device. Some apps, such as certified "
 "apps, may be excluded from this view."
 msgstr ""
-"Vedeți o listă de aplicații instalate pe dispozitiv. Unele aplicații, cum ar "
+"Vezi o listă de aplicații instalate pe dispozitiv. Unele aplicații, cum ar "
 "fi aplicațiile certificate, pot fi excluse din această listă."
 
 #: device.permissions

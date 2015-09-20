@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/aboutHome.dtd.po\n"
-"X-Pootle-Revision: 65687\n"
+"X-Pootle-Revision: 163264\n"
 
 #. %syncBrandDTD;
 #. These strings are used in the about:home page
@@ -35,8 +35,8 @@ msgid ""
 "It's easy to customize your Firefox exactly the way you want it. <a>Choose "
 "from thousands of add-ons</a>."
 msgstr ""
-"Este ușor să vă personalizați Firefox exact cum doriți. <a>Alegeți din mii "
-"de suplimente</a>."
+"Este ușor să vă personalizați Firefox exact în felul în care doriți. <a>"
+"Alegeți din mii de suplimente</a>."
 
 #. text in <a/> will be linked to about:rights
 #: abouthome.rightsSnippet
@@ -44,8 +44,8 @@ msgid ""
 "&brandFullName; is free and open source software from the non-profit Mozilla "
 "Foundation. <a>Know your rights…</a>"
 msgstr ""
-"&brandFullName; este un program liber și cu sursă deschisă de la Fundația "
-"non-profit Mozilla. <a>Cunoașteți-vă drepturile…</a>"
+"&brandFullName; este un program liber și cu sursă deschisă de la fundația "
+"nonprofit Mozilla. <a>Cunoașteți-vă drepturile…</a>"
 
 #: abouthome.bookmarksButton.label
 msgid "Bookmarks"

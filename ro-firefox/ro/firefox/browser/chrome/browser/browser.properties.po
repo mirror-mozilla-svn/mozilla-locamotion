@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/browser.properties.po\n"
-"X-Pootle-Revision: 85684\n"
+"X-Pootle-Revision: 165008\n"
 
 #: nv_timeout
 msgid "Timed Out"
@@ -366,8 +366,8 @@ msgid ""
 "#1 prevented this site from opening a pop-up window.;#1 prevented this site "
 "from opening #2 pop-up windows."
 msgstr ""
-"#1 a împiedicat acest site să deschidă o fereastră popup.;#1 a împiedicat "
-"acest site să deschidă #2 ferestre popup."
+"#1 a împiedicat acest site să deschidă o fereastră pop-up.;#1 a împiedicat "
+"acest site să deschidă #2 ferestre pop-up."
 
 #: popupWarningButton
 msgid "Options"
@@ -387,19 +387,19 @@ msgstr "P"
 
 #: popupAllow
 msgid "Allow pop-ups for %S"
-msgstr "Permite ferestre popup de la %S"
+msgstr "Permite ferestre pop-up pentru %S"
 
 #: popupBlock
 msgid "Block pop-ups for %S"
-msgstr "Blochează ferestrele popup de la %S"
+msgstr "Blochează ferestrele pop-up pentru %S"
 
 #: popupWarningDontShowFromMessage
 msgid "Don't show this message when pop-ups are blocked"
-msgstr "Nu afișa acest mesaj când sunt blocate ferestre popup"
+msgstr "Nu afișa acest mesaj când sunt blocate ferestre pop-up"
 
 #: popupWarningDontShowFromLocationbar
 msgid "Don't show info bar when pop-ups are blocked"
-msgstr "Nu afișa bara de informații când sunt blocate ferestrele popup"
+msgstr "Nu afișa bara de informații când sunt blocate ferestrele pop-up"
 
 #: popupShowPopupPrefix
 msgid "Show '%S'"
@@ -417,7 +417,7 @@ msgstr "%S nu blochează orice conținut de pe această pagină."
 
 #: crashedpluginsMessage.title
 msgid "The %S plugin has crashed."
-msgstr "Pluginul %S a fost închis din cauza unui defect."
+msgstr "Pluginul %S s-a închis neașteptat."
 
 #: crashedpluginsMessage.reloadButton.label
 #: crashedpluginsMessage.reloadButton.accesskey
@@ -697,7 +697,7 @@ msgstr "Mergi înainte la această pagină"
 #. # URL Bar
 #: pasteAndGo.label
 msgid "Paste & Go"
-msgstr "Inserează și accesează"
+msgstr "Lipește și accesează"
 
 #. # Block autorefresh
 #: refreshBlocked.goButton
@@ -724,7 +724,7 @@ msgstr ""
 #. # %S is the keyboard shortcut for "Show All Bookmarks"
 #: bookmarksMenuButton.tooltip
 msgid "Show your bookmarks (%S)"
-msgstr "Afișează semnele dumneavoastră de carte (%S)"
+msgstr "Afișează semnele de carte (%S)"
 
 #. # Star button
 #: starButtonOn.tooltip2
@@ -733,7 +733,7 @@ msgstr "Editează acest semn de carte (%S)"
 
 #: starButtonOff.tooltip2
 msgid "Bookmark this page (%S)"
-msgstr "Pune semn de carte aceastei pagini (%S)"
+msgstr "Pune semn de carte acestei pagini (%S)"
 
 #: starButtonOverflowed.label
 msgid "Bookmark This Page"
@@ -779,7 +779,7 @@ msgstr "Deschide o filă nouă (%S)"
 msgid ""
 "This website (%S) is asking to store data on your computer for offline use."
 msgstr ""
-"Acest site (%S) solicită să stocheze date pe calculator pentru folosire "
+"Acest site web (%S) solicită să stocheze date pe calculator pentru folosire "
 "offline."
 
 #: offlineApps.allow
@@ -866,11 +866,11 @@ msgstr "Mai departe"
 
 #: trackingProtection.icon.activeTooltip
 msgid "Tracking attempts blocked"
-msgstr "Au fost blocate tentative de urmărire"
+msgstr "Tentative de urmărire au fost blocate"
 
 #: trackingProtection.icon.disabledTooltip
 msgid "Tracking content detected"
-msgstr "A fost detectat conținut de urmărire"
+msgstr "Conținut de urmărire a fost detectat"
 
 #. # Edit Bookmark UI
 #: editBookmarkPanel.pageBookmarkedTitle
@@ -1114,7 +1114,7 @@ msgstr "#1 și încă 1;#1 și încă #2"
 #. # LOCALIZATION NOTE (tabviewButton.tooltip): %S is the keyboard shortcut for tab groups
 #: tabviewButton.tooltip
 msgid "Group your tabs (%S)"
-msgstr "Grupați-vă filele (%S)"
+msgstr "Grupează filele (%S)"
 
 #: extensions.{972ce4c6-7e08-4474-a285-3208198ce6fd}.name
 msgid "Default"

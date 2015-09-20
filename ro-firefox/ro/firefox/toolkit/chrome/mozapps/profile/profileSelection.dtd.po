@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/toolkit/chrome/mozapps/profile/profileSelection.dtd.po\n"
-"X-Pootle-Revision: 33167\n"
+"X-Pootle-Revision: 117600\n"
 
 #. -*- Mode: SGML; indent-tabs-mode: nil; -*-
 #. This Source Code Form is subject to the terms of the Mozilla Public
@@ -21,7 +21,7 @@ msgstr ""
 #. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #: windowtitle.label
 msgid "&brandShortName; - Choose User Profile"
-msgstr "&brandShortName; - Alegere profil utilizator"
+msgstr "&brandShortName; - Alege profilul de utilizator"
 
 #: profilename.label
 msgid "Profile Name:"

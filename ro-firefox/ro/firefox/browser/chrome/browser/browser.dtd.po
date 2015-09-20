@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/browser.dtd.po\n"
-"X-Pootle-Revision: 100828\n"
+"X-Pootle-Revision: 165016\n"
 
 #. This will be appended to the window's title
 #. inside the private browsing mode
@@ -61,7 +61,7 @@ msgstr "Înc&hide celelalte file"
 #: pinTab.label
 #: pinTab.accesskey
 msgid "&Pin Tab"
-msgstr "&Fixare filă"
+msgstr "F&ixează fila"
 
 #: unpinTab.label
 #: unpinTab.accesskey
@@ -101,7 +101,7 @@ msgstr "În&chide fila"
 
 #: listAllTabs.label
 msgid "List all tabs"
-msgstr "Listă cu toate filele"
+msgstr "Listează toate filele"
 
 #: tabCmd.label
 #: tabCmd.accesskey
@@ -254,7 +254,7 @@ msgstr "Autentificare la &syncBrand.shortName.label;"
 
 #: fxaSignedIn.tooltip
 msgid "Open &syncBrand.shortName.label; preferences"
-msgstr "Deschide preferințe &syncBrand.shortName.label;"
+msgstr "Deschide preferințele &syncBrand.shortName.label;"
 
 #: fxaSignInError.label
 msgid "Reconnect to &syncBrand.shortName.label;"
@@ -287,7 +287,7 @@ msgstr "Minimizează"
 
 #: fullScreenRestore.tooltip
 msgid "Restore"
-msgstr "Revino"
+msgstr "Restaurează"
 
 #: fullScreenClose.tooltip
 msgctxt "fullScreenClose.tooltip"
@@ -425,7 +425,7 @@ msgstr "Mergi cu o pagină înainte"
 
 #: backForwardButtonMenu.tooltip
 msgid "Right-click or pull down to show history"
-msgstr "Clic dreapta sau trageți în jos pentru a vedea istoricul"
+msgstr "Clic dreapta sau trage în jos pentru a afișa istoricul"
 
 #: backForwardButtonMenuMac.tooltip
 msgid "Pull down to show history"
@@ -718,7 +718,7 @@ msgstr "I"
 
 #: devToolbarToolsButton.tooltip
 msgid "Toggle developer tools"
-msgstr "Activează uneltele de dezvoltare"
+msgstr "Comută uneltele de dezvoltare"
 
 #: devToolbarOtherToolsButton.label
 msgid "More Tools"
@@ -1475,7 +1475,7 @@ msgstr ""
 #: fullZoomResetCmd.label
 #: fullZoomResetCmd.accesskey
 msgid "&Reset"
-msgstr "Rei&nițializare"
+msgstr "&Resetează"
 
 #: fullZoomResetCmd.commandkey
 msgid "0"
@@ -1563,7 +1563,7 @@ msgstr "Stil &principal"
 
 #: pageReportIcon.tooltip
 msgid "Change pop-up blocking settings for this website"
-msgstr "Modifică parametrii de blocare a popupurilor pentru acest site web"
+msgstr "Modifică setările de blocare a ferestrelor pop-up pentru acest site web"
 
 #: allowPopups.accesskey
 msgctxt "allowPopups.accesskey"
@@ -1575,12 +1575,12 @@ msgstr "p"
 #. over into this string, which is used in the "popup blocked" info bar .
 #: editPopupSettingsUnix.label
 msgid "Edit Pop-up Blocker Preferences…"
-msgstr "Editează preferințele de blocare a ferestrelor popup…"
+msgstr "Editează preferințele de blocare a ferestrelor pop-up…"
 
 #: editPopupSettings.label
 #: editPopupSettings.accesskey
 msgid "&Edit Pop-up Blocker Options…"
-msgstr "&Editează opțiunile de blocare a ferestrelor popup…"
+msgstr "&Editează opțiunile de blocare a ferestrelor pop-up…"
 
 #: dontShowMessage.accesskey
 msgctxt "dontShowMessage.accesskey"

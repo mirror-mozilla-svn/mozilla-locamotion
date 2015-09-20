@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/toolkit/chrome/global/devtools/csscoverage.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 112901\n"
 
 #. # LOCALIZATION NOTE These strings are used in the 'csscoverage' command and in
 #. # the user interface that this command creates.
@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "E cel mai bine dacă începem prin reîncărcarea paginii actuale deoarece acest "
 "lucru pornește testul dintr-un punct cunoscut, dar ar putea exista motive "
-"pentru care nu vrem să facem asta (de ex. pagina conține o stare care s-ar "
+"pentru care nu vrem să facem asta (de ex., pagina conține o stare care s-ar "
 "pierde prin reîncărcare)"
 
 #. # LOCALIZATION NOTE (csscoverageRunningReply, csscoverageDoneReply): Text that

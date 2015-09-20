@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/security/manager/chrome/pipnss/nsserrors.properties.po\n"
-"X-Pootle-Revision: 100005\n"
+"X-Pootle-Revision: 153779\n"
 
 #: SSL_ERROR_EXPORT_ONLY_SERVER
 msgid ""
@@ -1332,7 +1332,7 @@ msgstr "Identificator nerecunoscut de obiect."
 
 #: SEC_ERROR_OCSP_INVALID_SIGNING_CERT
 msgid "Invalid OCSP signing certificate in OCSP response."
-msgstr "Certificat invalid pentru semnătura OCSP în răspunsul OCSP."
+msgstr "Certificat de semnare OCSP invalid în răspunsul OCSP."
 
 #: SEC_ERROR_REVOKED_CERTIFICATE_CRL
 msgid "Certificate is revoked in issuer's certificate revocation list."

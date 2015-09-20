@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/performance.properties.po\n"
-"X-Pootle-Revision: 86036\n"
+"X-Pootle-Revision: 117592\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Performance Tools
 #. # which is available from the Web Developer sub-menu -> 'Performance'.
@@ -54,7 +54,7 @@ msgstr "Performanță (%S)"
 #. # recordings menu when there are no recorded profiles yet.
 #: noRecordingsText
 msgid "There are no profiles yet."
-msgstr "Nu există profile încă."
+msgstr "Nu există profiluri încă."
 
 #. # LOCALIZATION NOTE (recordingsList.itemLabel):
 #. # This string is displayed in the recordings list of the Performance Tools,

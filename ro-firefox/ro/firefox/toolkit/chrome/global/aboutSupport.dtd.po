@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:15+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutSupport.dtd.po\n"
-"X-Pootle-Revision: 88508\n"
+"X-Pootle-Revision: 117591\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -149,7 +149,7 @@ msgstr "Arată istoricul actualizărilor"
 
 #: aboutSupport.appBasicsProfileDir
 msgid "Profile Directory"
-msgstr "Directorul de profile"
+msgstr "Directorul de profiluri"
 
 #. This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 #. Windows/Mac use the term "Folder" instead of "Directory"
