@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 21:17+0000\n"
+"POT-Creation-Date: 2015-09-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.1/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 99521\n"
+"X-Pootle-Revision: 163330\n"
 
 #: settings
 msgid "Settings"
@@ -2052,7 +2052,7 @@ msgstr "Niciun operator"
 
 #: cant-disable-simcard-alert
 msgid "At least one SIM should be activated at a time"
-msgstr "Cel puțin o cartelă SIM trebuie activată odată"
+msgstr "Cel puțin o cartelă SIM ar trebui activată odată"
 
 #: disable-simcard-confirm
 msgid ""
@@ -2208,7 +2208,7 @@ msgstr "{{selectKeyboards}}"
 
 #: mustHaveOneKeyboard
 msgid "At least one {{type}} keyboard should be selected"
-msgstr "Cel puțin o tastatură {{type}} trebuie să fie selectată"
+msgstr "Cel puțin o tastatură {{type}} ar trebui să fie selectată"
 
 #: keyboardType-text
 msgid "text"
@@ -3748,9 +3748,9 @@ msgid ""
 "the Mozilla Foundation or any party, including without limitation the "
 "{{brandShortName}} name or logo."
 msgstr ""
-"Nu ți se acordă drepturi asupra mărcii comerciale sau asupra licențelor "
-"pentru mărcile comerciale ale Mozilla Foundation sau ale unei alte părți, "
-"inclusiv, dar fără a se limita la numele {{brandShortName}} sau logo."
+"Nu ți se acordă niciun drept asupra mărcii comerciale sau asupra licențelor "
+"referitor la mărcile comerciale ale Mozilla Foundation sau ale oricărei "
+"părți, inclusiv, dar fără a se limita la numele {{brandShortName}} sau logo."
 
 #: about-your-rights-3
 msgid ""
@@ -3759,7 +3759,7 @@ msgid ""
 "you give Mozilla permission to use the feedback to improve its products, to "
 "publish the feedback on its websites, and to distribute the feedback."
 msgstr ""
-"Unele funcționalități din {{brandShortName}}, cum ar fi raportorul de "
+"Unele funcționalități din {{brandShortName}}, cum ar fi Raportorul de "
 "defecțiuni îți oferă posibilitatea să furnizezi feedback la Mozilla. Alegând "
 "să trimiți feedback, îi dai permisiunea lui Mozilla să folosească "
 "feedbackurile pentru a-și îmbunătăți produsele, să publice feedbackurile pe "
