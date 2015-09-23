@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/toolkit/chrome/global/devtools/styleinspector.properties.po\n"
-"X-Pootle-Revision: 94913\n"
+"X-Pootle-Revision: 230795\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Style Inspector.
 #. #
@@ -103,6 +103,13 @@ msgstr "Citiți documentația pentru această proprietate"
 #: rule.warning.title
 msgid "Invalid property value"
 msgstr "Valoarea proprietății invalidă"
+
+#. # LOCALIZATION NOTE (rule.filterProperty.title): Text displayed in the tooltip
+#. # of the search button that is shown next to a property that has been overridden
+#. # in the rule view.
+#: rule.filterProperty.title
+msgid "Filter rules containing this property"
+msgstr ""
 
 #. # LOCALIZATION NOTE (ruleView.empty): Text displayed when the highlighter is
 #. # first opened and there's no node selected in the rule view.

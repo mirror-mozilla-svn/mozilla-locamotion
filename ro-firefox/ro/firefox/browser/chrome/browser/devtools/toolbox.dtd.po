@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/toolbox.dtd.po\n"
-"X-Pootle-Revision: 88483\n"
+"X-Pootle-Revision: 300678\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -51,22 +51,42 @@ msgstr "]"
 msgid "["
 msgstr "["
 
-#: toolboxZoomIn.key
+#. LOCALIZATION NOTE :
+#. fullZoomEnlargeCmd.commandkey, fullZoomEnlargeCmd.commandkey2,
+#. fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey,
+#. fullZoomReduceCmd.commandkey2, fullZoomResetCmd.commandkey,
+#. and fullZoomResetCmd.commandkey2 should all match the corresponding
+#. values from browser.dtd.
+#: fullZoomEnlargeCmd.commandkey
 msgid "+"
-msgstr "+"
+msgstr ""
 
-#. + is above this key on many keyboards
-#: toolboxZoomIn.key2
+#: fullZoomEnlargeCmd.commandkey2
 msgid "="
-msgstr "="
+msgstr ""
 
-#: toolboxZoomOut.key
+#: fullZoomEnlargeCmd.commandkey3
+msgctxt "fullZoomEnlargeCmd.commandkey3"
+msgid ""
+msgstr ""
+
+#: fullZoomReduceCmd.commandkey
 msgid "-"
-msgstr "-"
+msgstr ""
 
-#: toolboxZoomReset.key
+#: fullZoomReduceCmd.commandkey2
+msgctxt "fullZoomReduceCmd.commandkey2"
+msgid ""
+msgstr ""
+
+#: fullZoomResetCmd.commandkey
 msgid "0"
-msgstr "0"
+msgstr ""
+
+#: fullZoomResetCmd.commandkey2
+msgctxt "fullZoomResetCmd.commandkey2"
+msgid ""
+msgstr ""
 
 #: toolboxReload.key
 msgid "r"
@@ -180,7 +200,7 @@ msgstr ""
 "Pornind această opțiune vă va permite să folosiți diverse unelte de "
 "dezvoltare în contextul browserului (prin intermediul Unelte -> Dezvoltator "
 "web -> Trusa de unelte pentru browser) și să depanați suplimente din "
-"Gestionarul de suplimente"
+"managerul de suplimente"
 
 #. This is the label for the
 #. -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled

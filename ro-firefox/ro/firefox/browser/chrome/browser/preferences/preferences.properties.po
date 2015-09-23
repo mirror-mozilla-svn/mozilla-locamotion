@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/preferences/preferences.properties.po\n"
-"X-Pootle-Revision: 153826\n"
+"X-Pootle-Revision: 300524\n"
 
 #. #### Security
 #. # LOCALIZATION NOTE: phishBefore uses %S to represent the name of the provider
@@ -58,9 +58,9 @@ msgid ""
 "Type the exact address of the site you want to manage and then click Block, "
 "Allow for Session, or Allow."
 msgstr ""
-"Puteți specifica ce site-uri web au sau nu au permisiunea de a folosi cookie-"
-"uri. Tastați adresa exactă a site-ului pe care doriți să-l gestionați și "
-"apoi apăsați Blochează, Permite sau Permite pentru sesiune."
+"Poți specifica ce site-uri web au întotdeauna sau niciodată permisiunea de a "
+"folosi cookie-uri.  Tastează adresa exactă a site-ului pe care dorești să-l "
+"gestionezi și apoi apasă Blochează, Permite pentru sesiune sau Permite."
 
 #: cookiepermissionstitle
 msgid "Exceptions - Cookies"
@@ -71,9 +71,9 @@ msgid ""
 "You can specify which websites are allowed to install add-ons. Type the "
 "exact address of the site you want to allow and then click Allow."
 msgstr ""
-"Puteți specifica ce site-uri web au permisiunea de a instala suplimente. "
-"Tastați adresa exactă a site-ului pe care doriți să-l autorizați și apoi "
-"apăsați Permite."
+"Poți specifica ce site-uri web au permisiunea de a instala suplimente. "
+"Tastează adresa exactă a site-ului pe care dorești să-l autorizezi și apoi "
+"apasă Permite."
 
 #: addons_permissions_title
 msgid "Allowed Sites - Add-ons Installation"
@@ -84,9 +84,9 @@ msgid ""
 "You can specify which websites are allowed to open pop-up windows. Type the "
 "exact address of the site you want to allow and then click Allow."
 msgstr ""
-"Puteți specifica ce site-uri web au permisiunea de a deschide ferestre pop-"
-"up. Tastați adresa exactă a site-ului pe care doriți să-l autorizați și apoi "
-"apăsați Permite."
+"Poți specifica ce site-uri web au permisiunea de a deschide ferestre pop-up. "
+"Tastează adresa exactă a site-ului pe care dorești să-l autorizezi și apoi "
+"apasă Permite."
 
 #: popuppermissionstitle
 msgid "Allowed Sites - Pop-ups"
@@ -255,7 +255,7 @@ msgstr "<niciun cookie selectat>"
 
 #: cookiesAll
 msgid "The following cookies are stored on your computer:"
-msgstr "Pe calculatorul dumneavoastră sunt stocate următoarele cookie-uri:"
+msgstr "Următoarele cookie-uri sunt stocate pe calculator:"
 
 #: cookiesFiltered
 msgid "The following cookies match your search:"

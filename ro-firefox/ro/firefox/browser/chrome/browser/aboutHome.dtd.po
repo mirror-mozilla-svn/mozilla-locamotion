@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:21+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/aboutHome.dtd.po\n"
-"X-Pootle-Revision: 163264\n"
+"X-Pootle-Revision: 230568\n"
 
 #. %syncBrandDTD;
 #. These strings are used in the about:home page
@@ -85,3 +85,9 @@ msgstr "Descărcări"
 #: abouthome.syncButton.label
 msgid "&syncBrand.shortName.label;"
 msgstr "&syncBrand.shortName.label;"
+
+#. This is the key to use in
+#. conjunction with accel (Command on Mac or Ctrl on other platforms) to find
+#: find.commandkey
+msgid "f"
+msgstr ""

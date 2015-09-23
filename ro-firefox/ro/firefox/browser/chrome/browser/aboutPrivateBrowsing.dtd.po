@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:21+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/aboutPrivateBrowsing.dtd."
 "po\n"
-"X-Pootle-Revision: 99573\n"
+"X-Pootle-Revision: 230569\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -35,28 +35,15 @@ msgstr "Navigare privată"
 #. length of the headers and text, but should be roughly 1.5 times the width
 #. of the Tracking Protection section, and in general not much larger than
 #. 30em to prevent the sections from wrapping on smaller window sizes.
-#. Do not translate this.  Only change the numeric values if you need this dialogue box to appear bigger
-#: aboutPrivateBrowsing.width
+#: aboutPrivateBrowsing.width1
 msgid "30em"
 msgstr "32em"
 
-#. LOCALIZATION NOTE (aboutPrivateBrowsing.subtitle,
-#. aboutPrivateBrowsing.info.forgotten, aboutPrivateBrowsing.info.kept):
-#. These strings will be replaced by aboutPrivateBrowsing.forgotten and
-#. aboutPrivateBrowsing.kept when the new visual design lands (bug 1192625).
 #: aboutPrivateBrowsing.title
 msgid "You're browsing privately"
 msgstr "Navigați în mod privat"
 
-#: aboutPrivateBrowsing.subtitle
-msgid "In this window, &brandShortName; will not remember any history."
-msgstr "În această fereastră, &brandShortName; nu va reține niciun istoric."
-
-#: aboutPrivateBrowsing.forgotten
-msgid "In this window, &brandShortName; will not remember:"
-msgstr "În această fereastră, &brandShortName; nu va reține:"
-
-#: aboutPrivateBrowsing.info.forgotten
+#: aboutPrivateBrowsing.info.notsaved
 msgid "Not Saved"
 msgstr "Nu a fost salvat"
 
@@ -76,11 +63,7 @@ msgstr "Cookie-uri"
 msgid "Temporary Files"
 msgstr "Fișiere temporare"
 
-#: aboutPrivateBrowsing.kept
-msgid "&brandShortName; will keep:"
-msgstr "&brandShortName; va păstra:"
-
-#: aboutPrivateBrowsing.info.kept
+#: aboutPrivateBrowsing.info.saved
 msgid "Saved"
 msgstr "Salvat"
 
@@ -110,8 +93,7 @@ msgstr "Aflați mai multe."
 #. of the Private Browsing section is roughly 1.5 times the width of this one.
 #. Note that the required space may vary between platforms because fonts are
 #. different, so testing on Windows, Mac, and Linux is encouraged.
-#. Do not translate this.  Only change the numeric values if you need this dialogue box to appear bigger
-#: trackingProtection.width
+#: trackingProtection.width1
 msgid "22em"
 msgstr "22em"
 

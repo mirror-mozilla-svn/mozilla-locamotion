@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/webConsole.dtd."
 "po\n"
-"X-Pootle-Revision: 84787\n"
+"X-Pootle-Revision: 230628\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -30,66 +30,6 @@ msgstr "Consolă web"
 #: browserConsole.title
 msgid "Browser Console"
 msgstr "Consolă pentru browser"
-
-#: networkPanel.requestURLColon
-msgid "Request URL:"
-msgstr "URL solicitat:"
-
-#: networkPanel.requestMethodColon
-msgid "Request Method:"
-msgstr "Metoda cererii:"
-
-#: networkPanel.statusCodeColon
-msgid "Status Code:"
-msgstr "Codul de stare:"
-
-#: networkPanel.requestHeaders
-msgid "Request Headers"
-msgstr "Antetele cererii"
-
-#: networkPanel.requestCookie
-msgid "Sent Cookie"
-msgstr "Cookie trimis"
-
-#: networkPanel.requestBody
-msgid "Request Body"
-msgstr "Conținutul cererii"
-
-#: networkPanel.requestFormData
-msgid "Sent Form Data"
-msgstr "Date trimise de formular"
-
-#: networkPanel.responseHeaders
-msgid "Response Headers"
-msgstr "Antetele răspunsului"
-
-#: networkPanel.responseCookie
-msgid "Received Cookie"
-msgstr "Cookie primit"
-
-#: networkPanel.responseBody
-msgid "Response Body"
-msgstr "Conținutul răspunsului"
-
-#: networkPanel.responseBodyCached
-msgid "Cached Data"
-msgstr "Date în cache"
-
-#: networkPanel.responseBodyUnknownType
-msgid "Unknown Content Type"
-msgstr "Tip necunoscut de conținut"
-
-#: networkPanel.responseNoBody
-msgid "No Response Body"
-msgstr "Răspuns fără conținut"
-
-#: networkPanel.responseImage
-msgid "Received Image"
-msgstr "Imagine primită"
-
-#: networkPanel.responseImageCached
-msgid "Cached Image"
-msgstr "Imagine în cache"
 
 #. You can see this string in the Web
 #. - Console context menu.
@@ -172,18 +112,26 @@ msgid "L"
 msgstr "L"
 
 #: btnConsoleErrors
+#, fuzzy
+msgctxt "btnConsoleErrors"
 msgid "Errors"
 msgstr "Erori"
 
 #: btnConsoleInfo
+#, fuzzy
+msgctxt "btnConsoleInfo"
 msgid "Info"
 msgstr "Informații"
 
 #: btnConsoleWarnings
+#, fuzzy
+msgctxt "btnConsoleWarnings"
 msgid "Warnings"
 msgstr "Avertismente"
 
 #: btnConsoleLog
+#, fuzzy
+msgctxt "btnConsoleLog"
 msgid "Log"
 msgstr "Jurnal"
 
@@ -194,6 +142,42 @@ msgstr "XHR"
 #: btnConsoleReflows
 msgid "Reflows"
 msgstr "Reflows"
+
+#. LOCALIZATION NOTE (btnServerLogging): This is used as the text of the
+#. -  the toolbar. It shows or hides messages that the web developer inserted on
+#. -  the page for debugging purposes, using calls on the HTTP server.
+#: btnServerLogging.label
+#: btnServerLogging.accesskey
+msgid "&Server"
+msgstr ""
+
+#: btnServerLogging.tooltip
+msgid "Log messages received from a web server"
+msgstr ""
+
+#: btnServerErrors
+#, fuzzy
+msgctxt "btnServerErrors"
+msgid "Errors"
+msgstr "Erori"
+
+#: btnServerInfo
+#, fuzzy
+msgctxt "btnServerInfo"
+msgid "Info"
+msgstr "Informații"
+
+#: btnServerWarnings
+#, fuzzy
+msgctxt "btnServerWarnings"
+msgid "Warnings"
+msgstr "Avertismente"
+
+#: btnServerLog
+#, fuzzy
+msgctxt "btnServerLog"
+msgid "Log"
+msgstr "Jurnal"
 
 #. LOCALIZATION NODE (btnConsoleSharedWorkers) the term "Shared Workers"
 #. -  should not be translated.

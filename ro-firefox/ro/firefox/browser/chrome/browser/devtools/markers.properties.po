@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-22 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/markers.properties.po\n"
-"X-Pootle-Revision: 91841\n"
+"X-Pootle-Revision: 230603\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Performance Tools
 #. # which is available from the Web Developer sub-menu -> 'Performance'.
@@ -38,6 +38,14 @@ msgstr "Aspect"
 msgid "Paint"
 msgstr "Desen"
 
+#: marker.label.composite
+msgid "Composite Layers"
+msgstr ""
+
+#: marker.label.compositeForwardTransaction
+msgid "Composite Request Sent"
+msgstr ""
+
 #: marker.label.javascript
 msgid "Function Call"
 msgstr "Apel de funcție"
@@ -58,7 +66,11 @@ msgstr "Eveniment DOM"
 msgid "Console"
 msgstr "Consolă"
 
-#: marker.label.garbageCollection
+#: marker.label.garbageCollection2
+msgid "Garbage Collection"
+msgstr ""
+
+#: marker.label.garbageCollection.incremental
 msgid "Incremental GC"
 msgstr "GC incremental"
 

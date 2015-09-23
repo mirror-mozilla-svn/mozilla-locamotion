@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/privacy.dtd."
 "po\n"
-"X-Pootle-Revision: 86146\n"
+"X-Pootle-Revision: 300370\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -25,7 +25,7 @@ msgstr "Urmărire"
 #: dntTrackingNotOkay4.label
 #: dntTrackingNotOkay4.accesskey
 msgid "Request that sites &not track you"
-msgstr "Solicitați ca site-urile să &nu vă urmărească"
+msgstr "Solicită ca site-urile să &nu te urmărească"
 
 #: doNotTrackInfo.label
 msgid "Learn More"
@@ -50,6 +50,11 @@ msgstr "Utilizează protecția față de urmărire în ferestre private"
 msgctxt "trackingProtectionPBMLearnMore.label"
 msgid "Learn more"
 msgstr "Aflați mai multe"
+
+#: changeBlockList.label
+#: changeBlockList.accesskey
+msgid "&Change Block List"
+msgstr "S&chimbă lista de blocări"
 
 #: history.label
 msgid "History"
@@ -173,7 +178,7 @@ msgstr ""
 #. LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed
 #: rememberActions.pre.label
 msgid "You may want to "
-msgstr "Ai putea dori "
+msgstr "Poate dorești "
 
 #: rememberActions.clearHistory.label
 msgid "clear your recent history"
@@ -181,7 +186,7 @@ msgstr "să cureți istoricul recent"
 
 #: rememberActions.middle.label
 msgid ", or "
-msgstr ", sau "
+msgstr " sau "
 
 #: rememberActions.removeCookies.label
 msgid "remove individual cookies"

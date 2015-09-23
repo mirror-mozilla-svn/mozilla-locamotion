@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/toolkit/chrome/mozapps/downloads/downloads.properties.po\n"
-"X-Pootle-Revision: 67668\n"
+"X-Pootle-Revision: 300570\n"
 
 #. # LOCALIZATION NOTE (seconds, minutes, hours, days): Semi-colon list of plural
 #. # forms. See: http://developer.mozilla.org/en/docs/Localization_and_Plurals
@@ -270,7 +270,7 @@ msgstr "Încă câteva secunde"
 
 #: timeUnknown
 msgid "Unknown time remaining"
-msgstr "Nu se știe timpul rămas"
+msgstr "Timp rămas necunoscut"
 
 #. # LOCALIZATION NOTE (doneStatus): — is the "em dash" (long dash)
 #. # #1 download size for FINISHED or download state; #2 host (e.g., eTLD + 1, IP)

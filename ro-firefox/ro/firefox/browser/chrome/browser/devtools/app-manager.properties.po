@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/app-"
 "manager.properties.po\n"
-"X-Pootle-Revision: 70371\n"
+"X-Pootle-Revision: 230584\n"
 
 #: index.deprecationNotice
 msgid ""
@@ -68,13 +68,11 @@ msgstr "Dosarul proiectului nu există"
 msgid "The project folder ends up being a file"
 msgstr "The project folder ends up being a file"
 
-#: validator.wrongManifestFileName
+#: validator.noManifestFile
 msgid ""
-"Packaged apps require a manifest file that can only be named "
-"'manifest.webapp' at project root folder"
+"A manifest file is required at project root folder, named either "
+"'manifest.webapp' for packaged apps or 'manifest.json' for add-ons."
 msgstr ""
-"Packaged apps require a manifest file that can only be named "
-"'manifest.webapp' at project root folder"
 
 #: validator.invalidManifestURL
 msgid "Invalid manifest URL '%S'"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,14 +13,14 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/security/manager/chrome/pippki/certManager.dtd."
 "po\n"
-"X-Pootle-Revision: 153893\n"
+"X-Pootle-Revision: 300689\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
 #. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #: certmgr.title
 msgid "Certificate Manager"
-msgstr "Gestionar certificate"
+msgstr "Manager de certificate"
 
 #: certmgr.tab.mine
 msgid "Your Certificates"
@@ -153,7 +153,7 @@ msgstr "Ștergere certificat"
 
 #: certmgr.certname
 msgid "Certificate Name"
-msgstr "Nume certificat"
+msgstr "Nume al certificatului"
 
 #: certmgr.certserver
 msgctxt "certmgr.certserver"

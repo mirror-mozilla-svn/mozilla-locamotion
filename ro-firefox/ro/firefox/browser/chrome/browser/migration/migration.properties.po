@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/migration/migration.properties.po\n"
-"X-Pootle-Revision: 86129\n"
+"X-Pootle-Revision: 230640\n"
 
 #: profileName_format
 msgid "%S %S"
@@ -58,6 +58,11 @@ msgstr "Din %S"
 
 #: importedSafariReadingList
 msgid "Reading List (From Safari)"
+msgstr "Lista de citit (din Safari)"
+
+#: importedEdgeReadingList
+#, fuzzy
+msgid "Reading List (From Edge)"
 msgstr "Lista de citit (din Safari)"
 
 #. # Import Sources

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/search.dtd.po\n"
-"X-Pootle-Revision: 86150\n"
+"X-Pootle-Revision: 300308\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -39,10 +39,16 @@ msgstr "Furnizează &sugestii de căutare"
 msgid "Show search suggestions in &location bar results"
 msgstr "Arată sugestii&le de căutare în rezultatele din bara de adrese."
 
+#: urlBarSuggestionsPermanentPB.label
+msgid ""
+"Search suggestions will not be shown in location bar results because you "
+"have configured &brandShortName; to never remember history."
+msgstr ""
+
 #: redirectWindowsSearch.label
 #: redirectWindowsSearch.accesskey
 msgid "Use this search engine for searches from &Windows"
-msgstr "Utilizați acest motor de căutare pentru căutări din &Windows"
+msgstr "Folosește acest motor de căutare pentru căutări din &Windows"
 
 #: oneClickSearchEngines.label
 msgid "One-click search engines"
@@ -53,8 +59,8 @@ msgid ""
 "The search bar lets you search alternate engines directly. Choose which ones "
 "to display."
 msgstr ""
-"Bara de căutare vă permite să căutați direct în diferite motoare de căutare. "
-"Alegeți-vă motoarele de căutare cu care să căutați."
+"Bara de căutare îți permite să cauți direct cu diferite motoare de căutare. "
+"Alege motoarele de căutare cu care să cauți."
 
 #: engineNameColumn.label
 msgid "Search Engine"

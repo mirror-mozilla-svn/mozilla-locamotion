@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-22 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/installer/nsisstrings.properties.po\n"
-"X-Pootle-Revision: 117583\n"
+"X-Pootle-Revision: 230707\n"
 
 #. # LOCALIZATION NOTE:
 #. # This file must be saved as UTF8
@@ -176,15 +176,13 @@ msgstr "Spațiu disponibil:"
 msgid ""
 "One moment, $BrandShortName will launch as soon as the install is complete…"
 msgstr ""
-"Un moment, $BrandShortName va porni cât mai curând după ce instalarea este "
-"completă…"
+"Un moment, $BrandShortName va porni de îndată ce instalarea este încheiată…"
 
 #: ONE_MOMENT_UPGRADE
 msgid ""
 "One moment, $BrandShortName will launch as soon as the upgrade is complete…"
 msgstr ""
-"Un moment, $BrandShortName va porni cât mai curând după ce actualizarea este "
-"completă…"
+"Un moment, $BrandShortName va porni de îndată ce actualizarea este încheiată…"
 
 #: INSTALL_MAINT_SERVICE
 msgid "&Install the $BrandShortName background update service"
