@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 14:51+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/editor/ui/chrome/composer/editor.properties."
 "po\n"
-"X-Pootle-Revision: 117601\n"
+"X-Pootle-Revision: 300744\n"
 
 #. # LOCALIZATION NOTE FILE: embedded "\n" represent HTML breaks (<br>)
 #. # Don't translate embedded "\n".
@@ -102,7 +102,7 @@ msgstr "Nu publica"
 
 #: SavePassword
 msgid "Use Password Manager to save this password"
-msgstr "Salvează parola folosind Gestionarul de parole"
+msgstr "Folosește managerul de parole pentru a salva această parolă"
 
 #: CorrectSpelling
 msgid "(correct spelling)"
@@ -337,6 +337,11 @@ msgstr "[selecție combinată]"
 #: Mixed
 msgid "(mixed)"
 msgstr "(combinat)"
+
+#. # LOCALIZATION NOTE (NotInstalled): %S is the name of the font
+#: NotInstalled
+msgid "%S (not installed)"
+msgstr ""
 
 #: EnterLinkText
 msgid "Enter text to display for the link:"

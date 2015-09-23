@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/installer/custom.properties.po\n"
-"X-Pootle-Revision: 100218\n"
+"X-Pootle-Revision: 300551\n"
 
 #. # LOCALIZATION NOTE:
 #. # This file must be saved as UTF8
@@ -46,7 +46,7 @@ msgstr "&Opțiuni $BrandShortName"
 
 #: CONTEXT_SAFE_MODE
 msgid "$BrandShortName &Safe Mode"
-msgstr "$BrandShortName î&n modul sigur"
+msgstr "$BrandShortName în modul de &siguranță"
 
 #: OPTIONS_PAGE_TITLE
 msgid "Setup Type"

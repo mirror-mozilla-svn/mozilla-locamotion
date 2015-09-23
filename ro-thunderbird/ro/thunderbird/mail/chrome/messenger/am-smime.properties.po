@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/am-smime.properties.po\n"
-"X-Pootle-Revision: 153794\n"
+"X-Pootle-Revision: 300748\n"
 
 #. ## S/MIME error strings.
 #. ## Note to localization: %S is a placeholder
@@ -76,7 +76,7 @@ msgid ""
 "Certificate Manager can't locate a valid certificate that can be used to "
 "digitally sign your messages."
 msgstr ""
-"Gestionarul de certificate nu găsește un certificat valabil care să poată fi "
+"Managerul de certificate nu găsește un certificat valid care să poată fi "
 "folosit la semnarea digitală a mesajelor dumneavoastră"
 
 #: NoEncryptionCert
@@ -84,8 +84,8 @@ msgid ""
 "Certificate Manager can't locate a valid certificate that other people can "
 "use to send you encrypted email messages."
 msgstr ""
-"Gestionarul de certificate nu găsește un certificat valabil pe care alții să "
-"îl poată folosi pentru a vă trimite mesaje e-mail criptate."
+"Managerul de certificate nu găsește un certificat valid pe care alții să îl "
+"poată folosi pentru a vă trimite mesaje e-mail criptate."
 
 #: encryption_needCertWantSame
 msgid ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 15:22+0000\n"
+"POT-Creation-Date: 2015-09-23 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/editor/ui/chrome/dialogs/EditorSpellCheck.dtd."
 "po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 260316\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -64,8 +64,8 @@ msgstr "Înl&ocuiește toate"
 
 #: stopButton.label
 #: stopButton.accessKey
-msgid "S&top"
-msgstr "Opreș&te"
+msgid "St&op"
+msgstr ""
 
 #: userDictionary.label
 msgid "Personal Dictionary:"
@@ -85,10 +85,10 @@ msgstr "A&daugă cuvânt"
 msgid "&Edit…"
 msgstr "&Editează…"
 
-#: recheckButton.label
-#: recheckButton.accessKey
-msgid "Recheck &Page"
-msgstr "Verifică din nou &pagina"
+#: recheckButton2.label
+#: recheckButton2.accessKey
+msgid "Recheck &Text"
+msgstr ""
 
 #: closeButton.label
 #: closeButton.accessKey
