@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-23 14:26+0000\n"
+"POT-Creation-Date: 2015-09-24 18:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/chrome/aboutPrivateBrowsing.dtd.po\n"
-"X-Pootle-Revision: 277837\n"
+"X-Pootle-Revision: 313254\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -41,8 +41,9 @@ msgid ""
 "history, but downloaded files and new bookmarks will still be saved to your "
 "device."
 msgstr ""
-"&brandShortName; va împiedica urmărirea ta și nu va reține istoricul, însă "
-"fișierele descărcate, semnele noi de carte vor fi încă salvate pe dispozitiv."
+"&brandShortName; va împiedica urmărirea ta și nu va memora niciun istoric, "
+"însă fișierele descărcate, semnele noi de carte vor fi încă salvate pe "
+"dispozitiv."
 
 #. Localization note (privatebrowsingpage.description.normal2): "Private
 #. Browsing is capitalized in English to be consistent with our existing uses
@@ -62,4 +63,4 @@ msgstr "Vrei să afli mai multe?"
 
 #: privatebrowsingpage.link.normal
 msgid "Open a new private tab"
-msgstr "Deschide o filă nouă privată"
+msgstr "Deschide o filă privată nouă"
