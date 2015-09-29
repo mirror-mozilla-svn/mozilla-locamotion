@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/base/sync_strings.dtd.po\n"
-"X-Pootle-Revision: 251908\n"
+"X-Pootle-Revision: 433726\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -478,7 +478,7 @@ msgstr "Înainte"
 
 #: fxaccount_create_account_choose_what_to_sync
 msgid "Choose what to sync"
-msgstr "Alege ce sincronizezi"
+msgstr "Alege ceea ce să sincronizezi"
 
 #: fxaccount_create_account_sign_in_instead
 msgid "Already have an account? Sign in"
@@ -617,7 +617,7 @@ msgstr "Autentificat ca"
 
 #: fxaccount_status_manage_account
 msgid "Manage account"
-msgstr ""
+msgstr "Gestionează contul"
 
 #: fxaccount_status_auth_server
 msgid "Account server"

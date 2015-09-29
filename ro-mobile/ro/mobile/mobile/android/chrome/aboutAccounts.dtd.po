@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,34 +12,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/chrome/aboutAccounts.dtd.po\n"
-"X-Pootle-Revision: 300191\n"
+"X-Pootle-Revision: 378941\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
 #. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #: aboutAccounts.connected.title
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "Conturi Firefox"
 
 #: aboutAccounts.connected.description
 msgid "You are connected as"
-msgstr ""
+msgstr "Ești conectat ca"
 
 #: aboutAccounts.syncPreferences.label
 msgid "Tap here to check Sync settings"
-msgstr ""
+msgstr "Atinge aici pentru a verifica setările de Sincronizare"
 
 #: aboutAccounts.noConnection.title
 msgid "No Internet connection"
-msgstr ""
+msgstr "Fără conexiune la internet"
 
 #: aboutAccounts.retry.label
 msgid "Try again"
-msgstr ""
+msgstr "Încearcă din nou"
 
 #: aboutAccounts.restrictedError.title
 msgid "Restricted"
-msgstr ""
+msgstr "Restricționat"
 
 #: aboutAccounts.restrictedError.description
 msgid "You cannot manage Firefox Accounts from this profile."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/chrome/browser.properties.po\n"
-"X-Pootle-Revision: 251925\n"
+"X-Pootle-Revision: 391420\n"
 
 #: addonsConfirmInstall.title
 msgid "Installing Add-on"
@@ -306,13 +306,13 @@ msgstr "Permite"
 #: xpinstallDisabledMessageLocked
 msgid "Software installation has been disabled by your system administrator."
 msgstr ""
-"Instalarea de programe a fost restricționată de administratorul sistemului."
+"Instalarea de programe a fost dezactivată de administratorul sistemului."
 
 #: xpinstallDisabledMessage2
 msgid ""
 "Software installation is currently disabled. Press Enable and try again."
 msgstr ""
-"Instalarea de programe e actualmente dezactivată. Apasă Activează și "
+"Instalarea de programe este în prezent dezactivată. Apasă Activează și "
 "încearcă din nou."
 
 #: xpinstallDisabledButton
