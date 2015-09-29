@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:24+0000\n"
+"POT-Creation-Date: 2015-09-29 13:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/system.properties.po\n"
-"X-Pootle-Revision: 160016\n"
+"X-Pootle-Revision: 387651\n"
 
 #: ok
 msgctxt "ok"
@@ -2238,30 +2238,6 @@ msgstr "Copiază imaginea"
 msgid "Copy Link"
 msgstr "Copiază linkul"
 
-#. # Private Browser
-#: private-window
-msgid "Private Window"
-msgstr "Fereastră privată"
-
-#: private-window-info1
-msgid ""
-"You have opened a new private window. In private windows, {{brandShortName}} "
-"won’t keep any browser history, cookies, or temporary Internet files. "
-"However, files you download and bookmarks you make will be kept."
-msgstr ""
-"Ai deschis o fereastră nouă privată. În ferestrele private, "
-"{{brandShortName}} nu va păstra istoricul browserului, cookie-urile sau "
-"fișierele temporare de internet. Cu toate acestea, fișierele pe care le "
-"descarci și semnele de carte pe care le pui vor fi păstrate."
-
-#: private-window-info2
-msgid ""
-"While this device won’t have a record of your browsing history, your "
-"Internet service provider can still track the pages you visit."
-msgstr ""
-"Cu toate că acest dispozitiv nu va păstra istoricul navigării, furnizorul de "
-"internet poate încă să urmărească paginile pe care le vizitezi."
-
 #: okCharsLeft
 msgid "OK ({{n}})"
 msgstr "Ok ({{n}})"
@@ -2285,6 +2261,12 @@ msgstr ""
 #. # panel title. "Pin" indicates the action to pin a page.
 #: pinning-pin-page
 msgid "Pin Page"
+msgstr ""
+
+#. # LOCALIZATION NOTE (pinning-pin-site): This string is used as
+#. # panel title. "Pin" indicates the action to pin a site.
+#: pinning-pin-site
+msgid "Pin Site"
 msgstr ""
 
 #. # LOCALIZATION NOTE (from): is followed (on a new line) by the URL source of
