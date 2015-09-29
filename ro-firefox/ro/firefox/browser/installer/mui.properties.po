@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/installer/mui.properties.po\n"
-"X-Pootle-Revision: 153365\n"
+"X-Pootle-Revision: 391213\n"
 
 #. # To make the l10n tinderboxen see changes to this file you can change a value
 #. # name by adding - to the end of the name followed by chars (e.g. Branding-2).
@@ -216,16 +216,16 @@ msgid ""
 "\n"
 "Click Finish to close this wizard."
 msgstr ""
-"$BrandFullNameDA a fost dezinstalat de pe calculatorul dumneavoastră.\n"
+"$BrandFullNameDA a fost dezinstalat de pe calculator.\n"
 "\n"
-"Apăsați „Încheiere” pentru a închide acest asistent."
+"Clic pe „Încheiere” pentru a închide acest asistent."
 
 #: MUI_UNTEXT_FINISH_INFO_REBOOT
 msgid ""
 "Your computer must be restarted in order to complete the uninstallation of $"
 "BrandFullNameDA. Do you want to reboot now?"
 msgstr ""
-"Calculatorul dumneavoastră trebuie repornit pentru a încheia dezinstalarea $"
+"Calculatorul trebuie repornit pentru a încheia dezinstalarea $"
 "BrandFullNameDA. Doriți să reporniți acum?"
 
 #: MUI_UNTEXT_ABORTWARNING

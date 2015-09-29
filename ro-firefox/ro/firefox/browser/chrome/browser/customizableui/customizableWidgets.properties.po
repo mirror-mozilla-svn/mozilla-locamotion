@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/customizableui/customizable"
 "Widgets.properties.po\n"
-"X-Pootle-Revision: 230580\n"
+"X-Pootle-Revision: 382181\n"
 
 #: history-panelmenu.label
 msgid "History"
@@ -35,7 +35,7 @@ msgstr "Deschide o fereastră nouă de navigare privată (%S)"
 
 #: save-page-button.label
 msgid "Save Page"
-msgstr "Salvare pagină"
+msgstr "Salvează pagina"
 
 #. # LOCALIZATION NOTE(save-page-button.tooltiptext3): %S is the keyboard shortcut
 #: save-page-button.tooltiptext3
@@ -174,7 +174,7 @@ msgstr "Copiază (%S)"
 
 #: paste-button.label
 msgid "Paste"
-msgstr "Lipire"
+msgstr "Lipește"
 
 #. # LOCALIZATION NOTE(paste-button.tooltiptext2): %S is the keyboard shortcut.
 #: paste-button.tooltiptext2

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/filterwidget.properties.po\n"
-"X-Pootle-Revision: 230595\n"
+"X-Pootle-Revision: 379949\n"
 
 #. # LOCALIZATION NOTE These strings are used in the CSS Filter Editor Widget
 #. # which can be found in a tooltip that appears in the Rule View when clicking
@@ -28,15 +28,14 @@ msgstr "Niciun filtru specificat"
 #. # LOCALIZATION NOTE (emptyPresetList):
 #. # This string is displayed when preset's list is empty
 #: emptyPresetList
-#, fuzzy
 msgid ""
 "You don't have any saved presets. You can store filter presets by choosing a "
 "name and saving them. Presets are quickly accessible and you can re-use them "
 "with ease."
 msgstr ""
-"Nu aveți presetări salvate. Puteți stoca filtrele de presetare prin alegerea "
-"unui nume și prin salvarea acestora. Presetările sunt rapid accesibile și le "
-"puteți refolosi cu ușurință."
+"Nu aveți vreo presetare salvată. Puteți stoca filtrele de presetare alegând "
+"un nume și salvându-le. Presetările sunt rapid accesibile și le puteți "
+"refolosi cu ușurință."
 
 #. # LOCALIZATION NOTE (addUsingList):
 #. # This string is displayed under [emptyFilterList] when filter's

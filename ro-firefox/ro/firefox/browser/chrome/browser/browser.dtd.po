@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/browser.dtd.po\n"
-"X-Pootle-Revision: 300646\n"
+"X-Pootle-Revision: 433720\n"
 
 #. This will be appended to the window's title
 #. inside the private browsing mode
@@ -166,7 +166,7 @@ msgstr "Bară de navigare"
 #: personalbarCmd.label
 #: personalbarCmd.accesskey
 msgid "&Bookmarks Toolbar"
-msgstr "&Bară pentru semne de carte"
+msgstr "&Bara semnelor de carte"
 
 #: bookmarksToolbarItem.label
 msgid "Bookmarks Toolbar Items"
@@ -250,7 +250,7 @@ msgstr "&Arată toate filele"
 
 #: fxaSignIn.label
 msgid "Sign in to &syncBrand.shortName.label;"
-msgstr "Autentificare la &syncBrand.shortName.label;"
+msgstr "Autentifică-te la &syncBrand.shortName.label;"
 
 #: fxaSignedIn.tooltip
 msgid "Open &syncBrand.shortName.label; preferences"
@@ -367,7 +367,7 @@ msgstr "Găsiți mai multe servicii de partajare…"
 #: sharePageCmd.label
 #: sharePageCmd.accesskey
 msgid "Share Thi&s Page"
-msgstr "Împărtășește această pag&ină"
+msgstr "Împărtășește acea&stă pagină"
 
 #: sharePageCmd.commandkey
 msgid "S"
@@ -925,7 +925,7 @@ msgstr "Personalizează meniul și bara de unelte"
 
 #: appMenuCustomizeExit.label
 msgid "Exit Customize"
-msgstr "Ieșire din personalizare"
+msgstr "Ieși din personalizare"
 
 #: appMenuCustomizeExit.tooltip
 msgid "Finish Customizing"
@@ -1019,7 +1019,7 @@ msgstr "Schimbă la fila:"
 
 #: urlbar.searchSuggestionsNotification.question
 msgid "Would you like to improve your search experience with suggestions?"
-msgstr "Doriți să vă îmbunătățiți experiența de căutare cu sugestii?"
+msgstr "Dorești să îți îmbunătățești experiența de navigare cu sugestii?"
 
 #: urlbar.searchSuggestionsNotification.learnMore
 msgid "Learn more…"
@@ -1721,7 +1721,7 @@ msgstr "&brandShortName; a blocat elementele nesigure din această pagină."
 
 #: identity.passiveLoaded
 msgid "Parts of this page are not secure (such as images)."
-msgstr "Elemente din această pagină nu sunt sigure (cum ar fi imagini)."
+msgstr "Părți ale acestei pagini nu sunt sigure (cum ar fi imagini)."
 
 #: identity.activeLoaded
 msgid "You have disabled protection on this page."
@@ -1830,7 +1830,7 @@ msgstr "Permisiuni"
 
 #: identity.permissionsEmpty
 msgid "You have not granted this site any special permissions."
-msgstr ""
+msgstr "Nu ai acordat acestui site nicio permisiune specială."
 
 #. Name for the tabs toolbar as spoken by screen readers.
 #. The word "toolbar" is appended automatically and should not be contained below!
@@ -1849,9 +1849,8 @@ msgid "Sync"
 msgstr "Sincronizare"
 
 #: syncSignIn.label
-#, fuzzy
 msgid "Sign In To &syncBrand.shortName.label;…"
-msgstr "Autentificare la &syncBrand.shortName.label;"
+msgstr "Autentifică-te la &syncBrand.shortName.label;…"
 
 #: syncSignIn.accesskey
 msgctxt "syncSignIn.accesskey"
@@ -1936,7 +1935,7 @@ msgstr "Clic pe un serviciu pentru a-l adăuga în &brandShortName;."
 
 #: social.directory.viewmore.text
 msgid "View More"
-msgstr "Vedeți mai multe"
+msgstr "Vezi mai multe"
 
 #: customizeMode.tabTitle
 msgid "Customize &brandShortName;"
@@ -2040,7 +2039,7 @@ msgstr "Protecție față de urmărire"
 msgid ""
 "&brandShortName; is blocking parts of the page that may track your browsing."
 msgstr ""
-"&brandShortName; blochează elemente din pagină care v-ar putea urmări "
+"&brandShortName; blochează părți ale paginii care v-ar putea urmări "
 "navigarea."
 
 #: trackingProtection.detectedNotBlocked3

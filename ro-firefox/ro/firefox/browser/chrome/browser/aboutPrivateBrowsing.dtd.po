@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/aboutPrivateBrowsing.dtd."
 "po\n"
-"X-Pootle-Revision: 230569\n"
+"X-Pootle-Revision: 391498\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -45,43 +45,43 @@ msgstr "Navigați în mod privat"
 
 #: aboutPrivateBrowsing.info.notsaved
 msgid "Not Saved"
-msgstr "Nu a fost salvat"
+msgstr "Nu au fost salvate"
 
 #: aboutPrivateBrowsing.info.history
 msgid "History"
-msgstr "Istoric"
+msgstr "Istoricul"
 
 #: aboutPrivateBrowsing.info.searches
 msgid "Searches"
-msgstr "Căutări"
+msgstr "Căutările"
 
 #: aboutPrivateBrowsing.info.cookies
 msgid "Cookies"
-msgstr "Cookie-uri"
+msgstr "Cookie-urile"
 
 #: aboutPrivateBrowsing.info.temporaryFiles
 msgid "Temporary Files"
-msgstr "Fișiere temporare"
+msgstr "Fișierele temporare"
 
 #: aboutPrivateBrowsing.info.saved
 msgid "Saved"
-msgstr "Salvat"
+msgstr "Salvate"
 
 #: aboutPrivateBrowsing.info.downloads
 msgid "Downloads"
-msgstr "Descărcări"
+msgstr "Descărcările"
 
 #: aboutPrivateBrowsing.info.bookmarks
 msgid "Bookmarks"
-msgstr "Semne de carte"
+msgstr "Semnele de carte"
 
 #: aboutPrivateBrowsing.note1
 msgid ""
 "Please note that your employer or Internet service provider can still track "
 "the pages you visit."
 msgstr ""
-"Vă rugăm să rețineți că angajatorul sau furnizorul de internet încă pot să "
-"urmărească ce pagini vizitați."
+"Vă rugăm să rețineți că angajatorul sau furnizorul de servicii internet încă "
+"pot să urmărească ce pagini vizitați."
 
 #: aboutPrivateBrowsing.learnMore
 msgid "Learn More."
@@ -109,18 +109,18 @@ msgstr "6ch"
 
 #: trackingProtection.state.enabled
 msgid "ON"
-msgstr "Pornit"
+msgstr "Pornită"
 
 #: trackingProtection.state.disabled
 msgid "OFF"
-msgstr "Oprit"
+msgstr "Oprită"
 
 #: trackingProtection.description1
 msgid ""
 "Private windows now block parts of the page that may track your browsing "
 "activity."
 msgstr ""
-"Ferestrele private acum blochează părțile din pagină care vă pot urmări "
+"Ferestrele private acum blochează părți ale paginii care vă pot urmări "
 "activitatea de navigare."
 
 #: trackingProtection.disable

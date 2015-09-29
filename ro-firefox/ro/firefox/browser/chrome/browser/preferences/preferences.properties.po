@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/preferences/preferences.properties.po\n"
-"X-Pootle-Revision: 300524\n"
+"X-Pootle-Revision: 391412\n"
 
 #. #### Security
 #. # LOCALIZATION NOTE: phishBefore uses %S to represent the name of the provider
@@ -60,7 +60,8 @@ msgid ""
 msgstr ""
 "Poți specifica ce site-uri web au întotdeauna sau niciodată permisiunea de a "
 "folosi cookie-uri.  Tastează adresa exactă a site-ului pe care dorești să-l "
-"gestionezi și apoi apasă Blochează, Permite pentru sesiune sau Permite."
+"gestionezi și apoi clic pe „Blochează”, „Permite pentru sesiune” sau "
+"„Permite”."
 
 #: cookiepermissionstitle
 msgid "Exceptions - Cookies"
@@ -73,7 +74,7 @@ msgid ""
 msgstr ""
 "Poți specifica ce site-uri web au permisiunea de a instala suplimente. "
 "Tastează adresa exactă a site-ului pe care dorești să-l autorizezi și apoi "
-"apasă Permite."
+"clic pe „Permite”."
 
 #: addons_permissions_title
 msgid "Allowed Sites - Add-ons Installation"
@@ -86,7 +87,7 @@ msgid ""
 msgstr ""
 "Poți specifica ce site-uri web au permisiunea de a deschide ferestre pop-up. "
 "Tastează adresa exactă a site-ului pe care dorești să-l autorizezi și apoi "
-"apasă Permite."
+"clic pe „Permite”."
 
 #: popuppermissionstitle
 msgid "Allowed Sites - Pop-ups"

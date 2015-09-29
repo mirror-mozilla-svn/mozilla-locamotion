@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/syncSetup.properties.po\n"
-"X-Pootle-Revision: 273600\n"
+"X-Pootle-Revision: 378945\n"
 
 #: button.syncOptions.label
 msgid "Sync Options"
@@ -159,7 +159,7 @@ msgstr "Avertizare de fuzionare"
 
 #: relinkVerify.heading
 msgid "Are you sure you want to sign in to Sync?"
-msgstr "Sunteți sigur că doriți să vă conectați la Sincronizare?"
+msgstr "Sigur doriți să vă autentificați la Sincronizare?"
 
 #. # LOCALIZATION NOTE (relinkVerify.description): Email address of a user previously signed into sync.
 #: relinkVerify.description

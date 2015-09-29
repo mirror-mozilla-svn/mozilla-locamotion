@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/privacy.dtd."
 "po\n"
-"X-Pootle-Revision: 313143\n"
+"X-Pootle-Revision: 393334\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -44,12 +44,12 @@ msgstr "Aflați mai multe"
 #: trackingProtectionPBM5.label
 #: trackingProtectionPBM5.accesskey
 msgid "Use Tracking Protection in Pri&vate Windows"
-msgstr "Utilizează protecția față de urmărire în ferestre private"
+msgstr "Folosește protecția față de urmărire în ferestre private"
 
 #: trackingProtectionPBMLearnMore.label
 msgctxt "trackingProtectionPBMLearnMore.label"
 msgid "Learn more"
-msgstr "Aflați mai multe"
+msgstr "Află mai multe"
 
 #: changeBlockList.label
 #: changeBlockList.accesskey
@@ -145,11 +145,11 @@ msgstr "Arată coo&kie-urile…"
 #: historyHeader.pre.label
 #: historyHeader.pre.accesskey
 msgid "&brandShortName; &will:"
-msgstr "&brandShortName; &va:"
+msgstr "&brandShortName;:"
 
 #: historyHeader.remember.label
 msgid "Remember history"
-msgstr "Memora istoricul"
+msgstr "Va memora istoricul"
 
 #: historyHeader.dontremember.label
 msgid "Never remember history"
@@ -157,7 +157,7 @@ msgstr "Nu va memora istoricul niciodată"
 
 #: historyHeader.custom.label
 msgid "Use custom settings for history"
-msgstr "Folosi setări personalizate pentru istoric"
+msgstr "Va folosi setări personalizate pentru istoric"
 
 #: historyHeader.post.label
 msgctxt "historyHeader.post.label"

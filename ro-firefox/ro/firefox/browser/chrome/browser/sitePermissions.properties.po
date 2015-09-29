@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/sitePermissions.properties."
 "po\n"
-"X-Pootle-Revision: 277846\n"
+"X-Pootle-Revision: 381522\n"
 
 #: allow
 msgid "Allow"
@@ -29,11 +29,11 @@ msgstr "Blochează"
 
 #: alwaysAsk
 msgid "Always Ask"
-msgstr "Întreabă mereu"
+msgstr "Întreabă întotdeauna"
 
 #: permission.cookie.label
 msgid "Set Cookies"
-msgstr "Seteze cookie-uri"
+msgstr "Setează cookie-uri"
 
 #: permission.desktop-notification.label
 msgid "Show Notifications"
@@ -45,11 +45,11 @@ msgstr "Încarcă imaginile"
 
 #: permission.camera.label
 msgid "Use the Camera"
-msgstr "Utilizare Cameră"
+msgstr "Folosește camera"
 
 #: permission.microphone.label
 msgid "Use the Microphone"
-msgstr "Utilizare Microfon"
+msgstr "Folosește microfonul"
 
 #: permission.install.label
 msgid "Install Add-ons"
@@ -61,11 +61,11 @@ msgstr "Deschide ferestre pop-up"
 
 #: permission.geo.label
 msgid "Access Your Location"
-msgstr "Acceseze locația dumnevoastră"
+msgstr "Accesează locația ta"
 
 #: permission.indexedDB.label
 msgid "Maintain Offline Storage"
-msgstr "Mențineți stocarea offline"
+msgstr "Menține stocarea offline"
 
 #: permission.pointerLock.label
 msgid "Hide the Mouse Pointer"
@@ -73,4 +73,4 @@ msgstr "Ascunde cursorul mouse-ului"
 
 #: permission.push.label
 msgid "Receive Push Notifications"
-msgstr "Primiți notificări push"
+msgstr "Primește notificări push"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/migration/migration.properties.po\n"
-"X-Pootle-Revision: 230640\n"
+"X-Pootle-Revision: 393354\n"
 
 #: profileName_format
 msgid "%S %S"
@@ -70,7 +70,7 @@ msgstr "Lista de citit (din Safari)"
 #. # resetProfile.js if it should be listed in the reset dialog.
 #: 1_ie
 msgid "Internet Options"
-msgstr "Opțiuni Internet"
+msgstr "Opțiuni pentru internet"
 
 #: 1_edge
 msgid "Settings"

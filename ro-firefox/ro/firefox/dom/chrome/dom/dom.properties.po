@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-23 00:19+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/dom/chrome/dom/dom.properties.po\n"
-"X-Pootle-Revision: 230718\n"
+"X-Pootle-Revision: 378951\n"
 
 #: KillScriptTitle
 msgid "Warning: Unresponsive script"
@@ -776,16 +776,14 @@ msgstr ""
 
 #. # LOCALIZATION NOTE: Do not translate Will-change, %1$S,%2$S are numbers.
 #: IgnoringWillChangeOverBudgetWarning
-#, fuzzy
 msgid ""
 "Will-change memory consumption is too high. Budget limit is the document "
 "surface area multiplied by %1$S (%2$S px). Occurrences of will-change over "
 "the budget will be ignored."
 msgstr ""
-"Consumul de memorie will-change este prea mare. Suprafața acoperă %1$S "
-"pixeli, bugetul este suprafața documentului înmulțită cu %2$S (%3$S pixeli). "
-"Toate aparițiile will-change din document vor fi ignorate la depășirea "
-"bugetului."
+"Consumul de memorie will-change este prea mare. Limita de buget este "
+"suprafața documentului înmulțită cu %1$S (%2$S px). Aparițiile lui will-"
+"change care depășesc bugetul vor fi ignorate."
 
 #. # LOCALIZATION NOTE: Do not translate "ServiceWorker".
 #: HittingMaxWorkersPerDomain

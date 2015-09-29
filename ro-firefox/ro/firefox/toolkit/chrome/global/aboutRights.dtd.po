@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutRights.dtd.po\n"
-"X-Pootle-Revision: 163381\n"
+"X-Pootle-Revision: 391400\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -63,8 +63,9 @@ msgid ""
 msgstr ""
 ". Acest lucru înseamnă că puteți folosi, copia și distribui &brandShortName; "
 "altora. Sunteți, de asemenea, binevenit să modificați codul sursă al "
-"&brandShortName;, cum doriți, pentru a vă satisface nevoile. Mozilla Public "
-"License vă oferă și dreptul de a vă distribui versiunile modificate."
+"&brandShortName;, cum doriți, pentru a răspunde nevoilor dumneavoastră. "
+"Mozilla Public License vă oferă și dreptul de a vă distribui versiunile "
+"modificate."
 
 #: rights.intro-point2-a
 msgid ""
@@ -143,7 +144,7 @@ msgstr ""
 
 #: rights.intro-point4b
 msgid "service terms"
-msgstr "termenii de furnizare a serviciului"
+msgstr "termenii serviciului"
 
 #: rights.intro-point4c
 msgctxt "rights.intro-point4c"
@@ -165,7 +166,7 @@ msgstr "Servicii ale site-urilor web"
 
 #: rights.intro-point4c-unbranded
 msgid " section."
-msgstr " ."
+msgstr "."
 
 #: rights2.webservices-header
 msgid "&brandFullName; Web-Based Information Services"
@@ -265,15 +266,15 @@ msgstr ""
 
 #: rights.locationawarebrowsing-term1a
 msgid "In the URL bar, type "
-msgstr "În bara de adrese, tastați "
+msgstr "În bara de adrese tastați "
 
 #: rights.locationawarebrowsing-term1b
 msgid "about:config"
-msgstr "despre:configurație"
+msgstr "about:config"
 
 #: rights.locationawarebrowsing-term2
 msgid "Type geo.enabled"
-msgstr "Tastați geo.enabled"
+msgstr "Tastați geo.enabled în câmpul de căutare"
 
 #: rights.locationawarebrowsing-term3
 msgid "Double click on the geo.enabled preference"
@@ -298,7 +299,7 @@ msgstr ""
 msgid "Any applicable service terms for this product should be listed here."
 msgstr ""
 "Aici ar trebui listați orice termeni aplicabili serviciului pentru acest "
-"product."
+"produs."
 
 #. points 1-7 text for branded builds
 #: rights2.webservices-term1

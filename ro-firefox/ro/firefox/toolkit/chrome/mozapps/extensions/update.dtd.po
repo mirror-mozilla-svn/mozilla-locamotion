@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/mozapps/extensions/update.dtd.po\n"
-"X-Pootle-Revision: 99998\n"
+"X-Pootle-Revision: 391387\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -201,11 +201,11 @@ msgstr ""
 #. general strings used by several of the finish pages
 #: clickFinish.label
 msgid "Click Finish to continue starting &brandShortName;."
-msgstr "Apăsați „Încheiere” pentru a continua pornirea &brandShortName;."
+msgstr "Clic pe „Încheiere” pentru a continua pornirea &brandShortName;."
 
 #: clickFinish.labelMac
 msgid "Click Done to continue starting &brandShortName;."
-msgstr "Dați clic pe Gata pentru a continua pornirea &brandShortName;."
+msgstr "Clic pe „Gata” pentru a continua pornirea &brandShortName;."
 
 #: enableChecking.label
 msgid "Allow &brandShortName; to check for updates."

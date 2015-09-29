@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/sync.dtd.po\n"
-"X-Pootle-Revision: 300108\n"
+"X-Pootle-Revision: 393344\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -136,7 +136,7 @@ msgstr "Politică de confidențialitate"
 #. Firefox Accounts stuff
 #: fxaPrivacyNotice.link.label
 msgid "Privacy Notice"
-msgstr "Notă cu privire la politica de confidențialitate"
+msgstr "Politica de confidențialitate"
 
 #: determiningAcctStatus.label
 msgid "Determining your account status…"
@@ -246,7 +246,7 @@ msgstr "Autentificare"
 
 #: signedIn.engines.label
 msgid "Sync across all devices"
-msgstr "Sincronizare pentru toate dispozitivele"
+msgstr "Sincronizare pe toate dispozitivele"
 
 #: mobilePromo.start
 msgid "Download Firefox for "
@@ -259,7 +259,7 @@ msgstr "Android™"
 
 #: mobilePromo.end
 msgid " to sync with your mobile device."
-msgstr " pentru a fi sincronizat cu dispozitivul mobil."
+msgstr " ca să sincronizezi datele cu dispozitivul mobil."
 
 #: androidAttribution
 msgid "Android is a trademark of Google Inc."

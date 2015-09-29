@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/preferences/aboutPermissions.dtd.po\n"
-"X-Pootle-Revision: 300688\n"
+"X-Pootle-Revision: 381509\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -52,7 +52,7 @@ msgstr "Uită totul despre acest site"
 
 #: permission.alwaysAsk
 msgid "Always Ask"
-msgstr "Întreabă mereu"
+msgstr "Întreabă întotdeauna"
 
 #: permission.allow
 msgid "Allow"
@@ -72,7 +72,7 @@ msgstr "Blochează"
 
 #: password.label
 msgid "Store Passwords"
-msgstr "Stocheze parole"
+msgstr "Stochează parole"
 
 #: password.manage
 msgid "Manage Passwords…"
@@ -80,7 +80,7 @@ msgstr "Gestionează parole…"
 
 #: cookie.label
 msgid "Set Cookies"
-msgstr "Seteze cookie-uri"
+msgstr "Setează cookie-uri"
 
 #: cookie.remove
 msgid "Remove Cookies"
@@ -106,7 +106,7 @@ msgstr "Pluginuri"
 #. using the same language used for the permIndexedDB string in browser/pageInfo.dtd
 #: indexedDB.label
 msgid "Maintain Offline Storage"
-msgstr "Mențineți stocarea offline"
+msgstr "Menține stocarea offline"
 
 #: popup.label
 msgid "Open Pop-up Windows"
@@ -114,15 +114,15 @@ msgstr "Deschide ferestrele pop-up"
 
 #: push.label
 msgid "Receive Push Notifications"
-msgstr "Primiți notificări push"
+msgstr "Primește notificări push"
 
 #: camera.label
 msgid "Use the Camera"
-msgstr "Utilizați Camera"
+msgstr "Folosește camera"
 
 #: microphone.label
 msgid "Use the Microphone"
-msgstr "Utilizați Microfonul"
+msgstr "Folosește microfonul"
 
 #: focusSearch.key
 msgid "f"

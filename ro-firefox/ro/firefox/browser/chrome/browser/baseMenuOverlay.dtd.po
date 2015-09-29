@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/baseMenuOverlay.dtd.po\n"
-"X-Pootle-Revision: 94845\n"
+"X-Pootle-Revision: 391453\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -73,12 +73,12 @@ msgstr "&Scurtături de tastatură"
 #: helpSafeMode.label
 #: helpSafeMode.accesskey
 msgid "&Restart with Add-ons Disabled…"
-msgstr "&Repornește cu suplimentele dezactivate…"
+msgstr "&Repornește cu suplimente dezactivate…"
 
 #: helpSafeMode.stop.label
 #: helpSafeMode.stop.accesskey
 msgid "&Restart with Add-ons Enabled"
-msgstr "&Repornește cu suplimentele activate"
+msgstr "&Repornește cu suplimente activate"
 
 #: healthReport2.label
 #: healthReport2.accesskey
@@ -93,7 +93,7 @@ msgstr "&Informații de depanare"
 #: helpFeedbackPage.label
 #: helpFeedbackPage.accesskey
 msgid "&Submit Feedback…"
-msgstr "Trimiteți fee&dbackul…"
+msgstr "Trimite fee&dback…"
 
 #: helpShowTour2.label
 #: helpShowTour2.accesskey
