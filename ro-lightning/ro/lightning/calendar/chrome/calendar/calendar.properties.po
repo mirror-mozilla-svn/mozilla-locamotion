@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/lightning/calendar/chrome/calendar/calendar.properties."
 "po\n"
-"X-Pootle-Revision: 262272\n"
+"X-Pootle-Revision: 391393\n"
 
 #. # Misc. strings in JS
 #. # LOCALIZATION NOTE (PrintPreviewWindowTitle):
@@ -1031,7 +1031,7 @@ msgstr "Calendarul %1$S poate fi doar citit"
 
 #: taskEditInstructions
 msgid "Click here to add a new task"
-msgstr "Adaugă aici o sarcină"
+msgstr "Clic aici pentru a adăuga o sarcină nouă"
 
 #: taskEditInstructionsReadonly
 msgid "Please select a writable calendar"
@@ -1101,7 +1101,7 @@ msgstr "Săpt: %1$S-%2$S"
 #. #    %1$S is a number from 1 to 53 that represents the week number.
 #: abbreviationOfWeek
 msgid "%1$S"
-msgstr ""
+msgstr "%1$S"
 
 #. # Task tree, "Due In" column.
 #. # LOCALIZATION NOTE (dueInDays, dueInHours): Semi-colon list of plural

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/lightning/calendar/chrome/calendar/preferences/views.dtd."
 "po\n"
-"X-Pootle-Revision: 262286\n"
+"X-Pootle-Revision: 379964\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -45,7 +45,7 @@ msgstr "&Săptămâna începe:"
 #: pref.calendar.view-minimonth.showweeknumber.label
 #: pref.calendar.view-minimonth.showweeknumber.accesskey
 msgid "Sho&w week number in views and minimonth"
-msgstr ""
+msgstr "Afișea&ză numărul săptămânii în vizualizări și minilună"
 
 #: pref.daysoff.label
 msgid "Include these days in the workweek:"
