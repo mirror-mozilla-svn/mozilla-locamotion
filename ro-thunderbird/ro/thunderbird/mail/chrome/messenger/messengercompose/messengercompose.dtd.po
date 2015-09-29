@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:24+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/messengercompose/messengercompose.dtd."
 "po\n"
-"X-Pootle-Revision: 260440\n"
+"X-Pootle-Revision: 391503\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -750,12 +750,12 @@ msgstr "Nicio sugestie găsită"
 #: spellCheckIgnoreWord.label
 #: spellCheckIgnoreWord.accesskey
 msgid "&Ignore Word"
-msgstr "&Ignoră cuvânt"
+msgstr "&Ignoră cuvântul"
 
 #: spellCheckAddToDictionary.label
 #: spellCheckAddToDictionary.accesskey
 msgid "Add to Dictio&nary"
-msgstr "Adaugă î&n dicționar"
+msgstr "Adaugă în dicțio&nar"
 
 #: undo.label
 #: undo.accesskey

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:24+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/localMsgs.properties."
 "po\n"
-"X-Pootle-Revision: 260426\n"
+"X-Pootle-Revision: 391478\n"
 
 #. #
 #. # The following are used by the local mail code to display progress/status/error messages
@@ -106,8 +106,8 @@ msgid ""
 "you write privileges, and you have enough disk space to copy the mailbox."
 msgstr ""
 "Nu se poate pune mesajul în căsuța poștală. Asigurați-vă că aveți "
-"permisiunea de a scrie pe sistemul de fișiere și că aveți suficient spațiu "
-"pentru a copia căsuța poștală."
+"permisiunea de a scrie pe sistemul de fișiere și că aveți spațiu suficient "
+"pe disc pentru a copia căsuța poștală."
 
 #. # Status - retr failure from the server
 #: pop3RetrFailure

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:24+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messenger.properties."
 "po\n"
-"X-Pootle-Revision: 323998\n"
+"X-Pootle-Revision: 391481\n"
 
 #. # The following are used by the messenger application
 #. #
@@ -324,9 +324,9 @@ msgid ""
 "Verify that you have enough disk space, and that you have write privileges "
 "to the file system, then try again."
 msgstr ""
-"Dosarul „%S” nu poate fi compactat deoarece scrierea în el a eșuat. "
-"Verificați că aveți spațiu liber suficient pe disc și că aveți drepturi de "
-"scriere pe sistemul de fișiere, apoi încercați din nou."
+"Dosarul „%S” nu poate fi compactat deoarece scrierea în dosar a eșuat. "
+"Verificați că aveți spațiu suficient pe disc și că aveți drepturi de scriere "
+"pe sistemul de fișiere, apoi încercați din nou."
 
 #: compactFolderInsufficientSpace
 msgid ""
@@ -353,9 +353,9 @@ msgid ""
 "failed. Verify that you have enough disk space, and that you have write "
 "privileges to the file system, then try again."
 msgstr ""
-"Mesajele nu pot fi filtrate către dosarul „%S” deoarece scrierea în el a "
-"eșuat. Verificați că aveți spațiu liber suficient pe disc și că aveți "
-"drepturi de scriere pe sistemul de fișiere, apoi încercați din nou."
+"Mesajele nu pot fi filtrate către dosarul „%S” deoarece scrierea în dosar a "
+"eșuat. Verificați că aveți spațiu suficient pe disc și că aveți drepturi de "
+"scriere pe sistemul de fișiere, apoi încercați din nou."
 
 #: copyMsgWriteFailed
 msgid ""
@@ -424,9 +424,9 @@ msgid ""
 "mail, emptying the Trash folder, and compacting your mail folders, and then "
 "try again."
 msgstr ""
-"Nu mai aveți spațiu pe disc pentru a descărca mesaje. Ștergeți din mesajele "
-"mai vechi, goliți coșul de gunoi și compactați celelalte dosare, apoi "
-"încercați din nou."
+"Nu există spațiu suficient pe disc pentru a descărca mesaje. Încercați să "
+"ștergeți din mesajele mai vechi, goliți coșul de gunoi și compactați "
+"celelalte dosare, apoi încercați din nou."
 
 #: errorGettingDB
 msgid ""
@@ -1751,19 +1751,18 @@ msgstr "P"
 #: xpinstallDisabledMessageLocked
 msgid "Software installation has been disabled by your system administrator."
 msgstr ""
-"Instalarea de programe a fost restricționată de administratorul sistemului "
-"dumneavoastră."
+"Instalarea de programe a fost dezactivată de administratorul sistemului."
 
 #: xpinstallDisabledMessage
 msgid ""
 "Software installation is currently disabled. Click Enable and try again."
 msgstr ""
-"Instalarea de programe nu este actualmente permisă. Clic pe Activare și "
+"Instalarea de programe este în prezent dezactivată. Clic pe „Activează” și "
 "încercați din nou."
 
 #: xpinstallDisabledButton
 msgid "Enable"
-msgstr "Activare"
+msgstr "Activează"
 
 #: xpinstallDisabledButton.accesskey
 msgctxt "xpinstallDisabledButton.accesskey"
@@ -2022,7 +2021,7 @@ msgstr "m"
 #. # safeModeRestart
 #: safeModeRestartPromptTitle
 msgid "Restart with Add-ons Disabled"
-msgstr "Repornire cu suplimentele dezactivate"
+msgstr "Repornește cu suplimente dezactivate"
 
 #: safeModeRestartPromptMessage
 msgid "Are you sure you want to disable all add-ons and restart?"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:24+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger-mapi/mapi.properties."
 "po\n"
-"X-Pootle-Revision: 100220\n"
+"X-Pootle-Revision: 433757\n"
 
 #. # Mail Integration Dialog
 #: dialogTitle
@@ -43,24 +43,24 @@ msgid ""
 "%S is not currently set as your default mail application.  Would you like to "
 "make it your default mail application?"
 msgstr ""
-"%S nu este aplicația implicită pentru e-mail.  Doriți să fie aplicația "
-"implicită pentru e-mail?"
+"%S nu este în prezent setat ca aplicația implicită pentru e-mail.  Doriți să "
+"o faceți aplicația implicită pentru e-mail?"
 
 #: setDefaultNews
 msgid ""
 "%S is not currently set as your default news application.  Would you like to "
 "make it your default news application?"
 msgstr ""
-"%S nu este aplicația implicită pentru grupuri de discuții.  Doriți să fie "
-"aplicația implicită?"
+"%S nu este în prezent setat ca aplicația implicită pentru grupuri de "
+"discuții.  Doriți să o faceți aplicația implicită pentru grupuri de discuții?"
 
 #: setDefaultFeed
 msgid ""
 "%S is not currently set as your default feed aggregator.  Would you like to "
 "make it your default feed aggregator?"
 msgstr ""
-"%S nu este agregatorul implicit de fluxuri. Doriți să fie agregator implicit "
-"de fluxuri?"
+"%S nu este în prezent setat ca agregatorul implicit de fluxuri. Doriți să îl "
+"faceți agregatorul implicit de fluxuri?"
 
 #: alreadyDefaultMail
 msgid "%S is already set as your default mail application."

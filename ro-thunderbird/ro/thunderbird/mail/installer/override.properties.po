@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:24+0000\n"
+"POT-Creation-Date: 2015-09-29 13:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/installer/override.properties.po\n"
-"X-Pootle-Revision: 100278\n"
+"X-Pootle-Revision: 391354\n"
 
 #. # LOCALIZATION NOTE:
 #. # This file must be saved as UTF8
@@ -79,11 +79,11 @@ msgstr "&Afișează detalii"
 
 #: ClickNext
 msgid "Click Next to continue."
-msgstr "Apăsați „Înainte >” pentru a continua."
+msgstr "Clic pe „Înainte >” pentru a continua."
 
 #: ClickInstall
 msgid "Click Install to start the installation."
-msgstr "Apăsați „Instalează” pentru a începe instalarea."
+msgstr "Clic pe „Instalează” pentru a începe instalarea."
 
 #: ClickUninstall
 msgid "Click Uninstall to start the uninstallation."
@@ -161,9 +161,9 @@ msgstr ""
 "\r\n"
 "$0\r\n"
 "\r\n"
-"Clic Abandon pentru a opri instalarea,\r\n"
-"Reîncercare pentru a încerca din nou, sau\r\n"
-"Ignorare pentru a omite acest fișier."
+"Clic pe „Abandonează” pentru a opri instalarea,\r\n"
+"„Reîncearcă” pentru a încerca din nou, sau\r\n"
+"„Ignoră” pentru a sări peste acest fișier."
 
 #: FileError_NoIgnore
 msgid ""
@@ -178,7 +178,7 @@ msgstr ""
 "\r\n"
 "$0\r\n"
 "\r\n"
-"Apăsați „Reîncercare” pentru a opri instalarea, sau\r\n"
+"Clic pe „Reîncearcă” pentru a încerca din nou sau\r\n"
 "„Abandon” pentru a opri instalarea."
 
 #: CantWrite

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:24+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/aboutDialog.dtd.po\n"
-"X-Pootle-Revision: 260336\n"
+"X-Pootle-Revision: 391474\n"
 
 #: aboutDialog.title
 msgid "About &brandFullName;"
@@ -114,12 +114,12 @@ msgstr ""
 
 #: helpus.start
 msgid "Want to help? "
-msgstr "Doriți să ajutați? "
+msgstr "Dorești să ajuți? "
 
 #. This is a link title that links to the thunderbird donation page
 #: helpus.donateLink
 msgid "Make a donation"
-msgstr "Faceți o donație"
+msgstr "Fă o donație"
 
 #: helpus.middle
 msgid " or "
@@ -128,7 +128,7 @@ msgstr " sau "
 #. This is a link title that links to http://www.mozilla.org/contribute/.
 #: helpus.getInvolvedLink
 msgid "get involved!"
-msgstr "implicați-vă!"
+msgstr "implică-te!"
 
 #: helpus.end
 msgctxt "helpus.end"
@@ -247,7 +247,7 @@ msgstr "Se aplică actualizarea…"
 #. example: You are currently on the _Stable_ update channel.
 #: channel.description.start
 msgid "You are currently on the "
-msgstr "Folosiți în prezent "
+msgstr "Folosești în prezent "
 
 #: channel.description.end
 msgid " update channel. "

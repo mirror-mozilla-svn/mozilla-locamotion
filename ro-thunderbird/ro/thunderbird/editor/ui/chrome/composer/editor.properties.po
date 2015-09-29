@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:23+0000\n"
+"POT-Creation-Date: 2015-09-29 13:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/editor/ui/chrome/composer/editor.properties."
 "po\n"
-"X-Pootle-Revision: 300744\n"
+"X-Pootle-Revision: 391477\n"
 
 #. # LOCALIZATION NOTE FILE: embedded "\n" represent HTML breaks (<br>)
 #. # Don't translate embedded "\n".
@@ -212,7 +212,7 @@ msgstr ""
 
 #: DiskFull
 msgid "There is not enough disk space available to save the file \"%file%.\""
-msgstr "Nu este destul spațiu pe disc pentru a salva fișierul „%file%.”"
+msgstr "Nu există spațiu suficient pe disc pentru a salva fișierul „%file%.”"
 
 #: NameTooLong
 msgid "The filename or subdirectory name is too long."
@@ -522,7 +522,7 @@ msgstr "Culoare link vizitat"
 
 #: NoColorError
 msgid "Click on a color or enter a valid HTML color string"
-msgstr "Apăsați pe o culoare sau introduceți o culoare HTML validă"
+msgstr "Clic pe o culoare sau introduceți un șir de culoare HTML valid"
 
 #: Table
 msgid "Table"

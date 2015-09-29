@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 18:24+0000\n"
+"POT-Creation-Date: 2015-09-29 13:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/installer/custom.properties.po\n"
-"X-Pootle-Revision: 300551\n"
+"X-Pootle-Revision: 391417\n"
 
 #. # LOCALIZATION NOTE:
 #. # This file must be saved as UTF8
@@ -119,7 +119,7 @@ msgstr "$BrandShortName va fi setat ca aplicația implicită pentru e-mail."
 
 #: SUMMARY_CLICK
 msgid "Click Install to continue."
-msgstr "Apăsați „Instalează” pentru a continua."
+msgstr "Clic pe „Instalează” pentru a continua."
 
 #: SURVEY_TEXT
 msgid "&Tell us what you thought of $BrandShortName"
@@ -185,7 +185,7 @@ msgid ""
 msgstr ""
 "Nu aveți drepturi de scriere în directorul de instalare.\n"
 "\n"
-"Clic pe OK pentru a alege un director diferit."
+"Clic pe „Ok” pentru a selecta un director diferit."
 
 #: WARN_DISK_SPACE
 msgid ""
@@ -193,9 +193,9 @@ msgid ""
 "\n"
 "Click OK to select a different location."
 msgstr ""
-"Nu aveți spațiu suficient pe disc pentru a instala în acest loc.\n"
+"Nu aveți spațiu suficient pe disc pentru a instala în această locație.\n"
 "\n"
-"Clic pe OK pentru a alege o locație diferită."
+"Clic pe „Ok” pentru a selecta o locație diferită."
 
 #: WARN_MIN_SUPPORTED_OS_MSG
 msgid ""
@@ -239,7 +239,7 @@ msgstr "Dezinstalare $BrandFullName"
 
 #: UN_CONFIRM_PAGE_SUBTITLE
 msgid "Remove $BrandFullName from your computer."
-msgstr "Înlăturați $BrandFullName de pe calculatorul dumneavoastră."
+msgstr "Eliminați $BrandFullName de pe calculator."
 
 #: UN_CONFIRM_UNINSTALLED_FROM
 msgid "$BrandShortName will be uninstalled from the following location:"
@@ -247,7 +247,7 @@ msgstr "$BrandShortName va fi dezinstalat din următoarea amplasare:"
 
 #: UN_CONFIRM_CLICK
 msgid "Click Uninstall to continue."
-msgstr "Apăsați „Dezinstalează” pentru a continua."
+msgstr "Clic pe „Dezinstalează” pentru a continua."
 
 #: BANNER_CHECK_EXISTING
 msgid "Checking existing installation…"
@@ -273,7 +273,8 @@ msgstr "Se curăță colivia…"
 #. # One line
 #: OPTIONS_SUMMARY
 msgid "Choose the type of setup you prefer, then click Next."
-msgstr "Alegeți tipul de instalare pe care îl preferați și apăsați „Înainte >”."
+msgstr ""
+"Alegeți tipul de instalare pe care îl preferați și dați clic pe „Înainte >”."
 
 #. # One line
 #: OPTION_STANDARD_DESC
