@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messenger.properties."
 "po\n"
-"X-Pootle-Revision: 391481\n"
+"X-Pootle-Revision: 554286\n"
 
 #. # The following are used by the messenger application
 #. #
@@ -142,7 +142,7 @@ msgstr "Tipărire contact…"
 
 #: PrintPreviewContact
 msgid "Print Previewing contact…"
-msgstr "Previzualizare tipărire contact…"
+msgstr "Previzualizare pentru tipărirea contactului…"
 
 #: PrintingAddrBook
 msgid "Printing AddressBook…"
@@ -1390,7 +1390,7 @@ msgstr ""
 #. # LOCALIZATION NOTE %.*f is the abbreviated size in the appropriate units
 #: byteAbbreviation2
 msgid "%.*f bytes"
-msgstr "%.*f bytes"
+msgstr "%.*f byți"
 
 #: kiloByteAbbreviation2
 msgid "%.*f KB"
@@ -1926,7 +1926,7 @@ msgstr "&Reîncearcă"
 
 #: mailServerLoginFailedEnterNewPasswordButton
 msgid "&Enter New Password"
-msgstr "&Introduceți parola nouă"
+msgstr "Introduc&eți parola nouă"
 
 #: extensions.{972ce4c6-7e08-4474-a285-3208198ce6fd}.name
 msgid "Default"

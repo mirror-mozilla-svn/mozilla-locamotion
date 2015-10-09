@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messengercompose/compose"
 "Msgs.properties.po\n"
-"X-Pootle-Revision: 260438\n"
+"X-Pootle-Revision: 554290\n"
 
 #. #
 #. # The following are used by the compose back end
@@ -274,8 +274,8 @@ msgid ""
 "and try again."
 msgstr ""
 "Mărimea mesajului pe care încercați să-l trimiteți depășește limita globală "
-"de mărime a serverului (%d octeți). Mesajul nu a fost trimis; reduceți "
-"mărimea acestuia și încercați din nou."
+"de mărime a serverului (%d byți). Mesajul nu a fost trimis; reduceți mărimea "
+"acestuia și încercați din nou."
 
 #. ## LOCALIZATION NOTE (smtpPermSizeExceeded2): argument %s is the Outgoing server (SMTP) response
 #: smtpPermSizeExceeded2
