@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:04+0000\n"
+"POT-Creation-Date: 2015-10-09 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.1/apps/fl/download.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 499934\n"
 
 #: ok
 msgid "OK"
@@ -210,7 +210,7 @@ msgstr "Previzualizează audio"
 
 #: byteUnit-B
 msgid "bytes"
-msgstr "bytes"
+msgstr "byți"
 
 #: byteUnit-KB
 msgid "KB"
