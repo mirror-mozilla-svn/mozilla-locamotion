@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:04+0000\n"
+"POT-Creation-Date: 2015-10-09 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,22 +12,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/shared/media/media.properties.po\n"
-"X-Pootle-Revision: 64441\n"
+"X-Pootle-Revision: 480136\n"
 
 #. # Frame descriptions
-#: imageDescription
-msgid "{{orientation}} image, %I:%M %p, %B %e, %Y"
-msgstr "imagine {{orientation}}, %H:%M, %e %B %Y"
+#: imageDescription.ariaLabel
+msgid "{{orientation}} image, {{timestamp}}"
+msgstr ""
 
-#: imageDescriptionNoTimestamp
+#: imageDescriptionNoTimestamp.ariaLabel
 msgid "{{orientation}} image"
 msgstr "imagine {{orientation}}"
 
-#: videoDescription
-msgid "{{orientation}} video, %I:%M %p, %B %e, %Y"
-msgstr "videoclip {{orientation}}, %H:%M, %e %B %Y"
+#: videoDescription.ariaLabel
+msgid "{{orientation}} video, {{timestamp}}"
+msgstr ""
 
-#: videoDescriptionNoTimestamp
+#: videoDescriptionNoTimestamp.ariaLabel
 msgid "{{orientation}} video"
 msgstr "videoclip {{orientation}}"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:04+0000\n"
+"POT-Creation-Date: 2015-10-09 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,20 +12,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/music/music.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 480088\n"
 
 #: music
 msgid "Music"
 msgstr "Muzică"
 
-#: mix
-msgctxt "mix"
-msgid "Mix"
-msgstr "Amestec"
-
 #: playlists
-msgid "Playlist"
-msgstr "Listă de redare"
+#, fuzzy
+msgctxt "playlists"
+msgid "Playlists"
+msgstr "Liste de redare"
 
 #: artists
 msgctxt "artists"
@@ -42,17 +39,10 @@ msgctxt "songs"
 msgid "Songs"
 msgstr "Melodii"
 
-#: more
-msgid "More"
-msgstr "Mai multe"
-
-#: songArtist
-msgid "Song artist"
-msgstr "Artist"
-
-#: songAlbum
-msgid "Song album"
-msgstr "Album"
+#: unknown
+#, fuzzy
+msgid "?"
+msgstr "?"
 
 #: unknownArtist
 msgid "Unknown artist"
@@ -97,6 +87,10 @@ msgstr "Actualizarea bazei de date"
 #: upgrade-text
 msgid "Please wait while Music updates its database."
 msgstr "Te rugăm să aștepți cât timp Muzică își actualizează baza de date."
+
+#: search
+msgid "Search"
+msgstr ""
 
 #: search-music.placeholder
 msgid "Search Music"
@@ -241,12 +235,13 @@ msgstr "Repetă piesa"
 msgid "Shuffle"
 msgstr "Amestecă"
 
-#: mix-tab.ariaLabel
-msgctxt "mix-tab.ariaLabel"
-msgid "Mix"
-msgstr "Amestec"
+#: home-tab.ariaLabel
+msgid "Home"
+msgstr ""
 
 #: playlists-tab.ariaLabel
+#, fuzzy
+msgctxt "playlists-tab.ariaLabel"
 msgid "Playlists"
 msgstr "Liste de redare"
 

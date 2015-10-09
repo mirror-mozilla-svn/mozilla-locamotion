@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:04+0000\n"
+"POT-Creation-Date: 2015-10-09 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/system.properties.po\n"
-"X-Pootle-Revision: 387651\n"
+"X-Pootle-Revision: 500273\n"
 
 #: ok
 msgctxt "ok"
@@ -604,7 +604,7 @@ msgstr "Instalează"
 
 #: bytes
 msgid "bytes"
-msgstr "bytes"
+msgstr "byți"
 
 #: kB
 msgid "KB"
@@ -820,6 +820,13 @@ msgstr ""
 "{{ n }} actualizări disponibile. <span>Atinge pentru mai multe "
 "informații.</span>"
 
+#: systemUpdateAvailableInfo
+#, fuzzy
+msgid "System update available. <span>Tap for more info.</span>"
+msgstr ""
+"{{ n }} actualizare disponibilă. <span>Atinge pentru mai multe "
+"informații.</span>"
+
 #: numberOfUpdates
 msgctxt "numberOfUpdates"
 msgid "{[ plural(n) ]}"
@@ -852,6 +859,10 @@ msgstr "{{ n }} actualizări disponibile"
 #: systemUpdate
 msgid "System update"
 msgstr "Actualizare de sistem"
+
+#: systemUpdateWithVersion
+msgid "System update {{ version }}"
+msgstr ""
 
 #: systemUpdateReady
 msgid "System Update Ready"
@@ -938,6 +949,14 @@ msgid ""
 msgstr ""
 "Ești în prezent pe roaming și se pot aplica costuri suplimentare. Dorești să "
 "continui?"
+
+#: build-id
+msgid "Build ID: {{ buildid }}"
+msgstr ""
+
+#: view-release-notes
+msgid "View the full list of changes"
+msgstr ""
 
 #. # screenshots
 #: screenshotSaved
@@ -2188,11 +2207,11 @@ msgstr "Mod avion activat"
 #. # Browser Context Menu
 #: open-in-new-window
 msgid "Open in new window"
-msgstr "Deschide în fereastră nouă"
+msgstr "Deschide într-o fereastră nouă"
 
 #: open-in-new-private-window
 msgid "Open in new private window"
-msgstr "Deschide în fereastră privată nouă"
+msgstr "Deschide într-o fereastră privată nouă"
 
 #: add-link-to-home-screen
 msgid "Add link to home screen"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:04+0000\n"
+"POT-Creation-Date: 2015-10-09 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/clock/clock.properties.po\n"
-"X-Pootle-Revision: 387594\n"
+"X-Pootle-Revision: 500338\n"
 
 #: reset
 msgid "Reset"
@@ -30,17 +30,9 @@ msgstr "Stop"
 msgid "Cancel"
 msgstr "Renunță"
 
-#: hour
-msgid "Hour"
-msgstr "Oră"
-
 #: hours
 msgid "Hours"
 msgstr "Ore"
-
-#: minute
-msgid "Minute"
-msgstr "Minut"
 
 #: minutes
 msgid "Minutes"
@@ -178,289 +170,194 @@ msgstr "Dezactivat"
 msgid "+1 Min"
 msgstr "+1 min"
 
-#. # see http://www.cplusplus.com/reference/clibrary/ctime/strftime/
-#: dateFormat
-msgid "%A, %B %e"
-msgstr "%A, %e %B"
+#: countdown_lessThanAnHour
+msgid "The alarm is set for <strong>{{alarmMinutes}}</strong> from now."
+msgstr ""
+"Alarma e setată peste <strong>{{alarmMinutes}}</strong> din acest moment."
 
-#: countdown-lessThanAnHour
-msgid "The alarm is set for <strong>{{minutes}}</strong> from now."
-msgstr "Alarma e setată peste <strong>{{minutes}}</strong> din acest moment."
+#: countdown_moreThanAnHour
+msgid "The alarm is set for {{alarmHours}} and {{alarmMinutes}} from now."
+msgstr ""
+"Alarma e setată peste {{alarmHours}} și {{alarmMinutes}} din acest moment."
 
-#: countdown-moreThanAnHour
-msgid "The alarm is set for {{hours}} {{minutes}} from now."
-msgstr "Alarma e setată peste {{hours}} {{minutes}} din acest moment."
+#: countdown_moreThanADay
+msgid "The alarm is set for {{alarmDays}} and {{alarmHours}} from now."
+msgstr ""
 
-#: countdown-moreThanADay
-msgid "The alarm is set for {{days}} {{hours}} from now."
-msgstr "Alarma e setată peste {{days}} {{hours}} din acest moment."
+#: alarmMinutes
+msgid "{[ plural(minutes) ]}"
+msgstr ""
 
-#: nMinutes
-msgctxt "nMinutes"
-msgid "{[ plural(n) ]}"
-msgstr "{[ plural(n) ]}"
-
-#: nMinutes[zero]
+#: alarmMinutes[zero]
 msgid "less than a minute"
 msgstr "mai puțin de un minut"
 
-#: nMinutes[one]
-msgctxt "nMinutes[one]"
+#: alarmMinutes[one]
+#, fuzzy
+msgctxt "alarmMinutes[one]"
 msgid "one minute"
 msgstr "un minut"
 
-#: nMinutes[two]
-msgctxt "nMinutes[two]"
-msgid "{{n}} minutes"
-msgstr "{{n}} minute"
-
-#: nMinutes[few]
-msgctxt "nMinutes[few]"
-msgid "{{n}} minutes"
-msgstr "{{n}} minute"
-
-#: nMinutes[many]
-msgctxt "nMinutes[many]"
-msgid "{{n}} minutes"
-msgstr "{{n}} minute"
-
-#: nMinutes[other]
-msgctxt "nMinutes[other]"
-msgid "{{n}} minutes"
-msgstr "{{n}} minute"
-
-#: nHours
-msgctxt "nHours"
-msgid "{[ plural(n) ]}"
-msgstr "{[ plural(n) ]}"
-
-#: nHours[zero]
-msgctxt "nHours[zero]"
-msgid ""
+#: alarmMinutes[two]
+msgctxt "alarmMinutes[two]"
+msgid "{{minutes}} minutes"
 msgstr ""
 
-#: nHours[one]
-msgid "<strong>{{n}} hour</strong>"
-msgstr "<strong>{{n}} oră</strong>"
-
-#: nHours[two]
-msgctxt "nHours[two]"
-msgid "<strong>{{n}} hours</strong>"
-msgstr "<strong>{{n}} ore</strong>"
-
-#: nHours[few]
-msgctxt "nHours[few]"
-msgid "<strong>{{n}} hours</strong>"
-msgstr "<strong>{{n}} ore</strong>"
-
-#: nHours[many]
-msgctxt "nHours[many]"
-msgid "<strong>{{n}} hours</strong>"
-msgstr "<strong>{{n}} ore</strong>"
-
-#: nHours[other]
-msgctxt "nHours[other]"
-msgid "<strong>{{n}} hours</strong>"
-msgstr "<strong>{{n}} ore</strong>"
-
-#: nAndRemainHours
-msgctxt "nAndRemainHours"
-msgid "{[ plural(n) ]}"
-msgstr "{[ plural(n) ]}"
-
-#: nAndRemainHours[zero]
-msgctxt "nAndRemainHours[zero]"
-msgid ""
+#: alarmMinutes[few]
+msgctxt "alarmMinutes[few]"
+msgid "{{minutes}} minutes"
 msgstr ""
 
-#: nAndRemainHours[one]
-msgid "and <strong>{{n}} hour</strong>"
-msgstr "și <strong>{{n}} oră</strong>"
-
-#: nAndRemainHours[two]
-msgctxt "nAndRemainHours[two]"
-msgid "and <strong>{{n}} hours</strong>"
-msgstr "și <strong>{{n}} ore</strong>"
-
-#: nAndRemainHours[few]
-msgctxt "nAndRemainHours[few]"
-msgid "and <strong>{{n}} hours</strong>"
-msgstr "și <strong>{{n}} ore</strong>"
-
-#: nAndRemainHours[many]
-msgctxt "nAndRemainHours[many]"
-msgid "and <strong>{{n}} hours</strong>"
-msgstr "și <strong>{{n}} ore</strong>"
-
-#: nAndRemainHours[other]
-msgctxt "nAndRemainHours[other]"
-msgid "and <strong>{{n}} hours</strong>"
-msgstr "și <strong>{{n}} ore</strong>"
-
-#: nRemainDays
-msgctxt "nRemainDays"
-msgid "{[ plural(n) ]}"
-msgstr "{[ plural(n) ]}"
-
-#: nRemainDays[zero]
-msgctxt "nRemainDays[zero]"
-msgid ""
+#: alarmMinutes[many]
+msgctxt "alarmMinutes[many]"
+msgid "{{minutes}} minutes"
 msgstr ""
 
-#: nRemainDays[one]
-msgid "<strong>{{n}} day</strong>"
-msgstr "<strong>{{n}} zi</strong>"
-
-#: nRemainDays[two]
-msgctxt "nRemainDays[two]"
-msgid "<strong>{{n}} days</strong>"
-msgstr "<strong>{{n}} zile</strong>"
-
-#: nRemainDays[few]
-msgctxt "nRemainDays[few]"
-msgid "<strong>{{n}} days</strong>"
-msgstr "<strong>{{n}} zile</strong>"
-
-#: nRemainDays[many]
-msgctxt "nRemainDays[many]"
-msgid "<strong>{{n}} days</strong>"
-msgstr "<strong>{{n}} zile</strong>"
-
-#: nRemainDays[other]
-msgctxt "nRemainDays[other]"
-msgid "<strong>{{n}} days</strong>"
-msgstr "<strong>{{n}} zile</strong>"
-
-#: nRemainMinutes
-msgctxt "nRemainMinutes"
-msgid "{[ plural(n) ]}"
-msgstr "{[ plural(n) ]}"
-
-#: nRemainMinutes[zero]
-msgctxt "nRemainMinutes[zero]"
-msgid ""
+#: alarmMinutes[other]
+msgctxt "alarmMinutes[other]"
+msgid "{{minutes}} minutes"
 msgstr ""
 
-#: nRemainMinutes[one]
-msgid "and <strong>{{n}} minute</strong>"
-msgstr "și <strong>{{n}} minut</strong>"
+#: alarmHours
+msgid "{[ plural(hours) ]}"
+msgstr ""
 
-#: nRemainMinutes[two]
-msgctxt "nRemainMinutes[two]"
-msgid "and <strong>{{n}} minutes</strong>"
-msgstr "și <strong>{{n}} minute</strong>"
+#: alarmHours[zero]
+msgctxt "alarmHours[zero]"
+msgid "<strong>{{hours}} hours</strong>"
+msgstr "<strong>{{hours}} ore</strong>"
 
-#: nRemainMinutes[few]
-msgctxt "nRemainMinutes[few]"
-msgid "and <strong>{{n}} minutes</strong>"
-msgstr "și <strong>{{n}} minute</strong>"
+#: alarmHours[one]
+msgid "<strong>{{hours}} hour</strong>"
+msgstr "<strong>{{hours}} oră</strong>"
 
-#: nRemainMinutes[many]
-msgctxt "nRemainMinutes[many]"
-msgid "and <strong>{{n}} minutes</strong>"
-msgstr "și <strong>{{n}} minute</strong>"
+#: alarmHours[two]
+msgctxt "alarmHours[two]"
+msgid "<strong>{{hours}} hours</strong>"
+msgstr "<strong>{{hours}} ore</strong>"
 
-#: nRemainMinutes[other]
-msgctxt "nRemainMinutes[other]"
-msgid "and <strong>{{n}} minutes</strong>"
-msgstr "și <strong>{{n}} minute</strong>"
+#: alarmHours[few]
+msgctxt "alarmHours[few]"
+msgid "<strong>{{hours}} hours</strong>"
+msgstr "<strong>{{hours}} ore</strong>"
 
-#: nSpinnerSeconds
-msgctxt "nSpinnerSeconds"
+#: alarmHours[many]
+msgctxt "alarmHours[many]"
+msgid "<strong>{{hours}} hours</strong>"
+msgstr "<strong>{{hours}} ore</strong>"
+
+#: alarmHours[other]
+msgctxt "alarmHours[other]"
+msgid "<strong>{{hours}} hours</strong>"
+msgstr "<strong>{{hours}} ore</strong>"
+
+#: alarmDays
+msgid "{[ plural(days) ]}"
+msgstr "{[ plural(days) ]}"
+
+#: alarmDays[zero]
+msgctxt "alarmDays[zero]"
+msgid "<strong>{{days}} days</strong>"
+msgstr "<strong>{{days}} zile</strong>"
+
+#: alarmDays[one]
+msgid "<strong>{{days}} day</strong>"
+msgstr "<strong>{{days}} zi</strong>"
+
+#: alarmDays[two]
+msgctxt "alarmDays[two]"
+msgid "<strong>{{days}} days</strong>"
+msgstr "<strong>{{days}} zile</strong>"
+
+#: alarmDays[few]
+msgctxt "alarmDays[few]"
+msgid "<strong>{{days}} days</strong>"
+msgstr "<strong>{{days}} zile</strong>"
+
+#: alarmDays[many]
+msgctxt "alarmDays[many]"
+msgid "<strong>{{days}} days</strong>"
+msgstr "<strong>{{days}} zile</strong>"
+
+#: alarmDays[other]
+msgctxt "alarmDays[other]"
+msgid "<strong>{{days}} days</strong>"
+msgstr "<strong>{{days}} zile</strong>"
+
+#: nSpinnerMinutes.ariaValuetext
+#, fuzzy
+msgctxt "nSpinnerMinutes.ariaValuetext"
 msgid "{[ plural(n) ]}"
 msgstr "{[ plural(n) ]}"
 
-#: nSpinnerSeconds[zero]
-msgid "zero seconds"
-msgstr "zero secunde"
-
-#: nSpinnerSeconds[one]
-msgid "one second"
-msgstr "o secundă"
-
-#: nSpinnerSeconds[two]
-msgctxt "nSpinnerSeconds[two]"
-msgid "{{n}} seconds"
-msgstr "{{n}} secunde"
-
-#: nSpinnerSeconds[few]
-msgctxt "nSpinnerSeconds[few]"
-msgid "{{n}} seconds"
-msgstr "{{n}} secunde"
-
-#: nSpinnerSeconds[many]
-msgctxt "nSpinnerSeconds[many]"
-msgid "{{n}} seconds"
-msgstr "{{n}} secunde"
-
-#: nSpinnerSeconds[other]
-msgctxt "nSpinnerSeconds[other]"
-msgid "{{n}} seconds"
-msgstr "{{n}} secunde"
-
-#: nSpinnerMinutes
-msgctxt "nSpinnerMinutes"
-msgid "{[ plural(n) ]}"
-msgstr "{[ plural(n) ]}"
-
-#: nSpinnerMinutes[zero]
+#: nSpinnerMinutes.ariaValuetext[zero]
 msgid "zero minutes"
 msgstr "zero minute"
 
-#: nSpinnerMinutes[one]
-msgctxt "nSpinnerMinutes[one]"
+#: nSpinnerMinutes.ariaValuetext[one]
+#, fuzzy
+msgctxt "nSpinnerMinutes.ariaValuetext[one]"
 msgid "one minute"
 msgstr "un minut"
 
-#: nSpinnerMinutes[two]
-msgctxt "nSpinnerMinutes[two]"
+#: nSpinnerMinutes.ariaValuetext[two]
+#, fuzzy
+msgctxt "nSpinnerMinutes.ariaValuetext[two]"
 msgid "{{n}} minutes"
 msgstr "{{n}} minute"
 
-#: nSpinnerMinutes[few]
-msgctxt "nSpinnerMinutes[few]"
+#: nSpinnerMinutes.ariaValuetext[few]
+#, fuzzy
+msgctxt "nSpinnerMinutes.ariaValuetext[few]"
 msgid "{{n}} minutes"
 msgstr "{{n}} minute"
 
-#: nSpinnerMinutes[many]
-msgctxt "nSpinnerMinutes[many]"
+#: nSpinnerMinutes.ariaValuetext[many]
+#, fuzzy
+msgctxt "nSpinnerMinutes.ariaValuetext[many]"
 msgid "{{n}} minutes"
 msgstr "{{n}} minute"
 
-#: nSpinnerMinutes[other]
-msgctxt "nSpinnerMinutes[other]"
+#: nSpinnerMinutes.ariaValuetext[other]
+#, fuzzy
+msgctxt "nSpinnerMinutes.ariaValuetext[other]"
 msgid "{{n}} minutes"
 msgstr "{{n}} minute"
 
-#: nSpinnerHours
-msgctxt "nSpinnerHours"
+#: nSpinnerHours.ariaValuetext
+#, fuzzy
+msgctxt "nSpinnerHours.ariaValuetext"
 msgid "{[ plural(n) ]}"
 msgstr "{[ plural(n) ]}"
 
-#: nSpinnerHours[zero]
+#: nSpinnerHours.ariaValuetext[zero]
 msgid "zero hours"
 msgstr "zero ore"
 
-#: nSpinnerHours[one]
+#: nSpinnerHours.ariaValuetext[one]
 msgid "{{n}} hour"
 msgstr "{{n}} oră"
 
-#: nSpinnerHours[two]
-msgctxt "nSpinnerHours[two]"
+#: nSpinnerHours.ariaValuetext[two]
+#, fuzzy
+msgctxt "nSpinnerHours.ariaValuetext[two]"
 msgid "{{n}} hours"
 msgstr "{{n}} ore"
 
-#: nSpinnerHours[few]
-msgctxt "nSpinnerHours[few]"
+#: nSpinnerHours.ariaValuetext[few]
+#, fuzzy
+msgctxt "nSpinnerHours.ariaValuetext[few]"
 msgid "{{n}} hours"
 msgstr "{{n}} ore"
 
-#: nSpinnerHours[many]
-msgctxt "nSpinnerHours[many]"
+#: nSpinnerHours.ariaValuetext[many]
+#, fuzzy
+msgctxt "nSpinnerHours.ariaValuetext[many]"
 msgid "{{n}} hours"
 msgstr "{{n}} ore"
 
-#: nSpinnerHours[other]
-msgctxt "nSpinnerHours[other]"
+#: nSpinnerHours.ariaValuetext[other]
+#, fuzzy
+msgctxt "nSpinnerHours.ariaValuetext[other]"
 msgid "{{n}} hours"
 msgstr "{{n}} ore"

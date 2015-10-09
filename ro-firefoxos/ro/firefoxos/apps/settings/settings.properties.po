@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:04+0000\n"
+"POT-Creation-Date: 2015-10-09 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 389853\n"
+"X-Pootle-Revision: 480103\n"
 
 #: settings
 msgid "Settings"
@@ -2682,6 +2682,66 @@ msgstr "Te rugăm să încerci din nou."
 msgid "Please tap to try again."
 msgstr "Te rugăm să atingi pentru a încerca din nou."
 
+#. # Firefox Sync
+#: fxsync
+msgctxt "fxsync"
+msgid "Firefox Sync"
+msgstr ""
+
+#: fxsync-overview
+msgid "Sign in to sync your history, passwords & more"
+msgstr ""
+
+#: fxsync-get-started
+msgid "Get started"
+msgstr ""
+
+#: fxsync-sync-user
+#, fuzzy
+msgid "Firefox Account"
+msgstr "Conturi Firefox"
+
+#: fxsync-sync-now
+msgid "Sync now"
+msgstr ""
+
+#: fxsync-disable
+msgid "Disable Firefox Sync"
+msgstr ""
+
+#: fxsync-syncing
+msgid "Syncing"
+msgstr ""
+
+#: fxsync-last-synced
+msgid "Last synced {{when}}"
+msgstr ""
+
+#: fxsync-collections
+msgid "Collections"
+msgstr ""
+
+#: fxsync-collections-history
+msgid "History"
+msgstr ""
+
+#: fxsync-collections-passwords
+#, fuzzy
+msgid "Passwords"
+msgstr "Parolă"
+
+#: fxsync-legal
+msgid "Legal"
+msgstr ""
+
+#: fxsync-tos
+msgid "Terms of Service"
+msgstr ""
+
+#: fxsync-privacy
+msgid "Privacy Notice"
+msgstr ""
+
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Security
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
@@ -4697,7 +4757,7 @@ msgstr "Trimite feedbackul la Mozilla"
 
 #: performanceAndUsageData
 msgid "Performance and Usage Data"
-msgstr "Date despre perfomanță și consum"
+msgstr "Date despre performanță și consum"
 
 #: sharePerformanceAndUsageData
 msgid "Submit data"
@@ -5349,6 +5409,11 @@ msgstr "Conturi Firefox"
 msgctxt "findmydeviceSection.ariaLabel"
 msgid "Find My Device"
 msgstr "Găsește-mi dispozitivul"
+
+#: fxsyncSection.ariaLabel
+msgctxt "fxsyncSection.ariaLabel"
+msgid "Firefox Sync"
+msgstr ""
 
 #: screenLockSection.ariaLabel
 msgctxt "screenLockSection.ariaLabel"
