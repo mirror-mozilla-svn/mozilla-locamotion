@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/base/android_strings.dtd.po\n"
-"X-Pootle-Revision: 433725\n"
+"X-Pootle-Revision: 500283\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -697,7 +697,7 @@ msgstr "Protecția față de urmărire"
 
 #: pref_tracking_protection_summary3
 msgid "Enabled in Private Browsing"
-msgstr "Activată în navigarea fără urme"
+msgstr "Activată în navigarea privată"
 
 #: pref_donottrack_title
 msgid "Do not track"
@@ -2142,11 +2142,6 @@ msgid "Disable Guest Browsing"
 msgstr "Dezactivează navigarea în mod vizitator"
 
 #. Default Bookmarks titles
-#. title for the folder that will contains the default bookmarks
-#: bookmarks_title
-msgid "Mobile"
-msgstr "De pe mobil"
-
 #. link title for about:fennec
 #: bookmarks_about_browser
 msgid "Firefox: About your browser"
