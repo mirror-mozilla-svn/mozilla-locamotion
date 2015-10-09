@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/dom/chrome/plugins.properties.po\n"
-"X-Pootle-Revision: 230734\n"
+"X-Pootle-Revision: 601976\n"
 
 #. # LOCALIZATION NOTE (plugins.properties):
 #. #    Those strings are inserted into an HTML page, so all HTML characters
@@ -71,12 +71,12 @@ msgstr "Sufixe"
 
 #: learn_more_label
 msgid "Learn More"
-msgstr "Aflați mai multe"
+msgstr "Află mai multe"
 
 #. # GMP Plugins
 #: gmp_license_info
 msgid "License information"
-msgstr "Informațiile despre licențiere"
+msgstr "Informații despre licențiere"
 
 #: openH264_name
 msgid "OpenH264 Video Codec provided by Cisco Systems, Inc."

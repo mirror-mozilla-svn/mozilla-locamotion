@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/toolbox.properties.po\n"
-"X-Pootle-Revision: 391341\n"
+"X-Pootle-Revision: 601868\n"
 
 #: toolboxDockButtons.bottom.tooltip
 msgid "Dock to bottom of browser window"
@@ -25,7 +25,7 @@ msgstr "Atașează în partea laterală a ferestrei browserului"
 
 #: toolboxDockButtons.window.tooltip
 msgid "Show in separate window"
-msgstr "Arătați în fereastră separată"
+msgstr "Arată într-o fereastră separată"
 
 #. # LOCALIZATION NOTE (toolboxDockButtons.bottom.minimize): This string is shown
 #. # as a tooltip that appears in the toolbox when it is in "bottom host" mode and

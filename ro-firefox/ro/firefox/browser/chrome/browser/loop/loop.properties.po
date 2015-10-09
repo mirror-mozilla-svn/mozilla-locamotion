@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/loop/loop.properties.po\n"
-"X-Pootle-Revision: 393347\n"
+"X-Pootle-Revision: 601882\n"
 
 #. # Panel Strings
 #. ## LOCALIZATION NOTE(clientShortname2): This should not be localized and
@@ -597,8 +597,9 @@ msgid "Disable video"
 msgstr "Dezactivează camera video"
 
 #: unmute_local_video_button_title2
+#, fuzzy
 msgid "Enable video"
-msgstr ""
+msgstr "Dezactivează camera video"
 
 #: active_screenshare_button_title
 msgid "Stop sharing"

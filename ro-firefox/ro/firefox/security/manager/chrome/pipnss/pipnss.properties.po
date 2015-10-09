@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/security/manager/chrome/pipnss/pipnss.properties."
 "po\n"
-"X-Pootle-Revision: 230743\n"
+"X-Pootle-Revision: 601985\n"
 
 #: CertPassPrompt
 msgid "Please enter the master password for the %S."
@@ -900,7 +900,7 @@ msgstr "SECG Curba eliptică  sect571r1 (echivalent NIST B-571)"
 
 #: CertDumpRawBytesHeader
 msgid "Size: %S Bytes / %S Bits"
-msgstr "Mărime: %S Octeți / %S Biți"
+msgstr "Mărime: %S byți / %S biți"
 
 #: VerifySSLClient_p
 msgid "Client"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/findbar.dtd.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 502647\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -34,7 +34,7 @@ msgstr "Închide bara de căutare"
 #: highlightAll.label
 #: highlightAll.accesskey
 msgid "Highlight &All"
-msgstr "&Evidențiază toate"
+msgstr "Evidențiază to&ate aparițiile"
 
 #: highlightAll.tooltiptext
 msgid "Highlight all occurrences of the phrase"
@@ -43,8 +43,8 @@ msgstr "Evidențiază toate aparițiile textului"
 #: caseSensitive.label
 #: caseSensitive.accesskey
 msgid "Mat&ch Case"
-msgstr "&Potrivire litere"
+msgstr "Potrivește literele mari și mi&ci"
 
 #: caseSensitive.tooltiptext
 msgid "Search with case sensitivity"
-msgstr "Căutare cu potrivire litere"
+msgstr "Caută cu potrivirea literelor mari și mici"

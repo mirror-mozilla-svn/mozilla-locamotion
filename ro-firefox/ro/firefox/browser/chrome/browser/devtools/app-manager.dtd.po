@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/app-manager.dtd."
 "po\n"
-"X-Pootle-Revision: 393369\n"
+"X-Pootle-Revision: 502664\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -258,7 +258,7 @@ msgstr "Niciun simulator instalat."
 
 #: connection.installOneSimulator
 msgid "Install Simulator"
-msgstr "Instalare simulator"
+msgstr "Instalează simulatorul"
 
 #: connection.installOneSimulatorTooltip
 msgid "Install a version of the Simulator by downloading the relevant add-on"
@@ -293,11 +293,11 @@ msgstr "Adaugă"
 
 #: projects.addPackaged
 msgid "Add Packaged App"
-msgstr "Add Packaged App"
+msgstr "Adaugă aplicație împachetată"
 
 #: projects.addPackagedTooltip
 msgid "Add a new packaged app (a directory) from your computer"
-msgstr "Add a new packaged app (a directory) from your computer."
+msgstr "Adaugă o aplicație împachetată nouă (un director) de pe calculator."
 
 #: projects.addHosted
 msgid "Add Hosted App"

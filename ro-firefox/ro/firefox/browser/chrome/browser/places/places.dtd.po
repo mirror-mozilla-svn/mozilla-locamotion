@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/places/places.dtd.po\n"
-"X-Pootle-Revision: 230648\n"
+"X-Pootle-Revision: 601892\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -142,7 +142,7 @@ msgstr "Deschide î&ntr-o fereastră nouă"
 #: cmd.open_private_window.label
 #: cmd.open_private_window.accesskey
 msgid "Open in a New &Private Window"
-msgstr "Deschide în fereastră fără ur&me nouă"
+msgstr "Deschide într-o fereastră &privată nouă"
 
 #: cmd.open_tab.label
 #: cmd.open_tab.accesskey
@@ -233,7 +233,7 @@ msgstr "Ultima modificare"
 #: search.accesskey
 msgctxt "search.label search.accesskey"
 msgid "&Search:"
-msgstr "&Caută în:"
+msgstr "&Caută:"
 
 #: cmd.find.key
 msgid "f"
@@ -274,7 +274,7 @@ msgstr "Selectați un element pentru a-l vedea și a-i edita proprietățile"
 #: find.accesskey
 msgctxt "find.label find.accesskey"
 msgid "&Search:"
-msgstr "&Căutare:"
+msgstr "&Caută:"
 
 #: view.label
 #: view.accesskey

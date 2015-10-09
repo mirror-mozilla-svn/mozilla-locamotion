@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/newTab.dtd.po\n"
-"X-Pootle-Revision: 230641\n"
+"X-Pootle-Revision: 601885\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -33,15 +33,15 @@ msgstr "Include site-urile sugerate"
 
 #: newtab.customize.cog.title2
 msgid "NEW TAB CONTROLS"
-msgstr "CONTROALE FILĂ NOUĂ"
+msgstr "CONTROALE PENTRU FILĂ NOUĂ"
 
 #: newtab.customize.cog.learn
 msgid "Learn about New Tab"
-msgstr "Aflați despre Filă nouă"
+msgstr "Află despre filă nouă"
 
 #: newtab.customize.title
 msgid "Customize your New Tab page"
-msgstr "Personalizare pagină Filă nouă"
+msgstr "Personalizează pagina pentru filă nouă"
 
 #: newtab.customize.suggested
 msgid "Show suggested and your top sites"

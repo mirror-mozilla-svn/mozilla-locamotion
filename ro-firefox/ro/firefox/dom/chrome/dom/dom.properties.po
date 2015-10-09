@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/dom/chrome/dom/dom.properties.po\n"
-"X-Pootle-Revision: 378951\n"
+"X-Pootle-Revision: 601960\n"
 
 #: KillScriptTitle
 msgid "Warning: Unresponsive script"
@@ -82,8 +82,8 @@ msgid ""
 "This page is asking you to confirm that you want to leave - data you have "
 "entered may not be saved."
 msgstr ""
-"Pagina vă cere să confirmați că doriți să o părăsiți - datele introduse ar "
-"putea fi pierdute."
+"Această pagină vă cere să confirmați că doriți să o părăsiți - datele pe "
+"care le-ați introdus ar putea să nu fie salvate."
 
 #: OnBeforeUnloadStayButton
 msgid "Stay on Page"
@@ -91,7 +91,7 @@ msgstr "Rămâi pe pagină"
 
 #: OnBeforeUnloadLeaveButton
 msgid "Leave Page"
-msgstr "Părăsire pagină"
+msgstr "Părăsește pagina"
 
 #: UnexpectedCanvasVariantStyle
 msgid ""

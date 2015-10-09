@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/sync.dtd.po\n"
-"X-Pootle-Revision: 393344\n"
+"X-Pootle-Revision: 601915\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -174,7 +174,7 @@ msgstr "Nu sunteți autentificat."
 
 #: signIn.label
 msgid "Sign in"
-msgstr "Autentificare"
+msgstr "Autentifică-te"
 
 #: profilePicture.tooltip
 msgid "Change profile picture"
@@ -207,12 +207,12 @@ msgstr ""
 #: welcome.signIn.label
 msgctxt "welcome.signIn.label"
 msgid "Sign In"
-msgstr "Autentificare"
+msgstr "Autentifică-te"
 
 #: welcome.createAccount.label
 msgctxt "welcome.createAccount.label"
 msgid "Create Account"
-msgstr "Creare cont"
+msgstr "Creează cont"
 
 #: welcome.useOldSync.label
 msgid "Using an older version of Sync?"
@@ -220,24 +220,24 @@ msgstr "Utilizați o versiune mai veche de Sincronizare?"
 
 #: signedOut.caption
 msgid "Take your Web with you"
-msgstr "Ia Webul cu tine"
+msgstr "Ia webul cu tine"
 
 #: signedOut.description
 msgid ""
 "Synchronize your bookmarks, history, tabs, passwords, add-ons, and "
 "preferences across all your devices."
 msgstr ""
-"Sincronizați semnele de carte, istoricul, file, parole, suplimente și "
-"preferințe pe toate dispozitivele"
+"Sincronizează semnele de carte, istoricul, filele, parolele, suplimentele și "
+"preferințele pe toate dispozitivele."
 
 #: signedOut.accountBox.title
 msgid "Connect with a &syncBrand.fxAccount.label;"
-msgstr "Conectare cu &syncBrand.fxAccount.label;"
+msgstr "Conectează-te cu un &syncBrand.fxAccount.label;"
 
 #: signedOut.accountBox.create
 msgctxt "signedOut.accountBox.create"
 msgid "Create Account"
-msgstr "Creare cont"
+msgstr "Creează cont"
 
 #: signedOut.accountBox.signin
 msgctxt "signedOut.accountBox.signin"
@@ -246,7 +246,7 @@ msgstr "Autentificare"
 
 #: signedIn.engines.label
 msgid "Sync across all devices"
-msgstr "Sincronizare pe toate dispozitivele"
+msgstr "Sincronizează pe toate dispozitivele"
 
 #: mobilePromo.start
 msgid "Download Firefox for "

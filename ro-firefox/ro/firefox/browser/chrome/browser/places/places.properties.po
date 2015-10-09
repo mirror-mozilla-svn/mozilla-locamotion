@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/places/places.properties."
 "po\n"
-"X-Pootle-Revision: 230649\n"
+"X-Pootle-Revision: 601893\n"
 
 #: load-js-data-url-error
 msgid ""
@@ -100,7 +100,7 @@ msgstr "Sortează după &locație"
 #: view.sortBy.1.date.label
 #: view.sortBy.1.date.accesskey
 msgid "Sort by Most Recent &Visit"
-msgstr "Sortare după cele mai recente &vizite"
+msgstr "Sortează după cele mai recente &vizite"
 
 #: view.sortBy.1.visitCount.label
 #: view.sortBy.1.visitCount.accesskey
@@ -137,7 +137,7 @@ msgstr "Caută în istoric"
 
 #: searchDownloads
 msgid "Search Downloads"
-msgstr "Căutare descărcări"
+msgstr "Caută descărcări"
 
 #: tabs.openWarningTitle
 msgid "Confirm open"

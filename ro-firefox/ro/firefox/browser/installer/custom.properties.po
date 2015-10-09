@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/installer/custom.properties.po\n"
-"X-Pootle-Revision: 391416\n"
+"X-Pootle-Revision: 601947\n"
 
 #. # LOCALIZATION NOTE:
 #. # This file must be saved as UTF8
@@ -79,7 +79,7 @@ msgstr ""
 
 #: MAINTENANCE_SERVICE_CHECKBOX_DESC
 msgid "Install &Maintenance Service"
-msgstr "&Instalează serviciul de mentenanță"
+msgstr "Instalează serviciul de &mentenanță"
 
 #: SUMMARY_PAGE_TITLE
 msgid "Summary"
@@ -271,7 +271,7 @@ msgstr "Puțină curățenie…"
 #: OPTIONS_SUMMARY
 msgid "Choose the type of setup you prefer, then click Next."
 msgstr ""
-"Alegeți tipul de instalare pe care îl preferați dați clic pe „Înainte >”."
+"Alegeți tipul de instalare pe care îl preferați, apoi clic pe „Înainte >”."
 
 #. # One line
 #: OPTION_STANDARD_DESC
@@ -288,7 +288,7 @@ msgid ""
 "You may choose individual options to be installed. Recommended for "
 "experienced users."
 msgstr ""
-"Puteți alege opțiunile individuale care vor fi instalate. Recomandat pentru "
+"Puteți alege opțiunile individuale care să fie instalate. Recomandat pentru "
 "utilizatorii experimentați."
 
 #: OPTION_CUSTOM_RADIO

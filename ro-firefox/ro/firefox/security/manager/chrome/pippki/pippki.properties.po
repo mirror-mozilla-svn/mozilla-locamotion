@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/security/manager/chrome/pippki/pippki.properties."
 "po\n"
-"X-Pootle-Revision: 381451\n"
+"X-Pootle-Revision: 601989\n"
 
 #: CertPassPrompt
 msgid ""
@@ -204,7 +204,7 @@ msgstr "Conexiune necriptată"
 #: pageInfo_Privacy_None1
 msgid ""
 "The website %S does not support encryption for the page you are viewing."
-msgstr "Site-ul web %S nu suportă criptare pentru pagina pe care o vedeți."
+msgstr "Site-ul web %S nu suportă criptare pentru pagina pe care o vezi."
 
 #: pageInfo_Privacy_None2
 msgid ""
@@ -235,7 +235,7 @@ msgid ""
 "The page you are viewing was encrypted before being transmitted over the "
 "Internet."
 msgstr ""
-"Pagina pe care o vedeți a fost criptată înainte de a fi transmisă prin "
+"Pagina pe care o vezi a fost criptată înainte de a fi transmisă prin "
 "internet."
 
 #: pageInfo_Privacy_Encrypted2
@@ -244,10 +244,9 @@ msgid ""
 "traveling between computers. It is therefore unlikely that anyone read this "
 "page as it traveled across the network."
 msgstr ""
-"Criptarea face foarte dificilă interceptarea de către persoane neautorizate "
-"a informațiilor transmise între calculatoare. Este deci foarte puțin "
-"probabil ca altcineva să citească această pagină așa cum a fost transmisă "
-"prin rețea."
+"Criptarea face dificilă interceptarea de către persoane neautorizate a "
+"informațiilor transmise între calculatoare. Prin urmare, este puțin probabil "
+"ca altcineva să citească această pagină așa cum a fost transmisă prin rețea."
 
 #: pageInfo_MixedContent
 msgid "Connection Partially Encrypted"
@@ -266,8 +265,8 @@ msgid ""
 "Your connection to this website uses weak encryption and is not private. "
 "Other people can view your information or modify the website's behavior."
 msgstr ""
-"Conexiunea la acest site web folosește criptare slabă și nu este sigură. "
-"Alte persoane vă pot vedea informațiile și pot modifica comportamentul site-"
+"Conexiunea ta la acest site web folosește criptare slabă și nu este sigură. "
+"Alte persoane îți pot vedea informațiile și pot modifica comportamentul site-"
 "ului web."
 
 #. #Cert Viewer
@@ -277,12 +276,12 @@ msgstr "Vizualizator de certificate:"
 
 #: notPresent
 msgid "<Not Part Of Certificate>"
-msgstr "<nu este parte a certificatului>"
+msgstr "<Nu este parte a certificatului>"
 
 #. #Token Manager
 #: password_not_set
 msgid "(not set)"
-msgstr "(nu e setată)"
+msgstr "(nesetată)"
 
 #: failed_pw_change
 msgid "Unable to change Master Password."
@@ -326,7 +325,7 @@ msgstr "Login eșuat"
 
 #: loadPK11TokenDialog
 msgid "Choose a PKCS#11 device to load"
-msgstr "Alegeți un dispozitiv PKCS#11 de încărcat"
+msgstr "Alegeți un dispozitiv PKCS#11 pentru încărcare"
 
 #: devinfo_modname
 msgid "Module"
@@ -554,7 +553,7 @@ msgstr ""
 
 #: addExceptionCheckingShort
 msgid "Checking Information"
-msgstr "Se verifică informația"
+msgstr "Se verifică informațiile"
 
 #: addExceptionCheckingLong2
 msgid "Attempting to identify this site…"

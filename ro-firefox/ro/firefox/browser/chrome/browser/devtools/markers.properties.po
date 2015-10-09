@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/markers.properties.po\n"
-"X-Pootle-Revision: 230603\n"
+"X-Pootle-Revision: 499969\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Performance Tools
 #. # which is available from the Web Developer sub-menu -> 'Performance'.
@@ -241,7 +241,7 @@ msgstr "memorie epuizată"
 
 #: marker.gcreason.label.TOO_MUCH_MALLOC
 msgid "Too Many Bytes Allocated"
-msgstr "Prea mulți bytes alocați"
+msgstr "Prea mulți byți alocați"
 
 #: marker.gcreason.label.ALLOC_TRIGGER
 msgid "Too Many Allocations"
@@ -377,7 +377,7 @@ msgid ""
 "JavaScript returned to the event loop and there were enough bytes allocated "
 "since the last GC that a new GC cycle was triggered."
 msgstr ""
-"JavaScript a revenit în bucla evenimentelor și erau prea mulți bytes alocați "
+"JavaScript a revenit în bucla evenimentelor și erau prea mulți byți alocați "
 "de la ultima colectare GC încât a fost declanșat un nou ciclu GC."
 
 #: marker.gcreason.description.DESTROY_RUNTIME
@@ -410,8 +410,7 @@ msgstr ""
 
 #: marker.gcreason.description.TOO_MUCH_MALLOC
 msgid "JavaScript allocated too many bytes, and forced a garbage collection."
-msgstr ""
-"JavaScript a alocat prea mulți bytes și a forțat o colectare de memorie."
+msgstr "JavaScript a alocat prea mulți byți și a forțat o colectare de memorie."
 
 #: marker.gcreason.description.ALLOC_TRIGGER
 msgid "JavaScript allocated too many times, and forced a garbage collection."

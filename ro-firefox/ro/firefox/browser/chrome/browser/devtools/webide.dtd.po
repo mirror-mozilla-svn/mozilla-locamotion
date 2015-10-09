@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/webide.dtd.po\n"
-"X-Pootle-Revision: 230630\n"
+"X-Pootle-Revision: 601874\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -40,7 +40,7 @@ msgstr "N"
 
 #: projectMenu_importPackagedApp_label
 msgid "Open Packaged App…"
-msgstr "Open Packaged App…"
+msgstr "Deschide aplicație împachetată…"
 
 #: projectMenu_importPackagedApp_accesskey
 msgctxt "projectMenu_importPackagedApp_accesskey"
@@ -94,7 +94,7 @@ msgstr "D"
 #: projectMenu_remove_label
 msgctxt "projectMenu_remove_label"
 msgid "Remove Project"
-msgstr "Elimină proiect"
+msgstr "Elimină proiectul"
 
 #: projectMenu_remove_accesskey
 msgctxt "projectMenu_remove_accesskey"
@@ -194,7 +194,7 @@ msgstr "D"
 #: runtimeMenu_showSettings_label
 msgctxt "runtimeMenu_showSettings_label"
 msgid "Device Settings"
-msgstr "Setări dispozitiv"
+msgstr "Setări pentru dispozitiv"
 
 #: runtimeMenu_showSettings_accesskey
 msgid "s"
@@ -327,7 +327,7 @@ msgstr "Altceva"
 
 #: runtimePanel_installsimulator
 msgid "Install Simulator"
-msgstr "Instalare simulator"
+msgstr "Instalează simulatorul"
 
 #: runtimePanel_noadbhelper
 msgid "Install ADB Helper"
@@ -378,7 +378,7 @@ msgstr "Aplicație nouă"
 
 #: newAppHeader
 msgid "Select template"
-msgstr "Selectați șablon"
+msgstr "Selectează șablonul"
 
 #: newAppLoadingTemplate
 msgid "Loading templates…"
@@ -590,7 +590,7 @@ msgstr "Adăugați preferință nouă"
 #: devicesetting_title
 msgctxt "devicesetting_title"
 msgid "Device Settings"
-msgstr "Setări dispozitiv"
+msgstr "Setări pentru dispozitiv"
 
 #: devicesetting_search
 msgid "Search settings"

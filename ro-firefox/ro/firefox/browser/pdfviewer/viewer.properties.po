@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 13:03+0000\n"
+"POT-Creation-Date: 2015-10-09 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/pdfviewer/viewer.properties.po\n"
-"X-Pootle-Revision: 230710\n"
+"X-Pootle-Revision: 502642\n"
 
 #. # Main toolbar buttons (tooltips and alt text for images)
 #: previous.title
@@ -227,13 +227,13 @@ msgstr "Dimensiune fișier:"
 #. # will be replaced by the PDF file size in kilobytes, respectively in bytes.
 #: document_properties_kb
 msgid "{{size_kb}} KB ({{size_b}} bytes)"
-msgstr "{{size_kb}} KB ({{size_b}} biți)"
+msgstr "{{size_kb}} KB ({{size_b}} byți)"
 
 #. # LOCALIZATION NOTE (document_properties_mb): "{{size_mb}}" and "{{size_b}}"
 #. # will be replaced by the PDF file size in megabytes, respectively in bytes.
 #: document_properties_mb
 msgid "{{size_mb}} MB ({{size_b}} bytes)"
-msgstr "{{size_mb}} MB ({{size_b}} biți)"
+msgstr "{{size_mb}} MB ({{size_b}} byți)"
 
 #: document_properties_title
 msgid "Title:"
@@ -373,7 +373,7 @@ msgstr "Evidențiază aparițiile"
 
 #: find_match_case_label
 msgid "Match case"
-msgstr "Potrivire litere"
+msgstr "Potrivește literele mari și mici"
 
 #: find_reached_top
 msgid "Reached top of document, continued from bottom"
