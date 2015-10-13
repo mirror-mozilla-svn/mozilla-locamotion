@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/imapMsgs.properties.po\n"
-"X-Pootle-Revision: 554272\n"
+"X-Pootle-Revision: 631097\n"
 
 #. #
 #. # The following are used by the imap code to display progress/status/error messages
@@ -60,7 +60,7 @@ msgstr "Se caută dosare…"
 #. # of the folder being subscribed to.
 #: imapStatusSubscribeToMailbox
 msgid "Subscribing to folder %S…"
-msgstr "Abonare la dosarul %S…"
+msgstr "Abondare la dosarul %S…"
 
 #. # Status - unsubscribing from mailbox
 #. # LOCALIZATION NOTE (imapStatusUnsubscribeMailbox): The "%S" below should not be translated.

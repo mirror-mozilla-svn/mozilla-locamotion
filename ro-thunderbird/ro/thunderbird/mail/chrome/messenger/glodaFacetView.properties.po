@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/glodaFacetView.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 634889\n"
 
 #. # LOCALIZATION NOTE (glodaFacetView.tab.query.label): The title to display for
 #. #  tabs that are based on a gloda (global database) query or collection rather
@@ -37,7 +37,7 @@ msgstr "Căutare"
 #. #  across messages.  The value is displayed following the label.
 #: glodaFacetView.constraints.query.fulltext.label
 msgid "Searching for #1"
-msgstr "Căutare după #1"
+msgstr "Se caută #1"
 
 #: glodaFacetView.constraints.query.fulltext.andJoinWord
 msgid "and"
@@ -52,7 +52,7 @@ msgstr "sau"
 #. #  search.  Additional labels are appended describing each constraint.
 #: glodaFacetView.constraints.query.initial
 msgid "Searching for messages"
-msgstr "Căutare după mesaje"
+msgstr "Se caută mesaje"
 
 #. # LOCALIZATION NOTE(glodaFacetView.constraints.query.involves.label):
 #. #  The label to display to describe when our base query was on messages

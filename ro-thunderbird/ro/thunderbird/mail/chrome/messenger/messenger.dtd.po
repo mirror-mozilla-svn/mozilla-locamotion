@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messenger.dtd.po\n"
-"X-Pootle-Revision: 500276\n"
+"X-Pootle-Revision: 631204\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -949,7 +949,7 @@ msgstr "L"
 #: forwardAsMenu.label
 #: forwardAsMenu.accesskey
 msgid "For&ward As"
-msgstr "Înaintează &ca"
+msgstr "Redirecționează &ca"
 
 #: forwardAsInline.label
 #: forwardAsInline.accesskey
@@ -1376,7 +1376,7 @@ msgstr "Răspunde listei"
 #: forwardButton.label
 msgctxt "forwardButton.label"
 msgid "Forward"
-msgstr "Înaintează"
+msgstr "Redirecționează"
 
 #: fileButton.label
 msgid "File"
@@ -1536,7 +1536,7 @@ msgstr "Răspunde listei de discuții"
 
 #: forwardButton.tooltip
 msgid "Forward selected message"
-msgstr "Înaintează mesajul selectat"
+msgstr "Redirecționează mesajul selectat"
 
 #: forwardAsInline.tooltip
 msgid "Forward selected message as inline text"
@@ -1701,7 +1701,7 @@ msgstr "Etichetă &nouă…"
 #: manageTags.label
 #: manageTags.accesskey
 msgid "&Manage Tags…"
-msgstr "&Gestionează etichetele…"
+msgstr "Gestionează etichete…"
 
 #. Folder Pane
 #: folderNameColumn.label

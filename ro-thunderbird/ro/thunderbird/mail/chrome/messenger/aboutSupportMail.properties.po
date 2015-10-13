@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/aboutSupportMail.properties.po\n"
-"X-Pootle-Revision: 153798\n"
+"X-Pootle-Revision: 627013\n"
 
 #. # LOCALIZATION NOTE (warningLabel): Label for warning text that shows up when private data is included
 #: warningLabel
@@ -27,7 +27,7 @@ msgid ""
 "published without permission."
 msgstr ""
 "Acest mesaj conține informații posibil confidențiale, care nu ar trebui "
-"înaintate către alții sau publicate fără permisiune."
+"redirecționate către alții sau publicate fără permisiune."
 
 #. # LOCALIZATION NOTE (fsType.local): Indicator that the displayed directory is on a local drive
 #: fsType.local
