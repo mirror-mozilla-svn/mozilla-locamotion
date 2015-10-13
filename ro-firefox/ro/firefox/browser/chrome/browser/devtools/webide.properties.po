@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/webide.properties."
 "po\n"
-"X-Pootle-Revision: 601875\n"
+"X-Pootle-Revision: 634790\n"
 
 #: title_noApp
 msgid "Firefox WebIDE"
@@ -59,7 +59,7 @@ msgstr "Selectează director"
 
 #: importHostedApp_title
 msgid "Open Hosted App"
-msgstr "Open Hosted App"
+msgstr "Deschide aplicație găzduită"
 
 #: importHostedApp_header
 msgid "Enter Manifest URL"
@@ -164,7 +164,7 @@ msgstr "instalează"
 
 #: addons_uninstall_button
 msgid "uninstall"
-msgstr "dezinstalare"
+msgstr "dezinstalează"
 
 #: addons_adb_label
 msgid "ADB Helper Add-on"
@@ -176,7 +176,7 @@ msgstr "Tools Adapters Add-on"
 
 #: addons_adb_warning
 msgid "USB devices won't be detected without this add-on"
-msgstr "USB devices won't be detected without this add-on"
+msgstr "Dispozitivele USB nu vor fi detectate fără acest supliment"
 
 #: addons_status_unknown
 msgid "?"
@@ -200,7 +200,7 @@ msgstr "se descarcă"
 
 #: addons_status_installing
 msgid "installing"
-msgstr "instalare"
+msgstr "se instalează"
 
 #: runtimedetails_checkno
 msgid "no"

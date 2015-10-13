@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/responsiveUI.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 631069\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Responsive Mode
 #. # which is available from the Web Developer sub-menu -> 'Responsive Mode'.
@@ -73,7 +73,7 @@ msgstr "%S (%S)"
 #. # the user to specify a name for a new custom preset.
 #: responsiveUI.customNamePromptTitle
 msgid "Responsive Design View"
-msgstr "Vizualizare design receptiv"
+msgstr "Vezi designul receptiv"
 
 #. # LOCALIZATION NOTE (responsiveUI.close): tooltip text of the close button.
 #: responsiveUI.close

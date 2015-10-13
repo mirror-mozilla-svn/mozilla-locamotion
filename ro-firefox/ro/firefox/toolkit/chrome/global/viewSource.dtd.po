@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/viewSource.dtd.po\n"
-"X-Pootle-Revision: 67041\n"
+"X-Pootle-Revision: 631153\n"
 
 #: mainWindow.preface
 msgid "Source of: "
@@ -40,7 +40,7 @@ msgstr "Aran&jare în pagină…"
 #: printPreviewCmd.label
 #: printPreviewCmd.accesskey
 msgid "Print Pre&view"
-msgstr "Pre&vizualizare tipărire"
+msgstr "Pre&vizualizare pentru tipărire"
 
 #: printCmd.label
 #: printCmd.accesskey
@@ -132,7 +132,7 @@ msgstr "&Evidențiere sintaxă"
 #: menu_textSize.label
 #: menu_textSize.accesskey
 msgid "Text Si&ze"
-msgstr "&Mărime text"
+msgstr "Mărimea textului"
 
 #: menu_textEnlarge.label
 #: menu_textEnlarge.accesskey

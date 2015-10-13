@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/sourceeditor.properties.po\n"
-"X-Pootle-Revision: 100023\n"
+"X-Pootle-Revision: 634877\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Source Editor component.
 #. # This component is used whenever source code is displayed for the purpose of
@@ -36,7 +36,7 @@ msgstr "Găsește…"
 #. # access this feature by pressing Ctrl-F on Windows/Linux or Cmd-F on Mac.
 #: findCmd.promptMessage
 msgid "Search for:"
-msgstr "Caută după:"
+msgstr "Caută:"
 
 #. # LOCALIZATION NOTE  (gotoLineCmd.promptTitle): This is the dialog title used
 #. # when the user wants to jump to a specific line number in the code. You can

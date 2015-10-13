@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/places/places.dtd.po\n"
-"X-Pootle-Revision: 601892\n"
+"X-Pootle-Revision: 631300\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -39,7 +39,7 @@ msgstr "&Organizare"
 
 #: organize.tooltip
 msgid "Organize your bookmarks"
-msgstr "Organizează semnele dumneavoastră de carte"
+msgstr "Organizează semnele de carte"
 
 #: file.close.label
 #: file.close.accesskey
@@ -57,7 +57,7 @@ msgstr "&Vizualizări"
 
 #: views.tooltip
 msgid "Change your view"
-msgstr "Schimbați perspectiva"
+msgstr "Schimbă vizualizarea"
 
 #: view.columns.label
 #: view.columns.accesskey
@@ -242,11 +242,11 @@ msgstr "f"
 #: maintenance.label
 #: maintenance.accesskey
 msgid "&Import and Backup"
-msgstr "&Import și export"
+msgstr "&Importare și copie de siguranță"
 
 #: maintenance.tooltip
 msgid "Import and backup your bookmarks"
-msgstr "Importați și asigurați-vă semnele de carte"
+msgstr "Importă și fă copie de siguranță semnelor de carte"
 
 #: backButton.tooltip
 msgid "Go back"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 09:27+0000\n"
+"POT-Creation-Date: 2015-10-13 18:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/dateFormat.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 631314\n"
 
 #: month.1.Mmm
 msgid "Jan"
-msgstr "Ian"
+msgstr "ian"
 
 #: month.2.Mmm
 msgid "Feb"
@@ -33,15 +33,15 @@ msgstr "apr"
 #: month.5.Mmm
 msgctxt "month.5.Mmm"
 msgid "May"
-msgstr "Mai"
+msgstr "mai"
 
 #: month.6.Mmm
 msgid "Jun"
-msgstr "Iun"
+msgstr "iun"
 
 #: month.7.Mmm
 msgid "Jul"
-msgstr "Iul"
+msgstr "iul"
 
 #: month.8.Mmm
 msgid "Aug"
@@ -57,7 +57,7 @@ msgstr "oct"
 
 #: month.11.Mmm
 msgid "Nov"
-msgstr "Noi"
+msgstr "noi"
 
 #: month.12.Mmm
 msgid "Dec"
@@ -94,7 +94,7 @@ msgstr "Iulie"
 
 #: month.8.name
 msgid "August"
-msgstr "august"
+msgstr "August"
 
 #: month.9.name
 msgid "September"
