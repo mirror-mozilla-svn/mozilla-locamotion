@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-13 18:03+0000\n"
+"POT-Creation-Date: 2015-10-17 10:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/browser.dtd.po\n"
-"X-Pootle-Revision: 634874\n"
+"X-Pootle-Revision: 653169\n"
 
 #. This will be appended to the window's title
 #. inside the private browsing mode
@@ -1396,7 +1396,7 @@ msgstr "&Redare"
 #: mediaPause.label
 #: mediaPause.accesskey
 msgid "&Pause"
-msgstr "&Pauză"
+msgstr "Pune pe &pauză"
 
 #. LOCALIZATION NOTE: The access keys for "Mute" and
 #. "Unmute" are the same because the two context-menu
