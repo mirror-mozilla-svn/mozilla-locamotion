@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-17 10:00+0000\n"
+"POT-Creation-Date: 2015-10-25 11:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutSupport.properties.po\n"
-"X-Pootle-Revision: 153367\n"
+"X-Pootle-Revision: 677876\n"
 
 #. # LOCALIZATION NOTE (downloadsTitleFiles): Semi-colon list of plural forms.
 #. # See: http://developer.mozilla.org/en/docs/Localization_and_Plurals
@@ -75,7 +75,7 @@ msgstr "Suportă decodare hardware H264"
 #. # raw data is successfully copied to the clipboard via button press.
 #: rawDataCopied
 msgid "Raw data copied to clipboard"
-msgstr "Date raw copiate în memoria temporară"
+msgstr "Date brute copiate în clipboard"
 
 #. # LOCALIZATION NOTE (textCopied) Text displayed in a mobile "Toast" to user when the
 #. # text is successfully copied to the clipboard via button press.

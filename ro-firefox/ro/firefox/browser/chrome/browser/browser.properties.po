@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-17 10:00+0000\n"
+"POT-Creation-Date: 2015-10-25 11:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/browser.properties.po\n"
-"X-Pootle-Revision: 631092\n"
+"X-Pootle-Revision: 770133\n"
 
 #: nv_timeout
 msgid "Timed Out"
@@ -1703,8 +1703,8 @@ msgid ""
 "Some audio or video on this site uses DRM software, which may limit what %S "
 "can let you do with it."
 msgstr ""
-"Unele clipuri audio sau video de pe acest site utilizează programe DRM, care "
-"pot limita ceea ce %S te poate lăsa să faci cu acestea."
+"Unele elemente audio sau video de pe acest site folosesc programe DRM, care "
+"pot limita ceea ce %S îți poate permite să faci cu acestea."
 
 #: emeNotifications.drmContentPlaying.button.label
 #: emeNotifications.drmContentPlaying.button.accesskey
@@ -1715,8 +1715,8 @@ msgstr "&Configurare…"
 #: emeNotifications.drmContentDisabled.message
 msgid "You must enable DRM to play some audio or video on this page. %S"
 msgstr ""
-"Trebuie să activați DRM pentru a viziona sau asculta anumite clipuri audio "
-"sau video de pe aceasta pagină. %S"
+"Trebuie să activați DRM pentru a reda unele elemente audio sau video pe "
+"această pagină. %S"
 
 #: emeNotifications.drmContentDisabled.button.label
 #: emeNotifications.drmContentDisabled.button.accesskey
