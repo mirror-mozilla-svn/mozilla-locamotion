@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-17 10:01+0000\n"
+"POT-Creation-Date: 2015-10-25 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 480103\n"
+"X-Pootle-Revision: 783509\n"
 
 #: settings
 msgid "Settings"
@@ -63,6 +63,12 @@ msgstr "Resetează"
 #: factory-reset
 msgid "Factory Reset"
 msgstr "Resetare din fabrică"
+
+#: delete
+#, fuzzy
+msgctxt "delete"
+msgid "Delete"
+msgstr "Șterge"
 
 #: cancel
 msgid "Cancel"
@@ -1991,10 +1997,14 @@ msgid "Audible touch tones"
 msgstr "Tonuri audio la atingere"
 
 #: touch-tone-short
+#, fuzzy
+msgctxt "touch-tone-short"
 msgid "Short"
 msgstr "Scurte"
 
 #: touch-tone-long
+#, fuzzy
+msgctxt "touch-tone-long"
 msgid "Long"
 msgstr "Lungi"
 
@@ -2361,19 +2371,19 @@ msgctxt "home-screens.ariaLabel"
 msgid "Home Screens"
 msgstr "Ecrane principale"
 
-#: vertical-homescreen-layout
+#: homescreen-layout
 msgid "Layout"
 msgstr "Aspect"
 
-#: vertical-homescreen-icon-layout
+#: homescreen-icon-layout
 msgid "Icon Layout"
 msgstr "Aspect pentru iconițe"
 
-#: vertical-homescreen-three-columns
+#: homescreen-three-columns
 msgid "Three Columns"
 msgstr "Trei coloane"
 
-#: vertical-homescreen-four-columns
+#: homescreen-four-columns
 msgid "Four Columns"
 msgstr "Patru coloane"
 
@@ -2721,7 +2731,12 @@ msgstr ""
 msgid "Collections"
 msgstr ""
 
+#: fxsync-collections-bookmarks
+msgid "Bookmarks"
+msgstr ""
+
 #: fxsync-collections-history
+msgctxt "fxsync-collections-history"
 msgid "History"
 msgstr ""
 
@@ -2740,6 +2755,28 @@ msgstr ""
 
 #: fxsync-privacy
 msgid "Privacy Notice"
+msgstr ""
+
+#: fxsync-error-invalid-account
+msgid "This account is inactive"
+msgstr ""
+
+#: fxsync-error-invalid-account-explanation
+msgid ""
+"You need to activate Firefox Sync on Desktop or Android first and then try "
+"again"
+msgstr ""
+
+#: fxsync-error-offline
+msgid "No network connection"
+msgstr ""
+
+#: fxsync-error-offline-explanation
+msgid "You need to be online to use Firefox Sync"
+msgstr ""
+
+#: fxsync-error-unknown
+msgid "Unknown error"
 msgstr ""
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
@@ -3320,49 +3357,73 @@ msgstr "Confidențialitate navigare"
 msgid "{{browsingPrivacy}}"
 msgstr "{{browsingPrivacy}}"
 
-#: confirm-clear-title
-msgctxt "confirm-clear-title"
-msgid "Confirmation"
-msgstr "Confirmare"
-
-#: clear-browsing-history
-msgid "Clear browsing history"
-msgstr "Curăță istoricul de navigare"
-
-#: confirm-clear-browsing-history
-msgid "Clear browsing history?"
-msgstr "Cureți istoricul de navigare?"
-
-#: clear-cookies-and-stored-data
-msgid "Clear cookies and stored data"
-msgstr "Curăță cookie-urile și datele stocate"
-
-#: confirm-clear-cookies-and-stored-data
-msgid "Clear cookies and other data stored by sites on this device?"
+#: confirm-clear-history-title
+msgid "Clear history"
 msgstr ""
-"Cureți cookie-urile și alte date stocate de site-uri pe acest dispozitiv?"
+
+#: confirm-clear-history-desc
+msgid ""
+"Are you sure you want to clear your history? When using your Firefox "
+"Account, synced history will also be cleared."
+msgstr ""
+
+#: confirm-clear-cookies-cache-title
+msgid "Delete cookies & cache"
+msgstr ""
+
+#: confirm-clear-cookies-cache-desc
+msgid "Are you sure you want to delete your cookies and cache?"
+msgstr ""
 
 #: clear
 msgid "Clear"
 msgstr "Curăță"
 
-#: privateBrowsingDefault
-msgid "Browse privately by default"
+#: privateBrowsing
+msgid "Private Browsing"
 msgstr ""
 
-#: privateBrowsingDefaultDetails
-msgid "Open new browser windows as private windows"
+#: privateBrowsingDetails
+msgid "Open all external links in new private windows."
 msgstr ""
 
-#. # Security :: Privacy Panel
-#: privacy-controls
-msgctxt "privacy-controls"
-msgid "Privacy Controls"
-msgstr "Opțiuni de intimitate"
+#: trackingProtection
+msgid "Tracking Protection"
+msgstr ""
 
-#: no-privacy-controls
-msgid "No privacy controls app found"
-msgstr "Nicio aplicație găsită pentru opțiuni de intimitate"
+#: trackingProtectionDetails
+msgid ""
+"Protect your browsing activity against potential trackers in all new windows."
+msgstr ""
+
+#: browser-privacy-history-header
+msgctxt "browser-privacy-history-header"
+msgid "History"
+msgstr ""
+
+#: browser-privacy-history-desc
+msgid ""
+"Clear your browsing history from this device. When using your Firefox "
+"Account, synced history will also be cleared."
+msgstr ""
+
+#: browser-privacy-history-button
+msgid "Clear History"
+msgstr ""
+
+#: browser-privacy-cookies-cache-header
+msgid "Cookies & Cache"
+msgstr ""
+
+#: browser-privacy-cookies-cache-desc
+msgid ""
+"Delete stored data (such as cookies) from this device. Login information and "
+"preferences will no longer be remembered."
+msgstr ""
+
+#: browser-privacy-cookies-cache-button
+msgid "Delete Cookies & Cache"
+msgstr ""
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Storage
@@ -4204,10 +4265,6 @@ msgctxt "hud-other"
 msgid "Other"
 msgstr "Other"
 
-#: hud-telemetry
-msgid "Telemetry"
-msgstr "Telemetrie"
-
 #: software
 msgid "Software"
 msgstr "Software"
@@ -4420,6 +4477,10 @@ msgstr "Activează fixarea webului"
 
 #: view-source
 msgid "Enable View Source Gesture"
+msgstr ""
+
+#: homescreen-paging
+msgid "Enable Home Screen Paging"
 msgstr ""
 
 #: window-management
@@ -4735,6 +4796,35 @@ msgstr "Nuanțe de gri"
 msgid "Contrast"
 msgstr "Contrast"
 
+#. # Device :: Accessibility :: Input
+#: accessibility-input
+msgid "Input"
+msgstr ""
+
+#: accessibility-input-desc
+msgid "Touch and gesture adjustments"
+msgstr ""
+
+#: tap-hold-delay
+msgid "Tap & Hold Delay"
+msgstr ""
+
+#: short-hold-delay
+#, fuzzy
+msgctxt "short-hold-delay"
+msgid "Short"
+msgstr "Scurte"
+
+#: medium-hold-delay
+msgid "Medium"
+msgstr ""
+
+#: long-hold-delay
+#, fuzzy
+msgctxt "long-hold-delay"
+msgid "Long"
+msgstr "Lungi"
+
 #. # Device :: Improve Browser OS
 #: improveBrowserOS
 msgctxt "improveBrowserOS"
@@ -4970,6 +5060,11 @@ msgid "Please contact your local provider for support."
 msgstr "Te rugăm să contactezi furnizorul local pentru asistență."
 
 #. # Device :: SIM toolkit
+#: simToolkit-header
+#, fuzzy
+msgid "SIM Toolkit"
+msgstr "Trusă de instrumente SIM"
+
 #: operatorServices
 msgid "Operator Services"
 msgstr "Servicii ale operatorului"
@@ -4980,16 +5075,13 @@ msgid "Help"
 msgstr "Ajutor"
 
 #: operatorServices-helpmenu
-msgid "Help menu"
+#, fuzzy
+msgid "Help Menu"
 msgstr "Meniu pentru ajutor"
 
 #: stkAppsNotAvailable
 msgid "SIM card applications not available."
 msgstr "Aplicațiile cartelei SIM nu sunt disponbile."
-
-#: simToolkit
-msgid "SIM toolkit"
-msgstr "Trusă de instrumente SIM"
 
 #. # Device :: SIM toolkit - NAI (Next Action Indicator)
 #: stkItemsNaiSetUpCall
@@ -5430,11 +5522,6 @@ msgctxt "doNotTrackSection.ariaLabel"
 msgid "Do Not Track"
 msgstr "Nu mă urmări"
 
-#: privacySection.ariaLabel
-msgctxt "privacySection.ariaLabel"
-msgid "Privacy Controls"
-msgstr "Opțiuni de intimitate"
-
 #: enableStorageSection.ariaLabel
 #, fuzzy
 msgctxt "enableStorageSection.ariaLabel"
@@ -5455,3 +5542,39 @@ msgstr "Stocare de aplicații"
 msgctxt "batterySection.ariaLabel"
 msgid "Battery"
 msgstr "Baterie"
+
+#: helpImprove
+msgid ""
+"Help us improve our products and services by automatically sending analytics "
+"data. Data rates and charges may apply."
+msgstr ""
+
+#: learn-more-privacy
+msgid "Read our <a>Privacy Notice</a>"
+msgstr ""
+
+#: basicMetricsRadio
+msgid "Basic"
+msgstr ""
+
+#: enhancedMetricsRadio
+msgid "Enhanced"
+msgstr ""
+
+#: noneMetricsRadio
+#, fuzzy
+msgctxt "noneMetricsRadio"
+msgid "None"
+msgstr "Nimic"
+
+#: basicMetricsExplain
+msgid "Send app usage and error reports."
+msgstr ""
+
+#: enhancedMetricsExplain
+msgid "Send Basic report plus diagnostic information."
+msgstr ""
+
+#: noneMetricsExplain
+msgid "Do not send any data."
+msgstr ""

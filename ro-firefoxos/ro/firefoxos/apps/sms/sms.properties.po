@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-17 10:01+0000\n"
+"POT-Creation-Date: 2015-10-25 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/sms/sms.properties.po\n"
-"X-Pootle-Revision: 480106\n"
+"X-Pootle-Revision: 783513\n"
 
 #. # Headers
 #: messages
@@ -410,6 +410,10 @@ msgstr "Via:"
 #: message-resend
 msgid "Resend"
 msgstr "Retrimite"
+
+#: message-lateness
+msgid "Lateness:"
+msgstr ""
 
 #. # Search functionality
 #: search
@@ -1129,6 +1133,57 @@ msgstr "Citit"
 #: message-delivery-status-error.ariaLabel
 msgid "Error"
 msgstr "Eroare"
+
+#. # Late arrival notices
+#: late-notice-label.ariaLabel
+msgid "Late arrival"
+msgstr ""
+
+#: late-arrival-notice-in-months
+msgid "{[ plural(lateness) ]}"
+msgstr ""
+
+#: late-arrival-notice-in-months[zero]
+msgctxt "late-arrival-notice-in-months[zero]"
+msgid "{{ lateness }}mth late"
+msgstr ""
+
+#: late-arrival-notice-in-months[one]
+msgctxt "late-arrival-notice-in-months[one]"
+msgid "{{ lateness }}mth late"
+msgstr ""
+
+#: late-arrival-notice-in-months[two]
+msgctxt "late-arrival-notice-in-months[two]"
+msgid "{{ lateness }}mths late"
+msgstr ""
+
+#: late-arrival-notice-in-months[few]
+msgctxt "late-arrival-notice-in-months[few]"
+msgid "{{ lateness }}mths late"
+msgstr ""
+
+#: late-arrival-notice-in-months[many]
+msgctxt "late-arrival-notice-in-months[many]"
+msgid "{{ lateness }}mths late"
+msgstr ""
+
+#: late-arrival-notice-in-months[other]
+msgctxt "late-arrival-notice-in-months[other]"
+msgid "{{ lateness }}mths late"
+msgstr ""
+
+#: late-arrival-notice-in-days
+msgid "{{ lateness }}d late"
+msgstr ""
+
+#: late-arrival-notice-in-hours
+msgid "{{ lateness }}h late"
+msgstr ""
+
+#: late-arrival-notice-in-minutes
+msgid "{{ lateness }}m late"
+msgstr ""
 
 #. # Modal dialog strings
 #: modal-dialog-ok-button

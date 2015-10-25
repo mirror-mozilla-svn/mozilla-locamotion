@@ -11,13 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
-"X-Pootle-Path: /ro/firefoxos/apps/emergency-call/manifest.properties.po\n"
-"X-Pootle-Revision: 783481\n"
+"X-Pootle-Path: /ro/firefoxos/apps/homescreen/manifest.properties.po\n"
+"X-Pootle-Revision: 783493\n"
 
 #: name
-msgid "EmergencyCall"
-msgstr "Apel de urgență"
+msgid "Default Home Screen"
+msgstr "Ecran principal implicit"
 
 #: description
-msgid "Web app template"
-msgstr "Șablon pentru aplicație web"
+#, fuzzy
+msgid "Gaia Home Screen."
+msgstr "Ecran principal Gaia"

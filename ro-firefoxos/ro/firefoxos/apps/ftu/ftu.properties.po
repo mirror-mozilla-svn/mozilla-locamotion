@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-17 10:01+0000\n"
+"POT-Creation-Date: 2015-10-25 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/ftu/ftu.properties.po\n"
-"X-Pootle-Revision: 480079\n"
+"X-Pootle-Revision: 783488\n"
 
 #: pincode2
 msgid "Enter PIN code"
@@ -633,6 +633,8 @@ msgid "Security"
 msgstr "Securitate"
 
 #: securityNone
+#, fuzzy
+msgctxt "securityNone"
 msgid "None"
 msgstr "Nimic"
 
@@ -919,12 +921,22 @@ msgstr ""
 "automat date statistice. Vezi  <a>politica de confidențialitate</a> pentru a "
 "afla cum prelucrăm datele de pe dispozitiv."
 
+#: helpImprove3
+msgid ""
+"Help us improve our products and services by automatically sending analytics "
+"data."
+msgstr ""
+
 #: learn-more-privacy2
 msgid ""
 "Learn how Mozilla handles your information in our <a>privacy policy</a>."
 msgstr ""
 "Află cum gestionează Mozilla informațiile tale în <a>politica noastră de "
 "confidențialitate</a>."
+
+#: learn-more-privacy3
+msgid "Read our <a>Privacy Notice</a>"
+msgstr ""
 
 #: aboutBrowser
 msgid "About {{brandShortName}}"
@@ -990,6 +1002,32 @@ msgstr "EverythingMe"
 #: privacy-e-me.title
 msgid "{{privacy-e-me}}"
 msgstr "{{privacy-e-me}}"
+
+#: basicMetricsRadio
+msgid "Basic"
+msgstr ""
+
+#: enhancedMetricsRadio
+msgid "Enhanced"
+msgstr ""
+
+#: noneMetricsRadio
+#, fuzzy
+msgctxt "noneMetricsRadio"
+msgid "None"
+msgstr "Nimic"
+
+#: basicMetricsExplain
+msgid "Send app usage and error reports."
+msgstr ""
+
+#: enhancedMetricsExplain
+msgid "Send Basic report plus diagnostic information."
+msgstr ""
+
+#: noneMetricsExplain
+msgid "Do not send any data."
+msgstr ""
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Navigation bar
@@ -1063,6 +1101,41 @@ msgstr ""
 #: thatsIt2Tablet-2
 msgid "Let’s do it!"
 msgstr "Să o facem!"
+
+#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
+#. # Late Customization
+#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
+#: late-customization
+msgid "Free Apps"
+msgstr ""
+
+#: late-customization-downloading-message
+msgid ""
+"{{carrierName}} is offering free apps to help get you started. They will "
+"download <em>at no charge</em> while you finish setting up your phone."
+msgstr ""
+
+#: late-customization-download-later
+msgid ""
+"{{carrierName}} is offering free apps to help get you started. You can "
+"download them <em>at no charge</em>."
+msgstr ""
+
+#: late-customization-downloading-message-default
+msgid ""
+"Your carrier is offering free apps to help get you started. They will "
+"download <em>at no charge</em> while you finish setting up your phone."
+msgstr ""
+
+#: late-customization-download-later-default
+msgid ""
+"Your carrier is offering free apps to help get you started. You can download "
+"them <em>at no charge</em>."
+msgstr ""
+
+#: late-customization-download-later-marketplace
+msgid "Find these apps and many more when you visit Marketplace!"
+msgstr ""
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Tutorial

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-17 10:01+0000\n"
+"POT-Creation-Date: 2015-10-25 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/calendar/calendar.properties.po\n"
-"X-Pootle-Revision: 480049\n"
+"X-Pootle-Revision: 783457\n"
 
 #. # generic
 #: back
@@ -733,62 +733,9 @@ msgctxt "years-after[other]"
 msgid "{{value}} years after"
 msgstr "la {{value}} ani după"
 
-#. # Date formatting details (http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html)
-#: hour-format12
-msgctxt "hour-format12"
-msgid "%I %p"
-msgstr "%H"
-
-#: hour-format24
-msgctxt "hour-format24"
-msgid "%H"
-msgstr "%H"
-
-#: week-hour-format12
-msgctxt "week-hour-format12"
-msgid "%I %p"
-msgstr "%H"
-
-#: week-hour-format24
-msgctxt "week-hour-format24"
-msgid "%H"
-msgstr "%H"
-
 #: hour-allday
 msgid "All Day"
 msgstr "Toată ziua"
-
-#: week-day
-msgid "%a %e"
-msgstr "%a %e"
-
-#: current-time12
-msgid "%I:%M"
-msgstr "%H:%M"
-
-#: current-time24
-msgid "%H:%M"
-msgstr "%H:%M"
-
-#. # Default header used in month view / week view
-#: multi-month-view-header-format
-msgid "%b %Y"
-msgstr "%b %Y"
-
-#. # Header format used for in the day view.
-#: day-view-header-format
-msgid "%b %e, %A"
-msgstr "%A, %e %B"
-
-#. # Header used on month view before the event list (selected day date)
-#: months-day-view-header-format
-msgid "%A, %b %e"
-msgstr "%A, %e %b"
-
-#. # Date format in the event detail view.
-#: longDateFormat
-msgid "%A, %B %d, %Y"
-msgstr "%A, %d %B %Y"
 
 #. #errors
 #: error-start-date-after-end-date

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-17 10:01+0000\n"
+"POT-Creation-Date: 2015-10-25 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/costcontrol/costcontrol.properties.po\n"
-"X-Pootle-Revision: 480065\n"
+"X-Pootle-Revision: 783473\n"
 
 #. # Usage
 #. # Note: "Usage" is the application name
@@ -350,14 +350,6 @@ msgstr "Postplătită"
 #: phoneactivity
 msgid "Phone activity"
 msgstr "Activitate pe telefon"
-
-#: short-date-format
-msgid "%b, %d"
-msgstr "%b, %d"
-
-#: long-date-format
-msgid "%B %d, %Y"
-msgstr "%d %B %Y"
 
 #: sms-sent
 msgid "SMS sent"

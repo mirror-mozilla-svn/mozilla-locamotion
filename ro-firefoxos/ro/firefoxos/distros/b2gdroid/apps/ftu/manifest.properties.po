@@ -11,13 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
-"X-Pootle-Path: /ro/firefoxos/apps/emergency-call/manifest.properties.po\n"
-"X-Pootle-Revision: 783481\n"
+"X-Pootle-Path: /ro/firefoxos/distros/b2gdroid/apps/ftu/manifest.properties."
+"po\n"
+"X-Pootle-Revision: 783530\n"
 
 #: name
-msgid "EmergencyCall"
-msgstr "Apel de urgență"
+msgid "FTU"
+msgstr "FTU"
 
 #: description
-msgid "Web app template"
-msgstr "Șablon pentru aplicație web"
+msgid "First Time Experience"
+msgstr "Prima experiență"
