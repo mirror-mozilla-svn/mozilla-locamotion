@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-17 10:00+0000\n"
+"POT-Creation-Date: 2015-10-25 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/eudoraImportMsgs.properties.po\n"
-"X-Pootle-Revision: 153901\n"
+"X-Pootle-Revision: 746565\n"
 
 #. #
 #. # The following are used by the outlook express import code to display status/error 
@@ -80,7 +80,7 @@ msgstr "Setări pentru Eudora"
 #. # LOCALIZATION NOTE (2007): Do not translate "Eudora" below.
 #: 2007
 msgid "Eudora Nicknames"
-msgstr "Nickname-uri Eudora"
+msgstr "Pseudonime Eudora"
 
 #. # Description
 #. ## @name EUDORAIMPORT_ADDRESS_SUCCESS
