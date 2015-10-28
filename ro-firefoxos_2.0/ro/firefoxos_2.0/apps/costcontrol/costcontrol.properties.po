@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-25 11:46+0000\n"
+"POT-Creation-Date: 2015-10-28 11:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.0/apps/costcontrol/costcontrol.properties.po\n"
-"X-Pootle-Revision: 100134\n"
+"X-Pootle-Revision: 789505\n"
 
 #. # Usage
 #. # Note: "Usage" is the application name
@@ -89,7 +89,7 @@ msgstr "Mod avion"
 
 #: widget-airplane-mode-meta
 msgid "Please, turn off airplane mode to enable Usage."
-msgstr "Te rugăm să oprești modul avion pt. a activa Utilizare."
+msgstr "Te rugăm să oprești modul avion ca să activezi Utilizare."
 
 #: widget-no-sim2-heading
 msgid "No SIM inserted"
@@ -97,7 +97,7 @@ msgstr "Nicio cartelă SIM inserată"
 
 #: widget-no-sim2-meta
 msgid "Insert a SIM to enable Usage."
-msgstr "Inserează un SIM pt. a activa Utilizare."
+msgstr "Inserează un SIM ca să activezi Utilizare."
 
 #: widget-sim-locked-heading
 msgid "Locked SIM card"
@@ -105,7 +105,7 @@ msgstr "Cartelă SIM blocată"
 
 #: widget-sim-locked-meta
 msgid "Unlock your SIM to enable Usage."
-msgstr "Deblochează SIM pt. a activa Utilizare."
+msgstr "Deblochează SIM-ul ca să activezi Utilizare"
 
 #. # FTE Welcome
 #: fte
