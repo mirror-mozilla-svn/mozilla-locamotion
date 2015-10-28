@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-25 11:46+0000\n"
+"POT-Creation-Date: 2015-10-28 11:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefoxos_2.2/apps/communications/dialer/dialer.properties.po\n"
-"X-Pootle-Revision: 753934\n"
+"X-Pootle-Revision: 789121\n"
 
 #: addNewNumber
 msgid "Add new number"
@@ -43,7 +43,7 @@ msgstr "Bluetooth"
 
 #: callLog
 msgid "Call log"
-msgstr "Lista de apeluri"
+msgstr "Jurnal de apeluri"
 
 #: callLogEdit.title
 msgid "Edit call log"
