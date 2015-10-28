@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-25 11:46+0000\n"
+"POT-Creation-Date: 2015-10-28 11:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefoxos/apps/communications/contacts/contacts.properties.po\n"
-"X-Pootle-Revision: 783468\n"
+"X-Pootle-Revision: 789500\n"
 
 #: call
 msgctxt "call"
@@ -554,7 +554,7 @@ msgstr "Alte conturi"
 
 #: facebookSwitchMsg
 msgid "Sync friends"
-msgstr "Sincronizează amicii"
+msgstr "Sincronizează prietenii"
 
 #. # value selector
 #: select_mobile
@@ -767,7 +767,7 @@ msgstr "Pentru a exporta contacte inserează un card de memorie"
 
 #: ContactManagementTitle
 msgid "Contacts Management"
-msgstr "Gestionarea contactelor"
+msgstr "Gestionarea de contacte"
 
 #: DeleteTitle
 msgctxt "DeleteTitle"
