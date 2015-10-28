@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-25 11:45+0000\n"
+"POT-Creation-Date: 2015-10-28 11:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/webConsole.dtd."
 "po\n"
-"X-Pootle-Revision: 727953\n"
+"X-Pootle-Revision: 789317\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -138,7 +138,7 @@ msgstr "XHR"
 
 #: btnConsoleReflows
 msgid "Reflows"
-msgstr "Reflows"
+msgstr "Restituiri"
 
 #. LOCALIZATION NOTE (btnServerLogging): This is used as the text of the
 #. -  the toolbar. It shows or hides messages that the web developer inserted on

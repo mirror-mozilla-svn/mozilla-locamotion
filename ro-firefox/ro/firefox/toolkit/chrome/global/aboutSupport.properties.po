@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-25 11:45+0000\n"
+"POT-Creation-Date: 2015-10-28 11:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutSupport.properties.po\n"
-"X-Pootle-Revision: 677876\n"
+"X-Pootle-Revision: 789234\n"
 
 #. # LOCALIZATION NOTE (downloadsTitleFiles): Semi-colon list of plural forms.
 #. # See: http://developer.mozilla.org/en/docs/Localization_and_Plurals
@@ -246,7 +246,7 @@ msgstr "%1$S/%2$S (implicit: %3$S)"
 
 #: asyncPanZoom
 msgid "Asynchronous Pan/Zoom"
-msgstr "Panoramare asincronă/Zoom"
+msgstr "Asincronizare pentru panoramare/zoom"
 
 #: apzNone
 msgid "none"
