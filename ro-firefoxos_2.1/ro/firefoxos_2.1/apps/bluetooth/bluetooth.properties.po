@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-25 11:46+0000\n"
+"POT-Creation-Date: 2015-10-28 11:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.1/apps/bluetooth/bluetooth.properties.po\n"
-"X-Pootle-Revision: 86619\n"
+"X-Pootle-Revision: 789478\n"
 
 #. # Bluetooth :: Settings
 #. # Bluetooth :: Devices Panel (reuse the string is partially)
@@ -27,7 +27,7 @@ msgstr "{{bluetooth}}"
 
 #: bluetooth-enable-msg
 msgid "Turn Bluetooth on to view devices in the area."
-msgstr "Pornește Bluetooth pentru a vedea dispozitive din zonă."
+msgstr "Pornește Bluetooth pentru a vedea dispozitivele din zonă."
 
 #: bluetooth-paired-devices
 msgid "Paired devices"

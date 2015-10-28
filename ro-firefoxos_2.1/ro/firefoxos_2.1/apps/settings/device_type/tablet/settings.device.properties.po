@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-25 11:46+0000\n"
+"POT-Creation-Date: 2015-10-28 11:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.1/apps/settings/device_type/tablet/settings.de"
 "vice.properties.po\n"
-"X-Pootle-Revision: 99451\n"
+"X-Pootle-Revision: 789411\n"
 
 #. # Localization note: strings in this file refer to a specific type of device
 #. # (phone, tablet, etc.). Try to be consistent across files for each type of
@@ -98,8 +98,8 @@ msgid ""
 "services back on manually."
 msgstr ""
 "Pornirea modului de economisire a bateriei oprește conexiunea de date a "
-"tabletei, Bluetooth și geolocația pentru a extinde autonomia. Poți porni în "
-"continuare aceste servicii din nou manual."
+"telefonului, Bluetooth și geolocația pentru a extinde durata de viață a "
+"bateriei. Poți porni din nou aceste servicii manual."
 
 #: performanceAndUsageDataInfo
 msgid ""
