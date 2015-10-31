@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/chrome/browser.properties.po\n"
-"X-Pootle-Revision: 448536\n"
+"X-Pootle-Revision: 876647\n"
 
 #: addonsConfirmInstall.title
 msgid "Installing Add-on"
@@ -111,6 +111,10 @@ msgstr "Nu se poate adăuga '%S' ca motor de căutare"
 #: alertSearchEngineDuplicateToast
 msgid "'%S' is already one of your search engines"
 msgstr "'%S' este deja unul din motoarele de căutare"
+
+#: alertPrintjobToast
+msgid "Printing…"
+msgstr ""
 
 #: downloadCancelPromptTitle
 msgid "Cancel Download"
@@ -682,6 +686,10 @@ msgstr "Căutare %S"
 #: contextmenu.saveImage
 msgid "Save Image"
 msgstr "Salvează imaginea"
+
+#: contextmenu.showImage
+msgid "Show Image"
+msgstr ""
 
 #: contextmenu.setImageAs
 msgid "Set Image As"

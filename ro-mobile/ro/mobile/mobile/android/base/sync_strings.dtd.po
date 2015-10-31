@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/base/sync_strings.dtd.po\n"
-"X-Pootle-Revision: 448519\n"
+"X-Pootle-Revision: 876630\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -724,6 +724,10 @@ msgstr "Politica de confidențialitate"
 msgid "More&ellipsis;"
 msgstr "Mai multe&ellipsis;"
 
+#: fxaccount_remove_account
+msgid "Disconnect&ellipsis;"
+msgstr ""
+
 #: fxaccount_remove_account_dialog_title
 msgid "Remove Firefox Account?"
 msgstr "Elimini contul Firefox?"
@@ -741,10 +745,6 @@ msgstr ""
 #: fxaccount_remove_account_toast
 msgid "Firefox Account &formatS; removed."
 msgstr "Contul Firefox &formatS; eliminat."
-
-#: fxaccount_remove_account_menu_item
-msgid "Remove Account"
-msgstr "Elimină contul"
 
 #: fxaccount_enable_debug_mode
 msgid "Enable Debug Mode"
