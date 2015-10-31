@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/overrides/appstrings.properties."
 "po\n"
-"X-Pootle-Revision: 69888\n"
+"X-Pootle-Revision: 855072\n"
 
 #: malformedURI
 msgid "The URL is not valid and cannot be loaded."
@@ -235,3 +235,10 @@ msgid ""
 msgstr ""
 "Firefox nu vă poate garanta siguranța datelor pe %S deoarece site-ul "
 "folosește SSLv3, un protocol de securitate compromis."
+
+#. ## LOCALIZATION NOTE (weakCryptoUsed) - Do not translate "%S".
+#: weakCryptoUsed
+msgid ""
+"The owner of %S has configured their website improperly. To protect your "
+"information from being stolen, Firefox has not connected to this website."
+msgstr ""

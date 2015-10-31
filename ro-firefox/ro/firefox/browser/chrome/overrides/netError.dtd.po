@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/overrides/netError.dtd.po\n"
-"X-Pootle-Revision: 728024\n"
+"X-Pootle-Revision: 935169\n"
 
 #. %brandDTD;
 #: loadError.label
@@ -543,5 +543,40 @@ msgid "Advanced info: ssl_error_unsupported_version"
 msgstr "Informație suplimentară: ssl_error_unsupported_version"
 
 #: sslv3Used.learnMore
+#, fuzzy
+msgctxt "sslv3Used.learnMore"
 msgid "Learn More…"
 msgstr "Aflați mai multe…"
+
+#: weakCryptoUsed.title
+msgid "Your connection is not secure"
+msgstr ""
+
+#. <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
+#. "ssl_error_no_cypher_overlap".
+#: weakCryptoUsed.longDesc
+msgid "Advanced info: ssl_error_no_cypher_overlap"
+msgstr ""
+
+#: weakCryptoUsed.learnMore
+#, fuzzy
+msgctxt "weakCryptoUsed.learnMore"
+msgid "Learn More…"
+msgstr "Aflați mai multe…"
+
+#: weakCryptoAdvanced.title
+msgid "Advanced"
+msgstr ""
+
+#: weakCryptoAdvanced.longDesc
+msgid ""
+"<span class='hostname'></span> uses security technology that is outdated and "
+"vulnerable to attack. An attacker could easily reveal information which you "
+"thought to be safe."
+msgstr ""
+
+#: weakCryptoAdvanced.override
+msgid ""
+"(Not secure) Try loading <span class='hostname'></span> using outdated "
+"security"
+msgstr ""

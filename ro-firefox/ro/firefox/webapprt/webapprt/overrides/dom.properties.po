@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/webapprt/webapprt/overrides/dom.properties.po\n"
-"X-Pootle-Revision: 728200\n"
+"X-Pootle-Revision: 935345\n"
 
 #: KillScriptTitle
 msgid "Warning: Unresponsive script"
@@ -315,10 +315,6 @@ msgstr ""
 "Folosirea nsIDOMWindowInternal e descurajată. Folosiți în schimb "
 "nsIDOMWindow."
 
-#: InputEncodingWarning
-msgid "Use of inputEncoding is deprecated."
-msgstr "Folosirea inputEncoding este descurajată."
-
 #: FullScreenDeniedDisabled
 msgid ""
 "Request for full-screen was denied because full-screen API is disabled by "
@@ -341,10 +337,12 @@ msgstr ""
 "Solicitarea pentru ecran complet a fost refuzată pentru că documentul nu mai "
 "este vizibil."
 
-#: FullScreenDeniedIframeNotAllowed
+#: FullScreenDeniedContainerNotAllowed
+#, fuzzy
 msgid ""
 "Request for full-screen was denied because at least one of the document's "
-"containing iframes does not have an \"allowfullscreen\" attribute."
+"containing element is not iframe or does not have an \"allowfullscreen\" "
+"attribute."
 msgstr ""
 "Cererea pentru ecran complet a fost refuzată pentru că cel puțin unul din "
 "iframe-urile conținute în document nu are un atribut „allowfullscreen”."
@@ -729,3 +727,15 @@ msgid ""
 msgstr ""
 "Se încearcă să se creeze un worker de la o sursă goală. Aceasta este "
 "probabil neintenționat."
+
+#: WebrtcDeprecatedPrefixWarning
+msgid ""
+"WebRTC interfaces with the \"moz\" prefix (mozRTCPeerConnection, "
+"mozRTCSessionDescription, mozRTCIceCandidate) have been deprecated."
+msgstr ""
+
+#: NavigatorGetUserMediaWarning
+msgid ""
+"navigator.mozGetUserMedia has been replaced by "
+"navigator.mediaDevices.getUserMedia"
+msgstr ""

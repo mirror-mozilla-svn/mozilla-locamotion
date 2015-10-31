@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/preferences/preferences.properties.po\n"
-"X-Pootle-Revision: 727991\n"
+"X-Pootle-Revision: 935136\n"
 
 #. #### Security
 #. # LOCALIZATION NOTE: phishBefore uses %S to represent the name of the provider
@@ -93,6 +93,16 @@ msgstr ""
 msgid "Allowed Sites - Pop-ups"
 msgstr "Site-uri autorizate - Ferestre pop-up"
 
+#: notificationspermissionstext3
+msgid ""
+"Control which websites are always or never allowed to receive notifications. "
+"If you remove a site, it will need to request permission again."
+msgstr ""
+
+#: notificationspermissionstitle
+msgid "Notification Permissions"
+msgstr ""
+
 #: invalidURI
 msgid "Please enter a valid hostname"
 msgstr "Vă rugăm să introduceți un nume de gazdă corect"
@@ -143,7 +153,7 @@ msgstr ""
 msgid "Blocks known trackers. Some sites may not function properly."
 msgstr ""
 
-#. # LOCALIZATION NOTE (blocklistChangeRequiresRestart, restartTitle): %S = brandShortName
+#. # LOCALIZATION NOTE (blocklistChangeRequiresRestart): %S = brandShortName
 #: blocklistChangeRequiresRestart
 msgid "%S must restart to change block lists."
 msgstr ""
@@ -414,10 +424,6 @@ msgstr "%S trebuie repornit pentru a activa această funcționalitate."
 #: featureDisableRequiresRestart
 msgid "%S must restart to disable this feature."
 msgstr "%S trebuie repornit pentru a dezactiva această funcționalitate."
-
-#: shouldRestartTitle
-msgid "Restart %S"
-msgstr "Repornire %S"
 
 #. #### e10S
 #. # LOCALIZATION NOTE (e10sFeedbackAfterRestart): This message appears when the user

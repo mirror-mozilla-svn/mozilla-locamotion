@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/customizableui/customizable"
 "Widgets.properties.po\n"
-"X-Pootle-Revision: 727905\n"
+"X-Pootle-Revision: 935048\n"
 
 #: history-panelmenu.label
 msgid "History"
@@ -231,6 +231,26 @@ msgstr "Salut"
 #: loop-call-button3.tooltiptext
 msgid "Start a conversation"
 msgstr "Pornește o conversație"
+
+#: loop-call-button3-error.tooltiptext
+msgid "Error!"
+msgstr ""
+
+#: loop-call-button3-donotdisturb.tooltiptext
+msgid "Do not disturb"
+msgstr ""
+
+#: loop-call-button3-screensharing.tooltiptext
+msgid "You are sharing your screen"
+msgstr ""
+
+#: loop-call-button3-active.tooltiptext
+msgid "Active conversation"
+msgstr ""
+
+#: loop-call-button3-participantswaiting.tooltiptext
+msgid "Someone is waiting for you in a conversation"
+msgstr ""
 
 #. # LOCALIZATION NOTE(loop-call-button3-pb.tooltiptext): Shown when the button is
 #. # placed inside a Private Browsing window. %S is the value of loop-call-button3.label.

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/inspector.dtd.po\n"
-"X-Pootle-Revision: 230599\n"
+"X-Pootle-Revision: 854973\n"
 
 #. This is the label shown
 #. in the inspector contextual-menu for the item that lets users edit the
@@ -122,6 +122,41 @@ msgstr "Derulați ca &să vedeți nodul"
 msgid "&Delete Node"
 msgstr "Șterge &nodul"
 
+#. This is the label
+#. shown in the inspector contextual-menu for the sub-menu of the other
+#. attribute items, which allow to:
+#. - add new attribute
+#. - edit attribute
+#. - remove attribute
+#: inspectorAttributeSubmenu.label
+#: inspectorAttributeSubmenu.accesskey
+msgid "&Attribute"
+msgstr ""
+
+#. This is the label shown in
+#. the inspector contextual-menu for the item that lets users add attribute
+#. to current node
+#: inspectorAddAttribute.label
+#: inspectorAddAttribute.accesskey
+msgid "&Add Attribute"
+msgstr ""
+
+#. This is the label shown in
+#. the inspector contextual-menu for the item that lets users edit attribute
+#. for current node
+#: inspectorEditAttribute.label
+#: inspectorEditAttribute.accesskey
+msgid "&Edit Attribute"
+msgstr ""
+
+#. This is the label shown in
+#. the inspector contextual-menu for the item that lets users delete attribute
+#. from current node
+#: inspectorRemoveAttribute.label
+#: inspectorRemoveAttribute.accesskey
+msgid "&Remove Attribute"
+msgstr ""
+
 #: inspector.selectButton.tooltip
 msgid "Select element with mouse"
 msgstr "Selectează elementul cu mouse"
@@ -188,3 +223,10 @@ msgstr "Pliază"
 #: inspectorScreenshotNode.label
 msgid "Screenshot Node"
 msgstr "Nod pentru captură de ecran"
+
+#. This is the label
+#. shown in the inspector contextual-menu for the item that lets users
+#. duplicate the currently selected node.
+#: inspectorDuplicateNode.label
+msgid "Duplicate Node"
+msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/markers.properties.po\n"
-"X-Pootle-Revision: 499969\n"
+"X-Pootle-Revision: 854977\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Performance Tools
 #. # which is available from the Web Developer sub-menu -> 'Performance'.
@@ -90,6 +90,12 @@ msgstr "Reducerea grafului CC"
 msgid "Timestamp"
 msgstr "Marcaj de timp"
 
+#: marker.label.worker
+#, fuzzy
+msgctxt "marker.label.worker"
+msgid "Worker"
+msgstr "Workeri"
+
 #: marker.label.unknown
 msgid "Unknown"
 msgstr "Necunoscut"
@@ -110,6 +116,8 @@ msgid "Promise Init"
 msgstr "Inițializare promisiune"
 
 #: marker.label.javascript.workerRunnable
+#, fuzzy
+msgctxt "marker.label.javascript.workerRunnable"
 msgid "Worker"
 msgstr "Workeri"
 
@@ -196,6 +204,23 @@ msgstr "Cauză:"
 #: marker.field.type
 msgid "Type:"
 msgstr "Tip:"
+
+#. # The type of operation performed by a Worker.
+#: marker.worker.serializeDataOffMainThread
+msgid "Serialize data in Worker"
+msgstr ""
+
+#: marker.worker.serializeDataOnMainThread
+msgid "Serialize data on the main thread"
+msgstr ""
+
+#: marker.worker.deserializeDataOffMainThread
+msgid "Deserialize data in Worker"
+msgstr ""
+
+#: marker.worker.deserializeDataOnMainThread
+msgid "Deserialize data on the main thread"
+msgstr ""
 
 #. # Strings used in the waterfall sidebar as values.
 #: marker.value.unknownFrame

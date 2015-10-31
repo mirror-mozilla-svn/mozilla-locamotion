@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/animationinspector.properties."
 "po\n"
-"X-Pootle-Revision: 230582\n"
+"X-Pootle-Revision: 854957\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Animation inspector
 #. # which is available as a sidebar panel in the Inspector.
@@ -128,4 +128,22 @@ msgstr ""
 #. # %S will be replaced by the name of the transition at run-time.
 #: timeline.unknown.nameLabel
 msgid "%S"
+msgstr ""
+
+#. # LOCALIZATION NOTE (node.selectNodeLabel):
+#. # This string is displayed in a tooltip of the animation panel that is shown
+#. # when hovering over an animated node (e.g. something like div.animated).
+#. # The tooltip invites the user to click on the node in order to select it in the
+#. # inspector panel.
+#: node.selectNodeLabel
+msgid "Click to select this node in the Inspector"
+msgstr ""
+
+#. # LOCALIZATION NOTE (node.highlightNodeLabel):
+#. # This string is displayed in a tooltip of the animation panel that is shown
+#. # when hovering over the inspector icon displayed next to animated nodes.
+#. # The tooltip invites the user to click on the icon in order to show the node
+#. # highlighter.
+#: node.highlightNodeLabel
+msgid "Click to highlight this node in the page"
 msgstr ""

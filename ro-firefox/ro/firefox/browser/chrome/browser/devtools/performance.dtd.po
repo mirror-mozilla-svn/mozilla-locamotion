@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/devtools/performance.dtd."
 "po\n"
-"X-Pootle-Revision: 727931\n"
+"X-Pootle-Revision: 935076\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -73,8 +73,17 @@ msgstr ""
 msgid "The buffer is full. Older samples are now being overwritten."
 msgstr "Bufferul este plin. Mostrele mai vechi sunt acum suprascrise."
 
+#. LOCALIZATION NOTE (performanceUI.loadingNotice): This is the label shown
+#. -  in the details view while the profiler is unavailable, for example, while
+#. -  in Private Browsing mode.
+#: performanceUI.unavailableNoticePB
+msgid ""
+"Recording a profile is currently unavailable. Please close all private "
+"browsing windows and try again."
+msgstr ""
+
 #. This is the label shown
-#. -  in the call list view while loading a profile.
+#. -  in the details view while loading a profile.
 #: performanceUI.loadingNotice
 msgid "Loading…"
 msgstr "Încărcare…"

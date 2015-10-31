@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/webconsole.properties.po\n"
-"X-Pootle-Revision: 727954\n"
+"X-Pootle-Revision: 935099\n"
 
 #. # LOCALIZATION NOTE
 #. # The correct localization of this file might be to keep it in
@@ -209,6 +209,13 @@ msgstr "function %1$S, %2$S line %3$S"
 #: stacktrace.anonymousFunction
 msgid "<anonymous>"
 msgstr "<anonim>"
+
+#. # LOCALIZATION NOTE (stacktrace.asyncStack): this string is used to
+#. # indicate that a given stack frame has an async parent.
+#. # %S is the "Async Cause" of the frame.
+#: stacktrace.asyncStack
+msgid "(Async: %S)"
+msgstr ""
 
 #. # LOCALIZATION NOTE (unknownLocation): this string is used to
 #. # display messages with sources that have an unknown location, eg. from

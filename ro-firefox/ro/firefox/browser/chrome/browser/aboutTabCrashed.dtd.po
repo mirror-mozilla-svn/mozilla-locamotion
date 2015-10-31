@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/aboutTabCrashed.dtd.po\n"
-"X-Pootle-Revision: 153706\n"
+"X-Pootle-Revision: 854947\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -34,6 +34,26 @@ msgid "Submit a crash report to help prevent more bad news"
 msgstr ""
 "Trimiteți un raport de defecțiuni pentru a ajuta la prevenirea mai multor "
 "vești proaste"
+
+#: tabCrashed.includeURL
+msgid "Include the address of the page I was on"
+msgstr ""
+
+#: tabCrashed.commentPlaceholder
+msgid "Add a comment (comments are publicly visible)"
+msgstr ""
+
+#: tabCrashed.emailPlaceholder
+msgid "Enter your email address here"
+msgstr ""
+
+#: tabCrashed.emailMe
+msgid "Email me when more information is available"
+msgstr ""
+
+#: tabCrashed.crashReporter
+msgid "Mozilla Crash Reporter"
+msgstr ""
 
 #: tabCrashed.reportSent
 msgid ""

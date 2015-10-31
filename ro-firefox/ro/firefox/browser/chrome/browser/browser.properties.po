@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/browser.properties.po\n"
-"X-Pootle-Revision: 770133\n"
+"X-Pootle-Revision: 935047\n"
 
 #: nv_timeout
 msgid "Timed Out"
@@ -955,22 +955,23 @@ msgstr "Doriți să vă partajați locația cu acest site?"
 msgid "Would you like to share your location with this file?"
 msgstr "Doriți să dezvăluiți locația dumneavoastră cu acest fișier?"
 
-#: webNotifications.showForSession
-msgid "Show for this session"
-msgstr "Arată pentru această sesiune"
+#: webNotifications.receiveForSession
+msgid "Receive for this session"
+msgstr ""
 
-#: webNotifications.showForSession.accesskey
+#: webNotifications.receiveForSession.accesskey
 msgid "s"
-msgstr "s"
+msgstr ""
 
-#: webNotifications.alwaysShow
-msgid "Always Show Notifications"
+#: webNotifications.alwaysReceive
+#, fuzzy
+msgid "Always Receive Notifications"
 msgstr "Arată întotdeauna notificările"
 
-#: webNotifications.alwaysShow.accesskey
-msgctxt "webNotifications.alwaysShow.accesskey"
+#: webNotifications.alwaysReceive.accesskey
+msgctxt "webNotifications.alwaysReceive.accesskey"
 msgid "A"
-msgstr "A"
+msgstr ""
 
 #: webNotifications.neverShow
 msgid "Always Block Notifications"
@@ -981,40 +982,10 @@ msgctxt "webNotifications.neverShow.accesskey"
 msgid "N"
 msgstr "N"
 
-#: webNotifications.showFromSite2
-msgid "Would you like to show notifications from this site?"
+#: webNotifications.receiveFromSite
+#, fuzzy
+msgid "Would you like to receive notifications from this site?"
 msgstr "Doriți să se afișeze notificări de la acest site?"
-
-#. # Push Notifications
-#: push.allowForSession
-msgid "Allow for Session"
-msgstr "Permite pentru sesiune"
-
-#: push.allowForSession.accesskey
-msgctxt "push.allowForSession.accesskey"
-msgid "S"
-msgstr "S"
-
-#: push.alwaysAllow
-msgid "Always Allow Push Notifications"
-msgstr "Permite întotdeauna notificările push"
-
-#: push.alwaysAllow.accesskey
-msgctxt "push.alwaysAllow.accesskey"
-msgid "A"
-msgstr "A"
-
-#: push.alwaysBlock
-msgid "Always Block Push Notifications"
-msgstr "Blochează întotdeauna notificările push"
-
-#: push.alwaysBlock.accesskey
-msgid "B"
-msgstr "B"
-
-#: push.enablePush2
-msgid "Would you like to allow Push Notifications for this site?"
-msgstr "Dorești să permiți notificări push pentru acest site?"
 
 #. # Pointer lock UI
 #: pointerLock.allow2
@@ -1948,6 +1919,35 @@ msgstr "Dezactivează și &repornește"
 #: e10s.accessibilityNotice.dontDisable.accesskey
 msgid "&Don't Disable"
 msgstr "Nu &dezactiva"
+
+#. # LOCALIZATION NOTE (usercontext.personal.label,
+#. #                    usercontext.work.label,
+#. #                    usercontext.shopping.label,
+#. #                    usercontext.banking.label):
+#. # These strings specify the four default contexts included in support of the
+#. # Contextual Identity / Containers project. Each context is meant to represent
+#. # the context that the user is in when interacting with the site. Different
+#. # contexts will store cookies and other information from those sites in
+#. # different, isolated locations. You can enable the feature by typing
+#. # about:config in the URL bar and changing privacy.userContext.enabled to true.
+#. # Once enabled, you can open a new tab in a specific context by clicking
+#. # File > New Container Tab > (1 of 4 contexts). Once opened, you will see these
+#. # strings on the right-hand side of the URL bar.
+#: usercontext.personal.label
+msgid "Personal"
+msgstr ""
+
+#: usercontext.work.label
+msgid "Work"
+msgstr ""
+
+#: usercontext.shopping.label
+msgid "Shopping"
+msgstr ""
+
+#: usercontext.banking.label
+msgid "Banking"
+msgstr ""
 
 #: muteTab.label
 #: muteTab.accesskey

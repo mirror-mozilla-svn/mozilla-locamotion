@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutWebrtc.properties.po\n"
-"X-Pootle-Revision: 381931\n"
+"X-Pootle-Revision: 855146\n"
 
 #. # LOCALIZATION NOTE (document_title, cannot_retrieve_log):
 #. # The text "WebRTC" is a proper noun and should not be translated.
@@ -144,15 +144,17 @@ msgstr "Rată de biți medie"
 msgid "Avg. framerate"
 msgstr "Frecvența de cadre în medie"
 
-#. # LOCALIZATION NOTE (local, remote): These adjectives are used to label a
+#. # LOCALIZATION NOTE (typeLocal, typeRemote): These adjectives are used to label a
 #. # line of statistics collected for a peer connection. The data represents
 #. # either the local or remote end of the connection.
-#: local
-msgid "local"
+#: typeLocal
+#, fuzzy
+msgid "Local"
 msgstr "local"
 
-#: remote
-msgid "remote"
+#: typeRemote
+#, fuzzy
+msgid "Remote"
 msgstr "la distanță"
 
 #. # LOCALIZATION NOTE (nominated): This adjective is used to label a table column.

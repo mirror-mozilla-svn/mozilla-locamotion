@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/content.dtd."
 "po\n"
-"X-Pootle-Revision: 769318\n"
+"X-Pootle-Revision: 855033\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -26,6 +26,29 @@ msgstr "Ferestre pop-up"
 #: blockPopups.accesskey
 msgid "&Block pop-up windows"
 msgstr "&Blochează ferestrele pop-up"
+
+#: notificationsPolicy.label
+msgid "Notifications"
+msgstr ""
+
+#: notificationsPolicyDesc2.label
+msgid "Choose which sites are allowed to receive notifications"
+msgstr ""
+
+#: notificationsPolicyButton.label
+#: notificationsPolicyButton.accesskey
+#, fuzzy
+msgid "C&hoose…"
+msgstr "A&lege…"
+
+#: notificationsDoNotDisturb.label
+#: notificationsDoNotDisturb.accesskey
+msgid "Do &not disturb me"
+msgstr ""
+
+#: notificationsDoNotDisturbDetails.value
+msgid "No notification will be shown until you restart &brandShortName;"
+msgstr ""
 
 #: popupExceptions.label
 #: popupExceptions.accesskey

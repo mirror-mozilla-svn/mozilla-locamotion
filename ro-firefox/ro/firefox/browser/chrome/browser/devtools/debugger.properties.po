@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/debugger.properties.po\n"
-"X-Pootle-Revision: 727916\n"
+"X-Pootle-Revision: 935060\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Debugger
 #. # which is available from the Web Developer sub-menu -> 'Debugger'.
@@ -555,9 +555,9 @@ msgstr "WebIDL"
 msgid ":"
 msgstr ":"
 
-#. # LOCALIZATION NOTE (watchExpressionsSeparatorLabel): The text that is displayed
+#. # LOCALIZATION NOTE (watchExpressionsSeparatorLabel2): The text that is displayed
 #. # in the watch expressions list as a separator between the code and evaluation.
-#: watchExpressionsSeparatorLabel
+#: watchExpressionsSeparatorLabel2
 msgid " →"
 msgstr " →"
 

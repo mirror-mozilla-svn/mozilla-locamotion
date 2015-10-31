@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:24+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/services/sync/sync.properties.po\n"
-"X-Pootle-Revision: 728072\n"
+"X-Pootle-Revision: 935217\n"
 
 #. # %1: the user name (Ed), %2: the app name (Firefox), %3: the operating system (Android)
 #: client.name2
@@ -33,52 +33,6 @@ msgstr ""
 #: mobile.label
 msgid "Mobile Bookmarks"
 msgstr "Semne de carte mobile"
-
-#: remote.pending.label
-msgid "Remote tabs are being synced…"
-msgstr "Filele de la distanță sunt sincronizate…"
-
-#: remote.missing2.label
-msgid "Sync your other devices again to access their tabs"
-msgstr ""
-"Sincronizați din nou celelalte dispozitive ale dumneavoastră pentru a accesa "
-"filele de pe ele"
-
-#: remote.opened.label
-msgid "All remote tabs are already open"
-msgstr "Toate filele de la distanță sunt deja deschise"
-
-#: remote.notification.label
-msgid "Recent desktop tabs will be available once they sync"
-msgstr "Filele recente de pe calculator vor fi disponibile după sincronizare"
-
-#: error.login.title
-msgid "Error While Signing In"
-msgstr "Eroare în timpul conectării"
-
-#: error.login.description
-msgid "Sync encountered an error while connecting: %1$S.  Please try again."
-msgstr ""
-"Eroare de sincronizare în timpul conectării: %1$S. Vă rugăm să încercați din "
-"nou."
-
-#: error.login.prefs.label
-#: error.login.prefs.accesskey
-msgid "&Preferences…"
-msgstr "&Preferințe…"
-
-#. # should decide if we're going to show this
-#: error.logout.title
-msgid "Error While Signing Out"
-msgstr "Eroare la ieșirea din cont"
-
-#: error.logout.description
-msgid ""
-"Sync encountered an error while connecting.  It's probably ok, and you don't "
-"have to do anything about it."
-msgstr ""
-"A intervenit o eroare la conectare. Probabil nu e nicio problemă și nu "
-"trebuie să faceți nimic."
 
 #: error.sync.title
 msgid "Error While Syncing"
