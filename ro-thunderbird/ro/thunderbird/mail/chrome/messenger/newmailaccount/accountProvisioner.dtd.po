@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:25+0000\n"
+"POT-Creation-Date: 2015-10-31 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/newmailaccount/accountProvisioner.dtd."
 "po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 885011\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -40,10 +40,12 @@ msgid "Sorry, we could not find any suggested email addresses."
 msgstr "Ne pare rău, nu am putut găsi nicio sugestie de adresă de e-mail."
 
 #: error.line2
-msgid "You try can search for nicknames or any other term to find more emails"
+#, fuzzy
+msgid ""
+"You can try to search for nicknames or any other term to find more emails."
 msgstr ""
-"Puteți încerca să căutați după pseudonime sau orice alt termen pentru a găsi "
-"mai multe e-mailuri"
+"(Puteți căuta și pseudonime sau orice alt termen pentru a găsi mai multe "
+"e-mailuri)"
 
 #. LOCALIZATION NOTE(error.suggest.before, error.suggest.middle, error.suggest.after):
 #. error.suggest.before, error.suggest.middle, and error.suggest.after all go into
