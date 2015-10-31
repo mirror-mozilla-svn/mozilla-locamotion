@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 11:25+0000\n"
+"POT-Creation-Date: 2015-10-31 21:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/email/email.properties.po\n"
-"X-Pootle-Revision: 783478\n"
+"X-Pootle-Revision: 960473\n"
 
 #. # LOCALIZATION NOTE(back-button): For various cards, a label for a general
 #. # purpose header back button rendered as an icon. The following string is spoken
@@ -1063,13 +1063,13 @@ msgstr "bcc"
 msgid "{{name}} {{address}}"
 msgstr "{{name}} {{address}}"
 
-#. # LOCALIZATION NOTE(compose-contact-add): For compose card, a label for an add
+#. # LOCALIZATION NOTE(compose-contact-add-recipient): For compose card, a label for an add
 #. # contact buttons rendered as a circled plus sign and used to add to, cc and bcc
 #. # recipients. The following string is spoken by screen readers and not shown on
 #. # the screen.
-#: compose-contact-add.ariaLabel
-msgid "Add contact"
-msgstr "Adaugă contact"
+#: compose-contact-add-recipient.ariaLabel
+msgid "Add recipient"
+msgstr ""
 
 #. # LOCALIZATION NOTE(compose-attachments-container): For compose card, a
 #. # label for a list of attachments included in the email being composed. When
