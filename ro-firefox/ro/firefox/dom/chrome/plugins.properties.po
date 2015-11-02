@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-31 21:26+0000\n"
+"POT-Creation-Date: 2015-11-02 06:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/dom/chrome/plugins.properties.po\n"
-"X-Pootle-Revision: 935202\n"
+"X-Pootle-Revision: 1013350\n"
 
 #. # LOCALIZATION NOTE (plugins.properties):
 #. #    Those strings are inserted into an HTML page, so all HTML characters
