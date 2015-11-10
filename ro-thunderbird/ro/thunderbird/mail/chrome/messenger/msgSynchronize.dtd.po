@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:55+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/msgSynchronize.dtd.po\n"
-"X-Pootle-Revision: 67694\n"
+"X-Pootle-Revision: 1268211\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -24,7 +24,7 @@ msgstr "Descărcare și sincronizare mesaje"
 
 #: MsgSelect.label
 msgid "Items for Offline Use"
-msgstr "Ce se utilizează în folosire offline"
+msgstr "Ce se utilizează în utilizare offline"
 
 #: MsgSyncDesc.label
 msgid ""
@@ -33,9 +33,9 @@ msgid ""
 "choose mail folders and newsgroups for offline use."
 msgstr ""
 "Dacă ați selectat deja dosare de e-mail sau grupuri de discuții pentru "
-"folosire offline, le puteți descărca și/sau sincroniza acum. Altfel, "
+"utilizare offline, le puteți descărca și/sau sincroniza acum. Altfel, "
 "folosiți butonul „Selectează” pentru a alege dosare de e-mail și grupuri de "
-"discuții pentru folosire offline."
+"discuții pentru utilizare offline."
 
 #: MsgSyncDirections.label
 msgid "Download and/or sync the following:"
@@ -69,7 +69,7 @@ msgstr "&Selectează…"
 #: MsgSelectDesc.label
 msgid "Choose mail folders and newsgroups for offline use."
 msgstr ""
-"Alegeți dosarele de e-mail și grupurile de discuții pentru folosire offline."
+"Alegeți dosarele de e-mail și grupurile de discuții pentru utilizare offline."
 
 #: MsgSelectInd.label
 msgid "Download"
