@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:55+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/security/manager/chrome/pippki/certManager.dtd."
 "po\n"
-"X-Pootle-Revision: 1013360\n"
+"X-Pootle-Revision: 1383673\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -24,7 +24,7 @@ msgstr "Manager de certificate"
 
 #: certmgr.tab.mine
 msgid "Your Certificates"
-msgstr "Certificatele dumneavoastră"
+msgstr "Certificatele tale"
 
 #: certmgr.tab.others2
 msgid "People"
@@ -44,28 +44,27 @@ msgstr "Extra"
 
 #: certmgr.mine
 msgid "You have certificates from these organizations that identify you:"
-msgstr "Posedați certificate de la următoarele organizații care vă identifică:"
+msgstr "Ai certificate de la aceste organizații care te identifică:"
 
 #: certmgr.others
 msgid "You have certificates on file that identify these people:"
-msgstr "Aveți stocate certificate care identifică următoarele persoane:"
+msgstr "Ai stocate certificate care identifică aceste persoane:"
 
 #: certmgr.websites2
 msgid "You have certificates on file that identify these servers:"
-msgstr "Aveți stocate certificate care identifică aceste servere:"
+msgstr "Ai stocate certificate care identifică aceste servere:"
 
 #: certmgr.cas
 msgid ""
 "You have certificates on file that identify these certificate authorities:"
 msgstr ""
-"Aveți stocate certificate care identifică următoarele autorități de "
-"certificare:"
+"Ai stocate certificate care identifică aceste autorități de certificare:"
 
 #: certmgr.orphans
 msgid ""
 "You have certificates on file that do not fit in any of the other categories:"
 msgstr ""
-"Aveți certificate salvate care nu se încadrează în niciuna din celelalte "
+"Ai stocate certificate care nu se încadrează în niciuna din celelalte "
 "categorii:"
 
 #: certmgr.detail.general_tab.title

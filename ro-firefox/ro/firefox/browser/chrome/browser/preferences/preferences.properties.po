@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:55+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/preferences/preferences.properties.po\n"
-"X-Pootle-Revision: 1013284\n"
+"X-Pootle-Revision: 1383597\n"
 
 #. #### Security
 #. # LOCALIZATION NOTE: phishBefore uses %S to represent the name of the provider
@@ -93,15 +93,19 @@ msgstr ""
 msgid "Allowed Sites - Pop-ups"
 msgstr "Site-uri autorizate - Ferestre pop-up"
 
-#: notificationspermissionstext3
+#: notificationspermissionstext4
 msgid ""
-"Control which websites are always or never allowed to receive notifications. "
-"If you remove a site, it will need to request permission again."
+"Control which websites are always or never allowed to send you "
+"notifications. If you remove a site, it will need to request permission "
+"again."
 msgstr ""
+"Controlează care site-uri web au permisiunea întotdeauna sau niciodată de a-"
+"ți trimite notificări. Dacă elimini un site, va avea nevoie să solicite "
+"permisiune din nou."
 
 #: notificationspermissionstitle
 msgid "Notification Permissions"
-msgstr ""
+msgstr "Permisiuni de notificare"
 
 #: invalidURI
 msgid "Please enter a valid hostname"
@@ -365,7 +369,7 @@ msgstr "%1$S %2$S"
 #: offlinepermissionstext
 msgid "The following websites are not allowed to store data for offline use:"
 msgstr ""
-"Următoarele site-uri web nu au permisiunea de a stoca date pentru folosire "
+"Următoarele site-uri web nu au permisiunea de a stoca date pentru utilizare "
 "offline:"
 
 #: offlinepermissionstitle

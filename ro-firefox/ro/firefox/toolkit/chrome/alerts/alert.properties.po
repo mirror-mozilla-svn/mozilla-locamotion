@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:55+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/alerts/alert.properties.po\n"
-"X-Pootle-Revision: 855124\n"
+"X-Pootle-Revision: 1268145\n"
 
 #. # LOCALIZATION NOTE(closeButton.title): Used as the close button text for web notifications on OS X.
 #. # This should ideally match the string that OS X uses for the close button on alert-type
@@ -48,4 +48,4 @@ msgstr ""
 #. # brandShortName of the application.
 #: doNotDisturb.label
 msgid "Do not disturb me until I restart %S"
-msgstr ""
+msgstr "Nu mă deranja până când repornesc %S"

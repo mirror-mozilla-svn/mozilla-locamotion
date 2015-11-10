@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:55+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/content.dtd."
 "po\n"
-"X-Pootle-Revision: 855033\n"
+"X-Pootle-Revision: 1269333\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -29,26 +29,30 @@ msgstr "&Blochează ferestrele pop-up"
 
 #: notificationsPolicy.label
 msgid "Notifications"
-msgstr ""
+msgstr "Notificări"
 
-#: notificationsPolicyDesc2.label
-msgid "Choose which sites are allowed to receive notifications"
-msgstr ""
+#: notificationsPolicyLearnMore.label
+msgctxt "notificationsPolicyLearnMore.label"
+msgid "Learn more"
+msgstr "Află mai multe"
+
+#: notificationsPolicyDesc3.label
+msgid "Choose which sites are allowed to send you notifications"
+msgstr "Alege ce site-uri au permisiunea de a-ți trimite notificări"
 
 #: notificationsPolicyButton.label
 #: notificationsPolicyButton.accesskey
-#, fuzzy
 msgid "C&hoose…"
-msgstr "A&lege…"
+msgstr "Alege…"
 
 #: notificationsDoNotDisturb.label
 #: notificationsDoNotDisturb.accesskey
 msgid "Do &not disturb me"
-msgstr ""
+msgstr "&Nu mă deranja"
 
 #: notificationsDoNotDisturbDetails.value
 msgid "No notification will be shown until you restart &brandShortName;"
-msgstr ""
+msgstr "Nicio notificare nu va fi afișată până când repornești &brandShortName;"
 
 #: popupExceptions.label
 #: popupExceptions.accesskey
@@ -90,7 +94,7 @@ msgstr "Alege limba în care preferi să vezi paginile"
 #: chooseButton.label
 #: chooseButton.accesskey
 msgid "Ch&oose…"
-msgstr "A&lege…"
+msgstr "Alege…"
 
 #: translateWebPages.label
 #: translateWebPages.accesskey
@@ -127,5 +131,6 @@ msgid "&Play DRM content"
 msgstr "Redă conținut DRM"
 
 #: playDRMContent.learnMore.label
+msgctxt "playDRMContent.learnMore.label"
 msgid "Learn more"
 msgstr "Află mai multe"

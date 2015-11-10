@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:55+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/advanced.dtd."
 "po\n"
-"X-Pootle-Revision: 1013270\n"
+"X-Pootle-Revision: 1383583\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -66,7 +66,7 @@ msgstr "Folosește accelerarea &hardware atunci când este disponibilă"
 #: checkSpelling.label
 #: checkSpelling.accesskey
 msgid "Check my spelling as I &type"
-msgstr "Verfică or&tografia în timp ce tastez"
+msgstr "Verfică or&tografia pe măsură ce tastez"
 
 #: dataChoicesTab.label
 msgid "Data Choices"
@@ -234,7 +234,7 @@ msgstr "&Motoare de căutare"
 #: offlineNotify.accesskey
 msgid "&Tell me when a website asks to store data for offline use"
 msgstr ""
-"Spune-mi când un si&te web solicită să stocheze date pentru folosire offline"
+"Spune-mi când un si&te web solicită să stocheze date pentru utilizare offline"
 
 #: offlineNotifyExceptions.label
 #: offlineNotifyExceptions.accesskey
@@ -244,7 +244,7 @@ msgstr "E&xcepții…"
 #: offlineAppsList2.label
 msgid "The following websites are allowed to store data for offline use:"
 msgstr ""
-"Următoarele site-uri web au permisiunea de a stoca date pentru folosire "
+"Următoarele site-uri web au permisiunea de a stoca date pentru utilizare "
 "offline:"
 
 #. Do not translate this.  Only change the numeric values if you need this dialogue box to appear bigger

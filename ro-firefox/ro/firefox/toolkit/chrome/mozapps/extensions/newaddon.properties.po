@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:55+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/toolkit/chrome/mozapps/extensions/newaddon.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 1269398\n"
 
 #. #LOCALIZATION NOTE (name) %1$S is the add-on name, %2$S is the add-on version
 #: name
@@ -28,4 +28,4 @@ msgstr "Creat de %S"
 #. #LOCALIZATION NOTE (location) %S is the path the add-on is installed in
 #: location
 msgid "Location: %S"
-msgstr "Amplasare: %S"
+msgstr "Locație: %S"

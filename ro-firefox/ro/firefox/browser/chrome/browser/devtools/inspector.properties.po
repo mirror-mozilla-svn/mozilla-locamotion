@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:55+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/devtools/inspector.properties.po\n"
-"X-Pootle-Revision: 1013217\n"
+"X-Pootle-Revision: 1383530\n"
 
 #. # LOCALIZATION NOTE These strings are used inside the Inspector
 #. # which is available from the Web Developer sub-menu -> 'Inspect'.
@@ -161,7 +161,7 @@ msgstr "Nicio potrivire"
 #. # allows to open that URL in a new tab.
 #: inspector.menu.openUrlInNewTab.label
 msgid "Open Link in New Tab"
-msgstr "Deschide linkul în filă nouă"
+msgstr "Deschide linkul într-o filă nouă"
 
 #. # LOCALIZATION NOTE (inspector.menu.copyUrlToClipboard.label): This is the label
 #. # of a menu item in the inspector contextual-menu that appears when the user

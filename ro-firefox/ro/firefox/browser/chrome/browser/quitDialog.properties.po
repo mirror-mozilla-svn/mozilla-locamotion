@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:55+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/quitDialog.properties.po\n"
-"X-Pootle-Revision: 66959\n"
+"X-Pootle-Revision: 1269394\n"
 
 #: quitDialogTitle
 msgid "Quit %S"
@@ -38,13 +38,13 @@ msgstr "&Nu mai întreba data viitoare"
 msgid ""
 "Do you want %S to save your tabs and windows for the next time it starts?"
 msgstr ""
-"Doriți ca %S să salveze filele și ferestrele deschise pentru data viitoare "
+"Dorești ca %S să salveze filele și ferestrele deschise pentru data viitoare "
 "când va fi pornit?"
 
 #: messageNoWindows
 msgid "Do you want %S to save your tabs for the next time it starts?"
 msgstr ""
-"Doriți ca %S să salveze filele deschise pentru data viitoare când va fi "
+"Dorești ca %S să salveze filele deschise pentru data viitoare când va fi "
 "pornit?"
 
 #: messagePrivate
