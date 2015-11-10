@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 06:56+0000\n"
+"POT-Creation-Date: 2015-11-10 18:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 960503\n"
+"X-Pootle-Revision: 1201332\n"
 
 #: settings
 msgid "Settings"
@@ -350,8 +350,8 @@ msgid "Link speed"
 msgstr "Viteza legăturii"
 
 #: linkSpeedMbs
-msgid "{{ linkSpeed }} Mbit/s"
-msgstr "{{ linkSpeed }} Mbit/s"
+msgid "{{linkSpeed}} Mbit/s"
+msgstr "{{linkSpeed}} Mbit/s"
 
 #: signalStrength
 msgid "Signal strength"
@@ -452,8 +452,8 @@ msgstr "Adresă MAC"
 #. # os = OS version. For example: 2.0.
 #. # The whole string may look like this: "Firefox OS 2.0"
 #: deviceInfo_software
-msgid "{{ brandShortName }} {{ os }}"
-msgstr "{{ brandShortName }} {{ os }}"
+msgid "{{brandShortName}} {{os}}"
+msgstr "{{brandShortName}} {{os}}"
 
 #: macUnavailable
 msgctxt "macUnavailable"
@@ -860,6 +860,10 @@ msgstr "Codul de acces nu se potrivește."
 #: callBarring-update-item-error
 msgid "Error while updating the item: {{error}}."
 msgstr "Eroare la actualizarea elementului {{error}}."
+
+#: callBarring-update-generic-error
+msgid "Network or passcode error"
+msgstr ""
 
 #: callBarring-change-passcode-success
 msgid "Passcode changed."
@@ -1527,25 +1531,17 @@ msgstr ""
 msgid "Turn ON data connection?"
 msgstr "Pornești conexiunea de date?"
 
-#: dataConnection-warning-message
-msgid ""
-"Applications will automatically fetch data via data connection when "
-"required. Additional data charges may apply."
+#: dataConnection-warning-message-short
+msgid "Automatically fetch mobile network data."
 msgstr ""
-"Aplicațiile vor culege automat date via conexiunea de date când este "
-"necesar. Se pot aplica costuri în plus pentru traficul de date."
 
 #: dataRoaming-warning-head
 msgid "Turn ON data roaming?"
 msgstr "Pornești roamingul de date?"
 
-#: dataRoaming-warning-message
-msgid ""
-"Depending on your service agreement, extra charges may apply for data when "
-"you are in a roaming area."
+#: dataRoaming-warning-message-short
+msgid "Fetch data when roaming."
 msgstr ""
-"În funcție de contractul serviciului, se pot aplica costuri în plus pentru "
-"traficul de date când ești într-o zonă roaming."
 
 #: change-apn-warning-message1
 msgid ""
@@ -2809,13 +2805,13 @@ msgstr "Retrage"
 msgid "Ask"
 msgstr "Întreabă"
 
-#: deny
-msgid "Deny"
-msgstr "Refuză"
+#: block
+msgid "Block"
+msgstr ""
 
-#: allow
-msgid "Grant"
-msgstr "Acordă"
+#: allow2
+msgid "Allow"
+msgstr ""
 
 #: uninstallApp
 msgid "Uninstall App"
@@ -5199,8 +5195,8 @@ msgid "{{settings-dialog-prompt}}"
 msgstr "{{settings-dialog-prompt}}"
 
 #: accessible-app-icon.ariaLabel
-msgid "Icon for {{ appName }} app"
-msgstr "Iconiță pentru aplicația {{ appName }}"
+msgid "Icon for {{appName}} app"
+msgstr "Iconiță pentru aplicația {{appName}}"
 
 #. # Addongs settings
 #: addon
@@ -5222,8 +5218,8 @@ msgid "{{addons}}"
 msgstr "{{addons}}"
 
 #: addon-details-header1
-msgid "{{ appName }}"
-msgstr "{{ appName }}"
+msgid "{{appName}}"
+msgstr "{{appName}}"
 
 #: addon-enable
 msgid "Enable Add-on"
@@ -5235,8 +5231,8 @@ msgid "Description"
 msgstr "Descriere"
 
 #: addon-developer-name
-msgid "{{ developerName }}"
-msgstr "{{ developerName }}"
+msgid "{{developerName}}"
+msgstr "{{developerName}}"
 
 #: addon-targets
 msgid "Affected Apps"
