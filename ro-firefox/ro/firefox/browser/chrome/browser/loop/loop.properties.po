@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-10 18:46+0000\n"
+"POT-Creation-Date: 2015-11-16 11:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/loop/loop.properties.po\n"
-"X-Pootle-Revision: 1383569\n"
+"X-Pootle-Revision: 1448288\n"
 
 #. # Panel Strings
 #. ## LOCALIZATION NOTE(clientShortname2): This should not be localized and
@@ -56,6 +56,14 @@ msgstr "Navighează pe această pagină cu un prieten"
 
 #: panel_stop_sharing_tabs_button
 msgid "Stop sharing your tabs"
+msgstr ""
+
+#: panel_start_conversation_button
+msgid "Start a conversation"
+msgstr "Pornește o conversație"
+
+#: panel_end_conversation_button
+msgid "End conversation"
 msgstr ""
 
 #: first_time_experience_button_label
@@ -505,6 +513,20 @@ msgstr ""
 #: rooms_list_currently_browsing
 msgid "CURRENTLY BROWSING"
 msgstr ""
+
+#. ## LOCALIZATION NOTE (rooms_list_all_conversations_header): String is in all caps
+#. ## for emphasis reasons, it is a heading. Proceed as appropriate for locale.
+#: rooms_list_all_conversations_header
+#, fuzzy
+msgid "CURRENT CONVERSATIONS"
+msgstr "CONVERSAȚII RECENTE"
+
+#. ## LOCALIZATION NOTE (rooms_list_opened_conversation_header): String is in all caps
+#. ## for emphasis reasons, it is a heading. Proceed as appropriate for locale.
+#: rooms_list_opened_conversation_header
+#, fuzzy
+msgid "CURRENT CONVERSATION"
+msgstr "CONVERSAȚII RECENTE"
 
 #: rooms_change_failed_label
 msgid "Conversation cannot be updated"
