@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-16 11:30+0000\n"
+"POT-Creation-Date: 2015-11-19 22:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.0/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 789485\n"
+"X-Pootle-Revision: 1574475\n"
 
 #: settings
 msgid "Settings"
@@ -1871,11 +1871,11 @@ msgstr "Fus orar"
 
 #: dateMessage
 msgid "Date"
-msgstr "Dată"
+msgstr "Data"
 
 #: timeMessage
 msgid "Time"
-msgstr "Oră"
+msgstr "Ora"
 
 #: selectTimezoneContinent
 msgid "Select continent"
@@ -3928,7 +3928,7 @@ msgstr "Sprijină {{brandShortName}}"
 
 #: sendMozillaFeedback
 msgid "Send Mozilla Feedback"
-msgstr "Trimite feedbackul la Mozilla"
+msgstr "Trimite feedback la Mozilla"
 
 #: performanceData
 msgid "Performance data"
