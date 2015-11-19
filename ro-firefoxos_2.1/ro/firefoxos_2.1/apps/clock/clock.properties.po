@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-16 11:30+0000\n"
+"POT-Creation-Date: 2015-11-19 22:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos_2.1/apps/clock/clock.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 1574194\n"
 
 #: reset
 msgid "Reset"
@@ -93,7 +93,7 @@ msgstr "Șterge"
 
 #: time
 msgid "Time"
-msgstr "Oră"
+msgstr "Ora"
 
 #: snooze-label
 msgctxt "snooze-label"
@@ -140,7 +140,7 @@ msgstr "Alarmă nouă"
 #. # the System Alarm Volume for all clock alarms.
 #: alarm-volume-label
 msgid "System Alarm Volume"
-msgstr "Volum de alarmă din sistem"
+msgstr "Volum de alarmă pentru sistem"
 
 #: sound
 msgid "Sound"
