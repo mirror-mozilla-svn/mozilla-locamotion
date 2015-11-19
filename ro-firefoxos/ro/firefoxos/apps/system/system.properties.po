@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-16 11:30+0000\n"
+"POT-Creation-Date: 2015-11-19 22:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/system.properties.po\n"
-"X-Pootle-Revision: 1198775\n"
+"X-Pootle-Revision: 1574302\n"
 
 #: ok
 msgctxt "ok"
@@ -1064,6 +1064,10 @@ msgstr "Deblochează"
 #: camera-a11y-button.ariaLabel
 msgid "Camera"
 msgstr "Cameră"
+
+#: next-alarm.ariaLabel
+msgid "Next Alarm"
+msgstr ""
 
 #. # see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
 #: longDateFormat
@@ -2298,7 +2302,7 @@ msgstr "Ok ({{n}})"
 #. # title of the dialog that explains this new feature to new users.
 #: tracking-notice-header
 msgid "New! Tracking Protection"
-msgstr ""
+msgstr "Nou! Protecție față de urmărire"
 
 #. # LOCALIZATION NOTE (tracking-notice-description-v2): This string is used as
 #. # introduction to the new feature. Link to the feature description in mdn.
@@ -2307,6 +2311,8 @@ msgid ""
 "This new feature helps protect your browsing activity by preventing "
 "potential trackers from loading."
 msgstr ""
+"Această funcție nouă ajută la protejarea activității de navigare împiedicând "
+"ca elementele de urmărire potențiale să se încarce."
 
 #: tracking-notice-learn-more
 msgid "Learn More"
@@ -2315,7 +2321,7 @@ msgstr ""
 #. # LOCALIZATION NOTE (tracking-protection): Name of the new feature
 #: tracking-protection
 msgid "Tracking Protection"
-msgstr ""
+msgstr "Protecție față de urmărire"
 
 #. # LOCALIZATION NOTE (tracking-protection-setting-description): Shown below the
 #. # toggle that enables/disables the feature

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-16 11:30+0000\n"
+"POT-Creation-Date: 2015-11-19 22:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 1201332\n"
+"X-Pootle-Revision: 1574630\n"
 
 #: settings
 msgid "Settings"
@@ -213,57 +213,63 @@ msgstr "Căutare…"
 msgid "Search Again"
 msgstr "Caută din nou"
 
-#: fullStatus-initializing
+#: full-status-initializing
 msgid "Initializing…"
 msgstr "Inițializare…"
 
-#: fullStatus-connecting
+#: full-status-connecting
 msgid "Connecting to {{ssid}}…"
 msgstr "Conectare la {{ssid}}…"
 
-#: fullStatus-associated
-msgctxt "fullStatus-associated"
+#: full-status-associated
+#, fuzzy
+msgctxt "full-status-associated"
 msgid "Obtaining an IP address…"
 msgstr "Se obține o adresă IP…"
 
-#: fullStatus-connected
+#: full-status-connected
 msgid "Connected to {{ssid}}"
 msgstr "Conectat la {{ssid}}"
 
-#: fullStatus-connectingfailed
-msgctxt "fullStatus-connectingfailed"
+#: full-status-connectingfailed
+#, fuzzy
+msgctxt "full-status-connectingfailed"
 msgid "Connection failed"
 msgstr "Conexiune eșuată"
 
-#: fullStatus-disconnected
-msgctxt "fullStatus-disconnected"
-msgid "Offline"
-msgstr "Offline"
+#: full-status-disconnected
+msgctxt "full-status-disconnected"
+msgid "Not connected"
+msgstr ""
 
-#: shortStatus-connecting
-msgctxt "shortStatus-connecting"
+#: short-status-connecting
+#, fuzzy
+msgctxt "short-status-connecting"
 msgid "Connecting…"
 msgstr "Conectare…"
 
-#: shortStatus-associated
-msgctxt "shortStatus-associated"
+#: short-status-associated
+#, fuzzy
+msgctxt "short-status-associated"
 msgid "Obtaining an IP address…"
 msgstr "Se obține o adresă IP…"
 
-#: shortStatus-connected
-msgctxt "shortStatus-connected"
+#: short-status-connected
+#, fuzzy
+msgctxt "short-status-connected"
 msgid "Connected"
 msgstr "Conectat"
 
-#: shortStatus-connectingfailed
-msgctxt "shortStatus-connectingfailed"
+#: short-status-connectingfailed
+#, fuzzy
+msgctxt "short-status-connectingfailed"
 msgid "Connection failed"
 msgstr "Conexiune eșuată"
 
-#: shortStatus-disconnected
-msgctxt "shortStatus-disconnected"
-msgid "Offline"
-msgstr "Offline"
+#: short-status-disconnected
+msgctxt "short-status-disconnected"
+msgid "Not connected"
+msgstr ""
 
 #: wifi-sleep
 msgid "Wi-Fi Sleep"
@@ -1531,6 +1537,14 @@ msgstr ""
 msgid "Turn ON data connection?"
 msgstr "Pornești conexiunea de date?"
 
+#: dataConnection-warning-message
+msgid ""
+"Applications will automatically fetch data via data connection when "
+"required. Additional data charges may apply."
+msgstr ""
+"Aplicațiile vor culege automat date via conexiunea de date când este "
+"necesar. Se pot aplica costuri în plus pentru traficul de date."
+
 #: dataConnection-warning-message-short
 msgid "Automatically fetch mobile network data."
 msgstr ""
@@ -1538,6 +1552,14 @@ msgstr ""
 #: dataRoaming-warning-head
 msgid "Turn ON data roaming?"
 msgstr "Pornești roamingul de date?"
+
+#: dataRoaming-warning-message
+msgid ""
+"Depending on your service agreement, extra charges may apply for data when "
+"you are in a roaming area."
+msgstr ""
+"În funcție de contractul serviciului, se pot aplica costuri în plus pentru "
+"traficul de date când ești într-o zonă roaming."
 
 #: dataRoaming-warning-message-short
 msgid "Fetch data when roaming."
@@ -2203,11 +2225,11 @@ msgstr "Fus orar"
 
 #: dateMessage
 msgid "Date"
-msgstr "Dată"
+msgstr "Data"
 
 #: timeMessage
 msgid "Time"
-msgstr "Oră"
+msgstr "Ora"
 
 #: selectTimezoneContinent
 msgid "Select continent"
@@ -2228,7 +2250,7 @@ msgstr "Formatul orei"
 
 #: useDefaultTimeFormat
 msgid "Use Default"
-msgstr ""
+msgstr "Folosește setarea implicită"
 
 #: hour-12
 msgid "12-hour"
@@ -2356,13 +2378,11 @@ msgstr "Transferul de date actual va fi suspendat. Continui oricum?"
 
 #. # Personalization :: Home Screens
 #: home-screens
-#, fuzzy
 msgctxt "home-screens"
 msgid "Home Screens"
 msgstr "Ecrane principale"
 
 #: home-screens.ariaLabel
-#, fuzzy
 msgctxt "home-screens.ariaLabel"
 msgid "Home Screens"
 msgstr "Ecrane principale"
@@ -2427,18 +2447,16 @@ msgstr ""
 
 #. # Personalization :: Home Screens :: Home Screens List
 #: change-home-screen
-#, fuzzy
 msgid "Change Home Screen"
 msgstr "Schimbă ecranul principal"
 
 #: get-more-home-screens
 msgid "Get More Home Screens"
-msgstr ""
+msgstr "Obține mai multe ecrane principale"
 
 #: my-home-screens
-#, fuzzy
 msgid "My Home Screens"
-msgstr "Ecrane principale"
+msgstr "Ecranele mele principale"
 
 #. # Personalization :: Home Screens :: Home Screens List :: Home Screen Details
 #: home-screen-description
@@ -2611,19 +2629,6 @@ msgstr "Despre"
 #: fxa-logged-in-text
 msgid "Signed in as {{email}}"
 msgstr "Autentificat ca {{email}}"
-
-#: fxa-signed-in-header
-msgid "Signed In"
-msgstr "Autentificat"
-
-#: fxa-marketplace-app
-msgid "Marketplace"
-msgstr "Marketplace"
-
-#: fxa-find-my-device-app
-msgctxt "fxa-find-my-device-app"
-msgid "Find My Device"
-msgstr "Găsește-mi dispozitivul"
 
 #: fxa-options
 msgctxt "fxa-options"
@@ -3280,12 +3285,12 @@ msgstr ""
 #: browsingPrivacy
 msgctxt "browsingPrivacy"
 msgid "Browsing Privacy"
-msgstr "Confidențialitate navigare"
+msgstr "Confidențialitate de navigare"
 
 #: browsingPrivacy.ariaLabel
 msgctxt "browsingPrivacy.ariaLabel"
 msgid "Browsing Privacy"
-msgstr "Confidențialitate navigare"
+msgstr "Confidențialitate de navigare"
 
 #. # LOCALIZATION NOTE (browsingPrivacy-header): if you leave the original
 #. # en-US value "{{browsingPrivacy}}" in the following string, the localization
@@ -3320,20 +3325,22 @@ msgstr "Curăță"
 
 #: privateBrowsing
 msgid "Private Browsing"
-msgstr ""
+msgstr "Navigare privată"
 
 #: privateBrowsingDetails
 msgid "Open all external links in new private windows."
-msgstr ""
+msgstr "Deschide toate linkurile externe în ferestre private noi."
 
 #: trackingProtection
 msgid "Tracking Protection"
-msgstr ""
+msgstr "Protecție față de urmărire"
 
 #: trackingProtectionDetails
 msgid ""
 "Protect your browsing activity against potential trackers in all new windows."
 msgstr ""
+"Protejează activitatea de navigare față de elementele de urmărire potențiale "
+"în toate ferestrele noi."
 
 #: browser-privacy-history-header
 msgid "History"
@@ -3371,7 +3378,6 @@ msgid "Storage"
 msgstr "Stocare"
 
 #: enableUSBStorage1
-#, fuzzy
 msgctxt "enableUSBStorage1"
 msgid "USB Storage"
 msgstr "Stocare USB"
@@ -4154,9 +4160,13 @@ msgstr "Restituiri"
 msgid "Jank"
 msgstr "Jank"
 
-#: jank-threshold
-msgid "Jank Threshold"
-msgstr "Jank Threshold"
+#: hud-jank-threshold
+msgid "Jank Threshold (ms)"
+msgstr ""
+
+#: hud-reflows-threshold
+msgid "Duration Threshold (ms)"
+msgstr ""
 
 #: hud-fps
 msgid "Frames per Second"
@@ -4385,10 +4395,6 @@ msgstr "Tranziție continuă"
 msgid "Gaia Debug Traces"
 msgstr "Urme de depanare Gaia"
 
-#: showScreenReaderSettings
-msgid "Show Screen Reader Settings"
-msgstr "Arată setările cititorului de ecran"
-
 #: app-transition
 msgid "App Transition"
 msgstr "Tranziție între aplicații"
@@ -4487,6 +4493,8 @@ msgid ""
 "Developer Mode can't be enabled without the developer menu first being "
 "enabled."
 msgstr ""
+"Modul dezvoltator nu poate fi activat fără ca meniul dezvoltator să fie mai "
+"întâi activat."
 
 #: developer-menu-disabled-warning-msg-2
 msgid ""
@@ -4505,7 +4513,7 @@ msgstr ""
 
 #: enable-full-dev-mode-first-warning-msg-2
 msgid "THIS WILL DISABLE ALL SECURITY MEASURES ON YOUR DEVICE."
-msgstr ""
+msgstr "ACEST LUCRU VA DEZACTIVA TOATE MĂSURILE DE SECURITATE DE PE DISPOZITIV."
 
 #: enable-full-dev-mode-final-warning-title
 msgid "Are you sure you want to enable developer mode?"
@@ -4656,19 +4664,19 @@ msgstr "{{colorFilter}}"
 
 #: accessibility-audio
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: accessibility-audio-monoAudio
 msgid "Mono Audio"
-msgstr ""
+msgstr "Mono Audio"
 
 #: mono-enabled
 msgid "Mono enabled"
-msgstr ""
+msgstr "Mono activat"
 
 #: mono-disabled
 msgid "Mono disabled"
-msgstr ""
+msgstr "Mono dezactivat"
 
 #. # Device :: Accessibility :: Screen reader
 #: screenReader-captions
@@ -4737,15 +4745,15 @@ msgstr "Contrast"
 #. # Device :: Accessibility :: Input
 #: accessibility-input
 msgid "Input"
-msgstr ""
+msgstr "Intrare"
 
 #: accessibility-input-desc
 msgid "Touch and gesture adjustments"
-msgstr ""
+msgstr "Ajustări pentru ecran tacil și gesturi"
 
 #: tap-hold-delay
 msgid "Tap & Hold Delay"
-msgstr ""
+msgstr "Întârziere pentru apăsare și ținere"
 
 #: short-hold-delay
 #, fuzzy
@@ -4781,7 +4789,7 @@ msgstr "Îmbunătățește {{brandShortName}}"
 
 #: sendMozillaFeedback
 msgid "Send Mozilla Feedback"
-msgstr "Trimite feedbackul la Mozilla"
+msgstr "Trimite feedback la Mozilla"
 
 #: performanceAndUsageData
 msgid "Performance and Usage Data"
@@ -5194,9 +5202,9 @@ msgstr "{{settings-dialog-confirm}}"
 msgid "{{settings-dialog-prompt}}"
 msgstr "{{settings-dialog-prompt}}"
 
-#: accessible-app-icon.ariaLabel
-msgid "Icon for {{appName}} app"
-msgstr "Iconiță pentru aplicația {{appName}}"
+#: accessibility-app-icon.ariaLabel
+msgid "{{appName}} app"
+msgstr ""
 
 #. # Addongs settings
 #: addon
@@ -5463,7 +5471,6 @@ msgid "Do Not Track"
 msgstr "Nu mă urmări"
 
 #: enableStorageSection.ariaLabel
-#, fuzzy
 msgctxt "enableStorageSection.ariaLabel"
 msgid "USB Storage"
 msgstr "Stocare USB"
@@ -5488,33 +5495,34 @@ msgid ""
 "Help us improve our products and services by automatically sending analytics "
 "data. Data rates and charges may apply."
 msgstr ""
+"Ajută-ne să ne îmbunătățim produsele și serviciile trimițând automat date "
+"analitice. Se pot aplica tarife și costuri pentru traficul de date."
 
 #: learn-more-privacy
 msgid "Read our <a>Privacy Notice</a>"
-msgstr ""
+msgstr "Citește-ne <a>Politica de confidențialitate</a>"
 
 #: basicMetricsRadio
 msgid "Basic"
-msgstr ""
+msgstr "Date de bază"
 
 #: enhancedMetricsRadio
 msgid "Enhanced"
-msgstr ""
+msgstr "Date avansate"
 
 #: noneMetricsRadio
-#, fuzzy
 msgctxt "noneMetricsRadio"
 msgid "None"
-msgstr "Nimic"
+msgstr "Niciun fel de date"
 
 #: basicMetricsExplain
 msgid "Send app usage and error reports."
-msgstr ""
+msgstr "Trimite utilizarea de aplicații și raporturi de erori."
 
 #: enhancedMetricsExplain
 msgid "Send Basic report plus diagnostic information."
-msgstr ""
+msgstr "Trimite raport cu date de bază plus informații de diagnosticare."
 
 #: noneMetricsExplain
 msgid "Do not send any data."
-msgstr ""
+msgstr "Nu trimite deloc date."

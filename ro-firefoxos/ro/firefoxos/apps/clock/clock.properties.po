@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-16 11:30+0000\n"
+"POT-Creation-Date: 2015-11-19 22:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/clock/clock.properties.po\n"
-"X-Pootle-Revision: 1201326\n"
+"X-Pootle-Revision: 1574453\n"
 
 #: reset
 msgid "Reset"
@@ -85,7 +85,7 @@ msgstr "Șterge"
 
 #: time
 msgid "Time"
-msgstr "Oră"
+msgstr "Ora"
 
 #: snooze-label
 msgctxt "snooze-label"
@@ -132,7 +132,7 @@ msgstr "Alarmă nouă"
 #. # the System Alarm Volume for all clock alarms.
 #: alarm-volume-label
 msgid "System Alarm Volume"
-msgstr "Volum de alarmă din sistem"
+msgstr "Volum de alarmă pentru sistem"
 
 #: sound
 msgid "Sound"
@@ -193,7 +193,6 @@ msgid "less than a minute"
 msgstr "mai puțin de un minut"
 
 #: alarmMinutes[one]
-#, fuzzy
 msgctxt "alarmMinutes[one]"
 msgid "one minute"
 msgstr "un minut"
@@ -201,22 +200,22 @@ msgstr "un minut"
 #: alarmMinutes[two]
 msgctxt "alarmMinutes[two]"
 msgid "{{minutes}} minutes"
-msgstr ""
+msgstr "{{minutes}} minute"
 
 #: alarmMinutes[few]
 msgctxt "alarmMinutes[few]"
 msgid "{{minutes}} minutes"
-msgstr ""
+msgstr "{{minutes}} minute"
 
 #: alarmMinutes[many]
 msgctxt "alarmMinutes[many]"
 msgid "{{minutes}} minutes"
-msgstr ""
+msgstr "{{minutes}} minute"
 
 #: alarmMinutes[other]
 msgctxt "alarmMinutes[other]"
 msgid "{{minutes}} minutes"
-msgstr ""
+msgstr "{{minutes}} minute"
 
 #: alarmHours
 msgid "{[ plural(hours) ]}"
@@ -285,7 +284,6 @@ msgid "<strong>{{days}} days</strong>"
 msgstr "<strong>{{days}} zile</strong>"
 
 #: nSpinnerMinutes.ariaValuetext
-#, fuzzy
 msgctxt "nSpinnerMinutes.ariaValuetext"
 msgid "{[ plural(n) ]}"
 msgstr "{[ plural(n) ]}"
@@ -295,37 +293,31 @@ msgid "zero minutes"
 msgstr "zero minute"
 
 #: nSpinnerMinutes.ariaValuetext[one]
-#, fuzzy
 msgctxt "nSpinnerMinutes.ariaValuetext[one]"
 msgid "one minute"
 msgstr "un minut"
 
 #: nSpinnerMinutes.ariaValuetext[two]
-#, fuzzy
 msgctxt "nSpinnerMinutes.ariaValuetext[two]"
 msgid "{{n}} minutes"
 msgstr "{{n}} minute"
 
 #: nSpinnerMinutes.ariaValuetext[few]
-#, fuzzy
 msgctxt "nSpinnerMinutes.ariaValuetext[few]"
 msgid "{{n}} minutes"
 msgstr "{{n}} minute"
 
 #: nSpinnerMinutes.ariaValuetext[many]
-#, fuzzy
 msgctxt "nSpinnerMinutes.ariaValuetext[many]"
 msgid "{{n}} minutes"
 msgstr "{{n}} minute"
 
 #: nSpinnerMinutes.ariaValuetext[other]
-#, fuzzy
 msgctxt "nSpinnerMinutes.ariaValuetext[other]"
 msgid "{{n}} minutes"
 msgstr "{{n}} minute"
 
 #: nSpinnerHours.ariaValuetext
-#, fuzzy
 msgctxt "nSpinnerHours.ariaValuetext"
 msgid "{[ plural(n) ]}"
 msgstr "{[ plural(n) ]}"
@@ -339,25 +331,21 @@ msgid "{{n}} hour"
 msgstr "{{n}} oră"
 
 #: nSpinnerHours.ariaValuetext[two]
-#, fuzzy
 msgctxt "nSpinnerHours.ariaValuetext[two]"
 msgid "{{n}} hours"
 msgstr "{{n}} ore"
 
 #: nSpinnerHours.ariaValuetext[few]
-#, fuzzy
 msgctxt "nSpinnerHours.ariaValuetext[few]"
 msgid "{{n}} hours"
 msgstr "{{n}} ore"
 
 #: nSpinnerHours.ariaValuetext[many]
-#, fuzzy
 msgctxt "nSpinnerHours.ariaValuetext[many]"
 msgid "{{n}} hours"
 msgstr "{{n}} ore"
 
 #: nSpinnerHours.ariaValuetext[other]
-#, fuzzy
 msgctxt "nSpinnerHours.ariaValuetext[other]"
 msgid "{{n}} hours"
 msgstr "{{n}} ore"

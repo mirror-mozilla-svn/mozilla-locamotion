@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-16 11:30+0000\n"
+"POT-Creation-Date: 2015-11-19 22:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/ftu/ftu.properties.po\n"
-"X-Pootle-Revision: 1198745\n"
+"X-Pootle-Revision: 1574390\n"
 
 #: pincode2
 msgid "Enter PIN code"
@@ -922,6 +922,8 @@ msgid ""
 "Help us improve our products and services by automatically sending analytics "
 "data."
 msgstr ""
+"Ajută-ne să ne îmbunătățim produsele și serviciile trimițând automat date "
+"analitice."
 
 #: learn-more-privacy2
 msgid ""
@@ -932,7 +934,7 @@ msgstr ""
 
 #: learn-more-privacy3
 msgid "Read our <a>Privacy Notice</a>"
-msgstr ""
+msgstr "Citește-ne <a>Politica de confidențialitate</a>"
 
 #: aboutBrowser
 msgid "About {{brandShortName}}"
@@ -992,29 +994,28 @@ msgstr "{{privacy-marketplace}}"
 
 #: basicMetricsRadio
 msgid "Basic"
-msgstr ""
+msgstr "Date de bază"
 
 #: enhancedMetricsRadio
 msgid "Enhanced"
-msgstr ""
+msgstr "Date avansate"
 
 #: noneMetricsRadio
-#, fuzzy
 msgctxt "noneMetricsRadio"
 msgid "None"
-msgstr "Nimic"
+msgstr "Niciun fel de date"
 
 #: basicMetricsExplain
 msgid "Send app usage and error reports."
-msgstr ""
+msgstr "Trimite utilizarea de aplicații și raporturi de erori."
 
 #: enhancedMetricsExplain
 msgid "Send Basic report plus diagnostic information."
-msgstr ""
+msgstr "Trimite raport cu date de bază plus informații de diagnosticare."
 
 #: noneMetricsExplain
 msgid "Do not send any data."
-msgstr ""
+msgstr "Nu trimite deloc date."
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Navigation bar
