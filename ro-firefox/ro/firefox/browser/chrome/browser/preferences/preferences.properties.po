@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-16 11:29+0000\n"
+"POT-Creation-Date: 2015-11-19 22:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/preferences/preferences.properties.po\n"
-"X-Pootle-Revision: 1448316\n"
+"X-Pootle-Revision: 1574305\n"
 
 #. #### Security
 #. # LOCALIZATION NOTE: phishBefore uses %S to represent the name of the provider
@@ -148,6 +148,8 @@ msgstr ""
 #: mozstdDesc
 msgid "Allows some trackers so websites function properly."
 msgstr ""
+"Permite unele elemente de urmărire astfel ca site-urile web să funcționeze "
+"corespunzător."
 
 #: mozfullName
 msgid "Disconnect.me strict protection."
@@ -156,6 +158,8 @@ msgstr ""
 #: mozfullDesc
 msgid "Blocks known trackers. Some sites may not function properly."
 msgstr ""
+"Blochează elementele de urmărire cunoscute. Unele site-uri pot să nu "
+"funcționeze corespunzător."
 
 #. # LOCALIZATION NOTE (blocklistChangeRequiresRestart): %S = brandShortName
 #: blocklistChangeRequiresRestart
@@ -428,6 +432,10 @@ msgstr "%S trebuie repornit pentru a activa această funcționalitate."
 #: featureDisableRequiresRestart
 msgid "%S must restart to disable this feature."
 msgstr "%S trebuie repornit pentru a dezactiva această funcționalitate."
+
+#: shouldRestartTitle
+msgid "Restart %S"
+msgstr "Repornire %S"
 
 #. #### e10S
 #. # LOCALIZATION NOTE (e10sFeedbackAfterRestart): This message appears when the user
