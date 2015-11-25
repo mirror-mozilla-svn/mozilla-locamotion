@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-19 22:08+0000\n"
+"POT-Creation-Date: 2015-11-25 09:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/fxa/fxa.properties.po\n"
-"X-Pootle-Revision: 97114\n"
+"X-Pootle-Revision: 1604378\n"
 
 #: firefox-accounts-title
 msgid "Firefox Accounts"
@@ -62,19 +62,11 @@ msgstr "Poți reseta parola din Setări."
 msgid "Cannot Create Account"
 msgstr "Nu se poate crea cont"
 
-#: fxa-coppa-failure-error-message
+#: fxa-coppa-failure-error-message2
 msgid ""
-"You must meet certain age requirements to create a Firefox Account. "
-"{{learnmore}}"
+"You must meet certain age requirements to create a Firefox Account. <a id"
+"=\"coppa-link\" href=\"#\">Learn more</a>"
 msgstr ""
-"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un cont "
-"Firefox. {{learnmore}}"
-
-#. # LOCALIZATION NOTE(fxa-learn-more): This string corresponds to the {{learnmore}}
-#. # placeholder in fxa-coppa-failure-error-message.
-#: fxa-learn-more
-msgid "Learn more"
-msgstr "Află mai multe"
 
 #. # this is a real error screen (13.2 and 17.2 in spec)
 #: fxa-offline-error-title
@@ -133,9 +125,11 @@ msgid "Use your email address to create an account or sign in."
 msgstr ""
 "Folosește adresa ta de e-mail pentru a crea un cont sau pentru autentificare."
 
-#: fxa-notice
+#: fxa-notice2
+#, fuzzy
 msgid ""
-"By proceeding, I agree to the {{tos}} and {{pn}} of Firefox cloud services."
+"By proceeding, I agree to the <a>{{tos}}</a> and <a>{{pn}}</a> of Firefox "
+"cloud services."
 msgstr ""
 "Continunând, sunt de acord cu {{tos}} și {{pn}} a serviciilor cloud Firefox."
 
@@ -162,9 +156,9 @@ msgstr "Creează o parolă"
 msgid "Enter Your Password"
 msgstr "Introdu parola"
 
-#: fxa-hello-user
-msgid "Hello, {{email}}"
-msgstr "Salut, {{email}}"
+#: fxa-hello-user2
+msgid "Hello, <a>{{email}}</a>"
+msgstr ""
 
 #: fxa-password-refresh
 msgid "Please enter your Firefox Account password to continue."
@@ -216,9 +210,9 @@ msgstr "În viitor poți accesa și gestiona contul tău din Setări."
 msgid "Confirm Your Account"
 msgstr "Confirmă contul"
 
-#: fxa-will-send-email
-msgid "We will send an email to: {{email}}"
-msgstr "Vom trimite un e-mail către: {{email}}"
+#: fxa-will-send-email2
+msgid "We will send an email to: <strong>{{email}}</strong>"
+msgstr ""
 
 #: fxa-signup-click-verification-link-in-email
 msgid ""

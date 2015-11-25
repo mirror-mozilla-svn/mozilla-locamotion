@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-19 22:08+0000\n"
+"POT-Creation-Date: 2015-11-25 09:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/system.properties.po\n"
-"X-Pootle-Revision: 1574302\n"
+"X-Pootle-Revision: 1604383\n"
 
 #: ok
 msgctxt "ok"
@@ -713,10 +713,10 @@ msgstr ""
 msgid "This add-on is able to affect your device on a system level."
 msgstr ""
 
-#: addon-disable-instructions
+#: addon-disable-instructions2
 msgid ""
-"If this add-on causes a problem, press and hold the power button during "
-"start up until the device vibrates for a second time to disable all add-ons."
+"If this add-on causes a problem, press the power button during start up to "
+"disable all add-ons."
 msgstr ""
 
 #. #setup dialog
@@ -896,6 +896,22 @@ msgstr ""
 
 #: systemUpdateErrorDetails
 msgid "Tap for more details"
+msgstr ""
+
+#: addonUpdate
+msgid "Add-on Updates are Automatic"
+msgstr ""
+
+#: addonUpdateDetails
+msgid "Tap to change these settings"
+msgstr ""
+
+#: addonUpdated
+msgid "{{name}} Updated"
+msgstr ""
+
+#: addonUpdatedDetails
+msgid "Tap to view add-on"
 msgstr ""
 
 #. # LOCALIZATION NOTE (systemUpdateLowBatteryThreshold): {{ threshold }} will be

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-19 22:08+0000\n"
+"POT-Creation-Date: 2015-11-25 09:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 1574630\n"
+"X-Pootle-Revision: 1604373\n"
 
 #: settings
 msgid "Settings"
@@ -2134,7 +2134,9 @@ msgstr "5 minute"
 msgid "10 minutes"
 msgstr "10 minute"
 
-#: never
+#: screen-timeout-never
+#, fuzzy
+msgctxt "screen-timeout-never"
 msgid "never"
 msgstr "niciodată"
 
@@ -3905,6 +3907,14 @@ msgctxt "reset-warning-title"
 msgid "CAUTION"
 msgstr "ATENȚIE"
 
+#: addons-auto-update
+msgid "Automatic add-on updates"
+msgstr ""
+
+#: addons-update-notify
+msgid "Notify me after install"
+msgstr ""
+
 #. # LOCALIZATION NOTE: the licensing* strings below aren’t ready for translation yet.
 #: your-rights
 msgid "Your Rights"
@@ -4609,6 +4619,12 @@ msgstr "Mod de economisire"
 #: powerSave-threshold
 msgid "{{level}}% battery left"
 msgstr "la {{level}}% baterie rămasă"
+
+#: powerSave-never
+#, fuzzy
+msgctxt "powerSave-never"
+msgid "never"
+msgstr "niciodată"
 
 #: turnOnAuto
 msgid "Turn On Automatically"

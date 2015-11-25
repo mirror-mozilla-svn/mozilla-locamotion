@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-19 22:08+0000\n"
+"POT-Creation-Date: 2015-11-25 09:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/video/video.properties.po\n"
-"X-Pootle-Revision: 1489751\n"
+"X-Pootle-Revision: 1604387\n"
 
 #: done
 msgid "Done"
@@ -99,6 +99,7 @@ msgstr "Videoclipuri"
 
 #: cancel
 #, fuzzy
+msgctxt "cancel"
 msgid "Cancel"
 msgstr "Renunță"
 
@@ -178,6 +179,12 @@ msgstr "Nu se poate reda videoclipul"
 #: video-hardware-in-use-text
 msgid "Another app is currently using the video player."
 msgstr "Altă aplicație folosește în prezent playerul video."
+
+#: overlay-cancel-button
+#, fuzzy
+msgctxt "overlay-cancel-button"
+msgid "Cancel"
+msgstr "Renunță"
 
 #: overlay-camera-button
 msgid "Go to Camera"
