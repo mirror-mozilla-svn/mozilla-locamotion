@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/base/android_strings.dtd.po\n"
-"X-Pootle-Revision: 1574270\n"
+"X-Pootle-Revision: 1674933\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -686,16 +686,16 @@ msgstr "Dezactivate"
 
 #: pref_tap_to_load_images_title
 msgid "Tap-to-load images"
-msgstr ""
+msgstr "Atinge pentru a încărca imaginile"
 
 #: pref_tap_to_load_images_summary2
 msgid "Load images only when you long press them"
-msgstr ""
+msgstr "Încarcă imaginile doar la apăsarea lungă a acestora"
 
 #: pref_tracking_protection_title
 msgctxt "pref_tracking_protection_title"
 msgid "Tracking protection"
-msgstr "Protecția față de urmărire"
+msgstr "Protecție față de urmărire"
 
 #: pref_tracking_protection_summary3
 msgctxt "pref_tracking_protection_summary3"
@@ -711,10 +711,9 @@ msgid "&brandShortName; will tell sites that you do not want to be tracked"
 msgstr "&brandShortName; va spune site-urilor că nu dorești să fii urmărit"
 
 #: pref_tracking_protection_enabled
-#, fuzzy
 msgctxt "pref_tracking_protection_enabled"
 msgid "Enabled"
-msgstr "Activate"
+msgstr "Activată"
 
 #: pref_tracking_protection_enabled_pb
 msgctxt "pref_tracking_protection_enabled_pb"
@@ -722,10 +721,9 @@ msgid "Enabled in Private Browsing"
 msgstr "Activată în navigarea privată"
 
 #: pref_tracking_protection_disabled
-#, fuzzy
 msgctxt "pref_tracking_protection_disabled"
 msgid "Disabled"
-msgstr "Dezactivate"
+msgstr "Dezactivată"
 
 #: tracking_protection_prompt_title
 msgid "Now with Tracking Protection"
@@ -927,7 +925,7 @@ msgstr "Activează mereu zoom-ul"
 
 #: pref_zoom_force_enabled_summary
 msgid "Force override so you can zoom any page"
-msgstr "Forțează suprascrierea ca să poți face focalizare pe orice pagină"
+msgstr "Forțează suprascrierea ca să poți face zoom pe orice pagină"
 
 #: pref_voice_input
 msgid "Voice input"
@@ -963,7 +961,7 @@ msgstr "Arată sugestii de căutare"
 
 #: pref_history_search_suggestions
 msgid "Show search history"
-msgstr ""
+msgstr "Arată istoricul căutărilor"
 
 #: pref_import_android
 msgid "Import from Android"
@@ -987,19 +985,19 @@ msgstr "Istoricul formularelor"
 
 #: pref_private_data_cookies2
 msgid "Cookies & active logins"
-msgstr "Cookie-uri și autentificări active"
+msgstr "Cookie-urile și autentificările active"
 
 #: pref_private_data_passwords2
 msgid "Saved logins"
-msgstr "Autentificări salvate"
+msgstr "Autentificările salvate"
 
 #: pref_private_data_cache
 msgid "Cache"
-msgstr "Cache"
+msgstr "Cache-ul"
 
 #: pref_private_data_offlineApps
 msgid "Offline website data"
-msgstr "Date offline ale site-urilor web"
+msgstr "Datele offline ale site-urilor web"
 
 #: pref_private_data_siteSettings2
 msgid "Site settings"
@@ -1008,11 +1006,11 @@ msgstr "Setările site-urilor"
 #: pref_private_data_downloadFiles2
 msgctxt "pref_private_data_downloadFiles2"
 msgid "Downloads"
-msgstr "Descărcări"
+msgstr "Descărcările"
 
 #: pref_private_data_syncedTabs
 msgid "Synced tabs"
-msgstr "File sincronizate"
+msgstr "Filele sincronizate"
 
 #: pref_about_firefox
 msgid "About &brandShortName;"
@@ -1458,7 +1456,7 @@ msgstr "Arată adresa paginii"
 #. whether or not the magnifying glass is disabled.
 #: pref_magnifying_glass_enabled
 msgid "Magnify small areas"
-msgstr "Amplifică zonele mici"
+msgstr "Mărește zonele mici"
 
 #: pref_magnifying_glass_enabled_summary
 msgid "Enlarge links and form fields when tapping near them"
