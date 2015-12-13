@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:58+0000\n"
+"POT-Creation-Date: 2015-12-13 21:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/shared/date/date.properties.po\n"
-"X-Pootle-Revision: 480126\n"
+"X-Pootle-Revision: 1670601\n"
 
 #: weekday-0-long
 msgid "Sunday"
@@ -788,7 +788,7 @@ msgstr "0"
 #: firstDayOfTheWeek
 msgctxt "firstDayOfTheWeek"
 msgid "0"
-msgstr "0"
+msgstr "1"
 
 #. # This variable will be used to select time picker order
 #. # H - hour

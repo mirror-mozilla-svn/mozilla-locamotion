@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:58+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/settings/settings.properties.po\n"
-"X-Pootle-Revision: 1604373\n"
+"X-Pootle-Revision: 1652961\n"
 
 #: settings
 msgid "Settings"
@@ -567,7 +567,8 @@ msgid "Automatic Wi-Fi setup"
 msgstr "Configurare automată Wi-Fi"
 
 #: wpsMethodSelection
-msgid "Select a WPS method:"
+#, fuzzy
+msgid "Select a WPS Method:"
 msgstr "Selectează o metodă WPS:"
 
 #: wpsPbcLabel
@@ -689,7 +690,8 @@ msgid "Forward"
 msgstr "Redirecționare"
 
 #: callForwardingUnconditional
-msgid "Always forward"
+#, fuzzy
+msgid "Always Forward"
 msgstr "Redirecționare mereu"
 
 #: callForwardingUnconditionalShort
@@ -697,7 +699,8 @@ msgid "Always"
 msgstr "Mereu"
 
 #: callForwardingMobileBusy
-msgid "Forward when busy"
+#, fuzzy
+msgid "Forward When Busy"
 msgstr "Redirect. când este ocupat"
 
 #: callForwardingMobileBusyShort
@@ -705,7 +708,8 @@ msgid "When busy"
 msgstr "Când e ocupat"
 
 #: callForwardingNoReply
-msgid "Forward when unanswered"
+#, fuzzy
+msgid "Forward When Unanswered"
 msgstr "Redirect. la niciun răspuns"
 
 #: callForwardingNoReplyShort
@@ -713,7 +717,8 @@ msgid "When unanswered"
 msgstr "La niciun răspuns"
 
 #: callForwardingNotReachable
-msgid "Forward when unreachable"
+#, fuzzy
+msgid "Forward When Unreachable"
 msgstr "Redirect. când e inaccesibil"
 
 #: callForwardingNotReachableShort
@@ -783,7 +788,9 @@ msgid "{{callBarring}}"
 msgstr "{{callBarring}}"
 
 #: callBarring-outgoing
-msgid "Outgoing calls"
+#, fuzzy
+msgctxt "callBarring-outgoing"
+msgid "Outgoing Calls"
 msgstr "Apeluri efectuate"
 
 #: callBarring-baoc
@@ -796,11 +803,13 @@ msgid "International"
 msgstr "Internațional"
 
 #: callBarring-boicExhc
-msgid "International except Home Country"
+#, fuzzy
+msgid "International Except Home Country"
 msgstr "Internațional, exceptând țara de domiciliu"
 
 #: callBarring-incoming
-msgid "Incoming calls"
+#, fuzzy
+msgid "Incoming Calls"
 msgstr "Apeluri primite"
 
 #: callBarring-baic
@@ -809,7 +818,8 @@ msgid "All"
 msgstr "Toate"
 
 #: callBarring-baicR
-msgid "All while roaming"
+#, fuzzy
+msgid "All While Roaming"
 msgstr "Toate în roaming"
 
 #: callBarring-passcode
@@ -905,7 +915,8 @@ msgid "{{fdnSettings}}"
 msgstr "{{fdnSettings}}"
 
 #: fdn-authorizedNumbers
-msgid "Authorized numbers"
+#, fuzzy
+msgid "Authorized Numbers"
 msgstr "Numere autorizate"
 
 #. # LOCALIZATION NOTE (fdn-authorizedNumbers-header): if you leave the original
@@ -1190,7 +1201,7 @@ msgid "{{netOperator}}"
 msgstr "{{netOperator}}"
 
 #: availableOp
-msgid "Operators In The Area"
+msgid "Operators in the Area"
 msgstr ""
 
 #: preferredNetworkTypeAlertTitle
@@ -1655,11 +1666,13 @@ msgid "Paired devices"
 msgstr "Dispozitive asociate"
 
 #: bluetooth-devices-in-area
-msgid "Devices in the area"
+#, fuzzy
+msgid "Devices in the Area"
 msgstr "Dispozitive din zonă"
 
 #: bluetooth-visible-to-all
-msgid "Visible to all"
+#, fuzzy
+msgid "Visible to All"
 msgstr "Vizibil pentru toți"
 
 #: bluetooth-name-maxlength-alert
@@ -2103,7 +2116,8 @@ msgid "Brightness"
 msgstr "Luminozitate"
 
 #: brightness-autoAdjust
-msgid "Adjust automatically"
+#, fuzzy
+msgid "Adjust Automatically"
 msgstr "Ajustează automat"
 
 #: lockScreen
@@ -2195,11 +2209,13 @@ msgid "{{notifications}}"
 msgstr "{{notifications}}"
 
 #: lockscreen-notifications
-msgid "Show on lock screen"
+#, fuzzy
+msgid "Show on Lock Screen"
 msgstr "Arată pe ecran de blocare"
 
 #: notifications-resend
-msgid "Show after reboot"
+#, fuzzy
+msgid "Show After Reboot"
 msgstr "Afișează după repornire"
 
 #. # Personalization :: Date & Time
@@ -2324,6 +2340,8 @@ msgid "SIM Settings"
 msgstr "Setări SIM"
 
 #: sim-manager-outgoing-calls
+#, fuzzy
+msgctxt "sim-manager-outgoing-calls"
 msgid "Outgoing Calls"
 msgstr "Apeluri efectuate"
 
@@ -3259,7 +3277,8 @@ msgstr ""
 "urmărire"
 
 #: doNotTrack-dt
-msgid "How does Do Not Track work?"
+#, fuzzy
+msgid "How Does Do Not Track Work?"
 msgstr "Cum funcționează Nu mă urmări?"
 
 #: doNotTrack-dd1
@@ -3891,7 +3910,7 @@ msgid ""
 msgstr ""
 "{{brandShortName}} este sistemul de operare cu sursă liberă și deschisă de "
 "la Mozilla. Misiunea noastră este de a promova deschiderea, inovația și "
-"oportunitatea prin păstrarea puterii internetului în mâinile tale."
+"oportunitatea prin păstrarea puterii webului în mâinile tale."
 
 #: learn-more
 msgid "Learn More"
@@ -4816,7 +4835,8 @@ msgid "Submit data"
 msgstr "Trimite datele"
 
 #: appUsageByRegion
-msgid "App usage by region"
+#, fuzzy
+msgid "App Usage by Region"
 msgstr "Utilizarea de aplicații"
 
 #: crashReports
@@ -4841,15 +4861,18 @@ msgstr ""
 "problema pentru toată lumea. Rapoartele sunt trimise numai prin Wi-Fi."
 
 #: alwaysSendReport
-msgid "Always send a report"
+#, fuzzy
+msgid "Always Send a Report"
 msgstr "Trimite mereu un raport"
 
 #: neverSendReport
-msgid "Never send a report"
+#, fuzzy
+msgid "Never Send a Report"
 msgstr "Nu trimite niciodată"
 
 #: askToSendReport2
-msgid "Ask each time"
+#, fuzzy
+msgid "Ask Each Time"
 msgstr "Întreabă de fiecare dată"
 
 #. # Device :: Improve Browser OS :: Crash Reports

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:58+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/fxa/fxa.properties.po\n"
-"X-Pootle-Revision: 1604378\n"
+"X-Pootle-Revision: 1652948\n"
 
 #: firefox-accounts-title
 msgid "Firefox Accounts"
@@ -126,12 +126,12 @@ msgstr ""
 "Folosește adresa ta de e-mail pentru a crea un cont sau pentru autentificare."
 
 #: fxa-notice2
-#, fuzzy
 msgid ""
 "By proceeding, I agree to the <a>{{tos}}</a> and <a>{{pn}}</a> of Firefox "
 "cloud services."
 msgstr ""
-"Continunând, sunt de acord cu {{tos}} și {{pn}} a serviciilor cloud Firefox."
+"Continunând, sunt de acord cu <a>{{tos}}</a> și <a>{{pn}}</a> a serviciilor "
+"cloud Firefox."
 
 #. # LOCALIZATION NOTE(fxa-tos): This string corresponds to the {{tos}} placeholder
 #. # in fxa-notice.
