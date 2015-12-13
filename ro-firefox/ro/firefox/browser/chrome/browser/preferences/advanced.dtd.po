@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/advanced.dtd."
 "po\n"
-"X-Pootle-Revision: 1542390\n"
+"X-Pootle-Revision: 1652989\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -178,7 +178,7 @@ msgstr "Curăță acu&m"
 #: overrideSmartCacheSize.label
 #: overrideSmartCacheSize.accesskey
 msgid "&Override automatic cache management"
-msgstr "Ign&oră administrarea automată a memoriei cache"
+msgstr "Ign&oră gestionarea automată a cache-ului"
 
 #: updateTab.label
 msgid "Update"
@@ -255,7 +255,7 @@ msgstr "7em"
 #: offlineAppsListRemove.label
 #: offlineAppsListRemove.accesskey
 msgid "&Remove…"
-msgstr "Ște&rge…"
+msgstr "Elimină…"
 
 #: offlineAppRemove.confirm
 msgid "Remove offline data"

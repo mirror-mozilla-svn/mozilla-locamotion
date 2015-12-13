@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/installer/custom.properties.po\n"
-"X-Pootle-Revision: 1542441\n"
+"X-Pootle-Revision: 1652952\n"
 
 #. # LOCALIZATION NOTE:
 #. # This file must be saved as UTF8
@@ -34,8 +34,7 @@ msgstr ""
 "$BrandShortName vă aduce navigarea sigură și ușoară pe web. O interfață "
 "intuitivă cu utilizatorul, funcționalitate îmbunătățită pentru securitate "
 "care include protecția împotriva furtului de identitate online și căutare "
-"integrată sunt lucruri care vă permit să folosiți internetul cât mai "
-"eficient."
+"integrată sunt lucruri care vă permit să folosiți webul cât mai eficient."
 
 #: CONTEXT_OPTIONS
 msgid "$BrandShortName &Options"

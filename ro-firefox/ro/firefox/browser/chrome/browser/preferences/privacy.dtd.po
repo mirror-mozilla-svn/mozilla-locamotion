@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/privacy.dtd."
 "po\n"
-"X-Pootle-Revision: 1542405\n"
+"X-Pootle-Revision: 1652911\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -165,9 +165,9 @@ msgid ""
 "&brandShortName; will remember your browsing, download, form and search "
 "history, and keep cookies from websites you visit."
 msgstr ""
-"&brandShortName; va memora istoricul navigării, al descărcărilor, al "
-"formularelor și al căutărilor și va păstra cookie-urile de la site-urile web "
-"vizitate."
+"&brandShortName; va memora istoricul navigării, descărcărilor, formularelor "
+"și căutărilor și va păstra cookie-urile de la site-urile web pe care le "
+"vizitezi."
 
 #. include a trailing space as needed
 #. LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed

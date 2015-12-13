@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/sync.dtd.po\n"
-"X-Pootle-Revision: 1542409\n"
+"X-Pootle-Revision: 1678222\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -28,9 +28,8 @@ msgid ""
 "&syncBrand.fullName.label; lets you access your history, bookmarks, "
 "passwords and open tabs across all your devices."
 msgstr ""
-"&syncBrand.fullName.label; vă permite să accesați istoricul, semnele de "
-"carte, parolele și filele deschise de pe toate dispozitivele pe care le "
-"aveți."
+"&syncBrand.fullName.label; îți permite să accesezi istoricul, semnele de "
+"carte, parolele și filele deschise de pe toate dispozitivele pe care le ai."
 
 #. The page shown when logged in...
 #. Login error feedback
@@ -46,7 +45,7 @@ msgstr "Resetează"
 #: manageAccount.label
 #: manageAccount.accesskey
 msgid "Ma&nage Account"
-msgstr "Gestione&ază contul"
+msgstr "Gestio&nează contul"
 
 #: changePassword2.label
 msgid "Change Password…"
@@ -140,7 +139,7 @@ msgstr "Politica de confidențialitate"
 
 #: determiningAcctStatus.label
 msgid "Determining your account status…"
-msgstr "Determin starea contului dumneavoastră…"
+msgstr "Se determină starea contului tău…"
 
 #. LOCALIZATION NOTE (signedInUnverified.beforename.label,
 #. signedInUnverified.aftername.label): these two string are used respectively
@@ -161,7 +160,7 @@ msgstr "nu este verificat."
 #. both, to better adapt this sentence to their language.
 #: signedInLoginFailure.beforename.label
 msgid "Please sign in to reconnect"
-msgstr "Vă rugăm să vă autentificați pentru reconectare"
+msgstr "Te rugăm să te autentifici pentru reconectare"
 
 #: signedInLoginFailure.aftername.label
 msgctxt "signedInLoginFailure.aftername.label"
@@ -170,7 +169,7 @@ msgstr ""
 
 #: notSignedIn.label
 msgid "You are not signed in."
-msgstr "Nu sunteți autentificat."
+msgstr "Nu ești autentificat."
 
 #: signIn.label
 msgid "Sign in"
@@ -190,7 +189,7 @@ msgstr "Deconectează-te…"
 
 #: verify.label
 msgid "Verify Email"
-msgstr "Verificați e-mailul"
+msgstr "Verifică e-mailul"
 
 #: forget.label
 msgid "Forget this Email"
@@ -201,8 +200,8 @@ msgid ""
 "Access your tabs, bookmarks, passwords and more wherever you use "
 "&brandShortName;."
 msgstr ""
-"Accesați filele dumneavoastră, semnele de carte, parolele și altele ori de "
-"câte ori folosiți &brandShortName;."
+"Accesează filele, semnele de carte, parolele și altele ori de câte ori "
+"folosești &brandShortName;."
 
 #: welcome.signIn.label
 msgctxt "welcome.signIn.label"
@@ -216,7 +215,7 @@ msgstr "Creează cont"
 
 #: welcome.useOldSync.label
 msgid "Using an older version of Sync?"
-msgstr "Utilizați o versiune mai veche de Sincronizare?"
+msgstr "Folosești o versiune mai veche de Sincronizare?"
 
 #: signedOut.caption
 msgid "Take your Web with you"

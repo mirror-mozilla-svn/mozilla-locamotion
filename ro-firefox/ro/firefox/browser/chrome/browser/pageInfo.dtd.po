@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/pageInfo.dtd.po\n"
-"X-Pootle-Revision: 1542381\n"
+"X-Pootle-Revision: 1652947\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -268,7 +268,7 @@ msgstr "Confidențialitate și istoric"
 
 #: securityView.privacy.history
 msgid "Have I visited this website prior to today?"
-msgstr "Am mai vizitat acest site web astăzi?"
+msgstr "Am mai vizitat acest site web înaintea zilei de azi?"
 
 #: securityView.privacy.cookies
 msgid "Is this website storing information (cookies) on my computer?"

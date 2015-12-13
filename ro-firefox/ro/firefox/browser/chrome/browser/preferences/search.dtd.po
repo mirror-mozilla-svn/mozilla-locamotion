@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/search.dtd.po\n"
-"X-Pootle-Revision: 1269337\n"
+"X-Pootle-Revision: 1652993\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -44,6 +44,9 @@ msgid ""
 "Search suggestions will not be shown in location bar results because you "
 "have configured &brandShortName; to never remember history."
 msgstr ""
+"Sugestiile de căutare nu vor fi afișate în rezultatele din bara de adrese "
+"deoarece ai configurat &brandShortName; ca să nu țină minte niciodată "
+"istoricul."
 
 #: redirectWindowsSearch.label
 #: redirectWindowsSearch.accesskey
@@ -78,7 +81,7 @@ msgstr "Restaurează motoarele &de căutare implicite"
 #: removeEngine.label
 #: removeEngine.accesskey
 msgid "&Remove"
-msgstr "Înlătu&ră"
+msgstr "Elimină"
 
 #: addMoreSearchEngines.label
 msgid "Add more search engines…"

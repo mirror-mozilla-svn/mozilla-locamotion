@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/browser.dtd.po\n"
-"X-Pootle-Revision: 1542314\n"
+"X-Pootle-Revision: 1652987\n"
 
 #. This will be appended to the window's title
 #. inside the private browsing mode
@@ -1099,12 +1099,12 @@ msgstr "M&ută în meniu"
 #: customizeMenu.removeFromToolbar.label
 #: customizeMenu.removeFromToolbar.accesskey
 msgid "&Remove from Toolbar"
-msgstr "Ște&rge din bara de unelte"
+msgstr "Elimină din ba&ra de unelte"
 
 #: customizeMenu.removeFromMenu.label
 #: customizeMenu.removeFromMenu.accesskey
 msgid "&Remove from Menu"
-msgstr "Ște&rge din meniu"
+msgstr "Elimină din meniu"
 
 #: customizeMenu.addMoreItems.label
 #: customizeMenu.addMoreItems.accesskey

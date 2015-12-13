@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/aboutSessionRestore.dtd."
 "po\n"
-"X-Pootle-Revision: 1542308\n"
+"X-Pootle-Revision: 1652945\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -33,21 +33,21 @@ msgid ""
 "&brandShortName; is having trouble recovering your windows and tabs. This is "
 "usually caused by a recently opened web page."
 msgstr ""
-"&brandShortName; are probleme în a restaura ferestrele și filele "
-"dumneavoastră. Acest lucru se datorează de obicei unei pagini web deschise "
-"recent."
+"&brandShortName; are probleme la restaurarea ferestrelor și filelor tale. "
+"Acest lucru este de obicei cauzat de o pagină web deschisă recent."
 
 #: restorepage.tryThis
 msgid "You can try:"
-msgstr "Puteți încerca:"
+msgstr "Poți încerca:"
 
 #: restorepage.restoreSome
 msgid "Removing one or more tabs that you think may be causing the problem"
-msgstr "Să eliminați una sau mai multe file care pot fi cauze ale problemei"
+msgstr ""
+"Eliminarea uneia sau mai multor file care crezi că pot fi cauza problemei"
 
 #: restorepage.startNew
 msgid "Starting an entirely new browsing session"
-msgstr "Să începeți o sesiune nouă de navigare"
+msgstr "Începerea unei sesiuni cu totul nouă de navigare"
 
 #: restorepage.tryagainButton
 msgctxt "restorepage.tryagainButton"
