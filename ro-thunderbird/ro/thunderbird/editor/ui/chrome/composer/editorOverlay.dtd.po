@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/editor/ui/chrome/composer/editorOverlay.dtd."
 "po\n"
-"X-Pootle-Revision: 500274\n"
+"X-Pootle-Revision: 1653004\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -363,7 +363,7 @@ msgstr "K"
 #: formatRemoveNamedAnchors.label
 #: formatRemoveNamedAnchors.accesskey
 msgid "&Remove Named Anchors"
-msgstr "E&limină ancorele cu nume"
+msgstr "Elimină anco&rele cu nume"
 
 #: formatRemoveNamedAnchors2.key
 msgid "R"
@@ -862,7 +862,7 @@ msgstr "&Selectează"
 #: structRemoveTag.label
 #: structRemoveTag.accesskey
 msgid "&Remove tag"
-msgstr "&Elimină tag"
+msgstr "Elimină tag"
 
 #: structChangeTag.label
 #: structChangeTag.accesskey
@@ -884,7 +884,7 @@ msgstr "&Actualizează"
 #: removeTOC.label
 #: removeTOC.accesskey
 msgid "&Remove"
-msgstr "&Elimină"
+msgstr "Elimină"
 
 #: tocMenu.label
 #: tocMenu.accesskey
