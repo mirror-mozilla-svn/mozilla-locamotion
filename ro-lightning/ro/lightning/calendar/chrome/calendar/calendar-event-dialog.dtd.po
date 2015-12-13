@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-25 09:57+0000\n"
+"POT-Creation-Date: 2015-12-13 21:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/lightning/calendar/chrome/calendar/calendar-event-"
 "dialog.dtd.po\n"
-"X-Pootle-Revision: 262264\n"
+"X-Pootle-Revision: 1652997\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -536,7 +536,7 @@ msgstr "Pagină &web…"
 #: event.attachments.popup.remove.label
 #: event.attachments.popup.remove.accesskey
 msgid "&Remove"
-msgstr "Înlătu&ră"
+msgstr "Elimină"
 
 #: event.attachments.popup.open.label
 #: event.attachments.popup.open.accesskey
