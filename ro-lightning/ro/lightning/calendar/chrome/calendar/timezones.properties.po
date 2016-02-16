@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/lightning/calendar/chrome/calendar/timezones.properties."
 "po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 1921433\n"
 
 #. # extension:
 #: extensions.calendar-timezones@mozilla.org.name
@@ -21,7 +21,8 @@ msgid "Timezone Definitions for Mozilla Calendar"
 msgstr "Definiții de fusuri orare pentru Mozilla Calendar"
 
 #: extensions.calendar-timezones@mozilla.org.description
-msgid "Timezone definitions required by Sunbird and Lightning"
+#, fuzzy
+msgid "Timezone definitions required by Lightning"
 msgstr "Definiții de fusuri orare cerute de Sunbird și Lightning"
 
 #: extensions.calendar-timezones@mozilla.org.creator
@@ -1752,3 +1753,8 @@ msgstr "Asia/Srednekolymsk"
 #: pref.timezone.Pacific.Bougainville
 msgid "Pacific/Bougainville"
 msgstr "Pacific/Bougainville"
+
+#. #added with 2.2015g
+#: pref.timezone.America.Fort_Nelson
+msgid "America/Fort Nelson"
+msgstr ""

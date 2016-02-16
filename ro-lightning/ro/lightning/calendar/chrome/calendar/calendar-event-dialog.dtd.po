@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/lightning/calendar/chrome/calendar/calendar-event-"
 "dialog.dtd.po\n"
-"X-Pootle-Revision: 1652997\n"
+"X-Pootle-Revision: 1933193\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -93,12 +93,17 @@ msgstr "% completată"
 #. - These two labels are displayed side by side in the event dialog, make sure
 #. - they still fit in.
 #: event.attendees.notify.label
-msgid "Notify attendees"
-msgstr "Anunță participanții"
+#: event.attendees.notify.accesskey
+msgid "Noti&fy attendees"
+msgstr "An&unță participanții"
 
 #: event.attendees.notifyundisclosed.label
 msgid "Separate invitation per attendee"
 msgstr "Invitație separată per participant"
+
+#: event.attendees.notifyundisclosed.accesskey
+msgid "x"
+msgstr "x"
 
 #: event.attendees.notifyundisclosed.tooltip
 msgid ""
@@ -112,7 +117,6 @@ msgstr ""
 
 #. Keyboard Shortcuts
 #: event.dialog.new.event.key2
-msgctxt "event.dialog.new.event.key2"
 msgid "I"
 msgstr "I"
 
@@ -376,6 +380,19 @@ msgstr "Compune un mes&aj către toți participanții…"
 msgid "Compose E-Mail to &Undecided Attendees…"
 msgstr "Comp&une un mesaj către participanții indeciși…"
 
+#: event.remove.attendees.label2
+msgid "Remove all attendees"
+msgstr ""
+
+#: event.remove.attendees.accesskey
+msgid "r"
+msgstr "r"
+
+#: event.remove.attendee.label
+#: event.remove.attendee.accesskey
+msgid "R&emove attendee"
+msgstr ""
+
 #. Toolbar
 #: event.toolbar.save.label
 msgctxt "event.toolbar.save.label"
@@ -457,13 +474,10 @@ msgid "&Calendar:"
 msgstr "&Calendar:"
 
 #: event.attendees.label
-msgid "Attendees:"
-msgstr "Participanți:"
-
 #: event.attendees.accesskey
-msgctxt "event.attendees.accesskey"
-msgid "I"
-msgstr "a"
+#, fuzzy
+msgid "Atte&ndees:"
+msgstr "Participanți"
 
 #: event.alldayevent.label
 #: event.alldayevent.accesskey
@@ -472,21 +486,26 @@ msgstr "Evenimentul &durează toată ziua"
 
 #: event.from.label
 #: event.from.accesskey
+#, fuzzy
+msgctxt "event.from.label event.from.accesskey"
 msgid "&Start:"
 msgstr "Dată de î&nceput:"
 
 #: task.from.label
-msgid "Start:"
-msgstr "Început:"
-
 #: task.from.accesskey
-msgid "B"
-msgstr "n"
+#, fuzzy
+msgctxt "task.from.label task.from.accesskey"
+msgid "&Start:"
+msgstr "Dată de î&nceput:"
 
 #: event.to.label
-#: event.to.accesskey
-msgid "E&nd:"
+#, fuzzy
+msgid "End:"
 msgstr "&Sfârșit:"
+
+#: event.to.accesskey
+msgid "u"
+msgstr ""
 
 #: task.to.label
 #: task.to.accesskey
@@ -504,9 +523,13 @@ msgid "&Repeat:"
 msgstr "&Repetare:"
 
 #: event.until.label
-#: event.until.accesskey
-msgid "Unt&il:"
+#, fuzzy
+msgid "Until:"
 msgstr "&Până la:"
+
+#: event.until.accesskey
+msgid "B"
+msgstr "B"
 
 #: event.reminder.label
 #: event.reminder.accesskey
@@ -550,7 +573,8 @@ msgstr "Elimină-le pe to&ate"
 
 #: event.attachments.popup.attachPage.label
 #: event.attachments.popup.attachPage.accesskey
-msgid "Attach &Webpage…"
+#, fuzzy
+msgid "Attach Webpa&ge…"
 msgstr "Atașează o pagină &web…"
 
 #: event.url.label
@@ -1120,6 +1144,10 @@ msgstr "Resursă"
 #: event.attendee.usertype.room
 msgid "Room"
 msgstr "Cameră"
+
+#: event.attendee.usertype.unknown
+msgid "Unknown"
+msgstr "Necunoscut"
 
 #. Timezone dialog
 #: timezone.title.label
