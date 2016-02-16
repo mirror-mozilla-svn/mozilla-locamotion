@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,15 +13,18 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/am-identity-edit.dtd."
 "po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 1933165\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
 #. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#. This value should be roughly
+#. equal to the value of accountManager.size entity minus the value
+#. of accountTree.width entity.
 #. Do not translate this.  Only change the numeric values if you need this dialogue box to appear bigger
 #: identityDialog.style
-msgid "width: 67ch;"
-msgstr "width: 67ch;"
+msgid "min-width: 75ch;"
+msgstr "min-width: 75ch;"
 
 #: identityTitle.label
 msgid "Identity Settings"

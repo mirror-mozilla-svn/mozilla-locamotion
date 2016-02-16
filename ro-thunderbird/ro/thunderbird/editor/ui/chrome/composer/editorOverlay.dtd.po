@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/editor/ui/chrome/composer/editorOverlay.dtd."
 "po\n"
-"X-Pootle-Revision: 1653004\n"
+"X-Pootle-Revision: 1933159\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -214,40 +214,35 @@ msgstr "."
 msgid "Si&ze"
 msgstr "&Mărime"
 
-#: size-xx-smallCmd.label
-#: size-xx-smallCmd.accesskey
-msgid "xx-sm&all"
-msgstr "&ff-mic"
-
-#: size-x-smallCmd.label
-#: size-x-smallCmd.accesskey
-msgid "x-s&mall"
-msgstr "&Foarte mic"
+#: size-tinyCmd.label
+#: size-tinyCmd.accesskey
+msgid "&Tiny"
+msgstr "Foarte &mic"
 
 #: size-smallCmd.label
 #: size-smallCmd.accesskey
-msgid "&small"
+msgid "&Small"
 msgstr "&Mic"
 
 #: size-mediumCmd.label
 #: size-mediumCmd.accesskey
-msgid "me&dium"
-msgstr "&Mediu"
+msgid "&Medium"
+msgstr "M&ediu"
 
 #: size-largeCmd.label
 #: size-largeCmd.accesskey
-msgid "&large"
+msgid "&Large"
 msgstr "&Mare"
 
-#: size-x-largeCmd.label
-#: size-x-largeCmd.accesskey
-msgid "&x-large"
-msgstr "&Foarte mare"
+#: size-extraLargeCmd.label
+#: size-extraLargeCmd.accesskey
+msgid "E&xtra Large"
+msgstr "Foar&te mare"
 
-#: size-xx-largeCmd.label
-#: size-xx-largeCmd.accesskey
-msgid "xx-larg&e"
-msgstr "&ff-mare"
+#: size-hugeCmd.label
+#: size-hugeCmd.accesskey
+msgid "&Huge"
+msgstr "&Uriaș"
 
 #. Font Style SubMenu
 #: fontStyleMenu.label
@@ -792,6 +787,10 @@ msgid "Choose highlight color for text"
 msgstr "Alege culoarea de evidențiere pentru text"
 
 #. Editor toolbar
+#: absoluteFontSizeToolbarCmd.tooltip
+msgid "Set font size"
+msgstr "Stabilire mărime font"
+
 #: decreaseFontSizeToolbarCmd.tooltip
 msgid "Smaller font size"
 msgstr "Font mai mic"

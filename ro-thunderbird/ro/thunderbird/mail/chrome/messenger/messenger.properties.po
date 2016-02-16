@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messenger.properties."
 "po\n"
-"X-Pootle-Revision: 1268207\n"
+"X-Pootle-Revision: 1933181\n"
 
 #. # The following are used by the messenger application
 #. #
@@ -713,7 +713,7 @@ msgstr "Mesaje vechi"
 
 #: futureDate
 msgid "Future"
-msgstr ""
+msgstr "Viitor"
 
 #. #Grouped By Tags
 #: untaggedMessages
@@ -861,22 +861,7 @@ msgstr "UTF-8"
 #: mail.addr_book.displayName.lastnamefirst
 msgctxt "mail.addr_book.displayName.lastnamefirst"
 msgid "false"
-msgstr "fals"
-
-#. # the format for "mail.addr_book.quicksearchquery.format" is:
-#. # @V == the escaped value typed in the quick search bar in the addressbook
-#. #
-#. # note, changing this might require a change to SearchNameOrEmail.label
-#. # in messenger.dtd
-#. #
-#. # LOCALIZATION NOTE - please add phonetic names as below when "mail.addr_book.show_phonetic_fields" is true
-#. # "?(or(PrimaryEmail,c,@V)(DisplayName,c,@V)(FirstName,c,@V)(LastName,c,@V)(PhoneticFirstName,c,@V)(PhoneticLastName,c,@V))"
-#. #
-#: mail.addr_book.quicksearchquery.format
-msgid ""
-"?(or(PrimaryEmail,c,@V)(DisplayName,c,@V)(FirstName,c,@V)(LastName,c,@V))"
-msgstr ""
-"?(or(PrimaryEmail,c,@V)(DisplayName,c,@V)(FirstName,c,@V)(LastName,c,@V))"
+msgstr "false"
 
 #. # whether to also show phonetic fields in the addressbook
 #. # LOCALIZATION NOTE(mail.addr_book.show_phonetic_fields):
@@ -884,7 +869,7 @@ msgstr ""
 #: mail.addr_book.show_phonetic_fields
 msgctxt "mail.addr_book.show_phonetic_fields"
 msgid "false"
-msgstr "fals"
+msgstr "false"
 
 #. # valid format options are:
 #. # 1: yyyy/mm/dd
@@ -911,7 +896,7 @@ msgstr ""
 #. # leading zeros for day and month values, not used if mailnews.search_date_format is not zero
 #: mailnews.search_date_leading_zeros
 msgid "true"
-msgstr "adevărat"
+msgstr "true"
 
 #. # offline msg
 #: nocachedbodybody2
@@ -1024,10 +1009,19 @@ msgctxt "remoteContentPrefAccesskeyUnix"
 msgid "P"
 msgstr "P"
 
-#. # LOCALIZATION NOTE(remoteAllow): %S is host name
-#: remoteAllow
-msgid "Allow remote content for %S"
+#. # LOCALIZATION NOTE(remoteAllowResource): %S is origin
+#: remoteAllowResource
+msgid "Allow remote content from %S"
 msgstr "Permite conținutul de la distanță pentru %S"
+
+#. # LOCALIZATION NOTE(remoteAllowAll): Semi-colon list of plural forms.
+#. # See: http://developer.mozilla.org/en/Localization_and_Plurals
+#. # #1 is the number of origins
+#: remoteAllowAll
+msgid ""
+"Allow remote content from the #1 origin listed above;Allow remote content "
+"from all #1 origins listed above"
+msgstr ""
 
 #: phishingBarMessage
 msgid "This message may be a scam."
@@ -1424,9 +1418,17 @@ msgstr "%1$S (%2$S)"
 #. ## This string shows an indication that the value shown is actually a summary
 #. ## accumulated from all subfolders.
 #. ## %S = summarized value from all subfolders
-#: folderSummarizedValue
-msgid "*%S"
-msgstr "*%S"
+#: folderSummarizedSymbolValue
+msgid "▾%S"
+msgstr "▾%S"
+
+#. ## LOCALIZATION NOTE(subfoldersExplanation):
+#. ## This is a tooltip message shown on the values in the numeric folder pane columns.
+#. ## %1$S = is the count of messages having the respective property, found in the folder under mouse cursor
+#. ## %2$S = is the count of messages having the respective property, found in subfolders of the folder under mouse cursor
+#: subfoldersExplanation
+msgid "%1$S in this folder, %2$S in subfolders"
+msgstr ""
 
 #. # Error message if message for a message id wasn't found
 #: errorOpenMessageForMessageIdTitle

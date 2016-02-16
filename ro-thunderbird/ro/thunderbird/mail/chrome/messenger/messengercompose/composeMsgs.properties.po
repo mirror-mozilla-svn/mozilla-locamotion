@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messengercompose/compose"
 "Msgs.properties.po\n"
-"X-Pootle-Revision: 884993\n"
+"X-Pootle-Revision: 1921197\n"
 
 #. #
 #. # The following are used by the compose back end
@@ -482,6 +482,27 @@ msgstr "Atașați fișierul(ele) prin %1$S"
 #: windowTitlePrefix
 msgid "Write:"
 msgstr "Redactare mesaj:"
+
+#: msgIdentityPlaceholder
+msgid "Enter custom From address to be used instead of %S"
+msgstr ""
+
+#: customizeFromAddressTitle
+msgid "Customize From Address"
+msgstr ""
+
+#: customizeFromAddressWarning
+msgid ""
+"If your e-mail provider supports it, Customize From Address allows you to "
+"make a one-off minor alteration to your From address without having to "
+"create a new identity in Account Settings. For example, if your From address "
+"is John Doe <john@example.com> you may want to change it to John Doe "
+"<john+doe@example.com> or John <john@example.com>."
+msgstr ""
+
+#: customizeFromAddressIgnore
+msgid "Never notify me of this again"
+msgstr "Nu mă mai notifica cu privire la asta"
 
 #. ## Strings used by the empty subject dialog
 #: subjectEmptyTitle

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/am-server-advanced.dtd."
 "po\n"
-"X-Pootle-Revision: 100210\n"
+"X-Pootle-Revision: 1933167\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -37,11 +37,6 @@ msgstr "Afișează doar dosarele la care sunt a&bonat(ă)"
 #: dualUseFolders.accesskey
 msgid "Server supports &folders that contain sub-folders and messages"
 msgstr "Ser&verul suportă dosare care conțin subdosare și mesaje"
-
-#: useIdle.label
-#: useIdle.accesskey
-msgid "Use &IDLE command if the server supports it"
-msgstr "Folosește comanda &IDLE dacă serverul o suportă"
 
 #: maximumConnectionsNumber.label
 #: maximumConnectionsNumber.accesskey
@@ -73,18 +68,16 @@ msgstr "&Alți utilizatori:"
 msgid "&Allow server to override these namespaces"
 msgstr "Permite serverului să supr&ascrie aceste nume de spații"
 
-#: pop3Desc.label
+#: pop3DeferringDesc.label
 msgid ""
-"When downloading pop mail for this server, use the following folder for new "
-"mail:"
+"When downloading mail from this account's server, use the following folder "
+"to store new messages:"
 msgstr ""
-"Când se descarcă mesaje pop3 de pe acest server, folosește următorul dosar "
-"pentru mesajele noi:"
 
-#: accountDirectory.label
-#: accountDirectory.accesskey
-msgid "Inbox for thi&s server's account"
-msgstr "Că&suță poștală pentru contul acestui server"
+#: accountInbox.label
+#: accountInbox.accesskey
+msgid "Inbox for thi&s account"
+msgstr "Căsuță poștală pentru ace&st cont"
 
 #: deferToServer.label
 #: deferToServer.accesskey

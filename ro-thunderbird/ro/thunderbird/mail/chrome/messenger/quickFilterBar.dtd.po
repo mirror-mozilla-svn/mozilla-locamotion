@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/quickFilterBar.dtd.po\n"
-"X-Pootle-Revision: 65822\n"
+"X-Pootle-Revision: 1879469\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -149,9 +149,9 @@ msgstr "100"
 #. The goal is to convey to the user that typing in the box will filter
 #. the messages and that there is a hotkey they can press to get to the
 #. box faster.
-#: quickFilterBar.textbox.emptyText.base
-msgid "Filter these messages... #1"
-msgstr "Filtrează aceste mesaje... #1"
+#: quickFilterBar.textbox.emptyText.base1
+msgid "Filter these messages #1"
+msgstr "Filtrează aceste mesaje #1"
 
 #. This is the key used to show the quick filter bar.
 #: quickFilterBar.show.key2

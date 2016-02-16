@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/overrides/netError.dtd.po\n"
-"X-Pootle-Revision: 1652985\n"
+"X-Pootle-Revision: 1879470\n"
 
 #. %brandDTD;
 #: loadError.label
@@ -415,6 +415,16 @@ msgstr ""
 "<p>Aceste tipuri de falsuri web sunt folosite în păcăleli cunoscute ca "
 "atacuri de tip „phishing”, în care pagini și e-mailuri frauduloase sunt "
 "folosite pentru a imita surse în care aveți încredere.</p>"
+
+#: forbiddenBlocked.title
+msgid "Forbidden Site"
+msgstr "Site interzis"
+
+#: forbiddenBlocked.longDesc
+msgid ""
+"<p>&brandShortName; prevented this page from loading because it is "
+"configured to block it.</p>"
+msgstr ""
 
 #: cspBlocked.title
 msgid "Blocked by Content Security Policy"

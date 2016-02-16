@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/mail/chrome/messenger/messenger.dtd.po\n"
-"X-Pootle-Revision: 1269400\n"
+"X-Pootle-Revision: 1933173\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -2257,9 +2257,9 @@ msgstr "K"
 #. to search for messages globally and that there is a hotkey they can press
 #. to get to the box faster.  If the global indexer is disabled, the search
 #. box will be collapsed and the user will never see this message.
-#: search.label.base
-msgid "Search… #1"
-msgstr "Căutare… #1"
+#: search.label.base1
+msgid "Search #1"
+msgstr "Căutare #1"
 
 #. The description of the key-binding to get into the global search box on
 #. windows and linux (which use the control key).  We use the key defined in
@@ -2310,6 +2310,11 @@ msgstr "Compune un me&saj către"
 #: CopyEmailAddress.accesskey
 msgid "&Copy Email Address"
 msgstr "&Copiază adresa de e-mail"
+
+#: CopyNameAndEmailAddress.label
+#: CopyNameAndEmailAddress.accesskey
+msgid "Copy &Name and Email Address"
+msgstr ""
 
 #: CopyNewsgroupName.label
 #: CopyNewsgroupName.accesskey

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Pootle-Path: "
 "/ro/thunderbird/mail/chrome/messenger/messengercompose/messengercompose.dtd."
 "po\n"
-"X-Pootle-Revision: 884995\n"
+"X-Pootle-Revision: 1921198\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -602,7 +602,7 @@ msgstr "Verifică ortografia pentru zona selectată sau pentru întregul mesaj"
 
 #: statusLanguageText.tooltip
 msgid "Spell checking language"
-msgstr ""
+msgstr "Verificarea ortografiei limbii"
 
 #: saveButton.tooltip
 msgid "Save this message"
@@ -854,3 +854,9 @@ msgstr "&Adaugă dicționare"
 msgctxt "addressesSidebarTitle.label"
 msgid "Contacts"
 msgstr "Adrese"
+
+#. Identity popup customize menuitem
+#: customizeFromAddress.label
+#: customizeFromAddress.accesskey
+msgid "Customize From &Address…"
+msgstr ""

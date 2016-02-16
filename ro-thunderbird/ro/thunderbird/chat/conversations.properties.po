@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/chat/conversations.properties.po\n"
-"X-Pootle-Revision: 260269\n"
+"X-Pootle-Revision: 1879431\n"
 
 #. # LOCALIZATION NOTE (targetChanged):
 #. #  %1$S is the new conversation title (display name of the new target),
@@ -117,14 +117,14 @@ msgstr "%1$S a curățat subiectul."
 #. #   %2$S is the new nick.
 #: nickSet
 msgid "%1$S is now known as %2$S."
-msgstr ""
+msgstr "%1$S este cunoscut acum ca %2$S."
 
 #. # LOCALIZATION NOTE (nickSet.you):
 #. #   This is displayed as a system message when your nickname is changed.
 #. #   %S is your new nick.
 #: nickSet.you
 msgid "You are now known as %S."
-msgstr ""
+msgstr "Acum ești cunoscut sub numele %S."
 
 #. # LOCALIZATION NOTE (messenger.conversations.selections.ellipsis):
 #. #  ellipsis is used when copying a part of a message to show that the message was cut

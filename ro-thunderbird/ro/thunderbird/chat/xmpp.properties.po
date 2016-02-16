@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/thunderbird/chat/xmpp.properties.po\n"
-"X-Pootle-Revision: 884832\n"
+"X-Pootle-Revision: 1933175\n"
 
 #. # LOCALIZATION NOTE (connection.*)
 #. #   These will be displayed in the account manager in order to show the progress
@@ -259,39 +259,39 @@ msgstr "Abonare"
 
 #: tooltip.fullName
 msgid "Full Name"
-msgstr ""
+msgstr "Nume complet"
 
 #: tooltip.nickname
 msgid "Nickname"
-msgstr ""
+msgstr "Pseudonim"
 
 #: tooltip.email
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: tooltip.birthday
 msgid "Birthday"
-msgstr ""
+msgstr "Zi de naștere"
 
 #: tooltip.userName
 msgid "Username"
-msgstr ""
+msgstr "Nume utilizator"
 
 #: tooltip.title
 msgid "Title"
-msgstr ""
+msgstr "Titlu"
 
 #: tooltip.organization
 msgid "Organization"
-msgstr ""
+msgstr "Organizație"
 
 #: tooltip.locality
 msgid "Locality"
-msgstr ""
+msgstr "Localitate"
 
 #: tooltip.country
 msgid "Country"
-msgstr ""
+msgstr "Țară"
 
 #. # LOCALIZATION NOTE (chatRoomField.*):
 #. #   These are the name of fields displayed in the 'Join Chat' dialog
@@ -342,14 +342,14 @@ msgstr ""
 #. #   parting it.
 #: conversation.message.rejoined
 msgid "You have rejoined the room."
-msgstr ""
+msgstr "V-ați reconectat la cameră."
 
 #. # LOCALIZATION NOTE (conversation.message.parted.*):
 #. #   These are displayed as a system message when a participant parts a room.
 #. #   %S is the part message supplied by the user.
 #: conversation.message.parted.you
 msgid "You have left the room."
-msgstr ""
+msgstr "Ai părăsit camera."
 
 #: conversation.message.parted.you.reason
 msgid "You have left the room: %S"
