@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/dom/chrome/layout/css.properties.po\n"
-"X-Pootle-Revision: 1542457\n"
+"X-Pootle-Revision: 1913335\n"
 
 #: MimeNotCss
 msgid ""
@@ -768,3 +768,21 @@ msgid ""
 msgstr ""
 "Se aștepta ',' sau ')' după numele variabilei în referința variabilei dar s-"
 "a găsit '%1$S'."
+
+#: PESubgridNotSupported
+msgid "Support for the 'subgrid' keyword of CSS Grid is not enabled."
+msgstr ""
+
+#: PEMoreThanOneGridRepeatAutoFillInNameList
+msgid "Only one repeat(auto-fill, …) is allowed in a name list for a subgrid."
+msgstr ""
+
+#: PEMoreThanOneGridRepeatAutoFillFitInTrackList
+msgid ""
+"Only one repeat(auto-fill, …) or repeat(auto-fit, …) is allowed in a track "
+"list."
+msgstr ""
+
+#: PEMoreThanOneGridRepeatTrackSize
+msgid "Only one track size is allowed inside repeat(auto-fit/auto-fill, …)."
+msgstr ""

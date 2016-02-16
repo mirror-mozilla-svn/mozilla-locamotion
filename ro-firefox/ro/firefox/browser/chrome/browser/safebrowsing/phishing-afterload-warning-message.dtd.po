@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:16+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/safebrowsing/phishing-"
 "afterload-warning-message.dtd.po\n"
-"X-Pootle-Revision: 69886\n"
+"X-Pootle-Revision: 1913288\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -31,6 +31,14 @@ msgid "This isn't a web forgery…"
 msgstr "Acesta nu este un fals web…"
 
 #: safeb.palm.reportPage.label
+#, fuzzy
+msgctxt "safeb.palm.reportPage.label"
+msgid "Why was this page blocked?"
+msgstr "De ce a fost blocată această pagină?"
+
+#: safeb.palm.whyForbidden.label
+#, fuzzy
+msgctxt "safeb.palm.whyForbidden.label"
 msgid "Why was this page blocked?"
 msgstr "De ce a fost blocată această pagină?"
 
@@ -38,7 +46,7 @@ msgstr "De ce a fost blocată această pagină?"
 msgid "Reported Attack Page!"
 msgstr "Pagină raportată ca fiind de atac!"
 
-#. Localization note (safeb.blocked.malware.shortDesc) - Please don't translate the contents of the <span id="malware_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com)
+#. Localization note (safeb.blocked.malwarePage.shortDesc) - Please don't translate the contents of the <span id="malware_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com)
 #: safeb.blocked.malwarePage.shortDesc
 msgid ""
 "This web page at <span id='malware_sitename'/> has been reported as an "
@@ -64,7 +72,7 @@ msgstr ""
 msgid "Reported Unwanted Software Page!"
 msgstr "Site cu programe nedorite raportat!"
 
-#. Localization note (safeb.blocked.malware.shortDesc) - Please don't translate the contents of the <span id="unwanted_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com)
+#. Localization note (safeb.blocked.unwantedPage.shortDesc) - Please don't translate the contents of the <span id="unwanted_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com)
 #: safeb.blocked.unwantedPage.shortDesc
 msgid ""
 "This web page at <span id='unwanted_sitename'/> has been reported to contain "
@@ -86,7 +94,7 @@ msgstr ""
 msgid "Reported Web Forgery!"
 msgstr "Fals web raportat!"
 
-#. Localization note (safeb.blocked.phishing.shortDesc) - Please don't translate the contents of the <span id="phishing_sitename"/> tag. It will be replaced at runtime with a domain name (e.g. www.badsite.com)
+#. Localization note (safeb.blocked.phishingPage.shortDesc) - Please don't translate the contents of the <span id="phishing_sitename"/> tag. It will be replaced at runtime with a domain name (e.g. www.badsite.com)
 #: safeb.blocked.phishingPage.shortDesc
 msgid ""
 "This web page at <span id='phishing_sitename'/> has been reported as a web "
@@ -105,3 +113,14 @@ msgstr ""
 "personale sau financiare imitând site-uri web în care aveți încredere.</p><p>"
 "Introducerea de informații pe această pagină web ar putea rezulta în furt de "
 "identitate sau altă fraudă.</p>"
+
+#: safeb.blocked.forbiddenPage.title2
+msgid "Blocked Site"
+msgstr ""
+
+#. Localization note (safeb.blocked.forbiddenPage.shortDesc2) - Please don't translate the contents of the <span id="forbidden_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com)
+#: safeb.blocked.forbiddenPage.shortDesc2
+msgid ""
+"The Web page at <span id='forbidden_sitename'/> has been blocked by your "
+"admin profile."
+msgstr ""

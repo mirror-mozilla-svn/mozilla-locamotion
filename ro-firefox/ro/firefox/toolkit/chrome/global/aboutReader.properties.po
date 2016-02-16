@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,11 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutReader.properties.po\n"
-"X-Pootle-Revision: 1542501\n"
-
-#: aboutReader.loading
-msgid "Loading..."
-msgstr "Se încarcă..."
+"X-Pootle-Revision: 1913351\n"
 
 #: aboutReader.loadError
 msgid "Failed to load article from page"
@@ -106,3 +102,10 @@ msgstr "Închide modul lectură"
 msgctxt "readerView.close.accesskey"
 msgid "R"
 msgstr "R"
+
+#. #LOCALIZATION NOTE (aboutReader.loading2):
+#. # Use the unicode ellipsis char, \u2026,
+#. # or use "..." if \u2026 doesn't suit traditions in your locale.
+#: aboutReader.loading2
+msgid "Loading…"
+msgstr ""

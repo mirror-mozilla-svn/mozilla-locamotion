@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:16+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,33 +13,47 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/preferences/privacy.dtd."
 "po\n"
-"X-Pootle-Revision: 1652911\n"
+"X-Pootle-Revision: 1913284\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
 #. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#: tracking.label
-msgid "Tracking"
-msgstr "Urmărire"
-
-#: dntTrackingNotOkay4.label
-#: dntTrackingNotOkay4.accesskey
-msgid "Request that sites &not track you"
-msgstr "Solicită ca site-urile să &nu te urmărească"
-
-#: doNotTrackInfo.label
-msgid "Learn More"
-msgstr "Află mai multe"
-
-#: trackingProtection5.label
-#: trackingProtection5.accesskey
-msgid "Use Track&ing Protection"
+#: trackingProtectionHeader.label
+#, fuzzy
+msgid "Use Tracking Protection"
 msgstr "Utilizează protecț&ie față de urmărire"
+
+#: trackingProtectionAlways.label
+#: trackingProtectionAlways.accesskey
+#, fuzzy
+msgid "Alwa&ys"
+msgstr "Întotdeauna"
+
+#: trackingProtectionPrivate.label
+#: trackingProtectionPrivate.accesskey
+msgid "On&ly in private windows"
+msgstr ""
+
+#: trackingProtectionNever.label
+#: trackingProtectionNever.accesskey
+#, fuzzy
+msgid "&Never"
+msgstr "Niciodată"
 
 #: trackingProtectionLearnMore.label
 msgctxt "trackingProtectionLearnMore.label"
 msgid "Learn more"
 msgstr "Aflați mai multe"
+
+#: trackingProtectionExceptions.label
+#: trackingProtectionExceptions.accesskey
+#, fuzzy
+msgid "E&xceptions…"
+msgstr "&Excepții…"
+
+#: tracking.label
+msgid "Tracking"
+msgstr "Urmărire"
 
 #: trackingProtectionPBM5.label
 #: trackingProtectionPBM5.accesskey
@@ -55,6 +69,22 @@ msgstr "Află mai multe"
 #: changeBlockList.accesskey
 msgid "&Change Block List"
 msgstr "S&chimbă lista de blocări"
+
+#. include a trailing space as needed
+#. LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed
+#: doNotTrack.pre.label
+msgid "You can also "
+msgstr ""
+
+#: doNotTrack.settings.label
+msgid "manage your Do Not Track settings"
+msgstr ""
+
+#: doNotTrack.post.label
+#, fuzzy
+msgctxt "doNotTrack.post.label"
+msgid "."
+msgstr "."
 
 #: history.label
 msgid "History"

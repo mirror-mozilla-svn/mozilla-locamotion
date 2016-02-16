@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/security/manager/chrome/pipnss/nsserrors.properties.po\n"
-"X-Pootle-Revision: 1542478\n"
+"X-Pootle-Revision: 1913341\n"
 
 #: SSL_ERROR_EXPORT_ONLY_SERVER
 msgid ""
@@ -1554,3 +1554,7 @@ msgstr "Răspunsul OCSP nu include starea certificatului în curs de verificare.
 msgid "The server presented a certificate that is valid for too long."
 msgstr ""
 "Serverul a prezentat un certificat care este valabil pentru prea mult timp."
+
+#: MOZILLA_PKIX_ERROR_REQUIRED_TLS_FEATURE_MISSING
+msgid "A required TLS feature is missing."
+msgstr ""

@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /ro/firefox/devtools/client/toolbox.dtd.po\n"
+"X-Pootle-Revision: 1913322\n"
+
+#. This Source Code Form is subject to the terms of the Mozilla Public
+#. - License, v. 2.0. If a copy of the MPL was not distributed with this
+#. - file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#. LOCALIZATION NOTE : FILE This file contains the Toolbox strings
+#. LOCALIZATION NOTE : FILE Do not translate key
+#: closeCmd.key
+msgid "W"
+msgstr "W"
+
+#: toggleToolbox.key
+msgid "I"
+msgstr "I"
+
+#: toggleToolboxF12.keycode
+msgid "VK_F12"
+msgstr "VK_F12"
+
+#: toggleToolboxF12.keytext
+msgid "F12"
+msgstr "F12"
+
+#: toolboxCloseButton.tooltip
+msgid "Close Developer Tools"
+msgstr "Închideți uneltele de dezvoltare"
+
+#: toolboxOptionsButton.key
+msgid "O"
+msgstr "O"
+
+#: toolboxNextTool.key
+msgid "]"
+msgstr "]"
+
+#: toolboxPreviousTool.key
+msgid "["
+msgstr "["
+
+#. LOCALIZATION NOTE :
+#. fullZoomEnlargeCmd.commandkey, fullZoomEnlargeCmd.commandkey2,
+#. fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey,
+#. fullZoomReduceCmd.commandkey2, fullZoomResetCmd.commandkey,
+#. and fullZoomResetCmd.commandkey2 should all match the corresponding
+#. values from browser.dtd.
+#: fullZoomEnlargeCmd.commandkey
+msgid "+"
+msgstr ""
+
+#: fullZoomEnlargeCmd.commandkey2
+msgid "="
+msgstr ""
+
+#: fullZoomEnlargeCmd.commandkey3
+msgctxt "fullZoomEnlargeCmd.commandkey3"
+msgid ""
+msgstr ""
+
+#: fullZoomReduceCmd.commandkey
+#, fuzzy
+msgid "-"
+msgstr "-"
+
+#: fullZoomReduceCmd.commandkey2
+msgctxt "fullZoomReduceCmd.commandkey2"
+msgid ""
+msgstr ""
+
+#: fullZoomResetCmd.commandkey
+msgid "0"
+msgstr ""
+
+#: fullZoomResetCmd.commandkey2
+msgctxt "fullZoomResetCmd.commandkey2"
+msgid ""
+msgstr ""
+
+#: toolboxReload.key
+msgid "r"
+msgstr "r"
+
+#. This key is used with the accel+shift modifiers to minimize the toolbox
+#: toolboxToggleMinimize.key
+msgid "U"
+msgstr "U"
+
+#: toolboxToggle.key
+msgid "d"
+msgstr "d"
+
+#. LOCALIZATION NOTE (toolboxFramesButton): This is the label for
+#. -  the iframes menu list that appears only when the document has some.
+#. -  It allows you to switch the context of the whole toolbox.
+#: toolboxFramesTooltip
+msgid "Select an iframe as the currently targeted document"
+msgstr "Select an iframe as the currently targeted document"
+
+#. This is the label
+#. -  shown next to error details when the Browser Toolbox is unable to open.
+#: browserToolboxErrorMessage
+msgid "Error opening Browser Toolbox:"
+msgstr "Eroare la deschiderea trusei de unelte pentru browser:"
+
+#. This is the label for
+#. -  the heading of the advanced settings group in the options panel.
+#: options.context.advancedSettings
+msgid "Advanced settings"
+msgstr "Setări avansate"
+
+#. This is the label for
+#. -  the heading of the Inspector group in the options panel.
+#: options.context.inspector
+msgid "Inspector"
+msgstr "Inspector"
+
+#. This is the label
+#. -  for the checkbox option to show user agent styles in the Inspector
+#. -  panel.
+#: options.showUserAgentStyles.label
+msgid "Show Browser Styles"
+msgstr "Afișează stiluri pentru browser"
+
+#: options.showUserAgentStyles.tooltip
+msgid ""
+"Turning this on will show default styles that are loaded by the browser."
+msgstr ""
+"Turning this on will show default styles that are loaded by the browser."
+
+#. This is the label for a
+#. -  dropdown list that controls the default color unit used in the inspector.
+#. -  This label is visible in the options panel.
+#. This is the access
+#. -  key for a dropdown list that controls the default color unit used in the
+#. -  inspector. This is visible in the options panel.
+#: options.defaultColorUnit.label
+#: options.defaultColorUnit.accesskey
+msgid "Defa&ult color unit"
+msgstr "Defa&ult color unit"
+
+#. This is used in the
+#. -  'Default color unit' dropdown list and is visible in the options panel.
+#: options.defaultColorUnit.authored
+msgid "As Authored"
+msgstr ""
+
+#. This is used in the
+#. -  'Default color unit' dropdown list and is visible in the options panel.
+#: options.defaultColorUnit.hex
+msgid "Hex"
+msgstr "Hex"
+
+#. This is used in the
+#. -  'Default color unit' dropdown list and is visible in the options panel.
+#: options.defaultColorUnit.hsl
+msgid "HSL(A)"
+msgstr "HSL(A)"
+
+#. This is used in the
+#. -  'Default color unit' dropdown list and is visible in the options panel.
+#: options.defaultColorUnit.rgb
+msgid "RGB(A)"
+msgstr "RGB(A)"
+
+#. This is used in
+#. -  the 'Default color unit' dropdown list and is visible in the options panel.
+#. -
+#: options.defaultColorUnit.name
+msgid "Color Names"
+msgstr "Nume culori"
+
+#. This is the
+#. -  triggers page refresh footnote under the advanced settings group in the
+#. -  options panel and is used for settings that trigger page reload.
+#: options.context.triggersPageRefresh
+msgid "* Current session only, reloads the page"
+msgstr "* Current session only, reloads the page"
+
+#. LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
+#. -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
+#. -  boolean preference in about:config, in the options panel.
+#: options.enableChrome.label5
+msgid "Enable browser chrome and add-on debugging toolboxes"
+msgstr ""
+"Activează trusele de unelte pentru depanarea chrome a browserului și a "
+"suplimentelor"
+
+#: options.enableChrome.tooltip3
+msgid ""
+"Turning this option on will allow you to use various developer tools in "
+"browser context (via Tools > Web Developer > Browser Toolbox) and debug add-"
+"ons from the Add-ons Manager"
+msgstr ""
+"Pornind această opțiune vă va permite să folosiți diverse unelte de "
+"dezvoltare în contextul browserului (prin intermediul Unelte -> Dezvoltator "
+"web -> Trusa de unelte pentru browser) și să depanați suplimente din "
+"managerul de suplimente"
+
+#. This is the label for the
+#. -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
+#. -  boolean preference in about:config, in the options panel.
+#: options.enableRemote.label3
+msgid "Enable remote debugging"
+msgstr "Activați depanarea la distanță"
+
+#: options.enableRemote.tooltip
+msgid ""
+"Turning this option on will allow the developer tools to debug remote "
+"Firefox instance like Firefox OS"
+msgstr ""
+"Pornind această opțiune vă va permite să depanați folosind uneltele de "
+"dezvoltare instanțe Firefox de la distanță precum Firefox OS"
+
+#. This is the label for the
+#. -  checkbox that toggles worker debugging, i.e. devtools.debugger.workers
+#. -  boolean preference in about:config, in the options panel.
+#: options.enableWorkers.label
+msgid "Enable worker debugging (in development)"
+msgstr "Activează depanarea workerilor (în dezvoltare)"
+
+#: options.enableWorkers.tooltip
+msgid "Turning this option on will allow the developer tools to debug workers"
+msgstr ""
+"Pornirea acestei opțiuni va permite uneltelor de dezvoltare să depaneze "
+"workerii"
+
+#. LOCALIZATION NOTE (options.disableJavaScript.label,
+#. -  options.disableJavaScript.tooltip): This is the options panel label and
+#. -  tooltip for the checkbox that toggles JavaScript on or off.
+#: options.disableJavaScript.label
+msgid "Disable JavaScript *"
+msgstr "Dezactivează JavaScript *"
+
+#: options.disableJavaScript.tooltip
+msgid ""
+"Turning this option on will disable JavaScript for the current tab. If the "
+"tab or the toolbox is closed then this setting will be forgotten."
+msgstr ""
+"Pornind această opțiune va dezactiva JavaScript pentru fila actuală. Dacă "
+"fila sau trusa de unelte este închisă atunci această setare va fi uitată."
+
+#. LOCALIZATION NOTE (options.disableCache.label2,
+#. -  options.disableCache.tooltip2): This is the options panel label and
+#. -  tooltip for the checkbox that toggles the cache on or off.
+#: options.disableCache.label2
+msgid "Disable Cache (when toolbox is open)"
+msgstr "Dezactivează cache-ul (când trusa de unelte este deschisă)"
+
+#: options.disableCache.tooltip2
+msgid ""
+"Turning this option on will disable the cache for all tabs that have the "
+"toolbox open."
+msgstr ""
+"Pornind această opțiune va dezactiva cache-ul pentru toate filele care au "
+"trusa de unelte deschisă."
+
+#. LOCALIZATION NOTE (options.enableServiceWorkersHTTP.label,
+#. -  options.enableServiceWorkersHTTP.tooltip): This is the options panel label and
+#. -  tooltip for the checkbox that toggles the service workers testing features on or off. This option enables service workers over HTTP.
+#: options.enableServiceWorkersHTTP.label
+msgid "Enable Service Workers over HTTP (when toolbox is open)"
+msgstr "Activează Service Workers prin HTTP (când e deschisă trusa de unelte)"
+
+#: options.enableServiceWorkersHTTP.tooltip
+msgid ""
+"Turning this option on will enable the service workers over HTTP for all "
+"tabs that have the toolbox open."
+msgstr ""
+"Prin pornirea acestei opțiuni se vor activa service workers peste HTTP "
+"pentru toate filele care au trusa de unelte deschisă."
+
+#. This is the label for
+#. -  the heading of group of checkboxes corresponding to the default developer
+#. -  tools.
+#: options.selectDefaultTools.label
+msgid "Default Firefox Developer Tools"
+msgstr "Unelte de dezvoltare Firefox implicite"
+
+#. This is the label for
+#. -  the heading of group of checkboxes corresponding to the developer tools
+#. -  added by add-ons. This heading is hidden when there is no developer tool
+#. -  installed by add-ons.
+#: options.selectAdditionalTools.label
+msgid "Developer Tools installed by add-ons"
+msgstr "Unelte de dezvoltare instalate de suplimente"
+
+#. This is the label for
+#. -  the heading of group of checkboxes corresponding to the default developer
+#. -  tool buttons.
+#: options.selectEnabledToolboxButtons.label
+msgid "Available Toolbox Buttons"
+msgstr "Butoane disponibile pentru trusa de unelte"
+
+#. This is the label for
+#. -  the explanation of the * marker on a tool which is currently not supported
+#. -  for the target of the toolbox.
+#: options.toolNotSupported.label
+msgid "* Not supported for current toolbox target"
+msgstr "* Nesuportat pentru ținta actuală a trusei de unelte"
+
+#. This is the label for
+#. -  the heading of the radiobox corresponding to the theme of the developer
+#. -  tools.
+#: options.selectDevToolsTheme.label2
+msgid "Themes"
+msgstr "Teme"
+
+#. LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
+#. -  toolbox for enabling and disabling the Developer Edition browser theme.
+#: options.usedeveditiontheme.label
+msgid "Use Developer Edition browser theme"
+msgstr "Utilizează tema de browser Developer Edition"
+
+#: options.usedeveditiontheme.tooltip
+msgid "Toggles the Developer Edition browser theme."
+msgstr "Comută la tema Developer Edition pentru browser."
+
+#. This is the label for the
+#. -  heading of the group of Web Console preferences in the options panel.
+#: options.webconsole.label
+msgid "Web Console"
+msgstr "Consolă web"
+
+#. This is the
+#. - label for the checkbox that toggles timestamps in the Web Console
+#: options.timestampMessages.label
+msgid "Enable timestamps"
+msgstr "Enable timestamps"
+
+#: options.timestampMessages.tooltip
+msgid ""
+"If you enable this option commands and output in the Web Console will "
+"display a timestamp"
+msgstr ""
+"If you enable this option commands and output in the Web Console will "
+"display a timestamp"
+
+#. This is the label for the
+#. -  heading of the group of Style Editor preferences in the options
+#. -  panel.
+#: options.styleeditor.label
+msgid "Style Editor"
+msgstr "Editor de stil"
+
+#. This is the
+#. - label for the checkbox that toggles showing original sources in the Style Editor
+#: options.stylesheetSourceMaps.label
+msgid "Show original sources"
+msgstr "Afișează sursele originale"
+
+#: options.stylesheetSourceMaps.tooltip
+msgid ""
+"Show original sources (e.g. Sass files) in the Style Editor and Inspector"
+msgstr ""
+"Show original sources (e.g. Sass files) in the Style Editor and Inspector"
+
+#. This is the
+#. - label for the checkbox that toggles autocompletion of css in the Style Editor
+#: options.stylesheetAutocompletion.label
+msgid "Autocomplete CSS"
+msgstr "Completare automată CSS"
+
+#: options.stylesheetAutocompletion.tooltip
+msgid ""
+"Autocomplete CSS properties, values and selectors in Style Editor as you type"
+msgstr ""
+"Autocomplete CSS properties, values and selectors in Style Editor as you type"
+
+#. LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
+#. of all preferences that affect both the Web Console and the Network
+#. Monitor
+#: options.commonPrefs.label
+msgid "Common Preferences"
+msgstr "Preferințe comune"
+
+#. This is the
+#. -  label for the checkbox that toggles persistent logs in the Web Console and
+#. -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
+#. -  about:config, in the options panel.
+#: options.enablePersistentLogs.label
+msgid "Enable persistent logs"
+msgstr "Activați jurnalele persistente"
+
+#: options.enablePersistentLogs.tooltip
+msgid ""
+"If you enable this option the Web Console and Network Monitor will not clear "
+"the output each time you navigate to a new page"
+msgstr ""
+"Dacă activați această opțiune Consola web și Monitorizarea rețelei nu vor "
+"curăța conținutul acestora de fiecare dată când navigați pe o pagină nouă"
+
+#. This is the
+#. -  label for the checkbox that toggles the display of the platform data in the,
+#. -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
+#. -  in about:config, in the options panel.
+#: options.showPlatformData.label
+msgid "Show Gecko platform data"
+msgstr "Arată datele platformei Gecko"
+
+#: options.showPlatformData.tooltip
+msgid ""
+"If you enable this option the JavaScript Profiler reports will include \n"
+"Gecko platform symbols"
+msgstr ""
+"If you enable this option the JavaScript Profiler reports will include \n"
+"Gecko platform symbols"
+
+#. LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
+#. -  section.
+#: options.sourceeditor.label
+msgid "Editor Preferences"
+msgstr "Preferințele pentru editor"
+
+#: options.sourceeditor.detectindentation.label
+msgid "Detect indentation"
+msgstr "Detenctează indentarea"
+
+#: options.sourceeditor.detectindentation.tooltip
+msgid "Guess indentation based on source content"
+msgstr "Ghicește indentarea după conținutul sursă"
+
+#: options.sourceeditor.autoclosebrackets.label
+msgid "Autoclose brackets"
+msgstr "Închide automat parantezele"
+
+#: options.sourceeditor.autoclosebrackets.tooltip
+msgid "Automatically insert closing brackets"
+msgstr "Inserează automat paranteze închise"
+
+#: options.sourceeditor.expandtab.label
+msgid "Indent using spaces"
+msgstr "Indentare folosind spații"
+
+#: options.sourceeditor.expandtab.tooltip
+msgid "Use spaces instead of the tab character"
+msgstr "Folosește spații în loc de caractere pentru tabulator"
+
+#: options.sourceeditor.tabsize.label
+#: options.sourceeditor.tabsize.accesskey
+msgid "&Tab size"
+msgstr "Mă&rimea filei"
+
+#: options.sourceeditor.keybinding.label
+#: options.sourceeditor.keybinding.accesskey
+msgid "&Keybindings"
+msgstr "&Combinații de taste"
+
+#: options.sourceeditor.keybinding.default.label
+msgid "Default"
+msgstr "Implicite"

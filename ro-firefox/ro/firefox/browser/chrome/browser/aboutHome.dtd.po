@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:16+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/aboutHome.dtd.po\n"
-"X-Pootle-Revision: 1542304\n"
+"X-Pootle-Revision: 1913259\n"
 
 #. %syncBrandDTD;
 #. These strings are used in the about:home page
@@ -70,13 +70,6 @@ msgstr "Preferințe"
 #: abouthome.addonsButton.label
 msgid "Add-ons"
 msgstr "Suplimente"
-
-#. This string should be consistent with
-#. the Apps menu item in the Tools menu (webapps.label in browser.dtd) and the Apps toolbar button in
-#. Firefox's customization palette (web-apps-button.label in customizableWidgets.properties)
-#: abouthome.appsButton2.label
-msgid "Apps"
-msgstr "Aplicații"
 
 #: abouthome.downloadsButton.label
 msgid "Downloads"

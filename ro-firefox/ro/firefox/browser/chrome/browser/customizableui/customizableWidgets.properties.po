@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:16+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/customizableui/customizable"
 "Widgets.properties.po\n"
-"X-Pootle-Revision: 1542316\n"
+"X-Pootle-Revision: 1913265\n"
 
 #: history-panelmenu.label
 msgid "History"
@@ -23,6 +23,14 @@ msgstr "Istoric"
 #: history-panelmenu.tooltiptext2
 msgid "Show your history (%S)"
 msgstr "Arată istoricul (%S)"
+
+#: remotetabs-panelmenu.label
+msgid "Synced Tabs"
+msgstr ""
+
+#: remotetabs-panelmenu.tooltiptext
+msgid "Show your synced tabs from other devices"
+msgstr ""
 
 #: privatebrowsing-button.label
 msgid "New Private Window"
@@ -228,9 +236,9 @@ msgstr "Ieși din %1$S (%2$S)"
 msgid "Hello"
 msgstr "Salut"
 
-#: loop-call-button3.tooltiptext
-msgid "Start a conversation"
-msgstr "Pornește o conversație"
+#: loop-call-button3.tooltiptext2
+msgid "Browse this page with a friend"
+msgstr ""
 
 #: loop-call-button3-error.tooltiptext
 msgid "Error!"
@@ -244,12 +252,12 @@ msgstr ""
 msgid "You are sharing your screen"
 msgstr ""
 
-#: loop-call-button3-active.tooltiptext
-msgid "Active conversation"
+#: loop-call-button3-active.tooltiptext2
+msgid "You are sharing your tabs"
 msgstr ""
 
-#: loop-call-button3-participantswaiting.tooltiptext
-msgid "Someone is waiting for you in a conversation"
+#: loop-call-button3-participantswaiting.tooltiptext2
+msgid "Someone is waiting for you"
 msgstr ""
 
 #. # LOCALIZATION NOTE(loop-call-button3-pb.tooltiptext): Shown when the button is
@@ -274,14 +282,6 @@ msgstr "Uită"
 msgid "Forget about some browsing history"
 msgstr "Uită de o parte din istoricul de navigare"
 
-#: web-apps-button.label
-msgid "Apps"
-msgstr "Aplicații"
-
-#: web-apps-button.tooltiptext
-msgid "Discover Apps"
-msgstr "Descoperă aplicații"
-
 #. # LOCALIZATION NOTE(devtools-webide-button.label, devtools-webide-button.tooltiptext):
 #. # widget is only visible after WebIDE has been started once (Tools > Web Developers > WebIDE)
 #. # %S is the keyboard shortcut
@@ -292,16 +292,6 @@ msgstr "WebIDE"
 #: devtools-webide-button2.tooltiptext
 msgid "Open WebIDE (%S)"
 msgstr "Deschide WebIDE (%S)"
-
-#. # LOCALIZATION NOTE(pocket-button.label, pocket-button.tooltiptext): "Pocket"
-#. # is a brand name.
-#: pocket-button.label
-msgid "Pocket"
-msgstr "Pocket"
-
-#: pocket-button.tooltiptext
-msgid "Save to Pocket"
-msgstr "Salvează în Pocket"
 
 #: e10s-button.label
 msgid "New Non-e10s Window"

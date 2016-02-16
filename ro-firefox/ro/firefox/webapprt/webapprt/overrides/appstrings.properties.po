@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/webapprt/webapprt/overrides/appstrings.properties."
 "po\n"
-"X-Pootle-Revision: 855249\n"
+"X-Pootle-Revision: 1695577\n"
 
 #: malformedURI
 msgid "The URL is not valid and cannot be loaded."
@@ -208,6 +208,10 @@ msgid ""
 msgstr ""
 "Site-ul web de la %S a fost raportat ca fiind un site fals menit să "
 "păcălească utilizatorii să dea informații personale sau financiare."
+
+#: forbiddenBlocked
+msgid "The site at %S has been blocked by your browser configuration."
+msgstr ""
 
 #: cspBlocked
 msgid ""

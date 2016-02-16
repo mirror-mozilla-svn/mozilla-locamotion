@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:16+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefox/browser/chrome/browser/preferences/preferences.properties.po\n"
-"X-Pootle-Revision: 1574305\n"
+"X-Pootle-Revision: 1913282\n"
 
 #. #### Security
 #. # LOCALIZATION NOTE: phishBefore uses %S to represent the name of the provider
@@ -52,6 +52,14 @@ msgid "Keep my changes anyway"
 msgstr "Păstrează-mi schimbările oricum"
 
 #. #### Permissions Manager
+#: trackingprotectionpermissionstext
+msgid "You have disabled Tracking Protection on these sites."
+msgstr ""
+
+#: trackingprotectionpermissionstitle
+msgid "Exceptions - Tracking Protection"
+msgstr ""
+
 #: cookiepermissionstext
 msgid ""
 "You can specify which websites are always or never allowed to use cookies.  "

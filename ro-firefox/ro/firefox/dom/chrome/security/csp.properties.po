@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/dom/chrome/security/csp.properties.po\n"
-"X-Pootle-Revision: 1542472\n"
+"X-Pootle-Revision: 1913339\n"
 
 #. # CSP Warnings:
 #. # LOCALIZATION NOTE (CSPViolation):
@@ -81,6 +81,12 @@ msgstr "Ignoring unknown option %1$S"
 #: ignoringDuplicateSrc
 msgid "Ignoring duplicate source %1$S"
 msgstr "Ignoră sursa duplicat %1$S"
+
+#. # LOCALIZATION NOTE (ignoringSrcFromMetaCSP):
+#. # %1$S defines the ignored src
+#: ignoringSrcFromMetaCSP
+msgid "Ignoring source '%1$S' (Not supported when delivered via meta element)."
+msgstr ""
 
 #. # LOCALIZATION NOTE (ignoringSrcWithinScriptSrc):
 #. # %1$S is the ignored src
@@ -197,3 +203,10 @@ msgid ""
 "Duplicate %1$S directives detected.  All but the first instance will be "
 "ignored."
 msgstr "Directive %1$S detectate. Toate dar și prima instanță vor fi ignorate."
+
+#. # LOCALIZATION NOTE (deprecatedDirective):
+#. # %1$S is the name of the deprecated directive, %2$S is the name of the replacement.
+#: deprecatedDirective
+msgid ""
+"Directive '%1$S' has been deprecated. Please use directive '%2$S' instead."
+msgstr ""

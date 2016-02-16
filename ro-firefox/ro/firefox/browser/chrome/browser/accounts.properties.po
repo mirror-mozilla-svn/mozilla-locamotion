@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:16+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/browser/chrome/browser/accounts.properties.po\n"
-"X-Pootle-Revision: 1542311\n"
+"X-Pootle-Revision: 1913262\n"
 
 #. # autoDisconnectDescription is shown in an info bar when we detect an old
 #. # Sync is being used.
@@ -34,4 +34,27 @@ msgstr "Reconectează %S"
 #. # LOCALIZATION NOTE (verifyDescription) - %S = Email address of user's Firefox Account
 #: verifyDescription
 msgid "Verify %S"
+msgstr ""
+
+#. # These strings are shown in a flyout in the Sync preference panel after the
+#. # user requests we resend a verification email.
+#: verificationSentTitle
+msgid "Verification Sent"
+msgstr "Verificare trimisă"
+
+#. # LOCALIZATION NOTE (verificationSentFull) - %S = Email address of user's Firefox Account
+#: verificationSentFull
+msgid ""
+"A verification link has been sent to %S. Please check your email and click "
+"the link to begin syncing."
+msgstr ""
+
+#: verificationNotSentTitle
+msgid "Unable to Send Verification"
+msgstr "Nu se poate trimite verificarea"
+
+#: verificationNotSentFull
+msgid ""
+"We are unable to send a verification mail at this time, please try again "
+"later."
 msgstr ""

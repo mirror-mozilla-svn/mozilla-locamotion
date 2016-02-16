@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefox/toolkit/chrome/global/aboutTelemetry.dtd.po\n"
-"X-Pootle-Revision: 1542507\n"
+"X-Pootle-Revision: 1913354\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -55,6 +55,18 @@ msgstr "Date actuale ping"
 msgid "Archived ping data"
 msgstr "Date ping arhivate"
 
+#: aboutTelemetry.pingDataDisplay
+msgid "Ping data display:"
+msgstr ""
+
+#: aboutTelemetry.structured
+msgid "Structured"
+msgstr ""
+
+#: aboutTelemetry.raw
+msgid "Raw JSON"
+msgstr ""
+
 #: aboutTelemetry.showSubsessionData
 msgid "Show subsession data"
 msgstr "Arată datele pentru subsesiune"
@@ -70,6 +82,10 @@ msgstr "&lt;&lt; ping mai recent"
 #: aboutTelemetry.showOlderPing
 msgid "Older ping &gt;&gt;"
 msgstr "&gt;&gt; ping mai vechi"
+
+#: aboutTelemetry.rawPingData
+msgid "Raw ping data…"
+msgstr ""
 
 #: aboutTelemetry.archiveWeekHeader
 msgid "Week"
@@ -123,8 +139,9 @@ msgstr "  Detalii supliment"
 msgid "  Late Writes"
 msgstr "  Scrieri întârziate"
 
-#: aboutTelemetry.systemInfoSection
-msgid "  System Information"
+#: aboutTelemetry.sessionInfoSection
+#, fuzzy
+msgid "  Session Information"
 msgstr "  Informații sistem"
 
 #: aboutTelemetry.addonHistogramsSection
@@ -158,3 +175,7 @@ msgstr "  Arată datele brute de la blocări"
 #: aboutTelemetry.filterText
 msgid "  Filter (strings or /regexp/)"
 msgstr "  Filtru (șir caracter sau /regexp/)"
+
+#: aboutTelemetry.payloadChoiceHeader
+msgid "  Payload"
+msgstr ""
