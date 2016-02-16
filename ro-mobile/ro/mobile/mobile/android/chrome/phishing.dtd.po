@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/chrome/phishing.dtd.po\n"
-"X-Pootle-Revision: 70110\n"
+"X-Pootle-Revision: 1919946\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -30,6 +30,14 @@ msgid "This isn't a web forgery…"
 msgstr "Acesta nu este un fals web…"
 
 #: safeb.palm.reportPage.label
+#, fuzzy
+msgctxt "safeb.palm.reportPage.label"
+msgid "Why was this page blocked?"
+msgstr "De ce a fost blocată această pagină?"
+
+#: safeb.palm.whyForbidden.label
+#, fuzzy
+msgctxt "safeb.palm.whyForbidden.label"
 msgid "Why was this page blocked?"
 msgstr "De ce a fost blocată această pagină?"
 
@@ -102,3 +110,14 @@ msgid ""
 msgstr ""
 "Paginile cu programe nedorite încearcă să instaleze programe care pot fi "
 "înșelătoare și îți afectează sistemul în moduri neașteptate."
+
+#: safeb.blocked.forbiddenPage.title2
+msgid "Blocked Site"
+msgstr ""
+
+#. Localization note (safeb.blocked.forbiddenPage.shortDesc) - Please don't translate the contents of the <span id="forbidden_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com)
+#: safeb.blocked.forbiddenPage.shortDesc2
+msgid ""
+"The Web page at <span id='forbidden_sitename'/> has been blocked by your "
+"admin profile."
+msgstr ""

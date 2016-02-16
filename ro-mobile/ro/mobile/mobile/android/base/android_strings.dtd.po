@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/mobile/mobile/android/base/android_strings.dtd.po\n"
-"X-Pootle-Revision: 1674933\n"
+"X-Pootle-Revision: 1939579\n"
 
 #. This Source Code Form is subject to the terms of the Mozilla Public
 #. - License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -42,9 +42,59 @@ msgstr "Navighează cu &brandShortName;"
 msgid "Make your mobile Web browsing experience truly your own."
 msgstr "Fă ca experiența de navigare mobilă pe web să fie cu adevărat unică."
 
-#: onboard_start_button_account
-msgid "Sign in to &brandShortName;"
-msgstr "Autentifică-te în &brandShortName;"
+#: firstrun_urlbar_message
+msgid "Welcome to &brandShortName;"
+msgstr "Bun venit la &brandShortName;"
+
+#: firstrun_urlbar_subtext
+msgid "Find things faster with helpful search suggestion shortcuts."
+msgstr ""
+
+#: firstrun_bookmarks_title
+#, fuzzy
+msgctxt "firstrun_bookmarks_title"
+msgid "History"
+msgstr "Istoric"
+
+#: firstrun_bookmarks_message
+msgid "Your faves, front and center"
+msgstr ""
+
+#: firstrun_bookmarks_subtext
+msgid "Get results from your bookmarks and history when you search."
+msgstr ""
+
+#: firstrun_data_title
+msgid "Data"
+msgstr ""
+
+#: firstrun_data_message
+msgid "Less data, more savings"
+msgstr ""
+
+#: firstrun_data_subtext
+msgid "Block images to spend less data on every site you visit."
+msgstr ""
+
+#: firstrun_sync_title
+msgid "Sync"
+msgstr "Sincronizare"
+
+#: firstrun_sync_message
+msgid "&brandShortName;, always by your side"
+msgstr ""
+
+#: firstrun_sync_subtext
+msgid "Sync your tabs, passwords, and more everywhere you use it."
+msgstr ""
+
+#: firstrun_signin_message
+msgid "Get connected, get started"
+msgstr ""
+
+#: firstrun_signin_button
+msgid "Sign in to Sync"
+msgstr ""
 
 #: onboard_start_button_browser
 msgid "Start Browsing"
@@ -61,31 +111,6 @@ msgid ""
 msgstr ""
 "Rămâi în siguranță și păstrează controlul cu această versiune simplificată "
 "de &brandShortName;."
-
-#: firstrun_import_title
-msgctxt "firstrun_import_title"
-msgid "Import"
-msgstr "Importă"
-
-#: firstrun_import_message
-msgid "Welcome to &brandShortName;"
-msgstr "Bun venit la &brandShortName;"
-
-#: firstrun_import_subtext
-msgid "Import your bookmarks and history from another browser."
-msgstr "Importă semnele de carte și istoricul din alt browser."
-
-#: firstrun_import_action
-msgid "Transfer to &brandShortName;"
-msgstr "Transferă în &brandShortName;"
-
-#: firstrun_import_dialog_button
-msgid "Transfer"
-msgstr "Transferă"
-
-#: firstrun_import_progress_title
-msgid "Transferring"
-msgstr "Se transferă"
 
 #. Localization note: These are used as the titles of different pages on the home screen.
 #. They are automatically converted to all caps by the Android platform.
@@ -330,32 +355,19 @@ msgctxt "settings_title"
 msgid "Settings"
 msgstr "Setări"
 
-#: pref_category_input_options
-msgid "Input options"
-msgstr "Opțiuni de intrare"
+#: pref_category_general
+msgctxt "pref_category_general"
+msgid "General"
+msgstr "General"
 
-#: pref_category_advanced
-msgid "Advanced"
-msgstr "Avansat"
-
-#: pref_category_customize
-msgctxt "pref_category_customize"
-msgid "Customize"
-msgstr "Personalizare"
-
-#: pref_category_customize_summary
-msgid "Home, search, tabs, import"
-msgstr "Pagină de start, căutare, file, importă"
-
-#: pref_category_customize_alt_summary
-msgid "Home, search, tabs, open later, import"
-msgstr "Pagină de start, file, deschide mai târziu, importă"
+#: pref_category_general_summary2
+msgid "Home, language, URL bar"
+msgstr ""
 
 #. Localization note (pref_category_language) : This is the preferences
 #. section in which the user picks the locale in which to display Firefox
 #. UI. The locale includes both language and region concepts.
 #: pref_category_language
-msgctxt "pref_category_language"
 msgid "Language"
 msgstr "Limbă"
 
@@ -429,14 +441,6 @@ msgstr "Selectează un dispozitiv"
 msgid "No Firefox Account connected devices found"
 msgstr "Niciun dispozitiv conectat găsit la contul Firefox"
 
-#. Localization note (menu_no_synced_devices): Used in a toast when the user
-#. clicks on the button to send a tab to another device and there are no
-#. other devices present. This label should briefly inform the user that they
-#. need another connected device in order to use the feature.
-#: menu_no_synced_devices
-msgid "Send this tab to another connected device"
-msgstr ""
-
 #: pref_category_search3
 msgctxt "pref_category_search3"
 msgid "Search"
@@ -446,32 +450,31 @@ msgstr "Căutare"
 msgid "Customize your search providers"
 msgstr "Personalizează motoarele de căutare"
 
-#: pref_category_display
-msgctxt "pref_category_display"
-msgid "Display"
-msgstr "Ecran"
+#: pref_category_accessibility
+msgctxt "pref_category_accessibility"
+msgid "Accessibility"
+msgstr "Accesibilitate"
 
-#: pref_category_display_summary
-msgid "Text, title bar, full-screen browsing"
-msgstr "Text, bară de titlu, navigare pe ecran complet"
+#: pref_category_accessibility_summary2
+msgid "Text size, zoom, voice input"
+msgstr ""
 
 #: pref_category_privacy_short
 msgctxt "pref_category_privacy_short"
 msgid "Privacy"
 msgstr "Confidențialitate"
 
-#: pref_category_privacy_summary2
-msgid "Control logins, cookies, tracking, data"
-msgstr "Controlează autentificările, cookie-urile, urmărirea, datele"
+#: pref_category_privacy_summary3
+msgid "Tracking, cookies, data choices"
+msgstr ""
 
-#: pref_category_vendor
-msgctxt "pref_category_vendor"
-msgid "&vendorShortName;"
-msgstr "&vendorShortName;"
+#: pref_category_vendor2
+msgid "&vendorShortName; &brandShortName;"
+msgstr "&vendorShortName; &brandShortName;"
 
-#: pref_category_vendor_summary
-msgid "About &brandShortName;, FAQs, data choices"
-msgstr "Despre &brandShortName;, întrebări frecvente, împărtășire de date"
+#: pref_category_vendor_summary2
+msgid "About &brandShortName;, FAQs, feedback"
+msgstr ""
 
 #: pref_category_datareporting
 msgid "Data choices"
@@ -516,10 +519,14 @@ msgstr ""
 "PONT: Adaugă orice site în lista motoarelor de căutare prin atingerea lungă "
 "pe câmpul de căutare al acestuia iar apoi apăsând pe iconița &formatI;."
 
-#: pref_category_devtools
-msgctxt "pref_category_devtools"
-msgid "Developer tools"
-msgstr "Unelte de dezvoltare"
+#: pref_category_advanced
+msgctxt "pref_category_advanced"
+msgid "Advanced"
+msgstr "Avansat"
+
+#: pref_category_advanced_summary2
+msgid "Restore tabs, plugins, developer tools"
+msgstr ""
 
 #: pref_developer_remotedebugging
 msgid "Remote debugging"
@@ -540,22 +547,9 @@ msgstr ""
 "Depanarea via Wi-Fi necesită ca dispozitivul să aibă o aplicație care "
 "scanează coduri QR."
 
-#: pref_category_logins
-msgctxt "pref_category_logins"
-msgid "Logins"
-msgstr "Autentificări"
-
 #: pref_remember_signons2
 msgid "Remember logins"
 msgstr "Reține autentificările"
-
-#: pref_open_external_urls_privately_title
-msgid "Open links in Private browsing"
-msgstr "Deschide linkuri în navigarea privată"
-
-#: pref_open_external_urls_privately_summary
-msgid "For all external links opened in &brandShortName;"
-msgstr "Pentru toate linkurile externe deschise în &brandShortName;"
 
 #: pref_manage_logins
 msgid "Manage logins"
@@ -593,6 +587,7 @@ msgid "Content settings"
 msgstr "Setări de conținut"
 
 #: pref_home_updates
+msgctxt "pref_home_updates"
 msgid "Automatic updates"
 msgstr "Actualizări automate"
 
@@ -626,45 +621,65 @@ msgstr "Pagină de start"
 msgid "Set a Homepage"
 msgstr "Setează o pagină de start"
 
-#: home_homepage_use_current_tab
-msgid "Use current tab"
-msgstr "Folosește fila actuală"
+#. Localization note (home_homepage_radio_user_address): The user will see a series of radio
+#. buttons to choose the homepage they'd like to start on. When they click the radio
+#. button for this string, they will use the built-in default Firefox homepage (about:home).
+#: home_homepage_radio_default
+msgctxt "home_homepage_radio_default"
+msgid "&brandShortName; Home"
+msgstr "Pagina de start &brandShortName;"
+
+#. Localization note (home_homepage_radio_user_address): The user will see a series of radio
+#. buttons to choose the homepage they'd like to start on. When they click the radio
+#. button for this string, a text field will appear below the radio button and allow the
+#. user to insert an address of their choice.
+#: home_homepage_radio_user_address
+msgid "Custom"
+msgstr "Personalizat"
+
+#. Localization note (home_homepage_hint_user_address): The user will see a series of
+#. radio buttons to choose the homepage they'd like to start on. When they click a
+#. particular radio button, a text field will appear below the radio button and allow the
+#. user to insert an address of their choice. This string is the hint text to that
+#. text field.
+#: home_homepage_hint_user_address
+msgid "Enter address or search term"
+msgstr ""
 
 #. Localization note: These are shown in the left sidebar on tablets
-#: pref_header_customize
-msgctxt "pref_header_customize"
-msgid "Customize"
-msgstr "Personalizare"
+#: pref_header_general
+msgctxt "pref_header_general"
+msgid "General"
+msgstr "General"
 
-#: pref_header_display
-msgctxt "pref_header_display"
-msgid "Display"
-msgstr "Ecran"
+#: pref_header_search
+msgctxt "pref_header_search"
+msgid "Search"
+msgstr "Caută"
 
 #: pref_header_privacy_short
 msgctxt "pref_header_privacy_short"
 msgid "Privacy"
 msgstr "Confidențialitate"
 
+#: pref_header_accessibility
+msgctxt "pref_header_accessibility"
+msgid "Accessibility"
+msgstr "Accesibilitate"
+
+#: pref_header_advanced
+msgctxt "pref_header_advanced"
+msgid "Advanced"
+msgstr "Avansat"
+
 #: pref_header_help
 msgctxt "pref_header_help"
 msgid "Help"
 msgstr "Ajutor"
 
-#: pref_header_language
-msgctxt "pref_header_language"
-msgid "Language"
-msgstr "Limbă"
-
 #: pref_header_vendor
-msgctxt "pref_header_vendor"
 msgid "&vendorShortName;"
 msgstr "&vendorShortName;"
-
-#: pref_header_devtools
-msgctxt "pref_header_devtools"
-msgid "Developer tools"
-msgstr "Unelte de dezvoltare"
 
 #: pref_cookies_menu
 msgid "Cookies"
@@ -684,13 +699,23 @@ msgctxt "pref_cookies_disabled"
 msgid "Disabled"
 msgstr "Dezactivate"
 
-#: pref_tap_to_load_images_title
-msgid "Tap-to-load images"
-msgstr "Atinge pentru a încărca imaginile"
+#: pref_tap_to_load_images_title2
+msgid "Show images"
+msgstr "Arată imaginile"
 
-#: pref_tap_to_load_images_summary2
-msgid "Load images only when you long press them"
-msgstr "Încarcă imaginile doar la apăsarea lungă a acestora"
+#: pref_tap_to_load_images_enabled
+msgctxt "pref_tap_to_load_images_enabled"
+msgid "Always"
+msgstr "Mereu"
+
+#: pref_tap_to_load_images_data
+msgctxt "pref_tap_to_load_images_data"
+msgid "Only over Wi-Fi"
+msgstr "Doar prin Wi-Fi"
+
+#: pref_tap_to_load_images_disabled2
+msgid "Blocked"
+msgstr "Blocat"
 
 #: pref_tracking_protection_title
 msgctxt "pref_tracking_protection_title"
@@ -741,7 +766,7 @@ msgstr "Vizitează setările de confidențialitate pentru a afla mai multe"
 
 #: tracking_protection_prompt_action_button
 msgid "Got it!"
-msgstr "Am priceput!"
+msgstr "Am înțeles!"
 
 #: tab_queue_toast_message3
 msgid "Tab saved in &brandShortName;"
@@ -763,6 +788,12 @@ msgstr "Salvează-le până la următoarea deschidere a &brandShortName;."
 msgid "You can change this later in Settings"
 msgstr "Poți modifica acest lucru mai târziu din Setări"
 
+#. Localization note (tab_queue_prompt_permit_drawing_over_apps): This additional text is shown if the
+#. user needs to enable an Android setting in order to enable tab queues.
+#: tab_queue_prompt_permit_drawing_over_apps
+msgid "Turn on Permit drawing over other apps"
+msgstr ""
+
 #: tab_queue_prompt_positive_action_button
 msgid "Enable"
 msgstr "Activează"
@@ -770,6 +801,12 @@ msgstr "Activează"
 #: tab_queue_prompt_negative_action_button
 msgid "Not now"
 msgstr "Nu acum"
+
+#. Localization note (tab_queue_prompt_settings_button): This button is shown if the user needs to
+#. enable a permission in Android's setting in order to enable tab queues.
+#: tab_queue_prompt_settings_button
+msgid "Go to Settings"
+msgstr ""
 
 #: tab_queue_notification_title
 msgid "&brandShortName;"
@@ -789,6 +826,14 @@ msgstr "&formatD; file în așteptare"
 msgid "1 tab waiting"
 msgstr "1 filă în așteptare"
 
+#. Localization note (tab_queue_notification_settings): This notification text is shown if a tab
+#. has been queued but we are missing the system permission to show an overlay.
+#: tab_queue_notification_settings
+msgid ""
+"To \"Open multiple links\", please enable the 'Draw over other apps' "
+"permission for &brandShortName;"
+msgstr ""
+
 #: pref_char_encoding
 msgid "Character encoding"
 msgstr "Codare de caractere"
@@ -801,17 +846,19 @@ msgstr "Arată meniul"
 msgid "Don't show menu"
 msgstr "Nu arăta meniul"
 
-#: pref_clear_private_data2
+#: pref_clear_private_data
+msgid "Clear Private Data"
+msgstr "Curăță datele private"
+
+#. Localization note (pref_clear_private_data_now_tablet): This action to clear private data is only shown on tablets.
+#. The action is shown below a header saying "Clear private data"; See pref_clear_private_data
+#: pref_clear_private_data_now_tablet
 msgid "Clear now"
 msgstr "Curăță acum"
 
-#: pref_clear_private_data_category
-msgid "Clear private data"
-msgstr "Curăță datele private"
-
-#: pref_clear_on_exit_title2
-msgid "Clear on exit"
-msgstr "Curăță la ieșire"
+#: pref_clear_on_exit_title3
+msgid "Clear private data on exit"
+msgstr ""
 
 #: pref_clear_on_exit_summary2
 msgid ""
@@ -847,10 +894,9 @@ msgstr "Dezactivate"
 msgid "Text size"
 msgstr "Mărimea textului"
 
-#: pref_restore
-msgctxt "pref_restore"
-msgid "Tabs"
-msgstr "File"
+#: pref_restore_tabs
+msgid "Restore tabs"
+msgstr ""
 
 #: pref_restore_always
 msgid "Always restore"
@@ -931,25 +977,27 @@ msgstr "Forțează suprascrierea ca să poți face zoom pe orice pagină"
 msgid "Voice input"
 msgstr "Intrare vocală"
 
-#: pref_voice_input_summary
-msgid "Allow voice dictation in the title bar"
+#: pref_voice_input_summary2
+#, fuzzy
+msgid "Allow voice dictation in the URL bar"
 msgstr "Permite dictarea vocală în bara de titlu"
 
 #: pref_qrcode_enabled
 msgid "QR code reader"
 msgstr "Cititor de coduri QR"
 
-#: pref_qrcode_enabled_summary
-msgid "Allow QR scanner in the title bar"
+#: pref_qrcode_enabled_summary2
+#, fuzzy
+msgid "Allow QR scanner in the URL bar"
 msgstr "Permite scanerul QR în bara de titlu"
 
 #: pref_use_master_password
 msgid "Use master password"
 msgstr "Folosește parola generală"
 
-#: pref_sync
-msgid "Sync"
-msgstr "Sincronizare"
+#: pref_sync2
+msgid "Sign in"
+msgstr ""
 
 #: pref_sync_summary2
 msgid "Sync your tabs, bookmarks, logins, history"
@@ -963,9 +1011,10 @@ msgstr "Arată sugestii de căutare"
 msgid "Show search history"
 msgstr "Arată istoricul căutărilor"
 
-#: pref_import_android
-msgid "Import from Android"
-msgstr "Importă din Android"
+#: pref_import_options
+#, fuzzy
+msgid "Import options"
+msgstr "Opțiuni de intrare"
 
 #: pref_import_android_summary
 msgid "Import bookmarks and history from the native browser"
@@ -1156,9 +1205,10 @@ msgstr ""
 #. Localization note (pref_update_autodownload2) : This should mention downloading
 #. specifically, since the pref only prevents automatic downloads and not the
 #. actual notification that an update is available.
-#: pref_update_autodownload2
-msgid "Download updates automatically"
-msgstr "Descarcă actualizări automat"
+#: pref_update_autodownload3
+msgctxt "pref_update_autodownload3"
+msgid "Automatic updates"
+msgstr "Actualizări automate"
 
 #: pref_update_autodownload_wifi
 msgctxt "pref_update_autodownload_wifi"
@@ -1170,6 +1220,7 @@ msgid "Never"
 msgstr "Niciodată"
 
 #: pref_update_autodownload_always
+msgctxt "pref_update_autodownload_always"
 msgid "Always"
 msgstr "Mereu"
 
@@ -1184,11 +1235,11 @@ msgid "Quit"
 msgstr "Ieși"
 
 #: addons
+msgctxt "addons"
 msgid "Add-ons"
 msgstr "Suplimente"
 
 #: logins
-msgctxt "logins"
 msgid "Logins"
 msgstr "Autentificări"
 
@@ -1256,7 +1307,6 @@ msgid "Close Private Tabs"
 msgstr "Închide filele private"
 
 #: tabs_normal
-msgctxt "tabs_normal"
 msgid "Tabs"
 msgstr "File"
 
@@ -1440,18 +1490,6 @@ msgstr "Selectează o altă autentificare"
 msgid "Copy password from"
 msgstr "Copiază parola din"
 
-#: pref_titlebar_mode
-msgid "Title bar"
-msgstr "Bară de titlu"
-
-#: pref_titlebar_mode_title
-msgid "Show page title"
-msgstr "Arată titlul paginii"
-
-#: pref_titlebar_mode_url
-msgid "Show page address"
-msgstr "Arată adresa paginii"
-
 #. Localization note (pref_prevent_magnifying_glass): Label for setting that controls
 #. whether or not the magnifying glass is disabled.
 #: pref_magnifying_glass_enabled
@@ -1468,8 +1506,9 @@ msgstr "Mărește linkurile și câmpurile formularelor la apăsarea lângă ace
 msgid "Full-screen browsing"
 msgstr "Navigare pe ecran complet"
 
-#: pref_scroll_title_bar_summary
-msgid "Hide the &brandShortName; title bar when scrolling down a page"
+#: pref_scroll_title_bar_summary2
+#, fuzzy
+msgid "Hide the &brandShortName; toolbar when scrolling down a page"
 msgstr "Ascunde bara de titlu a &brandShortName; când derulezi în josul paginii"
 
 #: pref_tab_queue_title2
@@ -1518,10 +1557,6 @@ msgstr "Renunță"
 msgctxt "site_settings_clear"
 msgid "Clear"
 msgstr "Curăță"
-
-#: site_settings_no_settings
-msgid "There are no settings to clear."
-msgstr "Nu sunt setări de curățat."
 
 #. Localization note (reading_list_added3) : Used in a toast, please keep as short
 #. as possible.
@@ -1625,6 +1660,7 @@ msgstr "Adaugă un site"
 #. Localization note (home_title): This string should be kept in sync
 #. with the page title defined in aboutHome.dtd
 #: home_title
+msgctxt "home_title"
 msgid "&brandShortName; Home"
 msgstr "Pagina de start &brandShortName;"
 
@@ -1665,6 +1701,10 @@ msgstr "Deschide toate"
 msgid "Websites you visited most recently show up here."
 msgstr "Site-urile pe care le-ai vizitat cel mai recent apar aici."
 
+#: home_selected_empty
+msgid "Websites you visited in the selected timeframe show up here."
+msgstr ""
+
 #. Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
 #. The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining.
 #: home_most_recent_emptyhint2
@@ -1677,28 +1717,6 @@ msgstr ""
 #: home_reading_list_empty
 msgid "Articles you save for later show up here."
 msgstr "Articolele pe care le-ai salvat pentru mai târziu apar aici."
-
-#. Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
-#. as an advisory message on how to add content to the reading list when the reading list empty.
-#. The placeholder &formatI; will be replaced by a small image of the icon described, and can be moved to wherever
-#. it is applicable.
-#: home_reading_list_hint2
-msgid ""
-"TIP: Save articles to your reading list by long pressing the &formatI; icon "
-"when it appears in the title bar."
-msgstr ""
-"PONT: Salvează articole în lista de citit prin apăsarea lungă a iconiței "
-"&formatI; când aceasta apare în bara de titlu."
-
-#. Localization note (home_reading_list_hint_accessible): This string is used
-#. as alternate text for accessibility. It is not visible in the UI.
-#: home_reading_list_hint_accessible
-msgid ""
-"TIP: Save articles to your reading list by long pressing the reader mode "
-"button when it appears in the title bar."
-msgstr ""
-"PONT: Salvează articole în lista de citit prin apăsarea lungă a butonului "
-"mod citire când acesta apare în bara de titlu."
 
 #. Localization note (home_default_empty): This string is used as the default text when there
 #. is no data to show in an about:home panel that was created by an add-on.
@@ -1829,6 +1847,10 @@ msgstr "Conexiune nesecurizată"
 msgid "This page is not secure and your login could be vulnerable."
 msgstr ""
 
+#: identity_connection_chromeui
+msgid "This is a secure &brandShortName; page"
+msgstr ""
+
 #. Mixed content notifications in site identity popup
 #: mixed_content_blocked_all1
 msgid "&brandShortName; has blocked insecure content on this page."
@@ -1898,7 +1920,7 @@ msgid "Some private data could not be cleared"
 msgstr "Unele date private nu au putut fi curățate"
 
 #: bookmarkhistory_button_import
-msgctxt "bookmarkhistory_button_import"
+#, fuzzy
 msgid "Import"
 msgstr "Importă"
 
@@ -1993,6 +2015,20 @@ msgstr "Actualizare disponibilă pentru &brandShortName;"
 #: updater_apply_select2
 msgid "Touch to update"
 msgstr "Apasă pentru a actualiza"
+
+#. Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
+#. if the app requires a runtime permission to download updates. Currently, the updater only sees
+#. remotely advertised updates in the Nightly and Aurora channels.
+#: updater_permission_text
+msgid ""
+"To download files and updates, allow &brandShortName; permission to access "
+"storage."
+msgstr ""
+
+#. This action is shown in a snackbar along with updater_permission_text.
+#: updater_permission_allow
+msgid "Allow"
+msgstr ""
 
 #. Guest mode
 #: new_guest_session
@@ -2146,49 +2182,65 @@ msgstr "Ieși din navigarea privată?"
 msgid "Scanning for the QR code displayed on your other device"
 msgstr "Se scanează codul QR afișat pe celălalt dispozitiv"
 
-#. Restrictions
-#. Localization note: These are restrictions the device owner (e.g. parent) can enable for
+#. Restrictable features
+#. Localization note: These are features the device owner (e.g. parent) can enable or disable for
 #. a restricted profile (e.g. child). Used inside the Android settings UI.
-#: restriction_disallow_import_settings_title2
-msgid "Disable 'Import from Android'"
-msgstr "Dezactivează „Importă din Android”"
+#: restrictable_feature_addons_installation
+msgctxt "restrictable_feature_addons_installation"
+msgid "Add-ons"
+msgstr "Suplimente"
 
-# Aici nu știu dacă este vorba de supliment sau suplimente
-#: restriction_disallow_addons_title2
-msgid "Disable add-on installation"
-msgstr "Dezactivează instalarea suplimentelor"
+#: restrictable_feature_addons_installation_description
+msgid ""
+"Add features or functionality to Firefox. Note: Add-ons can disable certain "
+"restrictions."
+msgstr ""
 
-#: restriction_disallow_devtools_title2
-msgid "Disable developer tools"
-msgstr "Dezactivează uneltele de dezvoltare"
+#: restrictable_feature_private_browsing
+msgid "Private Browsing"
+msgstr "Navigare fără urme"
 
-#: restriction_disallow_customize_home_title2
-msgid "Disable Home customization"
-msgstr "Dezactivează personalizarea paginii de start"
+#: restrictable_feature_private_browsing_description
+msgid ""
+"Allows family members to browse without saving information about the sites "
+"and pages they've visited."
+msgstr ""
 
-#: restriction_disallow_private_browsing_title2
-msgid "Disable Private Browsing"
-msgstr "Dezactivează navigarea privată"
+#: restrictable_feature_clear_history
+msgid "Clear History"
+msgstr ""
 
-#: restriction_disallow_location_services_title2
-msgid "Disable Location Services"
-msgstr "Dezactivează serviciile de localizare"
+#: restrictable_feature_clear_history_description
+msgid ""
+"Allows family members to delete information about the sites and pages "
+"they've visited."
+msgstr ""
 
-#: restriction_disallow_display_settings_title2
-msgid "Disable Display settings"
-msgstr "Dezactivează setările de afișare"
+#: restrictable_feature_advanced_settings
+msgid "Advanced Settings"
+msgstr "Setări avansate"
 
-#: restriction_disallow_clear_history_title2
-msgid "Disable 'Clear browsing history'"
-msgstr "Dezactivează „Curăță istoricul de navigare”"
+#: restrictable_feature_advanced_settings_description
+msgid ""
+"This includes importing bookmarks, restoring tabs and automated updates. "
+"Turn off for simplified settings suitable for any family member."
+msgstr ""
 
-#: restriction_disallow_master_password_title2
-msgid "Disable master password"
-msgstr "Dezactivează parola generală"
+#: restrictable_feature_camera_microphone
+msgid "Camera & Microphone"
+msgstr ""
 
-#: restriction_disallow_guest_browsing_title2
-msgid "Disable Guest Browsing"
-msgstr "Dezactivează navigarea în mod vizitator"
+#: restrictable_feature_camera_microphone_description
+msgid "Allows family members to engage in real time communication on websites."
+msgstr ""
+
+#: restrictable_feature_block_list
+msgid "Block List"
+msgstr ""
+
+#: restrictable_feature_block_list_description
+msgid "Block websites that include sensitive content."
+msgstr ""
 
 #. Default Bookmarks titles
 #. link title for about:fennec
@@ -2216,3 +2268,20 @@ msgstr ""
 #: bookmarks_restricted_webmaker
 msgid "Learn the Web: Mozilla Webmaker"
 msgstr "Învață webul: Mozilla Webmaker"
+
+#. The user installed a build of this app that does not support
+#. the Android version of this device. the formatS1 is replaced by the CPU ABI (e.g., ARMv7); the formatS2 is
+#. replaced by the Android OS version (e.g., 14)
+#: unsupported_sdk_version
+msgid ""
+"Sorry! This &brandShortName; won't work on this device (&formatS1;, "
+"&formatS2;). Please download the correct version."
+msgstr ""
+
+#: eol_notification_title
+msgid "&brandShortName; no longer supports Android 3"
+msgstr ""
+
+#: eol_notification_summary
+msgid "Tap to learn more"
+msgstr "Atinge pentru a afla mai multe"
