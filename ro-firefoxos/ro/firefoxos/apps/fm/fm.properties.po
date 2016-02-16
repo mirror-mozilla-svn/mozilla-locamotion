@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/fm/fm.properties.po\n"
-"X-Pootle-Revision: 480077\n"
+"X-Pootle-Revision: 1879626\n"
 
 #: noAntenna
 msgid "Plug in a headset"
@@ -34,12 +34,12 @@ msgstr "Oprește modul avion pentru a folosi radioul FM."
 #: frequency-MHz
 msgctxt "frequency-MHz"
 msgid "{{ value }} <small>MHz</small>"
-msgstr ""
+msgstr "{{ value }} <small>MHz</small>"
 
 #: fav-frequency-MHz
 msgctxt "fav-frequency-MHz"
 msgid "{{ value }} <small>MHz</small>"
-msgstr ""
+msgstr "{{ value }} <small>MHz</small>"
 
 #. # The following strings are spoken by screen readers and not shown on the
 #. # screen.

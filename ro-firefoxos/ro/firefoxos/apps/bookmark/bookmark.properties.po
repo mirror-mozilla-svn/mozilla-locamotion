@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,17 +12,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/bookmark/bookmark.properties.po\n"
-"X-Pootle-Revision: 1643387\n"
+"X-Pootle-Revision: 1930138\n"
 
 #. # Add and update pinned websites UIs
 #: add-to-home-screen-title
-#, fuzzy
 msgid "Add to Home Screen"
-msgstr "Adaugă pe ecran principal"
+msgstr "Adaugă la ecranul principal"
 
 #: edit-pinned-site-title
 msgid "Edit Pinned Site"
-msgstr ""
+msgstr "Editează site-ul fixat"
 
 #: added-to-home-screen-message
 msgid "Added to home screen"
@@ -30,7 +29,7 @@ msgstr "Adăugat la ecranul principal"
 
 #: updated-pinned-site
 msgid "Updated pinned site"
-msgstr ""
+msgstr "Site fixat actualizat"
 
 #: done-action
 msgid "Done"

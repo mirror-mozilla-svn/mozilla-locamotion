@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/system.properties.po\n"
-"X-Pootle-Revision: 1643447\n"
+"X-Pootle-Revision: 1930175\n"
 
 #: ok
 msgctxt "ok"
@@ -656,9 +656,8 @@ msgid "Are you sure you want to cancel this install?"
 msgstr "Sigur dorești să anulezi această instalare?"
 
 #: app-install-download-canceled
-#, fuzzy
 msgid "{{ appName }} download cancelled"
-msgstr "Descărcarea {{ appName }} a eșuat"
+msgstr "Descărcarea {{ appName }} anulată"
 
 #. # LOCALIZATION NOTE (cancel-install*): cancel-install is the string used in
 #. # the title, cancel-install-button is used in the bottom-left button
@@ -717,12 +716,15 @@ msgstr ""
 #: addon-affects-system
 msgid "This add-on is able to affect your device on a system level."
 msgstr ""
+"Acest suplimente este capabil să afecteze dispozitivul la nivelul sistemului."
 
 #: addon-disable-instructions2
 msgid ""
 "If this add-on causes a problem, press the power button during start up to "
 "disable all add-ons."
 msgstr ""
+"Dacă acest supliment provoacă o problemă, apasă pe butonul de alimentare în "
+"timpul pornirii pentru a dezactiva toate suplimentele."
 
 #. #setup dialog
 #: setup
@@ -760,13 +762,14 @@ msgid ""
 "A problem occurred during the system update and the installation failed. "
 "Would you like to report this as a bug?"
 msgstr ""
+"A apărut o problemă în timpul actualizării sistemului și instalarea a eșuat. "
+"Dorești să reportezi asta ca defecțiune?"
 
 #: installNow
 msgid "Install Now"
 msgstr "Instalează"
 
 #: report
-#, fuzzy
 msgctxt "report"
 msgid "Report"
 msgstr "Raportează"
@@ -2182,6 +2185,12 @@ msgstr "{{appName}}: {{name}}"
 #: ime-switching-tip
 msgid "Tap to switch input method"
 msgstr "Atinge ca să comuți metoda de intrare"
+
+#. # LOCALIZATION NOTE (layout-emoji): Label for the layout "Emoji".
+#. # other layouts are always labeled in their own native scripts (in JS files)
+#: keyboard-layout-emoji
+msgid "Emoji"
+msgstr ""
 
 #. # Download Manager
 #: download_started

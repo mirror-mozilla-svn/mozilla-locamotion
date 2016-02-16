@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: "
 "/ro/firefoxos/apps/communications/contacts/contacts.properties.po\n"
-"X-Pootle-Revision: 1643398\n"
+"X-Pootle-Revision: 1930146\n"
 
 #: call
 msgctxt "call"
@@ -37,10 +37,6 @@ msgstr "Gata"
 msgid "OK"
 msgstr "Ok"
 
-#: update
-msgid "Update"
-msgstr "Actualizează"
-
 #: retry
 msgid "Retry"
 msgstr "Reîncearcă"
@@ -62,14 +58,6 @@ msgstr "Șterge contactul"
 #: selectContact
 msgid "Select contact"
 msgstr "Selectează contactul"
-
-#: selectAll
-msgid "Select all"
-msgstr "Selectează tot"
-
-#: deselectAll
-msgid "Deselect all"
-msgstr "Deselectează tot"
 
 #: editContact
 msgid "Edit contact"
@@ -102,9 +90,8 @@ msgid "This contact does not have an email address"
 msgstr "Acest contact nu are o adresă de e-mail"
 
 #: no_contact_data_available
-#, fuzzy
 msgid "This contact does not have a phone number or email address"
-msgstr "Acest contact nu are un număr de telefon și o adresă de e-mail"
+msgstr "Acest contact nu are un număr de telefon sau o adresă de e-mail"
 
 #: removePhotoConfirm
 msgid "Remove contact picture?"
@@ -372,15 +359,6 @@ msgstr "Adresă de e-mail"
 msgctxt "legendAddress"
 msgid "Address"
 msgstr "Adresă"
-
-#. # search related
-#: search-contact.placeholder
-msgid "Search"
-msgstr "Caută"
-
-#: noResults
-msgid "No contacts found"
-msgstr "Niciun contact găsit"
 
 #: transferContactsTitle
 msgid "Transfer Contacts"
@@ -725,10 +703,6 @@ msgstr "Astăzi"
 #: yesterday
 msgid "Yesterday"
 msgstr "Ieri"
-
-#: messageCanceling
-msgid "Please hold on. We are canceling the ongoing operation."
-msgstr "Te rugăm să aștepți. Anulăm operația în curs de desfășurare."
 
 #: organise-contacts
 msgid "Organize Contacts"

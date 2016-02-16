@@ -11,13 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
-"X-Pootle-Path: /ro/firefoxos/apps/sms/manifest.properties.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Path: /ro/firefoxos/distros/raptor/apps/test-startup-"
+"limit/manifest.properties.po\n"
+"X-Pootle-Revision: 1930182\n"
 
 #: name
-msgid "Messages"
-msgstr "Mesaje"
+msgid "Test Startup Limit"
+msgstr ""
 
 #: description
-msgid "Gaia Messages"
-msgstr "Mesaje Gaia"
+msgid ""
+"Counter application that does the theoretical least amount of work on startup"
+msgstr ""

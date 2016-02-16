@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/email/email.properties.po\n"
-"X-Pootle-Revision: 1643407\n"
+"X-Pootle-Revision: 1930153\n"
 
 #. # LOCALIZATION NOTE(back-button): For various cards, a label for a general
 #. # purpose header back button rendered as an icon. The following string is spoken
@@ -1018,14 +1018,12 @@ msgctxt "bcc-group.ariaLabel"
 msgid "bcc"
 msgstr "bcc"
 
-#: compose-header
-msgid "Compose message"
-msgstr "Compune mesajul"
-
-#: compose-header-short
-msgctxt "compose-header-short"
-msgid "Compose"
-msgstr "Compune"
+#. # LOCALIZATION NOTE(compose-new-header): For email compose card, the text in
+#. # the header that titles the card.
+#: compose-new-header
+#, fuzzy
+msgid "New Email"
+msgstr "1 e-mail nou"
 
 #: compose-send
 msgctxt "compose-send"
@@ -1069,7 +1067,7 @@ msgstr "{{name}} {{address}}"
 #. # the screen.
 #: compose-contact-add-recipient.ariaLabel
 msgid "Add recipient"
-msgstr ""
+msgstr "Adaugă destinatar"
 
 #. # LOCALIZATION NOTE(compose-attachments-container): For compose card, a
 #. # label for a list of attachments included in the email being composed. When
@@ -1664,7 +1662,7 @@ msgstr "Dosare și setări"
 #. # message list for going to the compose card. The following string is spoken by
 #. # screen readers and not shown on the screen.
 #: message-list-compose.ariaLabel
-msgctxt "message-list-compose.ariaLabel"
+#, fuzzy
 msgid "Compose"
 msgstr "Compune"
 

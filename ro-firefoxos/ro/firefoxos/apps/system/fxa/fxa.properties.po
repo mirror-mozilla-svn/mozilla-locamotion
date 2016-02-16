@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/fxa/fxa.properties.po\n"
-"X-Pootle-Revision: 1652948\n"
+"X-Pootle-Revision: 1933157\n"
 
 #: firefox-accounts-title
 msgid "Firefox Accounts"
@@ -62,11 +62,13 @@ msgstr "Poți reseta parola din Setări."
 msgid "Cannot Create Account"
 msgstr "Nu se poate crea cont"
 
-#: fxa-coppa-failure-error-message2
+#: fxa-coppa-failure-error-message3
 msgid ""
-"You must meet certain age requirements to create a Firefox Account. <a id"
-"=\"coppa-link\" href=\"#\">Learn more</a>"
+"You must meet certain age requirements to create a Firefox Account. <a>Learn "
+"more</a>"
 msgstr ""
+"Trebuie să îndeplinești anumite cerințe de vârstă pentru a crea un cont "
+"Firefox. <a>Află mai multe</a>"
 
 #. # this is a real error screen (13.2 and 17.2 in spec)
 #: fxa-offline-error-title
@@ -158,7 +160,7 @@ msgstr "Introdu parola"
 
 #: fxa-hello-user2
 msgid "Hello, <a>{{email}}</a>"
-msgstr ""
+msgstr "Salut, <a>{{email}}</a>"
 
 #: fxa-password-refresh
 msgid "Please enter your Firefox Account password to continue."
@@ -212,7 +214,7 @@ msgstr "Confirmă contul"
 
 #: fxa-will-send-email2
 msgid "We will send an email to: <strong>{{email}}</strong>"
-msgstr ""
+msgstr "Vom trimite un e-mail către: <strong>{{email}}</strong>"
 
 #: fxa-signup-click-verification-link-in-email
 msgid ""

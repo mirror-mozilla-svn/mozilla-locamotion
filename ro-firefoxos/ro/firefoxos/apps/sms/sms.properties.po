@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/sms/sms.properties.po\n"
-"X-Pootle-Revision: 1643440\n"
+"X-Pootle-Revision: 1930172\n"
 
 #. # Headers
 #: messages
@@ -30,7 +30,6 @@ msgstr "Selectează"
 
 #. # Edit Mode
 #: edit
-#, fuzzy
 msgid "Edit"
 msgstr "Editează"
 
@@ -170,6 +169,10 @@ msgstr "Adaugă subiect"
 #: remove-subject
 msgid "Remove subject"
 msgstr "Elimină subiectul"
+
+#: includeSomeoneElse-label
+msgid "Include someone else"
+msgstr ""
 
 #. # New Message
 #: to
@@ -413,7 +416,7 @@ msgstr "Retrimite"
 
 #: message-lateness
 msgid "Lateness:"
-msgstr ""
+msgstr "Întârziere:"
 
 #. # Search functionality
 #: search
@@ -547,9 +550,9 @@ msgstr "Citește-l"
 msgid "No messages"
 msgstr "Niciun mesaj"
 
-#: noMessages-text
-msgid "Start communicating now"
-msgstr "Începe comunicarea acum"
+#: noMessages-text-2
+msgid "Start a conversation now"
+msgstr ""
 
 #: sendDefaultErrorTitle
 msgid "Message not sent"
@@ -836,7 +839,7 @@ msgstr "Opțiuni pentru mesaje"
 
 #: thread-options
 msgid "Thread options"
-msgstr ""
+msgstr "Opțiuni pentru conversații"
 
 #: forward
 msgid "Forward"
@@ -1137,53 +1140,53 @@ msgstr "Eroare"
 #. # Late arrival notices
 #: late-notice-label.ariaLabel
 msgid "Late arrival"
-msgstr ""
+msgstr "Primire cu întârziere"
 
 #: late-arrival-notice-in-months
 msgid "{[ plural(lateness) ]}"
-msgstr ""
+msgstr "{[ plural(lateness) ]}"
 
 #: late-arrival-notice-in-months[zero]
 msgctxt "late-arrival-notice-in-months[zero]"
 msgid "{{ lateness }}mth late"
-msgstr ""
+msgstr "{{ lateness }} luni întârziere"
 
 #: late-arrival-notice-in-months[one]
 msgctxt "late-arrival-notice-in-months[one]"
 msgid "{{ lateness }}mth late"
-msgstr ""
+msgstr "{{ lateness }} lună întârziere"
 
 #: late-arrival-notice-in-months[two]
 msgctxt "late-arrival-notice-in-months[two]"
 msgid "{{ lateness }}mths late"
-msgstr ""
+msgstr "{{ lateness }} luni întârziere"
 
 #: late-arrival-notice-in-months[few]
 msgctxt "late-arrival-notice-in-months[few]"
 msgid "{{ lateness }}mths late"
-msgstr ""
+msgstr "{{ lateness }} luni întârziere"
 
 #: late-arrival-notice-in-months[many]
 msgctxt "late-arrival-notice-in-months[many]"
 msgid "{{ lateness }}mths late"
-msgstr ""
+msgstr "{{ lateness }} luni întârziere"
 
 #: late-arrival-notice-in-months[other]
 msgctxt "late-arrival-notice-in-months[other]"
 msgid "{{ lateness }}mths late"
-msgstr ""
+msgstr "{{ lateness }} luni întârziere"
 
 #: late-arrival-notice-in-days
 msgid "{{ lateness }}d late"
-msgstr ""
+msgstr "{{ lateness }} zile întârziere"
 
 #: late-arrival-notice-in-hours
 msgid "{{ lateness }}h late"
-msgstr ""
+msgstr "{{ lateness }} ore întârziere"
 
 #: late-arrival-notice-in-minutes
 msgid "{{ lateness }}m late"
-msgstr ""
+msgstr "{{ lateness }} minute întârziere"
 
 #. # Modal dialog strings
 #: modal-dialog-ok-button

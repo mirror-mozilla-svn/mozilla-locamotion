@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,17 +12,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/music/music.properties.po\n"
-"X-Pootle-Revision: 1643426\n"
+"X-Pootle-Revision: 1930162\n"
 
 #: music
 msgid "Music"
 msgstr "Muzică"
 
 #: playlists2
-#, fuzzy
 msgctxt "playlists2"
 msgid "Playlists"
-msgstr "Liste de redare"
+msgstr "Playlisturi"
 
 #: artists
 msgctxt "artists"
@@ -40,7 +39,6 @@ msgid "Songs"
 msgstr "Melodii"
 
 #: unknown
-#, fuzzy
 msgid "?"
 msgstr "?"
 
@@ -90,7 +88,7 @@ msgstr "Te rugăm să aștepți cât timp Muzică își actualizează baza de da
 
 #: search
 msgid "Search"
-msgstr ""
+msgstr "Caută"
 
 #: search-music.placeholder
 msgid "Search Music"
@@ -142,10 +140,6 @@ msgstr "Cele mai redate"
 #: playlists-least-played
 msgid "Least played"
 msgstr "Cele mai puțin redate"
-
-#: picker-title
-msgid "Select a track"
-msgstr "Selectează o melodie"
 
 #: save
 msgid "Save"
@@ -237,13 +231,12 @@ msgstr "Amestecă"
 
 #: home-tab.ariaLabel
 msgid "Home"
-msgstr ""
+msgstr "Ecran principal"
 
 #: playlists-tab.ariaLabel
-#, fuzzy
 msgctxt "playlists-tab.ariaLabel"
 msgid "Playlists"
-msgstr "Liste de redare"
+msgstr "Playlisturi"
 
 #: artists-tab.ariaLabel
 msgctxt "artists-tab.ariaLabel"

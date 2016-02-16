@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/system/accessibility.properties.po\n"
-"X-Pootle-Revision: 1643441\n"
+"X-Pootle-Revision: 1930173\n"
 
 #. # Instructions to enable or disable the screen reader
 #. # The sequence to enable or disable is volume up + volume down, repeat the
@@ -1696,13 +1696,11 @@ msgid "Double tap to activate"
 msgstr "Dublă atingere pentru activare"
 
 #: accessibility-checkmenuitem-hint
-#, fuzzy
 msgctxt "accessibility-checkmenuitem-hint"
 msgid "Double tap to activate"
 msgstr "Dublă atingere pentru activare"
 
 #: accessibility-radiomenuitem-hint
-#, fuzzy
 msgctxt "accessibility-radiomenuitem-hint"
 msgid "Double tap to activate"
 msgstr "Dublă atingere pentru activare"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/communications/dialer/dialer.properties."
 "po\n"
-"X-Pootle-Revision: 1643400\n"
+"X-Pootle-Revision: 1930148\n"
 
 #: addNewNumber
 msgid "Add new number"
@@ -56,10 +56,6 @@ msgstr "Editează lista de apeluri"
 #: connecting
 msgid "Connecting"
 msgstr "Conectare"
-
-#: connectingEllipsis
-msgid "Connecting…"
-msgstr "Conectare…"
 
 #. ## LOCALIZATION NOTE call-forwarding-async, call-forwarding-data, call-forwarding-fax, call-forwarding-packet, call-forwarding-pad, call-forwarding-sms, call-forwarding-sync and call-forwarding-voice are the service the call forwarding is activate/inactive for.
 #. ## LOCALIZATION NOTE Its variables might be a phone number or call-forwarding-inactive.
@@ -108,10 +104,6 @@ msgstr "Sincronic: {{ sync }}"
 msgid "Voice: {{ voice }}"
 msgstr "Voce: {{ voice }}"
 
-#: close
-msgid "Close"
-msgstr "Închide"
-
 #: confirm-deletion
 msgid "Clear selected calls?"
 msgstr "Cureți apelurile selectate?"
@@ -127,10 +119,6 @@ msgstr "Creează contact nou"
 #: delete
 msgid "Delete"
 msgstr "Șterge"
-
-#: deselectAll
-msgid "Deselect all"
-msgstr "Deselectează tot"
 
 #: dialerAddContact.ariaLabel
 msgid "Add contact"
@@ -257,13 +245,13 @@ msgstr "Apel nou"
 msgid "No calls recorded"
 msgstr "Niciun apel înregistrat"
 
-#: no-logs-msg-2
-msgid "Start communicating now"
-msgstr "Începe comunicarea acum"
-
 #: no-logs-msg-3
 msgid "No missed calls"
 msgstr "Niciun apel pierdut"
+
+#: no-logs-msg-4
+msgid "Start a conversation now"
+msgstr ""
 
 #: onHoldOption.ariaLabel
 msgid "On hold"
@@ -280,10 +268,6 @@ msgstr "Apeluri recente"
 #: reply
 msgid "Reply"
 msgstr "Răspunde"
-
-#: selectAll
-msgid "Select all"
-msgstr "Selectează tot"
 
 #: send
 msgid "Send"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-15 19:17+0000\n"
+"POT-Creation-Date: 2016-02-16 10:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.13.0\n"
 "X-Pootle-Path: /ro/firefoxos/apps/fl/download.properties.po\n"
-"X-Pootle-Revision: 674742\n"
+"X-Pootle-Revision: 1879595\n"
 
 #: ok
 msgid "OK"
@@ -227,4 +227,4 @@ msgstr "GB"
 #. # Localization note (fileSize): {{size}} is a floating number with 2 decimal places
 #: fileSize
 msgid "{{size}} {{unit}}"
-msgstr ""
+msgstr "{{size}} {{unit}}"
